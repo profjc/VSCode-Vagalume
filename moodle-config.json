@@ -1,0 +1,56 @@
+{
+  "project": "Vaga Lume",
+  "version": 3,
+  "moodle": {
+    "version": "4.5",
+    "theme": "Trema",
+    "format": "Tiles",
+    "css_prefix": "vagalume-",
+    "css_injection": "SCSS Póst (campo scsspost no tema)",
+    "frontpage_background": "#5d7a3c"
+  },
+  "palette": {
+    "primary": "#D96F1A",
+    "secondary": "#5B3925",
+    "text": "#261810",
+    "accent_green": "#587C41",
+    "accent_gold": "#F8B133",
+    "accent_beige": "#FAEBDD",
+    "white": "#FFFFFF",
+    "hover_dark": "#944B11"
+  },
+  "typography": {
+    "font_family": "'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
+    "heading_weight": 700,
+    "heading_color": "#5B3925",
+    "body_weight": 400,
+    "body_color": "#261810",
+    "body_line_height": 1.5
+  },
+  "image_rules": {
+    "formats": ["PNG", "JPEG"],
+    "forbidden_formats": ["WebP"],
+    "required_attributes": ["width", "height", "loading=\"lazy\""],
+    "placeholder": "src=\"\""
+  },
+  "security_rules": {
+    "no_style_tags": true,
+    "no_link_tags": true,
+    "no_inline_onclick": true,
+    "use_add_event_listener": true
+  },
+  "directories": {
+    "templates": "templates/pages/",
+    "components": "templates/components/",
+    "content": "content/modulo-NN/",
+    "images_covers": "assets/images/capas/",
+    "images_illustrations": "assets/images/ilustracoes/",
+    "images_characters": "assets/images/personagens/"
+  },
+  "workflow": {
+    "briefing_source": "NotebookLM",
+    "html_generation": "Gemini Customizado (AI Studio) / Cline",
+    "deployment": "Colar no editor de texto do Moodle",
+    "validation": "Checklist antes de colar"
+  }
+}

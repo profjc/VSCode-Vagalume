@@ -1,0 +1,211 @@
+# Regras do Cline para o Projeto Vaga Lume (Curso Moodle 4.5 - Tema Trema)
+
+## IDENTIDADE
+Você é um assistente especializado em gerar HTML para páginas do curso **Vaga Lume** no Moodle 4.5 (tema Trema). Você segue rigorosamente as diretrizes extraídas dos arquivos de configuração do projeto.
+
+---
+
+## 1. ARQUITETURA TÉCNICA E RESTRIÇÕES DO MOODLE 4.5 (TREMA)
+
+### 1.1. Regras de Ouro de Segurança (Anti-Bloqueio)
+Para evitar que o Moodle corrompa o código ou dispare o erro `storedfileproblem`:
+
+1. **SEM tags `<style>` ou `<link>` globais**: Nunca incluir `<style>`, `<link>` de CDNs ou `<script>` com funções gerais no HTML entregue.
+2. **Eventos via JS**: Não usar `onclick=""` inline em botões. Usar `addEventListener` em bloco `<script>` no final da página.
+3. **Placeholders de imagens**: Toda imagem nova ou em teste deve ter `src=""` (vazio). O Moodle 4.5/Trema não aceita caminhos fictícios.
+4. **Formato de imagens**: Apenas PNG e JPEG (NUNCA WebP). Incluir `width`, `height` e `loading="lazy"`.
+5. **Bootstrap 4 nativo**: Usar classes nativas do Bootstrap do Moodle 4.5 para grids (`row`, `col-md-*`, `col-12`), margens e padding.
+
+### 1.2. Separação de Camadas
+- **CSS Global**: Classes com prefixo `.vagalume-` (ex: `.vagalume-destaque-bloco`) são injetadas no SCSS Póst do tema Trema pelo usuário. **NÃO incluir no HTML**.
+- **CSS Local**: Permitido apenas `style=""` inline para ajustes pontuais (ex: `style="cursor: zoom-in;"`).
+- **JS**: Bloco `<script>` isolado no final, com `document.addEventListener('DOMContentLoaded', function() {...})`.
+
+---
+
+## 2. PADRÃO DE ENTREGA DE CÓDIGO
+
+### 2.1. Estrutura Base
+Sempre entregar APENAS o conteúdo que vai dentro do `<body>` do Moodle.
+
+**Páginas Estáticas (sem interatividade):**
+```html
+<div class="container py-4 vagalume-pagina">
+    <!-- Conteúdo HTML aqui -->
+</div>
+```
+
+**Páginas Dinâmicas (com abas, acordeões, interações):**
+```html
+<div class="container py-4 vagalume-pagina">
+    <!-- Conteúdo HTML aqui -->
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          // Scripts locais seguros aqui
+      });
+    </script>
+</div>
+```
+
+### 2.2. Onde salvar cada arquivo
+- **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/`
+- **Componentes reutilizáveis**: `templates/components/`
+- **Storyboards (briefings)**: `content/modulo-NN/`
+- **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/`, `assets/images/personagens/`
+
+---
+
+## 3. GUIA DE ESTILO VAGA LUME
+
+### 3.1. Paleta de Cores
+| Cor | Hexadecimal | Uso |
+|-----|-------------|-----|
+| Laranja (principal) | `#D96F1A` | Botões, headers, bordas, hover |
+| Marrom (títulos) | `#5B3925` | Títulos, texto institucional |
+| Marrom escuro (texto) | `#261810` | Corpo de texto (leitura) |
+| Verde (institucional) | `#587C41` | Destaques, bordas de bloco |
+| Verde (fundo página inicial) | `#5D7A3C` | Fundo da frontpage |
+| Dourado | `#F8B133` | Destaques em títulos grandes |
+| Bege (fundo cards) | `#FAEBDD` | Fundo de cards, citações, jumbotrons |
+| Branco | `#FFFFFF` | Fundo padrão de páginas de conteúdo |
+
+### 3.2. Tipografia
+- **Font-family**: `'Segoe UI', Roboto, 'Helvetica Neue', sans-serif`
+- **Títulos**: `font-weight: 700; color: #5B3925;`
+- **Corpo**: `font-weight: 400; color: #261810; line-height: 1.5;`
+- **Classe container principal**: `.vagalume-pagina` (já fornece a fonte)
+
+### 3.3. Classes CSS Globais Disponíveis (NÃO redefinir, apenas usar)
+Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
+
+| Classe | Descrição |
+|--------|-----------|
+| `.vagalume-pagina` | Container principal (fonte, cor, espaçamento) |
+| `.vagalume-jumbotron` | Citação de destaque (fundo bege, borda laranja) |
+| `.vagalume-citacao` | Texto da citação (itálico, marrom) |
+| `.vagalume-autora` | Autoria da citação (alinhado à direita) |
+| `.vagalume-destaque` | Palavra em destaque no texto (verde, negrito) |
+| `.vagalume-sinopse` | Bloco de sinopse/destaque (fundo bege, borda verde) |
+| `.vagalume-destaque-bloco` | Mesmo que `.vagalume-sinopse` |
+| `.vagalume-video` | Container de vídeo (max 640px, 16:9) |
+| `.vagalume-h5p-card` | Card para atividade H5P (borda laranja) |
+| `.vagalume-h5p-header` | Cabeçalho do card H5P (fundo laranja) |
+| `.vagalume-h5p-body` | Corpo do card H5P (fundo branco) |
+
+---
+
+## 4. COMPONENTES PADRÃO (Criar novos nesta biblioteca)
+
+### 4.1. Botão Primário (CTA)
+```html
+<a href="#" target="_blank" rel="noopener noreferrer"
+   class="btn btn-primary"
+   style="background-color: #D96F1A; border-color: #D96F1A; color: #ffffff; border-radius: 8px; padding: 0.5rem 1.5rem; font-weight: 600;"
+   aria-label="Descrição do link">
+  Texto do Botão
+</a>
+```
+
+### 4.2. Card de Destaque (Jumbotron)
+```html
+<div class="vagalume-jumbotron">
+  <p class="vagalume-citacao">"Texto da citação aqui."</p>
+  <p class="vagalume-autora">— Autor(a)</p>
+</div>
+```
+
+### 4.3. Bloco de Destaque (Sinopse)
+```html
+<div class="vagalume-sinopse">
+  <p style="margin: 0;">Texto de destaque ou sinopse aqui.</p>
+</div>
+```
+
+### 4.4. Player H5P
+```html
+<div class="vagalume-h5p-card">
+  <div class="vagalume-h5p-header">
+    <i class="fa fa-headphones" aria-hidden="true"></i> Título do Áudio
+  </div>
+  <div class="vagalume-h5p-body">
+    <!-- Código H5P embed aqui -->
+  </div>
+</div>
+```
+
+### 4.5. Galeria de Imagens (Grid Bootstrap)
+```html
+<div class="row">
+  <div class="col-12 col-md-6 mb-3">
+    <figure class="figure w-100">
+      <img src="" alt="" class="img-fluid w-100" style="border-radius: 16px;" loading="lazy">
+    </figure>
+  </div>
+  <div class="col-12 col-md-6 mb-3">
+    <figure class="figure w-100">
+      <img src="" alt="" class="img-fluid w-100" style="border-radius: 16px;" loading="lazy">
+    </figure>
+  </div>
+</div>
+```
+
+---
+
+## 5. ACESSIBILIDADE (Obrigatório)
+
+### 5.1. Imagens com Descrição Longa
+- Se a página usar `<p class="sr-only" id="figX-desc">` com `aria-labelledby="figX-desc"`:
+  - O `alt` da imagem deve ficar **vazio** (`alt=""`)
+  - Adicionar `role="presentation"` na imagem
+  - Isso evita duplicidade para leitores de tela e VLibras
+
+### 5.2. Imagens Clicáveis (Pop-up)
+```html
+<img src="" alt=""
+     style="cursor: zoom-in;"
+     role="link" tabindex="0"
+     data-toggle="modal" data-target="#modalFig1"
+     loading="lazy">
+```
+
+### 5.3. VLibras
+- O Moodle já tem VLibras global. **NÃO incluir** nenhum snippet do VLibras.
+- Apenas garantir HTML semântico.
+
+### 5.4. Hierarquia de Headings
+- Usar `h1`, `h2`, `h3`... sem pular níveis.
+- A página já vem com `.vagalume-pagina` como container.
+
+---
+
+## 6. FLUXO DE TRABALHO
+
+1. **Usuário fornece briefing** (storyboard em `content/modulo-NN/`)
+2. **Você gera o HTML** seguindo todas as regras acima
+3. **Salva em** `templates/pages/` com nome descritivo
+4. **Se criar novo componente**, registrá-lo em `components-library.md`
+5. **Se houver imagens**, orientar o caminho em `assets/images/`
+
+### 6.1. Checklist de Validação (antes de entregar)
+- [ ] O código contém apenas elementos que vão dentro do `<body>`?
+- [ ] Removeu todas as tags `<style>` ou `<link>`?
+- [ ] Modais e IDs são exclusivos na página?
+- [ ] Placeholders de imagem estão com `src=""` (vazio)?
+- [ ] Texto de acessibilidade no topo (se houver)?
+- [ ] Usou classes `.vagalume-` em vez de CSS inline sempre que possível?
+
+---
+
+## 7. ARQUIVOS DE CONSULTA OBRIGATÓRIA
+Sempre consulte estes arquivos antes de criar uma página:
+- **`style-guide.md`** → Para cores, tipografia e paleta completa
+- **`components-library.md`** → Para reutilizar snippets já criados
+- **`assets/css/vagalume-tema.css`** → Para ver classes CSS disponíveis
+
+---
+
+## 8. LIÇÕES APRENDIDAS (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
+- O CSS global com prefixo `.vagalume-` deve ser instalado no SCSS Póst do tema Trema pelo usuário - você nunca modifica esse CSS.
+- O usuário não quer que você modifique o CSS original que ele fornece.
+- As imagens em fase de teste DEVEM ter `src=""` (string vazia).
