@@ -1,0 +1,1198 @@
+/\* \==========================================================================
+
+   CONFIGURAÇÃO FINAL CORRIGIDA \- PÁGINA INICIAL VAGA LUME
+
+   \========================================================================== \*/
+
+/\* 1\. ESTRATÉGIA DE CAMUFLAGEM: PINTA OS CONTAINERS DE VERDE \*/
+
+html body.pagelayout-frontpage,
+
+html body.pagelayout-frontpage \#page,
+
+html body.pagelayout-frontpage \#page-content,
+
+html body.pagelayout-frontpage \#region-main,
+
+html body.pagelayout-frontpage \#region-main-box {
+
+    background-color: \#5d7a3c \!important; /\* Verde Vaga Lume \*/
+
+    border: none \!important;
+
+    box-shadow: none \!important;
+
+    margin-bottom: 0 \!important;
+
+    padding-bottom: 0 \!important;
+
+}
+
+/\* 2\. BANNER: LARGURA TOTAL E PROPORÇÃO (1038x627) \*/
+
+html body.pagelayout-frontpage \#frontpage-banner {
+
+    width: 100% \!important;
+
+    max-width: 100% \!important;
+
+    height: auto \!important;
+
+    min-height: unset \!important;
+
+    aspect-ratio: 1038 / 627 \!important;
+
+    background-size: cover \!important;
+
+    background-position: center \!important;
+
+    background-repeat: no-repeat \!important;
+
+    margin-bottom: 0 \!important;
+
+}
+
+/\* 3\. LIMPEZA DE ELEMENTOS (REMOVE BARRAS COLORIDAS E DECORAÇÕES) \*/
+
+html body.pagelayout-frontpage .secondary-navigation,
+
+html body.pagelayout-frontpage \#topofcontent,
+
+html body.pagelayout-frontpage \#page-content::before,
+
+html body.pagelayout-frontpage \#page-content::after,
+
+html body.pagelayout-frontpage \#page::after,
+
+html body.pagelayout-frontpage \#page-footer::before {
+
+    display: none \!important;
+
+    content: none \!important;
+
+}
+
+html body.pagelayout-frontpage \#page-content.container,
+
+html body.pagelayout-frontpage \#page-content.pb-3 {
+
+    margin-top: 0 \!important;
+
+    padding-top: 0 \!important;
+
+    padding-bottom: 0 \!important;
+
+    max-width: 100% \!important;
+
+    width: 100% \!important;
+
+    background-image: none \!important;
+
+}
+
+/\* 4\. ESTILO DO BLOCO DE TEXTO (QUADRO VERDE) \*/
+
+html body.pagelayout-frontpage .banner-text-block {
+
+    background-color: transparent \!important;
+
+    color: \#ffffff \!important;
+
+    padding: 60px 0 \!important;
+
+    width: 100% \!important;
+
+    margin: 0 \!important;
+
+}
+
+html body.pagelayout-frontpage .container-inner {
+
+    max-width: 1140px \!important;
+
+    margin: 0 auto \!important;
+
+    padding: 0 20px \!important;
+
+}
+
+/\* 5\. TIPOGRAFIA \*/
+
+html body.pagelayout-frontpage .title-top { font-size: 2.5rem \!important; font-weight: 800 \!important; color: \#ffffff \!important; margin-bottom: 0 \!important; }
+
+html body.pagelayout-frontpage .title-main { font-size: 4rem \!important; font-weight: 900 \!important; color: \#f8b133 \!important; margin-top: \-10px \!important; margin-bottom: 30px \!important; text-transform: uppercase \!important; }
+
+html body.pagelayout-frontpage .content-body p { font-size: 1.15rem \!important; line-height: 1.6 \!important; margin-bottom: 1.5rem \!important; }
+
+html body.pagelayout-frontpage .content-body p:last-child { margin-bottom: 0 \!important; }
+
+/\* 6\. RODAPÉ: LARANJA E UNIÃO COM O VERDE \*/
+
+html body.pagelayout-frontpage \#page-footer {
+
+    background-color: \#d96f1a \!important; /\* Laranja Vaga Lume \*/
+
+    padding-top: 0 \!important;
+
+    margin-top: 0 \!important;
+
+    border-top: none \!important;
+
+}
+
+/\* 7\. OCULTA BLOCOS ADMINISTRATIVOS (MANTENDO O CONTEÚDO PRINCIPAL) \*/
+
+html body.pagelayout-frontpage \#side-admin-blocks {
+
+    display: none \!important;
+
+}
+
+/\* Garante que o container do conteúdo principal apareça \*/
+
+html body.pagelayout-frontpage \#defaultfrontpagebody {
+
+    display: block \!important;
+
+    margin: 0 \!important;
+
+    padding: 0 \!important;
+
+}
+
+/\* \==========================================================================
+
+   ARREDONDAMENTO DOS CARDS DO FORMATO TILES (DIRETRIZ VAGA LUME)
+
+   Preserva a barra superior colorida e arredonda os cantos.
+
+   \========================================================================== \*/
+
+/\* Contêiner principal do card (Tile) \*/
+
+ul.tiles li.tile,
+
+li.section.main.tiles-main {
+
+    border-radius: 15px \!important;
+
+}
+
+/\* Ajusta o fundo interno para acompanhar o arredondamento inferior \*/
+
+li.section.main.tiles-main .tile-bg {
+
+    border-radius: 0 0 15px 15px \!important;
+
+}
+
+/\* Ajusta o link e o conteúdo interno \*/
+
+li.section.main.tiles-main a.tile-link,
+
+li.section.main.tiles-main a.sectionlink,
+
+li.section.main.tiles-main .tilecontent {
+
+    border-radius: 15px \!important;
+
+}
+
+/\* \==========================================================================
+
+   ANIMAÇÃO SUAVE DE ENTRADA (JUMBOTRON VAGA LUME)
+
+   \========================================================================== \*/
+
+@keyframes vagalumeFadeInUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(20px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/\* Aplica a animação respeitando a preferência de acessibilidade do usuário \*/
+
+.vagalume-jumbotron {
+
+    animation: vagalumeFadeInUp 0.5s ease forwards;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .vagalume-jumbotron {
+
+        animation: none \!important;
+
+    }
+
+}
+
+/\* \==========================================================================
+
+   FORÇAMENTO DE CORES DOS TÍTULOS (DIRETRIZ VAGA LUME)
+
+   Sobrescreve o cinza padrão do Moodle/Trema e garante o marrom escuro.
+
+   \========================================================================== \*/
+
+.vagalume-pagina h1, 
+
+.vagalume-pagina h2, 
+
+.vagalume-pagina h3, 
+
+.vagalume-pagina h4, 
+
+.vagalume-pagina h5 {
+
+    color: \#5B3925 \!important;
+
+    font-weight: 700 \!important;
+
+    line-height: 1.3 \!important;
+
+}
+
+/\* 
+
+\======================================================================
+
+FIX: PADRONIZAÇÃO DO BOTÃO DE LOGIN COM O "SAIBA MAIS"
+
+\====================================================================== \*/
+
+/\* Alvo extremamente específico para superar o tema Trema \*/
+
+\#page-wrapper nav.navbar span.login.pl-2.ps-2 a,
+
+body \#page-header span.login.pl-2.ps-2 a {
+
+    background-color: \#D96F1A \!important;
+
+    color: \#ffffff \!important; /\* Texto Branco \*/
+
+    font-weight: 400 \!important; /\* Peso igual ao Saiba Mais \*/
+
+    padding: 8px 16px \!important; /\* Espaçamento igual \*/
+
+    border-radius: 8px \!important;
+
+    border: 1px solid \#D96F1A \!important;
+
+    display: inline-block \!important;
+
+    text-decoration: none \!important;
+
+    transition: all 0.2s ease-in-out \!important;
+
+}
+
+/\* Efeito Hover Padronizado \*/
+
+\#page-wrapper nav.navbar span.login.pl-2.ps-2 a:hover,
+
+body \#page-header span.login.pl-2.ps-2 a:hover {
+
+    background-color: \#bc5e14 \!important;
+
+    border-color: \#bc5e14 \!important;
+
+    color: \#ffffff \!important;
+
+    transform: none \!important;
+
+    box-shadow: none \!important;
+
+}
+
+/\* \==========================================================================
+
+   DESATIVAÇÃO DO RODAPÉ EM PÁGINAS INTERNAS
+
+   Desabilita o rodapé quando o usuário já está logado.
+
+   \========================================================================== \*/
+
+/\* Oculta o rodapé do tema Trema em todas as páginas por padrão \*/
+
+\#page-footer, .trema-footer, footer {
+
+    display: none \!important;
+
+}
+
+/\* Mostra o rodapé SEMPRE na página inicial (para logados e não logados) \*/
+
+body.path-site \#page-footer,
+
+body.path-site .trema-footer,
+
+body.path-site footer {
+
+    display: block \!important;
+
+}
+
+/\* \==========================================================================
+
+   DESATIVAÇÃO DO LINK DA LOGO (NAVBAR-BRAND)
+
+   Desabilita a interatividade do link para evitar redirecionamentos indesejados
+
+   \========================================================================== \*/
+
+a.navbar-brand.aabtn {
+
+    pointer-events: none \!important; /\* Bloqueia qualquer clique ou interação com o link \*/
+
+    cursor: default \!important;     /\* Remove o ícone de 'mãozinha' do mouse ao passar sobre a logo \*/
+
+    user-select: none;              /\* Evita que a imagem seja selecionada por engano \*/
+
+}
+
+/\* Garante que a imagem dentro do link continue visível, mas sem comportamento de link \*/
+
+a.navbar-brand.aabtn img.logo {
+
+    opacity: 1;                     /\* Mantém a opacidade total da logo \*/
+
+    filter: none;                   /\* Remove qualquer efeito de hover que o tema possa aplicar \*/
+
+}
+
+/\* \==========================================================================
+
+   HACK DE INTERFACE \- TEMA TREMA (MOODLE 4.5)
+
+   Garante o funcionamento dos menus nativos sem quebrar o visual dos cards
+
+   \========================================================================== \*/
+
+/\* 1\. Garante que o menu de opções não seja cortado pelos limites do card \*/
+
+.card.course-card {
+
+    overflow: visible \!important;
+
+    contain: none \!important;
+
+}
+
+/\* 2\. Restaura o arredondamento visual dos cantos superiores (imagem/topo) \*/
+
+.card.course-card .card-img-top {
+
+    border-top-left-radius: 12px \!important;
+
+    border-top-right-radius: 12px \!important;
+
+    overflow: hidden;
+
+}
+
+/\* 3\. Opcional: Se houver algo no rodapé do card que precise de arredondamento \*/
+
+.card.course-card .card-footer {
+
+    border-bottom-left-radius: 12px \!important;
+
+    border-bottom-right-radius: 12px \!important;
+
+}
+
+/\* \==========================================================================
+
+   CURSO VAGALUME \- MÓDULO I
+
+   Alinhado ao Manual da Marca Vaga Lume
+
+   Prefixo: .vagalume-
+
+   Uso exclusivo neste curso, não interfere em outros
+
+   \========================================================================== \*/
+
+/\* A fonte Archivo será carregada separadamente, se necessário. Por ora, usamos fallback seguro \*/
+
+.vagalume-pagina {
+
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    color: \#261810; /\* Marrom quase preto para leitura confortável e alto contraste no fundo branco \*/
+
+}
+
+/\* Jumbotron personalizado para citação de destaque \*/
+
+.vagalume-jumbotron {
+
+    background: \#FAEBDD; /\* Bege oficial da marca \*/
+
+    border-left: 6px solid \#D96F1A; /\* Laranja oficial da marca \*/
+
+    padding: 2rem 1.5rem;
+
+    margin-bottom: 2rem;
+
+    border-radius: 16px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+}
+
+.vagalume-citacao {
+
+    font-size: 1.4rem;
+
+    font-style: italic;
+
+    color: \#5B3925 \!important; /\* Marrom institucional rico: contraste excelente sobre o fundo bege \*/
+
+    margin-bottom: 0;
+
+    font-weight: 500;
+
+    line-height: 1.4;
+
+}
+
+.vagalume-autora {
+
+    margin-top: 1rem;
+
+    font-size: 0.9rem;
+
+    color: \#5B3925;
+
+    text-align: right;
+
+    font-weight: 500;
+
+}
+
+.vagalume-destaque {
+
+    font-weight: 600; /\* Peso extra para garantir destaque e acessibilidade no fundo branco \*/
+
+    color: \#587C41; /\* Verde oficial da marca: agora destaca perfeitamente contra o texto \#261810 \*/
+
+}
+
+.vagalume-sinopse,
+
+.vagalume-destaque-bloco {
+
+    background-color: \#FAEBDD; /\* Fundo Bege oficial da marca \*/
+
+    border-left: 4px solid \#587C41; /\* Borda Verde oficial da marca \*/
+
+    padding: 1.5rem;
+
+    border-radius: 0.75rem;
+
+    text-align: left; /\* Alinhamento estrito à esquerda conforme diretrizes visuais \*/
+
+    font-size: 1.05rem;
+
+    line-height: 1.6;
+
+    color: \#5B3925 \!important; /\* Marrom institucional rico para perfeita harmonia e leitura sobre o bege \*/
+
+    margin-bottom: 1.5rem;
+
+}
+
+.vagalume-video {
+
+    max-width: 640px;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+@media (max-width: 768px) {
+
+    .vagalume-citacao {
+
+        font-size: 1.1rem;
+
+    }
+
+    .vagalume-jumbotron {
+
+        padding: 1.5rem 1rem;
+
+    }
+
+    .vagalume-sinopse,
+
+    .vagalume-destaque-bloco {
+
+        font-size: 0.95rem;
+
+        padding: 1rem;
+
+    }
+
+}
+
+/\* Estilos para o card do H5P (formatação com borda) \*/
+
+.vagalume-h5p-card {
+
+    background-color: \#FAEBDD;
+
+    border: 1px solid \#D96F1A;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    margin-bottom: 1.5rem;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+}
+
+.vagalume-h5p-header {
+
+    background-color: \#D96F1A;
+
+    color: \#FFFFFF;
+
+    padding: 1rem 1.5rem;
+
+    font-weight: 700;
+
+    font-size: 1.1rem;
+
+    border-bottom: 1px solid \#c05e10;
+
+}
+
+.vagalume-h5p-body {
+
+    padding: 1.5rem;
+
+    background-color: \#FFFFFF;
+
+}
+
+/\* \==========================================================================
+
+   MELHORIAS VISUAIS EXCLUSIVAS PARA A GALERIA DE IMAGENS
+
+   Fundo transparente, sem bordas, sem sombras, apenas imagens com cantos arredondados
+
+   \========================================================================== \*/
+
+.vagalume-pagina .row .figure {
+
+    background-color: transparent;
+
+    border-radius: 16px;
+
+    padding: 0 \!important; /\* Padding zerado para perfeito alinhamento ao grid modular da página \*/
+
+    border: none;
+
+}
+
+.vagalume-pagina .row .figure .img-fluid {
+
+    border-radius: 16px;
+
+    border: none;
+
+    background-color: transparent;
+
+}
+
+/\* \==========================================================================
+
+   MELHORIAS VISUAIS EXCLUSIVAS PARA O MENU LATERAL DE NAVEGAÇÃO NO CURSO
+
+   Bordas com cantos arredondados
+
+   \========================================================================== \*/
+
+/\* No campo scsspost (SCSS Puro Pós) \*/
+
+.courseindex-section-title, 
+
+.courseindex-item {
+
+    border-radius: 8px \!important;
+
+    overflow: hidden; // Garante que o fundo não "vaze" para fora da borda arredondada
+
+}
+
+/\* Se o destaque for aplicado apenas quando o item está ativo ou focado \*/
+
+.courseindex-item.active,
+
+.courseindex-item:hover {
+
+    border-radius: 8px \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* CUSTOMIZAÇÃO DE BOTÕES DO TEMA
+
+ \* Aplica-se a: Lições, Administração e Botões Gerais do Sistema.
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* 1\. ESTILO PADRÃO (Botões Primários e Secundários) \*/
+
+/\* Inclui seletores específicos da Lição para garantir total compatibilidade \*/
+
+button.btn-primary, 
+
+button.btn-secondary,
+
+.btn-primary, 
+
+.btn-secondary,
+
+.path-mod-lesson .singlebutton form button.btn,
+
+button\[id^="single\_button"\] {
+
+    background-color: \#D96F1A \!important; /\* Laranja principal \*/
+
+    background-image: none \!important;    /\* Remove gradientes \*/
+
+    color: \#ffffff \!important;           /\* Texto sempre branco \*/
+
+    border: 1px solid \#D96F1A \!important;
+
+    border-radius: 8px \!important;       
+
+    box-shadow: none \!important;
+
+    transition: all 0.2s ease-in-out \!important;
+
+}
+
+/\* 2\. EFEITO HOVER (Ao passar o mouse) \*/
+
+button.btn-primary:hover, 
+
+button.btn-secondary:hover,
+
+.btn-primary:hover, 
+
+.btn-secondary:hover,
+
+.path-mod-lesson .singlebutton form button.btn:hover,
+
+button\[id^="single\_button"\]:hover {
+
+    background-color: \#944B11 \!important; /\* Laranja escuro \*/
+
+    border-color: \#944B11 \!important;
+
+    color: \#ffffff \!important;
+
+    text-decoration: none \!important;     /\* Garante que não apareça sublinhado \*/
+
+}
+
+/\* 3\. AJUSTE PARA BOTÕES DENTRO DE TABELAS OU LISTAS (Opcional) \*/
+
+/\* Garante que o texto não "cole" nas bordas se houver pouco espaço \*/
+
+.btn-primary, .btn-secondary {
+
+    padding: 0.5rem 1rem \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* BREADCRUMB \- ETIQUETAS COM INDICADORES EXTERNOS (VERSÃO FINAL)
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* Container principal transparente \*/
+
+.breadcrumb {
+
+    background-color: transparent \!important;
+
+    border: none \!important;
+
+    display: flex \!important;
+
+    flex-wrap: wrap \!important;
+
+    align-items: center \!important;
+
+    padding: 0 \!important;
+
+    gap: 0 \!important;
+
+}
+
+/\* Item da lista sem fundo \*/
+
+.breadcrumb-item {
+
+    background-color: transparent \!important;
+
+    border: none \!important;
+
+    padding: 0 \!important;
+
+    display: flex \!important;
+
+    align-items: center \!important;
+
+}
+
+/\* Indicador (Seta) transparente entre as tags \*/
+
+.breadcrumb-item \+ .breadcrumb-item::before {
+
+    content: "›" \!important;
+
+    color: \#D96F1A \!important;
+
+    font-size: 1.6rem \!important;
+
+    font-weight: bold \!important;
+
+    padding: 0 12px \!important;
+
+    background: transparent \!important;
+
+}
+
+/\* Fundo BEGE institucional aplicado às etiquetas \*/
+
+.breadcrumb-item a,
+
+.breadcrumb-item span {
+
+    background-color: \#FAEBDD \!important;
+
+    color: \#D96F1A \!important;
+
+    padding: 6px 16px \!important;
+
+    border-radius: 50px \!important;
+
+    border: 1px solid rgba(217, 111, 26, 0.2) \!important;
+
+    text-decoration: none \!important;
+
+    display: inline-block \!important;
+
+}
+
+/\* Hover na etiqueta \*/
+
+.breadcrumb-item a:hover {
+
+    background-color: \#f7d8bc \!important;
+
+    color: \#944B11 \!important;
+
+}
+
+/\* Estilo do item atual \*/
+
+.breadcrumb-item.active span,
+
+.breadcrumb-item span:not(a) {
+
+    color: \#5B3925 \!important;
+
+    font-weight: 700 \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* CABEÇALHO (NAVBAR) \- SOLUÇÃO DEFINITIVA (VAGA LUME)
+
+ \* Este seletor vence a especificidade do tema Boost/Trema.
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* 1\. FUNDO E LINHA DE DESTAQUE: Força o bege institucional e a borda laranja \*/
+
+html body \#page-wrapper nav.navbar.navbar-light.bg-white {
+
+    background-color: \#FAEBDD \!important;
+
+    background-image: none \!important;
+
+    border-bottom: 3px solid \#D96F1A \!important;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05) \!important;
+
+}
+
+/\* 2\. MARCA: Ajuste de separação da logo VagaLume \*/
+
+.navbar-brand {
+
+    border-right: 2px solid rgba(217, 111, 26, 0.2);
+
+    padding-right: 25px \!important;
+
+    margin-right: 25px \!important;
+
+    color: \#5B3925 \!important;
+
+    font-weight: 700 \!important;
+
+}
+
+/\* 3\. ITENS DO MENU: Separação e estilo de botão sutil \*/
+
+\#page-wrapper .navbar .nav-item {
+
+    margin: 0 15px \!important; /\* Espaçamento entre os menus \*/
+
+}
+
+\#page-wrapper .navbar .nav-link {
+
+    color: \#5B3925 \!important; /\* Marrom institucional \*/
+
+    padding: 10px 20px \!important; /\* Mais corpo ao item \*/
+
+    border-radius: 12px \!important;
+
+    font-weight: 600 \!important;
+
+    transition: all 0.2s ease-in-out \!important;
+
+}
+
+/\* 4\. HOVER: Efeito ao passar o mouse \*/
+
+\#page-wrapper .navbar .nav-link:hover {
+
+    background-color: rgba(217, 111, 26, 0.12) \!important;
+
+    color: \#D96F1A \!important; /\* Laranja no hover \*/
+
+    text-decoration: none \!important;
+
+}
+
+/\* 5\. ÍCONES: Garante a cor dos ícones de notificação e mensagens \*/
+
+\#page-wrapper .navbar .nav-link i,
+
+\#page-wrapper .navbar .popover-region-toggle i {
+
+    color: \#5B3925 \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* LOGO VAGA LUME: ÍCONE \+ TEXTO (VERSÃO FINAL)
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* 1\. Configuração do link do logo \*/
+
+.navbar-brand {
+
+    display: flex \!important;
+
+    flex-direction: row \!important; /\* Força a posição horizontal \*/
+
+    align-items: center \!important;
+
+    text-decoration: none \!important;
+
+    border-right: 2px solid rgba(217, 111, 26, 0.2);
+
+    padding-right: 20px \!important;
+
+    margin-right: 20px \!important;
+
+    white-space: nowrap \!important; /\* Impede que o texto quebre em duas linhas \*/
+
+}
+
+/\* 2\. Injeção do texto "Vaga Lume" \*/
+
+.navbar-brand::after {
+
+    content: "Vaga Lume" \!important;
+
+    margin-left: 12px \!important;
+
+    font-size: 1.5rem \!important; /\* Tamanho equilibrado para não quebrar o layout \*/
+
+    font-weight: 700 \!important;
+
+    color: \#5B3925 \!important; /\* Marrom institucional \*/
+
+    letter-spacing: \-0.5px \!important;
+
+    line-height: 1 \!important;
+
+}
+
+/\* 3\. Ajuste da imagem do ícone \*/
+
+.navbar-brand img.logo {
+
+    max-height: 38px \!important; /\* Tamanho ideal para a barra de 64px \*/
+
+    width: auto \!important;
+
+    display: block \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* MENU DO USUÁRIO (USER BUTTON) \- BRANDING VAGA LUME
+
+ \* Integra o botão ao cabeçalho bege e estiliza o avatar.
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* 1\. Integração com o cabeçalho: remove fundos discrepantes \*/
+
+\#user-menu-toggle {
+
+    background-color: transparent \!important;
+
+    border: none \!important;
+
+    box-shadow: none \!important;
+
+    padding: 0 10px \!important;
+
+    display: flex \!important;
+
+    align-items: center \!important;
+
+    transition: all 0.2s ease-in-out \!important;
+
+}
+
+/\* 2\. Efeito Hover no botão inteiro \*/
+
+\#user-menu-toggle:hover {
+
+    background-color: rgba(217, 111, 26, 0.1) \!important; /\* Bege escuro sutil \*/
+
+    border-radius: 8px \!important;
+
+}
+
+/\* 3\. Estilo do Círculo de Iniciais (Original Redondo) \*/
+
+.userinitials {
+
+    background-color: \#D96F1A \!important; /\* Laranja oficial da marca \*/
+
+    color: \#ffffff \!important;           /\* Texto branco \*/
+
+    border: none \!important;
+
+    font-weight: 700 \!important;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) \!important;
+
+}
+
+/\* 4\. Estilo se houver Foto de Perfil (Original Redondo) \*/
+
+.userbutton .avatar img {
+
+    border: 2px solid \#D96F1A \!important;
+
+    padding: 1px \!important;
+
+    background-color: \#ffffff \!important;
+
+}
+
+/\* 5\. Cor do nome do usuário (se estiver visível) \*/
+
+.userbutton .usertext {
+
+    color: \#5B3925 \!important;
+
+    font-weight: 600 \!important;
+
+    margin-right: 8px \!important;
+
+}
+
+/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+ \* CARDS DE CURSOS \- BRANDING VAGA LUME
+
+ \* Adiciona borda temática e efeito de profundidade interativo aos cards.
+
+ \* Cores: Laranja Oficial (\#D96F1A) e Marrom Institucional (\#5B3925)
+
+ \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
+
+/\* 1\. Estrutura Base do Card \*/
+
+.card.course-card {
+
+    border: 1px solid \#D96F1A \!important;
+
+    box-shadow: 0 4px 12px rgba(217, 111, 26, 0.15) \!important;
+
+    border-radius: 12px \!important;
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out \!important;
+
+    overflow: visible \!important; /\* Essencial para menus nativos do Trema \*/
+
+    contain: none \!important;
+
+    background-color: \#ffffff \!important;
+
+}
+
+/\* 2\. Efeito Hover (Interatividade) \*/
+
+.card.course-card:hover {
+
+    transform: translateY(-8px) \!important; /\* Elevação elegante \*/
+
+    box-shadow: 0 12px 24px rgba(217, 111, 26, 0.25) \!important;
+
+    border-color: \#D96F1A \!important;
+
+    cursor: pointer;
+
+}
+
+/\* 3\. Estilo do Título (Laranja \-\> Marrom no Hover) \*/
+
+.card.course-card .coursename {
+
+    text-decoration: none \!important;
+
+    color: \#D96F1A \!important; /\* Laranja Oficial padrão \*/
+
+    font-weight: 600 \!important;
+
+    font-size: 1.05rem \!important;
+
+    transition: color 0.3s ease \!important;
+
+}
+
+.card.course-card:hover .coursename {
+
+    color: \#5B3925 \!important; /\* Marrom Institucional no Hover \*/
+
+}
+
+/\* 4\. Ajustes de Conteúdo e Metadados \*/
+
+.card.course-card .card-body {
+
+    padding: 1.25rem \!important; /\* Mais respiro lateral e vertical \*/
+
+}
+
+.card.course-card .categoryname, 
+
+.card.course-card .progress-text {
+
+    font-size: 0.85rem \!important;
+
+    color: \#868e96 \!important;
+
+    font-weight: 500 \!important;
+
+}
+
+/\* \==========================================================================
+
+   CURSO VAGALUME \- HOVER MONOCROMÁTICO (MÍNIMO E ESSENCIAL)
+
+   \========================================================================== \*/
+
+/\* Links e ícones acendem em branco puro no hover, sem sublinhados \*/
+
+.vagalume-footer-links li:hover a,
+
+.vagalume-footer-links li:hover i.fa,
+
+.vagalume-footer-agir a:hover {
+
+    color: \#FFFFFF \!important;
+
+    text-decoration: none \!important;
+
+}
+
+/\* \==========================================================================
+
+   PERSONALIZAÇÃO DA BARRA DE PROGRESSO
+
+   Altera a cor padrão das barras de progresso para a cor primária laranja.
+
+   \========================================================================== \*/
+
+/\* Define o fundo laranja para todos os elementos de barra de progresso \*/
+
+.progress-bar, 
+
+.progress .progress-bar,
+
+div\[role="progressbar"\] {
+
+    background-color: \#D96F1A \!important;
+
+}
+
+/\* Garante que a borda ou efeitos de foco não utilizem a cor antiga \*/
+
+.progress-bar {
+
+    border-color: \#D96F1A \!important;
+
+}
+
