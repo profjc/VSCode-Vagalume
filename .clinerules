@@ -68,9 +68,11 @@ Sempre entregar APENAS o conteúdo que vai dentro do `<body>` do Moodle.
 Toda página que contiver imagens flutuantes (`float-md-right` ou `float-md-left`) deve, obrigatoriamente, receber a propriedade `style="display: flow-root;"` na div principal `<div class="container py-4 vagalume-pagina">`. Isso evita o vazamento de elementos e garante o controle de blocos.
 
 ### 3.3. Onde salvar cada arquivo
-- **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/`
+- **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/`)
+- **Modelo base (snippet de partida)**: `templates/pages/base/base.html`
 - **Componentes reutilizáveis**: `templates/components/`
-- **Storyboards (briefings)**: `content/modulo-NN/`
+- **Storyboards (briefings)**: `content/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/Apresentacao/`, `M1/ParteI/`, `M1/ParteII/`)
+- **Pasta temporária**: `temp/` (arquivos do usuário para processamento). **Importante**: "limpar" = apagar conteúdo mantendo a pasta; "excluir" = deletar a pasta.
 - **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/`, `assets/images/personagens/`
 
 ---
@@ -101,7 +103,7 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 | Classe | Descrição |
 |--------|-----------|
 | `.vagalume-pagina` | Container principal (fonte, cor, espaçamento) |
-| `.vagalume-jumbotron` | Citação de destaque (fundo bege, borda laranja) |
+| `.vagalume-jumbotron` | Bloco de destaque versátil (fundo bege, borda laranja) — usado para boas-vindas, chamadas introdutórias, citações ou qualquer conteúdo que precise de destaque visual. Aceita conteúdo livre (parágrafos, listas, etc.) |
 | `.vagalume-citacao` | Texto da citação (itálico, marrom) |
 | `.vagalume-autora` | Autoria da citação (alinhado à direita) |
 | `.vagalume-destaque` | Palavra em destaque no texto (verde, negrito) |
@@ -158,6 +160,21 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 ```
 > **Importante:** Não utilize iframes manuais ou classes de proporção (embed-responsive) para H5P. Utilize exclusivamente a tag de placeholder nativa `.h5p-placeholder` para que o Moodle aplique o redimensionamento dinâmico.
 
+### 5.4b. H5P Sem Cabeçalho (Padrão para Páginas Finais de Lição)
+> **Contexto:** Em páginas finais de lição (atividades de quiz/resumo), o card H5P **não** recebe `.vagalume-h5p-header`. Apenas `.vagalume-h5p-body` vai direto dentro de `.vagalume-h5p-card`.
+
+```html
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="vagalume-h5p-card">
+      <div class="vagalume-h5p-body">
+        <div class="h5p-placeholder" contenteditable="false">[LINK_DO_ARQUIVO_.H5P]</div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
 ### 5.5. Galeria de Imagens (Grid Bootstrap)
 ```html
 <div class="row">
@@ -192,32 +209,82 @@ Quando um bloco colorido (sinopse, jumbotron) estiver no fluxo ao lado de uma im
 </div>
 ```
 
-### 5.8. Vídeo Centralizado no Corpo do Texto
+### 5.9. Bloco de Orientação com Ícone (Template B)
+Bloco de destaque com ícone e título lado a lado, seguido de texto descritivo. Usado para listas de dicas, orientações passo a passo ou técnicas de estudo.
+
 ```html
-<div class="row justify-content-center">
-  <div class="col-lg-8">
+<div class="vagalume-destaque-bloco">
+  <div class="d-flex align-items-center mb-2">
+    <i class="fa fa-ICONE mr-3" aria-hidden="true" style="font-size: 2rem;"></i>
+    <p class="font-weight-bold mb-0" style="line-height: 1.2;">Título do Bloco</p>
+  </div>
+  <p class="mb-0">Texto descritivo do bloco.</p>
+</div>
+```
+> **Contexto de uso:** Ideal para páginas de orientações, dicas para cursistas, técnicas de estudo, ou qualquer sequência de itens que precisem de destaque visual individual com ícone temático. O ícone deve usar classes do Font Awesome (ex: `fa fa-heartbeat`, `fa fa-clock-o`, `fa fa-graduation-cap`).
 
-    <div class="d-flex justify-content-center mb-2">
-      <iframe class="vagalume-video" title="Título do Vídeo" src="URL_EMBED"
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="allowfullscreen"></iframe>
-    </div>
+### 5.9b. Bloco de Descrição com Ícone Pequeno (Variação)
+Variação do Template B para blocos de descrição mais longa (ex: eixos de projeto, tópicos com vários parágrafos). O ícone usa `fa-lg` (menor), e o corpo do texto recebe `padding-left: 36px;` para alinhamento vertical com o título.
 
-    <p class="small text-muted mb-4" style="font-size: 0.85rem; line-height: 1.4;">
-      <strong>Créditos:</strong> Texto de créditos
-    </p>
-
-    <div class="vagalume-sinopse">
-      <div class="d-flex align-items-center mb-2">
-        <i class="fa fa-file-text mr-3" aria-hidden="true" style="font-size: 1.5rem; color: #5b3925;"></i>
-        <p class="font-weight-bold mb-0" style="color: #5b3925; line-height: 1.2;">Sinopse</p>
-      </div>
-      <p class="mb-0">Texto descritivo do vídeo</p>
-    </div>
-
+```html
+<div class="vagalume-destaque-bloco">
+  <div class="d-flex align-items-center mb-2">
+    <i class="fa fa-ICONE fa-lg mr-3" style="width: 20px; text-align: center; color: #5b3925;" aria-hidden="true"></i>
+    <p class="font-weight-bold mb-0" style="color: #5b3925; line-height: 1.2;">Título do Bloco</p>
+  </div>
+  <div style="padding-left: 36px;">
+    <p class="mb-0">Texto descritivo do bloco, podendo conter múltiplos parágrafos ou listas.</p>
   </div>
 </div>
 ```
+> **Contexto de uso:** Ideal para eixos de projeto, descrição de etapas, tópicos com texto mais extenso que precisam de alinhamento preciso entre título e corpo. O `padding-left: 36px;` alinha o texto descritivo com o início do título (após o ícone).
+
+### 5.10. Vídeo Centralizado com Sinopse (Sub-bloco de 560px)
+
+Bloco completo para incorporar vídeo do YouTube/Vimeo com sinopse. Utiliza sub-bloco de `max-width: 560px` para evitar que o vídeo fique excessivamente largo em telas grandes. O bloco de sinopse fica abaixo do vídeo, dentro do mesmo sub-bloco centralizado.
+
+```html
+<div class="row justify-content-center mb-4">
+  <div class="col-lg-8"><!-- Sub-bloco de largura unificada -->
+    <div style="max-width: 560px; margin: 0 auto;">
+      <div class="d-flex justify-content-center mb-4">
+        <iframe class="vagalume-video" style="width: 100%; height: 315px; display: block;"
+                title="Título do Vídeo" src="URL_EMBED"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreen"></iframe>
+      </div>
+      <!-- Sinopse (sempre presente) -->
+      <div class="vagalume-sinopse">
+        <div class="d-flex align-items-center mb-2">
+          <i class="fa fa-file-text mr-3" aria-hidden="true" style="font-size: 1.5rem; color: #5b3925;"></i>
+          <p class="font-weight-bold mb-0" style="color: #5b3925; line-height: 1.2;">Sinopse</p>
+        </div>
+        <p class="mb-0">Texto descritivo do vídeo.</p>
+      </div>
+      <!-- Legenda (opcional — adicionar apenas se houver texto de legenda/créditos)
+      <p class="small text-muted mt-2" style="font-size: 0.85rem; line-height: 1.4;">
+        <strong>Legenda:</strong> Texto de legenda ou créditos aqui.
+      </p> -->
+    </div>
+  </div>
+</div>
+```
+> **Regra de uso:** A sinopse é obrigatória. A legenda (comentada no modelo) deve ser descomentada e incluída **apenas** quando houver texto de legenda ou créditos a exibir. Decidir conforme o conteúdo do briefing/pré-design.
+
+### 5.11. Lista de Links com Ícone (Playlist)
+Lista de links com ícone decorativo, ideal para playlists de vídeos, referências ou links relacionados. Deve ser encapsulada em `.vagalume-destaque-bloco` com `list-unstyled`.
+
+```html
+<div class="vagalume-destaque-bloco">
+  <ul class="list-unstyled mb-0">
+    <li class="mb-2"><i class="fa fa-play-circle mr-2" aria-hidden="true"></i> <a class="nomediaplugin" href="URL" target="_blank" rel="noopener">Texto do Link</a></li>
+    <li class="mb-2"><i class="fa fa-play-circle mr-2" aria-hidden="true"></i> <a class="nomediaplugin" href="URL" target="_blank" rel="noopener">Texto do Link</a></li>
+    <li class="mb-0"><i class="fa fa-play-circle mr-2" aria-hidden="true"></i> <a class="nomediaplugin" href="URL" target="_blank" rel="noopener">Texto do Link</a></li>
+  </ul>
+</div>
+```
+> **Contexto de uso:** Playlists de vídeos, lista de materiais complementares, links para leituras recomendadas. O último item leva `mb-0` para evitar espaçamento extra.
+
 
 ---
 
@@ -256,7 +323,8 @@ Imagens ou cards que funcionem como botões/gatilhos interativos devem possuir `
 - Apenas garantir HTML semântico.
 
 ### 6.8. Hierarquia de Headings
-- Usar `h1`, `h2`, `h3`... sem pular níveis.
+- Usar `h1`, `h2`, `h3`... preferencialmente sem pular níveis.
+- É aceitável usar `h1` → `h3` (sem `h2`) quando o layout visual não exigir subtítulo intermediário, desde que não haja saltos maiores (ex: `h1` → `h4` ou `h2` → `h5`), para manter a navegabilidade semântica.
 - A página já vem com `.vagalume-pagina` como container.
 
 ---
@@ -277,6 +345,8 @@ Imagens ou cards que funcionem como botões/gatilhos interativos devem possuir `
 - [ ] As tags `<img>` possuem `src=""` (se provisórias), `loading="lazy"`, `width` e `height`?
 - [ ] Os destaques verdes estão apenas em `<span>` e fora das caixas bege?
 - [ ] Vídeos centralizados utilizam o grid `.col-lg-8`, o ícone `fa-file-text` na sinopse e margens unificadas?
+- [ ] A sinopse do vídeo está sempre presente? A legenda optativa foi incluída apenas quando há texto de legenda/créditos?
+
 - [ ] Elementos H5P estão chamando a classe `.h5p-placeholder` em vez de iframes manuais e rígidos?
 - [ ] Links externos possuem `target="_blank"` + `rel="noopener noreferrer"` + classe `.nomediaplugin`?
 - [ ] Modais e IDs são exclusivos na página?
@@ -301,3 +371,8 @@ Sempre consulte estes arquivos antes de criar uma página:
 - Links e e-mails devem ter classe `.nomediaplugin` para evitar que o Moodle os converta em players/blocos.
 - Dentro de blocos bege (sinopse, jumbotron), usar `<strong>` em vez de `.vagalume-destaque` para não quebrar contraste.
 - Blocos coloridos ao lado de floats devem ser encapsulados em `<div class="card border-0 bg-transparent">`.
+- Imagens com legenda visível (`<figcaption>`) + descrição longa (`sr-only`): `alt=""`, `role="presentation"`, `aria-labelledby="figID-desc"`. O container pai deve ter `display: flow-root;`.
+- Nunca usar `clearfix` — usar `style="display: flow-root;"` no container (regra 3.2).
+- Imagens flutuantes devem usar `float-md-right`/`float-md-left` (com breakpoint md), nunca `float-right`/`float-left` puro, para não quebrar em mobile.
+- Toda `<figure>` com imagem deve ter `border-radius: 8px; overflow: hidden;` na figure E na img.
+- Em páginas com imagem flutuante, usar `ml-md-4`/`mr-md-4` no `<figure>` (não `px-3`).
