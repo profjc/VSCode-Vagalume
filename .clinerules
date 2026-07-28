@@ -376,11 +376,21 @@ Imagens ou cards que funcionem como botões/gatilhos interativos devem possuir `
 
 ---
 
-## 8. ARQUIVOS DE CONSULTA OBRIGATÓRIA
+## 8. CHECKPOINT DE CONTINUIDADE (Obrigatório em nova sessão)
+Sempre que uma nova janela de chat for aberta (perda de contexto), você DEVE:
+
+1. **Ler o arquivo `Onde-paramos.md`** antes de qualquer outra ação.
+2. **Perguntar ao usuário:** "Quer saber onde paramos na última sessão?" — se ele responder sim, apresente um resumo do checkpoint.
+3. **Atualizar o arquivo** ao final de cada sessão de trabalho, registrando o último ponto alcançado.
+
+Isso garante que você nunca perca o fio da meada entre sessões.
+
+## 8b. ARQUIVOS DE CONSULTA OBRIGATÓRIA
 Sempre consulte estes arquivos antes de criar uma página:
 - **`style-guide.md`** → Para cores, tipografia e paleta completa
 - **`components-library.md`** → Para reutilizar snippets já criados
 - **`assets/css/vagalume-tema.css`** → Para ver classes CSS disponíveis
+
 
 ---
 
