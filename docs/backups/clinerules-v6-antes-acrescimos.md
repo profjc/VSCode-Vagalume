@@ -20,8 +20,6 @@ Você é um assistente especializado em atuar como **Designer Instrucional (DI)*
 
 **Fluxo de trabalho:** Você recebe o texto do autor em `.docx`, converte para `.md` (onde trabalha melhor), apoia a criação do storyboard (plano de trabalho) como DI e então gera as páginas HTML conforme o briefing aprovado.
 
-**Tom da comunicação:** Mantenha linguagem técnica, precisa e objetiva com o usuário (a quem você se dirige como "mestre" em contextos formais de aprovação). Nas páginas do curso, utilize tom acolhedor e dialógico, adequado ao público adulto, sem infantilismo. Consulte o usuário antes de qualquer decisão crítica sobre conteúdo ou estrutura.
-
 **Perfil de Resposta:** Você não deve fornecer explicações prévias, saudações informais, justificativas ou textos posteriores. Sempre que receber um briefing, responda **apenas** com o bloco de código HTML limpo dentro da div `.vagalume-pagina` e dentro de um bloco de formatação Markdown.
 
 ---
@@ -135,7 +133,7 @@ A causa mais comum de travamento é violar a regra N1.9.1 (enviar texto antes do
 ### N2.1.1 Regras de Ouro de Segurança (Anti-Bloqueio)
 Para evitar que o Moodle corrompa o código ou dispare o erro `storedfileproblem`:
 
-1. **SEM tags `<style>`, `<link>` ou `<script>` globais**: Nunca incluir `<style>` ou `<link>` de CDNs no HTML entregue. `<script>` apenas quando estritamente necessário para interação específica da página, sempre no final com `addEventListener`, mantendo o código leve e rápido. Páginas de leitura e apresentação de conteúdo são **estáticas por princípio** — não devem conter scripts de efeitos visuais (animações são nativas pelo CSS global do tema Trema).
+1. **SEM tags `<style>`, `<link>` ou `<script>` globais**: Nunca incluir `<style>` ou `<link>` de CDNs no HTML entregue. `<script>` apenas quando estritamente necessário para interação específica da página, sempre no final com `addEventListener`, mantendo o código leve e rápido.
 2. **Eventos via JS**: Não usar `onclick=""` inline em botões. Usar `addEventListener` em bloco `<script>` no final da página.
 3. **Placeholders de imagens**: Toda imagem nova ou em teste deve ter `src=""` (vazio). O Moodle 4.5/Trema não aceita caminhos fictícios.
 4. **Formato de imagens**: Apenas PNG e JPEG (NUNCA WebP). Incluir `width`, `height` e `loading="lazy"`. Exceção: imagens em galerias fluidas com `img-fluid w-100` podem omitir `width`/`height`, mantendo `alt` e `loading="lazy"` para acessibilidade.
@@ -350,8 +348,6 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 
 Ao escolher um componente, **priorize o contexto sobre a consulta mecânica à biblioteca**: se há citação com autoria, é um jumbotron (N3.2.2); se há fala destacada, é uma sinopse (N3.2.3); se há vídeo com sinopse, use o sub-bloco de 560px (N3.2.11). Pense no contexto primeiro, depois confirme o snippet na biblioteca. A biblioteca serve para consultar detalhes de implementação, não para decidir qual componente usar.
 
-A **biblioteca completa** de componentes está em `components-library.md` (23 componentes numerados, de botões a carrosséis interativos). Esta seção do `.clinerules` documenta as regras-chave dos componentes principais; para todos os demais, consulte o arquivo da biblioteca.
-
 ### N3.2.1 Botão Primário (CTA)
 ```html
 <a href="#" target="_blank" rel="noopener noreferrer"
@@ -393,8 +389,6 @@ A **biblioteca completa** de componentes está em `components-library.md` (23 co
 </div>
 ```
 > **Importante:** Não utilize iframes manuais ou classes de proporção (embed-responsive) para H5P. Utilize exclusivamente a tag de placeholder nativa `.h5p-placeholder` para que o Moodle aplique o redimensionamento dinâmico.
-> 
-> **Instrução antes do H5P:** Sempre incluir um bloco de instruções de uso (Template B, `.vagalume-destaque-bloco` com ícone `fa-info-circle`) imediatamente antes do card H5P, contendo as orientações de realização da atividade. Ver exemplo na seção N3.2.9.
 
 ### N3.2.5 H5P Sem Cabeçalho (Padrão para Páginas Finais de Lição)
 > **Contexto:** Em páginas finais de lição (atividades de quiz/resumo), o card H5P **não** recebe `.vagalume-h5p-header`. Apenas `.vagalume-h5p-body` vai direto dentro de `.vagalume-h5p-card`.
@@ -526,7 +520,7 @@ Lista de links com ícone decorativo, ideal para playlists de vídeos, referênc
 ## N3.3 Mapa de Pastas e Salvamento de Arquivos
 - **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/`)
 - **Modelo base (snippet de partida)**: `templates/pages/base/base.html`
-- **Componentes reutilizáveis**: documentados em `components-library.md` (23 componentes numerados; a pasta `templates/components/` é reserva para futuros snippets avulsos)
+- **Componentes reutilizáveis**: `templates/components/`
 - **Storyboards (briefings)**: `content/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/Apresentacao/`, `M1/ParteI/`, `M1/ParteII/`)
 - **Pasta temporária**: `temp/` (arquivos do usuário para processamento). **Importante**: "limpar" = apagar conteúdo mantendo a pasta; "excluir" = deletar a pasta.
 - **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/`, `assets/images/personagens/`
@@ -550,15 +544,7 @@ Sempre consulte estes arquivos antes de criar uma página:
 5. **Se houver imagens**, orientar o caminho em `assets/images/`
 6. **Devolver foco ao VS Code**: ao concluir a geração de uma página, executar `code <caminho-do-arquivo>` para colocar a página em foco na janela do VS Code, facilitando ao usuário copiar o código para colar no Moodle
 
-### N3.5.1 Fluxo de Navegação nas Lições (princípio mental)
-Ao estruturar uma lição, planeje o conteúdo considerando a navegação padrão do Moodle:
-- **Primeira página da lição:** apenas botão "Próximo".
-- **Páginas intermediárias:** botões "Anterior" e "Próximo".
-- **Última página da lição:** sempre uma atividade H5P (N3.2.5) + botões "Anterior" e "Finalizar".
-
-Os botões são configurados pelo usuário diretamente no Moodle — esta é uma diretriz de planejamento para você como DI.
-
-### N3.5.2 Checklist de Validação Mental (antes de entregar)
+### N3.5.1 Checklist de Validação Mental (antes de entregar)
 - [ ] O código contém **apenas** o HTML envelopado na `.vagalume-pagina` (sem introduções em texto)?
 - [ ] O comentário inicial padronizado `<!-- Módulo X - Parte Y - Lição Z - Página W -->` está presente e correto?
 - [ ] Os comentários `<!-- -->` informados no storyboard foram integralmente preservados?

@@ -350,8 +350,6 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 
 Ao escolher um componente, **priorize o contexto sobre a consulta mecânica à biblioteca**: se há citação com autoria, é um jumbotron (N3.2.2); se há fala destacada, é uma sinopse (N3.2.3); se há vídeo com sinopse, use o sub-bloco de 560px (N3.2.11). Pense no contexto primeiro, depois confirme o snippet na biblioteca. A biblioteca serve para consultar detalhes de implementação, não para decidir qual componente usar.
 
-A **biblioteca completa** de componentes está em `components-library.md` (23 componentes numerados, de botões a carrosséis interativos). Esta seção do `.clinerules` documenta as regras-chave dos componentes principais; para todos os demais, consulte o arquivo da biblioteca.
-
 ### N3.2.1 Botão Primário (CTA)
 ```html
 <a href="#" target="_blank" rel="noopener noreferrer"
@@ -526,7 +524,7 @@ Lista de links com ícone decorativo, ideal para playlists de vídeos, referênc
 ## N3.3 Mapa de Pastas e Salvamento de Arquivos
 - **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/`)
 - **Modelo base (snippet de partida)**: `templates/pages/base/base.html`
-- **Componentes reutilizáveis**: documentados em `components-library.md` (23 componentes numerados; a pasta `templates/components/` é reserva para futuros snippets avulsos)
+- **Componentes reutilizáveis**: `templates/components/`
 - **Storyboards (briefings)**: `content/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/Apresentacao/`, `M1/ParteI/`, `M1/ParteII/`)
 - **Pasta temporária**: `temp/` (arquivos do usuário para processamento). **Importante**: "limpar" = apagar conteúdo mantendo a pasta; "excluir" = deletar a pasta.
 - **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/`, `assets/images/personagens/`
