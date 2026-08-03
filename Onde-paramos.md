@@ -34,6 +34,7 @@
 ### Status atual da auditoria
 | Pasta/Seção | Status |
 |---|---|
+| `templates/pages/Boas-vindas/` | ⚠️ **Em revisão** — Páginas 1-3 concluídas, Página 4 pendente |
 | `templates/pages/M1/` | ✅ **Completo** |
 | `templates/pages/M2/` | ⚠️ **Incompleto** — último arquivo: `M2P3L1p3.html` |
 | `M2/ParteIII/Licao2/` | ⚠️ Pasta vazia |
@@ -49,12 +50,21 @@
 
 ---
 
-## Última página no repositório
-- **Arquivo:** `templates/pages/M2/ParteIII/Licao1/M2P3L1p3.html`
-- **Módulo:** Módulo II
-- **Parte:** Parte III
-- **Lição:** Lição 1
-- **Página:** Página 3
+## Última página revisada
+- **Arquivo:** `templates/pages/Boas-vindas/Boas-vindas_Conheca_a_Vagalume.html`
+- **Módulo:** Módulo de Boas-vindas
+- **Página:** 3 — Conheça a Vaga Lume ("Apresentação da Vaga Lume")
+- **Última página no repositório (M2):** `templates/pages/M2/ParteIII/Licao1/M2P3L1p3.html`
+
+## Próxima página a revisar
+- **Arquivo:** `templates/pages/Boas-vindas/Boas-vindas_Parceria_Van_Leer_e_Vagalume.html`
+- **Página:** 4 — Parceria Van Leer e Vagalume
+
+## Novas diretrizes estabelecidas nesta sessão
+- **Solução de placeholder de imagem via SVG data URI** — imagem temporária (40×40, quadrado laranja "img") ao lado da imagem oficial; fluxo: clicar na imagem temporária → subir → copiar src → colar na oficial → apagar bloco temporário.
+- **PLAN mode planeja, ACT mode apenas executa** — ao salvar um arquivo no modo ACT, NÃO replanejar; simplesmente executar o que foi definido no PLAN.
+- **NUNCA avançar para a próxima página sem autorização** — registrado como precedente por violação em 03/08/2026.
+- **Sempre devolver foco ao VS Code** ao concluir a revisão de uma página — reforçado em 03/08/2026.
 
 ## Git/GitHub
 - Último commit: `b99849c` — `docs: expande clinerules com N1 N2 e N3 completos 7 backups`

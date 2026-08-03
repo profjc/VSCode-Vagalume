@@ -721,4 +721,40 @@
 
 ---
 
+
+---
+
+## 24. Rótulo de Parte (Label de Seção do Moodle)
+
+> **Contexto:** Bloco HTML usado como "Rótulo" (Label) no Moodle para demarcar visualmente o início de cada Parte/Seção de um módulo na página principal do curso. É um elemento isolado (não usa `.vagalume-pagina`) com border-left colorido e fundo bege.
+
+> **Regras de uso:**
+> - Sempre incluir comentários de abertura (`<!-- Módulo N - Label - Parte N - Título da Parte -->`) e fechamento (`<!-- FIM: Módulo N - Label - Parte N - Título da Parte -->`)
+> - O span usa `text-transform: uppercase` via CSS para exibição visual em caixa alta, mas o texto real deve estar em Capitalize ("Parte 1") para leitores de tela (N2.4.4)
+> - A cor padrão da borda e do texto do span é o **verde institucional `#587C41`**. Para variação laranja, substituir `#587C41` por `#D96F1A`
+> - Para criar um novo label: copiar o template `ModuloN_Label_ParteN_titulo.html` em `templates/pages/labels/`, renomear para `MN_Label_ParteN_titulo.html`, alterar "Parte N" e o título do `<h2>`
+> - **Template base:** `templates/pages/labels/ModuloN_Label_ParteN_titulo.html`
+
+### Verde Institucional (Padrão)
+```html
+<!-- Módulo N - Label - Parte N - Título da Parte -->
+<div style="border-left: 5px solid #587C41; padding: 10px 15px; margin: 30px 0 15px 0; background-color: #FAEBDD; border-radius: 0 8px 8px 0; font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;">
+  <span style="display: block; font-size: 13px; text-transform: uppercase; color: #587C41; font-weight: bold; letter-spacing: 1px; margin-bottom: 5px;">&nbsp;Parte N</span>
+  <h2 style="margin: 0; padding: 0; font-size: 18px; color: #5B3925; font-weight: 700; border: none; line-height: 1.3;">Título da Parte</h2>
+</div>
+<!-- FIM: Módulo N - Label - Parte N - Título da Parte -->
+```
+
+### Laranja Principal (Alternativo)
+```html
+<!-- Módulo N - Label - Parte N - Título da Parte -->
+<div style="border-left: 5px solid #D96F1A; padding: 10px 15px; margin: 30px 0 15px 0; background-color: #FAEBDD; border-radius: 0 8px 8px 0; font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;">
+  <span style="display: block; font-size: 13px; text-transform: uppercase; color: #D96F1A; font-weight: bold; letter-spacing: 1px; margin-bottom: 5px;">&nbsp;Parte N</span>
+  <h2 style="margin: 0; padding: 0; font-size: 18px; color: #5B3925; font-weight: 700; border: none; line-height: 1.3;">Título da Parte</h2>
+</div>
+<!-- FIM: Módulo N - Label - Parte N - Título da Parte -->
+```
+
+---
+
 > 📝 **Para adicionar novo componente:** Edite este arquivo seguindo o padrão dos exemplos acima.
