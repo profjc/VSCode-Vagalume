@@ -284,7 +284,7 @@ Sempre que encontrar `[*`, LOCALIZE o `*]` de fechamento correspondente, LEIA a 
 Você auxilia como DI, mas NÃO é o autor do conteúdo. Nunca invente legendas, títulos, textos, ícones ou qualquer elemento que não esteja explicitamente solicitado no texto-base do autor. Se o autor não pediu, não coloque. O criativo é o autor; você implementa e, como DI, sugere estrutura — mas nunca inventa conteúdo.
 
 ### N2.5.5 Fluxo de trabalho com fonte .docx
-O texto-base chega em `.docx` (documento do autor com instruções `[ ]` do designer inicial). Você converte para `.md` para trabalhar melhor. O arquivo `.md` é a versão de trabalho que contém o texto extraído e estruturado. O `.docx` é o original recebido do autor, mantido como backup/referência. Após converter, atue como DI: **pense** o storyboard (plano de trabalho) mentalmente e entregue a página HTML pronta — não criamos arquivos separados de storyboard.
+O texto-base chega em `.docx` (documento do autor com instruções `[ ]` do designer inicial). Você converte para `.md` para trabalhar melhor. O arquivo `.md` é a versão de trabalho que contém o texto extraído e estruturado para criação do storyboard. O `.docx` é o original recebido do autor, mantido como backup/referência. Após converter, atue como DI para criar o storyboard (plano de trabalho) antes de gerar as páginas HTML.
 
 ---
 
@@ -527,8 +527,7 @@ Lista de links com ícone decorativo, ideal para playlists de vídeos, referênc
 - **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/`)
 - **Modelo base (snippet de partida)**: `templates/pages/base/base.html`
 - **Componentes reutilizáveis**: documentados em `components-library.md` (23 componentes numerados; a pasta `templates/components/` é reserva para futuros snippets avulsos)
-- **`.md` de trabalho** (convertidos do `.docx` do autor): `content/` em subpastas por módulo
-- **Storyboards**: NÃO mantemos arquivos separados de storyboard — apenas o HTML final (você "pensa" o storyboard como DI e entrega a página pronta)
+- **Storyboards (briefings)**: `content/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/Apresentacao/`, `M1/ParteI/`, `M1/ParteII/`)
 - **Pasta temporária**: `temp/` (arquivos do usuário para processamento). **Importante**: "limpar" = apagar conteúdo mantendo a pasta; "excluir" = deletar a pasta.
 - **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/`, `assets/images/personagens/`
 
@@ -544,8 +543,8 @@ Sempre consulte estes arquivos antes de criar uma página:
 
 ## N3.5 Fluxo de Trabalho
 
-1. **Usuário informa as páginas a trabalhar** (conferência Moodle × repositório): revisar todas as páginas, incluir as que faltam, excluir o que não interessa mais, modificar quando solicitado
-2. **Você gera o HTML** (pensando o storyboard como DI, mas entregando a página pronta) seguindo todas as regras acima
+1. **Usuário fornece briefing** (storyboard em `content/modulo-NN/`)
+2. **Você gera o HTML** seguindo todas as regras acima
 3. **Salva em** `templates/pages/` com nome descritivo
 4. **Se criar novo componente**, registrá-lo em `components-library.md`
 5. **Se houver imagens**, orientar o caminho em `assets/images/`
@@ -582,4 +581,3 @@ Os botões são configurados pelo usuário diretamente no Moodle — esta é uma
 - **Fluxo de criação em lote:** Quando o usuário diz "vamos continuar a partir daqui" ou "vamos fazer a próxima", ele está se referindo à última página auditada/criada e quer que você crie a **próxima página do fluxo** (vazia, com apenas a estrutura base) para que ele possa colar o código que já está pronto. SEMPRE perguntar "quer que eu crie a próxima página (M2P3L1p2.html) para você colar o código?" — não assumir que precisa de briefing ou conteúdo novo.
 - **Placeholder H5P nominal (anti-draft):** Nunca usar URLs draft do Moodle (`draftfile.php/...`) no placeholder H5P. Usar formato nominal `[ARQUIVO_H5P: nome-do-arquivo.h5p]` para evitar quebra ao reabrir página no Moodle. O usuário substitui manualmente pela URL real do upload no editor HTML do Moodle.
 - **Problema de draft é exclusivo do H5P:** Imagens, PDFs e outros arquivos são inseridos no Moodle via gerenciador de arquivos visual do editor, que gera URLs permanentes (`pluginfile.php/...`). O placeholder H5P é o único caso que exige URL textual no HTML, por isso só ele precisa do formato nominal.
-- **Não mantemos arquivos de storyboard**: Quando existirem storyboards para páginas já criadas, eles devem ser apagados — manter apenas o HTML final.
