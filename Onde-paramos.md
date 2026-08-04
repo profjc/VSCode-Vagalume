@@ -51,14 +51,23 @@
 ---
 
 ## Última página revisada
-- **Arquivo:** `templates/pages/Boas-vindas/Boas-vindas_Conheca_a_Vagalume.html`
+- **Arquivo:** `templates/pages/Boas-vindas/Boas-vindas_Parceria_Van_Leer_e_Vagalume.html`
 - **Módulo:** Módulo de Boas-vindas
-- **Página:** 3 — Conheça a Vaga Lume ("Apresentação da Vaga Lume")
+- **Página:** 4 — Parceria Van Leer e Vagalume (revisada em 03/08/2026)
 - **Última página no repositório (M2):** `templates/pages/M2/ParteIII/Licao1/M2P3L1p3.html`
 
 ## Próxima página a revisar
-- **Arquivo:** `templates/pages/Boas-vindas/Boas-vindas_Parceria_Van_Leer_e_Vagalume.html`
-- **Página:** 4 — Parceria Van Leer e Vagalume
+- **Módulo de Boas-vindas:** ✅ Concluído (4/4 páginas revisadas)
+- **Próximo módulo:** Módulo 2 — a definir pelo usuário (M2P3L1p3 é a última no repositório, mas M2P5L2 existe no Moodle)
+
+## Sessão 03/08/2026 (noite) — Atualização do CSS Global
+- **Novo CSS recebido via `temp/Vagalume_curso.css.txt`** (803 linhas, arquivo já excluído após processamento)
+- **Principal adição:** Bloco "ESTILIZAÇÃO DOS TÍTULOS DAS SEÇÕES - FORMATO TILES" (25 linhas) — estiliza `.sectiontitle` no formato Tiles com fundo bege e cor marrom
+- **Arquivos atualizados:**
+  - `assets/css/vagalume-tema.css` — substituído pelo novo CSS (803 linhas, era 386)
+  - `docs/diretrizes/Vagalume_curso.css.md` — substituído pelo novo CSS (formato `.md`, era 1198 linhas com escapes)
+- **Backup:** `docs/backups/vagalume-tema-v1-antes-tiles-2026-03-08.css` (versão antiga de 386 linhas)
+- **Impacto no HTML das páginas:** Nenhum — mudanças são apenas em elementos do Moodle/Tema Trema/Formato Tiles, não afetam classes `.vagalume-*` usadas nas páginas
 
 ## Novas diretrizes estabelecidas nesta sessão
 - **Solução de placeholder de imagem via SVG data URI** — imagem temporária (40×40, quadrado laranja "img") ao lado da imagem oficial; fluxo: clicar na imagem temporária → subir → copiar src → colar na oficial → apagar bloco temporário.
