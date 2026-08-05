@@ -1,0 +1,338 @@
+<!-- Galeria: Imagens, Vídeos e Mídia — Componentes da Biblioteca Vaga Lume -->
+<div class="container py-4 vagalume-pagina" style="display: flow-root;">
+
+  <div class="row mb-4">
+    <div class="col-12">
+      <h1 class="h3 font-weight-bold mb-0">Imagens, Vídeos e Mídia — Galeria de Componentes</h1>
+    </div>
+  </div>
+
+  <p class="mb-4">Cada bloco apresenta um componente <strong>renderizado</strong> (com moldura simulando a área da imagem) na coluna da esquerda, o <strong>nome padrão do DI</strong> ao centro e o <strong>uso previsto</strong> à direita. No mobile, as colunas empilham-se com rótulos próprios.</p>
+
+  <!-- ====== IMAGENS ====== -->
+  <h2 class="h4 font-weight-bold mb-3 mt-4" style="color: #5B3925;">🖼 Imagens</h2>
+
+  <!-- 1. Galeria de Imagens — 2 colunas -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div class="row">
+          <div class="col-6">
+            <div style="width: 100%; height: 120px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando área da imagem 1">
+              <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">🖼 600×400</span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div style="width: 100%; height: 120px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando área da imagem 2">
+              <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">🖼 600×400</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Galeria de Imagens — 2 Colunas</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Grid responsivo com 2 colunas no desktop (<code>col-md-6</code>) e 1 coluna no mobile. Cada imagem dentro de <code><figure></code> com <code>border-radius: 8px</code> e <code>loading="lazy"</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Galeria de Imagens — 3 colunas -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div class="row">
+          <div class="col-4">
+            <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando área da imagem 1">
+              <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼<br>400×300</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando área da imagem 2">
+              <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼<br>400×300</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando área da imagem 3">
+              <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼<br>400×300</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Galeria de Imagens — 3 Colunas</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Grid responsivo com 3 colunas no desktop (<code>col-md-4</code>) e 1 coluna no mobile. Ideal para conjuntos de 3 ou mais imagens lado a lado.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Imagem Flutuante à Direita -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="display: flow-root;">
+          <div class="float-md-right ml-md-3 mb-2" style="width: 120px; height: 90px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando imagem flutuante à direita">
+            <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼 200×150</span>
+          </div>
+          <p style="font-size: 0.8rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p class="mb-0" style="font-size: 0.8rem;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Imagem Flutuante à Direita</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Imagem com <code>float-md-right</code> — texto flui ao redor no desktop. Sempre usar <code><figure></code> com <code>border-radius: 8px</code>. Container principal deve ter <code>display: flow-root</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Imagem Flutuante à Esquerda -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="display: flow-root;">
+          <div class="float-md-left mr-md-3 mb-2" style="width: 120px; height: 90px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center;" role="img" aria-label="Moldura simulando imagem flutuante à esquerda">
+            <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼 200×150</span>
+          </div>
+          <p style="font-size: 0.8rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p class="mb-0" style="font-size: 0.8rem;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Imagem Flutuante à Esquerda</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Imagem com <code>float-md-left</code> — texto flui ao redor no desktop. Mesmo padrão de <code><figure></code> da versão à direita.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Imagem Clicável (Modal Pop-up) -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="max-width: 250px;">
+          <div style="width: 100%; height: 120px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; cursor: zoom-in;" role="link" tabindex="0" aria-label="Miniatura clicável — clique para ampliar">
+            <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">🖼 250 × 167</span>
+            <span style="color: #D96F1A; font-size: 0.7rem; font-weight: 600;">🔍 Clique para ampliar</span>
+          </div>
+          <p class="small text-muted mt-1 mb-0" style="font-size: 0.7rem;">(No Moodle, abre um modal com a imagem ampliada)</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Imagem Clicável (Modal Pop-up)</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Miniatura com <code>cursor: zoom-in</code> que abre um modal Bootstrap. Usar <code>role="link"</code> e <code>tabindex="0"</code>. Cada modal deve ter ID único na página.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Imagem com Descrição Longa -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <p class="sr-only" id="figGaleria1-desc">Descrição detalhada: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A imagem mostra um cenário com elementos dispostos em primeiro plano.</p>
+        <div style="width: 100%; height: 110px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; max-width: 400px;" role="img" aria-labelledby="figGaleria1-desc">
+          <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">🖼 400 × 267</span>
+          <span style="color: #2e7d32; font-size: 0.65rem; font-weight: 600;">♿ Descrição longa via sr-only</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Imagem com Descrição Longa</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Descrição extensa via <code>p.sr-only</code> + <code>aria-labelledby</code>. <code>alt</code> vazio e <code>role="presentation"</code> evitam duplicidade para leitores de tela.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Imagem Flutuante com Legenda -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="display: flow-root;">
+          <div class="float-md-right ml-md-3 mb-2" style="max-width: 180px;">
+            <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;" role="img" aria-label="Moldura simulando imagem com legenda">
+              <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼 275×367</span>
+              <span style="color: #2e7d32; font-size: 0.6rem; font-weight: 600;">♿ sr-only</span>
+            </div>
+            <p class="figure-caption text-center mt-1 mb-0" style="font-size: 0.7rem;">Legenda visível da imagem.</p>
+          </div>
+          <p class="sr-only" id="figGaleria2-desc">Descrição detalhada: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A figura apresenta elementos visuais organizados.</p>
+          <p style="font-size: 0.8rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="mb-0" style="font-size: 0.8rem;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Imagem Flutuante com Legenda e Descrição Longa</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Float + acessibilidade: <code><figcaption></code> visível + <code>p.sr-only</code> para descrição longa. <code>alt</code> vazio e <code>role="presentation"</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Placeholder de Imagem — Fluxo de Upload no TinyMCE -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="background-color: #fdf8f3; padding: 10px 12px; border: 1px dashed #D96F1A; border-radius: 8px;">
+          <p class="mb-2" style="color: #261810; font-size: 0.85rem;"><strong>📌 Fluxo de upload no TinyMCE:</strong></p>
+          <ol class="mb-2" style="color: #261810; font-size: 0.8rem; padding-left: 1.2rem;">
+            <li>Clique na imagem temporária laranja</li>
+            <li>TinyMCE abre o gerenciador de arquivos</li>
+            <li>Selecione a imagem → <code>src</code> é substituído</li>
+            <li>Copie o <code>src</code> e cole na imagem oficial</li>
+            <li>Apague o bloco temporário</li>
+          </ol>
+          <div class="d-flex align-items-start flex-wrap" style="gap: 10px;">
+            <!-- ===== INÍCIO DA IMAGEM TEMPORÁRIA (APAGAR APÓS SUBIR A IMAGEM REAL) ===== -->
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='100%25' height='100%25' fill='%23d96f1a'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='12' font-weight='bold'%3Eimg%3C/text%3E%3C/svg%3E" alt="Upload temporário no TinyMCE" width="40" height="40" style="border-radius: 4px; flex-shrink: 0;"><br>
+            <!-- ===== FIM DA IMAGEM TEMPORÁRIA ===== -->
+            <div style="width: 120px; height: 90px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+              <span style="color: #8a7a6a; font-size: 0.7rem; font-family: monospace;">🖼 200×150</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Placeholder de Imagem (SVG data URI)</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Solução definitiva para upload no TinyMCE 4.5/Trema. Imagem SVG temporária é substituível via gerenciador de arquivos. NUNCA usar <code>src=""</code> vazio.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== VÍDEOS ====== -->
+  <h2 class="h4 font-weight-bold mb-3 mt-4" style="color: #5B3925;">🎬 Vídeos e Mídia</h2>
+
+  <!-- 9. Vídeo Centralizado no Corpo -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; margin-bottom: 6px;" role="img" aria-label="Moldura simulando área do player de vídeo">
+          <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">▶ Player de Vídeo (YouTube/Vimeo)</span>
+          <span style="color: #a09080; font-size: 0.65rem;">iframe.vagalume-video — 16:9</span>
+        </div>
+        <p class="small text-muted mb-2" style="font-size: 0.7rem;"><strong>Créditos:</strong> Lorem ipsum dolor sit amet.</p>
+        <div class="vagalume-sinopse">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fa fa-file-text mr-2" aria-hidden="true" style="font-size: 1.2rem; color: #5b3925;"></i>
+            <p class="font-weight-bold mb-0" style="color: #5b3925; line-height: 1.2; font-size: 0.85rem;">Sinopse</p>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Vídeo Centralizado no Corpo do Texto</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Iframe do YouTube/Vimeo com classe <code>.vagalume-video</code> (max 640px, 16:9). Abaixo: créditos (opcionais) + sinopse com ícone <code>fa-file-text</code> (obrigatória).</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Vídeo com Legenda e Sinopse (560px) -->
+  <div class="rounded border mb-4 overflow-hidden" style="border-color: #d5c8b5;">
+    <div class="row bg-light py-2 px-3 d-none d-md-flex" style="margin: 0;">
+      <div class="col-md-6"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Exemplo</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Nome do Componente</span></div>
+      <div class="col-md-3"><span class="font-weight-bold text-muted" style="font-size: 0.8rem;">Uso Atual / Previsto / Desejado</span></div>
+    </div>
+    <div class="row border-top py-3 px-3" style="margin: 0;">
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        <div style="width: 100%; height: 100px; background-color: #f5f0eb; border: 2px dashed #b0a090; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; margin-bottom: 6px;" role="img" aria-label="Moldura simulando área do player de vídeo com sub-bloco de 560px">
+          <span style="color: #8a7a6a; font-size: 0.75rem; font-family: monospace;">▶ Player de Vídeo (YouTube/Vimeo)</span>
+          <span style="color: #a09080; font-size: 0.65rem;">max-width: 560px — 16:9</span>
+        </div>
+        <p class="small text-muted mb-2" style="font-size: 0.7rem;"><strong>Créditos:</strong> Lorem ipsum dolor sit amet.</p>
+        <div class="vagalume-sinopse">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fa fa-file-text mr-2" aria-hidden="true" style="font-size: 1.2rem; color: #5b3925;"></i>
+            <p class="font-weight-bold mb-0" style="color: #5b3925; line-height: 1.2; font-size: 0.85rem;">Sinopse</p>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-2 mb-md-0">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Nome do Componente</span>
+        <p class="mb-0" style="color: #261810;"><strong>Vídeo com Legenda e Sinopse (560px)</strong></p>
+      </div>
+      <div class="col-12 col-md-3">
+        <span class="d-md-none font-weight-bold text-muted" style="font-size: 0.75rem;">Uso Atual / Previsto / Desejado</span>
+        <p class="mb-0" style="color: #261810; font-size: 0.9rem;">Sub-bloco de <code>max-width: 560px</code> para evitar player excessivamente largo. Unifica vídeo, créditos e sinopse no mesmo grid. Legenda obrigatória.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- FIM: Galeria: Imagens, Vídeos e Mídia — Componentes da Biblioteca Vaga Lume -->

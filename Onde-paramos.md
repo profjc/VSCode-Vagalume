@@ -69,6 +69,47 @@
 - **Backup:** `docs/backups/vagalume-tema-v1-antes-tiles-2026-03-08.css` (versão antiga de 386 linhas)
 - **Impacto no HTML das páginas:** Nenhum — mudanças são apenas em elementos do Moodle/Tema Trema/Formato Tiles, não afetam classes `.vagalume-*` usadas nas páginas
 
+## Sessão 04/08/2026 — Reorganização, galeria de templates e revisão do M1
+
+### Trabalho realizado
+- **Estrutura de `content/` reorganizada** para refletir os 6 módulos do curso:
+  ```
+  content/
+  ├── Boas-vindas/      ← sem doc de DI (textos fragmentados)
+  ├── M1/               ← DI-Modulo1.md (570 linhas, 50KB)
+  ├── M2/               ← DI-Modulo2.md (1079 linhas, 49KB)
+  ├── M3/               ← aguardando doc de DI
+  ├── M4/               ← aguardando doc de DI
+  └── Encerramento/     ← aguardando doc de DI
+  ```
+- **Docs de DI convertidos `.docx` → `.md`** via pandoc e armazenados em `content/M1/` e `content/M2/`
+- **Pasta `temp/` limpa:** todos os arquivos removidos após processamento
+- **Página de introdução (M1-introducao.html):** conferida — já existe como `templates/pages/M1/M1-Apresentacao_do_modulo_I.html` (versão do repositório mais completa, com comentário de abertura)
+- **`M1-Apresentacao_do_modulo_I.html`** — Apresentação geral movida para fora da caixa `.vagalume-jumbotron` (agora como texto direto, mantendo caixas Objetivo e Expectativas como `.vagalume-destaque-bloco`)
+- **Galeria de templates (Livro do Autor)** — 3 páginas criadas em `docs/templates-galeria/` para apoiar o autor no pré-DI:
+  - `galeria-estilizacao-de-texto.html` — 12 componentes de estilização de texto
+  - `galeria-h5p.html` — 6 componentes de atividades H5P
+  - `galeria-imagens-videos-midia.html` — 10 componentes (8 imagens + 2 vídeos)
+  - Todas as páginas usam padrão "tabela retangular" com `rounded border` (Bootstrap puro, sem `.vagalume-destaque-bloco` nas molduras)
+  - Responsivo: cabeçalhos `bg-light` no desktop, mini-rótulos no mobile
+- **Nomes de componentes documentados** — Jumbotron, Sinopse, Bloco de Destaque, etc. (ver tabela em `components-library.md`)
+
+### Lições aprendidas
+- A pasta `content/` armazena os documentos de DI (`.md` convertidos do `.docx` do autor) para consulta durante a criação/revisão das páginas
+- A pasta `templates/pages/` armazena os HTMLs **finais** (prontos para colar no Moodle)
+- A pasta `temp/` é apenas para arquivos de passagem do usuário — "limpar" = apagar conteúdo mantendo a pasta
+- **Galeria de templates (`docs/templates-galeria/`):** páginas de referência visual para o autor — não são páginas do curso, mas material de apoio ao pré-DI
+- **Padrão retangular (sem jumbotron/destaque-bloco nas molduras):** usar `rounded border` com `bg-light` no cabeçalho e `border-top` nas linhas — a moldura é neutra, o conteúdo interno mantém suas cores
+
+### Status da auditoria
+| Pasta/Seção | Status |
+|---|---|
+| `templates/pages/Boas-vindas/` | ✅ Completo (4/4) |
+| `templates/pages/M1/` | ⚠️ Revisão iniciada — página de introdução atualizada |
+| `templates/pages/M2/` | ⚠️ Incompleto — último arquivo: `M2P3L1p3.html` |
+| `content/` | ✅ Reorganizado (04/08/2026) |
+| `docs/templates-galeria/` | ✅ 3 páginas criadas (04/08/2026) |
+
 ## Novas diretrizes estabelecidas nesta sessão
 - **Solução de placeholder de imagem via SVG data URI** — imagem temporária (40×40, quadrado laranja "img") ao lado da imagem oficial; fluxo: clicar na imagem temporária → subir → copiar src → colar na oficial → apagar bloco temporário.
 - **PLAN mode planeja, ACT mode apenas executa** — ao salvar um arquivo no modo ACT, NÃO replanejar; simplesmente executar o que foi definido no PLAN.
