@@ -1,5 +1,113 @@
 # Onde paramos
 
+## Sessão 07/08/2026 — Nova seção "Síntese do Módulo 1" (Parte 5) + convenção de numeração decimal
+
+### Trabalho realizado
+- **Criada a Parte 5 "Síntese do Módulo 1"** no Módulo 1:
+  - **Label criado:** `templates/pages/labels/M1_Label_Parte5_Sintese_do_modulo_I.html` (padrão dos labels existentes)
+  - **Página movida e renomeada:** `templates/pages/M1/ParteIV/M1P4p1.html` → `templates/pages/M1/Parte5/M1P5P1.html`
+  - **Título alterado:** "Síntese: O que aprendemos no módulo 1" → **"O que aprendemos no Módulo 1"** (conteúdo permanece intacto: 6 cards + celebração)
+  - **Referências movidas e renomeadas:** `templates/pages/M1/ParteIV/M1P4p2.html` → `templates/pages/M1/Parte5/M1P5P2.html` (conteúdo permanece intacto)
+- **Comentários identificadores ajustados nas páginas movidas:**
+  - `M1P5P1.html` — Cabeçalho: `<!-- Módulo I - Parte 5 - O que aprendemos no Módulo 1 -->`; Rodapé criado (não existia): `<!-- FIM: Módulo I - Parte 5 - O que aprendemos no Módulo 1 -->`
+  - `M1P5P2.html` — Cabeçalho: `<!-- Módulo I - Parte 5 - Referências Bibliográficas - Módulo 1 -->`; Rodapé criado (não existia): `<!-- FIM: Módulo I - Parte 5 - Referências Bibliográficas - Módulo 1 -->`
+- **`.clinerules` refinado:**
+  - **N2.2.2**: Lição Z agora é **opcional** (apenas em páginas de lição); páginas de síntese/fóruns/referências usam `Módulo X - Parte Y - [título descritivo]`
+  - **N3.5.2**: checklist atualizado para refletir a Lição opcional
+  - **N3.6**: registradas as lições de numeração decimal e obrigatoriedade de rodapé
+- **Nova convenção (a partir de 07/08/2026): numeração decimal** nos comentários identificadores e pastas novas (Parte 5, M1P5P1) em vez de romana (Parte V, M1P4P1)
+
+### Pendência futura registrada
+- **[PENDÊNCIA FUTURA]** Ajustar as páginas já existentes que ainda usam **numeração romana** nos comentários identificadores (Parte I–IV → Parte 1–4) e pastas (ParteI–IV → Parte1–4). **Até lá, tratar referências em decimal ou romano como equivalentes** (ex: "Parte 4" = "Parte IV").
+
+### Status da auditoria
+| Pasta/Seção | Status |
+|---|---|
+| `templates/pages/M1/Parte5/` | ✅ Nova — contém `M1P5P1.html` (síntese) e `M1P5P2.html` (referências) |
+| `templates/pages/M1/ParteIV/` | ⚠️ Removeu `M1P4p1.html` e `M1P4p2.html` (movidos para Parte 5) |
+| `templates/pages/labels/` | ✅ Novo label Parte 5 do M1 criado |
+| `templates/pages/M2/` | ✅ Apresentação do Módulo 2 criada — `M2-Apresentacao_do_modulo_2.html` (placeholder antigo `M2-Apresentacao_do_modulo_II.html` removido) |
+
+### Apresentação do Módulo 2 (criada em 07/08/2026)
+- **Arquivo:** `templates/pages/M2/M2-Apresentacao_do_modulo_2.html`
+- **Estrutura:** mesma da Apresentação do Módulo 1 (título H1 + Apresentação geral + blocos de Objetivo e Expectativas em `.vagalume-destaque-bloco`)
+- **Comentário identificador:** `<!-- Módulo 2 - Apresentação -->` + `<!-- FIM: Módulo 2 - Apresentação -->` (numeração decimal)
+- **Conteúdo:** textos fornecidos pelo mestre no chat (não estavam no DI-Modulo2.md)
+
+### Lição 1 do Módulo 2 (O Bebê e a Linguagem) — Página 1 ajustada
+- **Arquivo:** `templates/pages/M2/ParteI/Licao1/M2P1L1p1.html`
+- **Ajuste:** comentário de abertura atualizado para incluir o título e numeração decimal: `<!-- Módulo 2 - Parte 1 - Lição 1 - Página 1 - Quando começamos a ler? -->`
+- **Rodapé criado** (não existia): `<!-- FIM: Módulo 2 - Parte 1 - Lição 1 - Página 1 - Quando começamos a ler? -->`
+- **Conteúdo da página:** intacto (imagem flutuante + texto + box)
+
+### Nova regra registrada no `.clinerules` N2.2.2 (07/08/2026)
+- **Título da página nos comentários (opcional):** Se houver título, incluí-lo nos comentários de abertura e fechamento (mesmo que não entre no HTML — inserido pelo usuário no Moodle). Se **não houver** título, o DI lembra o usuário no planejamento e aguarda confirmação.
+
+### Verificação: comentário "Estrutura alinhada ao Manual da Marca Vaga Lume" NÃO é padrão (07/08/2026)
+- **Verdito:** o comentário não consta no `.clinerules`, na biblioteca de componentes nem no modelo `base.html` — é resíduo presente em 10 páginas do Módulo 2
+- **Ação executada:** removido da página `M2P1L1p1.html` (página em edição nesta sessão)
+- **Regra registrada no `.clinerules` N3.6:** remover sempre que aparecer em páginas que estivermos editando (verificar nos módulos de boas-vindas, M1 e M2) e **NUNCA usar em páginas novas** (a partir do próximo módulo)
+
+### Fusão da Página 2 na Página 1 (Lição 1 do Módulo 2) — 07/08/2026
+- **Página 2 "As Primeiras Vivências Sonoras na Gestação" foi incorporada à Página 1**, que permanece com o título "Quando começamos a ler?"
+- **Arquivo:** `templates/pages/M2/ParteI/Licao1/M2P1L1p1.html` — agora contém: imagem "cosquinha na mamãe" (única) + parágrafo 1 (com "Primeira Infância" em maiúsculas) + box 1 (sem ícone de interrogação) + parágrafo 2 (texto da antiga p2, sem a figura placeholder) + box 2 (texto da antiga p2)
+- **Arquivo removido:** `templates/pages/M2/ParteI/Licao1/M2P1L1p2.html` (deixou de existir como página separada)
+- **Navegação da lição afetada:** o Moodle deve ser reconfigurado para remover a página 2 (o mestre fará isso no Moodle)
+
+### Correção do endereço relativo do Moodle na página 1 (07/08/2026)
+- **Problema:** a imagem "cosquinha na mamãe" usava URL `draftfile.php/...` do Moodle, impedindo o upload no TinyMCE
+- **Correção:** substituída pelo **placeholder de imagem padrão** (imagem temporária SVG data URI + imagem oficial com `src="[cole a imagem aqui]"`), mantendo `alt`, `width`/`height` 375, `loading="lazy"`, `figure` flutuante, `figcaption` e border-radius
+- **Regra registrada no `.clinerules` N3.6:** ao editar página com endereço relativo do Moodle (`draftfile.php/...` ou `pluginfile.php/...`), substituir por placeholder mantendo as demais características
+
+### Marcador textual "⚠️ APAGAR ESTE BLOCO" nos placeholders de imagem (07/08/2026)
+- **Problema:** o comentário HTML `INÍCIO DA IMAGEM TEMPORÁRIA` sumia após o upload no TinyMCE (editor remove comentários "soltos" não ancorados a elementos preservados)
+- **Solução:** adicionado marcador textual visível (`<span>` vermelho "⚠️ APAGAR ESTE BLOCO") antes da imagem temporária na `M2P1L1p1.html` — preservado por ser conteúdo real; localização via Ctrl+F "APAGAR" no código-fonte do Moodle
+- **Regra registrada no `.clinerules` N3.6:** usar o marcador textual como padrão em todos os placeholders de imagem
+
+### Padrão do placeholder único do Moodle (07/08/2026 — testado e aprovado)
+- **URL fixa do placeholder:** `https://vagalume.educagir.com.br/pluginfile.php/104/mod_resource/content/1/placeholder-800x600.jpeg`
+- **Estratégia:** usar SEMPRE essa mesma URL na imagem temporária (nunca data URI variável), evitando que o TinyMCE crie múltiplos drafts temporários no servidor
+- **Teste aprovado** na página `M2P1L1p1.html` (o mestre confirmou que funcionou no Moodle)
+- **Regra automática registrada no `.clinerules` N3.6:** sempre que receber página com **drafts temporários do Moodle** (`draftfile.php/...` ou `pluginfile.php` de rascunho), substituir por placeholder por padrão — salvo indicação em contrário do mestre na própria solicitação. **Vale apenas para drafts do Moodle** (URLs externas legítimas NÃO são substituídas)
+- **`base.html` atualizado:** exemplo de galeria de imagens agora usa o placeholder único com marcador textual
+
+### Edição da antiga Página 3 → nova Página 2 (Lição 1, Módulo 2) — 07/08/2026
+- **Arquivo:** `templates/pages/M2/ParteI/Licao1/M2P1L1p3.html` (a antiga p2 foi incorporada à p1 na mesma sessão)
+- **Título da página (na lição, não no HTML):** "Antes de nascer, o bebê já é um sujeito de linguagem"
+- **Comentário de abertura:** `<!-- Módulo 2 - Parte 1 - Lição 1 - Página 2 - Antes de nascer, o bebê já é um sujeito de linguagem -->` (numeração decimal)
+- **Rodapé criado:** `<!-- FIM: Módulo 2 - Parte 1 - Lição 1 - Página 2 - Antes de nascer, o bebê já é um sujeito de linguagem -->`
+- **Imagem:** draft do Moodle substituído pelo **placeholder padrão** (URL fixa + marcador "⚠️ APAGAR ESTE BLOCO") + imagem oficial com `src="[cole a imagem aqui]"` e `alt` descritivo (sem o trecho "Assinatura")
+- **Legenda:** "Pilibum.com" centralizada (`figure-caption text-center mt-2`)
+- **Comentário não padrão removido:** "Estrutura alinhada ao Manual da Marca Vaga Lume"
+
+### Padrão de legendas centralizadas registrado (07/08/2026)
+- **Regra:** todas as legendas de figuras usam `class="figure-caption text-center mt-2"` — nunca alinhamentos à direita/esquerda
+- **Correção aplicada:** `M2P2L1p1.html` tinha `text-right`, corrigido para `text-center`
+- **Registrado no `.clinerules` N3.6`
+
+---
+
+## 📍 Checkpoint de encerramento — Sessão 07/08/2026 (tarde)
+
+### Onde paramos
+- **Lição 1 do Módulo 2 (O Bebê e a Linguagem):**
+  - ✅ Página 1 ("Quando começamos a ler?") — revisada, absorveu a antiga p2, regex ok
+  - ✅ Antiga Página 3 → **nova Página 2** ("Antes de nascer, o bebê já é um sujeito de linguagem") — **editada e concluída** (comentários decimal, rodapé, placeholder padrão, legenda "Pilibum.com" centralizada, alt descritivo)
+  - ⏳ **PENDENTE: Antiga Página 4 → nova Página 3** (atividade H5P final da lição) — falta renumerar e fazer os ajustes:
+    - Renumerar comentário para `Módulo 2 - Parte 1 - Lição 1 - Página 3` (decimal)
+    - Criar rodapé (`<!-- FIM: ... -->`)
+    - Remover comentário não padrão "Estrutura alinhada ao Manual da Marca Vaga Lume"
+    - **Corrigir erro no H5P:** o placeholder interno diz `[ARQUIVO_H5P: M1P1L1p4-H5P-question_set.h5p]` (cópia do M1!) — deveria ser `[ARQUIVO_H5P: M2P1L1p4-H5P-...]`
+
+### Pendência estrutural (renomeação de arquivos)
+As movimentações de página deixaram os **nomes de arquivo defasados** — ajustar na próxima revisão:
+- `M2P1L1p3.html` → **`M2P1L1p2.html`** (conteúdo é a página 2)
+- `M2P1L1p4.html` → **`M2P1L1p3.html`** (conteúdo é a página 3)
+- **Nota:** o nome `M2P1L1p1.html` está correto (conteúdo é a página 1)
+- **[PENDÊNCIA MAIOR]** Pasta `M2/ParteI/` ainda usa numeração romana (ParteI) — já registrado na pendência futura de conversão para decimal (Parte I–IV → Parte 1–4)
+
+---
+
 ## Sessão 03/08/2026 — Reorganização e atualização do `.clinerules`
 
 ### Trabalho realizado
