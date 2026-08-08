@@ -9,7 +9,7 @@
 - [ ] **Sem `<style>`**: Nenhuma tag `<style>` ou `<link>` no HTML
 - [ ] **Sem `onclick`**: Nenhum atributo `onclick=""` inline
 - [ ] **Sem CDN**: Nenhum link para Bootstrap, Font Awesome ou outras CDNs
-- [ ] **Placeholders**: Toda imagem em teste tem `src=""` (vazio)
+- [ ] **Placeholders**: Toda imagem provisória usa `src="[cole a imagem aqui]"` (NUNCA `src=""` vazio — o TinyMCE rejeita) + bloco temporário com imagem do placeholder único (`placeholder-800x600.jpeg`) + marcador "⚠️ APAGAR ESTE BLOCO"
 - [ ] **Formato de imagens**: PNG ou JPEG (nunca WebP)
 - [ ] **Atributos de imagem**: Todas têm `width`, `height` e `loading="lazy"`
 

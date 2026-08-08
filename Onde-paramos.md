@@ -1,5 +1,23 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 08/08/2026 — Otimização do `.clinerules` (redução de tamanho) ✅
+
+### Resumo da sessão
+- **Backup criado:** `docs/backups/clinerules-v10-antes-otimizacao-tamanho.md` (cópia integral do `.clinerules` antes das edições)
+- **`docs/project-map.md` criado** (externalização do mapa de pastas + classes `.vagalume-*` + arquivos de consulta — novo arquivo de referência)
+- **`.clinerules` reduzido de 487 → 455 linhas** sem perda de informação:
+  - **N3.2 Componentes** → tabela compacta de decisão (13 componentes, numeração N3.2.1–13 estável; implementação/snippets SEMPRE em `components-library.md`) — elimina dupla manutenção
+  - **N3.3 Mapa de Pastas** → referência curta a `docs/project-map.md`
+  - **N3.5.2 Checklist** → referência a `docs/checklist-entrega.md` (arquivo já existente e mais completo)
+- **`docs/checklist-entrega.md` corrigido:** regra de placeholder atualizada (`src=""` vazio → padrão atual `src="[cole a imagem aqui]"` + placeholder único + marcador "⚠️ APAGAR ESTE BLOCO")
+- **Ancoras verificadas:** N3.2.5 preservado (citado em N3.5.1 e na tabela); referências a project-map e checklist-entrega ativas
+
+### Próximos passos
+- ⏳ **Commit + push** das alterações (aguarda autorização do mestre — sequência N1.8.1)
+- ⏳ **Próxima revisão:** Parte 2 do Módulo 2 (`M2/ParteII/Licao1/`): `M2P2L1p1.html`, `M2P2L1p2.html`, `M2P2L1p3.html`
+
+---
+
 ## 📍 Checkpoint de encerramento — Sessão 08/08/2026 (madrugada) — PARTE 1 DO MÓDULO 2 CONCLUÍDA ✅
 
 ### Resumo da sessão

@@ -367,36 +367,56 @@ Ao escolher um componente, **priorize o contexto sobre a consulta mecânica à b
 
 A **biblioteca completa** de componentes está em `components-library.md` (25 componentes numerados, de botões a carrosséis interativos, incluindo o template de fórum). Esta seção do `.clinerules` documenta as **regras-chave** dos componentes principais; para os snippets completos e todos os demais componentes, **consulte SEMPRE o arquivo da biblioteca**.
 
-A numeração N3.2.X abaixo é **estável** — preservada para manter as referências internas (ex: N3.5.1 cita N3.2.5). Para os snippets completos e regras de implementação, consultar SEMPRE a `components-library.md`.
+### N3.2.1 Botão Primário (CTA)
+Snippet completo na biblioteca (componente 1). Regra-chave: usar `btn btn-primary` com `style` inline de cores Vaga Lume (`#D96F1A`), `border-radius: 8px`, `font-weight: 600`, `target="_blank" rel="noopener noreferrer"` e `aria-label` descritivo. Botões só são usados para links externos/atividades — interações internas usam classes Bootstrap sem `onclick` inline.
 
-| ID | Componente | Quando usar (contexto) | Implementação |
-|----|-----------|------------------------|---------------|
-| N3.2.1 | Botão Primário (CTA) | Links externos/atividades com CTA | Biblioteca, comp. 1 |
-| N3.2.2 | Card de Destaque (Jumbotron) | Citações com autoria, boas-vindas, chamadas | Biblioteca, comp. 2 |
-| N3.2.3 | Bloco de Destaque (Sinopse) | Destaques que não são citações | Biblioteca, comp. 3 |
-| N3.2.4 | Player H5P (Placeholder Nativo) | Atividades H5P (NUNCA iframe manual — usar `.h5p-placeholder` com `contenteditable="false"`; incluir bloco de instruções Template B antes) | Biblioteca, comp. 4 |
-| N3.2.5 | H5P Sem Cabeçalho | Páginas finais de lição (quiz/resumo) — card sem `.vagalume-h5p-header` | Biblioteca, comp. 4 (variação) |
-| N3.2.6 | Galeria de Imagens (Grid) | Múltiplas imagens em linha | Biblioteca, comp. 5 |
-| N3.2.7 | Imagem Flutuante com Figure | Imagem ao lado de texto (`float-md-*` + `flow-root` no container, N2.3.2) | Biblioteca, comp. 6 |
-| N3.2.8 | Bloco de Destaque Isolado | Bloco colorido ao lado de imagem flutuante (encapsular em `.card border-0 bg-transparent`) | Biblioteca, comp. 7 |
-| N3.2.9 | Bloco de Orientação com Ícone (Template B) | Dicas, orientações passo a passo, técnicas de estudo (`d-flex align-items-center` + ícone `fa-*`) | Biblioteca (orientação) |
-| N3.2.10 | Bloco de Descrição com Ícone Pequeno | Variação do Template B para textos mais longos (`fa-lg`, `padding-left: 36px`) | Biblioteca (variação) |
-| N3.2.11 | Vídeo Centralizado com Sinopse | Vídeo com sinopse obrigatória (sub-bloco 560px, `col-lg-8`, ícone `fa-file-text`) | Biblioteca, comp. 23 |
-| N3.2.12 | Lista de Links com Ícone (Playlist) | Lista de links com ícone `fa-play-circle` (último item `mb-0`; links seguem N2.6) | Biblioteca |
-| N3.2.13 | Template de Página de Fórum | Páginas de fórum (título fixo "Fórum: [...]", caixa "Para participar" `fa-comments`, mensagem final `fa-users`; cabeçalho/rodapé conforme N2.2.2) | `templates/components/forum.html` + Biblioteca, comp. 25 |
+### N3.2.2 Card de Destaque (Jumbotron)
+Snippet completo na biblioteca (componente 2). Regra-chave: usar `.vagalume-jumbotron` com `<p class="vagalume-citacao">` para a citação (itálico, marrom) e `<p class="vagalume-autora">` para a autoria (alinhado à direita). Usar para citações, boas-vindas, chamadas introdutórias.
+
+### N3.2.3 Bloco de Destaque (Sinopse)
+Snippet completo na biblioteca (componente 3). Regra-chave: usar `.vagalume-sinopse` com `<p style="margin: 0;">` para texto de destaque ou sinopse. Usar para destaques que não são citações.
+
+### N3.2.4 Player H5P (Placeholder Nativo)
+Snippet completo na biblioteca (componente 4). Regra-chave: NUNCA usar iframes manuais ou classes de proporção (embed-responsive) para H5P — usar exclusivamente a tag nativa `.h5p-placeholder` com `contenteditable="false"`. Sempre incluir um bloco de instruções de uso (Template B, `.vagalume-destaque-bloco` com ícone `fa-info-circle`) imediatamente antes do card H5P.
+
+### N3.2.5 H5P Sem Cabeçalho (Padrão para Páginas Finais de Lição)
+Snippet completo na biblioteca (componente 4 — variação). Regra-chave: em páginas finais de lição (atividades de quiz/resumo), o card H5P **não** recebe `.vagalume-h5p-header`. Apenas `.vagalume-h5p-body` direto dentro de `.vagalume-h5p-card`.
+
+### N3.2.6 Galeria de Imagens (Grid Bootstrap)
+Snippet completo na biblioteca (componente 5). Regra-chave: usar `row` com `col-12 col-md-*` e `figure` com `border-radius: 8px; overflow: hidden;` tanto na figure quanto na img. Imagens com `img-fluid w-100` podem omitir width/height.
+
+### N3.2.7 Imagem Flutuante com Figure (Padrão Estrito)
+Snippet completo na biblioteca (componente 6). Regra-chave: toda imagem flutuante usa `<figure class="figure float-md-right ml-md-4 mb-3">` com `border-radius: 8px; overflow: hidden;` na figure e na img. Página deve ter `style="display: flow-root;"` no container (N2.3.2).
+
+### N3.2.8 Bloco de Destaque Isolado (para uso junto com float)
+Snippet completo na biblioteca (componente 7). Regra-chave: quando um bloco colorido (sinopse, jumbotron) estiver ao lado de uma imagem flutuante, encapsular em `<div class="card mb-4 border-0 bg-transparent">` → `<div class="card-body vagalume-destaque-bloco mb-0">`.
+
+### N3.2.9 Bloco de Orientação com Ícone (Template B)
+Snippet completo na biblioteca (componente de orientação). Regra-chave: `.vagalume-destaque-bloco` com `d-flex align-items-center` contendo `<i class="fa fa-ICONE mr-3" style="font-size: 2rem;">` + `<p class="font-weight-bold mb-0">` para o título, seguido de texto descritivo. Usar para listas de dicas, orientações passo a passo, técnicas de estudo.
+
+### N3.2.10 Bloco de Descrição com Ícone Pequeno (Variação)
+Variação do Template B para textos mais longos. Regra-chave: ícone com `fa-lg` (menor), e corpo do texto com `padding-left: 36px;` para alinhamento com o título.
+
+### N3.2.11 Vídeo Centralizado com Sinopse (Sub-bloco de 560px)
+Snippet completo na biblioteca (componente 23). Regra-chave: `row justify-content-center > col-lg-8 >` sub-bloco `max-width: 560px; margin: 0 auto;`. A sinopse é **obrigatória**. A legenda (comentada no template) só entra quando há texto de legenda/créditos. Usar ícone `fa-file-text` na sinopse.
+
+### N3.2.12 Lista de Links com Ícone (Playlist)
+Snippet completo na biblioteca. Regra-chave: `.vagalume-destaque-bloco` com `ul.list-unstyled mb-0` e itens com `<i class="fa fa-play-circle mr-2">`. Último item sem `mb-2` (usa `mb-0`). Links seguem N2.6.
+
+### N3.2.13 Template de Página de Fórum
+Template completo em `templates/components/forum.html` e documentado na biblioteca (componente 25). Regra-chave: título fixo "Fórum: [título]" em `.vagalume-destaque`, trecho variável do autor, caixa "Para participar" com `fa-comments`, linha tracejada e mensagem final fixa com `fa-users`. Cabeçalho/rodapé: `Módulo X - Parte Y - Fórum Z - Fórum: [título]` (ver N2.2.2).
 
 ---
 
 ## N3.3 Mapa de Pastas e Salvamento de Arquivos
-Consultar sempre o mapa completo em **`docs/project-map.md`** (estrutura de pastas, classes `.vagalume-*`, arquivos de consulta obrigatória). Resumo essencial:
-- **Páginas finais HTML** → `templates/pages/` (subpastas por módulo)
-- **Modelo base** → `templates/pages/base/base.html`
-- **Componentes** → `components-library.md` (snippets); `templates/components/` é reserva para snippets avulsos
-- **`.md` de trabalho** → `content/` (subpastas por módulo)
-- **Storyboards** → NÃO mantemos arquivos separados (apenas o HTML final)
-- **Temp** → `temp/` ("limpar" = apagar conteúdo; "excluir" = deletar a pasta)
-- **Imagens** → `assets/images/` (`capas/`, `ilustracoes/` com subpastas por módulo, `personagens/`, `logos/`)
-- **H5P de origem** → `assets/h5p/` (subpastas por módulo; mesmo nome do placeholder; recursos internos junto ao `.h5p`)
+- **Páginas finais HTML** (prontas para colar no Moodle): `templates/pages/` em subpastas por módulo (ex: `Boas-vindas/`, `M1/`)
+- **Modelo base (snippet de partida)**: `templates/pages/base/base.html`
+- **Componentes reutilizáveis**: documentados em `components-library.md` (23 componentes numerados; a pasta `templates/components/` é reserva para futuros snippets avulsos)
+- **`.md` de trabalho** (convertidos do `.docx` do autor): `content/` em subpastas por módulo
+- **Storyboards**: NÃO mantemos arquivos separados de storyboard — apenas o HTML final (você "pensa" o storyboard como DI e entrega a página pronta)
+- **Pasta temporária**: `temp/` (arquivos do usuário para processamento). **Importante**: "limpar" = apagar conteúdo mantendo a pasta; "excluir" = deletar a pasta.
+- **Imagens**: `assets/images/capas/`, `assets/images/ilustracoes/` (com subpastas por módulo, ex: `M1/`, `M2/`), `assets/images/personagens/`, `assets/images/logos/` (logos institucionais)
+- **Arquivos H5P de origem** (backup local antes do upload no Moodle): `assets/h5p/` em subpastas por módulo (ex: `M1/`, `M2/`) — manter o mesmo nome usado no placeholder (ex: `M2P1L1p3-H5P-question_set.h5p`) para rastreabilidade direta entre página e arquivo. Recursos internos do pacote H5P (imagens/svg usadas no DragDrop) ficam na mesma subpasta junto ao `.h5p`
 
 ---
 
@@ -426,7 +446,19 @@ Ao estruturar uma lição, planeje o conteúdo considerando a navegação padrã
 Os botões são configurados pelo usuário diretamente no Moodle — esta é uma diretriz de planejamento para você como DI.
 
 ### N3.5.2 Checklist de Validação Mental (antes de entregar)
-Validar a página contra o checklist completo em **`docs/checklist-entrega.md`** (categorias: estrutura/segurança, higienização, identidade visual, acessibilidade, flutuação, funcionamento no Moodle). Percorrer TODOS os itens mentalmente antes de entregar o HTML.
+- [ ] O código contém **apenas** o HTML envelopado na `.vagalume-pagina` (sem introduções em texto)?
+- [ ] O comentário inicial padronizado `<!-- Módulo X - Parte Y - [Lição Z -] Página W -->` está presente e correto (Lição opcional)?
+- [ ] Os comentários `<!-- -->` informados no storyboard foram integralmente preservados?
+- [ ] Toda e qualquer tag global `<style>` ou `<script>` externa foi totalmente eliminada?
+- [ ] Textos em CAIXA ALTA e atributos `contenteditable="false"` (exceto no placeholder de H5P) foram corrigidos/removidos?
+- [ ] As tags `<img>` possuem `src=""` (se provisórias), `loading="lazy"`, `width` e `height`?
+- [ ] Os destaques verdes estão apenas em `<span>` e fora das caixas bege?
+- [ ] Vídeos centralizados utilizam o grid `.col-lg-8`, o ícone `fa-file-text` na sinopse e margens unificadas?
+- [ ] A sinopse do vídeo está sempre presente? A legenda optativa foi incluída apenas quando há texto de legenda/créditos?
+- [ ] Elementos H5P estão chamando a classe `.h5p-placeholder` em vez de iframes manuais e rígidos?
+- [ ] Links externos possuem `target="_blank"` + `rel="noopener noreferrer"` + classe `.nomediaplugin`?
+- [ ] Modais e IDs são exclusivos na página?
+- [ ] Usou classes `.vagalume-` em vez de CSS inline sempre que possível?
 
 ---
 
