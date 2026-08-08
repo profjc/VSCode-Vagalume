@@ -640,50 +640,6 @@
 
 ---
 
-
----
-
-## 22. Bloco de Fórum - "Sua Missão no Fórum" (Template Padronizado)
-
-> **Contexto:** Bloco de comando da atividade no final de toda página de fórum. Estrutura fixa com: (1) título variável com ícone `fa-comments`, (2) conteúdo variável (instruções específicas do fórum), (3) linha divisória `hr dashed`, (4) instrução final fixa "Após sua postagem, comente em pelo menos duas participações..." com ícone `fa-users` verde.
-
-> **Regras de uso:**
-> - O título dentro de `<span class="h5 font-weight-bold mb-0">` pode variar (ex: "Sua Missão no Fórum", "Compartilhando Ideias")
-> - O conteúdo intermediário (parágrafos, listas) é variável conforme o tema do fórum
-> - A instrução final com `fa-users` e o texto "Após sua postagem..." deve ser **idêntica** em todos os fóruns
-> - Toda estrutura deve estar encapsulada em `<div class="card mb-4 border-0 bg-transparent">` → `<div class="card-body vagalume-destaque-bloco mb-0">`
-> - Usar `style="color: #261810;"` nos textos internos
-
-```html
-<!-- O Bloco de Comando da Atividade (Sua Missão) -->
-<div class="card mb-4 border-0 bg-transparent">
-  <div class="card-body vagalume-destaque-bloco mb-0">
-    <div class="d-flex align-items-center mb-2">
-      <i class="fa fa-comments mr-2" aria-hidden="true" style="font-size: 1.3rem; color: #5b3925;">&nbsp;</i>
-      <span class="h5 font-weight-bold mb-0" style="color: #261810;">Sua Missão no Fórum</span>
-    </div>
-    <p class="mb-3" style="color: #261810;">Texto com as instruções específicas do fórum.</p>
-    <p class="mb-2 font-weight-bold" style="color: #261810;">Subtítulo opcional:</p>
-    <ul class="mb-3 pl-4" style="color: #261810;">
-      <li class="mb-2">Item da lista 1</li>
-      <li class="mb-0">Item da lista 2 (último, sem margem inferior)</li>
-    </ul>
-    <hr style="border-top: 1px dashed rgba(91, 57, 37, 0.2);">
-    <p class="mb-0 font-italic text-center style-italic" style="color: #261810; font-size: 0.95rem;">
-      <i class="fa fa-users mr-1" aria-hidden="true" style="color: #2e7d32;">&nbsp;</i>
-      Após <strong>sua postagem</strong>, comente em <strong>pelo menos duas participações</strong> de seus colegas para fortalecermos nossa própria rede de aprendizagem!
-    </p>
-  </div>
-</div>
-```
-
-> **Variações comuns:** O título pode ser alterado (ex: "Sua Missão no Fórum", "Compartilhando Ideias", "Refletindo Juntos"). A lista pode ser substituída por parágrafos simples. A instrução final com `fa-users` **nunca** deve ser alterada.
-
----
-
-
----
-
 ## 23. Vídeo com Legenda e Sinopse (Sub-bloco de 560px)
 
 > **Contexto:** Bloco completo para incorporar vídeo do YouTube/Vimeo com legenda/créditos e sinopse. Utiliza sub-bloco de `max-width: 560px` para evitar que o vídeo fique excessivamente largo em telas grandes. A legenda fica entre o vídeo e a sinopse, dentro do mesmo sub-bloco centralizado.

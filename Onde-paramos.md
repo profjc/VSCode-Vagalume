@@ -37,9 +37,9 @@
 
 ### Pendências abertas
 - **[PENDÊNCIA FUTURA]** Numeração romana em páginas/pastas antigas (Parte I–IV → Parte 1–4)
-- **[PENDÊNCIA]** Componente 22 da `components-library.md` ("Bloco de Fórum - Sua Missão no Fórum") obsoleto frente ao novo padrão — aguarda decisão do mestre
+- **[RESOLVIDA em 08/08/2026]** Componente 22 da `components-library.md` ("Bloco de Fórum - Sua Missão no Fórum") obsoleto frente ao novo padrão — **excluído** por decisão do mestre (o novo padrão é o Componente 25 + `templates/components/forum.html`)
 - **[PENDÊNCIA]** Fóruns antigos do M1 (ex: `M1P1F1.html`) não foram reformatados para o novo padrão — aguarda autorização
-- **[PENDÊNCIA]** Página `M2P1L1p1.html` ainda tem o comentário "teste" e o box com a imagem "cosquinha na mamãe" (fonte pipipum.com.br) — verificar se o mestre deseja manter
+- **[RESOLVIDA em 08/08/2026]** Página `M2P1L1p1.html` — os 3 comentários "teste" foram **removidos** (conteúdo intacto: imagem "cosquinha na mamãe" + 2 boxes de destaque são legítimos da página real)
 
 ### Tamanho do `.clinerules`
 - **617 linhas / ~51,8 KB** — gerenciável, mas em crescimento. Sugestões para futura contenção: mover detalhes de componentes para `components-library.md` e manter no `.clinerules` apenas regras e referências.
