@@ -757,4 +757,40 @@
 
 ---
 
+## 25. Template de Página de Fórum
+
+> **Contexto:** Página completa de fórum do curso (atividade Fórum no Moodle). Todos os fóruns seguem **este mesmo formato**: título fixo com prefixo "Fórum: ", trecho de conteúdo livre do autor, caixa de destaque "Para participar" fixa (com ícone `fa-comments`), linha tracejada e mensagem final fixa (com ícone `fa-users`). Apenas o texto central da caixa e o conteúdo livre mudam entre fóruns.
+
+> **Regras de uso:**
+> - **Template base:** `templates/components/forum.html`
+> - **Cabeçalho/rodapé:** padrão `Módulo X - Parte Y - Fórum Z - Fórum: [título completo da página]` (numeração decimal) — ver N2.2.2 do `.clinerules`
+> - **Título fixo:** começa com "Fórum: ", usando `<span class="vagalume-destaque">` dentro de `<p class="h5 font-weight-bold mb-4">`
+> - **Trecho variável:** `[CONTEÚDO_LIVRE_DO_AUTOR]` — pode conter texto, imagens, vídeos etc., seguindo os padrões do projeto (placeholder de imagem, vídeo N3.2.11, galerias N3.2.6)
+> - **Caixa de destaque "Para participar":** içone `fa-comments` + título fixo "Para participar"; o **único elemento variável** é o texto central (`[TEXTO_CENTRAL_VARIÁVEL]`)
+> - **Mensagem final FIXA:** "Após **sua postagem**, comente em **pelo menos duas participações** de colegas para fortalecermos nossa própria rede de aprendizagem!" com ícone `fa-users`
+> - **Recomendado para criação:** copiar o template, substituir `[TÍTULO_COMPLETO]`, `[CONTEÚDO_LIVRE_DO_AUTOR]` e `[TEXTO_CENTRAL_VARIÁVEL]`
+
+```html
+<!-- Módulo X - Parte Y - Fórum Z - Fórum: [TÍTULO_COMPLETO] -->
+<div class="container py-4 vagalume-pagina" style="display: flow-root;">
+  <p class="h5 font-weight-bold mb-4"><span class="vagalume-destaque">Fórum: [TÍTULO_COMPLETO]</span></p>
+
+  [CONTEÚDO_LIVRE_DO_AUTOR]
+
+  <div class="card mb-4 border-0 bg-transparent">
+    <div class="card-body vagalume-destaque-bloco mb-0">
+      <div class="d-flex align-items-center mb-2"><i class="fa fa-comments mr-2" aria-hidden="true" style="font-size: 1.3rem; color: #5b3925;">&nbsp;</i> <span class="h5 font-weight-bold mb-0" style="color: #261810;">Para participar</span></div>
+      [TEXTO_CENTRAL_VARIÁVEL]
+      <hr style="border-top: 1px dashed rgba(91, 57, 37, 0.2);">
+      <p class="mb-0 font-italic text-center style-italic" style="color: #261810; font-size: 0.95rem;"><i class="fa fa-users mr-1" aria-hidden="true" style="color: #2e7d32;">&nbsp;</i> Após <strong>sua postagem</strong>, comente em <strong>pelo menos duas participações</strong> de colegas para fortalecermos nossa própria rede de aprendizagem!</p>
+    </div>
+  </div>
+</div>
+<!-- FIM: Módulo X - Parte Y - Fórum Z - Fórum: [TÍTULO_COMPLETO] -->
+```
+
+> **Exemplo real:** `templates/pages/M2/ParteI/M2P1F1.html` (Fórum 1 da Parte 1 do Módulo 2, revisado em 08/08/2026 seguindo este padrão)
+
+---
+
 > 📝 **Para adicionar novo componente:** Edite este arquivo seguindo o padrão dos exemplos acima.

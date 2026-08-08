@@ -1,5 +1,94 @@
 # Onde paramos
 
+## 📍 Checkpoint de encerramento — Sessão 08/08/2026 (madrugada) — PARTE 1 DO MÓDULO 2 CONCLUÍDA ✅
+
+### Resumo da sessão
+- **Parte 1 do Módulo 2 finalizada:** Lição 1 (3 páginas) + Fórum 1 revisados/ajustados
+- **Recursos de produção organizados:** `assets/h5p/` (por módulo), `assets/images/logos/`, `assets/images/ilustracoes/` (por módulo), `temp/Produção` limpa
+- **Template de fórum criado:** `templates/components/forum.html` (componente 25 da biblioteca)
+- **Padrão de fóruns registrado no `.clinerules` N2.2.2:** `Módulo X - Parte Y - Fórum Z - Fórum: [título completo]`
+- **Aprendizagens registradas no N3.6:** caracteres especiais em arquivos Linux, cuidado com digitação em arquivos abertos, template de fórum, organização `.h5p`
+- **Correção de corrupção no `.clinerules`** (texto digitado acidentalmente no cabeçalho)
+
+### Onde paramos
+- ✅ **Parte 1 do Módulo 2 CONCLUÍDA**
+- ⏳ **PRÓXIMO: Revisão da Parte 2 do Módulo 2** (`M2/ParteII/Licao1/`):
+  - `M2P2L1p1.html`
+  - `M2P2L1p2.html`
+  - `M2P2L1p3.html`
+
+### Pendências abertas
+- **[PENDÊNCIA FUTURA]** Numeração romana em páginas/pastas antigas (Parte I–IV → Parte 1–4)
+- **[PENDÊNCIA]** Componente 22 da `components-library.md` ("Bloco de Fórum - Sua Missão no Fórum") obsoleto frente ao novo padrão — aguarda decisão do mestre
+- **[PENDÊNCIA]** Fóruns antigos do M1 (ex: `M1P1F1.html`) não foram reformatados para o novo padrão — aguarda autorização
+- **[PENDÊNCIA]** Página `M2P1L1p1.html` ainda tem o comentário "teste" e o box com a imagem "cosquinha na mamãe" (fonte pipipum.com.br) — verificar se o mestre deseja manter
+
+### Tamanho do `.clinerules`
+- **617 linhas / ~51,8 KB** — gerenciável, mas em crescimento. Sugestões para futura contenção: mover detalhes de componentes para `components-library.md` e manter no `.clinerules` apenas regras e referências.
+
+---
+
+## Sessão 08/08/2026 — Criação do Template de Página de Fórum (padrão definitivo)
+
+### Trabalho realizado
+- **Criado o template base de fórum:** `templates/components/forum.html`
+- **Estrutura fixa do padrão de fóruns** (confirmada pelo mestre em 08/08/2026):
+  1. **Título:** sempre começa com "Fórum: " — `<p class="h5 font-weight-bold mb-4"><span class="vagalume-destaque">Fórum: [TÍTULO_COMPLETO]</span></p>`
+  2. **Trecho variável:** `[CONTEÚDO_LIVRE_DO_AUTOR]` — pode conter texto, imagens, vídeos etc. (padrões do projeto)
+  3. **Caixa de destaque "Para participar"** (fixa): ícone `fa-comments` + título fixo "Para participar" + texto central variável `[TEXTO_CENTRAL_VARIÁVEL]` + linha tracejada + mensagem final FIXA com `fa-users`: "Após **sua postagem**, comente em **pelo menos duas participações** de colegas para fortalecermos nossa própria rede de aprendizagem!"
+  4. **Cabeçalho/rodapé:** padrão `Módulo X - Parte Y - Fórum Z - Fórum: [título completo]` (decimal)
+- **`components-library.md` atualizado:** novo **componente 25 — Template de Página de Fórum** com regras de uso, snippet e referência ao exemplo real (`M2P1F1.html`)
+- **Observação:** o componente 22 da biblioteca ("Bloco de Fórum - Sua Missão no Fórum") ficou **obsoleto/desatualizado** (título antigo, mensagem final com "seus colegas", texto antigo). **Não foi alterado sem autorização** (regra N1.5) — aguarda decisão do mestre sobre revisão/remoção.
+
+---
+
+## Sessão 08/08/2026 — Revisão e edição da Página do Fórum 1 da Parte 1 (M2P1F1.html)
+
+### Trabalho realizado
+- **Página revisada e editada:** `templates/pages/M2/ParteI/M2P1F1.html` (Fórum 1 — Parte 1 do Módulo 2)
+- **Cabeçalho padronizado:** `<!-- Módulo 2 - Parte 1 - Fórum 1 - Fórum: Quando começa a história de um leitor ou leitora? -->` (decimal + identificador `Fórum 1 -` + título completo; comentário não padrão "Estrutura alinhada ao Manual da Marca Vaga Lume" removido)
+- **Rodapé criado:** `<!-- FIM: Módulo 2 - Parte 1 - Fórum 1 - Fórum: Quando começa a história de um leitor ou leitora? -->`
+- **Título da página alterado:** → "Fórum: Quando começa a história de um leitor ou leitora?"
+- **Título da caixa destacada alterado:** "Sua Missão no Fórum" → **"Para participar"** (ícone `fa-comments` mantido)
+- **Texto da caixa atualizado:** "experiências" → "vivências"; "responda ao seguinte questionamento" → "responda à seguinte pergunta"; removidas a linha "Escreva sua contribuição refletindo sobre:" e a lista; pergunta em negrito direto
+- **Texto final após linha pontilhada:** removido "seus" ("de colegas" em vez de "de seus colegas")
+- **Nova regra registrada no `.clinerules` N2.2.2 (padrão de fóruns):** `Módulo X - Parte Y - Fórum Z - [título completo da página]` — "Fórum Z -" é identificador do tipo de atividade (análogo a "Lição Z -"); título completo entra em seguida incluindo o prefixo "Fórum: " se o título da página o tiver. Confirmado pelo mestre em 08/08/2026 como padrão para todos os fóruns.
+- **Nota técnica:** a edição usou `write_to_file` para contornar caracteres NBSP não visíveis nos ícones (o `replace_in_file` falhava no casamento exato)
+
+---
+
+## Sessão 08/08/2026 — Criação de `assets/h5p/` + organização definitiva dos recursos de produção (madrugada)
+
+### Contexto
+- O mestre copiou para `temp/Produção/` os arquivos de recursos já criados (H5P, imagens, logos, backup do Moodle) organizados por módulo
+- Objetivo: analisar a melhor forma de armazenar e mover para as pastas corretas
+
+### Trabalho realizado
+- **Criada a estrutura definitiva de recursos:**
+  - `assets/h5p/` → subpastas por módulo (`M1/`, `M2/`) — backup local dos `.h5p` de origem antes do upload no Moodle
+  - `assets/images/logos/` → logos institucionais (BOAS-VINDAS)
+  - `assets/images/ilustracoes/M1/` e `M2/` → imagens de conteúdo por módulo
+- **Movidos 37 arquivos de `temp/Produção/`:**
+  - **2 logos** (`LOGO_VAGALUME_RGB-transp-pq.png`, `VanLeer_block_black.png`) → `assets/images/logos/`
+  - **4 `.h5p` do M1** + **15 recursos internos** (.png/.svg do DragDrop M1P3L2p5) → `assets/h5p/M1/`
+  - **10 `.h5p` do M2** → `assets/h5p/M2/`
+  - **10 imagens do M1** → `assets/images/ilustracoes/M1/` (carrossel p5, M1P1F1, Heckman, etc.)
+  - **8 imagens do M2** → `assets/images/ilustracoes/M2/` (cosquinha, leitura-bebes, tirinhas, etc.)
+- **Backup do Moodle excluído** por decisão do mestre: `backup-moodle2-course-2-flpi-20260712-0225-nu.mbz` (não é versionado no repositório)
+- **Nomes padronizados** (decisão do mestre): acentos removidos, espaços → `_`, travessão `–` → `-`, parênteses removidos (via Python para segurança com caracteres especiais)
+  - Ex: `M1P2L1-Quiz Crescer é descobrir o mundo.h5p` → `M1P2L1-Quiz_Crescer_e_descobrir_o_mundo.h5p`
+  - Ex: `M2P1L1p4-caça-palavras.h5p` → `M2P1L1p4-caca-palavras.h5p`
+- **`temp/Produção` limpa** (removida — "limpar" = apagar conteúdo mantendo a pasta `temp/`)
+- **`.gitkeep` de `assets/h5p/` removido** (as subpastas receberam conteúdo real; decisão "mais inteligente")
+- **`.clinerules` N3.3 atualizado:** `assets/h5p/` em subpastas por módulo; recursos internos do pacote H5P (imagens/svg do DragDrop) ficam junto ao `.h5p`; `assets/images/logos/` adicionada; `ilustracoes/` com subpastas por módulo
+- **Correção de corrupção no `.clinerules`:** o texto digitado pelo mestre na janela do VS Code ("ficando tudo junto e bagunçado?") estava inserido na linha 4 do cabeçalho HTML — **removido**; o `.clinerules` está íntegro
+- **Diagnóstico do `Onde-paramos.md`:** NÃO estava estragado — a edição anterior (bloco de 08/08) não havia sido aplicada; conteúdo íntegro
+
+### Registro de aprendizados (N3.6 — a consolidar)
+- Arquivos com caracteres especiais (acentos, travessões, parênteses) no Linux: usar `find`/`ls -b`/Python para inspecionar e renomear com segurança, evitando falhas de encoding no shell
+
+---
+
 ## Sessão 07/08/2026 — Nova seção "Síntese do Módulo 1" (Parte 5) + convenção de numeração decimal
 
 ### Trabalho realizado
@@ -92,17 +181,21 @@
 ### Onde paramos
 - **Lição 1 do Módulo 2 (O Bebê e a Linguagem):**
   - ✅ Página 1 ("Quando começamos a ler?") — revisada, absorveu a antiga p2, regex ok
-  - ✅ Antiga Página 3 → **nova Página 2** ("Antes de nascer, o bebê já é um sujeito de linguagem") — **editada e concluída** (comentários decimal, rodapé, placeholder padrão, legenda "Pilibum.com" centralizada, alt descritivo)
-  - ⏳ **PENDENTE: Antiga Página 4 → nova Página 3** (atividade H5P final da lição) — falta renumerar e fazer os ajustes:
-    - Renumerar comentário para `Módulo 2 - Parte 1 - Lição 1 - Página 3` (decimal)
-    - Criar rodapé (`<!-- FIM: ... -->`)
-    - Remover comentário não padrão "Estrutura alinhada ao Manual da Marca Vaga Lume"
-    - **Corrigir erro no H5P:** o placeholder interno diz `[ARQUIVO_H5P: M1P1L1p4-H5P-question_set.h5p]` (cópia do M1!) — deveria ser `[ARQUIVO_H5P: M2P1L1p4-H5P-...]`
+  - ✅ Página 2 ("Antes de nascer, o bebê já é um sujeito de linguagem") — **editada e concluída** (comentários decimal, rodapé, placeholder padrão, legenda "Pilibum.com" centralizada, alt descritivo)
+  - ✅ **Página 3 ("Atividade: Primeiras leituras") — ajustada e concluída** (antiga Página 4, H5P final da lição):
+    - Comentário de abertura renumerado: `<!-- Módulo 2 - Parte 1 - Lição 1 - Página 3 - Atividade: Primeiras leituras -->` (decimal + título)
+    - Rodapé criado: `<!-- FIM: Módulo 2 - Parte 1 - Lição 1 - Página 3 - Atividade: Primeiras leituras -->`
+    - Comentário não padrão "Estrutura alinhada ao Manual da Marca Vaga Lume" removido
+    - **Erro do H5P corrigido:** placeholder agora é `[ARQUIVO_H5P: M2P1L1p3-H5P-question_set.h5p]` (era cópia do M1)
+    - Estrutura de divs reescrita corretamente após corrupção no fechamento
+    - **Conteúdo atualizado (com texto fornecido pelo mestre):**
+      - Primeiro parágrafo substituído: "Vimos que a leitura começa muito antes da alfabetização propriamente dita..."
+      - Caixa de destaque substituída pelo **Template B** (N3.2.9) com ícone `fa fa-pencil-square` (FA4.7, equivalente ao pen-to-square do FA6 — aprovado pelo mestre), título "Colocando em prática" e novo texto
+      - Card H5P permanece intacto
 
-### Pendência estrutural (renomeação de arquivos)
-As movimentações de página deixaram os **nomes de arquivo defasados** — ajustar na próxima revisão:
-- `M2P1L1p3.html` → **`M2P1L1p2.html`** (conteúdo é a página 2)
-- `M2P1L1p4.html` → **`M2P1L1p3.html`** (conteúdo é a página 3)
+### Pendência estrutural (renomeação de arquivos) — ✅ RESOLVIDA em 07/08/2026
+- ✅ `M2P1L1p3.html` → **`M2P1L1p2.html`** (conteúdo é a página 2) — feito via `git mv`
+- ✅ `M2P1L1p4.html` → **`M2P1L1p3.html`** (conteúdo é a página 3) — feito via `git mv`
 - **Nota:** o nome `M2P1L1p1.html` está correto (conteúdo é a página 1)
 - **[PENDÊNCIA MAIOR]** Pasta `M2/ParteI/` ainda usa numeração romana (ParteI) — já registrado na pendência futura de conversão para decimal (Parte I–IV → Parte 1–4)
 
