@@ -50,15 +50,6 @@ PARE e peça ao usuário para alternar para ACT mode se:
 
 Template: "O plano está definido. Por favor, alterne para **ACT mode** para que eu possa gerar e salvar os arquivos."
 
-### N1.3.3 Ciclo de Trabalho Conjunto (PLAN → ACT → validação) — firmado em 09/08/2026
-Regras permanentes de colaboração com o mestre, aplicáveis a TODAS as tarefas:
-
-1. **PLAN MODE planeja** — toda decisão, estratégia ou análise de conteúdo é discutida EXCLUSIVAMENTE em PLAN MODE. Nunca planejar em ACT MODE.
-2. **ACT MODE apenas executa** — UMA página/arquivo por vez.
-3. **Entrega única por ciclo:** ao concluir a execução no ACT MODE (salvar arquivo + devolver foco ao VS Code), a tarefa é INTERROMPIDA e o mestre é solicitado para validação. Só então, ao retornar ao PLAN MODE, planeja-se a próxima página.
-4. **Nunca lote:** é PROIBIDO executar múltiplas páginas de uma vez. Cada página/arquivo tem seu ciclo próprio: PLAN → ACT → validação.
-5. **Todo plano apresentado em PLAN MODE deve incluir explicitamente:** "Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa."
-
 ---
 
 ## N1.4 Regras Gerais de Performance e Comportamento

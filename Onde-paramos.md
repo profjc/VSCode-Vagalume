@@ -1,5 +1,17 @@
 # Onde paramos
 
+## 📍 Registro — 09/08/2026 — Nova regra permanente N1.3.3 (Ciclo de Trabalho Conjunto)
+
+- **Criada a subseção `N1.3.3 Ciclo de Trabalho Conjunto (PLAN → ACT → validação)`** no `.clinerules`, firmada em 09/08/2026 a pedido do mestre:
+  1. PLAN MODE planeja (nunca planejar em ACT)
+  2. ACT MODE executa UMA página/arquivo por vez
+  3. Entrega única por ciclo → interrompe → mestre valida → volta ao PLAN
+  4. Nunca lote (proibido executar múltiplas páginas de uma vez)
+  5. Todo plano deve incluir explicitamente a instrução de interrupção após o ACT
+- **Backup criado:** `docs/backups/clinerules-v11-antes-ciclo-trabalho.md`
+- **Motivação:** violação ocorrida em 09/08/2026 — planejamento realizado em ACT MODE pelo agente; mestre solicitou registro permanente.
+
+---
 ## 📍 Checkpoint — Sessão 09/08/2026 (madrugada) — PARTE 3 DO MÓDULO 2 CONCLUÍDA ✅
 
 ### Resumo da sessão
