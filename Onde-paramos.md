@@ -1,5 +1,59 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 09/08/2026 (madrugada) — PARTE 3 DO MÓDULO 2 CONCLUÍDA ✅
+
+### Resumo da sessão
+- **Parte 3 do Módulo 2 ("O que é mediar leitura com a Primeira Infância?") revisada por completo:**
+  - **Lição 1 (O Papel da Mediação):** p1 (`M2P3L1p1.html` — tirinha da Magali centralizada), p2 (`M2P3L1p2.html` — sem imagem), p3 (`M2P3L1p3.html` — Atividade: Aproximando livros de crianças)
+  - **Lição 2 (Mediação e Ação Cultural):** p1 (`M2P3L2p1.html` — tirinha piscina flutuante), p2 (`M2P3L2p2.html` — O que é ação cultural?), p3 (`M2P3L2p3.html` — Atividade: A leitura como experiência cultural) — pasta `Licao2` criada
+  - **Fórum:** `M2P3F1.html` criado (Fórum: Relembrando uma experiência de mediação em sua vida)
+- **Padrões aplicados:** comentários abertura/rodapé decimal + título, remoção do comentário não padrão, placeholders padrão (URL fixa + "⚠️ APAGAR ESTE BLOCO"), padrão de atividade (BOX "Colocando em prática" + card H5P sem cabeçalho), template de fórum padrão.
+- **Decisões do mestre:** título da atividade 1 = "Aproximando livros de crianças" (renomeado no Moodle); negrito "ação cultural" na p1 Lição 2 (do DI); fórum com texto revisado do autor (Opção A — sem "Para continuar...").
+- **Página em foco:** `templates/pages/M2/ParteIII/M2P3F1.html`
+
+### Limpeza realizada
+- Renomeada imagem: `N2P3L2p1-garoto_piscina_livros.png` → `M2P3L2p1-garoto_piscina_livros.png`
+- Excluídos temporários: `temp/p1.html`, `temp/p2.html`, `temp/p3.html`
+- Placeholder da p3 Lição 2 alinhado: `[ARQUIVO_H5P: M2P3L2p3-question-Set.h5p]` (bate com arquivo local renomeado pelo mestre)
+- H5P antigo `M2P3L2-question-Set.h5p` já removido pelo mestre (renomeado para `M2P3L2p3-question-Set.h5p`)
+
+### Pendências abertas
+- **Moodle:** colar/reordenar fórum `M2P3F1.html` como última ação da Parte 3 (mestre confirmou "5 - ok" nas pendências)
+- **Lumi:** criar H5P `M2P3L1p3-question_set-aproximando_livros.h5p` (mestre já criou `M2P3L1p3-h5p-qset.h5p` — verificar correspondência)
+- **PRÓXIMO:** Parte 4 do Módulo 2 ("Escolhendo livros para mediar com a Primeira Infância") — revisar conforme `temp/Ajustes_Módulo 2.md` (linhas ~530+)
+
+---
+## 📍 Checkpoint — Sessão 08/08/2026 (noite) — PARTE 2 DO MÓDULO 2: INICIANDO REVISÃO (antes da ação) 🔄
+
+### Estado antes da ação
+- **Fonte de ajustes:** `temp/Ajustes_Módulo 2.md` (linhas 257–299) — instruções do autor para a Parte 2.
+- **Plano completo salvo em:** `temp/plano-parte2.md` (retomada em caso de travamento).
+- **Decisões confirmadas pelo mestre nesta sessão:**
+  1. Título da atividade: `Atividade: Ler para bebês: o que essa prática nos revela?` (sem caixa alta, ":" no lugar de "|").
+  2. Texto introdutório "Já vimos até aqui..." permanece no topo da página unificada.
+  3. Legenda do vídeo: TODAS as barras "|" do autor → ":" (acessibilidade): `Ler para bebê: a importância da leitura na primeira infância: Canal: Ler é uma Viagem (YouTube): 22min07s`.
+  4. Remoção do título do card H5P é EXPERIMENTAL (não vira regra nova até avaliação do mestre).
+  5. **NOVA REGRA:** registrar checkpoint em `Onde-paramos.md` ANTES de qualquer ação longa/complexa.
+- **Estado atual das páginas (NÃO modificadas ainda):**
+  - `M2P2L1p1.html` — BOX "Se bebês não leem..." + texto "Já vimos até aqui..." + foto draft + legenda antiga; sem rodapé; comentário não padrão presente.
+  - `M2P2L1p2.html` — parágrafo do vídeo (nome em negrito) + vídeo + legenda créditos + sinopse; sem rodapé; comentário não padrão presente.
+  - `M2P2L1p3.html` — BOX com frase "Depois de assistir..." + card H5P COM cabeçalho; sem rodapé; comentário não padrão presente.
+
+### Progresso (atualizado 08/08/2026 ~23h20)
+- ✅ **PASSO 1 CONCLUÍDO E VALIDADO:** `M2P2L1p1.html` reescrita — página unificada (texto "Já vimos até aqui..." + parágrafo vídeo com trecho completo em negrito + vídeo + legenda nova com ":" + rodapé). Sem BOX, sem foto, sem sinopse. Mestre validou: "Ficou bom. Estamos evoluindo."
+- ✅ **PASSO A CONCLUÍDO:** atividade reescrita (parágrafo inicial fora do BOX, BOX "Colocando em prática" com ícone `fa-pencil-square`, parágrafo final fora do BOX, card H5P sem cabeçalho, `<strong>` da comanda preservados, rodapé criado).
+- ✅ **PASSO B CONCLUÍDO:** antiga `M2P2L1p2.html` excluída via `git rm`.
+- ✅ **PASSO C CONCLUÍDO:** `git mv M2P2L1p3.html M2P2L1p2.html`.
+- ✅ **PASSO D CONCLUÍDO:** foco devolvido ao VS Code no arquivo renomeado.
+- ⏳ **Aguardando validação do mestre no Moodle:** colar nova p2 (atividade) substituindo a antiga p3; remover antiga p2; ajustar lógica do H5P (2 verdadeiras) no Lumi.
+- ⏳ **PASSO 4 (registros)** — pendências M1, biblioteca e `.clinerules` quando autorizado.
+
+### Pendência nova mapeada no MÓDULO 1 (NÃO executar agora)
+- **`M1P1L1p3.html`** — única página do M1 com vídeo + BOX de sinopse → afetada pela nova regra "nenhum vídeo terá sinopse".
+- Não afetadas: `M1P3L1p4.html` (sinopse sem vídeo), `M1P2L1p2.html`, `M1P4L1p3.html`, `M1P4F1.html` (vídeo sem sinopse).
+
+---
+
 ## 📍 Checkpoint — Sessão 08/08/2026 — Otimização do `.clinerules` (redução de tamanho) ✅
 
 ### Resumo da sessão
