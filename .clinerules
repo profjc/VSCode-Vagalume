@@ -288,6 +288,14 @@ Imagens ou cards que funcionem como botões/gatilhos interativos devem possuir `
 - Usar `h1`, `h2`, `h3`... preferencialmente sem pular níveis.
 - É aceitável usar `h1` → `h3` (sem `h2`) quando o layout visual não exigir subtítulo intermediário, desde que não haja saltos maiores (ex: `h1` → `h4` ou `h2` → `h5`), para manter a navegabilidade semântica.
 
+### N2.4.12 Verificação de Acessibilidade Obrigatória em TODAS as Páginas (10/08/2026)
+Toda página **gerada futuramente** ou **revisada** deve passar pela verificação de acessibilidade, com os ajustes corretamente indicados e feitos desde o início — não como correção posterior. Itens obrigatórios:
+- **Descrição longa de imagens** no padrão N2.4.7: `<p class="sr-only" id="figX-desc">` + `alt=""` na imagem + `role="presentation"` + `aria-labelledby="figX-desc"` — **sem duplicidade de leitura** (nunca `sr-only` **e** `alt` preenchidos ao mesmo tempo; nunca `<span class="sr-only">` ou `<div class="sr-only">` — usar sempre `<p class="sr-only" id="figX-desc">`).
+- **Atributos completos de imagem** (N2.1.1.4): `width`, `height` e `loading="lazy"` em todas as imagens.
+- **Hierarquia de headings** (N2.4.11), `aria-hidden="true"` em ícones decorativos, `title` acessível em vídeos, sem snippet VLibras (N2.4.10).
+- **Legendas de figuras** centralizadas (`figure-caption text-center mt-2`).
+- Precedente: auditoria de acessibilidade do Módulo 2 (10/08/2026) — 36 páginas auditadas, 7 pendências corrigidas (padrão N2.4.7 + atributos de imagem).
+
 ---
 
 ## N2.5 Fidelidade ao Texto do Autor
@@ -477,3 +485,4 @@ Em qualquer parte (bloco) do curso que possua fórum, o fórum deve ser **SEMPRE
 - **Título de páginas de atividade: conferir prefixo "Atividade:" no Moodle (09/08/2026)**: Quando o card H5P original trouxer `Atividade: [nome]` no cabeçalho (`.vagalume-h5p-header`), essa é a indicação do título da página da atividade. Ao planejar, além de registrar o título nos comentários (`... - Página W - Atividade: [nome]`), incluir no checklist do mestre a verificação de que o **título no Moodle** contenha o prefixo `Atividade: [nome]` — o HTML original não expõe o título configurado no Moodle. Precedente: P5 da Lição 4 da Parte 4 — o título no Moodle estava sem o prefixo "Atividade:" (detectado pelo mestre em 09/08/2026).
 - **Fórum deve estar previsto no plano desde o início (09/08/2026)**: Ao planejar QUALQUER parte (bloco) com fórum, o plano DEVE incluir a etapa do fórum (reescrita + posicionamento no final da parte) desde o início — junto com as lições e atividades. Violado na Parte 4 do Módulo 2: o fórum ficou fora do plano inicial e só foi percebido quando o mestre perguntou "temos ainda um fórum?". Regra permanente registrada em N3.5.3.
 - **Nome dos fóruns no Moodle = "Compartilhando idéias" (10/08/2026)**: No Moodle, o nome de TODOS os fóruns é "Compartilhando idéias". O HTML da página do fórum sempre traz o **título descritivo** (ex.: "Fórum: Cuidar de si também é cuidar do coletivo"). Ao conferir Moodle × repositório, o nome no Moodle não muda — apenas o conteúdo/título descritivo do HTML. Importante para o mestre e para o agente não confundirem as duas coisas.
+- **Verificação de acessibilidade padrão em toda página (10/08/2026)**: Ao gerar ou revisar qualquer página, aplicar e verificar o padrão N2.4.7 (descrição longa `figX-desc` + `aria-labelledby`, sem duplicidade com `alt`) e os atributos de imagem (`width`/`height`/`loading="lazy"`) desde o início — não como correção posterior. Precedente: auditoria do Módulo 2 (10/08/2026) — 7 pendências, incluindo duplicidade `sr-only` + `alt` e imagens sem dimensões. Regra permanente N2.4.12.

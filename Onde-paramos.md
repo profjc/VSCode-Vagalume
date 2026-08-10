@@ -1,5 +1,64 @@
 # Onde paramos
 
+## 📍 Checkpoint de encerramento — Sessão 10/08/2026 — AUDITORIAS DE ACESSIBILIDADE M2 ✅ + BOAS-VINDAS ✅ CONCLUÍDAS + CHECKLIST VALIDADO ✅
+
+### Resumo da sessão (encerramento)
+- **Auditoria de acessibilidade Módulo 2:** 36/36 páginas conformes — 7 pendências corrigidas e validadas (`docs/relatorio-acessibilidade-m2.md`).
+- **Auditoria de acessibilidade Módulo Boas-vindas:** 4/4 páginas conformes — 8 pendências corrigidas (`docs/relatorio-acessibilidade-boas-vindas.md`).
+- **Auditoria completa Boas-vindas (checklist integral):** 4/4 conformes, 0 pendências novas (`docs/relatorio-checklist-boas-vindas.md`).
+- **Regra N2.4.12** registrada no `.clinerules` (verificação de acessibilidade obrigatória em TODA página) + lição no N3.6.
+- **`docs/pendencias-projeto.md` criado** (7 pendências do projeto em ordem de prioridade; item 2 concluído).
+- **`docs/checklist-entrega.md` atualizado:** aprendizados da auditoria (N2.4.12, URL fixa, marcador, palavras em inglês) + comentário de abertura/rodapé (N2.2.2) + nomeação de arquivos (N3.3).
+- **Prompt genérico de descrição de imagem** entregue ao mestre para uso com IA descritora (descrição longa N2.4.7).
+
+### Pendências do projeto (aguardando material do mestre)
+1. Imagem faltante da `M2P4L3p1.html` (Acervo Vaga Lume)
+2. ~~Revisão de acessibilidade do módulo Boas-vindas~~ ✅ CONCLUÍDA (10/08/2026)
+3. Imagens da capa do site
+4. Banner e textos da página inicial do curso
+5. Revisão do autor para o Módulo 1
+6. Entrega do Módulo 3 pronto para DI (`content/M3/` vazio)
+7. Entrega do Módulo 4 pronto para DI (`content/M4/` vazio)
+
+### Tarefas do mestre no Moodle (pendentes da sessão)
+- **Boas-vindas:** colar as 4 páginas corrigidas (substituição completa) + subir logotipos reais nos placeholders (P3 e P4).
+- **Módulo 2:** colar as 7 páginas corrigidas pela auditoria de acessibilidade.
+
+### Próximos passos (próxima sessão)
+- Conferência Moodle × repositório das páginas corrigidas.
+- Pendências do projeto quando o mestre tiver material (imagem acervo, capa, banner/home).
+- Módulo 3 quando o DI chegar.
+
+---
+
+## 📍 Checkpoint — 10/08/2026 — AUDITORIAS DE ACESSIBILIDADE M2 ✅ + BOAS-VINDAS ✅ CONCLUÍDAS (40 páginas no total)
+
+### Auditoria Módulo 2 — CONCLUÍDA (10/08/2026)
+- **36 páginas auditadas → 36/36 conformes.**
+- **7 pendências corrigidas e validadas** (padrão N2.4.7 + atributos de imagem):
+  - `M2P3L1p1.html` (Tirinha Magali), `M2P3L2p1.html` (Garoto piscina), `M2P4L1p1.html` (Tirinha Macanudo), `M2P4L3p1.html` (Acervo Vaga Lume), `M2P4L4p1.html` (May_1), `M2P4L4p2.html` (May_2), `M2P5L2p1.html` (Kaio).
+- **Regra permanente criada:** N2.4.12 (verificação de acessibilidade obrigatória em toda página) + N3.6.
+- **Relatório:** `docs/relatorio-acessibilidade-m2.md` (pendências marcadas como corrigidas).
+
+### Auditoria Módulo Boas-vindas — CONCLUÍDA ✅ (10/08/2026)
+- **Fonte:** `docs/relatorio-acessibilidade-boas-vindas.md`.
+- **4 páginas auditadas → 4/4 conformes.** **8 pendências corrigidas e validadas:**
+  - **P1 Apresentação:** `font-size: 1.2rem` inline → classe `.h5` (N2.2.4).
+  - **P2 Dicas:** `font-style-italic` → `font-italic` (classe real do Bootstrap 4).
+  - **P3 Conheça:** duplicidade `alt`+`sr-only` eliminada (leitura única) + placeholder URL fixa + marcador + atributos reais do logotipo (`256×251`, exibição 90px preservada).
+  - **P4 Parceria:** `width`/`height` reais nos 2 logotipos (Van Leer `1295×1801`, Vaga Lume `256×251` — exibição 90px preservada) + 2 placeholders URL fixa + marcador.
+- **Regra N2.4.12 aplicada em todo o módulo.**
+- **Relatório:** `docs/relatorio-acessibilidade-boas-vindas.md` (marcado como concluído).
+- **Pendências do projeto:** item 2 marcado como ✅ no `docs/pendencias-projeto.md`.
+
+### Próximos passos possíveis
+- **Pendência #1 do projeto:** imagem faltante da `M2P4L3p1.html` (Acervo Vaga Lume).
+- **Pendências #3 e #4 do projeto:** imagens da capa do site + banner/textos da página inicial do curso.
+- Conferência Moodle × repositório.
+- Commit + push quando autorizado (regra N1.8).
+
+---
+
 ## 📍 Checkpoint — 10/08/2026 — PARTE 6 DO MÓDULO 2 CONCLUÍDA ✅ (Síntese do Módulo 2)
 
 ### Resumo da sessão
