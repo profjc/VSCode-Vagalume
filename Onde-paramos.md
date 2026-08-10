@@ -1,5 +1,27 @@
 # Onde paramos
 
+## 📍 Checkpoint — 10/08/2026 — PARTE 6 DO MÓDULO 2 CONCLUÍDA ✅ (Síntese do Módulo 2)
+
+### Resumo da sessão
+- **Parte 6 do Módulo 2 ("Síntese do Módulo 2") criada do zero** (primeira vez que as páginas foram geradas sem versão pronta recebida):
+  - **Label:** `templates/pages/labels/M2_Label_Parte6_Sintese_do_modulo_2.html` — "Parte 6 / Síntese do Módulo 2" (padrão das etiquetas M2)
+  - **Página 1** (`templates/pages/M2/Parte6/M2P6P1.html`): "O que aprendemos no Módulo 2?" — parágrafo introdutório + **6 cards de síntese** (padrão do M1P5P1) com ícones correspondentes e textos do autor (linhas 961–983)
+  - **Página 2** (`templates/pages/M2/Parte6/M2P6P2.html`): "Referências Bibliográficas — Módulo 2" — padrão visual do M1P5P2, com os dados do autor (linhas 988–1002)
+- **Referências ABNT:** não estão 100% no padrão (faltam anos de publicação, URLs completas e datas de acesso) — decisão do mestre: usar apenas os dados fornecidos; o mestre verificará com o autor como completar.
+- **Novos arquivos criados:** `M2_Label_Parte6_Sintese_do_modulo_2.html`, `M2P6P1.html`, `M2P6P2.html` (pasta `Parte6/` criada).
+
+### Tarefas do mestre no Moodle (checklist final da Parte 6)
+- [ ] Colar o **label da Parte 6** no Moodle (novo rótulo da seção)
+- [ ] Colar a **Página 1** (`M2P6P1.html`) — Síntese / "O que aprendemos no Módulo 2?"
+- [ ] Colar a **Página 2** (`M2P6P2.html`) — Referências Bibliográficas
+- [ ] **Verificar com o autor** os dados ABNT das referências (anos, URLs completas, datas de acesso)
+- [ ] Validar a navegação da seção (próximo/anterior)
+
+### Próximo
+- **Módulo 2 COMPLETO** (Apresentação + Partes 1 a 6 + fóruns). **PRÓXIMO:** Módulo 3 — aguardando documento de DI (`content/M3/` vazio).
+
+---
+
 ## 📍 Checkpoint — 10/08/2026 — PARTE 5 DO MÓDULO 2 CONCLUÍDA ✅
 
 ### Resumo da sessão
