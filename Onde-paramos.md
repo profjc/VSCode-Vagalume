@@ -20,13 +20,21 @@
 6. Entrega do Módulo 3 pronto para DI (`content/M3/` vazio)
 7. Entrega do Módulo 4 pronto para DI (`content/M4/` vazio)
 
-### Tarefas do mestre no Moodle (pendentes da sessão)
-- **Boas-vindas:** colar as 4 páginas corrigidas (substituição completa) + subir logotipos reais nos placeholders (P3 e P4).
-- **Módulo 2:** colar as 7 páginas corrigidas pela auditoria de acessibilidade.
+### Tarefas do mestre no Moodle — ✅ CONCLUÍDAS (10/08/2026)
+- ✅ **Boas-vindas:** 4 páginas corrigidas coladas no Moodle (substituição completa) + logotipos reais subidos nos placeholders (P3 e P4).
+- ✅ **Módulo 2:** 7 páginas corrigidas pela auditoria de acessibilidade coladas no Moodle.
+
+### Pendências restantes — apenas as do PROJETO (docs/pendencias-projeto.md)
+1. [ ] Imagem faltante da `M2P4L3p1.html` (Acervo Vaga Lume)
+2. ~~Revisão de acessibilidade do módulo Boas-vindas~~ ✅ CONCLUÍDA (10/08/2026)
+3. [ ] Imagens da capa do site
+4. [ ] Banner e textos da página inicial do curso
+5. [ ] Revisão do autor para o Módulo 1
+6. [ ] Entrega do Módulo 3 pronto para DI (`content/M3/` vazio)
+7. [ ] Entrega do Módulo 4 pronto para DI (`content/M4/` vazio)
 
 ### Próximos passos (próxima sessão)
-- Conferência Moodle × repositório das páginas corrigidas.
-- Pendências do projeto quando o mestre tiver material (imagem acervo, capa, banner/home).
+- **Pendências do projeto** quando o mestre tiver material (imagem acervo, capa, banner/home) — conforme `docs/pendencias-projeto.md`.
 - Módulo 3 quando o DI chegar.
 
 ---
