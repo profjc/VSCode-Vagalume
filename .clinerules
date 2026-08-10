@@ -58,6 +58,7 @@ Regras permanentes de colaboração com o mestre, aplicáveis a TODAS as tarefas
 3. **Entrega única por ciclo:** ao concluir a execução no ACT MODE (salvar arquivo + devolver foco ao VS Code), a tarefa é INTERROMPIDA e o mestre é solicitado para validação. Só então, ao retornar ao PLAN MODE, planeja-se a próxima página.
 4. **Nunca lote:** é PROIBIDO executar múltiplas páginas de uma vez. Cada página/arquivo tem seu ciclo próprio: PLAN → ACT → validação.
 5. **Todo plano apresentado em PLAN MODE deve incluir explicitamente:** "Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa."
+6. **Todo plano em etapas deve ser salvo no `Onde-paramos.md`** ANTES de iniciar a execução no ACT MODE, para que nenhuma sessão perca o fio da meada. O plano registra: as etapas da lição em curso, a página atual em execução, o padrão a aplicar e as tarefas do mestre no Moodle ao final da lição. Ao concluir TODAS as tarefas do plano, o plano é REMOVIDO do `Onde-paramos.md` e substituído pelo próximo plano (próxima lição). Firmado em 09/08/2026 — a falta desta anotação causou perda de continuidade na Parte 4 do Módulo 2.
 
 ---
 
@@ -310,6 +311,12 @@ Você auxilia como DI, mas NÃO é o autor do conteúdo. Nunca invente legendas,
 ### N2.5.5 Fluxo de trabalho com fonte .docx
 O texto-base chega em `.docx` (documento do autor com instruções `[ ]` do designer inicial). Você converte para `.md` para trabalhar melhor. O arquivo `.md` é a versão de trabalho que contém o texto extraído e estruturado. O `.docx` é o original recebido do autor, mantido como backup/referência. Após converter, atue como DI: **pense** o storyboard (plano de trabalho) mentalmente e entregue a página HTML pronta — não criamos arquivos separados de storyboard.
 
+### N2.5.6 Verificação de palavras em inglês/discrepantes (obrigatória no planejamento)
+Ao revisar qualquer página, verificar **ativamente** se o texto contém **palavras escritas em inglês** ou termos que **divirjam do conteúdo original do autor** (ex: "memory" em vez de "memória", "protection" em vez de "proteção", espaçamentos indevidos). Caso encontre:
+- se a **correção for evidente** (equivalente em português inequívoco no contexto), corrigir para o português e registrar a correção;
+- se houver **dúvida** sobre a palavra correta, **reportar ao mestre** antes de alterar.
+Isso garante a fidelidade ao texto do autor (N2.5.1) de forma **ativa** durante o planejamento da página. Firmado em 09/08/2026 — precedentes: "memory" (M2P4L4p4) e "protection" (M2P5L1p1).
+
 ---
 
 ## N2.6 Links Externos
@@ -437,6 +444,9 @@ Os botões são configurados pelo usuário diretamente no Moodle — esta é uma
 ### N3.5.2 Checklist de Validação Mental (antes de entregar)
 Validar a página contra o checklist completo em **`docs/checklist-entrega.md`** (categorias: estrutura/segurança, higienização, identidade visual, acessibilidade, flutuação, funcionamento no Moodle). Percorrer TODOS os itens mentalmente antes de entregar o HTML.
 
+### N3.5.3 Fórum como última atividade de cada Parte/Bloco (padrão)
+Em qualquer parte (bloco) do curso que possua fórum, o fórum deve ser **SEMPRE a última atividade** da sequência — após todos os conteúdos e atividades de verificação da parte. Ao planejar uma parte, incluir explicitamente a **movimentação/posicionamento do fórum para o final** como etapa padrão do plano (tanto no Moodle quanto no repositório). Firmado em 09/08/2026 — precedente: o fórum da Parte 4 do Módulo 2 ficou fora do plano inicial e precisou ser incluído retroativamente como PASSO 6; a partir de agora, o plano de QUALQUER parte com fórum deve prever essa etapa desde o início.
+
 ---
 
 ## N3.6 Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
@@ -462,3 +472,8 @@ Validar a página contra o checklist completo em **`docs/checklist-entrega.md`**
 - **Template de fórum padrão (08/08/2026)**: Todos os fóruns do curso seguem o formato fixo do template `templates/components/forum.html` (componente 25 da `components-library.md`): título "Fórum: [título]" em `.vagalume-destaque`, trecho variável do autor, caixa "Para participar" com ícone `fa-comments`, linha tracejada e mensagem final fixa com ícone `fa-users`. Apenas o texto central da caixa muda entre fóruns. Cabeçalho/rodapé seguem o padrão `Módulo X - Parte Y - Fórum Z - Fórum: [título completo]`.
 - **Arquivos `.h5p` de origem em `assets/h5p/` por módulo (08/08/2026)**: Backup local dos `.h5p` antes do upload no Moodle, em subpastas por módulo (`M1/`, `M2/` — ver N3.3). Recursos internos do pacote (imagens/svg do DragDrop) ficam na mesma subpasta junto ao `.h5p`.
 - **Legendas de imagens sempre centralizadas (padrão)**: Todas as legendas de figuras devem usar `class="figure-caption text-center mt-2"` (centralizadas). Verificado em 07/08/2026 que o padrão predominante já era `text-center`; corrigida a exceção em `M2P2L1p1.html` (era `text-right`). **Regra:** nunca usar alinhamentos à direita/esquerda em legendas de imagens.
+- **Distinção explícita de legendas (09/08/2026)**: **Legendas de FIGURAS (imagens)** sempre centralizadas (`figure-caption text-center mt-2`). **Legendas de VÍDEO** alinhadas à esquerda (sem `text-center` — `<p class="small text-muted">`, dentro do sub-bloco 560px do vídeo). Motivo: legendas de vídeo têm textos mais longos (título + canal + duração), e o alinhamento à esquerda preserva a legibilidade; legendas de figuras seguem o padrão clássico de eixo simétrico sob a imagem. Confirmado pelo mestre em 09/08/2026 (manter como está).
+- **Título de páginas de lição SEMPRE vem do DI (09/08/2026)**: Ao gerar ou revisar qualquer página de lição, o título da página DEVE ser consultado no DI (`content/M*/DI-Modulo*.md`) e incluído nos comentários de abertura e fechamento (regra N2.2.2). O título NUNCA pode ser omitido por interpretação equivocada de "não pediu para mudar" — isso se refere a NÃO ALTERAR o título existente, não a omiti-lo. Violado em 09/08/2026 (Página 1 da Lição 2 da Parte 4 gerada sem o título "Diferentes Livros e Linguagens" no cabeçalho) — corrigido no mesmo dia. Exceção: páginas cujo o mestre confirme no planejamento que ficam apenas com numeração.
+- **Título de páginas de atividade: conferir prefixo "Atividade:" no Moodle (09/08/2026)**: Quando o card H5P original trouxer `Atividade: [nome]` no cabeçalho (`.vagalume-h5p-header`), essa é a indicação do título da página da atividade. Ao planejar, além de registrar o título nos comentários (`... - Página W - Atividade: [nome]`), incluir no checklist do mestre a verificação de que o **título no Moodle** contenha o prefixo `Atividade: [nome]` — o HTML original não expõe o título configurado no Moodle. Precedente: P5 da Lição 4 da Parte 4 — o título no Moodle estava sem o prefixo "Atividade:" (detectado pelo mestre em 09/08/2026).
+- **Fórum deve estar previsto no plano desde o início (09/08/2026)**: Ao planejar QUALQUER parte (bloco) com fórum, o plano DEVE incluir a etapa do fórum (reescrita + posicionamento no final da parte) desde o início — junto com as lições e atividades. Violado na Parte 4 do Módulo 2: o fórum ficou fora do plano inicial e só foi percebido quando o mestre perguntou "temos ainda um fórum?". Regra permanente registrada em N3.5.3.
+- **Nome dos fóruns no Moodle = "Compartilhando idéias" (10/08/2026)**: No Moodle, o nome de TODOS os fóruns é "Compartilhando idéias". O HTML da página do fórum sempre traz o **título descritivo** (ex.: "Fórum: Cuidar de si também é cuidar do coletivo"). Ao conferir Moodle × repositório, o nome no Moodle não muda — apenas o conteúdo/título descritivo do HTML. Importante para o mestre e para o agente não confundirem as duas coisas.

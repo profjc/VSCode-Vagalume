@@ -1,5 +1,58 @@
 # Onde paramos
 
+## 📍 Checkpoint — 10/08/2026 — PARTE 5 DO MÓDULO 2 CONCLUÍDA ✅
+
+### Resumo da sessão
+- **Parte 5 do Módulo 2 ("A pessoa mediadora de leitura também é cuidadora?") revisada por completo:**
+  - **Lição 1 (Cuidando da Primeira Infância):** p1 (`M2P5L1p1.html` — sem imagem, "protection"→"proteção", box sem ícone/negrito), p2 (`M2P5L1p2.html` — sem imagem, box sem ícone), p3 (`M2P5L1p3.html` — Atividade: Refletindo sobre o cuidado, cards DENTRO do BOX, H5P múltipla escolha)
+  - **Lição 2 (Cuidando de Quem Cuida):** p1 (`M2P5L2p1.html` — "Reconhecer limites", imagem Kaio + legenda `Fonte: @kaiotirinhas`, box sem ícone/negrito), p2 (`M2P5L2p2.html` — "Construir redes de apoio", sem imagem, box sem ícone, espaçamento corrigido)
+  - **Fórum:** `M2P5F1.html` — "Fórum: Cuidar de si também é cuidar do coletivo" — **última atividade da Parte 5** (regra N3.5.3)
+  - **Página de fechamento EXCLUÍDA** por solicitação do mestre (o fórum é a última atividade; a página "solta" foi eliminada no Moodle)
+  - **Antiga Atividade 2 da L2 (p3) eliminada** + H5P `M2P5L2p3-h5p-cards.h5p` removido dos assets
+- **Padrões aplicados:** comentários decimais + título, remoção do comentário não padrão, placeholders padrão, cards H5P sem cabeçalho, legendas (figuras centralizadas), verificação de palavras em inglês ("protection"→"proteção").
+- **Arquivos criados no repositório (ParteV/):** `M2P5L1p1.html`, `M2P5L1p2.html`, `M2P5L1p3.html`, `M2P5L2p1.html`, `M2P5L2p2.html`, `M2P5F1.html`.
+
+### Tarefas do mestre no Moodle (checklist confirmado em 10/08/2026)
+- ✅ Lição 2 renomeada para `Cuidando de Quem Cuida`
+- ✅ P1 da L2 renomeada para `Reconhecer limites`
+- ✅ **Fórum criado no Moodle** com o título `Fórum: Cuidar de si também é cuidar do coletivo` (nome da atividade no Moodle é sempre "Compartilhando idéias" — lição registrada no N3.6)
+- ✅ Página "solta" excluída; P3 antiga (Atividade 2) excluída; H5P `M2P5L2p3-h5p-cards.h5p` removido
+- ✅ P2 da L2 renomeada para `Construir redes de apoio`
+- ✅ Títulos da Lição 1 no Moodle (P1/P2/P3) e colagem das páginas revisadas
+- ✅ Navegação validada
+- **Nota:** todas as tarefas da Parte 5 concluídas pelo mestre ("Todo o checklist foi cumprido")
+
+### Próximo
+- **PRÓXIMO:** Parte 6 = "Síntese do Módulo 2" — **gerar páginas do zero** a partir do doc de revisão do autor (`temp/Ajustes_Módulo 2.md`, linhas 949–985). Primeira vez que as páginas serão geradas sem versão pronta recebida.
+- **Lições registradas no `.clinerules` N3.6 (10/08/2026):** nome dos fóruns no Moodle = "Compartilhando idéias" (título descritivo apenas no HTML).
+
+---
+
+## 📍 Checkpoint — 09/08/2026 — PARTE 4 DO MÓDULO 2 CONCLUÍDA ✅
+
+### Resumo da sessão
+- **Parte 4 do Módulo 2 ("Escolhendo livros para ler com a Primeira Infância") revisada por completo:**
+  - **Lição 1 (A Escolha de Livros):** p1, p2, p3 (`M2P4L1p1/2/3.html`) — inclui Atividade "Escolher livros faz parte da mediação de leitura"
+  - **Lição 2 (Diferentes Livros e Linguagens):** p1, p2 (`M2P4L2p1/2.html`) — Atividade "Conhecendo diferentes tipos de livros para as infâncias"
+  - **Lição 3 (Bibliodiversidade):** p1, p2, p3 (`M2P4L3p1/2/3.html`) — p3 substituída pela Atividade "A diversidade nos acervos" (vídeo da Renata Nakano removido)
+  - **Lição 4 (Representatividade):** p1–p5 (`M2P4L4p1-5.html`) — Atividade final "Representatividade e imaginação"
+  - **Fórum:** `M2P4F1.html` reescrito — "Fórum: A importância da bibliodiversidade para a formação leitora" (bibliodiversidade em minúscula)
+- **Padrões aplicados:** comentários decimais + título, remoção do comentário não padrão, placeholders padrão (URL fixa + "⚠️ APAGAR ESTE BLOCO"), cards H5P sem cabeçalho, legendas (figuras centralizadas / vídeos esquerda), verificação ativa de palavras em inglês ("memory"→"memória").
+- **Fórum movido para o final da Parte 4** conforme regra N3.5.3 (mestre confirmou checklist completo em 09/08/2026).
+- **Novas regras registradas no `.clinerules`:** N1.3.3 item 6 (planos salvos no checkpoint), N2.5.6 (palavras em inglês/discrepantes), N3.5.3 (fórum como última atividade de cada parte), N3.6 (legendas, título do DI, prefixo "Atividade:", fórum no plano desde o início).
+
+### Tarefas do mestre no Moodle (checklist confirmado em 09/08/2026 — "meu checklist está completo")
+- ✅ Títulos das páginas atualizados no Moodle (L2/L3/L4 e fórum)
+- ✅ Páginas revisadas coladas no Moodle
+- ✅ H5Ps verificados (VouF, Arrastar palavras, question_set, virar cartões)
+- ✅ Fórum movido para o final da Parte 4
+- ✅ Navegação das lições validada
+
+### Próximo
+- **PRÓXIMO:** Parte 5 do Módulo 2 ("A pessoa mediadora de leitura também é cuidadora?") — conforme `temp/Ajustes_Módulo 2.md` (linhas 794+). **O plano deve incluir o fórum como última atividade desde o início (regra N3.5.3).**
+
+---
+
 ## 📍 Registro — 09/08/2026 — Nova regra permanente N1.3.3 (Ciclo de Trabalho Conjunto)
 
 - **Criada a subseção `N1.3.3 Ciclo de Trabalho Conjunto (PLAN → ACT → validação)`** no `.clinerules`, firmada em 09/08/2026 a pedido do mestre:
