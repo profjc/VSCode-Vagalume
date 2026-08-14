@@ -1,5 +1,87 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 14/08/2026 — TRAVAMENTO RESOLVIDO + REESTRUTURAÇÃO DO .CLINERULES EM CAMADAS ✅
+
+### Resumo da sessão
+- **Travamento do terminal resolvido:** o arquivo `temp/<!-- Página 1 da Lição 1.html` (nome com caracteres especiais) causou 2 travamentos ao tentar remover via `rm` (o prompt do shell foi colado junto com o comando). **Resolvido com** `find temp -maxdepth 1 -name "*.html" -delete` — filtra por padrão, sem depender do nome exato. A pasta `temp/` restou apenas com os 4 arquivos `Ajustes_Módulo*.docx/.md`. **Lição registrada em** `docs/regras-licoes-aprendidas.md`.
+- **Reestruturação do `.clinerules` em camadas** (521 → **387 linhas**, -26%):
+  - **Núcleo `.clinerules`** (387 linhas): N1.0 Regras de Bolso (11 itens), N1.2 prioridade "mais recente e específica", N1.10 Auto-auditoria de conformidade, N2 resumido com regras-chave, N3.5.0 Roteiro de Tarefa Padrão (7 passos), N3.6 como seção-ponteira.
+  - **Nova gaveta `docs/regras-html-moodle.md`** (212 linhas): detalhes completos de N2 (placeholder, TinyMCE, acessibilidade, fidelidade, links).
+  - **Nova gaveta `docs/regras-licoes-aprendidas.md`** (39 linhas): N3.6 migrada integralmente (28 lições com datas/precedentes).
+  - **Backups:** `docs/backups/clinerules-v12-antes-reestruturacao-tamanho.md` (495 linhas) e `docs/backups/clinerules-v13-antes-migracao-camadas.md` (521 linhas).
+- **Regra das gavetas (N1.0 item 10):** consultar arquivos de consulta (N3.4) apenas quando a tarefa exigir — nunca ler tudo por reflexo.
+
+### Posição no plano ativo (Sessão 13/08/2026 — Revisão do Módulo 1)
+- ✅ Etapas 1–12 concluídas e registradas abaixo.
+- ⏳ **Etapa 13+ PENDENTES:** p4–p8 (conformidade), p9 (ajustes do autor), atividade p10 da Parte 2 do M1.
+- ⏳ **Commit + push** — autorizado pelo mestre em 14/08/2026 e executado nesta sessão.
+
+---
+
+## 📍 PLANO ATIVO — Sessão 13/08/2026 — REVISÃO DO MÓDULO 1 (Apresentação + Parte 1 + Parte 2)
+
+### Fonte
+- `temp/Ajustes_Módulo I.md` (convertido do `.docx` do autor em 13/08/2026)
+- Página 1 da Lição 1 recebida do mestre: `temp/<!-- Página 1 da Lição 1.html`
+
+### Decisões da sessão (anamnese — confirmadas pelo mestre)
+1. **Página 1 (Parte 1):** ajustes do doc + conformidade (emotional→emocional, remover comentário não padrão, cabeçalho/rodapé decimal + título do DI, acessibilidade)
+2. **Página 3 (Parte 1):** EXCLUIR (vídeo movido para p2); renumerar p4→p3 e p5→p4; ações do mestre no Moodle avisadas no mesmo passo
+3. **"|" → padrão ":"** em títulos/legendas (regra permanente: revisão e criação de páginas — acessibilidade)
+4. **Fórum P1:** template padrão (título "Fórum: Memórias da infância", sem ilustração, caixa "Para participar", mensagem final fixa) + 2º parágrafo do autor ("Ao conhecer outras histórias, observe o que essas diferentes memórias nos ajudam a perceber sobre as muitas formas de viver a infância.")
+5. **Fórum Moodle:** todos já renomeados para "Compartilhando Ideias". Regra permanente: ao criar novos fóruns, nome no Moodle será sempre "Compartilhando Ideias"
+6. **H5P atividade P2:** placeholder corrigido para `[ARQUIVO_H5P: M1P2L1-Quiz_Crescer_e_descobrir_o_mundo.h5p]`; mestre corrigirá o nome do H5P no Moodle/Lumi (na agenda do mestre)
+7. **Escopo:** apenas Apresentação + Parte 1 + Parte 2 (documento não cobre Partes 3 e 4)
+
+### Regras gerais para TODAS as páginas
+- Comentário abertura/rodapé padrão decimal + título do DI (N2.2.2, N3.6)
+- Remover comentário não padrão "Estrutura alinhada ao Manual da Marca Vaga Lume" (N3.6)
+- "|" nunca em títulos/legendas → ":" (regra nova 13/08/2026)
+- Palavras em inglês → português (N2.5.6): emotional, during, exploration do world, representation, brincado→brincando
+- Acessibilidade N2.4.12 completa
+- Placeholders de imagem padrão (URL fixa + "⚠️ APAGAR ESTE BLOCO")
+- `code <arquivo>` ao concluir (foco VS Code)
+
+### Ordem de execução (UMA página por vez — ciclo PLAN → ACT → validação)
+1. **Bloco A — Apresentação:** `M1-Apresentacao_do_modulo_I.html` (4 ajustes + conformidade)
+2. **Bloco B — Parte 1:** B1 Label P1 → B2 criar p1 → B3 p2 (vídeo) → B4 excluir p3 + B5 renomear p4→p3 → B6 renomear p5→p4 → B7 fórum
+3. **Bloco C — Parte 2:** C1 Label P2 → C2 p1 → C3 p2 (sem alterações) → C4 p3 → C5 p9 → C6 atividade p10
+
+### Tarefas do mestre no Moodle (a cada passo):
+- **Apresentação:** título Módulo I → Módulo 1 + título curto/longo do módulo
+- **Parte 1:** excluir p3 antiga (vídeo) • renomear p4→p3 e p5→p4 na navegação • atualizar títulos • colar novo fórum (sem ilustração) • validar navegação
+- **Parte 2:** título da lição → "O Começo da Vida" • títulos das páginas • recriar/atualizar H5P no Lumi com 9 questões + feedbacks (nome correto `M1P2L1-Quiz_Crescer_e_descobrir_o_mundo.h5p`) • validar navegação
+
+### Status da execução
+- [x] **Etapa 1 — Apresentação** (`M1-Apresentacao_do_modulo_1.html`) — ✅ CONCLUÍDA em 13/08/2026 (4 ajustes + conformidade): conteúdo salvo + **arquivo renomeado** de `M1-Apresentacao_do_modulo_I.html` → `M1-Apresentacao_do_modulo_1.html` via `git mv` (13/08/2026 — observação do mestre)
+- [x] **Etapa 2 — Label P1** (`M1_Label_Parte1_...html`) — ✅ CONCLUÍDA em 13/08/2026 (grafia "Primeira Infância" + comentários decimais `Módulo 1 - Label - Parte 1`): mestre já atualizou o texto no Moodle; **faltou avisar** para atualizar o cabeçalho/rodapé do label no Moodle se colou com os comentários
+- [ ] **ETAPA 1 E 2 PENDENTES DE VALIDAÇÃO DO MESTRE NO MOODLE** — aguardando retorno ao PLAN MODE
+- [x] **Etapa 3 — Página 1 P1** (`M1P1L1p1.html`) — ✅ CONCLUÍDA em 14/08/2026 (criada a partir de `temp/`: título do DI, retirado "— Lya Luft" do box, emotional→emocional, comentário não padrão removido, cabeçalho/rodapé decimal + título)
+- [x] **Etapa 4 — Página 2 P1** (`M1P1L1p2.html` + vídeo) — ✅ CONCLUÍDA em 14/08/2026 (vídeo movido da p3 para cá, sinopse excluída, legenda padrão ":", grafia "Primeira Infância" no box, cabeçalho/rodapé decimal + título)
+- [x] **Etapa 5 — Excluir p3 + renomear p4/p5** — ✅ CONCLUÍDA em 14/08/2026 (git rm M1P1L1p3.html + git mv M1P1L1p4.html→M1P1L1p3.html + git mv M1P1L1p5.html→M1P1L1p4.html). Estrutura atual da lição: p1, p2, p3 (concepções), p4 (atividade)
+- [x] **Etapa 6 — Reescrever nova p3 P1** (`M1P1L1p3.html` — As diferentes concepções) — ✅ CONCLUÍDA em 14/08/2026 (substituição integral do texto ajuste #6, during→durante, "um milhão de sinapses" removido, box de texto aplicado, cabeçalho/rodapé decimal + título, flow-root). **Imagem renomeada** `M1P1L1p4.jpg` → `M1P1L1p3.jpg` (git mv). **TESTE do método @@PLUGINFILE@@ (PSG2): NÃO FUNCIONOU no Moodle 4.5/Trema** — REVERTIDO para o método padrão (URL fixa placeholder + marcador "⚠️ APAGAR ESTE BLOCO"). Lição registrada no `.clinerules` N3.6 (14/08/2026) — divergência entre TinyMCE 4.3.5 (PSG2) vs 4.5 (Vagalume). **CORREÇÃO de layout (14/08/2026):** box de destaque encapsulado em `.card border-0 bg-transparent` + `.card-body mb-0 p-0` (N3.2.8) — impedindo o texto de escorrer para a legenda da imagem flutuante
+- [x] **Etapa 7 — Reescrever nova p4 P1** (`M1P1L1p4.html` — Atividade) — ✅ CONCLUÍDA em 14/08/2026 (comanda substituída pelo novo texto do autor, botões → "Clique para saber mais sobre essa imagem" (5 slides), correções: "exploration do world"→"exploração do mundo", "representation"→"representação", "brincado"→"brincando", placeholders padrão (URL fixa + marcador), cabeçalho/rodapé decimal + título)
+- [x] **Etapa 8 — Criar p5 "Pensando juntos"** (`M1P1L1p5.html`) — ✅ CONCLUÍDA em 14/08/2026 (criada a partir do HTML do Moodle em `temp/`: galeria de 5 imagens com placeholders padrão, textos do DI preservados, box de destaque mantido, cabeçalho/rodapé decimal + título, comentário não padrão removido; temporário removido)
+- [x] **Etapa 9 — Fórum P1** (`M1P1F1.html`) — ✅ CONCLUÍDA em 14/08/2026 (substituição integral: título "Fórum: Memórias da infância", sem ilustração, template padrão comp. 25, caixa "Para participar" + texto do autor, mensagem final fixa, cabeçalho/rodapé decimal + título). **Melhoria aplicada (14/08/2026, refinada):** frase final "Ao conhecer outras histórias..." em **card branco com borda laranja** (`.card vagalume-h5p-card`) + título "Para refletir" + ícone `fa-lightbulb-o` laranja — **distinto** do box bege de instrução "Para participar" (fundo branco vs bege, borda laranja vs verde). **NOVO COMPONENTE 26 registrado (14/08/2026):** "Caixa 'Para refletir'" na `components-library.md` + N3.2.14 no `.clinerules` + item de atenção contextual no `docs/checklist-entrega.md` (usar em chamadas de reflexão/fechamento mesmo que o autor não tenha sugerido — confirmar com o mestre)
+- [x] **Etapa 10 — Label P2** (`M1_Label_Parte2_...html`) — ✅ CONCLUÍDA em 14/08/2026 (arquivo **renomeado via `git mv`** para `M1_Label_Parte2_O_desenvolvimento_na_Primeira_Infancia.html` + grafia corrigida no h2 "O desenvolvimento na **Primeira** Infância" + comentários decimais `Módulo 1 - Label - Parte 2`)
+- [x] **Etapa 11 — Página 1 P2** (`M1P2L1p1.html`) — ✅ CONCLUÍDA em 14/08/2026 (título "O bebê antes do nascimento" no cabeçalho/rodapé decimal, grafia "Primeira Infância" nos 2 parágrafos, rodapé criado)
+- [x] **Etapa 12 — Página 3 P2** (`M1P2L1p3.html`) — ✅ CONCLUÍDA em 14/08/2026 (conteúdo atualizado; mestre validou no Moodle em 14/08/2026)
+
+### Plano aprovado em 14/08/2026 (conformidade das páginas de etapa P4–P8 + p9 + atividade)
+Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nomes, cabeçalhos, rodapés). O autor NÃO pediu ajustes de conteúdo nas p4–p8 — apenas conformidade estrutural (comentários decimais + título do DI + rodapé). O autor também NÃO pediu mudanças de nome nas p4–p8 → **sem renomeação no Moodle** (apenas colar HTML por cima). Títulos nos comentários seguem o padrão "As etapas do desenvolvimento da criança - [faixa]".
+
+- [ ] **Etapa 13 — Página 4 P2** (`M1P2L1p4.html`) — conformidade: `Módulo 1 - Parte 2 - Lição 1 - Página 4 - As etapas do desenvolvimento da criança - O primeiro ano de vida` (abertura + rodapé)
+- [ ] **Etapa 14 — Página 5 P2** (`M1P2L1p5.html`) — conformidade: `... Página 5 - ... - De 1 a 2 anos`
+- [ ] **Etapa 15 — Página 6 P2** (`M1P2L1p6.html`) — conformidade: `... Página 6 - ... - De 2 a 3 anos`
+- [ ] **Etapa 16 — Página 7 P2** (`M1P2L1p7.html`) — conformidade: `... Página 7 - ... - De 3 a 4 anos` + remover comentários internos soltos
+- [ ] **Etapa 17 — Página 8 P2** (`M1P2L1p8.html`) — conformidade: `... Página 8 - ... - De 4 a 5 anos` + remover comentários internos soltos
+- [ ] **Etapa 18 — Página 9 P2** (`M1P2L1p9.html`) — ajustes do autor: grafia "Primeira Infância" + negrito na frase final
+- [ ] **Etapa 19 — Atividade p10 P2** (`M1P2L2p10.html`) — substituição integral (nova versão do autor)
+- [ ] Atualizar `.clinerules` (regra "|"→":" + fórum "Compartilhando Ideias")
+- [ ] Commit + push (autorização do mestre — N1.8)
+
+---
+
 ## 📍 Checkpoint de encerramento — Sessão 10/08/2026 — AUDITORIAS DE ACESSIBILIDADE M2 ✅ + BOAS-VINDAS ✅ CONCLUÍDAS + CHECKLIST VALIDADO ✅
 
 ### Resumo da sessão (encerramento)

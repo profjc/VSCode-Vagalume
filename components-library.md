@@ -749,4 +749,33 @@
 
 ---
 
+## 26. Caixa "Para refletir"
+
+> **Contexto:** Chamadas finais de reflexão, fechamento de lição, sínteses reflexivas ou mensagens de reflexão do autor. Visual **distinto** da caixa de instrução "Para participar" (que é bege com borda verde) — esta usa **card branco com borda laranja**, indicando que é um convite à reflexão, não uma instrução.
+
+> **Regras de uso:**
+> - **Visual:** `.card vagalume-h5p-card` (borda laranja) + `.card-body` (fundo branco) + ícone `fa-lightbulb-o` laranja + título "Para refletir" em marrom negrito
+> - **Constraste:** NUNCA usar `.vagalume-sinopse` ou `.vagalume-destaque-bloco` (seria confundido com caixa de instrução)
+> - **Ícone:** `fa-lightbulb-o` com `aria-hidden="true"` (decorativo), cor `#d96f1a`
+> - **Acessibilidade:** `aria-hidden="true"` no ícone; texto descritivo legível (contraste 4.5:1)
+> - **Contexto de uso (N3.5.4):** ficar atento ao contexto nos docs de DI para identificar situações onde vale usar este recurso, mesmo que o autor não tenha sugerido — confirmar com o mestre antes de aplicar em páginas novas
+> - **Aprovado pelo mestre:** 14/08/2026 (precedente: `M1P1F1.html` — Fórum: Memórias da infância)
+
+```html
+<!-- Para refletir: card branco com borda laranja (distinto do box bege de instrução) -->
+<div class="card vagalume-h5p-card">
+  <div class="card-body">
+    <div class="d-flex align-items-center mb-2">
+      <i class="fa fa-lightbulb-o mr-3" aria-hidden="true" style="font-size: 1.5rem; color: #d96f1a;"></i>
+      <p class="h6 font-weight-bold mb-0" style="color: #5b3925;">Para refletir</p>
+    </div>
+    <p class="mb-0">[TEXTO_DE_REFLEXÃO_DO_AUTOR]</p>
+  </div>
+</div>
+```
+
+> **Exemplo real:** `templates/pages/M1/ParteI/Licao1/M1P1F1.html` (Fórum: Memórias da infância — aprovado pelo mestre em 14/08/2026)
+
+---
+
 > 📝 **Para adicionar novo componente:** Edite este arquivo seguindo o padrão dos exemplos acima.

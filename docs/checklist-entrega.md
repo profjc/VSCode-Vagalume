@@ -26,6 +26,8 @@
 - [ ] **Comentário de abertura correto**: Página começa com `<!-- Módulo X - Parte Y - Lição Z - Página W - [título] -->` (numeração decimal; fóruns usam `Fórum Z -`; síntese/referências sem Lição) — imediatamente antes do container (N2.2.2)
 - [ ] **Rodapé de fechamento correto**: Página termina com `<!-- FIM: ... -->` espelhando o comentário de abertura — após o `</div>` final (N2.2.2)
 - [ ] **Nomeação de arquivo correta**: Páginas de lição `M2P3L1p2.html`; fóruns `M2P3F1.html`; síntese `M2P6P1.html`; labels `M2_Label_...`; minúsculas, sem acentos/espaços (N3.3)
+- [ ] **Mudanças no nome do arquivo/cabeçalhos/rodapés verificadas**: Ao revisar, conferir se os ajustes do autor implicam mudanças no **nome do arquivo HTML**, nos **cabeçalhos/rodapés (`<!-- -->`)** ou em **títulos configurados no Moodle** — incluir na entrega (renomear via `git mv`) e na lista de tarefas do mestre (N3.6, 13/08/2026)
+- [ ] **Caixa "Para refletir" (atenção contextual)**: Ficar atento ao contexto nos docs de DI para identificar situações onde vale usar a **Caixa "Para refletir"** (comp. 26 — card branco + borda laranja) — chamadas de reflexão, fechamento, sínteses reflexivas — **mesmo que o autor não tenha sugerido**; confirmar com o mestre antes de aplicar em páginas novas (N3.2.14, 14/08/2026)
 
 ## Identidade Visual
 
