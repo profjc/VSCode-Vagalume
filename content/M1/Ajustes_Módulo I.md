@@ -294,13 +294,13 @@ esse período se inicia e até que idade se estende.
 o desenvolvimento da criança?**
 
 a\) Porque o desenvolvimento da criança começa somente após o
-nascimento\
+nascimento.\
 b) Porque, durante a gestação, o bebê já está em intenso processo de
-desenvolvimento **\[CORRETO\]**\
+desenvolvimento. **\[CORRETO\]**\
 c) Porque apenas a alimentação da gestante interfere no desenvolvimento
-do bebê\
+do bebê.\
 d) Porque os estímulos e o ambiente só passam a ter importância nos
-últimos dias da gestação
+últimos dias da gestação.
 
 **Feedback -- resposta correta:**\
 Muito bem! O desenvolvimento começa ainda na gestação. Nesse período, o
@@ -316,11 +316,11 @@ transformações que acontecem com o bebê durante toda a gestação.
 **3. O que influencia o desenvolvimento da criança durante a Primeira
 Infância?**
 
-a\) Apenas fatores genéticos\
-b) Principalmente a escola\
-c) As interações, os cuidados e o ambiente em que a criança vive
+a\) Apenas fatores genéticos.\
+b) Principalmente a escola.\
+c) As interações, os cuidados e o ambiente em que a criança vive.
 **\[CORRETO\]**\
-d) Somente os estímulos oferecidos pelos adultos
+d) Somente os estímulos oferecidos pelos adultos.
 
 **Feedback -- resposta correta:**\
 Isso mesmo! O desenvolvimento acontece na relação entre diferentes
@@ -336,10 +336,10 @@ criança desde os primeiros anos.
 **4. No primeiro ano de vida, quais são algumas das principais formas de
 comunicação do bebê?**
 
-a\) A escrita e a leitura\
-b) O choro, os gestos e os sons **\[CORRETO\]**\
-c) As frases completas\
-d) As perguntas e as histórias
+a\) A escrita e a leitura.\
+b) O choro, os gestos e os sons. **\[CORRETO\]**\
+c) As frases completas.\
+d) As perguntas e as histórias.
 
 **Feedback -- resposta correta:**\
 Correto! Antes de falar por meio de palavras e frases, o bebê já se
@@ -354,11 +354,11 @@ se expressar e interagir com as pessoas ao seu redor.
 **5. Entre 2 e 3 anos, qual comportamento pode aparecer com mais
 frequência?**
 
-a\) A criança deixa de demonstrar emoções\
-b) A criança começa a se afirmar e a dizer "não" com mais frequência
+a\) A criança deixa de demonstrar emoções.\
+b) A criança começa a se afirmar e a dizer "não" com mais frequência.
 **\[CORRETO\]**\
-c) A criança passa a escrever frases completas\
-d) A criança deixa de buscar interação com outras pessoas
+c) A criança passa a escrever frases completas.\
+d) A criança deixa de buscar interação com outras pessoas.
 
 **Feedback -- resposta correta:**\
 Isso mesmo! Nessa etapa, a criança amplia sua autonomia e começa a
@@ -372,10 +372,10 @@ aparecer em suas atitudes cotidianas.
 
 **6. O "faz de conta" aparece com mais força em qual fase?**
 
-a\) 0 a 1 ano\
-b) 1 a 2 anos\
-c) 3 a 4 anos **\[CORRETO\]**\
-d) 5 a 6 anos
+a\) 0 a 1 ano.\
+b) 1 a 2 anos.\
+c) 3 a 4 anos. **\[CORRETO\]**\
+d) 5 a 6 anos.
 
 **Feedback -- resposta correta:**\
 Muito bem! Entre 3 e 4 anos, o faz de conta ganha força nas
@@ -390,10 +390,10 @@ situações de faz de conta com mais frequência.
 
 **7. A fase dos "porquês" ocorre principalmente em qual período?**
 
-a\) Por volta de 1 ano\
-b) Por volta de 2 anos\
-c) Entre 4 e 5 anos **\[CORRETO\]**\
-d) Somente depois dos 6 anos
+a\) Por volta de 1 ano.\
+b) Por volta de 2 anos.\
+c) Entre 4 e 5 anos. **\[CORRETO\]**\
+d) Somente depois dos 6 anos.
 
 **Feedback -- resposta correta:**\
 Correto! Entre 4 e 5 anos, as perguntas se tornam ainda mais frequentes.
@@ -407,11 +407,11 @@ acontecimentos, situações e elementos do mundo ao seu redor.
 
 **8. Cuidar de uma criança durante a Primeira Infância envolve:**
 
-a\) Apenas garantir alimentação e proteção física\
-b) Principalmente ensinar regras e comportamentos\
+a\) Apenas garantir alimentação e proteção física.\
+b) Principalmente ensinar regras e comportamentos.\
 c) Oferecer relações afetivas, escuta, oportunidades de brincar e
-segurança **\[CORRETO\]**\
-d) Controlar todas as experiências da criança para evitar riscos
+segurança. **\[CORRETO\]**\
+d) Controlar todas as experiências da criança para evitar riscos.
 
 **Feedback -- resposta correta:**\
 Isso mesmo! O cuidado envolve as necessidades físicas, mas vai além
@@ -427,11 +427,12 @@ relações que contribuem para que ela se desenvolva de maneira integral.
 uma criança?**
 
 a\) Todas as crianças devem atingir as mesmas conquistas exatamente na
-mesma idade\
-b) O desenvolvimento acontece da mesma maneira para todas as crianças\
+mesma idade.\
+b) O desenvolvimento acontece da mesma maneira para todas as crianças.\
 c) Cada criança tem seu próprio percurso de desenvolvimento,
-influenciado também pelo contexto em que vive **\[CORRETO\]**\
-d) O ambiente e as relações têm pouca influência sobre o desenvolvimento
+influenciado também pelo contexto em que vive. **\[CORRETO\]**\
+d) O ambiente e as relações têm pouca influência sobre o
+desenvolvimento.
 
 **Feedback -- resposta correta:**\
 Muito bem! As etapas do desenvolvimento nos ajudam a compreender
@@ -445,3 +446,241 @@ As etapas apresentadas ao longo do módulo são referências, e não uma
 regra rígida que todas as crianças devem seguir da mesma maneira. Pense
 na diversidade de experiências, contextos e ritmos que fazem parte do
 desenvolvimento infantil.
+
+\*\*\* Atualizado no Moodle até aqui \*\*\*
+
+\[Continuar daqui\]
+
+Solicitações de ajustes -- Parte 3: Infâncias no plural: contextos e desigualdade
+=================================================================================
+
+Lição 1: Desigualdades e Redes de Proteção
+
+**1. Título da lição 1**
+
+Alterar o título da lição de **"Desigualdades e Redes de Proteção"**
+para: **Desigualdade e Redes de Proteção**
+
+**2. Título da página 1 da lição 1**
+
+Substituir o título O Cenário da Desigualdade por: **Um cenário de
+desigualdade**
+
+Deixar as palavras **"cenário"** e **"desigualdade"** iniciadas com
+letra minúscula.
+
+**2. Padronização de "Primeira Infância"**
+
+No primeiro e no último parágrafo do conteúdo, alterar a expressão
+**"primeira infância"** para **"Primeira Infância"**, com as iniciais em
+letras maiúsculas.
+
+**3. Box sobre vulnerabilidade socioeconômica**
+
+Alterar o título e o conteúdo do box para:
+
+**\[título\] Você sabe o que é vulnerabilidade socioeconômica?**
+
+Este termo refere-se a situações de fragilidade social e econômica que
+dificultam o acesso a direitos básicos e a oportunidades.
+
+Retirar o **ícone de informação** do box de texto.
+
+**4. Título da página 2 da lição 1**
+
+Substituir o título **"Impactos e Estresse Tóxico"** por: **Impactos da
+desigualdade no desenvolvimento infantil**
+
+**5. Box sobre estresse tóxico**
+
+Mover o box de texto para o **final da página**, de modo que seja o
+último elemento apresentado.
+
+Substituir o título **"Estresse Tóxico"** por:
+
+**Saiba mais sobre estresse tóxico**
+
+Retirar o **ícone de exclamação** do título do box de texto.
+
+**6. Ajuste nos três parágrafos da página 2, lição 1**
+
+Os três parágrafos do conteúdo da **página 2** foram revisados.
+Substituir o texto atualmente publicado na plataforma pela versão
+revisada apresentada abaixo, mantendo a mesma estrutura e formatação da
+página:
+
+TEXTO abaixo
+
+Na Primeira Infância, o impacto da desigualdade pode ser ainda mais
+profundo, já que, como vimos, os primeiros anos de vida são fundamentais
+para o desenvolvimento físico, emocional, social e cognitivo. A falta de
+acesso à alimentação adequada, por exemplo, compromete o amadurecimento
+do cérebro e do corpo.
+
+Além das condições materiais que afetam o desenvolvimento, muitas
+crianças convivem com situações contínuas de violência, insegurança e
+instabilidade familiar. Quando essas situações acontecem de forma
+intensa e prolongada, sem o apoio adequado de adultos de referência,
+podem gerar o chamado **estresse tóxico**, afetando a memória, a
+concentração, a aprendizagem e a regulação emocional.
+
+No campo da educação, as desigualdades também aparecem no acesso à
+creche e à educação infantil, especialmente entre famílias de baixa
+renda. Enquanto algumas crianças frequentam espaços ricos em interações,
+brincadeiras e estímulos, outras permanecem em contextos de isolamento
+social ou cuidado precário, o que amplia as diferenças nas oportunidades
+de aprendizagem e convivência.
+
+**7. Página 3 -- O papel das redes de proteção**
+
+Substituir integralmente o conteúdo atual da página pelo conteúdo
+apresentado abaixo, mantendo a mesma estrutura e o padrão visual já
+adotado na plataforma.
+
+**\[Título da página\]** **O papel das redes de cuidado e proteção na
+promoção da equidade**
+
+Diante das desigualdades que atravessam a vida de muitas crianças, as
+**redes de cuidado e proteção** têm um papel fundamental. Famílias,
+pessoas educadoras, profissionais da saúde, bibliotecas, organizações
+comunitárias e políticas públicas fazem parte dessas redes e, quando
+atuam de forma articulada, podem contribuir para garantir direitos,
+identificar situações de vulnerabilidade e construir contextos mais
+acolhedores e protetivos para as crianças.
+
+Fortalecer essas redes também é uma forma de enfrentar as desigualdades,
+ampliando as possibilidades de acesso ao cuidado, à saúde, à educação, à
+cultura e a outros direitos fundamentais. Para isso, é preciso conhecer
+as diferentes condições em que vivem as crianças brasileiras e
+considerar essas realidades na construção de práticas de cuidado e
+proteção mais inclusivas e comprometidas com a **equidade**.
+
+**BOX DE TEXTO**
+
+**Você sabe o que é equidade?**
+
+Equidade significa reconhecer que as pessoas vivem em condições
+diferentes e, por isso, podem precisar de apoios e oportunidades
+diferentes para que seus direitos sejam garantidos.
+
+**8. Página 5 -- "Infâncias no Território: Olhar e Refletir"**
+
+Excluir esta página. O conteúdo será posteriormente transformado em um
+**fórum**, cujas orientações serão encaminhadas separadamente.
+
+**9. Página "Síntese: Desafios e Potências no Território"**
+
+Excluir integralmente esta página. Esse conteúdo não será mantido na
+lição.
+
+**10. Desafio de Palavras -- "Contextos e Realidades"**
+
+Na atividade de palavras cruzadas, substituir o conceito atualmente
+explorado, **"equidade"**, pela formulação apresentada abaixo:
+
+**Nova formulação:**
+
+Princípio que reconhece que as pessoas vivem em condições diferentes e
+podem precisar de apoios e oportunidades diferentes para que seus
+direitos sejam garantidos.
+
+Lição 2: Conhecer para Transformar
+
+**1. Título do card da Lição 2**
+
+No título **"Conhecer para Transformar"**, alterar a inicial da palavra
+**"Transformar"** para letra maiúscula, mantendo o título como:
+**Conhecer para Transformar**
+
+**2. Ajuste no título da página 1, lição 2**
+
+Manter o título, alterando apenas o uso de maiúsculas e minúsculas para:
+**O papel dos dados e indicadores**
+
+2\. No primeiro parágrafo da **página 1 da Lição 2**, alterar a
+expressão **"primeira infância"** para **"Primeira Infância"**, com as
+iniciais em letras maiúsculas.
+
+**3. Reorganização do conteúdo**
+
+Trazer o conteúdo atualmente apresentado na **página 2 da Lição 2**
+(James Heckman e o investimento da infância) para a **página 1 - O papel
+dos dados e indicadores** .
+
+Assim, a página 1 deverá reunir **o conteúdo que já está nela e, na
+sequência, o conteúdo atualmente apresentado na página 2**.
+
+**4. Alteração do título**
+
+Substituir o título **"Conhecendo a plataforma Primeira Infância em
+Dados"** por:
+
+**De Olho nos Dados**
+
+**5.** No trecho iniciado pela pergunta **"Você conhece a plataforma
+Primeira Infância em Dados?"**, ajustar o parágrafo seguinte para evitar
+a repetição do nome da plataforma, substituindo a retomada por **"Esse
+observatório interativo"**.
+
+O trecho deverá ficar assim:
+
+Você conhece a plataforma **Primeira Infância em Dados**?
+
+Esse observatório interativo reúne indicadores dos municípios
+brasileiros e permite refletir sobre como vivem as crianças em cada
+território, quais desafios enfrentam e quais ações podem ser
+fortalecidas. Conhecer essa realidade é um passo importante para
+promover infâncias mais protegidas, acolhedoras e cheias de
+possibilidades.
+
+Que tal descobrir como está o cenário da primeira infância em seu
+município? Vamos nessa?
+
+\[manter box de texto com o link para o site\]
+
+**6. Ajuste na organização do conteúdo**
+
+Na página **"Políticas de Proteção e Cuidado"**, retirar do **box de
+texto** o primeiro parágrafo, iniciado por **"Conhecer a trajetória das
+leis e políticas públicas no Brasil ajuda a compreender\..."**.
+
+O parágrafo deve ser mantido na página, mas apresentado **fora do box de
+texto**, antes dele.
+
+**7. Após a lição Conhecer para Transformar, adicionar o seguinte
+fórum:**
+
+Fórum: Infâncias no território - olhar, escutar e refletir
+
+As crianças vivem diferentes realidades, e os territórios onde crescem
+influenciam suas oportunidades de cuidado, convivência, brincadeira e
+aprendizagem.
+
+Ao longo desta lição, refletimos sobre as desigualdades que podem
+atravessar a Primeira Infância e sobre a importância das redes de
+cuidado e proteção. Agora, convidamos você a olhar para o contexto em
+que vive ou atua e refletir sobre as infâncias presentes nesse
+território.
+
+**\[ABRIR BOX\]**
+
+**\[Ícone de balões de diálogo\] Para participar**
+
+A partir do que discutimos nesta lição, responda à seguinte pergunta:
+
+**Que desigualdades impactam a vida das crianças em seu território e
+quais redes, pessoas ou iniciativas contribuem -- ou poderiam contribuir
+-- para fortalecer seu cuidado e proteção?**
+
+Para construir sua resposta, você pode pensar nos espaços, pessoas e
+iniciativas que já fazem parte desse território e também em ações
+simples e possíveis que poderiam fortalecer as redes de cuidado ao redor
+das crianças.
+
+*\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--*
+
+\[manter ícone\] *Após **sua postagem**, comente em **pelo menos duas
+participações** de colegas para fortalecermos nossa própria rede de
+aprendizagem!*
+
+**\[FECHAR BOX\]**

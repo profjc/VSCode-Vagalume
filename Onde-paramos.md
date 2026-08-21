@@ -1,5 +1,23 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 20/08/2026 — ORGANIZAÇÃO DA PASTA TEMP + VERIFICAÇÃO COMPLETA DO MÓDULO 2 ✅
+
+### Resumo da sessão
+- **Comparação de arquivos em `temp/`:** identificadas as versões mais novas e completas dos ajustes (Módulo I "(1)"/"(n)" e Módulo 2 "(1)" — mais completas que as anteriores; Boas-Vindas novo). Arquivos "(n)" eram idênticos aos "(1)" (mesmo hash MD5), e o zip `OneDrive_1_20-08-2026.zip` era a origem dos "(n)".
+- **Organização da `temp/`:** removidas versões antigas, duplicatas e o zip. Renomeados os selecionados (sem "(1)"): restam apenas `Ajustes_Módulo Boas-Vindas.docx`, `Ajustes_Módulo I.docx`, `Ajustes_Módulo 2.docx`.
+- **`.md` de trabalho criados (pandoc):**
+  - `content/Boas-vindas/Ajustes_Módulo Boas-Vindas.md` (265 linhas)
+  - `content/M1/Ajustes_Módulo I.md` (686 linhas — **nova versão com ajustes da Parte 3**)
+  - `content/M2/Ajustes_Módulo 2.md` (1.522 linhas — nova versão com anotações do autor)
+- **Verificação completa do Módulo 2:** cruzado `content/M2/Ajustes_Módulo 2.md` com as páginas HTML finais — **todas as correções aplicadas** (Apresentação, Partes 1–6, fóruns, atividades, legendas, tirinhas, síntese).
+- **Única pendência encontrada e corrigida:** legenda da `M2P1L1p2.html` — "Pilibum.com" → **"Fonte: pipipum.com.br"** (padronizada com a p1). Mestre confirmou e corrigiu manualmente no Moodle (acrescentou ".br").
+
+### Próximos passos
+- **Revisão do Módulo 1** (aguardando autorização do mestre) — usar `content/M1/Ajustes_Módulo I.md` (nova versão com Parte 3)
+- **Revisão do Boas-Vindas** — usar `content/Boas-vindas/Ajustes_Módulo Boas-Vindas.md`
+
+---
+
 ## 📍 Checkpoint — Sessão 14/08/2026 — TRAVAMENTO RESOLVIDO + REESTRUTURAÇÃO DO .CLINERULES EM CAMADAS ✅
 
 ### Resumo da sessão
