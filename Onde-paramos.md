@@ -1,5 +1,36 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 21/08/2026 — REVISÃO DO MÓDULO BOAS-VINDAS: CARDS 1-2 VALIDADOS + EXCLUSÕES + FÓRUM NOVO ✅
+
+### Resumo da sessão
+- **Revisão completa do Módulo Boas-vindas** conforme `content/Boas-vindas/Ajustes_Módulo Boas-Vindas.md` (265 linhas — novo documento do autor):
+  - **Card 1 — Apresentação → "Começando nosso percurso"** (`Boas-vindas_Apresentacao.html`) — ✅ CRIADO E VALIDADO (título do card/página = "Começando nosso percurso"; frase "Olá, cursista..." em `.vagalume-citacao` fora da caixa; jumbotron removido integralmente — interpretação do autor "Remover o BOX de texto"; 4 módulos em cards mantendo layout; encontros síncronos em caixa destacada sem negrito; certificação com ícone; frase final em texto comum).
+  - **Card 2 — Dicas para os cursistas → "Dicas para se organizar"** (`Boas-vindas_Dicas_para_os_cursistas.html`) — ✅ CRIADO E VALIDADO (título da página/card = **"Mantenha o seu ritmo"** — decisão do mestre; instrução do autor "APENAS substituir textos, mantendo a estrutura de BOX"; 5 dicas + 3 estratégias em Template B com ícones atuais mantidos; Dica 5 nova com `fa-bell`; jumbotron inicial removido).
+  - **Cards 3 e 4 EXCLUÍDOS** — `Boas-vindas_Conheca_a_Vagalume.html` e `Boas-vindas_Parceria_Van_Leer_e_Vagalume.html` (git rm no repositório + mestre excluiu no Moodle).
+  - **Fórum novo CRIADO** — `Boas-vindas_Forum_Apresentacao.html` (Página 3 — "Fórum: Que tal nos conhecermos melhor?"). **CONDIÇÕES EXCEPCIONAIS:** nome no Moodle = **"Espaço de apresentação"** (NÃO "Compartilhando Ideias"); caixa "Para participar" ADAPTADA — substituída a mensagem final fixa (comentar em duas postagens) pelo **convite do autor** (conhecer colegas e deixar mensagem); sem linha tracejada e sem `fa-users`.
+  - **Fórum REORGANIZADO e VALIDADO (21/08/2026):** "Se quiser..." + lista movidos para dentro da caixa "Para participar"; "Aproveite também..." logo após a lista (dentro da caixa); frase final "A apresentação é livre!..." em **caixa própria** `.card vagalume-h5p-card` com texto centralizado em `.h5` marrom sem ícone/título (mestre orientou não usar "Para refletir" — não é reflexão, é convite à participação). **MÓDULO BOAS-VINDAS 100% CONCLUÍDO.**
+- **LIÇÕES REGISTRADAS:**
+  - **Defender interpretação com argumentos**: ao receber sugestão divergente do mestre, confrontar com a leitura do documento — NÃO abandonar a posição sem discutir.
+  - **Comentários = documentação de blocos**: comentários internos identificam blocos estruturais (`<!-- Frase de abertura -->`, `<!-- Dica 1 -->`) — NUNCA marcas de revisão do DI com parênteses de instrução.
+  - **Página Boas-vindas começa com `.vagalume-citacao`** (frase solta) — padrão de abertura do módulo.
+  - **Componente "Para refletir" (26) NÃO serve para convite de participação**: usar em chamadas de reflexão/fechamento; para convite final de fórum, usar caixa com texto em `.h5` centralizado sem ícone/título.
+
+### Estado final da seção Boas-vindas no repositório
+- `templates/pages/Boas-vindas/Boas-vindas_Apresentacao.html` ✅
+- `templates/pages/Boas-vindas/Boas-vindas_Dicas_para_os_cursistas.html` ✅
+- `templates/pages/Boas-vindas/Boas-vindas_Forum_Apresentacao.html` ✅ (novo — Fórum)
+- ~~`Boas-vindas_Conheca_a_Vagalume.html`~~ ❌ excluído
+- ~~`Boas-vindas_Parceria_Van_Leer_e_Vagalume.html`~~ ❌ excluído
+
+### Pendentes
+- **Commit + push** (autorização do mestre — N1.8) — *pendência encerrada nesta sessão*
+- **Revisão Parte 3 do Módulo 1** (próximo grande bloco)
+
+### Próximos passos possíveis
+- Revisão Parte 3 do Módulo 1 (maior bloco pendente)
+
+---
+
 ## 📍 Checkpoint — Sessão 20/08/2026 — ORGANIZAÇÃO DA PASTA TEMP + VERIFICAÇÃO COMPLETA DO MÓDULO 2 ✅
 
 ### Resumo da sessão
@@ -88,13 +119,13 @@
 ### Plano aprovado em 14/08/2026 (conformidade das páginas de etapa P4–P8 + p9 + atividade)
 Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nomes, cabeçalhos, rodapés). O autor NÃO pediu ajustes de conteúdo nas p4–p8 — apenas conformidade estrutural (comentários decimais + título do DI + rodapé). O autor também NÃO pediu mudanças de nome nas p4–p8 → **sem renomeação no Moodle** (apenas colar HTML por cima). Títulos nos comentários seguem o padrão "As etapas do desenvolvimento da criança - [faixa]".
 
-- [ ] **Etapa 13 — Página 4 P2** (`M1P2L1p4.html`) — conformidade: `Módulo 1 - Parte 2 - Lição 1 - Página 4 - As etapas do desenvolvimento da criança - O primeiro ano de vida` (abertura + rodapé)
-- [ ] **Etapa 14 — Página 5 P2** (`M1P2L1p5.html`) — conformidade: `... Página 5 - ... - De 1 a 2 anos`
-- [ ] **Etapa 15 — Página 6 P2** (`M1P2L1p6.html`) — conformidade: `... Página 6 - ... - De 2 a 3 anos`
-- [ ] **Etapa 16 — Página 7 P2** (`M1P2L1p7.html`) — conformidade: `... Página 7 - ... - De 3 a 4 anos` + remover comentários internos soltos
-- [ ] **Etapa 17 — Página 8 P2** (`M1P2L1p8.html`) — conformidade: `... Página 8 - ... - De 4 a 5 anos` + remover comentários internos soltos
-- [ ] **Etapa 18 — Página 9 P2** (`M1P2L1p9.html`) — ajustes do autor: grafia "Primeira Infância" + negrito na frase final
-- [ ] **Etapa 19 — Atividade p10 P2** (`M1P2L2p10.html`) — substituição integral (nova versão do autor)
+- [x] **Etapa 13 — Página 4 P2** (`M1P2L1p4.html`) — ✅ VALIDADA no Moodle em 20/08/2026
+- [x] **Etapa 14 — Página 5 P2** (`M1P2L1p5.html`) — ✅ VALIDADA no Moodle em 20/08/2026
+- [x] **Etapa 15 — Página 6 P2** (`M1P2L1p6.html`) — ✅ VALIDADA no Moodle em 20/08/2026
+- [x] **Etapa 16 — Página 7 P2** (`M1P2L1p7.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (comentários soltos removidos)
+- [x] **Etapa 17 — Página 8 P2** (`M1P2L1p8.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (comentários soltos removidos)
+- [x] **Etapa 18 — Página 9 P2** (`M1P2L1p9.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (grafia + negrito; frase "Por isso, apoiar..." mantida — confirmado com mestre)
+- [x] **Etapa 19 — Atividade p10 P2** (`M1P2L1p10.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (H5P modificado e inserido corretamente)
 - [ ] Atualizar `.clinerules` (regra "|"→":" + fórum "Compartilhando Ideias")
 - [ ] Commit + push (autorização do mestre — N1.8)
 
