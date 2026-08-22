@@ -1,5 +1,43 @@
 # Onde paramos
 
+## 📍 Checkpoint de encerramento — Sessão 22/08/2026 (2ª parte) — REORGANIZAÇÃO DA GALERIA DE TEMPLATES ✅ CONCLUÍDA
+
+### Objetivo
+Reorganizar a galeria de templates (atualmente em formato de livro em `docs/templates-galeria/`) para que o autor possa referenciar templates **pelo nome simples** no documento de DI, e o Cline reconhecê-los pelo nome e/ou contexto.
+
+### Fases e etapas
+- **Fase 1 — Inventário:** 1.1 mapear `components-library.md` (comps. 1–26) + livro atual (`docs/templates-galeria/`); 1.2 critérios de classificação (template vs variação; nome simples; promoção com ≥2 usos estáveis)
+- **Fase 2 — Auditoria (somente leitura, lote por módulo):** 2.1 Boas-vindas (3 págs) → 2.2 Módulo 1 (~20 págs) → 2.3 Módulo 2 (~36 págs); tabela parcial por módulo
+- **Fase 3 — Consolidação:** 3.1 tabela mestra (Template | Onde consta | Onde é usado | Para que | Qtd. usos); 3.2 candidatos a novo template com recomendação (promover/descartar)
+- **Fase 4 — Decisões conjuntas** com o mestre (promoções/rejeições/nomes simples)
+- **Fase 5 — Reescrita do livro** em `docs/templates-galeria/` (UMA página por ciclo PLAN → ACT → validação) + atualização de `components-library.md` e `.clinerules` N3.2
+
+### Regras transversais
+- Fases 2–3 são análise (leitura) — podem ser em lote; geração de arquivos segue anti-lote (N1.4.1)
+- Ao concluir cada fase no ACT: INTERROMPER e aguardar validação do mestre (retorno ao PLAN)
+- Plano salvo no checkpoint antes da execução (N1.3.3 item 6) ✅
+
+### Status da execução
+- [x] Etapa 1.1 — Inventário da galeria atual (biblioteca: 25 comps ativos; livro: 3 págs/~28 blocos)
+- [x] Etapa 1.2 — Critérios de classificação (template vs variação; nome simples; promoção ≥2 usos)
+- [x] Etapas 2.1–2.3 — Auditoria dos 3 módulos (2 matrizes de assinaturas em ~90 págs + 5 leituras pontuais)
+- [x] Etapa 3.1 — Tabela mestra consolidada → **`docs/relatorio-galeria-templates.md`**
+- [x] Etapa 3.2 — Candidatos a novo template (9 identificados: 4 promover, 4 avaliar, 1 sub-bloco)
+- [x] **Fase 4 — Decisões conjuntas APROVADAS pelo mestre (22/08)**: 8 candidatos promovidos; CTA/Galeria 2-3col/Grid2col → RESERVA; Modal/Vídeo antigo/Cabeçalho H1 → EXCLUIR; Vídeo ganha variante sem sinopse; nomes simples aprovados; layout do livro = padrão PSG adaptado (pills + exemplo + "onde foi usado" + "como pedir no DI"); reserva ENTRA no livro. Registrado na seção 6 do relatório.
+- [x] Etapa 5.0a — Backup do livro atual (`docs/backups/templates-galeria-v1/`)
+- [x] Etapa 5.0b — Decisões registradas no relatório (seção 6)
+- [x] Etapa 5.0c — `components-library.md` reescrita ✅ (25 templates ativos em 4 capítulos + Reserva R1–R3 + Elementos de Sistema S1–S4; backup em `docs/backups/components-library-v2-antes-reorganizacao.md`)
+- [x] Etapa 5.1 — Capítulo 1 ✍️ Texto e Destaques — ✅ INSERIDO NO LIVRO DO MOODLE
+- [x] Etapa 5.2 — Capítulo 2 🖼️ Imagens e Vídeos — ✅ INSERIDO NO LIVRO DO MOODLE
+- [x] Etapa 5.3 — Capítulo 3 🧩 Atividades e Interação — ✅ INSERIDO NO LIVRO DO MOODLE
+- [x] Etapa 5.4 — Capítulo 4 📄 Estrutura de Página e Reserva — ✅ INSERIDO NO LIVRO DO MOODLE
+- [x] Etapa 5.5 — `.clinerules` N3.2 atualizado (tabela com nomes simples 1–25 + R1–R3; ref. cruzada N3.5.1 corrigida) + limpeza (livro antigo removido c/ backup; temp limpa) + commit/push
+
+### 🎉 PROJETO CONCLUÍDO (22/08/2026)
+Livro de templates reescrito no padrão PSG adaptado (pills + exemplo renderizado + "Onde já foi usado" + "Como pedir no DI"), montado como recurso Livro no Moodle com 4 capítulos (✍️🖼️🧩📄). Catálogo final: 25 templates ativos + 3 reserva. Fontes canônicas: `components-library.md` (snippets), `docs/templates-galeria/moodle/` (HTML dos capítulos), `.clinerules` N3.2 (tabela de decisão). Auditoria completa em `docs/relatorio-galeria-templates.md`. Backups: `docs/backups/templates-galeria-v1/` e `docs/backups/components-library-v2-antes-reorganizacao.md`.
+
+---
+
 ## 📍 Checkpoint de encerramento — Sessão 22/08/2026 — REVISÃO DA PARTE 3 DO MÓDULO 1 ✅ (Infâncias no plural)
 
 ### Fonte

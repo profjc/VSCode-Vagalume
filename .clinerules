@@ -310,26 +310,40 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 
 ---
 
-## N3.2 Componentes Padrão
+## N3.2 Templates Padrão
 
-Ao escolher um componente, **priorize o contexto sobre a consulta mecânica à biblioteca**: se há citação com autoria, é um jumbotron (comp. 2); se há fala destacada, é uma sinopse (comp. 3); se há vídeo com sinopse, use o sub-bloco de 560px (comp. 23). A biblioteca completa de snippets está em **`components-library.md`** (consulte SEMPRE para os detalhes de implementação).
+Ao escolher um template, **priorize o contexto sobre a consulta mecânica à biblioteca**: se há citação com autoria, é uma "Citação com Autoria" (2); se há fala destacada, é uma "Caixa de Destaque" (1); se há vídeo com sinopse, é o "Vídeo com Sinopse" (14). Fontes canônicas: snippets em **`components-library.md`**; livro visual do autor em **`docs/templates-galeria/moodle/`** (4 capítulos colados no Moodle).
 
-| ID | Componente | Quando usar (contexto) | Implementação |
-|----|-----------|------------------------|---------------|
-| N3.2.1 | Botão Primário (CTA) | Links externos/atividades com CTA | Biblioteca, comp. 1 |
-| N3.2.2 | Card de Destaque (Jumbotron) | Citações com autoria, boas-vindas, chamadas | Biblioteca, comp. 2 |
-| N3.2.3 | Bloco de Destaque (Sinopse) | Destaques que não são citações | Biblioteca, comp. 3 |
-| N3.2.4 | Player H5P (Placeholder Nativo) | Atividades H5P (NUNCA iframe manual — `.h5p-placeholder` com `contenteditable="false"`) | Biblioteca, comp. 4 |
-| N3.2.5 | H5P Sem Cabeçalho | Páginas finais de lição (quiz/resumo) — card sem `.vagalume-h5p-header` | Biblioteca, comp. 4 (variação) |
-| N3.2.6 | Galeria de Imagens (Grid) | Múltiplas imagens em linha | Biblioteca, comp. 5 |
-| N3.2.7 | Imagem Flutuante com Figure | Imagem ao lado de texto (`float-md-*` + `flow-root` no container) | Biblioteca, comp. 6 |
-| N3.2.8 | Bloco de Destaque Isolado | Bloco colorido ao lado de imagem flutuante (encapsular em `.card border-0 bg-transparent`) | Biblioteca, comp. 7 |
-| N3.2.9 | Bloco de Orientação com Ícone (Template B) | Dicas, orientações passo a passo, técnicas de estudo (`d-flex align-items-center` + `fa-*`) | Biblioteca (orientação) |
-| N3.2.10 | Bloco de Descrição com Ícone Pequeno | Variação do Template B para textos mais longos (`fa-lg`, `padding-left: 36px`) | Biblioteca (variação) |
-| N3.2.11 | Vídeo Centralizado com Sinopse | Vídeo com sinopse obrigatória (sub-bloco 560px, `col-lg-8`, ícone `fa-file-text`) | Biblioteca, comp. 23 |
-| N3.2.12 | Lista de Links com Ícone (Playlist) | Lista de links com ícone `fa-play-circle` (último item `mb-0`; links seguem N2.6) | Biblioteca |
-| N3.2.13 | Template de Página de Fórum | Páginas de fórum (título "Fórum: [...]", caixa "Para participar" `fa-comments`, mensagem final `fa-users`) | `templates/components/forum.html` + Biblioteca, comp. 25 |
-| N3.2.14 | Caixa "Para refletir" | Chamadas de reflexão/fechamento/síntese reflexiva — visual distinto da caixa de instrução (card branco + borda laranja) | Biblioteca, comp. 26 |
+| # | Template (nome simples) | Quando usar (contexto) |
+|---|---|---|
+| 1 | Caixa de Destaque | Destaques, resumos, instruções (o mais usado) |
+| 2 | Citação com Autoria | Citações com crédito |
+| 3 | Aviso Importante | Alertas pontuais (💡) |
+| 4 | Palavra em Destaque | Conceito-chave em título/parágrafo (nunca em caixa bege) |
+| 5 | Caixa de Destaque ao Lado de Imagem | Bloco colorido junto a imagem flutuante |
+| 6 | Bloco de Orientação com Ícone | Dicas/orientações passo a passo |
+| 7 | Caixa Para Refletir | Reflexão/fechamento (card branco borda laranja) |
+| 8 | Caixa de Convite | Convite à participação sem caráter reflexivo |
+| 9 | Imagem ao Lado do Texto | Ilustração flutuante (+ `flow-root` no container) |
+| 10 | Imagem Centralizada com Legenda | Tirinhas/ilustrações centradas |
+| 11 | Imagem com Descrição Longa | Acessibilidade N2.4.7 (sr-only) |
+| 12 | Faixa Fluida de Imagens | Várias imagens lado a lado sem legenda individual |
+| 13 | Vídeo | Vídeo + créditos (sem sinopse) |
+| 14 | Vídeo com Sinopse | Vídeo + créditos + sinopse |
+| 15 | Atividade H5P com Título | H5P intermediário com cabeçalho laranja |
+| 16 | Atividade H5P sem Título | H5P padrão (predominante) |
+| 17 | Atividade Final de Lição | Última página da lição (texto + instrução + H5P) |
+| 18 | Galeria Interativa | Carrossel com collapse "saiba mais" |
+| 19 | Linha do Tempo Interativa | Sequência cronológica expansível |
+| 20 | Abertura de Módulo | Primeira página do módulo |
+| 21 | Cards de Síntese | Fechamento de módulo (+ celebração troféu) |
+| 22 | Referências Bibliográficas | Lista ABNT recuada de fim de módulo |
+| 23 | Página de Fórum | Fóruns "Compartilhando Ideias" |
+| 24 | Etiqueta de Parte (Label) | Demarcar partes na home do curso |
+| 25 | Cards de Módulos | Lista dos módulos do curso |
+| R1–R3 | Reserva: Botão Primário · Galeria 2/3 Colunas · Grid Texto 2 Colunas | Disponíveis, ainda sem uso no curso |
+
+**Referência no DI:** o autor cita pelo nome simples entre colchetes (`[caixa de destaque]`) ou descreve o conteúdo — templates marcados "não precisa explicitar" no livro são identificados pelo contexto.
 
 ---
 
@@ -371,7 +385,7 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 ### N3.5.1 Fluxo de Navegação nas Lições (princípio mental)
 - **Primeira página da lição:** apenas botão "Próximo".
 - **Páginas intermediárias:** botões "Anterior" e "Próximo".
-- **Última página da lição:** sempre uma atividade H5P (N3.2.5) + botões "Anterior" e "Finalizar".
+- **Última página da lição:** sempre uma atividade H5P (template 17 — Atividade Final de Lição) + botões "Anterior" e "Finalizar".
 Os botões são configurados pelo usuário diretamente no Moodle.
 
 ### N3.5.2 Checklist de Validação Mental (antes de entregar)
