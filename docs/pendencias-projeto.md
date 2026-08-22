@@ -17,7 +17,8 @@
 
 4. [ ] **Banner e textos da página inicial do curso**
 
-5. [ ] **Revisão do autor para o Módulo 1**
+5. [ ] **Revisão do autor para o Módulo 1** — **PARCIALMENTE CONCLUÍDA (22/08/2026):** Partes 1–3 revisadas e validadas no Moodle (Apresentação + Parte 1 + Parte 2 + Parte 3 completa com fórum). **Aguardando documento do autor com ajustes das Partes 4–5** para conclusão.
+  - Atualizado em 22/08/2026 — sem material de revisão disponível para as Partes 4–5 (checkpoint em `Onde-paramos.md`)
 
 6. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
 

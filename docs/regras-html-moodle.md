@@ -208,6 +208,21 @@ Todo link (`<a>`) externo ou endereço de e-mail deve seguir estas regras cumula
 2. **`rel="noopener noreferrer"`**: segurança e privacidade.
 3. **Classe `.nomediaplugin`**: evita que o Moodle tente converter o link automaticamente em player ou bloco embutido.
 
-Exemplo:
+### 6.1 Estilização visual padrão dos links (22/08/2026)
+Todo link externo deve ser visualmente **negrito + sublinhado + colorido**, destacando-se do texto comum. As classes/estilos seguem o contexto de fundo onde o link aparece:
+
+- **Fundo branco** (texto comum / cards brancos): cor **laranja `#d96f1a`** — `class="nomediaplugin font-weight-bold" style="color: #d96f1a; text-decoration: underline;"` (contraste ~4,9:1 sobre branco).
+- **Boxes/cards bege** (`vagalume-destaque-bloco`, `vagalume-sinopse`, `vagalume-jumbotron`, fundo `#faebdd`): cor **marrom `#5b3925`** — `class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;"` (contraste ~8,8:1 sobre bege; laranja sobre bege reprova o mínimo de 4,5:1 — N2.4.3/4.6).
+
+Exemplo (em box bege):
 ```html
-<a href="URL" target="_blank" rel="noopener noreferrer" class="nomediaplugin">Texto descritivo do link</a>
+<a class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;" href="URL" target="_blank" rel="noopener noreferrer">Texto descritivo do link</a>
+```
+
+Firmado em 22/08/2026 — precedente: link da BBC na `M1P3L1p2.html` inicialmente entregue sem estilização; corrigido para o padrão marrom sobre bege.
+
+---
+
+## 7. Exemplo completo de link externo
+```html
+<a class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;" href="URL" target="_blank" rel="noopener noreferrer">Texto descritivo do link</a>

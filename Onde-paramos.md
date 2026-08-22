@@ -1,5 +1,56 @@
 # Onde paramos
 
+## 📍 Checkpoint de encerramento — Sessão 22/08/2026 — REVISÃO DA PARTE 3 DO MÓDULO 1 ✅ (Infâncias no plural)
+
+### Fonte
+- `content/M1/Ajustes_Módulo I.md` (linhas 454–686 — Parte 3 completa)
+
+### Estrutura atual × ajustes (mapeamento confirmado)
+| Arquivo | Conteúdo atual | Ajuste do autor |
+|---|---|---|
+| `M1P3L1p1.html` | "O Cenário da Desigualdade" + box vulnerabilidade socioeconômica | Título → "Um cenário de desigualdade"; grafia "Primeira Infância" (1º/último parágrafo); box: novo título/texto, **sem ícone de informação** |
+| `M1P3L1p2.html` | "Impactos e Estresse Tóxico" + box estresse tóxico | Título → "Impactos da desigualdade no desenvolvimento infantil"; **box movido para o final**; novo título "Saiba mais sobre estresse tóxico" sem ícone; substituir os 3 parágrafos |
+| `M1P3L1p3.html` | Parágrafo curto de transição (redes/equidade) | **Substituição integral**: "O papel das redes de cuidado e proteção na promoção da equidade" + box "Você sabe o que é equidade?" |
+| `M1P3L1p4.html` | "Infâncias no Território: Olhar e Refletir" (Para refletir) | **EXCLUIR** |
+| `M1P3L1p5.html` | "Síntese: Desafios e Potências no Território" | **EXCLUIR** |
+| `M1P3L1p6.html` | Atividade Desafio de Palavras | Conceito "equidade" → nova formulação (**ajuste no Lumi** — tarefa do mestre) |
+| `M1P3L2p1.html` | "O papel dos dados e indicadores" | Grafia; **fusionar conteúdo da p2 (Heckman)** |
+| `M1P3L2p2.html` | James Heckman | **EXCLUIR após fusão** |
+| `M1P3L2p3.html` | Plataforma Primeira Infância em Dados | Título → "De Olho nos Dados"; parágrafo → "Esse observatório interativo..." |
+| `M1P3L2p4.html` | "Políticas de Proteção e Cuidado" (linha do tempo) | Parágrafo "Conhecer a trajetória..." **sai do box** (fica antes) + correção "treatments"→"tratamentos" |
+| `M1P3L2p5.html` | Atividade DragDrop DesafioLegislativo | Sem ajustes solicitados |
+| *(novo)* | — | **Criar fórum** "Fórum: Infâncias no território - olhar, escutar e refletir" — última atividade da Parte 3 (N3.5.3) |
+
+### Ordem de execução (UMA página por ciclo PLAN → ACT → validação)
+- **Bloco A — Lição 1:** 1) `M1P3L1p1` → 2) `M1P3L1p2` → 3) `M1P3L1p3` → 4) excluir p4+p5 (+ renomear p6→p4) → 5) Desafio de Palavras (entrega da formulação ao mestre)
+- **Bloco B — Lição 2:** 6) `M1P3L2p1` (fusão Heckman) → 7) excluir p2 + renomear p3→p2, p4→p3, p5→p4 → 8) nova p2 "De Olho nos Dados" → 9) nova p3 "Políticas" (parágrafo fora do box) → 10) criar `M1P3F1.html` (fórum)
+
+### Regras transversais
+- Comentários decimais + título do DI em todas as páginas tocadas (N2.2.2, N3.6)
+- Acessibilidade N2.4.12 completa
+- `code -r` como ÚLTIMA ação de cada ciclo
+- Após cada página: INTERROMPER e aguardar validação do mestre (retorno ao PLAN MODE)
+
+### Status da execução
+- [x] **Etapa 1 — `M1P3L1p1.html`** (título/grafia/box vulnerabilidade) — ✅ VALIDADA no Moodle (22/08)
+- [x] **Etapa 2 — `M1P3L1p2.html`** (título/parágrafos/box movido) — ✅ VALIDADA no Moodle (22/08); **correções:** link BBC → `geral-42625980` + estilização marrom/negrito/sublinhado; regra 6.1 em `docs/regras-html-moodle.md` + lição em `docs/regras-licoes-aprendidas.md`
+- [x] **Etapa 3 — `M1P3L1p3.html`** (substituição integral) — ✅ VALIDADA no Moodle (22/08)
+- [x] **Etapa 4 — Excluir p4+p5 + renomear p6→p4** (`git rm`/`git mv`) — ✅ VALIDADO no Moodle (22/08); comentários atualizados ("Página 4 - Atividade: Desafio de Palavras - Contextos e Realidades"); placeholder H5P corrigido (era "MM1P3L1p6")
+- [x] **Etapa 5 — Desafio de Palavras** — ✅ CONCLUÍDA pelo mestre (22/08): H5P substituído em `assets/h5p/M1/` com nome correto `M1P3L1p4 - Desafio de Palavras Contextos e Realidades.h5p` + conceito ajustado conforme autor; placeholder da p4 alinhado ao novo nome
+- [x] **Etapa 6 — `M1P3L2p1.html`** (fusão Heckman) — ✅ VALIDADA no Moodle (22/08); placeholder padrão aplicado na imagem (draft substituído); grafia "Primeira Infância" corrigida
+- [x] **Etapa 7 — Excluir p2 + renomear p3→p2, p4→p3, p5→p4** — ✅ CONCLUÍDA (22/08): `git rm M1P3L2p2.html` + `git mv` p3→p2, p4→p3, p5→p4. Estrutura atual: p1 (Heckman), p2 (ex-p3), p3 (ex-p4), p4 (ex-p5). Comentários serão atualizados nas Etapas 8/9 (+ numeração da p4)
+- [x] **Etapa 8 — Nova p2 (ex-p3)** (De Olho nos Dados) — ✅ VALIDADA no Moodle (22/08)
+- [x] **Etapa 9 — Nova p3 (ex-p4)** (Políticas: parágrafo fora do box + treatments + itálico removido) — ✅ VALIDADA no Moodle (22/08)
+- [x] **Etapa 10a — Conformidade da p4** (ex-p5: numeração Página 4 + título "Atividade: Desafio Legislativo - Marcos da Proteção" + H5P renomeado `M1P3L2p4-DragDrop-DesafioLegislativo.h5p`) — ✅ VALIDADO no Moodle (22/08)
+- [x] **Etapa 10b — Limpeza recursos H5P** (6 SVGs excluídos + 6 PNGs renomeados p5→p4 + lição atualizada) — ✅ VALIDADO no Moodle (22/08)
+- [x] **Etapa 10c — Criar `M1P3F1.html`** (Fórum: Infâncias no território - olhar, escutar e refletir — última atividade da Parte 3) — ✅ VALIDADO no Moodle (22/08)
+- [x] **Teste @@PLUGINFILE@@ (22/08)** — ✅ CONCLUÍDO: REJEITADO no Moodle 4.5/Trema ("Uma imagem deve ter um URL válido.") — método das duas imagens confirmado como definitivo; registro na lição aprendida
+
+### 🎉 REVISÃO DA PARTE 3 DO MÓDULO 1 — 100% CONCLUÍDA E VALIDADA (22/08/2026)
+Todas as etapas (Lições 1 e 2 + fórum `M1P3F1.html`) foram concluídas e **validadas no Moodle pelo mestre** (22/08/2026). Plano REMOVIDO conforme N1.3.3 item 6. **Próximo passo:** aguardando documento do autor com ajustes das Partes 4–5 do Módulo 1 (sem material de revisão disponível — ver `docs/pendencias-projeto.md`).
+
+---
+
 ## 📍 Checkpoint — Sessão 21/08/2026 — REVISÃO DO MÓDULO BOAS-VINDAS: CARDS 1-2 VALIDADOS + EXCLUSÕES + FÓRUM NOVO ✅
 
 ### Resumo da sessão
