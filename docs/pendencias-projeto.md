@@ -23,3 +23,13 @@
 6. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
 
 7. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
+
+8. [ ] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`): decidir formato** — **PENDÊNCIA REAL (28/08/2026)**
+   - O autor decidirá se as referências ficam em **formato ABNT (NBR 6023:2018)** completo ou em **formato "mais amigável e menos acadêmico"** (dados de autoria/título/ano, sem rigidez ABNT).
+   - **Pesquisa realizada pelo Cline (28/08/2026) — dados já verificados na internet:**
+     - ✅ **Entrevista Emília (Cabrejo-Parra):** publicada por Gabriela Romeu em **1º set. 2011** — dados completos (URL: https://emilia.org.br/evelio-cabrejo-parra/).
+     - ✅ **Vídeo Dorrico (TEDx):** localizado — canal TEDx Talks, https://www.youtube.com/watch?v=gKVOXmuEbwU (publicado ≈2020, a confirmar).
+     - ✅ **Vídeo Patrícia Bohrer (Ler é uma Viagem):** localizado — https://www.youtube.com/watch?v=bz0WYDtpR5g, duração 22:07 (publicado ≈2022/2023, a confirmar).
+     - ⚠️ **Ano de Bajour** (Pulo do Gato, provável 2012) e **ano de Coelho** (Brasiliense, Coleção Primeiros Passos) — NÃO confirmados; verificar no exemplar/com autor.
+     - ❌ **Vídeo "Representatividade nos livros" (Programa Vaga Lume):** NÃO localizado — precisar do link direto ou título exato no canal.
+   - Aplicar a decisão do autor nas páginas de referências do curso (padrão hoje: `M2P6P2.html`, mesmo padrão visual do `M1P5P2`).

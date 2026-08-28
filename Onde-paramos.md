@@ -215,8 +215,8 @@ Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nom
 - [x] **Etapa 17 — Página 8 P2** (`M1P2L1p8.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (comentários soltos removidos)
 - [x] **Etapa 18 — Página 9 P2** (`M1P2L1p9.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (grafia + negrito; frase "Por isso, apoiar..." mantida — confirmado com mestre)
 - [x] **Etapa 19 — Atividade p10 P2** (`M1P2L1p10.html`) — ✅ VALIDADA no Moodle em 20/08/2026 (H5P modificado e inserido corretamente)
-- [ ] Atualizar `.clinerules` (regra "|"→":" + fórum "Compartilhando Ideias")
-- [ ] Commit + push (autorização do mestre — N1.8)
+- [x] Atualizar `.clinerules` (regra "|"→":" + fórum "Compartilhando Ideias") — ✅ CONCLUÍDA (28/08/2026): regra "|"→":" já presente em N2.4.11; fóruns "Compartilhando Ideias" já registrados no N3.6
+- [x] Commit + push — ✅ CONCLUÍDO (28/08/2026): working tree limpo, HEAD = origin/master (commit d2d1ced)
 
 ---
 
@@ -294,7 +294,7 @@ Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nom
   - **Label:** `templates/pages/labels/M2_Label_Parte6_Sintese_do_modulo_2.html` — "Parte 6 / Síntese do Módulo 2" (padrão das etiquetas M2)
   - **Página 1** (`templates/pages/M2/Parte6/M2P6P1.html`): "O que aprendemos no Módulo 2?" — parágrafo introdutório + **6 cards de síntese** (padrão do M1P5P1) com ícones correspondentes e textos do autor (linhas 961–983)
   - **Página 2** (`templates/pages/M2/Parte6/M2P6P2.html`): "Referências Bibliográficas — Módulo 2" — padrão visual do M1P5P2, com os dados do autor (linhas 988–1002)
-- **Referências ABNT:** não estão 100% no padrão (faltam anos de publicação, URLs completas e datas de acesso) — decisão do mestre: usar apenas os dados fornecidos; o mestre verificará com o autor como completar.
+- **Referências ABNT:** não estão 100% no padrão (faltam anos de publicação, URLs completas e datas de acesso) — decisão do mestre: usar apenas os dados fornecidos; o mestre verificará com o autor como completar. **→ Atualização (28/08/2026): pendência REAL registrada no item 8 de `docs/pendencias-projeto.md`** — o autor decidirá entre ABNT completa ou formato "mais amigável e menos acadêmico". Pesquisa do Cline já realizada: entrevista Emília completa (1º set. 2011); vídeos Dorrico e Bohrer localizados com URL; anos de Bajour/Coelho e vídeo da Vaga Lume ainda sem confirmação.
 - **Novos arquivos criados:** `M2_Label_Parte6_Sintese_do_modulo_2.html`, `M2P6P1.html`, `M2P6P2.html` (pasta `Parte6/` criada).
 
 ### Tarefas do mestre no Moodle (checklist final da Parte 6)
@@ -392,8 +392,8 @@ Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nom
 - H5P antigo `M2P3L2-question-Set.h5p` já removido pelo mestre (renomeado para `M2P3L2p3-question-Set.h5p`)
 
 ### Pendências abertas
-- **Moodle:** colar/reordenar fórum `M2P3F1.html` como última ação da Parte 3 (mestre confirmou "5 - ok" nas pendências)
-- **Lumi:** criar H5P `M2P3L1p3-question_set-aproximando_livros.h5p` (mestre já criou `M2P3L1p3-h5p-qset.h5p` — verificar correspondência)
+- ✅ **RESOLVIDO (28/08/2026):** mestre confirmou que o fórum `M2P3F1` foi colado e reordenado como última atividade da Parte 3 no Moodle.
+- ✅ **Lumi:** H5P `M2P3L1p3` (atividade "Aproximando livros de crianças") — ✅ **RESOLVIDO (28/08/2026):** mestre confirmou que está ok.
 - **PRÓXIMO:** Parte 4 do Módulo 2 ("Escolhendo livros para mediar com a Primeira Infância") — revisar conforme `temp/Ajustes_Módulo 2.md` (linhas ~530+)
 
 ---
@@ -419,7 +419,7 @@ Decisão do mestre: **todas as páginas dentro dos moldes de conformidade** (nom
 - ✅ **PASSO B CONCLUÍDO:** antiga `M2P2L1p2.html` excluída via `git rm`.
 - ✅ **PASSO C CONCLUÍDO:** `git mv M2P2L1p3.html M2P2L1p2.html`.
 - ✅ **PASSO D CONCLUÍDO:** foco devolvido ao VS Code no arquivo renomeado.
-- ⏳ **Aguardando validação do mestre no Moodle:** colar nova p2 (atividade) substituindo a antiga p3; remover antiga p2; ajustar lógica do H5P (2 verdadeiras) no Lumi.
+- ✅ **RESOLVIDO (28/08/2026):** mestre confirmou que a atividade foi atualizada no Lumi (lógica 2 verdadeiras) e no Moodle (nova p2 colada substituindo a antiga p3, antiga p2 removida).
 - ⏳ **PASSO 4 (registros)** — pendências M1, biblioteca e `.clinerules` quando autorizado.
 
 ### Pendência nova mapeada no MÓDULO 1 (NÃO executar agora)
