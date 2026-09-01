@@ -1,23 +1,32 @@
 # Onde paramos
 
-## 📍 PLANO ATIVO — Sessão 01/09/2026 — Revisão da Parte 4 do Módulo 1 (Ajustes_Módulo I.docx)
+## 📍 Checkpoint de encerramento — Sessão 01/09/2026 — REVISÃO DA PARTE 4 DO MÓDULO 1 ✅ CONCLUÍDA
 
-### Fonte
-`temp/Ajustes_Módulo I.md` (convertido do .docx de 01/09; imagens em `temp/media_m1/`)
+### Fonte e decisões
+- `temp/Ajustes_Módulo I.md` (convertido do .docx de 01/09; imagens em `temp/media_m1/`)
+- Legendas de vídeo: "|" substituído por ":" (N2.4.12) — decisão do mestre
+- H5P da atividade: novo **`M1P4L1p5-H5P-VouF.h5p`** criado pelo mestre no Lumi (5 V/F: V, F, V, V, F) e salvo em `assets/h5p/M1/`
 
-### Decisões do mestre (01/09)
-- Legendas de vídeo: substituir "|" por ":" (regra N2.4.12)
-- H5P da atividade: mestre decide quando chegarmos nele
+### Etapas executadas (todas validadas no Moodle pelo mestre)
+1. [x] **M1P4L1p1** — unificação p1+p2 → "Os Sentidos do Cuidado"; "Primeira Infância" maiúsculo; frase de transição; ícone coração removido
+2. [x] **M1P4L1p2** — "Parentalidade: cuidar, educar e construir vínculos"; negritos; vídeo fora do box: thumbnail + botão centralizado "Assistir no YouTube" (embed não autorizado pelo YouTube) + legenda "O que é Parentalidade: Canal: ChildFund Brasil (YouTube): 02min19s"; placeholder clicável delimitado com par "⚠️ APAGAR ESTE BLOCO — INÍCIO/FIM"
+3. [x] **M1P4L1p3** — "Quem cuida da Primeira Infância?"; maiúscula no 2º box
+4. [x] **M1P4L1p4** — "E quem cuida de quem cuida da Primeira Infância?"; "Por isso, cuidar..." fora do box; frase de destaque em negrito no 2º parágrafo; fusão com "Redes de apoio"; "rodas de leitura" incluída conforme doc
+5. [x] **M1P4L1p5** — nova atividade "Atividade: Cuidado, vínculos e redes" (intro + BOX "Colocando em prática" + card H5P sem cabeçalho)
+6. [x] **M1P4F1** — fórum reescrito no padrão M2 (box "Conheça a experiência" com lupa; títulos de vídeo/artigo revisados; box "Para participar" com "ou" inline no 1º item — correção de padrão)
+7. [x] **Renumeração** — git rm: antiga p2 (absorvida), p6 (Redes, absorvida), p7 (Desafio) e H5P antigo `M1P4L1p7-H5P-Question_Set.h5p`; git mv: p3→p2, p4→p3, p5→p4, p7→p5
+8. [x] **Commit + push** — `b50f53d` "Revisao Parte 4 do Modulo 1: paginas 1-5 e forum reescritas conforme ajustes do autor" (master → origin/master, working tree limpo)
 
-### Etapas (ciclo PLAN → ACT → validação; UMA por vez)
-1. [x] **M1P4L1p1** — unificar p1+p2 → "Os Sentidos do Cuidado"; "Primeira Infância" maiúsculo (2 parágrafos); frase de transição ao final do parágrafo "Ao longo da história..."; retirar ícone coração do box "Cuidar envolve..." — ✅ aguardando validação do mestre (antiga M1P4L1p2.html ainda existe; será removida na renumeração — etapa 7)
-2. [x] **M1P4L1p2** — ✅ CONCLUÍDA (01/09): renumeração antecipada feita (git rm da antiga p2 absorvida; p3→p2, p4→p3, p5→p4, p7→p5; p6 "Redes de apoio" permanece até fusão na p4) + página Parentalidade editada: negrito 2º/3º parágrafos, cards de vídeo (desktop+mobile) removidos, vídeo em iframe padrão M2 com legenda "O que é Parentalidade: Canal: ChildFund Brasil (YouTube): 02min19s" — ✅ CORREÇÃO (01/09): iframe removido (embed não autorizado pelo YouTube); restaurada a thumbnail anterior com botão centralizado "Assistir no YouTube" (laranja #D96F1A, nomediaplugin, nova aba) + legenda mantida; src="[cole a imagem aqui]" — imagem de referência já no projeto: assets/images/ilustracoes/M1/M1P4L1img-Brinca_e_aprende_comigo_3.png — ✅ REESCRITA INTEGRAL (01/09): arquivo reescrito em passada única (sem edições incrementais); bloco do placeholder delimitado com par "⚠️ APAGAR ESTE BLOCO — INÍCIO/FIM" envolvendo apenas o placeholder clicável; divs 3/3 e p 6/6 balanceados; legenda mantida — aguardando validação do mestre (Moodle: retitular página para "Parentalidade: cuidar, educar e construir vínculos", subir a imagem no placeholder, colar URL no src e apagar o bloco INÍCIO/FIM)
-3. [x] **M1P4L1p3** — ✅ CONCLUÍDA (01/09): comentário decimal com título "Quem cuida da Primeira Infância?"; "Primeira Infância" maiúsculo no 2º box (pessoas cuidadoras secundárias); auditado (divs 7/7, sem "primeira infância" minúsculo) — aguardando validação do mestre (Moodle: retitular página de "Quem Cuida da Criança?")
-4. [x] **M1P4L1p4** — ✅ CONCLUÍDA (01/09): título "E quem cuida de quem cuida da Primeira Infância?"; "Por isso, cuidar..." fora do box (box removido); frase "Toda criança tem direito..." em negrito ao final do 2º parágrafo (sem ícone); página "Redes de apoio" incorporada integralmente; "Primeira Infância" maiúsculo no último parágrafo; "rodas de leitura" incluída conforme doc do autor (N2.5.6 — mestre autorizou seguir o doc); auditado (divs 5/5, p 4/4, zero palavras em inglês) — aguardando validação do mestre (Moodle: retitular página de "Cuidar de quem Cuida"; página "Redes de apoio e espaços de cuidado" deve ser EXCLUÍDA do Moodle)
-5. [x] **M1P4L1p5** — ✅ CONCLUÍDA (01/09): nova atividade "Atividade: Cuidado, vínculos e redes" (substitui "Desafio: o cuidado coletivo"); padrão vigente: intro fora de box + BOX "Colocando em prática" (fa-pencil-square-o) + card H5P sem cabeçalho; placeholder `[ARQUIVO_H5P: M1P4L1p5-H5P-VouF.h5p]` — aguardando validação do mestre (Moodle: EXCLUIR página "Desafio: o cuidado coletivo" e o H5P `M1P4L1p7-H5P-Question_Set.h5p`; criar página nova "Atividade: Cuidado, vínculos e redes", colar HTML e anexar o novo H5P VouF a criar no Lumi — 5 afirmativas: V, F, V, V, F, com devolutivas do doc linhas 806–913; git rm do H5P antigo em assets/h5p/M1/ pendente)
-6. [x] **Fórum M1P4F1** — ✅ CONCLUÍDA (01/09): reescrito no padrão M2 (título com prefixo "Fórum:", contexto + parágrafo Mães Mobilizadoras + box "Conheça a experiência" com lupa fa-search e cards de vídeo/artigo com títulos revisados + parágrafos de reflexão com negritos do doc + box "Para participar" com hr e comentário final); auditado (43 linhas, divs balanceados) — aguardando validação do mestre (Moodle: substituir todo o conteúdo do fórum; título do fórum permanece o mesmo)
-7. [ ] **Renumeração de arquivos** (git mv conforme unificações) + exclusão de páginas absorvidas + labels, após validação
-8. [ ] Checkpoint final + commit/push (com autorização)
+### Lições da sessão (a registrar em docs/regras-licoes-aprendidas.md quando autorizado)
+- Vídeo com embed não autorizado: usar thumbnail + botão centralizado "Assistir no YouTube" (imagem do projeto, nunca draftfile) + legenda
+- Bloco "⚠️ APAGAR ESTE BLOCO" sempre delimitado com par INÍCIO/FIM envolvendo apenas o placeholder
+- "ou" de escolha em listas de fóruns: inline no fim do item anterior, nunca como item isolado
+- Preferir reescrita integral do arquivo a edições incrementais encadeadas
+- Executar `code -r` e CONFIRMAR a abertura com o mestre antes de encerrar o ciclo
+
+### Próximos passos
+- ⏳ Continuar a revisão do Módulo 1 conforme o restante de `temp/Ajustes_Módulo I.md` (apresentação, Parte 1, síntese e referências — o mestre indicará a ordem)
+- ⏳ Verificar pendências de referências ABNT do doc (itens [VERIFICAR]) com o autor
 
 ---
 
