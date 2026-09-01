@@ -12,6 +12,18 @@
 
 ## Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
 
+- **Post-mortem da sessão 01/09/2026 — 9 procedimentos corretivos (PRIORIDADE MÁXIMA):** firmados após erros consecutivos na revisão da Parte 4 do Módulo 1. Aplicar em TODA revisão/criação de página:
+  1. **Precedente obrigatório:** antes de gerar qualquer página, ler a página-alvo ATUAL + **1 página de referência do mesmo tipo** (atividade/fórum/vídeo) já validada no projeto. Vídeo: **nunca propor `iframe` sem confirmar que o embed funciona** — quando o embed não é autorizado pelo YouTube, o padrão é thumbnail (imagem do projeto, NUNCA `draftfile`) + botão centralizado "Assistir no YouTube" (laranja #D96F1A, `nomediaplugin`, nova aba) + legenda com ":" (sem "|"). Precedente: "O que é Parentalidade" (M1P4L1p2).
+  2. **Reescrita integral, sempre:** página nova/substituída é gravada em UMA passada, arquivo completo. PROIBIDO montar por edições incrementais encadeadas (sed/edits sucessivos) — causa: divs descasados entregues (precedente: M1P4L1p2, 01/09).
+  3. **Auditoria mecânica antes de entregar:** contagem de `<div>`/`</div>` e `<p>`/`</p>` balanceados + padrões da casa conferidos + zero texto fora do doc sem autorização.
+  4. **Discrepância sinalizada na leitura:** qualquer diferença doc × página existente (texto, itens, títulos, H5Ps) é reportada no PLANO, no momento da leitura — nunca depois, nunca omitida. Precedentes: "rodas de leitura" (reportada tarde) e H5P a excluir (mestre precisou perguntar).
+  5. **Template de entrega fixo por ciclo:** ① caminho do arquivo + confirmação de abertura no VS Code; ② título novo no Moodle; ③ checklist Moodle completo com INCLUSÕES **E EXCLUSÕES** (páginas e H5Ps, com nomes exatos); ④ auditoria executada; ⑤ aguardar validação.
+  6. **Verificar antes de afirmar:** qualquer afirmação sobre estado do projeto ("já foi resolvido", "está pendente") só após grep/leitura do arquivo atual — NUNCA por memória de checkpoint antigo. Precedente: M1P1L1p3 e Partes 1–3 afirmadas como pendentes já resolvidas (01/09).
+  7. **`code -r` confirmado:** sempre a ÚLTIMA ação; se o mestre reportar que a página não abriu, reexecutar imediatamente sem discutir.
+  8. **Terminal enxuto:** editor de arquivos é o padrão para gravar conteúdo; comandos longos/heredoc só quando inevitáveis (causam travamentos "proceed while running").
+  9. **Bloco "⚠️ APAGAR ESTE BLOCO" delimitado:** sempre com par de comentários "— INÍCIO ... — FIM" envolvendo APENAS o placeholder clicável; a imagem oficial (`src="[cole a imagem aqui]"`) fica FORA do bloco. Precedente: M1P4L1p2.
+- **"ou" de escolha em listas (fóruns e atividades) — 01/09/2026:** o "ou" que alterna itens vai **inline no final do item anterior** ("...em seu território; **ou**"), nunca como item de lista isolado. Precedente: fórum da Parte 4 do M1 corrigido após o mestre detectar o item solto.
+
 - O CSS global com prefixo `.vagalume-` deve ser instalado no SCSS Póst do tema Trema pelo usuário - você nunca modifica esse CSS.
 - O usuário não quer que você modifique o CSS original que ele fornece.
 - **Fluxo de criação em lote:** Quando o usuário diz "vamos continuar a partir daqui" ou "vamos fazer a próxima", ele está se referindo à última página auditada/criada e quer que você crie a **próxima página do fluxo** (vazia, com apenas a estrutura base) para que ele possa colar o código que já está pronto. SEMPRE perguntar "quer que eu crie a próxima página (M2P3L1p2.html) para você colar o código?" — não assumir que precisa de briefing ou conteúdo novo.

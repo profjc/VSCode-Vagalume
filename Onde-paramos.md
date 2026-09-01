@@ -24,6 +24,27 @@
 - Preferir reescrita integral do arquivo a edições incrementais encadeadas
 - Executar `code -r` e CONFIRMAR a abertura com o mestre antes de encerrar o ciclo
 
+## 📍 Fechamento da sessão 01/09/2026 (3ª parte) — SÍNTESE + POST-MORTEM ✅
+
+### Síntese do Módulo 1 (`M1P5P1.html`) — ✅ VALIDADA pelo mestre no Moodle
+- 1º parágrafo com título completo em negrito: "Módulo 1 – Primeira Infância: Desenvolvimento, Cuidado e Bem-Estar"
+- Card 3: dois-pontos retirados ("mudou de 'adultos em miniatura'...")
+- Correção de digitação no Card 5: "professionals" → "profissionais"
+
+### **MÓDULO 1: 100% REVISADO** ✅ (Partes 1–4 + Síntese; fóruns no padrão)
+- ⛔ **Referências bibliográficas: PENDÊNCIA DO AUTOR** (itens [VERIFICAR]/[COMPLETAR] do doc; não executar — registrada em `docs/pendencias-projeto.md`)
+
+### Post-mortem da sessão — 9 procedimentos corretivos firmados e REGISTRADOS
+- ✅ `docs/regras-licoes-aprendidas.md`: post-mortem completo (precedente obrigatório; reescrita integral; auditoria mecânica; discrepância na leitura; template de entrega com inclusões+exclusões; verificar antes de afirmar; code -r confirmado; terminal enxuto; bloco APAGAR delimitado) + regra do "ou" inline em listas
+- ✅ `docs/regras-html-moodle.md` §1.1 item 7: padrão de vídeo com embed não autorizado (thumbnail + botão "Assistir no YouTube" + legenda)
+
+### Pendências para próxima sessão
+- ⏳ Commit/push destes registros (com autorização do mestre)
+- ⏳ Próxima revisão: Módulo 2 (doc `temp/Ajustes_Módulo 2.md`) — verificar com o mestre o que já foi feito
+
+---
+
+
 ### Próximos passos
 - ⏳ Continuar a revisão do Módulo 1 conforme o restante de `temp/Ajustes_Módulo I.md` (apresentação, Parte 1, síntese e referências — o mestre indicará a ordem)
 - ⏳ Verificar pendências de referências ABNT do doc (itens [VERIFICAR]) com o autor
