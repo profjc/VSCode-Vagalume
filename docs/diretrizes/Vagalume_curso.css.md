@@ -1,3 +1,5 @@
+<!-- Sincronizado em 02/09/2026 a partir de temp/CSS_global_v2.css (fonte da verdade, aplicado e validado no Moodle). NAO EDITAR AQUI: alterar o CSS em temp/ e re-sincronizar. Copia do mestre no Google Drive. -->
+
 /* ==========================================================================
    ESTILIZAÇÃO DOS TÍTULOS DAS SEÇÕES - FORMATO TILES (DIRETRIZ VAGA LUME)
    Aplica fundo bege, cor marrom personalizada e arredondamento ao contêiner 
@@ -22,7 +24,10 @@ body[id*="page-course-view-"][id*="-tiles"] .sectiontitle h2 {
 }
 
 /* ==========================================================================
-   CONFIGURAÇÃO FINAL CORRIGIDA - PÁGINA INICIAL VAGA LUME
+   PÁGINA INICIAL VAGA LUME (CAPA DO SITE)
+   Revisado em 02/09/2026: mecanismo de banner do tema (frontpagebanner)
+   DESATIVADO — a imagem de topo agora é uma <img> no HTML da capa
+   (classe .frontpage-hero, seções 5 e 6 deste arquivo).
    ========================================================================== */
 
 /* 1. ESTRATÉGIA DE CAMUFLAGEM: PINTA OS CONTAINERS DE VERDE */
@@ -38,20 +43,7 @@ html body.pagelayout-frontpage #region-main-box {
     padding-bottom: 0 !important;
 }
 
-/* 2. BANNER: LARGURA TOTAL E PROPORÇÃO (1038x627) */
-html body.pagelayout-frontpage #frontpage-banner {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    min-height: unset !important;
-    aspect-ratio: 1038 / 627 !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    margin-bottom: 0 !important;
-}
-
-/* 3. LIMPEZA DE ELEMENTOS (REMOVE BARRAS COLORIDAS E DECORAÇÕES) */
+/* 2. LIMPEZA DE ELEMENTOS (REMOVE BARRAS COLORIDAS E DECORAÇÕES) */
 html body.pagelayout-frontpage .secondary-navigation,
 html body.pagelayout-frontpage #topofcontent,
 html body.pagelayout-frontpage #page-content::before,
@@ -72,7 +64,7 @@ html body.pagelayout-frontpage #page-content.pb-3 {
     background-image: none !important;
 }
 
-/* 4. ESTILO DO BLOCO DE TEXTO (QUADRO VERDE) */
+/* 3. ESTILO DO BLOCO DE TEXTO (QUADRO VERDE) */
 html body.pagelayout-frontpage .banner-text-block {
     background-color: transparent !important;
     color: #ffffff !important;
@@ -87,13 +79,55 @@ html body.pagelayout-frontpage .container-inner {
     padding: 0 20px !important;
 }
 
-/* 5. TIPOGRAFIA */
+/* 4. TIPOGRAFIA GERAL DA CAPA */
 html body.pagelayout-frontpage .title-top { font-size: 2.5rem !important; font-weight: 800 !important; color: #ffffff !important; margin-bottom: 0 !important; }
 html body.pagelayout-frontpage .title-main { font-size: 4rem !important; font-weight: 900 !important; color: #f8b133 !important; margin-top: -10px !important; margin-bottom: 30px !important; text-transform: uppercase !important; }
 html body.pagelayout-frontpage .content-body p { font-size: 1.15rem !important; line-height: 1.6 !important; margin-bottom: 1.5rem !important; }
 html body.pagelayout-frontpage .content-body p:last-child { margin-bottom: 0 !important; }
 
-/* 6. RODAPÉ: LARANJA E UNIÃO COM O VERDE */
+/* 4.1 HIERARQUIA DE TÍTULOS DA CAPA (Boas-vindas! / Conheça a Vaga Lume)
+   Blindado por #page-site-index (afeta SOMENTE a página inicial) e imune à
+   higienização do TinyMCE, que remove !important dos styles inline.
+   Corrige a hierarquia do mockup: h1 maior que h2, sem caixa alta no h2. */
+html body#page-site-index .title-top {
+    font-size: 3.5rem !important;
+    color: #fff4e0 !important;
+    margin-bottom: 2rem !important; /* Espaço entre "Boas-vindas!" e o parágrafo (vence o margin-bottom:0 da regra 4) */
+}
+html body#page-site-index .title-main {
+    font-size: 2.5rem !important;
+    color: #f8b133 !important;
+    text-transform: none !important;
+}
+
+/* 5. CAPA DO SITE: HERO (IMAGEM DE TOPO) EM LARGURA TOTAL, COLADA AO TOPO
+   Técnica full-bleed: a imagem "sangra" até as bordas da tela mesmo dentro
+   de containers com max-width. Alvo: <img class="frontpage-hero">. */
+html body#page-site-index #page-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+html body#page-site-index #region-main {
+    padding: 0 !important;
+    background: transparent !important;
+}
+html body#page-site-index .frontpage-hero {
+    display: block !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+}
+
+/* 6. CAPA DO SITE: BOTÃO PILL (Clique aqui e acesse o nosso site)
+   Somente na página inicial (#page-site-index); imune ao TinyMCE. */
+html body#page-site-index .nomediaplugin.btn {
+    background-color: #D96F1A !important;
+    color: #ffffff !important;
+    border-radius: 50rem !important;
+}
+
+/* 7. RODAPÉ: LARANJA E UNIÃO COM O VERDE */
 html body.pagelayout-frontpage #page-footer {
     background-color: #d96f1a !important; /* Laranja Vaga Lume */
     padding-top: 0 !important;
@@ -101,7 +135,7 @@ html body.pagelayout-frontpage #page-footer {
     border-top: none !important;
 }
 
-/* 7. OCULTA BLOCOS ADMINISTRATIVOS (MANTENDO O CONTEÚDO PRINCIPAL) */
+/* 8. OCULTA BLOCOS ADMINISTRATIVOS (MANTENDO O CONTEÚDO PRINCIPAL) */
 html body.pagelayout-frontpage #side-admin-blocks {
     display: none !important;
 }
@@ -227,9 +261,7 @@ body.path-site footer {
    ========================================================================== */
 
 a.navbar-brand.aabtn {
-    pointer-events: none !important; /* Bloqueia qualquer clique ou interação com o link */
-    cursor: default !important;     /* Remove o ícone de 'mãozinha' do mouse ao passar sobre a logo */
-    user-select: none;              /* Evita que a imagem seja selecionada por engano */
+    pointer-events: none 
 }
 
 /* Garante que a imagem dentro do link continue visível, mas sem comportamento de link */
@@ -709,3 +741,9 @@ div[role="progressbar"] {
 .progress-bar {
     border-color: #D96F1A !important;
 }
+
+
+
+
+
+
