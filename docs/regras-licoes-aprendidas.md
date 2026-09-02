@@ -12,6 +12,12 @@
 
 ## Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
 
+- **TinyMCE remove `!important` e propriedades de style inline ao salvar (02/09/2026):** valem para qualquer campo TinyMCE (incluindo "Conteúdo da página inicial" da capa do site). Estilos críticos devem morar no CSS global (`temp/CSS_global_v2.css`), blindados por seletor `body#page-site-index` quando exclusivos da capa. Páginas de leitura já são imunes via classes `.vagalume-*`. **Exceção confirmada:** `border-radius` simples em `<img>` é preservado (precedente: banner da capa do curso, 26px, validado pelo mestre em 02/09).
+- **URL de draft (`/user/draft/`) expira → brokenfile (02/09/2026):** para assets públicos (banners de capa), usar bloco HTML na Página inicial / contexto público — pluginfile estável com `cache-control: public` (precedente: instância 143, "ASSETS — CAPA DO SITE", HTTP 200 anônimo; **NÃO REMOVER O BLOCO**).
+- **Editor TinyMCE da frontpage pode não ter botão de imagem (02/09/2026):** colar o HTML no modo código `<>` com o `src` já preenchido.
+- **Repository "Sistema de arquivos" NÃO serve para assets públicos (02/09/2026):** exige pasta no servidor via SSH e `check_capability` (bloqueia anônimos). Caminho comprovado: bloco HTML público.
+- **Teste padrão pós-purga de cache (02/09/2026):** janela anônima + Ctrl+Shift+R — o CSS velho em cache do navegador confunde o diagnóstico.
+
 - **Post-mortem da sessão 01/09/2026 — 9 procedimentos corretivos (PRIORIDADE MÁXIMA):** firmados após erros consecutivos na revisão da Parte 4 do Módulo 1. Aplicar em TODA revisão/criação de página:
   1. **Precedente obrigatório:** antes de gerar qualquer página, ler a página-alvo ATUAL + **1 página de referência do mesmo tipo** (atividade/fórum/vídeo) já validada no projeto. Vídeo: **nunca propor `iframe` sem confirmar que o embed funciona** — quando o embed não é autorizado pelo YouTube, o padrão é thumbnail (imagem do projeto, NUNCA `draftfile`) + botão centralizado "Assistir no YouTube" (laranja #D96F1A, `nomediaplugin`, nova aba) + legenda com ":" (sem "|"). Precedente: "O que é Parentalidade" (M1P4L1p2).
   2. **Reescrita integral, sempre:** página nova/substituída é gravada em UMA passada, arquivo completo. PROIBIDO montar por edições incrementais encadeadas (sed/edits sucessivos) — causa: divs descasados entregues (precedente: M1P4L1p2, 01/09).

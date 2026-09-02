@@ -1,5 +1,76 @@
 # Onde paramos
 
+## 📍 Checkpoint — Sessão 02/09/2026 — CAPA DO SITE ✅ + CAPA DO CURSO ✅ + FÓRUM DE AVISOS ✅ (TODOS VALIDADOS)
+### Capa do site — ✅ CONCLUÍDA E VALIDADA no Moodle
+- `templates/pages/frontpage/Capa_site.html`: banner + Boas-vindas + Conheça a Vaga Lume + botão pill → vagalume.org.br; HTML colado no campo "Conteúdo da página inicial" (TinyMCE remove `!important` do inline — estilos críticos movidos ao CSS global)
+- Imagem: bloco HTML **"ASSETS — CAPA DO SITE"** na Página inicial (instância **143**), **pública** (HTTP 200 anônimo confirmado) — `pluginfile.php/143/block_html/content/Capa_site_banner-topo.jpg`; bloco invisível não vaza na página. **NÃO REMOVER O BLOCO**
+- Arquivo local sincronizado (comentário duplicado removido em 02/09 — erro de edição do agente, nunca afetou o Moodle)
+- **Manter imagem 2880×920 (290 KB)** — reescala 1920×613 decidido como desnecessário (custo/benefício)
+- Espaçamento "Boas-vindas!" corrigido: `margin-bottom: 2rem !important` na regra 4.1 (vence o `margin-bottom:0` da regra 4)
+
+### CSS global — ✅ `temp/CSS_global_v2.css` (746 linhas) APLICADO NO MOODLE E VALIDADO
+- Removido bloco de banner morto (#frontpage-banner/1038x627); numeração: 1 Camuflagem · 2 Limpeza · 3 Bloco texto · 4 Tipografia · **4.1 Hierarquia títulos capa** · **5 Hero full-bleed** · **6 Botão pill capa** · 7 Rodapé · 8 Oculta admin
+- Novas regras blindadas por `body#page-site-index` (somente a capa); imunes à higienização do TinyMCE
+- Fonte da verdade: `temp/CSS_global_v2.css` (mestre mantém cópia no Google Drive); pendente: sincronizar `docs/diretrizes/Vagalume_curso.css.md`
+- Observação do mestre: tamanho ok (~25,7 KB); consolidação futura opcional (`.navbar-brand` e `.card.course-card` duplicados)
+
+### Capa do curso — ✅ CONCLUÍDA E VALIDADA NO MOODLE (02/09)
+- **Banner arredondado em 26px** (`style="border-radius: 26px;"` inline na `<img>` — mestre testou no Moodle e aprovou; TinyMCE preservou). `capa_curso.html` e `forum_avisos.html` **ambos validados** no Moodle.
+- Imagens otimizadas em `assets/images/capas/`: **`Inicio_curso_banner-topo.jpg`** (1920×1080, 358 KB — conferido por hash, NÃO é o da capa do site) e **`Inicio_curso_card-curso.jpg`** (700×400, 83 KB — vai direto na imagem do card do curso, sem HTML)
+- **`capa_curso.html` CRIADO E CORRIGIDO** (`templates/pages/frontpage/capa_curso.html`): banner (placeholder canônico aguardando upload) + link "Suporte ao aluno" (fornecido pelo mestre; `.nomediaplugin` adicionado). Fórum de Avisos é ATIVIDADE do Moodle — fica fora do HTML (correção após erro de interpretação)
+- **`forum_avisos.html` CRIADO** (`templates/pages/frontpage/forum_avisos.html`): HTML do fórum de avisos do mestre (bloco "Notícias e avisos"), verbatim, com cabeçalho/rodapé no padrão "Capa do curso - Fórum de Avisos"; verificado (estrutura, aria-hidden, sem |, sem style/script)
+- Estrutura da capa do curso: banner → link Suporte ao aluno → fórum geral "Avisos" (atividade Moodle) → cards dos módulos
+- **Banner da capa do curso arredondado (02/09):** `capa_curso.html` linha 7 ganhou `style="border-radius: 16px;"` na imagem do banner (padrão do tema). Se o TinyMCE remover o inline ao colar, plano B = regra no `temp/CSS_global_v2.css`.
+- Imagem do banner já inserida e validada pelo mestre (pendência anterior de upload/upload-URL resolvida em 02/09).
+
+### Lições da sessão (a registrar em docs/regras-licoes-aprendidas.md quando autorizado)
+- TinyMCE do Moodle remove `!important` e propriedades do style inline ao salvar → estilos críticos devem morar no CSS global (vale para qualquer campo TinyMCE; páginas de leitura já imunes via classes `.vagalume-*`)
+- URL de draft (`/user/draft/`) expira → brokenfile; para assets públicos usar bloco HTML no site home / contexto público (pluginfile estável, `cache-control: public`)
+- Editor TinyMCE da frontpage pode não ter botão de imagem → colar HTML no modo código `<>` com `src` já preenchido
+- "Sistema de arquivos" (repository_filesystem) NÃO serve para assets públicos: exige pasta no servidor via SSH e `check_capability` (bloqueia anônimos)
+- Teste padrão pós-purga de cache: janela anônima + Ctrl+Shift+R (CSS velho do navegador confunde diagnóstico)
+- Ferramenta de agente não substitui teste visual do mestre; sempre confirmar em anônimo
+
+### Pendências abertas
+- [ ] Mestre: upload da imagem do banner do curso + colar URL em `capa_curso.html` + colar HTML na página do curso
+- [ ] Sincronizar `docs/diretrizes/Vagalume_curso.css.md` com o CSS v2 (pendente autorização)
+- [ ] Commit + push (aguardando autorização — novos: `templates/pages/frontpage/`, `assets/images/capas/`, `docs/mockups/`, `temp/CSS_global_v2.css`)
+
+---
+
+## 📍 Checkpoint — Sessão 02/09/2026 — CAPA DO SITE: HTML NOVO GERADO (aguardando validação) 🔄
+### Diagnóstico e decisões da sessão
+1. [x] **Pesquisa no GitHub (tema Trema oficial `trema-tech/moodle-theme_trema`)**: a distorção do banner vem do tema (`#frontpage-banner` com `min-height: calc($banner-height - 4em)` + `background-size: cover`; `$banner-height` = `theme_trema | bannerheight`, padrão **100vh**). FAQ oficial recomenda imagem ≥1920px, conteúdo essencial na "safe zone" central, <200 KB.
+2. [x] **DECISÃO DO MESTRE (02/09/2026): abandonar o mecanismo de banner do tema** — sem banner setado (`frontpagebanner` vazio); a imagem entra como `<img>` no HTML da capa (bloco de conteúdo HTML da frontpage). Contornar `bannerheight` não é mais necessário.
+3. [x] **CSS customizado do tema**: bloco "2. BANNER" (#frontpage-banner) foi COMENTADO pelo mestre no Moodle para teste — mantê-lo comentado (ou remover), pois o mecanismo de banner não será mais usado. Documentação `docs/diretrizes/Vagalume_curso.css.md` ainda descreve o bloco (atualizar quando autorizado).
+4. [x] **Mockup da página inicial** subido pelo mestre → comprimido e armazenado em **`docs/mockups/capa-site-mockup.jpg`** (1400×1811, ~180 KB); original apagado de `temp/`.
+5. [x] **Paleta extraída por amostragem de pixels (ImageMagick)**: verde seção `#587C41` (paleta), laranja rodapé/botão `#D96F1A` (paleta), creme títulos `#F8ECD9`.
+6. [x] **Novo `Capa_site.html` GERADO** (`templates/pages/frontpage/Capa_site.html`) conforme o mockup: imagem de topo (bloco placeholder canônico "⚠️ APAGAR ESTE BLOCO" + img oficial `src="[cole a imagem aqui]"`, `img-fluid w-100`, `loading="eager"`, alt descritivo) + seção verde ("Boas-vindas!" 3.5rem creme, 2 parágrafos, hr translúcido, "Conheça a Vaga Lume" 2.5rem dourado `#f8b133`, 2 parágrafos, botão pill laranja "Clique aqui e acesse o nosso site →" → `https://vagalume.org.br` com `target=_blank` + `rel=noopener noreferrer` + `.nomediaplugin`). Texto antigo ("Quem é a Vaga Lume?") SUBSTITUÍDO (decisão do mestre).
+7. [x] Modelo do agente alterado pelo mestre: agora consegue ler imagens (mockup lido com sucesso).
+
+### Instruções para o mestre (inserção da imagem no Moodle)
+- Subir `assets/images/capas/Capa_site_banner-topo.jpg` no Moodle e colar sua URL no `src="[cole a imagem aqui]"` do HTML (fluxo do placeholder canônico: docs/regras-html-moodle.md §1.1.3).
+
+### Pendências abertas
+- [ ] **Validação do mestre** do novo `Capa_site.html` (página em foco: `templates/pages/frontpage/Capa_site.html`)
+- [ ] Decidir resolução final da imagem de topo (2880×920 atual vs. reescala 1920×613 ~150 KB)
+- [ ] Atualizar `docs/diretrizes/Vagalume_curso.css.md` (remover/comentar regras de `#frontpage-banner` + proporção 1038x627) — pendente autorização
+- [ ] Commit + push (aguardando autorização — há arquivos novos: `templates/pages/frontpage/`, `assets/images/capas/`, `docs/mockups/`)
+
+---
+
+## 📍 Checkpoint — Sessão 02/09/2026 — ORGANIZAÇÃO DA CAPA DO SITE (arquivos recebidos) ✅
+### Etapas executadas
+1. [x] **HTML da capa recebido** — `temp/Capa_site.html` movido para **`templates/pages/frontpage/Capa_site.html`** (pasta `frontpage/` criada para páginas da capa do site)
+2. [x] **Banner de topo recebido** — `temp/Capa_site_banner-topo-2880x920.png` (PNG 2880×920, 3,4 MB, fotográfico, 247 mil cores) não era reduzível por `optipng` (sem perda)
+3. [x] **Otimizado e convertido** (decisão do mestre: substituir) → **`assets/images/capas/Capa_site_banner-topo.jpg`** — JPEG qualidade 90, mesmas dimensões 2880×920, **295.930 bytes (~290 KB)**; PNG original de 3,4 MB apagado
+4. [x] Nome padronizado para buscas futuras: prefixo comum `Capa_site_` no HTML e na imagem (`Capa_site.html` + `Capa_site_banner-topo.jpg`); dimensões removidas do nome (mestre informou que podem mudar)
+### Próximo passo
+- **Modificações na capa do site** (a definir com o mestre, em PLAN mode) — pendência nº 4 de `docs/pendencias-projeto.md` (banner e textos da página inicial) e nº 3 (imagens da capa) permanecem em aberto até definição dos ajustes.
+- Imagem é de uso interno no Moodle (não entra no HTML); ainda não commitada (aguardando autorização do mestre, N1.8).
+
+---
+
 ## 📍 Checkpoint de encerramento — Sessão 01/09/2026 — REVISÃO DA PARTE 4 DO MÓDULO 1 ✅ CONCLUÍDA
 
 ### Fonte e decisões
