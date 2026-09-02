@@ -1,6 +1,15 @@
 # Onde paramos
 
-## 📍 Checkpoint — Sessão 02/09/2026 — CAPA DO SITE ✅ + CAPA DO CURSO ✅ + FÓRUM DE AVISOS ✅ (TODOS VALIDADOS)
+## 📍 Checkpoint — Sessão 02/09/2026 — CAPAS E FÓRUM VALIDADOS ✅ + PENDÊNCIAS REVISADAS E CHECKPOINT FECHADO
+
+### Fechamento da sessão (02/09, final)
+- **Pendências revisadas:** `docs/pendencias-projeto.md` limpo — apenas os itens ABERTOS, renumerados 1–6: ① ícones dos cards dos módulos (NOVA) · ② imagem Acervo M2P4L3p1 · ③ revisão M1 (aguardando Parte 5) · ④ M3 · ⑤ M4 · ⑥ formato referências M2
+- **Baixa da Parte 4 do Módulo 1 registrada** (estava feita, sem baixa): Partes 1–4 validadas no Moodle; aguardando documento do autor da Parte 5
+- **`docs/diretrizes/Vagalume_curso.css.md` sincronizado** com `temp/CSS_global_v2.css` (cabeçalho: não editar direto no .md; fonte da verdade em temp/)
+- **Banner da capa do curso: `border-radius: 26px`** (mestre testou no Moodle e aprovou — TinyMCE preservou o inline)
+- **Commits:** `1f1f47c` (capa curso + fórum + CSS v2 + lições + imagens) e `becd5f8` (pendências + sync CSS doc) — push OK
+- **Próximos passos:** aguardando autor (imagens dos ícones dos cards, imagem do Acervo, Parte 5 do M1, M3, M4, decisão sobre referências M2)
+
 ### Capa do site — ✅ CONCLUÍDA E VALIDADA no Moodle
 - `templates/pages/frontpage/Capa_site.html`: banner + Boas-vindas + Conheça a Vaga Lume + botão pill → vagalume.org.br; HTML colado no campo "Conteúdo da página inicial" (TinyMCE remove `!important` do inline — estilos críticos movidos ao CSS global)
 - Imagem: bloco HTML **"ASSETS — CAPA DO SITE"** na Página inicial (instância **143**), **pública** (HTTP 200 anônimo confirmado) — `pluginfile.php/143/block_html/content/Capa_site_banner-topo.jpg`; bloco invisível não vaza na página. **NÃO REMOVER O BLOCO**

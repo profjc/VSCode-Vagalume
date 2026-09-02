@@ -6,30 +6,21 @@
 
 ## Ordem de prioridade
 
-1. [ ] **Imagem faltante — M2P4L3p1** (imagem do Acervo Vaga Lume)
+1. [ ] **Imagens faltantes — ícones dos cards dos módulos** — **NOVA (02/09/2026)**
+   - Criar/obter as imagens dos ícones para os cards dos módulos na capa do curso e subir no Moodle.
+
+2. [ ] **Imagem faltante — M2P4L3p1** (imagem do Acervo Vaga Lume)
    - Página `templates/pages/M2/ParteIV/Licao3/M2P4L3p1.html` usa placeholder (`src="[cole a imagem aqui]"`).
    - Necessário: criar/obter a fotografia do acervo Vaga Lume e subir no Moodle.
 
-2. [x] **Revisão de acessibilidade do módulo Boas-vindas — ✅ CONCLUÍDA (10/08/2026)**
-   - 4/4 páginas conformes; 8 pendências corrigidas e validadas (padrão N2.4.12/N2.4.7, atributos de imagem, placeholders URL fixa, tipografia N2.2.4).
+3. [ ] **Revisão do autor para o Módulo 1** — **PARCIALMENTE CONCLUÍDA (02/09/2026):** Parte 4 revisada e validada no Moodle (páginas 1–5 e fórum reescritas conforme ajustes do autor; baixa registrada com atraso, em 02/09). Partes 1–3 já validadas (22/08). **Aguardando documento do autor com ajustes da Parte 5** para conclusão.
+  - Atualizado em 02/09/2026 — baixa da Parte 4 registrada; sem material de revisão disponível para a Parte 5 (checkpoint em `Onde-paramos.md`)
 
-3. [x] **Imagens da capa do site — ✅ CONCLUÍDA (02/09/2026)**
-   - Capa do site validada no Moodle: banner + boas-vindas + botão pill; imagem em bloco HTML público (instância 143). `Capa_site.html` no repositório (commit `1f1f47c`).
+4. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
 
-4. [x] **Banner e textos da página inicial do curso — ✅ CONCLUÍDA (02/09/2026)**
-   - Capa do curso (`capa_curso.html`, banner com `border-radius: 26px` validado pelo mestre) + fórum de avisos (`forum_avisos.html`) validados no Moodle. Commit `1f1f47c`.
+5. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
 
-5. [x] **Sincronizar `docs/diretrizes/Vagalume_curso.css.md` — ✅ CONCLUÍDA (02/09/2026)**
-   - Arquivo re-sincronizado integralmente a partir de `temp/CSS_global_v2.css` (fonte da verdade), com cabeçalho avisando para não editar direto no `.md`.
-
-6. [ ] **Revisão do autor para o Módulo 1** — **PARCIALMENTE CONCLUÍDA (22/08/2026):** Partes 1–3 revisadas e validadas no Moodle (Apresentação + Parte 1 + Parte 2 + Parte 3 completa com fórum). **Aguardando documento do autor com ajustes das Partes 4–5** para conclusão.
-  - Atualizado em 22/08/2026 — sem material de revisão disponível para as Partes 4–5 (checkpoint em `Onde-paramos.md`)
-
-7. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
-
-8. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
-
-9. [ ] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`): decidir formato** — **PENDÊNCIA REAL (28/08/2026)**
+6. [ ] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`): decidir formato** — **PENDÊNCIA REAL (28/08/2026)**
    - O autor decidirá se as referências ficam em **formato ABNT (NBR 6023:2018)** completo ou em **formato "mais amigável e menos acadêmico"** (dados de autoria/título/ano, sem rigidez ABNT).
    - **Pesquisa realizada pelo Cline (28/08/2026) — dados já verificados na internet:**
      - ✅ **Entrevista Emília (Cabrejo-Parra):** publicada por Gabriela Romeu em **1º set. 2011** — dados completos (URL: https://emilia.org.br/evelio-cabrejo-parra/).
