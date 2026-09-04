@@ -171,6 +171,37 @@ Toda página **gerada futuramente** ou **revisada** deve passar pela verificaç�
 ### 4.13 Proibição do caractere "|" em títulos e legendas (13/08/2026)
 O caractere **"|" (barra vertical) NUNCA deve ser usado** em títulos, legendas de vídeo, legendas de figuras ou qualquer texto visível — inclusive em páginas novas e revisões. Por razões de acessibilidade, o separador padrão entre blocos informativos é **":" (dois-pontos)**. Exemplo: `O que é Primeira Infância?: Canal: Fundação Maria Cecilia Souto Vidigal (YouTube): 01min29s`. Ao revisar páginas existentes, substituir todo "|" pelo padrão ":". Firmado em 13/08/2026 pelo mestre (regra permanente).
 
+### 4.14 Padronização da legenda de vídeo (04/09/2026)
+A legenda de créditos abaixo de vídeos deve seguir **sempre** o formato:
+
+```
+Título (minutagem); canal: [nome do canal]
+```
+
+- **Título**: título exato do vídeo, com a pontuação original (ex.: o "?" final de "O que é Primeira Infância?" é mantido — **sem adicionar** ":" após o título).
+- **(minutagem)**: duração entre parênteses, formato `0XminYYs` (ex.: `01min29s`, `7min08s`).
+- **; canal: [nome do canal]**: sempre com ";" separador antes de "canal", e o nome do canal sem a palavra **"(YouTube)"** — o nome do canal é informado puro (ex.: `canal: Fundação Maria Cecilia Souto Vidigal`, `canal: Vaga Lume`).
+
+Exemplo do padrão (página `M1P1L1p2.html`):
+```
+O que é Primeira Infância? (01min29s); canal: Fundação Maria Cecilia Souto Vidigal
+```
+
+> **Nota:** o formato DESCONTINUA o antigo `Título: Canal: Nome (YouTube): 00min00s`. Não incluir "(YouTube)" e não usar ":" após o título. Sempre sem "|" (4.13). A regra vale para vídeos com embed autorizado e para a legenda do padrão de thumbnail + botão "Assistir no YouTube" (§1.1 item 7) com embed não autorizado.
+
+### 4.15 Fonte em legendas de imagem (sem link) (04/09/2026)
+A **fonte** indicada na legenda de uma **imagem/ilustração** (`.figure-caption`) deve ser **texto puro, SEM `<a>` (não linkada)**. A referência da fonte é descritiva, não é um link clicável. Padrão:
+
+```html
+<figcaption class="figure-caption text-center mt-2">Fonte: pipipum.com.br</figcaption>
+```
+
+- A fonte da imagem NÃO vira link mesmo quando existe endereço/site (ex.: `Fonte: pipipum.com.br`, `Fonte: @kaiotirinhas`, `Fonte: Mauricio de Sousa Produções`).
+- A legenda permanece escrita normalmente, sem `<a>` e sem classes de link; o restante das regras de legenda de figura continua valendo (centralizada `figure-caption text-center mt-2`, sem "|" — §4.13).
+- **Exceção:** o link só é clicável **quando houver indicação explícita disso** (o autor/mestre marcá-lo como link ou o documento indicar). Nesse caso tratado como link normal §6.1. **Regra geral: por padrão, a fonte em legenda de imagem é sempre texto puro, sem link.** Sempre que um link for clicável haverá indicação disso na fonte de origem.
+
+> **Precedente/padrão:** `M2P1L1p1.html` e `M2P1L1p2.html` (`Fonte: pipipum.com.br` sem link). Na varredura, converter as legendas de imagem que hoje têm link (`M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2`) para texto puro, exceto se o mestre indicar o contrário.
+
 ---
 
 ## 5. Fidelidade ao Texto do Autor
@@ -209,18 +240,42 @@ Todo link (`<a>`) externo ou endereço de e-mail deve seguir estas regras cumula
 2. **`rel="noopener noreferrer"`**: segurança e privacidade.
 3. **Classe `.nomediaplugin`**: evita que o Moodle tente converter o link automaticamente em player ou bloco embutido.
 
-### 6.1 Estilização visual padrão dos links (22/08/2026)
-Todo link externo deve ser visualmente **negrito + sublinhado + colorido**, destacando-se do texto comum. As classes/estilos seguem o contexto de fundo onde o link aparece:
+### 6.1 Estilização visual padrão dos links (04/09/2026 — versão final)
+Todo link externo deve ser visualmente **negrito + sublinhado + colorido**, destacando-se do texto comum. Cor única padrão: **laranja-escuro `#944B11`**, válida em TODOS os contextos de fundo (aprova contraste ≥4,5:1 no conteúdo, caixas creme, cards e cards de material):
 
-- **Fundo branco** (texto comum / cards brancos): cor **laranja `#d96f1a`** — `class="nomediaplugin font-weight-bold" style="color: #d96f1a; text-decoration: underline;"` (contraste ~4,9:1 sobre branco).
-- **Boxes/cards bege** (`vagalume-destaque-bloco`, `vagalume-sinopse`, `vagalume-jumbotron`, fundo `#faebdd`): cor **marrom `#5b3925`** — `class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;"` (contraste ~8,8:1 sobre bege; laranja sobre bege reprova o mínimo de 4,5:1 — N2.4.3/4.6).
+- **Fundo branco / conteúdo claro** (texto comum, cards brancos, cards de material): `#944B11` — contraste ~5,74:1.
+- **Caixas creme** (`vagalume-destaque-bloco`, `vagalume-sinopse`, `vagalume-jumbotron`, fundo `#faebdd`): `#944B11` — contraste ~5,50:1 (o laranja-claro `#D96F1A` reprova nesses fundos; o `#944B11` passa).
+- **Links que são BOTÃO** (`.btn btn-primary`): **NÃO mudam** — continuam laranja `#D96F1A` com texto **branco** `#FFFFFF`.
+- **Legendas de figuras** (o caso azul do Módulo 2): também recebem `#944B11` (padrão da marca, corrige o azul).
 
-Exemplo (em box bege):
+Padrão de marca (todos os links exceto botões):
 ```html
-<a class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;" href="URL" target="_blank" rel="noopener noreferrer">Texto descritivo do link</a>
+<a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="URL" target="_blank" rel="noopener noreferrer">Texto descritivo do link</a>
 ```
 
-Firmado em 22/08/2026 — precedente: link da BBC na `M1P3L1p2.html` inicialmente entregue sem estilização; corrigido para o padrão marrom sobre bege.
+> **Precedente:** solução decidida na sessão anterior com o mestre, validada na página demo `temp/demo-links-944b11-contextos-reais.html` (link `#944B11` em contextos reais). Substitui a regra de 22/08/2026 (laranja `#D96F1A` sobre branco + marrom `#5B3925` sobre bege). Os botões (`#D96F1A`/branco) permanecem como antes.
+
+### 6.2 Padronização de negritos e ênfase (04/09/2026)
+
+**Regra geral:** o `<strong>` (negrito) **nunca recebe cor manual** — nem `style` nem classe de cor. Ele **herda a cor do texto do contexto onde está**:
+
+- **Fundo branco** (texto corrido, cards brancos `.course-card`): negrito fica **marrom escuro `#261810`** (mesma cor do corpo — diferenciação apenas pelo peso).
+- **Caixas creme** (`.vagalume-destaque-bloco`, `.vagalume-sinopse`, `.vagalume-jumbotron`, fundo `#FAEBDD`): negrito fica **marrom institucional `#5B3925`** (herdado do bloco).
+
+**Fronteira de mecanismos de ênfase (importante):** negrito e `.vagalume-destaque` (destaque verde `#587C41` da paleta Vaga Lume) são **mecanismos distintos e não acumuláveis no mesmo trecho**:
+
+| Mecanismo | Quando usar | Cor resultante |
+|---|---|---|
+| **Negrito** (`<strong>` herda cor) | Destaque tipográfico simples / ênfase do autor | `#261810` no branco; `#5B3925` nas caixas creme |
+| ~~`.vagalume-destaque`~~ (verde `#587C41`) | **DESCONTINUADO como ênfase** — era o "equivalente ao negrito" e deve ser migrado para `<strong> verdadeiro` na revisão | — |
+
+**Página de referência** (padrão correto, aprovado pelo mestre): `templates/pages/Boas-vindas/Boas-vindas_Apresentacao.html` — nenhum `<strong>` com cor manual; todos herdam a cor do contexto.
+
+> **Precedente (04/09/2026): headings por CLASSE (`span.h5`) NÃO herdam a cor marrom.** O CSS global força `#5B3925` apenas nas **tags reais** `h1`–`h5` (seletor `.vagalume-pagina h1,...`); a classe Bootstrap `.h5`/`.h6` aplicada a `<span>`/`<p>` NÃO é atingida e acaba herdando o cinza padrão do tema. Consequência: títulos dentro de caixas que usem a classe `.h5`/`.h6` via `<span>` PRECISAM de `color: #5b3925;` explícito (ou usar a tag real `<h5>`). Precedente: "Para participar" nos fóruns (`M1P1F1.html`) apareceu cinza e foi corrigido com `style="color: #5b3925;"`.
+
+**Nota de contraste:** tanto `#261810` sobre branco (~16:1) quanto `#5B3925` sobre bege (~8,8:1) superam com folga o mínimo 4,5:1.
+
+**Precedente da migração:** testado e aprovado em 04/09/2026 na `M1P1L1p1.html` ("A importância dos primeiros anos de vida") — os 4 trechos em `.vagalume-destaque` foram convertidos em `<strong>` puro. Plano de migração: na revisão de páginas, converter todo `.vagalume-destaque` usado como ênfase para `<strong>`; remover a classe dos demais usos conforme revisão.
 
 ---
 

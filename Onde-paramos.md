@@ -1,5 +1,54 @@
 # Onde paramos
 
+## 📍 Checkpoint — 04/09/2026 — PADRONIZAÇÃO DE NEGRITOS CONSOLIDADA ✅ (início da revisão de padronizações)
+
+### Resumo — Padronização de negritos e ênfase
+- **Regra geral (N2.4.13 / doc §6.2):** `<strong>` **nunca tem cor manual** — herda a cor do contexto: **marrom escuro `#261810`** sobre fundo branco/cards; **marrom institucional `#5B3925`** dentro de caixas creme. Página referência: `Boas-vindas_Apresentacao.html` (aprovada pelo mestre).
+- **`.vagalume-destaque` (verde `#587C41`) DESCONTINUADO como ênfase** — era o "equivalente ao negrito"; migrar para `<strong>` verdadeiro na revisão das páginas.
+- **Fronteira definida:** negrito ≠ link. Negritos fora da regra de links (que continua com a 6.1, sujeita a revisão na próxima etapa).
+- **Teste aprovado (04/09):** `M1P1L1p1.html` ("A importância dos primeiros anos de vida") — 4 trechos em `.vagalume-destaque` convertidos em `<strong>` puro, validados pelo mestre no Moodle. ARQUIVO JÁ REESCRITO no repositório com a conversão.
+- **Documentação aplicada (3 arquivos):**
+  1. `docs/regras-html-moodle.md` → nova seção 6.2 (regra, fronteira, tabela, referência, contraste, precedente de migração)
+  2. `.clinerules` → N2.4.5 (destaque descontinuado) + N2.4.13 (negrito herda cor)
+  3. `components-library.md` → nota na S2 (negrito ≠ link) + nova seção S5
+
+### Pendências desta linha de padronização (próximas etapas — revisão do mestre)
+1. ✅ **Links PADRONIZADOS (04/09):** cor única `#944B11` (ver "Registro de regras"). Aplicação nas páginas existentes entra na **varredura** (checklist abaixo).
+2. **Migração em lote** do `.vagalume-destaque` → `<strong>` (e correção de negritos com cor manual) nas páginas existentes.
+   - **Inclui fóruns M2 com `#261810` dentro da caixa creme** (devem herdar `#5B3925`) + título "Para participar" em `span.h5` (fixar `color:#5b3925`): `M2P4F1`, `M2P5F1`, `M2P5L1p2` e demais detectados. Template canônico `templates/components/forum.html` JÁ CORRIGIDO (04/09).
+3. **Legenda de vídeo (nova regra 4.14, 04/09/2026):** migrar nas páginas existentes o formato antigo (`Título: Canal: Nome (YouTube): 00min00s`) → novo (`Título (minutagem); canal: nome`). Páginas afetadas: `M1P4L1p2`, `M2P2L1p1`, `M2P4L2p1`, `M2P4L4p3`, `M2P4L4p4` (+ verificar demais vídeos).
+
+> Todos os itens 2 e 3 acima (à medida que detecções no repositório) e a **aplicação dos links `#944B11`** nas páginas existentes serão executados **na varredura** guiada por **`docs/checklist-padronizacao-varredura.md`** — nunca em lote.
+
+### Registro de regras nesta sessão (04/09/2026)
+- **Padronização de negritos:** §6.2 `regras-html-moodle.md` + N2.4.5/N2.4.13 `.clinerules` + S5 `components-library.md`.
+- **Padronização de legenda de vídeo:** §4.14 `regras-html-moodle.md` + templates 13/14 `components-library.md`.
+- **Padronização de LINKS (versão final, decisão do mestre):** cor única **laranja-escuro `#944B11`** (negrito + sublinhado) em todos os contextos (fundo branco 5,74:1; caixas creme 5,50:1). Links-botão (`.btn btn-primary`) **mantêm laranja `#D96F1A` + texto branco**. Substitui a regra 6.1 de 22/08 (laranja-sobranco / marrom-sobre-bege). Fonte da decisão: `temp/demo-links-944b11-contextos-reais.html`. Aplicado em: §6.1 `regras-html-moodle.md`, S2 `components-library.md`.
+- **Padronização de FONTE EM LEGENDA DE IMAGEM (regra §4.15):** a fonte citada na `.figure-caption` das imagens deve ser **texto puro, sem link** (`Fonte: pipipum.com.br`). Padrão: `M2P1L1p1/p2`. Na varredura, deslinkar `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2` (se o mestre não indicar o contrário).
+- **CHECKLIST DE VARREDURA CRIADO:** `docs/checklist-padronizacao-varredura.md` — consolida negritos, links, legendas de vídeo/imagem + itens de conformidade gerais. Será o guia da varredura página a página (nada em lote).
+- **CHECKLIST DE ENTREGA ATUALIZADO (04/09):** `docs/checklist-entrega.md` alinhado às regras novas — negritos sem cor manual (§6.2), `.vagalume-destaque` descontinuado, caixas creme `#5B3925`, títulos `.h5`/`.h6` com cor explícita em span, links `#944B11` (§6.1), zero "|", legenda de vídeo §4.14, fonte de imagem sem link §4.15. Agora entrega e varredura conferem a mesma coisa.
+- **CONFORMIDADE DE ROTINAS/DOCS PREPARADA (04/09) — 4 ajustes:**
+  1. `.clinerules` N3.1.3: `.vagalume-destaque` marcado descontinuado na tabela de classes
+  2. `style-guide.md`: `.vagalume-destaque` descontinuado (2 tabelas) + **cor de link `#944B11`** adicionada
+  3. Diretrizes GEM Webmaster: legenda de vídeo atualizada p/ §4.14 (Título (minutagem); canal: nome)
+  4. `docs/pendencias-projeto.md`: novo item 7 — **Varredura de padronização** (aguardando autorização)
+- **Templates internos verificados:** `forum.html` e `base.html` conformes; livro de templates (caps 1–4) corrigido.
+
+### ⏸️ PENDÊNCIA — PROPOSTAS DE AJUSTE NO CSS GLOBAL (ADIADO para depois da revisão; NÃO alterar agora — 04/09)
+Auditaram-se `temp/CSS_global_v2.css` (747 linhas, fonte da verdade aplicada no scsspost do Moodle). **Nada bloqueia a varredura** — o CSS já está majoritariamente conforme (§6.1 botões, §6.2 cores de texto/caixas). Propostas a retomar APÓS a revisão do curso:
+1. **`.vagalume-destaque` no CSS (linha ~337):** só **atualizar o comentário** para marcar a classe como **DEPRECATED (descontinuada como ênfase, N2.4.13)** — **manter a definição** até o fim da varredura (páginas ainda não migradas exibem o verde correto até serem convertidas). Remover a definição somente após a varredura concluir.
+2. **Links `#944B11` — decisão de arquitetura em aberto (mestre):**
+   - **Opção A (recomendada):** adicionar ao CSS global `.vagalume-pagina a { color:#944B11; font-weight:600; text-decoration:underline; }` (com exceção `.btn`) — imune à higienização do TinyMCE (fica no scsspost), tornando redundantes (e inofensivos) os inline das páginas.
+   - **Opção B (manter):** continuar só com o inline `style="color:#944b11"` no HTML, como hoje.
+3. **Fonte da verdade:** editar sempre `temp/CSS_global_v2.css` → colar no campo scsspost do Moodle (fluxo já estabelecido).
+
+### ✅ AJUSTES NO `.clinerules` (04/09) — auditoria aplicada
+- **N2.6**: acrescentado item 4 — estilização de links `#944B11` + negrito + sublinhado + exceção botões (antes só tinha comportamento; cor estava só na gaveta §6.1) + exemplo atualizado.
+- **N3.1.1** (Verde `#587C41`): "Destaques, bordas de bloco" → "Bordas de bloco (não usar em destaque de texto — descontinuado como ênfase)".
+- **N3.2 Template 4**: "(nunca em caixa bege)" → "(**negrito `<strong>` que herda a cor** — não usar verde)".
+- Resultado: núcleo sem conflitos, enxuto e consistente com as regras da semana (§6.1/6.2/4.14/4.15).
+
+---
 ## 📍 Checkpoint — Sessão 02/09/2026 — CAPAS E FÓRUM VALIDADOS ✅ + PENDÊNCIAS REVISADAS E CHECKPOINT FECHADO
 
 ### Fechamento da sessão (02/09, final)

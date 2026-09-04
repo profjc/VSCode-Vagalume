@@ -34,7 +34,8 @@
 | **Corpo de texto** | `font-weight: 400; color: #261810; line-height: 1.5` |
 | **Citações (`.vagalume-citacao`)** | `font-size: 1.4rem; font-style: italic; color: #5B3925; font-weight: 500` |
 | **Autoria (`.vagalume-autora`)** | `font-size: 0.9rem; text-align: right; font-weight: 500` |
-| **Destaque inline (`.vagalume-destaque`)** | `font-weight: 600; color: #587C41` |
+| **Destaque inline (`.vagalume-destaque`)** | ~~`font-weight: 600; color: #587C41`~~ — **DESCONTINUADO como ênfase (04/09/2026)**: usar `<strong>` que herda a cor do contexto (verde não é mais usado p/ destacar) |
+| **Links** | `color: #944B11` (laranja-escuro) + negrito + sublinhado (regra §6.1); links-botão `.btn` mantêm laranja `#D96F1A` + texto branco |
 
 ### Responsivo
 - **Mobile (< 768px)**: Citações: `1.1rem`, Jumbotron padding: `1.5rem 1rem`
@@ -52,7 +53,7 @@
 | `.vagalume-jumbotron` | Citação de destaque (fundo bege, borda laranja, animação fadeInUp) |
 | `.vagalume-citacao` | Texto da citação (itálico, marrom) |
 | `.vagalume-autora` | Autoria da citação (alinhado à direita) |
-| `.vagalume-destaque` | Palavra em destaque no texto (verde, negrito) |
+| `.vagalume-destaque` | ~~Palavra em destaque (verde, negrito)~~ — **DESCONTINUADO como ênfase (04/09/2026)**: usar `<strong>` |
 | `.vagalume-sinopse` | Bloco de sinopse/destaque (fundo bege, borda verde) |
 | `.vagalume-destaque-bloco` | Mesmo que `.vagalume-sinopse` |
 | `.vagalume-video` | Container de vídeo (max 640px, 16:9) |

@@ -73,9 +73,9 @@ Sempre que um vídeo for apresentado de maneira centralizada no corpo do texto p
 8. \<div class="d-flex justify-content-center mb-2"\>  
 9. \<iframe class="vagalume-video" title="\[Título do Vídeo\]" src="\[URL\_EMBED\]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"\>\</iframe\>  
 10. \</div\>  
-11. **Legenda de Créditos Integrada:** Insira os créditos do vídeo imediatamente abaixo do contêiner do iframe, com fonte reduzida e cor atenuada:  
+11. **Legenda de Créditos Integrada:** Insira a legenda do vídeo imediatamente abaixo do contêiner do iframe, com fonte reduzida e cor atenuada. Formato padrão (§4.14): `Título (minutagem); canal: [nome do canal]` — sem "(YouTube)" e sem ":" após o título:  
 12. \<p class="small text-muted mb-4" style="font-size: 0.85rem; line-height: 1.4;"\>  
-13. \<strong\>Créditos:\</strong\> \[Texto de créditos\]  
+13. Título do vídeo (01min29s); canal: nome do canal  
 14. \</p\>  
 15. **Bloco de Sinopse Padronizado (Template B):** Utilize a classe .vagalume-sinopse posicionada logo abaixo da legenda. Ela deve, obrigatoriamente, iniciar com o ícone padrão de arquivo de texto (fa-file-text) configurado exatamente conforme o estilo inline abaixo:  
 16. \<div class="vagalume-sinopse"\>  

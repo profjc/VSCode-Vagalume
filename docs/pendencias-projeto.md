@@ -29,3 +29,8 @@
      - ⚠️ **Ano de Bajour** (Pulo do Gato, provável 2012) e **ano de Coelho** (Brasiliense, Coleção Primeiros Passos) — NÃO confirmados; verificar no exemplar/com autor.
      - ❌ **Vídeo "Representatividade nos livros" (Programa Vaga Lume):** NÃO localizado — precisar do link direto ou título exato no canal.
    - Aplicar a decisão do autor nas páginas de referências do curso (padrão hoje: `M2P6P2.html`, mesmo padrão visual do `M1P5P2`).
+
+7. [ ] **VARREDURA DE PADRONIZAÇÃO DO CURSO — NOVA (04/09/2026)**
+   - Aplicar em **todas as páginas existentes** as padronizações consolidadas em 04/09/2026: negritos sem cor manual (§6.2), `.vagalume-destaque`→`<strong>`, caixas creme `#5B3925`, links `#944B11` (§6.1), legenda de vídeo (§4.14), fonte de imagem sem link (§4.15), zero "|".
+   - **Guiada por:** `docs/checklist-padronizacao-varredura.md` (página a página, nunca em lote — N1.3.3).
+   - **Estado:** aguardando autorização do mestre para iniciar.

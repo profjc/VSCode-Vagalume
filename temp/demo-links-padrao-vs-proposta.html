@@ -1,0 +1,86 @@
+<!-- Demo Vaga Lume - Cor dos links (padrão atual x proposta) - página de apoio para decisão -->
+<div class="container py-4 vagalume-pagina" style="display: flow-root;">
+
+  <!-- Introdução -->
+  <p class="h5 font-weight-bold" style="color: #5b3925;"><i class="fa fa-paint-brush mr-2" aria-hidden="true"></i>Página de apoio — padrão de cor dos links</p>
+  <p class="mb-2">Esta página compara, <strong>lado a lado</strong>, como os links aparecem hoje no curso e como ficariam após o ajuste. O critério é o <strong>contraste de acessibilidade (WCAG 2.1)</strong>: texto normal precisa de ao menos <strong>4,5:1</strong> para ser lido com conforto.</p>
+
+  <!-- Como ler -->
+  <div class="vagalume-jumbotron">
+    <p class="mb-1"><i class="fa fa-check-circle mr-1" aria-hidden="true" style="color: #587c41;"></i> <strong style="color: #5b3925;">ok</strong> = a cor passa no contraste mínimo.</p>
+    <p class="mb-0"><i class="fa fa-times-circle mr-1" aria-hidden="true" style="color: #b71c1c;"></i> <strong style="color: #5b3925;">falha</strong> = a cor é fraca demais sobre aquele fundo e deve ser evitada.</p>
+  </div>
+
+  <!-- 1. Panorama -->
+  <h2 style="color: #5b3925;">1 · Panorama das cores</h2>
+  <table class="table table-bordered">
+    <thead class="thead-light"><tr><th scope="col">Cor</th><th scope="col">Hex</th><th scope="col">Fundo branco</th><th scope="col">Box bege</th><th scope="col">Veredito</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Laranja pleno</strong> (atual)</td><td>#D96F1A</td><td>3,37:1 <span class="badge badge-danger">falha</span></td><td>2,88:1 <span class="badge badge-danger">falha</span></td><td>Reprova nos dois fundos.</td></tr>
+      <tr><td><strong>Marrom</strong> (atual)</td><td>#5B3925</td><td>10,21:1 <span class="badge badge-success">ok</span></td><td>8,75:1 <span class="badge badge-success">ok</span></td><td>Passa, mas fica parecido com o texto corrido.</td></tr>
+      <tr><td><strong>Verde</strong> (o que você citou)</td><td>#587C41</td><td>4,80:1 <span class="badge badge-success">ok</span></td><td>4,11:1 <span class="badge badge-danger">falha</span></td><td>Reprova no box bege.</td></tr>
+      <tr style="background-color: #eef7e6;"><td><strong>Laranja escuro</strong> (proposta)</td><td>#944B11</td><td>6,41:1 <span class="badge badge-success">ok</span></td><td>5,50:1 <span class="badge badge-success">ok</span></td><td>Família laranja da marca + passa nos dois.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- 2. Como está hoje -->
+  <h2 style="color: #5b3925;">2 · Como está hoje (padrão atual)</h2>
+  <h3 class="h6" style="color: #261810;">2.1 · Link em texto sobre fundo branco (laranja pleno)</h3>
+  <p class="mb-2">Para aprofundar, leia a reportagem da BBC News Brasil: <a class="nomediaplugin font-weight-bold" style="color: #d96f1a; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">O que é o estresse tóxico e como ele pode afetar a saúde e o desenvolvimento das crianças</a>. <span class="badge badge-danger">3,37:1 · falha</span></p>
+  <div class="card border-0 bg-transparent"><div class="card-body py-2" style="border-left: 4px solid #b71c1c; background-color: #f6f6f4; color: #5b3925; font-family: monospace; font-size: 0.85rem;">&lt;a class="nomediaplugin font-weight-bold" style="color: #D96F1A; text-decoration: underline;" href="..."&gt;...&lt;/a&gt;</div></div>
+
+  <h3 class="h6" style="color: #261810;">2.2 · Link dentro de um box bege (marrom)</h3>
+  <div class="vagalume-sinopse">Saiba mais: <a class="nomediaplugin font-weight-bold" style="color: #5b3925; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">Primeira Infância em Dados</a>. <span class="badge badge-success">8,75:1 · ok</span></div>
+
+  <h3 class="h6" style="color: #261810;">2.3 · O problema: link sem cor (cai no azul do tema)</h3>
+  <p class="mb-2">É o caso do Módulo 2 — o link tem <code>class="nomediaplugin"</code> mas nenhuma cor definida, então o Moodle usa o azul padrão:</p>
+  <p class="figure-caption text-center"><a class="nomediaplugin font-weight-bold" style="color: #007bff; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">minadehq.com.br/representatividade-importa/</a> <span class="badge badge-info">azul padrão · fora da marca</span></p>
+
+  <h3 class="h6" style="color: #261810;">2.4 · Botões (não mudam)</h3>
+  <p class="mb-1"><a class="btn btn-primary nomediaplugin" href="#" target="_blank" rel="noopener noreferrer">Clique aqui e acesse o nosso site&nbsp;&nbsp;<span aria-hidden="true">→</span></a></p>
+
+  <!-- 3. Proposta -->
+  <h2 style="color: #5b3925;">3 · Como ficaria (proposta de ajuste)</h2>
+  <p class="mb-2">Uma única cor de link: <strong>laranja escuro #944B11</strong>. No curso real a cor viria do CSS global (sem escrever <code>style</code> em cada link); aqui, para você <em>ver</em>, ela está aplicada direto em cada link.</p>
+
+  <h3 class="h6" style="color: #261810;">3.1 · Link em texto sobre fundo branco</h3>
+  <p class="mb-2">Para aprofundar, leia a reportagem: <a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">O que é o estresse tóxico e como ele pode afetar a saúde e o desenvolvimento das crianças</a>. <span class="badge badge-success">6,41:1 · ok</span></p>
+
+  <h3 class="h6" style="color: #261810;">3.2 · Link dentro de um box bege</h3>
+  <div class="vagalume-sinopse">Saiba mais: <a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">Primeira Infância em Dados</a>. <span class="badge badge-success">5,50:1 · ok</span></div>
+
+  <h3 class="h6" style="color: #261810;">3.3 · Legenda de figura (o caso que ficava azul)</h3>
+  <p class="figure-caption text-center"><a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">minadehq.com.br/representatividade-importa/</a> <span class="badge badge-success">6,41:1 · ok</span></p>
+
+  <!-- 4. Lado a lado -->
+  <h2 style="color: #5b3925;">4 · Olho no olho</h2>
+  <div class="row">
+    <div class="col-12 col-md-6 mb-3">
+      <div class="card h-100"><div class="card-body">
+        <p class="h6 font-weight-bold" style="color: #5b3925;"><span class="badge badge-danger">HOJE</span> · laranja pleno 3,37:1</p>
+        <p class="mb-0">Acesse o <a class="nomediaplugin font-weight-bold" style="color: #d96f1a; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">material complementar</a> para saber mais.</p>
+      </div></div>
+    </div>
+    <div class="col-12 col-md-6 mb-3">
+      <div class="card h-100"><div class="card-body">
+        <p class="h6 font-weight-bold" style="color: #5b3925;"><span class="badge badge-success">PROPOSTA</span> · laranja escuro 6,41:1</p>
+        <p class="mb-0">Acesse o <a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="#" target="_blank" rel="noopener noreferrer">material complementar</a> para saber mais.</p>
+      </div></div>
+    </div>
+  </div>
+
+  <!-- 5. Por que não verde + resumo -->
+  <h2 style="color: #5b3925;">5 · Por que não o verde?</h2>
+  <ul class="mb-2">
+    <li>Reprova no box bege: <strong>4,11:1</strong> (mínimo 4,5:1).</li>
+    <li>Na marca, o verde é <em>destaque de termo</em> (ex.: <span class="vagalume-destaque">palavra-chave</span>); usar a mesma cor em links confunde ação com destaque.</li>
+    <li>Mesmo no branco fica no limite (4,80:1).</li>
+  </ul>
+  <div class="vagalume-sinopse" style="border-left-color: #d96f1a;">
+    <p class="h6 font-weight-bold mb-1" style="color: #5b3925;"><i class="fa fa-lightbulb-o mr-2" aria-hidden="true"></i>Resumo para decidir</p>
+    <p class="mb-1">Recomendação: <strong>uma única cor #944B11</strong> (laranja escuro) definida no CSS global. Passa nos dois fundos, mantém a família laranja da marca e elimina a repetição frágil de <code>style</code> inline — corrigindo inclusive os links do Módulo 2 que hoje ficam azuis.</p>
+    <p class="mb-0">Alternativa mais conservadora: marrom <strong>#5B3925</strong> (10,21:1 / 8,75:1) — máximo contraste, porém visualmente mais próximo do texto corrido.</p>
+  </div>
+
+</div>
+<!-- FIM: Demo Vaga Lume - Cor dos links (padrão atual x proposta) -->

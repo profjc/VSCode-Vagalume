@@ -31,7 +31,7 @@
 
 ## Identidade Visual
 
-- [ ] **Cores Vaga Lume**: Botões usam `#D96F1A`, textos usam `#261810` ou `#5B3925`
+- [ ] **Cores Vaga Lume**: Botões usam `#D96F1A`; texto comum/cards usam `#261810` (marrom escuro); caixas creme e títulos usam `#5B3925` (marrom institucional)
 - [ ] **Classes `.vagalume-`**: Prefira classes globais a CSS inline
 - [ ] **Fonte**: Mantida a font-family do `.vagalume-pagina`
 - [ ] **Títulos**: Cor `#5B3925`, weight `700`
@@ -43,8 +43,10 @@
 - [ ] **Imagens clicáveis**: Têm `style="cursor: zoom-in;"`, `role="link"`, `tabindex="0"`
 - [ ] **Descrição longa**: Se houver `<p class="sr-only" id="figX-desc">`, a imagem tem `alt=""` + `role="presentation"` + `aria-labelledby="figX-desc"` (N2.4.7)
 - [ ] **Sem duplicidade sr-only + alt**: Nunca `<span class="sr-only">` ou `<div class="sr-only">` — usar SEMPRE `<p class="sr-only" id="figX-desc">`; nunca `sr-only` **e** `alt` preenchidos ao mesmo tempo (N2.4.12)
-- [ ] **Destaques verdes**: Apenas em `<span>` e **fora** de blocos bege (sinopse/jumbotron)
-- [ ] **Contraste em blocos bege**: Usar `<strong>` em vez de `.vagalume-destaque` dentro de sinopse/jumbotron
+- [ ] **Destaques verdes (`vagalume-destaque`)**: **DESCONTINUADO** como ênfase (§6.2/N2.4.13) — não usar para destacar texto. Onde houver destaque tipográfico do autor, usar `<strong>`.
+- [ ] **Negritos sem cor manual (§6.2)**: `<strong>` **nunca** tem `style` nem classe de cor — herda a cor do contexto. No fundo branco/cards = `#261810`; dentro de caixas creme = `#5B3925`.
+- [ ] **Caixas creme**: texto/`<strong>` em `.vagalume-destaque-bloco`, `.vagalume-sinopse` ou `.vagalume-jumbotron` deve ser **marrom `#5B3925`** — **sem** `color: #261810` manual.
+- [ ] **Títulos `.h5`/`.h6` em `<span>`/`<p>` dentro de caixas**: fixar `color: #5b3925;` explícito (a classe `.h5` NÃO herda o marrom do CSS global — só tags reais h1–h5; precedente "Para participar" no fórum)
 - [ ] **VLibras**: Não incluir snippet (já está no Moodle)
 
 ## Flutuação e Layout
@@ -59,8 +61,11 @@
 - [ ] **Bootstrap 4**: Grids usam `row`, `col-12`, `col-md-*` (não flexbox próprio)
 - [ ] **H5P nativo**: Usa `.h5p-placeholder` (NÃO iframe manual)
 - [ ] **Vídeos centralizados**: Usam grid `.col-lg-8`, ícone `fa-file-text` na sinopse
-- [ ] **Links externos**: Têm `target="_blank"` + `rel="noopener noreferrer"` + classe `.nomediaplugin`
+- [ ] **Links externos**: Têm `target="_blank"` + `rel="noopener noreferrer"` + classe `.nomediaplugin` + estilização **negrito + sublinhado + `color: #944b11`** (§6.1). Links-botão (`.btn btn-primary`) mantêm laranja `#D96F1A` + texto branco.
 - [ ] **E-mails com `.nomediaplugin`**: Para evitar conversão automática em blocos
+- [ ] **Zero "|"** em títulos/legendas/texto visível (§4.13): usar ":" como separador padrão
+- [ ] **Legenda de vídeo (§4.14)**: formato `Título (minutagem); canal: nome do canal` — sem "(YouTube)", sem ":" redundante após o título, alinhada à esquerda
+- [ ] **Fonte em legenda de imagem (§4.15)**: `.figure-caption` com fonte em **texto puro, sem `<a>`** — link só se houver indicação explícita
 
 ## Final
 

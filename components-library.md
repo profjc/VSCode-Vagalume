@@ -53,16 +53,16 @@
 
 ## 4. Palavra em Destaque
 > **Status:** 🟢 Em uso (~35 páginas — títulos e parágrafos)
-> **Onde é usado:** destacar conceito-chave em título (`h*`) ou dentro de parágrafo. NUNCA usar `<strong class="vagalume-destaque">`; NUNCA usar dentro de blocos bege (quebra contraste — usar `<strong>` comum)
+> **Onde é usado:** destacar conceito-chave em título (`h*`) ou dentro de parágrafo. **ATENÇÃO (§6.2, 04/09/2026):** o `.vagalume-destaque` (verde) foi **DESCONTINUADO** como ênfase. O destaque agora é feito com **negrito puro `<strong>`** (herda a cor do contexto — `#261810` no branco, `#5B3925` em caixas creme). **Nunca** usar `<strong class="vagalume-destaque">`; **nunca** colar herança do verde.
 > **Como pedir no DI:** negrito no termo — o DI aplica automaticamente
 
 Título:
 ```html
-<h1>Palavra <span class="vagalume-destaque">Destacada</span> no Título</h1>
+<h1>Palavra <strong>Destacada</strong> no Título</h1>
 ```
 Parágrafo:
 ```html
-<p>Texto normal com uma <span class="vagalume-destaque">palavra em destaque</span>.</p>
+<p>Texto normal com uma <strong>palavra em destaque</strong>.</p>
 ```
 
 ---
@@ -207,6 +207,7 @@ Flutuante à esquerda:
 > **Status:** 🟢 Em uso (5 páginas com vídeo — variante SEM sinopse)
 > **Onde é usado:** vídeos do YouTube com créditos, sem caixa de sinopse (regra: nenhum vídeo terá sinopse obrigatória)
 > **Como pedir no DI:** `[vídeo]` + URL embed + créditos
+> **Legenda (04/09/2026):** formatar no padrão `Título (minutagem); canal: [nome do canal]` — sem "(YouTube)" e sem ":" após o título (regra 4.14).
 
 ```html
 <div class="row justify-content-center">
@@ -219,7 +220,7 @@ Flutuante à esquerda:
                 allowfullscreen="allowfullscreen"></iframe>
       </div>
       <p class="small text-muted mb-0" style="font-size: 0.85rem; line-height: 1.4;">
-        <strong>Créditos:</strong> Texto de créditos aqui.
+        Título (minutagem); canal: nome do canal
       </p>
     </div>
   </div>
@@ -232,6 +233,7 @@ Flutuante à esquerda:
 > **Status:** 🟢 Em uso (variação do Vídeo — quando o autor fornecer sinopse)
 > **Onde é usado:** vídeo + créditos + bloco de sinopse com ícone `fa-file-text`
 > **Como pedir no DI:** `[vídeo com sinopse]` + URL embed + créditos + texto da sinopse
+> **Legenda (04/09/2026):** formatar no padrão `Título (minutagem); canal: [nome do canal]` — sem "(YouTube)" e sem ":" após o título (regra 4.14).
 
 ```html
 <div class="row justify-content-center">
@@ -244,7 +246,7 @@ Flutuante à esquerda:
                 allowfullscreen="allowfullscreen"></iframe>
       </div>
       <p class="small text-muted mb-4" style="font-size: 0.85rem; line-height: 1.4;">
-        <strong>Créditos:</strong> Texto de créditos aqui.
+        Título (minutagem); canal: nome do canal
       </p>
       <div class="vagalume-sinopse">
         <div class="d-flex align-items-center mb-2">
@@ -466,7 +468,7 @@ Flutuante à esquerda:
       <div class="d-flex align-items-start"><i class="fa fa-star mr-3 mt-1" style="font-size: 1.8rem; color: #5b3925;" aria-hidden="true"></i>
         <div>
           <p class="mb-2" style="color: #5b3925;"><strong>Título do card</strong></p>
-          <p class="mb-0" style="font-size: 0.95rem; color: #261810;">Texto do card.</p>
+          <p class="mb-0" style="font-size: 0.95rem;">Texto do card.</p>
         </div>
       </div>
     </div>
@@ -512,10 +514,10 @@ Flutuante à esquerda:
 
   <div class="card mb-4 border-0 bg-transparent">
     <div class="card-body vagalume-destaque-bloco mb-0">
-      <div class="d-flex align-items-center mb-2"><i class="fa fa-comments mr-2" aria-hidden="true" style="font-size: 1.3rem; color: #5b3925;">&nbsp;</i> <span class="h5 font-weight-bold mb-0" style="color: #261810;">Para participar</span></div>
+      <div class="d-flex align-items-center mb-2"><i class="fa fa-comments mr-2" aria-hidden="true" style="font-size: 1.3rem; color: #5b3925;">&nbsp;</i> <span class="h5 font-weight-bold mb-0" style="color: #5b3925;">Para participar</span></div>
       [TEXTO_CENTRAL_VARIÁVEL]
       <hr style="border-top: 1px dashed rgba(91, 57, 37, 0.2);">
-      <p class="mb-0 font-italic text-center" style="color: #261810; font-size: 0.95rem;"><i class="fa fa-users mr-1" aria-hidden="true" style="color: #2e7d32;">&nbsp;</i> Após <strong>sua postagem</strong>, comente em <strong>pelo menos duas participações</strong> de colegas para fortalecermos nossa própria rede de aprendizagem!</p>
+      <p class="mb-0 font-italic text-center" style="font-size: 0.95rem;"><i class="fa fa-users mr-1" aria-hidden="true" style="color: #2e7d32;">&nbsp;</i> Após <strong>sua postagem</strong>, comente em <strong>pelo menos duas participações</strong> de colegas para fortalecermos nossa própria rede de aprendizagem!</p>
     </div>
   </div>
 </div>
@@ -609,11 +611,18 @@ Verde institucional (padrão):
 Último elemento visível da página SEMPRE sem margem inferior (`mb-0`); bloco de destaque final usa `mb-4` no bloco e `mb-0` no parágrafo interno.
 
 ## S2. Links Externos (regra 6.1)
-Todo link externo/e-mail: `target="_blank"` + `rel="noopener noreferrer"` + `class="nomediaplugin"` + estilização negrito/sublinhado/colorido (laranja sobre branco; marrom dentro de boxes bege).
+Todo link externo/e-mail: `target="_blank"` + `rel="noopener noreferrer"` + `class="nomediaplugin"` + estilização **negrito + sublinhado + colorido** na cor única **laranja-escuro `#944b11`** — válida sobre fundo branco e caixas creme. Links-botão (`.btn btn-primary`) seguem laranja `#D96F1A` com texto branco (não mudam).
+```html
+<a class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;" href="URL" target="_blank" rel="noopener noreferrer">Texto descritivo do link</a>
+```
+
+> **Atenção (04/09/2026):** a regra de **negrito** (S5) é distinta da de **links**. Negritos **nunca** usam a estilização colorida dos links — herdam a cor do contexto. Os snippets de link acima referem-se APENAS a `<a>` (links), jamais a `<strong>`.
 
 ## S3. Placeholder de Imagem (método padrão)
 Imagem temporária com URL fixa do placeholder único + marcador textual "⚠️ APAGAR ESTE BLOCO" + imagem oficial com `src="[cole a imagem aqui]"`. Detalhes: `docs/regras-html-moodle.md` §1.1.3.
 
 ## S4. Placeholder H5P nominal
 Sempre `[ARQUIVO_H5P: nome-do-arquivo.h5p]` — nunca URLs draft do Moodle.
+## S5. Negritos (regra 6.2 — padronização de ênfase)
+`<strong>` **nunca tem cor manual** — herda a cor do contexto: marrom escuro `#261810` sobre fundo branco/cards; marrom institucional `#5B3925` dentro de caixas creme. `.vagalume-destaque` (verde) está **descontinuado** como ênfase — migrar para `<strong>`. Página de referência: `Boas-vindas_Apresentacao.html`. Detalhes: `docs/regras-html-moodle.md` §6.2.
 </content>

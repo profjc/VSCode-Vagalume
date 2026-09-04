@@ -230,13 +230,14 @@ Se qualquer item falhar, corrigir ANTES de entregar.
 2. **Leitores de tela**: `aria-hidden="true"` em ícones decorativos; links com texto descritivo (nunca "clique aqui").
 3. **Contraste mínimo 4.5:1** para texto normal (paleta N3.1.1).
 4. **Textos em caixa alta**: nunca caixa alta em títulos/subtítulos (padrão *Capitalize*).
-5. **`.vagalume-destaque`**: apenas em `<span>` inline; nunca `<strong class="vagalume-destaque">`.
+5. **`.vagalume-destaque`**: **DESCONTINUADO como mecanismo de ênfase** (04/09/2026) — o destaque verde era o "equivalente ao negrito" e deve ser migrado para `<strong>` (N2.4.13). Enquanto não migrado, apenas `<span>` inline; nunca `<strong class="vagalume-destaque">`.
 6. **Blocos bege**: proibido `.vagalume-destaque` (quebra contraste) — usar `<strong>` comum.
 7. **Descrição longa de imagens (N2.4.7)**: `<p class="sr-only" id="figX-desc">` + `alt=""` + `role="presentation"` na imagem + `aria-labelledby` — SEM duplicidade.
 8. **VLibras**: o Moodle já tem; NÃO incluir snippet.
 9. **Hierarquia de headings**: `h1`→`h3` sem saltos maiores.
 10. **Verificação obrigatória em toda página (N2.4.12)**: descrição longa + atributos de imagem completos + headings + `aria-hidden` + legendas de figuras centralizadas (`figure-caption text-center mt-2`).
 11. **Proibição do "|" (13/08/2026)**: nunca usar barra vertical em títulos/legendas/texto visível — separador padrão é ":".
+12. **Padronização de negritos (N2.4.13, 04/09/2026)**: `<strong>` **nunca tem cor manual** — herda a cor do contexto (marrom escuro `#261810` sobre fundo branco/cards; marrom institucional `#5B3925` dentro de caixas creme). Página referência: `Boas-vindas_Apresentacao.html`. Detalhes: docs/regras-html-moodle.md §6.2.
 
 ---
 
@@ -258,10 +259,11 @@ Todo link (`<a>`) externo ou endereço de e-mail deve seguir estas regras cumula
 1. **`target="_blank"`**: abrir em nova aba, exceto quando explicitamente solicitado que abra na mesma aba.
 2. **`rel="noopener noreferrer"`**: segurança e privacidade.
 3. **Classe `.nomediaplugin`**: evita que o Moodle tente converter o link automaticamente em player ou bloco embutido.
+4. **Estilização (regra 6.1)**: cor única **laranja-escuro `#944B11`** + **negrito + sublinhado**, em qualquer fundo (branco ou caixa creme). Links-botão (`.btn btn-primary`) mantêm laranja `#D96F1A` + texto branco. Detalhes: docs/regras-html-moodle.md §6.1.
 
 Exemplo:
 ```html
-<a href="URL" target="_blank" rel="noopener noreferrer" class="nomediaplugin">Texto descritivo do link</a>
+<a href="URL" target="_blank" rel="noopener noreferrer" class="nomediaplugin font-weight-bold" style="color: #944b11; text-decoration: underline;">Texto descritivo do link</a>
 ```
 
 
@@ -279,7 +281,7 @@ Exemplo:
 | Laranja (principal) | `#D96F1A` | Botões, headers, bordas, hover |
 | Marrom (títulos) | `#5B3925` | Títulos, texto institucional |
 | Marrom escuro (texto) | `#261810` | Corpo de texto (leitura) |
-| Verde (institucional) | `#587C41` | Destaques, bordas de bloco |
+| Verde (institucional) | `#587C41` | Bordas de bloco (não usar em destaque de texto — descontinuado como ênfase) |
 | Verde (fundo página inicial) | `#5D7A3C` | Fundo da frontpage |
 | Dourado | `#F8B133` | Destaques em títulos grandes |
 | Bege (fundo cards) | `#FAEBDD` | Fundo de cards, citações, jumbotrons |
@@ -300,7 +302,7 @@ Estas classes já estão no CSS do tema e DEVEM ser usadas no HTML:
 | `.vagalume-jumbotron` | Bloco de destaque versátil (fundo bege, borda laranja) — boas-vindas, chamadas, citações, conteúdo com destaque |
 | `.vagalume-citacao` | Texto da citação (itálico, marrom) |
 | `.vagalume-autora` | Autoria da citação (alinhado à direita) |
-| `.vagalume-destaque` | Palavra em destaque no texto (verde, negrito) |
+| `.vagalume-destaque` | ~~Palavra em destaque~~ (verde, negrito) — **DESCONTINUADO como ênfase (N2.4.13)**: usar `<strong>` que herda a cor |
 | `.vagalume-sinopse` | Bloco de sinopse/destaque (fundo bege, borda verde) |
 | `.vagalume-destaque-bloco` | Mesmo que `.vagalume-sinopse` |
 | `.vagalume-video` | Container de vídeo (max 640px, 16:9) |
@@ -319,7 +321,7 @@ Ao escolher um template, **priorize o contexto sobre a consulta mecânica à bib
 | 1 | Caixa de Destaque | Destaques, resumos, instruções (o mais usado) |
 | 2 | Citação com Autoria | Citações com crédito |
 | 3 | Aviso Importante | Alertas pontuais (💡) |
-| 4 | Palavra em Destaque | Conceito-chave em título/parágrafo (nunca em caixa bege) |
+| 4 | Palavra em Destaque | Conceito-chave em título/parágrafo (**negrito `<strong>` que herda a cor** — não usar verde) |
 | 5 | Caixa de Destaque ao Lado de Imagem | Bloco colorido junto a imagem flutuante |
 | 6 | Bloco de Orientação com Ícone | Dicas/orientações passo a passo |
 | 7 | Caixa Para Refletir | Reflexão/fechamento (card branco borda laranja) |
