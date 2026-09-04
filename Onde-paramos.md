@@ -1,5 +1,39 @@
 # Onde paramos
 
+## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
+
+> **ESTADO:** pronto para iniciar. Fundação 100% registrada e commitada (9ab38a3, working tree limpo).
+> **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
+
+### 🎯 Roteiro mestre da varredura (página a página — NUNCA em lote, N1.3.3)
+1. **Boas-vindas** (4 páginas)
+2. **Módulo 1** (Partes 1–4)
+3. **Módulo 2** (Apresentação + Partes 1–6 + fóruns)
+4. **Frontpage/capas** (`frontpage/`)
+5. (M3/M4 nascem no padrão novo quando chegarem)
+
+### 🔍 O que aplicar em CADA página (checklist de varredura)
+- **Negritos (§6.2):** `.vagalume-destaque`→`<strong>`; remover cor manual de `<strong>`; caixas creme sem `#261810` (usar `#5B3925`); títulos `.h5`/`.h6` em span com cor explícita `#5b3925`.
+- **Links (§6.1):** cor única `#944B11` + negrito + sublinhado; botões mantêm `#D96F1A`/branco; legendas de figura com link azul → `#944B11`.
+- **Legenda de vídeo (§4.14):** `Título (minutagem); canal: nome` (sem "(YouTube)", sem ":" após título).
+- **Fonte em imagem (§4.15):** texto puro, sem `<a>` (deslinkar `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2` salvo orientação).
+- **Geral (§4.13, N2.4.12, N2.2.2):** zero "|", atributos de imagem, `aria-hidden`, heading hierarchy, comentários decimais, `mb-0` no final.
+- **Validação final** com `docs/checklist-entrega.md` antes de entregar cada página.
+
+### 📁 Pendências-alvo já mapeadas (no checklist de varredura)
+- Fóruns M2 com `#261810` na caixa creme: `M2P4F1`, `M2P5F1`, `M2P5L1p2` (+ demais detectados).
+- Legendas de vídeo antigas: `M1P4L1p2`, `M2P2L1p1`, `M2P4L2p1`, `M2P4L4p3`, `M2P4L4p4`.
+- Legendas de imagem com link: `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2`.
+
+### ⚠️ PENDÊNCIAS POSTERIORES (NÃO fazer agora)
+- **CSS global** (`temp/CSS_global_v2.css`): retomar APÓS a revisão (ver seção abaixo) — `.vagalume-destaque` DEPRECATED no comentário + decisão link A/B.
+- **Pendências do autor** (`docs/pendencias-projeto.md`): ícones cards, imagem Acervo M2P4L3p1, Parte 5 do M1, M3, M4, referências M2.
+
+### 🚩 Como retomar o CICLO (padrão)
+Para CADA página: entrar em **PLAN mode** → ler a página + achar o que corrigir conforme o checklist → apresentar plano → **ACT mode** → corrigir → `code -r <arquivo>` (última ação) → **INTERROMPER** e aguardar validação do mestre no Moodle → retorno ao PLAN para a próxima.
+
+---
+
 ## 📍 Checkpoint — 04/09/2026 — PADRONIZAÇÃO DE NEGRITOS CONSOLIDADA ✅ (início da revisão de padronizações)
 
 ### Resumo — Padronização de negritos e ênfase
