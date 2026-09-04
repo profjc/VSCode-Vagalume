@@ -2,8 +2,26 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO:** pronto para iniciar. Fundação 100% registrada e commitada (9ab38a3, working tree limpo).
+> **ESTADO:** em andamento — revisão do zero de TODAS as páginas, em ordem do curso (N1.6.2). Boas-vindas revisado; agora no **Módulo 1** (começando pela Apresentação do Módulo 1).
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
+
+### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
+- **Revisar TODAS as páginas partindo do zero**, na ordem do curso, **ignorando registros anteriores do Onde-paramos** quanto a "já revisado/conforme". O mestre não se interessa pelo que estiver anotado como concluído — tudo é revisto de novo com os dois checklists + templates.
+- **Terminologia:** citar páginas como "Página html 'Título'". "Card" é componente visual, não página.
+- **Diagnóstico travessão:** `--` (conversão .md) que deva ser travessão → travessão verdadeiro `—` (`&mdash;`). Em comentários, o separador é `-` (hífen) — correto.
+- **Confrontar sempre** com o template canônico correspondente (`forum.html`, etc.) antes de decidir; elementos fixos de template não se alteram.
+- ✅ **[Ciclo 1] "Começando nosso percurso"** (`Boas-vindas_Apresentacao.html`): 8 x `--` → `—` corrigidos (4 cards × 2). **Página REVISADA do zero:** única pendência era `mb-0` no parágrafo final (linha 61) — **CORRIGIDO**. **AGUARDANDO recolagem/validação no Moodle.**
+- ✅ **[Ciclo 2] "Dicas para se organizar"**: 2 x `--` → `—` (linha 60) + comentários abertura/fechamento "Mantenha o seu ritmo"→"Dicas para se organizar" + **git mv** `Boas-vindas_Dicas_para_os_cursistas.html` → `Boas-vindas_Dicas_para_se_organizar.html`. **CORRIGIDO. AGUARDANDO recolagem/validação no Moodle.**
+- ✅ **[Ciclo 3] Fórum "Que tal nos conhecermos melhor?"**: `.vagalume-destaque` do título do fórum **REVERTIDO** ao padrão do template `forum.html` (verde fixo — NÃO migrar) + `#261810`→`#5b3925` na caixa creme (linhas 13, 14, 21) + **git mv** `Boas-vindas_Forum_Apresentacao.html` → `Boas-vindas_Forum_Que_tal_nos_conhecermos_melhor.html`. **CORRIGIDO. AGUARDANDO recolagem/validação no Moodle.**
+- 🎉 **Boas-vindas COMPLETO (3 páginas) aguardando validação do mestre.** Próxima etapa: **Módulo 1 - Parte 1** (varredura a partir de `M1P1L1p1.html`).
+- ✅ **[M1-1] Página html "Apresentação do Módulo 1"** (`M1-Apresentacao_do_modulo_1.html`): título `Módulo 1 -` → `Módulo 1 —` (travessão) + comentários `Módulo 1 - Apresentação` → `Módulo 1 - Apresentação do Módulo 1`. **REVISADA do zero (conforme). CORRIGIDO. AGUARDANDO validação no Moodle.**
+- 🔧 **[Renumeração de pastas M1]** `ParteI`→`Parte1`, `ParteII`→`Parte2`, `ParteIII`→`Parte3`, `ParteIV`→`Parte4` (git mv registrado como R, histórico preservado). `Parte5` já decimal. **Foi executada após autorização do mestre.**
+- ✅ **[M1-2] Página html `M1P1L1p1` "A importância dos primeiros anos de vida"** (agora `Parte1/Licao1/`): `mb-0` no parágrafo final (linha 9). **REVISADA do zero (conforme). CORRIGIDO. AGUARDANDO validação.**
+- ✅ **[M1-3] Página html `M1P1L1p2` "Mas afinal, o que é a Primeira Infância?"** (`Parte1/Licao1/`): **CONFORME** - iframe de vídeo válido permanece (critério: todo vídeo é embedado a menos que o mestre avise; lição registrada em `docs/regras-licoes-aprendidas.md`). Nada a corrigir.
+- ✅ **[M1-4] Página html `M1P1L1p3` "As diferentes concepções de infância ao longo da história"** (`Parte1/Licao1/`): 2 x `.vagalume-destaque` → `<strong>` (linha 14 - plasticidade cerebral / grande capacidade do cérebro). **CORRIGIDO. AGUARDANDO validação.**
+- ✅ **[M1-5] Página html `M1P1L1p4` "Atividade: Quais infâncias aparecem aqui?"** (`Parte1/Licao1/`): carrossel `mb-3` → `mb-0` (linha 12, S1). **CORRIGIDO. AGUARDANDO validação.**
+- ✅ **[M1-6] Página html `M1P1L1p5` "Pensando juntos"** (`Parte1/Licao1/`): caixa final `m-0 mb-4` → `m-0` (linha 34, S1). **CORRIGIDO. AGUARDANDO validação.**
+- ✅ **[M1-7] Fórum `M1P1F1` "Memórias da infância"**: `git mv` p/ `Parte1/M1P1F1.html` (fórum fora da lição, como M1P3F1/M1P4F1) + `flow-root` no container (linha 2) + `style-italic` na mensagem final (linha 14). Alinhado ao template `forum.html`. **CORRIGIDO. AGUARDANDO validação.** Parte 1 completa (lição 1 + fórum). Próxima: Parte 2 - `M1P2L1p1.html`.
 
 ### 🎯 Roteiro mestre da varredura (página a página — NUNCA em lote, N1.3.3)
 1. **Boas-vindas** (4 páginas)

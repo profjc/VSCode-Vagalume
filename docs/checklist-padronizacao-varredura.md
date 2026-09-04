@@ -8,6 +8,7 @@
 
 ## 1. Negritos e ênfase (regra §6.2 / N2.4.13)
 - [ ] **Converter todo `.vagalume-destaque` usado como ênfase** (verde, em fundo branco) → `<strong>` puro, **sem cor manual** *(padrão: herda cor do contexto; já migrado em `M1P1L1p1`, `M1P1L1p2`)*
+- [ ] **EXCEÇÃO — NÃO migrar: título verde do fórum.** O título discreto do fórum (`<span class="vagalume-destaque">Fórum: ...</span>`) é **elemento FIXO do template canônico** `templates/components/forum.html` (linha 8) e deve permanecer verde. **Não é ênfase em texto corrido** — é identidade visual do fórum. Sempre confrontar páginas de fórum com `forum.html` antes de decidir.
 - [ ] **Remover cor manual de todo `<strong>`** (nem `style`, nem classe de cor)
 - [ ] **Caixas creme** (`.vagalume-destaque-bloco`, `.vagalume-sinopse`, `.vagalume-jumbotron`): texto/`<strong>` deve ser **marrom institucional `#5B3925`** — remover qualquer `color: #261810` manual dentro desses blocos
 - [ ] **Títulos com classe `.h5`/`.h6` em `<span>`/`<p>` dentro de caixas**: fixar `color: #5b3925;` explícito (a classe `.h5` **não herda** o marrom do CSS global — só tags reais `h1`–`h5`)
