@@ -2,7 +2,7 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO:** em andamento — revisão do zero de TODAS as páginas, em ordem do curso (N1.6.2). Boas-vindas revisado; agora no **Módulo 1** (começando pela Apresentação do Módulo 1).
+> **ESTADO:** ✅ **VALIDADO PELO MESTRE ATÉ M1-20** (Boas-vindas completo + Módulo 1: Apresentação, Parte 1, Parte 2, Parte 3 - lições e fóruns). Commit 5d549b6 (anterior) + próximo commit registra a Parte 3. **Próxima página: Parte 4 - `M1P4L1p1.html`** ("Os Sentidos do Cuidado").
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
@@ -21,7 +21,22 @@
 - ✅ **[M1-4] Página html `M1P1L1p3` "As diferentes concepções de infância ao longo da história"** (`Parte1/Licao1/`): 2 x `.vagalume-destaque` → `<strong>` (linha 14 - plasticidade cerebral / grande capacidade do cérebro). **CORRIGIDO. AGUARDANDO validação.**
 - ✅ **[M1-5] Página html `M1P1L1p4` "Atividade: Quais infâncias aparecem aqui?"** (`Parte1/Licao1/`): carrossel `mb-3` → `mb-0` (linha 12, S1). **CORRIGIDO. AGUARDANDO validação.**
 - ✅ **[M1-6] Página html `M1P1L1p5` "Pensando juntos"** (`Parte1/Licao1/`): caixa final `m-0 mb-4` → `m-0` (linha 34, S1). **CORRIGIDO. AGUARDANDO validação.**
-- ✅ **[M1-7] Fórum `M1P1F1` "Memórias da infância"**: `git mv` p/ `Parte1/M1P1F1.html` (fórum fora da lição, como M1P3F1/M1P4F1) + `flow-root` no container (linha 2) + `style-italic` na mensagem final (linha 14). Alinhado ao template `forum.html`. **CORRIGIDO. AGUARDANDO validação.** Parte 1 completa (lição 1 + fórum). Próxima: Parte 2 - `M1P2L1p1.html`.
+- ✅ **[M1-7] Fórum `M1P1F1` "Memórias da infância"**: `git mv` p/ `Parte1/M1P1F1.html` (fórum fora da lição) + `flow-root` (linha 2) + `style-italic` (linha 14). Alinhado ao template. **CORRIGIDO.** Parte 1 completa.
+- ✅ **[M1-8] Página html `M1P2L1p1` "O bebê antes do nascimento"** (`Parte2/Licao1/`): 3 x `.vagalume-destaque` → `<strong>` (linhas 9 e 10 - ambiente familiar e social / bem-estar emocional / Por volta da 20ª semana) + `mb-0` no parágrafo final (linha 11). **CORRIGIDO. AGUARDANDO validação.**
+- **[M1-9] Pagina M1P2L1p2 Gestacao em foco: 3 links cor d96f1a->944b11 + rel noopener->noopener noreferrer + pipe -> dois pontos nos titulos. CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P2L1p3.html`.
+- **[M1-10] Pagina M1P2L1p3 O que acontece depois do nascimento: mb-0 no paragrafo final (linha 7). CORRIGIDO. AGUARDANDO validacao.**
+- **[M1-11] Paginas M1P2L1p4 a M1P2L1p10 (etapas do desenvolvimento + atividade H5P): TODAS CONFORMES, nada a corrigir. AGUARDANDO conferencia do mestre.** Parte 2 sem forum - correto (nem todo bloco tem forum; quando existir, e o ultimo elemento do bloco - N3.5.3).
+- **DIRETRIZES (04/09/2026, mestre):** (1) nem todo bloco tera forum - a regra e que, quando existir, sera o ultimo elemento do bloco; (2) mesmo quando a pagina estiver conforme, PARAR e aguardar conferencia do mestre - nunca seguir automaticamente. Próxima: `M1P3L1p1.html` (Parte 3).
+- **[M1-12] Pagina M1P3L1p1 Um cenario de desigualdade: vagalume-destaque vulnerabilidade socioeconomica -> strong (linha 5) + caixa final mb-4 removido (linha 6, S1). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L1p2.html`.
+- **[M1-13] Pagina M1P3L1p2 Impactos da desigualdade: link BBC News cor 5b3925->944b11 (linha 8). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L1p3.html`.
+- **[M1-14] Pagina M1P3L1p3 O papel das redes de cuidado e protecao: CONFORME, nada a corrigir. AGUARDANDO conferencia do mestre.** Próxima: `M1P3L1p4.html`.
+- **[M1-15] Pagina M1P3L1p4 Atividade Desafio de Palavras: CONFORME, nada a corrigir. Placeholder H5P bate com o arquivo real (que tem espacos no nome - padronizacao opcional, aguardando decisao do mestre). AGUARDANDO conferencia.** Próxima: `M1P3L2p1.html` (Licao 2 da Parte 3).
+- **[M1-16] Pagina M1P3L2p1 O papel dos dados e indicadores: 3 x vagalume-destaque -> strong (linhas 3, 4, 12 - dados e indicadores sociais / identificar desigualdades / vulnerabilidades). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L2p2.html`.
+- **[M1-17] Pagina M1P3L2p2 De Olho nos Dados: vagalume-destaque Primeira Infancia em Dados -> strong (linha 3) + link cor 5b3925->944b11 (linha 7). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L2p3.html`.
+- **[M1-18] Pagina M1P3L2p3 Politicas de Protecao e Cuidado (linha do tempo): 8 links cor 5b3925->944b11 (Art 227, ECA, Lei 8069, Menino Bernardo, Marco Legal, Henry Borel, PNPI, Lei 15211). Botoes do accordion mantidos 5b3925. CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L2p4.html` (atividade H5P DragDrop).
+- **[M1-19] Pagina M1P3L2p4 Atividade Desafio Legislativo: CONFORME, nada a corrigir. Placeholder H5P bate com o arquivo real. AGUARDANDO conferencia do mestre.** Parte 3 sem forum? Verificar: existe M1P3F1.html na pasta Parte3. Próxima: `M1P3F1.html`.
+- **[M1-20] Forum M1P3F1 Infancias no territorio: Para participar 261810->5b3925 (linha 8) + mensagem final cor manual removida (linha 13). Alinhado ao template. CORRIGIDO. AGUARDANDO validacao.** Parte 3 completa (Licoes 1-2 + forum). Próxima: Parte 4 - `M1P4L1p1.html`.
+- **[M1-10] Pagina M1P2L1p3 O que acontece depois do nascimento: mb-0 no paragrafo final (linha 7). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P2L1p4.html`.
 
 ### 🎯 Roteiro mestre da varredura (página a página — NUNCA em lote, N1.3.3)
 1. **Boas-vindas** (4 páginas)
