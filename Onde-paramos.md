@@ -2,7 +2,7 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-22 + Parte 4 em andamento.** Boas-vindas completo; Módulo 1: Apresentação, Partes 1-3 completas e validadas; Parte 4: p1, p2, p3 e p4 corrigidas e validadas; **p5 (Atividade: Cuidado, vínculos e redes) CORRIGIDA e ÚLTIMA VALIDADA pelo mestre.** **Próxima página: fórum `M1P4F1.html`** (muitos 261810 na caixa creme + links 5b3925 a migrar p/ 944b11).
+> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-23 — PARTE 4 DO MÓDULO 1 COMPLETA.** Boas-vindas completo; Módulo 1: Apresentação, Partes 1-3 completas e validadas; **Parte 4 COMPLETA e validada** (p1, p2, p3, p4, p5 + fórum `M1P4F1.html` CORRIGIDO — 261810 removidos, links 5b3925→944b11, títulos para p.font-weight-bold, mensagem final text-center; ÚLTIMO validado pelo mestre). **Próxima etapa: próxima lição/parte da varredura do Módulo 1** (verificar qual página segue após a Parte 4 na ordem do curso).
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
