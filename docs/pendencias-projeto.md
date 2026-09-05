@@ -13,8 +13,9 @@
    - Página `templates/pages/M2/ParteIV/Licao3/M2P4L3p1.html` usa placeholder (`src="[cole a imagem aqui]"`).
    - Necessário: criar/obter a fotografia do acervo Vaga Lume e subir no Moodle.
 
-3. [ ] **Revisão do autor para o Módulo 1** — **PARCIALMENTE CONCLUÍDA (02/09/2026):** Parte 4 revisada e validada no Moodle (páginas 1–5 e fórum reescritas conforme ajustes do autor; baixa registrada com atraso, em 02/09). Partes 1–3 já validadas (22/08). **Aguardando documento do autor com ajustes da Parte 5** para conclusão.
-  - Atualizado em 02/09/2026 — baixa da Parte 4 registrada; sem material de revisão disponível para a Parte 5 (checkpoint em `Onde-paramos.md`)
+3. [x] **Revisão do autor para o Módulo 1** — **CONCLUÍDA (05/09/2026): MÓDULO 1 FINALIZADO E DUPLO-REVISADO, SEM NENHUMA PENDÊNCIA.**
+  - Histórico: Partes 1–3 validadas (22/08); Parte 4 revisada e validada no Moodle (02/09); Ajustes Finais do V2 (10 itens) conferidos e aplicados (05/09 — Itens 1, 3–10 no repositório; Item 2 no Moodle).
+  - **Módulo 1 encerrado** — nenhuma ação pendente no módulo (Parte 5 nasce no padrão novo quando o material chegar).
 
 4. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
 

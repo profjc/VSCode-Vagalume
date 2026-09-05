@@ -1,9 +1,13 @@
 # Onde paramos
 
-## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
+## 📍 PRÓXIMA AÇÃO — REVISÃO DUPLA DO MÓDULO 2 (plano registrado p/ retomada em nova janela)
 
-> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-28 + INÍCIO DOS "AJUSTES FINAIS" DO V2.** Boas-vindas completo; Módulo 1 100% varrido + Referências em template canônico `templates/components/referencias-bibliograficas.html` (h4, sem caixas — componente 22). **CONFERÊNCIA DOS `#AJUSTES FINAIS` do V2 (10 itens) em andamento:** ✅ **[Item 1] "Expectativas de aprendizagem" — `<strong>Valorizar</strong>`→ texto simples em `M1-Apresentacao_do_modulo_1.html` (linha 25).** **Próximo: [Item 3] Fórum `M1P1F1` "Memórias da infância" — excluir BOX "Para refletir"** (Item 2 = título de lição no Moodle: "Alicerce para a vida"→"As Infâncias e seus Sentidos"). Demais itens: 4 (descrições de imagens M1P1L1p4), 5 (M1P3L1p4), 6–10 (títulos M1P3L2p1–p4, M1P4L1p1). **Próxima etapa após ajustes finais:** padronizar M2P6P2 ao novo template de referências + varredura Módulo 2.
-> **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
+> **ESTADO (checkout de encerramento 05/09/2026):** ✅ **MÓDULO 1 FINALIZADO E DUPLO-REVISADO, SEM PENDÊNCIAS** (varredura completa até M1-28 + Referências em template canônico + conferência integral dos `#AJUSTES FINAIS` do V2 — 10/10 itens concluídos; ver histórico em `docs/pendencias-projeto.md` item 3). Boas-vindas completo.
+> **PRÓXIMA SESSÃO:** continuar a **revisão dupla** (mesma metodologia do Módulo 1) no **MÓDULO 2**, página a página (nunca em lote — N1.3.3), usando:
+> 1. `docs/checklist-padronizacao-varredura.md` (checklist de formatação — negritos §6.2, links §6.1 `#944B11`, legenda de vídeo §4.14, fonte de imagem §4.15, zero "|", etc.)
+> 2. `docs/checklist-entrega.md` (validação final de cada página)
+> **Roteiro do Módulo 2:** Apresentação + Partes 1–6 + fóruns (ver `docs/checklist-padronizacao-varredura.md` para pendências-alvo já mapeadas: fóruns M2 com `#261810`, legendas de vídeo antigas em `M2P2L1p1`, `M2P4L2p1`, `M2P4L4p3`, `M2P4L4p4`, legendas de imagem com link em `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2`). Depois: frontpage/capas. M2P6P2 (referências) aguarda decisão do autor sobre formato (pendência 6).
+> **Ciclo por página:** PLAN (ler página + diagnóstico + plano) → ACT (corrigir) → `code -r` (última ação) → INTERROMPER e aguardar validação do mestre no Moodle → retorno ao PLAN.
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
 - **Revisar TODAS as páginas partindo do zero**, na ordem do curso, **ignorando registros anteriores do Onde-paramos** quanto a "já revisado/conforme". O mestre não se interessa pelo que estiver anotado como concluído — tudo é revisto de novo com os dois checklists + templates.
