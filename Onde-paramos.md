@@ -2,7 +2,7 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-20 + Parte 4 em andamento (não commitado - ver pendência de commit abaixo).** Boas-vindas completo; Módulo 1: Apresentação, Partes 1-3 completas e validadas; Parte 4: p1 e p2 corrigidas e validadas; p3 (Quem cuida da Primeira Infancia?) corrigida e ULTIMA VALIDADA pelo mestre. **Próxima página: `M1P4L1p4.html`** (pendências já mapeadas: strong.h5 titulo do card + 261810 em ul e demais elementos dentro de caixa creme). Depois `M1P4L1p5.html` (tambem tem strong.h5) e fórum `M1P4F1.html` (muitos 261810 na caixa creme + links 5b3925 a migrar p/ 944b11).
+> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-21 + Parte 4 em andamento.** Boas-vindas completo; Módulo 1: Apresentação, Partes 1-3 completas e validadas; Parte 4: p1, p2 e p3 corrigidas e validadas; **p4 (E quem cuida de quem cuida da Primeira Infância?) CORRIGIDA e ÚLTIMA VALIDADA pelo mestre.** **Próxima página: `M1P4L1p5.html`** (tem strong.h5). Depois fórum `M1P4F1.html` (muitos 261810 na caixa creme + links 5b3925 a migrar p/ 944b11).
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
