@@ -2,7 +2,7 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO:** ✅ **VALIDADO PELO MESTRE ATÉ M1-20** (Boas-vindas completo + Módulo 1: Apresentação, Parte 1, Parte 2, Parte 3 - lições e fóruns). Commit 5d549b6 (anterior) + próximo commit registra a Parte 3. **Próxima página: Parte 4 - `M1P4L1p1.html`** ("Os Sentidos do Cuidado").
+> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-20 + Parte 4 em andamento (não commitado - ver pendência de commit abaixo).** Boas-vindas completo; Módulo 1: Apresentação, Partes 1-3 completas e validadas; Parte 4: p1 e p2 corrigidas e validadas; p3 (Quem cuida da Primeira Infancia?) corrigida e ULTIMA VALIDADA pelo mestre. **Próxima página: `M1P4L1p4.html`** (pendências já mapeadas: strong.h5 titulo do card + 261810 em ul e demais elementos dentro de caixa creme). Depois `M1P4L1p5.html` (tambem tem strong.h5) e fórum `M1P4F1.html` (muitos 261810 na caixa creme + links 5b3925 a migrar p/ 944b11).
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
@@ -35,7 +35,12 @@
 - **[M1-17] Pagina M1P3L2p2 De Olho nos Dados: vagalume-destaque Primeira Infancia em Dados -> strong (linha 3) + link cor 5b3925->944b11 (linha 7). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L2p3.html`.
 - **[M1-18] Pagina M1P3L2p3 Politicas de Protecao e Cuidado (linha do tempo): 8 links cor 5b3925->944b11 (Art 227, ECA, Lei 8069, Menino Bernardo, Marco Legal, Henry Borel, PNPI, Lei 15211). Botoes do accordion mantidos 5b3925. CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P3L2p4.html` (atividade H5P DragDrop).
 - **[M1-19] Pagina M1P3L2p4 Atividade Desafio Legislativo: CONFORME, nada a corrigir. Placeholder H5P bate com o arquivo real. AGUARDANDO conferencia do mestre.** Parte 3 sem forum? Verificar: existe M1P3F1.html na pasta Parte3. Próxima: `M1P3F1.html`.
-- **[M1-20] Forum M1P3F1 Infancias no territorio: Para participar 261810->5b3925 (linha 8) + mensagem final cor manual removida (linha 13). Alinhado ao template. CORRIGIDO. AGUARDANDO validacao.** Parte 3 completa (Licoes 1-2 + forum). Próxima: Parte 4 - `M1P4L1p1.html`.
+- **[M1-20] Forum M1P3F1 Infancias no territorio: Para participar 261810->5b3925 (linha 8) + mensagem final cor manual removida (linha 13). Alinhado ao template. CORRIGIDO. AGUARDANDO validacao.** Parte 3 completa (Licoes 1-2 + forum). Próxima: Parte 4 - `M1P4L1p1.html` (Os Sentidos do Cuidado).
+- **[M1-21] Pagina M1P4L1p1 Os Sentidos do Cuidado: comentario Modulo I -> Modulo 1 (linhas 1, 57) + strong construcao coletiva (linha 7) + removido 261810 dos 3 paragrafos da linha do tempo e do fechamento (linhas 20, 32, 45, 54). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P4L1p2.html`.
+- **[M1-22] Pagina M1P4L1p2 Parentalidade: comentario Modulo I -> Modulo 1 (linhas 1, 20) + strong parentalidade (linha 3) + legenda video formato 4.14 (linha 17: O que e Parentalidade (02min19s); canal: ChildFund Brasil). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P4L1p3.html`.
+- **[M1-23] Pagina M1P4L1p3 Quem cuida da Primeira Infancia: comentario Modulo I -> Modulo 1 (linhas 1, 19) + 2 x strong pessoas cuidadoras e responsabilidade compartilhada (linhas 3, 18). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P4L1p4.html`.
+- **[M1-24 REVISADO] Titulo de card/caixa = `<p class="font-weight-bold">`, NAO classe `.h5`/`.h6`. Corrigido M1P4L1p3: `strong.h5` dos 2 cards (Pessoas cuidadoras) -> `p.font-weight-bold` (padrao dos cards, p/ conferir a cor mais escura pedida). Regra corrigida nos 3 docs. LICAO: sempre comparar com card de referencia (ex: Colocando em pratica, M2P2L1p2).**
+
 - **[M1-10] Pagina M1P2L1p3 O que acontece depois do nascimento: mb-0 no paragrafo final (linha 7). CORRIGIDO. AGUARDANDO validacao.** Próxima: `M1P2L1p4.html`.
 
 ### 🎯 Roteiro mestre da varredura (página a página — NUNCA em lote, N1.3.3)

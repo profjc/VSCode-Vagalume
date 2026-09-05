@@ -11,7 +11,7 @@
 - [ ] **EXCEÇÃO — NÃO migrar: título verde do fórum.** O título discreto do fórum (`<span class="vagalume-destaque">Fórum: ...</span>`) é **elemento FIXO do template canônico** `templates/components/forum.html` (linha 8) e deve permanecer verde. **Não é ênfase em texto corrido** — é identidade visual do fórum. Sempre confrontar páginas de fórum com `forum.html` antes de decidir.
 - [ ] **Remover cor manual de todo `<strong>`** (nem `style`, nem classe de cor)
 - [ ] **Caixas creme** (`.vagalume-destaque-bloco`, `.vagalume-sinopse`, `.vagalume-jumbotron`): texto/`<strong>` deve ser **marrom institucional `#5B3925`** — remover qualquer `color: #261810` manual dentro desses blocos
-- [ ] **Títulos com classe `.h5`/`.h6` em `<span>`/`<p>` dentro de caixas**: fixar `color: #5b3925;` explícito (a classe `.h5` **não herda** o marrom do CSS global — só tags reais `h1`–`h5`)
+- [ ] **Títulos de cards/caixas: usar `<p class="font-weight-bold">`** (negrito via classe, herdando o marrom `#5B3925` do bloco) — padrão do projeto (cards "Colocando em prática", "É importante nesta fase"). **EVITAR classe `.h5`/`.h6` em `<strong>`/`<span>`/`<p>`** (quebra o padrão e o tamanho); se encontrada, **converter para `p.font-weight-bold`**. Exceção legítima de `span.h5`+cor: o título FIXO "Para participar" do template de fórum (que mantém `span.h5 font-weight-bold` + `color:#5b3925`). Precedente corrigido: M1P4L1p3 (`strong.h5` dos cards) → `p.font-weight-bold`.
 
 ## 2. Links externos (regra 6.1 — versão final 04/09/2026)
 - [ ] Todo `<a>` externo: `color: **#944b11**` + `font-weight-bold` + `text-decoration: underline` + `class="nomediaplugin"` + `target="_blank"` + `rel="noopener noreferrer"`

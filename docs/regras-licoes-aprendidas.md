@@ -11,6 +11,7 @@
 ---
 
 ## Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
+- **Título de card/caixa = `<p class="font-weight-bold">`, NÃO classe `.h5`/`.h6` (04/09/2026, corrigido):** o padrão do projeto para títulos dentro de caixa/card é `<p class="font-weight-bold mb-0" style="line-height:1.2;">` — negrito via classe, herdando o marrom `#5B3925` do bloco. **NÃO usar `strong/span/p class="h5"` em títulos de cards** (muda o padrão); se aparecer, converter para `p.font-weight-bold`. Exceção: título FIXO "Para participar" do template de fórum (mantém `span.h5`+cor). **Lição do episódio:** ao revisar um card, comparar com um card de referência do projeto (ex.: "Colocando em prática" em `M2P2L1p2.html`) e copiar o padrão — não inventar correção nova. Precedente: `M1P4L1p3.html` (`strong.h5` → `p.font-weight-bold`).
 
 - **CRITERIO DE VIDEO (04/09/2026, firmeza do mestre):** TODO video e embedado por padrao (iframe YouTube) - a menos que o mestre AVISE que um video especifico nao e autorizado; nesse caso aplica-se o fallback (thumbnail + botao Assistir no YouTube + legenda). O agente NUNCA deve corrigir um iframe valido por conta propria - a licao do M1P4L1p2 (01/09) e caso particular de video NAO autorizado, nao regra geral. Precedente: 04/09/2026 - agente propôs substituir iframe valido de M1P1L1p2 por thumbnail; corrigido pelo mestre.
 
