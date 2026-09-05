@@ -484,9 +484,9 @@ Flutuante à esquerda:
 ---
 
 ## 22. Referências Bibliográficas
-> **Status:** 🟢 Em uso (2 páginas: M1P5P2, M2P6P2)
-> **Onde é usado:** página final de cada módulo com as referências em ABNT
-> **Como pedir no DI:** `[referências bibliográficas]` + lista de referências
+> **Status:** 🟢 Em uso (2 páginas: M1P5P2, M2P6P2) · **Template base: `templates/components/referencias-bibliograficas.html`**
+> **Onde é usado:** página final de cada módulo com as referências. **Padrão validado pelo mestre (05/09/2026):** cabeçalhos de categoria em **`h4`** (negrito via `font-weight-bold`, cor marrom `#5B3925`); 2ª categoria em diante com `mt-4`; referências **fora de caixas**, em `div` com `color: #261810; font-size: 0.95rem;` e recuo deslocado (`padding-left: 20px; text-indent: -20px;`); títulos de obras em `<strong>`; links `#944B11` (`nomediaplugin text-break` + underline + `_blank` + `rel="noopener noreferrer"`); último item de cada categoria com `mb-0`. **Categorias padrão:** Livros e artigos · Legislação e documentos oficiais · Materiais on-line · Vídeos.
+> **Como pedir no DI:** `[referências bibliográficas]` + lista de referências (manter apenas as categorias presentes no módulo)
 
 ```html
 <div class="container py-4 vagalume-pagina" style="display: flow-root;">
