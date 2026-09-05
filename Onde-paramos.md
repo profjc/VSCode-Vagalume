@@ -2,7 +2,7 @@
 
 ## 📍 PRÓXIMA AÇÃO — VARREDURA DE PADRONIZAÇÃO DO CURSO (plano registrado p/ retomada em nova janela)
 
-> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-24 — MÓDULO 1 INTEIRO COMPLETO E VARRIDO.** Boas-vindas completo; **Módulo 1 100% varrido**: Apresentação, Partes 1-4 (incl. fórum M1P4F1) e Parte 5 (`M1P5P1.html` — Cards de Síntese corrigidos, títulos p.font-weight-bold, 261810 removidos, troféu preservado; ÚLTIMO validado pelo mestre). **Próxima etapa: Módulo 2 — Apresentação + Partes 1-6 + fóruns** (verificar ordem; M2P6P1/celebração M2 ainda não varrido).
+> **ESTADO (checkout de encerramento 04/09/2026):** ✅ **VALIDADO ATÉ M1-25 — MÓDULO 1 100% CONCLUÍDO (INCL. REFERÊNCIAS) + V2 OFICIALIZADO.** Boas-vindas completo; Módulo 1 100% varrido (Partes 1-5 + fóruns) **e** Referências bibliográficas REESCRITAS conforme o arquivo oficial do autor `temp/Ajustes_Módulo I - V2.md` (lista V2 = oficial; ARIÈS LTC; LUFT removida; 4 categorias: Livros e artigos / Legislação e documentos oficiais / Materiais on-line / Vídeos; links #944b11; "|" do V2 → ":" por regra §4.13; en dash nos intervalos). **ÚLTIMO validado pelo mestre.** **Próxima etapa: conferência do restante do V2** — seção `#ajustes finais` (linhas 720-780: títulos de lições/páginas, imagens da Parte 1, "Alicerce para a Vida"→"As Infâncias e seus Sentidos", etc.), item a item, ciclo PLAN→ACT→validação. Depois Módulo 2 (varredura padronização).
 > **Ao abrir nova janela:** ler este plano + `docs/checklist-padronizacao-varredura.md` (roteiro mestre) + `docs/checklist-entrega.md` (validação final de cada página).
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
