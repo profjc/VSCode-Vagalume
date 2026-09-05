@@ -2,11 +2,11 @@
 
 ## 📍 PRÓXIMA AÇÃO — REVISÃO DUPLA DO MÓDULO 2 (plano registrado p/ retomada em nova janela)
 
-> **ESTADO (checkout de encerramento 05/09/2026):** ✅ **MÓDULO 1 FINALIZADO E DUPLO-REVISADO, SEM PENDÊNCIAS** (varredura completa até M1-28 + Referências em template canônico + conferência integral dos `#AJUSTES FINAIS` do V2 — 10/10 itens concluídos; ver histórico em `docs/pendencias-projeto.md` item 3). Boas-vindas completo.
-> **PRÓXIMA SESSÃO:** continuar a **revisão dupla** (mesma metodologia do Módulo 1) no **MÓDULO 2**, página a página (nunca em lote — N1.3.3), usando:
+> **ESTADO (checkout 05/09/2026 — retomada):** ✅ **Módulo Boas-vindas VALIDADO pelo mestre** — incluindo o ajuste dos cards de "Começando nosso percurso" (duplo hífen removido; descrição iniciada na linha seguinte nos 4 módulos). ✅ **MÓDULO 1 FINALIZADO E VALIDADO pelo mestre** (duplo-revisto, sem pendências). ✅ **Renumeração das pastas do Módulo 2 concluída:** `ParteI`–`ParteV` → `Parte1`–`Parte5` (git mv, registrado como R, histórico preservado; `Parte6` já decimal). **Comentários das páginas M2 conferidos: já estavam todos em decimal — nenhum ajuste necessário.**
+> **PRÓXIMA SESSÃO:** **revisão de layout do MÓDULO 2** (Apresentação + Partes 1–6 + fóruns), página a página (nunca em lote — N1.3.3), metodologia do Módulo 1:
 > 1. `docs/checklist-padronizacao-varredura.md` (checklist de formatação — negritos §6.2, links §6.1 `#944B11`, legenda de vídeo §4.14, fonte de imagem §4.15, zero "|", etc.)
 > 2. `docs/checklist-entrega.md` (validação final de cada página)
-> **Roteiro do Módulo 2:** Apresentação + Partes 1–6 + fóruns (ver `docs/checklist-padronizacao-varredura.md` para pendências-alvo já mapeadas: fóruns M2 com `#261810`, legendas de vídeo antigas em `M2P2L1p1`, `M2P4L2p1`, `M2P4L4p3`, `M2P4L4p4`, legendas de imagem com link em `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2`). Depois: frontpage/capas. M2P6P2 (referências) aguarda decisão do autor sobre formato (pendência 6).
+> **Roteiro do Módulo 2:** Apresentação (`M2-Apresentacao_do_modulo_2.html`) → Parte 1 (páginas, fórum `M2P1F1` por último — N3.5.3) → Parte 2 → Parte 3 → Parte 4 → Parte 5 → Parte 6. Pendências-alvo mapeadas: legendas de vídeo antigas em `M2P2L1p1`, `M2P4L2p1`, `M2P4L4p3`, `M2P4L4p4`; legendas de imagem com link em `M2P3L2p1`, `M2P4L4p1`, `M2P4L4p2` (**decidir: clicáveis ou texto puro — AGUARDANDO resposta do mestre**). M2P6P2 (referências) aguarda decisão do autor sobre formato (pendência 6). Depois: frontpage/capas.
 > **Ciclo por página:** PLAN (ler página + diagnóstico + plano) → ACT (corrigir) → `code -r` (última ação) → INTERROMPER e aguardar validação do mestre no Moodle → retorno ao PLAN.
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)
