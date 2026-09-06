@@ -53,10 +53,10 @@
 ---
 
 ## ⏭️ Ordem sugerida da varredura
-1. **Boas-vindas** (4 páginas)
-2. **Módulo 1** (Partes 1–4)
-3. **Módulo 2** (Apresentação + Partes 1–6 + fóruns)
-4. **Frontpage/capas** (`frontpage/`)
+1. ✅ **Boas-vindas** (4 páginas) — CONCLUÍDO
+2. ✅ **Módulo 1** (Partes 1–4) — CONCLUÍDO + labels M1 revisadas (romanos→decimais: Parte 3/4/5)
+3. ✅ **Módulo 2** (Apresentação + Partes 1–6 + fóruns) — CONCLUÍDO + labels M2 revisadas (romanos→decimais: Parte 1/2/3/4/5)
+4. ⏭️ **Frontpage/capas** (`frontpage/`) — PRÓXIMO
 5. **M3/M4** (quando chegarem — já nascem no padrão novo)
 
 ---

@@ -21,13 +21,10 @@
 
 5. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
 
-6. [ ] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`): decidir formato** — **PENDÊNCIA REAL (28/08/2026)**
-   - O autor decidirá se as referências ficam em **formato ABNT (NBR 6023:2018)** completo ou em **formato "mais amigável e menos acadêmico"** (dados de autoria/título/ano, sem rigidez ABNT).
-   - **Pesquisa realizada pelo Cline (28/08/2026) — dados já verificados na internet:**
-     - ✅ **Entrevista Emília (Cabrejo-Parra):** publicada por Gabriela Romeu em **1º set. 2011** — dados completos (URL: https://emilia.org.br/evelio-cabrejo-parra/).
-     - ✅ **Vídeo Dorrico (TEDx):** localizado — canal TEDx Talks, https://www.youtube.com/watch?v=gKVOXmuEbwU (publicado ≈2020, a confirmar).
-     - ✅ **Vídeo Patrícia Bohrer (Ler é uma Viagem):** localizado — https://www.youtube.com/watch?v=bz0WYDtpR5g, duração 22:07 (publicado ≈2022/2023, a confirmar).
-     - ⚠️ **Ano de Bajour** (Pulo do Gato, provável 2012) e **ano de Coelho** (Brasiliense, Coleção Primeiros Passos) — NÃO confirmados; verificar no exemplar/com autor.
+6. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
+   - **Formato decidido pelo autor: "amigável"** (dados de autoria/título/links, sem rigidez ABNT) — **já é o formato atual da página**.
+   - **Layout espelhado no template do Módulo 1** (`M1P5P2.html`): subtítulos "Livros e artigos"/"Vídeos" convertidos para `h4`; link Cabrejo-Parra `#944b11` (§6.1).
+   - Só resta ao mestre **recolar `M2P6P2.html` no Moodle**.
      - ❌ **Vídeo "Representatividade nos livros" (Programa Vaga Lume):** NÃO localizado — precisar do link direto ou título exato no canal.
    - Aplicar a decisão do autor nas páginas de referências do curso (padrão hoje: `M2P6P2.html`, mesmo padrão visual do `M1P5P2`).
 
