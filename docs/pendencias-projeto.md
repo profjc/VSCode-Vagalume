@@ -21,16 +21,16 @@
 
 5. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
 
-5b. [ ] **Módulo de Encerramento** — entrará **após o Módulo 4** (registro do mestre, 05/09/2026). Aguardando material do autor.
+6. [ ] **Módulo de Encerramento** — **módulo novo e independente**, entrará **após o Módulo 4** (registro do mestre, 05/09/2026). Aguardando material do autor.
 
-6. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
+7. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
    - **Formato decidido pelo autor: "amigável"** (dados de autoria/título/links, sem rigidez ABNT) — **já é o formato atual da página**.
    - **Layout espelhado no template do Módulo 1** (`M1P5P2.html`): subtítulos "Livros e artigos"/"Vídeos" convertidos para `h4`; link Cabrejo-Parra `#944b11` (§6.1).
    - Só resta ao mestre **recolar `M2P6P2.html` no Moodle**.
      - ❌ **Vídeo "Representatividade nos livros" (Programa Vaga Lume):** NÃO localizado — precisar do link direto ou título exato no canal.
    - Aplicar a decisão do autor nas páginas de referências do curso (padrão hoje: `M2P6P2.html`, mesmo padrão visual do `M1P5P2`).
 
-7. [x] **VARREDURA DE PADRONIZAÇÃO DO CURSO — FINALIZADA (05/09/2026).**
+8. [x] **VARREDURA DE PADRONIZAÇÃO DO CURSO — FINALIZADA (05/09/2026).**
    - Aplicadas em **todas as páginas existentes** as padronizações consolidadas em 04/09/2026: negritos sem cor manual (§6.2), caixas creme `#5B3925`, links `#944B11` (§6.1), legenda de vídeo (§4.14), fonte de imagem sem link (§4.15), zero "|", travessões `—`, ícones FA5, romanos→decimais (pastas/comentários/labels), título de card → `p.font-weight-bold`.
    - **Cobertura completa:** Boas-vindas ✅ · Módulo 1 (+ labels) ✅ · Módulo 2 (+ labels e referências) ✅ · Frontpage (capa do site, capa do curso, fórum de avisos) ✅.
    - **Encerrada pelo mestre em 05/09/2026** — pendências restantes apenas de entrega externa (M3/M4/encerramento) e imagens de ícones da capa.
