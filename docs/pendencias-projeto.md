@@ -10,8 +10,8 @@
    - Criar/obter as imagens dos ícones para os cards dos módulos na capa do curso e subir no Moodle.
 
 2. [ ] **Imagem faltante — M2P4L3p1** (imagem do Acervo Vaga Lume)
-   - Página `templates/pages/M2/ParteIV/Licao3/M2P4L3p1.html` usa placeholder (`src="[cole a imagem aqui]"`).
-   - Necessário: criar/obter a fotografia do acervo Vaga Lume e subir no Moodle.
+   - Página `templates/pages/M2/Parte4/Licao3/M2P4L3p1.html` — **IMAGEM PRONTA (05/09/2026):** compactada em `assets/images/ilustracoes/M2/M2P4L3p1-acervo_vaga_lume.jpeg` (1600×1067, JPEG). Descrição longa/alt atualizada na página e registrada em `assets/images/ilustracoes/M2/descricoes.md`.
+   - **Falta apenas subir a imagem real no Moodle** (trocar `src="[cole a imagem aqui]"` na página).
 
 3. [x] **Revisão do autor para o Módulo 1** — **CONCLUÍDA (05/09/2026): MÓDULO 1 FINALIZADO E DUPLO-REVISADO, SEM NENHUMA PENDÊNCIA.**
   - Histórico: Partes 1–3 validadas (22/08); Parte 4 revisada e validada no Moodle (02/09); Ajustes Finais do V2 (10 itens) conferidos e aplicados (05/09 — Itens 1, 3–10 no repositório; Item 2 no Moodle).
