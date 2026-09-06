@@ -21,6 +21,21 @@
 | `docs/backups/` | Backups versionados do `.clinerules` e CSS | Padrão: `clinerules-vN-antes-[descrição].md` |
 | `Onde-paramos.md` | Checkpoint de continuidade entre sessões | Ler ao iniciar sessão; atualizar ao encerrar |
 
+## Nomeação de arquivos — correspondência dos módulos
+
+**Regra (firmada 06/09/2026):** continuamos nomeando arquivos/pastas como `M0`, `M1`, `M2`… (padrão do projeto), mas devemos **sempre manter a correspondência com o nome real do módulo** em legendas, comentários identificadores e nomes visíveis. A ordem dos tiles/cards do curso segue esta tabela.
+
+| Padrão (prefixo) | Nome real do módulo (título exibido no curso) | Pasta/ícone correspondente |
+|---|---|---|
+| **M0** | **Boas-vindas!** | `templates/pages/Boas-vindas/`, `content/Boas-vindas/`; ícone `tile-00-boas-vindas.png` |
+| **M1** | **Primeira Infância** | `templates/pages/M1/`, `content/M1/`; ícone `tile-01-primeira-infancia.png` |
+| **M2** | **Leitura e Primeira Infância** | `templates/pages/M2/`, `content/M2/`; ícone `tile-02-leitura-primeira-infancia.png` |
+| **M3** | **Bibliotecas Comunitárias** | `templates/pages/M3/`, `content/M3/`; ícone `tile-03-bibliotecas-comunitarias.png` |
+| **M4** | **Mão na massa** | `templates/pages/M4/`, `content/M4/`; ícone `tile-04-mao-na-massa.png` |
+| **Encerramento** (sem número M5) | **Certificação e Avaliação do curso** | `templates/pages/Encerramento/`, `content/Encerramento/`; ícone `tile-05-certificacao-avaliacao.png` |
+
+> **Observações:** (1) **M0 = Boas-vindas** — embora os arquivos usem `templates/pages/Boas-vindas/`, para fins de numeração de tiles é o módulo **0**. (2) O **Encerramento não tem numeração `M5`** — o ícone é os prefixado `05` (ordem no curso após o M4) e o título real é "Certificação e Avaliação do curso". (3) Ícones dos tiles (versão bege `#FAEBDD`) vivem em `assets/images/icones-tiles/`, mapeados no CSS por `#tileicon_N` (`_1`=M0 … `_6`=Encerramento).
+
 ## Storyboards
 
 **NÃO mantemos arquivos separados de storyboard** — apenas o HTML final. O DI pensa o storyboard mentalmente e entrega a página pronta.

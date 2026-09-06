@@ -1,5 +1,24 @@
 # Onde paramos
 
+## 📍 SESSÃO 06/09/2026 — PENDÊNCIA 1 ENCERRADA: ÍCONES DOS TILES VALIDADOS ✅
+
+> **REGISTRO DE NOMEAÇÃO (06/09/2026):** firmada a correspondência oficial nome real × numeração dos módulos. Tabela canônica anotada de forma persistente em **`docs/project-map.md` → "Nomeação de arquivos — correspondência dos módulos"** e atalho em **`.clinerules` N3.3.1**. **M0**=Boas-vindas! · **M1**=Primeira Infância · **M2**=Leitura e Primeira Infância · **M3**=Bibliotecas Comunitárias · **M4**=Mão na massa · **Encerramento** (sem M5)=Certificação e Avaliação do curso.
+
+> **ESTADO (06/09/2026 — PENDÊNCIA 1 ENCERRADA):** 🎉 **Os ícones personalizados dos tiles foram VALIDADOS no Moodle real.** O mestre confirmou visualmente: 6 cards com ícones bege na ordem correta, ícone Font Awesome oculto, e **o bloco HTML da home foi ocultado dos alunos sem derrubar as imagens** (lição aprendida — ver abaixo).
+> **Decisões registradas:** (a) **Versão 01 (bege `#FAEBDD`)** é a cor dos ícones (versão 02 rosa/lilás descartada e **APAGADA** de `temp/Cards/`, restaram apenas os 6 PNG usados). (b) Imagens hospedadas em bloco HTML da home (contexto `pluginfile.php/145/block_html/content/`, course ID **2**) — **o bloco deve PERMANECER mesmo oculto.** (c) **CSS global consolidado:** colocou-se o bloco dos ícones dos tiles no INÍCIO do arquivo final; o `temp/CSS_global_v2.css` (758→versão final do autor) foi **apagado** e não existe mais; único arquivo de CSS do tema = `assets/css/vagalume-tema.css` (810 linhas) — **espelho do CSS atual do Moodle**; backup pré-alteração em `docs/backups/vagalume-tema-antes-icones-tiles-2026-09-06.css`.
+> **PRÓXIMO PASSO:** Módulos 3, 4 e **Encerramento** seguem **aguardando material do autor**. Nada mais pendente no repositório.
+> **LIÇÃO APRENDIDA (pluginfile de bloco/página ocultos):** arquivos de `pluginfile.php` referenciados via CSS continuam acessíveis mesmo quando o bloco/página que os hospeda é ocultado dos alunos (precedente: capa do curso; agora também: ícones dos tiles). → registrar em `docs/regras-licoes-aprendidas.md`.
+
+---
+
+## 📍 SESSÃO 06/09/2026 — PENDÊNCIA 1: ÍCONES DOS TILES CARREGADOS (histórico de teste)
+
+> **ESTADO (06/09/2026 — INÍCIO DO TESTE DOS ÍCONES):** ✅ O mestre subiu em `temp/Cards/` as imagens de teste dos tiles (12 PNGs: 6 ícones × 2 versões de cor). ✅ **Imagens analisadas e aprovadas tecnicamente** (128×128, PNG-24 com transparência, 3,6–8,1 KB < 20 KB, RGB, quadradas). ✅ **Versão 01 (bege `#FAEBDD`) escolhida** — cor exata da paleta Vaga Lume; versão 02 (rosa/lilás) descartada como fora da paleta. ✅ **Imagens copiadas** para `assets/images/icones-tiles/` com nomes limpos (`tile-00-boas-vindas.png` … `tile-05-certificacao-avaliacao.png`). ✅ **Passo-a-passo do teste criado** em `docs/teste-icones-tiles.md`. ✅ **URLs reais recebidas** (contexto `pluginfile.php/145/block_html/content/`, course ID **2**) e **CSS final montado** em `docs/css-icones-tiles-para-colar.css` (seletor `.course-2`, `tileicon_1`–`tileicon_6`).
+> **PRÓXIMO PASSO (a cargo do MESTRE no Moodle):** abrir **Administração do curso → Aparência → CSS personalizado** e **colar** o conteúdo de `docs/css-icones-tiles-para-colar.css`. Depois verificar a home (6 cards com ícones bege, ícone Font Awesome oculto, nitidez e contraste).
+> **Após o teste:** replicar o mecanismo na produção e **encerrar a pendência 1**. Depois: Módulo 3, Módulo 4 e **Módulo de Encerramento** (aguardando material do autor).
+
+---
+
 ## 📍 PRÓXIMA AÇÃO — REVISÃO DUPLA DO MÓDULO 2 (plano registrado p/ retomada em nova janela)
 
 > **ESTADO (05/09/2026 — ENCERRAMENTO DA VARREDURA):** ✅ **VARREDURA DE PADRONIZAÇÃO 100% CONCLUÍDA E ENCERRADA PELO MESTRE** (pendência 8 encerrada). ✅ **Boas-vindas** validado. ✅ **MÓDULO 1** validado (duplo-revisto) + labels M1 (romanos→decimais). ✅ **MÓDULO 2** revisado por completo (Apresentação + Partes 1–6 + 3 fóruns + referências — pendência 7 encerrada: formato amigável, layout espelhado no M1) + labels M2. ✅ **FRONTPAGE revisada:** capa do site (conforme), capa do curso (link §6.1 corrigido), fórum de avisos (cor `#5b3925`). ✅ **IMAGEM DO ACERVO (`M2P4L3p1`) RESOLVIDA pelo mestre** (subida no Moodle; pendência 2 encerrada). Correções gerais aplicadas: cor manual removida/→`#5b3925` em caixas creme, travessões `—`, legendas §4.14/§4.15, ícones FA5, romanos→decimais (pastas/comentários/labels), título de card → `p.font-weight-bold`, subtítulos de referência → `h4`.

@@ -362,8 +362,13 @@ Consultar sempre o mapa completo em **`docs/project-map.md`**. Resumo essencial:
 - **`.md` de trabalho** → `content/` (subpastas por módulo)
 - **Storyboards** → NÃO mantemos arquivos separados (apenas o HTML final)
 - **Temp** → `temp/` ("limpar" = apagar conteúdo; "excluir" = deletar a pasta)
-- **Imagens** → `assets/images/` (`capas/`, `ilustracoes/` com subpastas por módulo, `personagens/`, `logos/`)
+- **Imagens** → `assets/images/` (`capas/`, `ilustracoes/` com subpastas por módulo, `personagens/`, `logos/`, `icones-tiles/`)
 - **H5P de origem** → `assets/h5p/` (subpastas por módulo; mesmo nome do placeholder)
+
+### N3.3.1 Correspondência dos módulos (nome real × numeração)
+Os arquivos/pastas usam o padrão `M0`, `M1`, `M2`…, mas cada um corresponde a um **nome real de módulo** que deve ser mantido em legendas/comentários/nomes visíveis:
+- **M0** = Boas-vindas! · **M1** = Primeira Infância · **M2** = Leitura e Primeira Infância · **M3** = Bibliotecas Comunitárias · **M4** = Mão na massa · **Encerramento** (sem M5) = Certificação e Avaliação do curso.
+Tabela completa (com pastas e ícones dos tiles) em **`docs/project-map.md` → "Nomeação de arquivos — correspondência dos módulos"**.
 
 ---
 
