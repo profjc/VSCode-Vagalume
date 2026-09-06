@@ -28,6 +28,10 @@
 - [ ] **Nomeação de arquivo correta**: Páginas de lição `M2P3L1p2.html`; fóruns `M2P3F1.html`; síntese `M2P6P1.html`; labels `M2_Label_...`; minúsculas, sem acentos/espaços (N3.3)
 - [ ] **Mudanças no nome do arquivo/cabeçalhos/rodapés verificadas**: Ao revisar, conferir se os ajustes do autor implicam mudanças no **nome do arquivo HTML**, nos **cabeçalhos/rodapés (`<!-- -->`)** ou em **títulos configurados no Moodle** — incluir na entrega (renomear via `git mv`) e na lista de tarefas do mestre (N3.6, 13/08/2026)
 - [ ] **Caixa "Para refletir" (atenção contextual)**: Ficar atento ao contexto nos docs de DI para identificar situações onde vale usar a **Caixa "Para refletir"** (comp. 26 — card branco + borda laranja) — chamadas de reflexão, fechamento, sínteses reflexivas — **mesmo que o autor não tenha sugerido**; confirmar com o mestre antes de aplicar em páginas novas (N3.2.14, 14/08/2026)
+- [ ] **Comentários de abertura e fechamento preservados**: Nome da página/título nos `<!-- -->` DEVE refletir o **título configurado no Moodle** (o Moodle é a fonte da verdade — comentários ficam desatualizados quando a página é renomeada lá; alinhar sempre). Incluir na entrega quando mudar (N2.2.2 / aprendizado 05/09/2026).
+- [ ] **Nunca dois comentários consecutivos** (`<!-- --><!-- -->` — regra TinyMCE §2.5): separar por espaço ou conteúdo.
+- [ ] **Página de atividade (com H5P) começa com "Atividade:"** no nome/título e no comentário (padrão verificado em todas as páginas de atividade do M2).
+- [ ] **Confrontar com o template canônico**: antes de decidir qualquer elemento fixo (ex.: fórum → `components/forum.html`), confrontar com o template/snippet de `components-library.md`.
 
 ## Identidade Visual
 
@@ -35,6 +39,9 @@
 - [ ] **Classes `.vagalume-`**: Prefira classes globais a CSS inline
 - [ ] **Fonte**: Mantida a font-family do `.vagalume-pagina`
 - [ ] **Títulos**: Cor `#5B3925`, weight `700`
+- [ ] **Ícones Font Awesome 5**: sempre `fa fa-*` — **nunca** `fa-solid`/`fa-regular`/sintaxe FA6 (não renderiza no tema; corrigido em M2P4L3p2)
+- [ ] **Título de card/caixa → `p.font-weight-bold`**: título em cards/blocos usa `p.font-weight-bold` (herda `#5B3925`) — **evitar** `<strong>`/`span.h5` como título (precedente M1P4L1p3, cards de síntese M2). Exceção fixa: "Para participar" do fórum (`span.h5` + cor explícita)
+- [ ] **Sem `color` manual em texto corrente**: parágrafos no fundo branco NÃO levam `style="color: #261810;"` (herdam do container); dentro de caixa creme levam explicitamente `#5B3925`
 
 ## Acessibilidade
 
@@ -47,6 +54,8 @@
 - [ ] **Negritos sem cor manual (§6.2)**: `<strong>` **nunca** tem `style` nem classe de cor — herda a cor do contexto. No fundo branco/cards = `#261810`; dentro de caixas creme = `#5B3925`.
 - [ ] **Caixas creme**: texto/`<strong>` em `.vagalume-destaque-bloco`, `.vagalume-sinopse` ou `.vagalume-jumbotron` deve ser **marrom `#5B3925`** — **sem** `color: #261810` manual.
 - [ ] **Títulos `.h5`/`.h6` em `<span>`/`<p>` dentro de caixas**: fixar `color: #5b3925;` explícito (a classe `.h5` NÃO herda o marrom do CSS global — só tags reais h1–h5; precedente "Para participar" no fórum)
+- [ ] **Travessões**: nenhum `--` nem `–` (en dash) residual de conversão `.md` no texto visível — usar travessão verdadeiro `—`. Hífen `-` apenas em comentários (aprendizado M2, corrigido em ~6 páginas)
+- [ ] **`aria-hidden="true"` em ícones decorativos**: todo `fa-*` que não transmite informação semântica carrega `aria-hidden="true"` (precedente: todos os ícones das páginas revisadas)
 - [ ] **VLibras**: Não incluir snippet (já está no Moodle)
 
 ## Flutuação e Layout
@@ -66,10 +75,13 @@
 - [ ] **Zero "|"** em títulos/legendas/texto visível (§4.13): usar ":" como separador padrão
 - [ ] **Legenda de vídeo (§4.14)**: formato `Título (minutagem); canal: nome do canal` — sem "(YouTube)", sem ":" redundante após o título, alinhada à esquerda
 - [ ] **Fonte em legenda de imagem (§4.15)**: `.figure-caption` com fonte em **texto puro, sem `<a>`** — link só se houver indicação explícita
+- [ ] **Legendas de figura centralizadas**: `figure-caption text-center mt-2` (imagem/ilustração); legendas de vídeo alinhadas à esquerda (ver §4.14)
 
 ## Final
 
 - [ ] **Arquivo salvo**: Em `templates/pages/` com nome descritivo
+- [ ] **Último elemento sem margem inferior (S1)**: o último elemento visível da página (`</div>` antes do fechamento) tem `mb-0` (sem margem inferior pendente)
+- [ ] **Fórum como última atividade da Parte**: ao planejar uma Parte com fórum, o fórum é SEMPRE a última atividade da sequência (N3.5.3)
 - [ ] **Componente novo**: Se criou, registrou em `components-library.md`
 - [ ] **Imagens novas**: Estão em `assets/images/(capas|ilustracoes|personagens)/`
 
