@@ -10,7 +10,7 @@
 - [ ] **Sem `onclick`**: Nenhum atributo `onclick=""` inline
 - [ ] **Sem CDN**: Nenhum link para Bootstrap, Font Awesome ou outras CDNs
 - [ ] **Sem palavras em inglês/discrepantes**: Texto conferido contra o conteúdo-fonte do autor (N2.5.6) — "memory"→"memória", "protection"→"proteção", etc.
-- [ ] **Placeholders**: Toda imagem provisória usa `src="[cole a imagem aqui]"` (NUNCA `src=""` vazio — o TinyMCE rejeita) + bloco temporário com imagem do placeholder único (`placeholder-800x600.jpeg`) + marcador "⚠️ APAGAR ESTE BLOCO"
+- [ ] **Placeholders**: Toda imagem provisória usa bloco temporário com `<img src="" ...>` (vazio — validado 06/09/2026; NUNCA `@@PLUGINFILE@@` nem data URI via §1.1.3) + marcador "⚠️ APAGAR ESTE BLOCO" + imagem oficial `src="[cole a imagem aqui]"` (APENAS imagens; H5P/vídeos fora do padrão − ver N2.1.1.3)
 - [ ] **Formato de imagens**: PNG ou JPEG (nunca WebP)
 - [ ] **Atributos de imagem**: Todas têm `width`, `height` e `loading="lazy"`
 
@@ -20,7 +20,7 @@
 - [ ] **Sem `contenteditable="false"`**: Removido de todas as tags (exceto `.h5p-placeholder`)
 - [ ] **Sem CAIXA ALTA**: Títulos e textos decorativos estão em formato Capitalize
 - [ ] **Sem `font-size` inline**: Usa classes Bootstrap (`.h1`–`.h6`, `.font-weight-bold`, etc.)
-- [ ] **Placeholder com URL fixa**: A imagem temporária usa SEMPRE a URL fixa do placeholder único (`https://vagalume.educagir.com.br/pluginfile.php/104/mod_resource/content/1/placeholder-800x600.jpeg`) — NUNCA data URI variável (N2.1.1.3)
+- [ ] **Placeholder de imagem via `src=""`**: A imagem temporária usa `<img src="" ...>` (vazio, nunica `@@PLUGINFILE@@` nem data URI), delimitada por comentários INÍCIO/FIM, com o marcador "⚠️ APAGAR ESTE BLOCO" e a imagem oficial `src="[cole a imagem aqui]"` — bloco copiado da referência `M2P4L3p1.html` (APENAS imagens; H5P/vídeos fora do padrão) (N2.1.1.3)
 - [ ] **Marcador "⚠️ APAGAR ESTE BLOCO" presente**: Todo bloco de imagem temporária tem o `<span>` vermelho de aviso antes da imagem (anti-comentário-solto)
 - [ ] **Sem comentário não padrão**: Removido o comentário "Estrutura alinhada ao Manual da Marca Vaga Lume" quando presente (N3.6)
 - [ ] **Comentário de abertura correto**: Página começa com `<!-- Módulo X - Parte Y - Lição Z - Página W - [título] -->` (numeração decimal; fóruns usam `Fórum Z -`; síntese/referências sem Lição) — imediatamente antes do container (N2.2.2)
