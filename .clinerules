@@ -238,6 +238,11 @@ Se qualquer item falhar, corrigir ANTES de entregar.
 10. **Verificação obrigatória em toda página (N2.4.12)**: descrição longa + atributos de imagem completos + headings + `aria-hidden` + legendas de figuras centralizadas (`figure-caption text-center mt-2`).
 11. **Proibição do "|" (13/08/2026)**: nunca usar barra vertical em títulos/legendas/texto visível — separador padrão é ":".
 12. **Padronização de negritos (N2.4.13, 04/09/2026)**: `<strong>` **nunca tem cor manual** — herda a cor do contexto (marrom escuro `#261810` sobre fundo branco/cards; marrom institucional `#5B3925` dentro de caixas creme). Página referência: `Boas-vindas_Apresentacao.html`. Detalhes: docs/regras-html-moodle.md §6.2.
+13. **Travessões (05/09/2026)**: no texto visível, usar travessão verdadeiro `—` — **nunca** `--` (conversão `.md`) nem `–` (en dash) residuais. Hífen `-` apenas em comentários internos. Detalhes: docs/regras-html-moodle.md §2.3.
+14. **Ícones Font Awesome 5 (05/09/2026)**: sempre `fa fa-*` — **nunca** `fa-solid`/`fa-regular`/sintaxe FA6 (não renderiza no tema; corrigido em M2P4L3p2). Detalhes: docs/regras-html-moodle.md §2.5.
+15. **Comentário espelha o título do Moodle (05/09/2026)**: o título no `<!-- -->` DEVE refletir o **título configurado no Moodle** (Moodle é a fonte da verdade). Ao renomear uma página no Moodle, alinhar os comentários de abertura/fechamento. Detalhes: docs/regras-html-moodle.md §2.2.
+16. **Página de atividade com H5P começa com "Atividade:"** (05/09/2026): no nome e no comentário do título (padrão verificado em todas as páginas de atividade do M2). Detalhes: docs/regras-html-moodle.md §2.2.
+17. **Título de card/caixa → `p.font-weight-bold` (05/09/2026)**: títulos em cards/blocos usam `<p class="font-weight-bold">` (negrito via classe, herdando `#5B3925`) — **evitar** `<strong>`/`span.h5` como título de card. Única exceção: "Para participar" do fórum (`span.h5` + cor explícita). Detalhes: docs/regras-html-moodle.md §6.2.
 
 ---
 

@@ -11,6 +11,18 @@
 ---
 
 ## Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
+- **Varredura de padronização CONCLUÍDA (05/09/2026) — aprendizagens para páginas novas:** a varredura de todas as páginas existentes (Boas-vindas, M1+labels, M2+labels, frontpage) terminou. Para as próximas páginas (M3/M4/Encerramento), **ver `docs/checklist-entrega.md`** (atualizado com as aprendizagens), **não** o checklist de varredura (arquivado como histórico). Aprendizagens-chave: (a) travessões `—` no texto visível, nunca `--`/`–`; (b) ícones SEMPRE FA5 (`fa fa-*`), nunca `fa-solid`; (c) título de card/caixa → `p.font-weight-bold`; (d) sem `color:#261810` manual em texto corrente; (e) comentário espelha o título do **Moodle** (fonte da verdade); (f) página H5P começa com "Atividade:"; (g) nunca dois comentários consecutivos; (h) `aria-hidden` em ícones; (i) legendas de figura centralizadas; (j) `mb-0` no último elemento (S1); (k) fórum sempre como última atividade da Parte (N3.5.3).
+
+- **Sem cor manual em texto corrente (05/09/2026):** parágrafos no fundo branco não levam `style="color: #261810;"` (herdam do container `.vagalume-pagina`). Dentro de caixa creme, texto/`<strong>` levam explicitamente `#5B3925`. Corrigido em ~10 páginas do M2.
+
+- **Travessões de conversão (05/09/2026):** resíduos `--` (dois hífens) e `–` (en dash) vindos da conversão `.docs`→`.md` devem virar travessão verdadeiro `—` no texto visível. Corrigido em ~6 páginas do M2 (ex.: `M2P3L1p1`, `M2P4L4p2`).
+
+- **Ícones Font Awesome 5 (05/09/2026):** o tema Trema usa FA5. `fa-solid`/sintaxe FA6 não renderiza. Corrigido em `M2P4L3p2.html`.
+
+- **Fórum — cor dentro da caixa (05/09/2026):** nos fóruns do M2, os parágrafos e a lista dentro do `card-body vagalume-destaque-bloco` estavam com `color: #261810` manual → corrigidos para `#5b3925`; os parágrafos fora da caixa tiveram o `color` removido (herdam o padrão); a mensagem final ganhou `text-center`. Padrão canônico: `components/forum.html`.
+
+- **Labels — romano→decimal (05/09/2026):** as labels de Parte (M1 e M2) usavam "Módulo I/II" nos comentários; corrigidas para "Módulo 1/2". Nomes de arquivo: `M1_Label_Parte5_Sintese_do_modulo_I.html` → `..._modulo_1.html` (git mv). Padrão: **numeração sempre decimal** em comentários, arquivos e pastas.
+
 - **Título de card/caixa = `<p class="font-weight-bold">`, NÃO classe `.h5`/`.h6` (04/09/2026, corrigido):** o padrão do projeto para títulos dentro de caixa/card é `<p class="font-weight-bold mb-0" style="line-height:1.2;">` — negrito via classe, herdando o marrom `#5B3925` do bloco. **NÃO usar `strong/span/p class="h5"` em títulos de cards** (muda o padrão); se aparecer, converter para `p.font-weight-bold`. Exceção: título FIXO "Para participar" do template de fórum (mantém `span.h5`+cor). **Lição do episódio:** ao revisar um card, comparar com um card de referência do projeto (ex.: "Colocando em prática" em `M2P2L1p2.html`) e copiar o padrão — não inventar correção nova. Precedente: `M1P4L1p3.html` (`strong.h5` → `p.font-weight-bold`).
 
 - **CRITERIO DE VIDEO (04/09/2026, firmeza do mestre):** TODO video e embedado por padrao (iframe YouTube) - a menos que o mestre AVISE que um video especifico nao e autorizado; nesse caso aplica-se o fallback (thumbnail + botao Assistir no YouTube + legenda). O agente NUNCA deve corrigir um iframe valido por conta propria - a licao do M1P4L1p2 (01/09) e caso particular de video NAO autorizado, nao regra geral. Precedente: 04/09/2026 - agente propôs substituir iframe valido de M1P1L1p2 por thumbnail; corrigido pelo mestre.

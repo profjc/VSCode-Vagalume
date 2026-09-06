@@ -1,5 +1,6 @@
 # 📋 Checklist de Varredura — Padronização de Todas as Páginas do Curso
 
+> ⚠️ **ARQUIVADO (05/09/2026).** A varredura de padronização está **CONCLUÍDA** (pendência 8 encerrada). Este arquivo permanece como **histórico da metodologia/referência**. Para páginas **novas**, usar `docs/checklist-entrega.md` (que incorpora todas as aprendizagens da varredura) + os templates canônicos de `components-library.md`.
 > Firmado em **04/09/2026** (sessão de consolidação de padronizações de cor/ênfase).
 > **Método:** aplicar **página por página**, ciclo PLAN → ACT → validação com o mestre. **Nunca em lote** (N1.3.3, N1.4.1).
 > **Propósito:** guia de varredura para deixar todas as páginas existentes em conformidade, e referência para geração de páginas novas (M3/M4 já nascem no padrão).
@@ -56,7 +57,7 @@
 1. ✅ **Boas-vindas** (4 páginas) — CONCLUÍDO
 2. ✅ **Módulo 1** (Partes 1–4) — CONCLUÍDO + labels M1 revisadas (romanos→decimais: Parte 3/4/5)
 3. ✅ **Módulo 2** (Apresentação + Partes 1–6 + fóruns) — CONCLUÍDO + labels M2 revisadas (romanos→decimais: Parte 1/2/3/4/5)
-4. ⏭️ **Frontpage/capas** (`frontpage/`) — PRÓXIMO
+4. ✅ **Frontpage/capas** (`frontpage/`) — CONCLUÍDO (capa do site, capa do curso, fórum de avisos)
 5. **M3/M4** (quando chegarem — já nascem no padrão novo)
 
 ---

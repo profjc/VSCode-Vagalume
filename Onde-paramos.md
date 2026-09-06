@@ -6,6 +6,11 @@
 > **PRÓXIMA ETAPA:** **Ícones dos cards dos módulos** (pendência 1 — imagens faltantes para a capa do curso). Depois: Módulo 3, Módulo 4 e **Módulo de Encerramento** (entrará após o M4) — todos aguardando material do autor.
 > **Lembretes (tudo a cargo do mestre no Moodle):** recolagens já realizadas (M1/M2 + labels + frontpage) — sem pendências de repositório.
 > ✅ **CHECKLIST DE ENTREGA ATUALIZADO (05/09/2026):** incorporadas as aprendizagens da varredura para as próxima páginas novas (M3/M4/Encerramento) — sem necessitar de nova revisão futura das discrepâncias corrigidas. Adições: travessões `—` (sem `--`/`–`), ícones FA5 (nunca `fa-solid`), título de card → `p.font-weight-bold`, sem `color:#261810` manual em texto corrente, comentário espelha título do Moodle, nunca dois comentários consecutivos, página H5P começa com "Atividade:", confrontar com template canônico, `aria-hidden` em ícones decorativos, legendas de figura centralizadas, `mb-0` no último elemento (S1), fórum como última atividade da Parte (N3.5.3).** Novas páginas nascem no padrão.
+> ✅ **DOCS PERMANENTES CONSOLIDADOS (05/09/2026):** aprendizagens da varredura migradas do checkpoint para os documentos permanentes (não dependem mais do `Onde-paramos`, sobrevivem a limpeza de checkpoint):
+>   - `.clinerules`: N2.4 itens **13–17** (travessões `—`, ícones FA5, comentário espelha Moodle, "Atividade:", título de card → `p.font-weight-bold`).
+>   - `docs/regras-html-moodle.md`: §2.2 (comentário espelha Moodle + "Atividade:"), §2.3 (travessões), §2.5 (FA5).
+>   - `docs/regras-licoes-aprendidas.md`: nova entrada consolidada da varredura completa + lições específicas (cor manual, travessões, FA5, fórum, labels romano→decimal).
+>   - `docs/checklist-padronizacao-varredura.md`: **ARQUIVADO** como histórico (varredura concluída; frontpage marcada ✅). Para páginas novas, usar `docs/checklist-entrega.md`.
 > **Ciclo por página:** PLAN (ler página + diagnóstico + plano) → ACT (corrigir) → `code -r` (última ação) → INTERROMPER e aguardar validação do mestre no Moodle → retorno ao PLAN.
 
 ### 📌 DIRETRIZ DA REVISÃO (04/09/2026 — firmada pelo mestre)

@@ -62,8 +62,14 @@ Onde X, Y, Z, W correspondem ao nome do arquivo (ex: `M2P3L1p2.html` → `<!-- M
 
 **Título da página nos comentários (opcional):** Se houver título para a página (mesmo que não entre no HTML, pois é inserido pelo usuário diretamente no Moodle), incluí-lo nos comentários de abertura e fechamento para facilitar a localização (ex: `<!-- Módulo 2 - Parte 1 - Lição 1 - Página 1 - Quando começamos a ler? -->`). Se **não houver** título, o DI **deve lembrar o usuário** disso no planejamento da página e aguardar confirmação: se fica apenas com a numeração ou se terá algum título.
 
+**O comentário espelha o título configurado no Moodle (05/09/2026):** o Moodle é a **fonte da verdade** quanto ao título da página. Sempre confrontar o título do `<!-- -->` com o que está no Moodle; ao renomear uma página no Moodle, alinhar os comentários de abertura/fechamento (e, se o nome do arquivo for afetado, renomear via `git mv`). Precedente: `M2P1L1p1.html` tinha comentário "Quando começamos a ler?" enquanto o Moodle usava "Onde começa a história de um leitor?" — alinhado em 05/09/2026.
+
+**Página de atividade com H5P começa com "Atividade:" (05/09/2026):** toda página que contém atividade H5P tem o nome/título iniciando com **"Atividade:"** (ex: `Atividade: A diversidade nos acervos`). Padrão verificado em todas as páginas de atividade do M2.
+
 ### 2.3 Limpeza de Vícios
 Remova completamente resíduos de editores visuais externos, como o atributo `contenteditable="false"` de qualquer tag ou placeholder copiado (exceto quando explicitamente necessário para o funcionamento do placeholder nativo de H5P).
+
+**Travessões (05/09/2026):** ao converter `.docx`→`.md`→HTML, resíduos de conversão devem ser normalizados no texto visível: `--` (dois hífens) e `–` (en dash) viram travessão verdadeiro `—`. **NUNCA** deixar `--` ou `–` em texto visível. Hífen simples `-` é permitido apenas em comentários internos e em palavras compostas legítimas.
 
 ### 2.4 Tipografia e Cabeçalhos
 Expressões ou títulos não devem receber tamanhos de fonte arbitrários via estilo inline (ex: `font-size: 24px;`). Utilize exclusivamente as classes utilitárias de tipografia do Bootstrap 4 (`.h1` a `.h6`, `.font-weight-bold`, etc.).
@@ -75,6 +81,7 @@ O TinyMCE do Moodle 4.5 tem comportamentos específicos que DEVEM ser considerad
 2. **Imagens podem ser alteradas**: O TinyMCE PODE sobrescrever `class` e `style` de `<img>`. Para elementos que dependem de tamanho fixo (como figuras em layout de float), encapsular a `<img>` dentro de uma `<div>` ou `<figure>` com `style` de tamanho no container, não na imagem.
 3. **Ícones vazios em tabelas são removidos**: O TinyMCE remove elementos `<i>` vazios (sem conteúdo de texto) dentro de `<td>`. Se precisar de ícone em tabela, usar `<span class="fa fa-ICONE" aria-hidden="true">&nbsp;</span>` — o `&nbsp;` dá conteúdo ao elemento e o editor preserva.
 4. **NUNCA gerar dois comentários HTML consecutivos**: O TinyMCE insere `<p>&nbsp;</p>` vazios indesejáveis entre comentários consecutivos. Sempre separar comentários por código HTML entre eles, ou fundir comentários consecutivos em um único bloco de comentário.
+5. **Ícones SEMPRE Font Awesome 5 (`fa fa-*`)** (05/09/2026): o tema Trema usa FA5. **Nunca** usar sintaxe do Font Awesome 6 (`fa-solid`, `fa-regular`, `fa-brands`) — não renderiza adequadamente no tema. Corrigido em `M2P4L3p2.html` (ícones `fa-solid` → `fa`).
 
 ---
 
