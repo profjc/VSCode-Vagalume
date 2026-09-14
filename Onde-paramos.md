@@ -1,5 +1,16 @@
 # Onde paramos
 
+## 📍 SESSÃO 14/09/2026 — CSS GLOBAL DO TEMA ATUALIZADO (indicador de progresso oculto no curso 2) ✅
+
+> **ORIGEM:** novo CSS entregue pelo mestre via Google Docs (`docs.google.com/document/d/1XquajKAD8tdnGn1KPKb0KYYpZw2BkXACltV80oprwJY/`), **já aplicado e validado por ele no Moodle** — o repositório é apenas espelho.
+> **MUDANÇA REAL (única):** bloco novo no TOPO do arquivo, ocultando o indicador de progresso global apenas no curso 2. Único seletor novo (`#abovetiles` não existia em nenhum arquivo do repositório); o restante do CSS permaneceu idêntico (diff conferido linha a linha por comparação normalizada).
+> **ARQUIVOS ATUALIZADOS:** (a) `assets/css/vagalume-tema.css` — espelho do CSS do Moodle, bloco novo inserido no topo (802 → 809 linhas); (b) `docs/diretrizes/Vagalume_curso.css.md` — **re-sincronizado** (estava defasado: faltavam as 45 linhas do bloco "ÍCONES PERSONALIZADOS DOS TILES" da sessão 06/09) e cabeçalho atualizado para apontar `assets/css/vagalume-tema.css` como fonte da verdade (o antigo `temp/CSS_global_v2.css` não existe mais).
+> **BACKUP:** `docs/backups/vagalume-tema-antes-abovetiles-2026-09-14.css` (versão anterior, 802 linhas).
+> **DECISÃO DE FORMATAÇÃO:** o export `.txt` do Google Docs traz BOM UTF-8, CRLF e ~112 linhas em branco extras (906 linhas no total) — optou-se por **não importar essas linhas em branco espúrias**, mantendo o arquivo no formato do repositório/Moodle (UTF-8 sem BOM, LF) e com diff mínimo e auditável.
+> **IMPACTO:** nenhum nas páginas do curso — regra exclusiva de tema/formato Tiles (`#abovetiles`), não afeta nenhuma classe `.vagalume-*`. Nenhum HTML de página foi tocado.
+
+---
+
 ## 📍 SESSÃO 06/09/2026 — PENDÊNCIA 1 ENCERRADA: ÍCONES DOS TILES VALIDADOS ✅
 
 > **REGISTRO DE NOMEAÇÃO (06/09/2026):** firmada a correspondência oficial nome real × numeração dos módulos. Tabela canônica anotada de forma persistente em **`docs/project-map.md` → "Nomeação de arquivos — correspondência dos módulos"** e atalho em **`.clinerules` N3.3.1**. **M0**=Boas-vindas! · **M1**=Primeira Infância · **M2**=Leitura e Primeira Infância · **M3**=Bibliotecas Comunitárias · **M4**=Mão na massa · **Encerramento** (sem M5)=Certificação e Avaliação do curso.

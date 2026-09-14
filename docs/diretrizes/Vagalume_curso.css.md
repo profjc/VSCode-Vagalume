@@ -1,4 +1,66 @@
-<!-- Sincronizado em 02/09/2026 a partir de temp/CSS_global_v2.css (fonte da verdade, aplicado e validado no Moodle). NAO EDITAR AQUI: alterar o CSS em temp/ e re-sincronizar. Copia do mestre no Google Drive. -->
+<!-- Sincronizado em 14/09/2026 a partir de assets/css/vagalume-tema.css (fonte da verdade no repositorio e espelho do CSS personalizado aplicado no Moodle). NAO EDITAR AQUI: alterar o CSS em assets/css/vagalume-tema.css e re-sincronizar. Copia do mestre no Google Drive. -->
+
+/* ============================================================*/
+/* Oculta o indicador de progresso global APENAS no curso 2 */
+body.course-2 #abovetiles {
+    display: none !important;
+}
+
+
+/* ============================================================
+   ÍCONES PERSONALIZADOS DOS TILES — CURSO VAGA LUME
+   Colar em: Administração do curso → Aparência → CSS personalizado
+   Última atualização: 06/09/2026
+   ============================================================ */
+
+/* 1) Esconde o ícone original (Font Awesome) em todos os tiles deste curso */
+.course-2 .tile-icon i.icon {
+  display: none !important;
+}
+
+/* 2) Base do contêiner: vira uma área 40x40px que exibe a imagem de fundo */
+.course-2 .tile-icon {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: inline-block !important;
+}
+
+/* ============================================================
+   IMAGENS ESPECÍFICAS POR CARD (tileicon_1 ... tileicon_6)
+   ============================================================ */
+
+/* Card 1 — Boas-vindas */
+.course-2 #tileicon_1 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-00-boas-vindas.png') !important;
+}
+
+/* Card 2 — Módulo 1 (Primeira Infância) */
+.course-2 #tileicon_2 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-01-primeira-infancia.png') !important;
+}
+
+/* Card 3 — Módulo 2 (Leitura e Primeira Infância) */
+.course-2 #tileicon_3 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-02-leitura-primeira-infancia.png') !important;
+}
+
+/* Card 4 — Módulo 3 (Bibliotecas Comunitárias) */
+.course-2 #tileicon_4 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-03-bibliotecas-comunitarias.png') !important;
+}
+
+/* Card 5 — Módulo 4 (Mão na massa) */
+.course-2 #tileicon_5 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-04-mao-na-massa.png') !important;
+}
+
+/* Card 6 — Encerramento (Certificação e Avaliação) */
+.course-2 #tileicon_6 .tile-icon {
+  background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-05-certificacao-avaliacao.png') !important;
+}
 
 /* ==========================================================================
    ESTILIZAÇÃO DOS TÍTULOS DAS SEÇÕES - FORMATO TILES (DIRETRIZ VAGA LUME)

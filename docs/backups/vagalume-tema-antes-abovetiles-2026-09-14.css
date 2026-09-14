@@ -1,10 +1,3 @@
-/* ============================================================*/
-/* Oculta o indicador de progresso global APENAS no curso 2 */
-body.course-2 #abovetiles {
-    display: none !important;
-}
-
-
 /* ============================================================
    ÍCONES PERSONALIZADOS DOS TILES — CURSO VAGA LUME
    Colar em: Administração do curso → Aparência → CSS personalizado
