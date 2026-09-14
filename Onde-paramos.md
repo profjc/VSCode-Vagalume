@@ -8,6 +8,7 @@
 > **BACKUP:** `docs/backups/vagalume-tema-antes-abovetiles-2026-09-14.css` (versão anterior, 802 linhas).
 > **DECISÃO DE FORMATAÇÃO:** o export `.txt` do Google Docs traz BOM UTF-8, CRLF e ~112 linhas em branco extras (906 linhas no total) — optou-se por **não importar essas linhas em branco espúrias**, mantendo o arquivo no formato do repositório/Moodle (UTF-8 sem BOM, LF) e com diff mínimo e auditável.
 > **IMPACTO:** nenhum nas páginas do curso — regra exclusiva de tema/formato Tiles (`#abovetiles`), não afeta nenhuma classe `.vagalume-*`. Nenhum HTML de página foi tocado.
+> **FIM DE SESSÃO (14/09/2026):** o H5P pendente (`assets/h5p/M2/M2P5L1p3-h5p-multipla_escolha.h5p`, atualizado pelo mestre em 06/09) foi commitado em commit próprio. Working tree **limpo**, HEAD = origin/master. **PRÓXIMO PASSO:** Módulos 3, 4 e Encerramento — **aguardando material do autor**.
 
 ---
 
