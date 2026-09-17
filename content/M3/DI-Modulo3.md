@@ -21,6 +21,7 @@
 Fonte: Quino
 
 Link para imagem: [móduloIII\_parte1\_lição1.png](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQD-SXItn-kZQJ7rHD68XSA7AZ5F4Bq3JKas_1Wd7A6Dy8s?e=yRNqbH)
+<!-- → `assets/images/ilustracoes/M3/M3P1L1p1-tirinha-quino.png` (404×306) · alt: "Tirinha de Quino: a personagem Mafalda, deitada de barriga para baixo lendo um livro, pensa — Não seria maravilhoso o mundo se as bibliotecas fossem mais importantes que os bancos?" -->
 
 **As bibliotecas comunitárias são equipamentos culturais que nascem do desejo coletivo de uma comunidade de ampliar o acesso a livros, à literatura e à informação em seu território.** 
 
@@ -683,6 +684,7 @@ Escolhas simples na organização do espaço podem fazer uma grande diferença 
 Quando livros, estantes e mobiliários estão ao alcance das crianças, a biblioteca se torna um convite aberto à descoberta. Um ambiente organizado e seguro – com estantes fixas, mobiliário adequado, tomadas fora de alcance, espaços protegidos para a circulação – permite que elas explorem diferentes cantos, escolham livros com autonomia e transformem a curiosidade em experiências de leitura.
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-07 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCfxU2Z1bSHRoIk5Q8TFX9_AeVgN9kPF3_L5FrX_LSZrP0?e=HaZ3kz)
+<!-- → `assets/images/ilustracoes/M3/M3P2L7p1img1-canoa.png` (1920×1080) · alt: "Ilustração estilizada em cores planas: uma mulher sorridente rema uma canoa escura com remo laranja, sobre fundo bege claro" -->
 
 ![](./media/image1.png) 
 
@@ -693,6 +695,7 @@ Quando livros, estantes e mobiliários estão ao alcance das crianças, a biblio
 A acessibilidade também é emocional. As crianças precisam sentir que são bem-vindas, que podem explorar o espaço com tranquilidade e que seus tempos e formas de participação serão respeitados. Tapetes, almofadas, cantinhos de leitura ajudam a instituir espaços de permanência e transformam a biblioteca em um lugar de convivência, bem-estar e brincadeiras.
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-08 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQA8PRXN25lyS4OfukxUsMekATYv4RvxWa5JV4Mf9ColA38?e=EFSmPf)
+<!-- → `assets/images/ilustracoes/M3/M3P2L7p1img2-livros_sobre_mesa.png` (1920×1080) · alt: "Ilustração estilizada em cores planas: livros coloridos, alguns abertos, dispostos sobre uma mesa laranja com fundo azul" -->
 
 ![](./media/image2.png) 
 
@@ -705,6 +708,7 @@ A acessibilidade também é emocional. As crianças precisam sentir que são bem
 Bebês e crianças pequenas exploram os livros com todo o corpo. Por isso, é importante oferecer um acervo cuidadosamente selecionado, com livros resistentes ao manuseio frequente, formatos adequados às diferentes idades e materiais que possam ser explorados com segurança. Cuidar da curadoria é um modo de garantir qualidade literária, diversidade e experiências de leitura compatíveis com essa fase da vida. 
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-11 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDitFfF6Ju0TozxCdYs-xtIAYRdL2M1AnTth_qQgPeWSDU?e=EMzQby)
+<!-- → `assets/images/ilustracoes/M3/M3P2L7p1img3-criancas_bananeira.png` (1920×1080) · alt: "Ilustração estilizada em cores planas: três crianças fazendo bananeira (de ponta-cabeça), vestindo roupas coloridas, sobre fundo lilás" -->
 
 ![](./media/image3.png) 
 
@@ -717,6 +721,7 @@ Bebês e crianças pequenas exploram os livros com todo o corpo. Por isso, é im
 Livros ao alcance das crianças não são apenas uma escolha de organização, mas um passo inicial na formação leitora. Ao escolher, folhear, carregar e revisitar seus livros favoritos, as crianças constroem vínculos com o acervo e, consequentemente, com a prática da leitura. Manusear, portanto, faz parte desse processo. Com a presença atenta de pessoas mediadoras e cuidadoras, descobrem, pouco a pouco, diferentes formas de usar, respeitar e preservar esse patrimônio coletivo da Biblioteca Comunitária. 
 
 **\[inserir ilustração\]**  - [ILUSTRAÇÕES + MARCADOR-10 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCaZ3AOLvpfS5R82qx53h0SAaVcDJTkkbKU8iivHN4Jnbc?e=qxEdp2)
+<!-- → `assets/images/ilustracoes/M3/M3P2L7p1img4-livro_sobre_cabeca.png` (1920×1080) · alt: "Ilustração estilizada em cores planas: uma pessoa sorridente equilibra um livro azul aberto sobre a cabeça, com fundo laranja" -->
 
 ![](./media/image4.png) 
 
@@ -919,6 +924,7 @@ Uma forma prática de exercitar a gestão compartilhada é por meio da **cr
 ![](./media/image5.png) 
 
 Link: [móduloIII\_parte3\_lição10](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDKuI09RUcQT7AGc97ruFMpAfCoerM2ByBLft_OJIVWJRM?e=nVw6E5)
+<!-- → `assets/images/ilustracoes/M3/M3P3L10p1-tirinha-stahler.png` (404×306) · alt: "Tirinha de Stahler: uma menina segurando um celular diz a uma mulher — Eu tenho um dispositivo menor do que esse que me dá acesso sem fio a milhares de livros e filmes; a mulher, segurando uma carteira vermelha, responde — A carteira da biblioteca" -->
 
 (Inserir créditos de imagem)
 

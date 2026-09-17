@@ -1,3 +1,15 @@
+## 📍 SESSÃO 17/09/2026 — ROTINA INICIALIZAÇÃO + IMAGENS M3 PROCESSADAS ✅
+
+> **Fonte:** DIs M1/M2/M3 do autor (temp → content/MN/DI-ModuloN.docx) + pasta `temp/Imagens para Módulo III/`
+> **Arquivos criados:**
+> - `docs/roteiro-inicializacao-modulo.md` — roteiro de inicialização específico do Vagalume (Parte 1: DI; Parte 2: imagens)
+> - `assets/images/ilustracoes/M3/descricoes.md` — galeria de 6 imagens (tabela com alt propostos)
+> **DI do M3 anotado:** 6 referências cruzadas inseridas (comentários HTML com caminho final + alt)
+> **Assets M3:** 6 imagens renomeadas e armazenadas (556 KB) — 2 tirinhas + 4 ilustrações 1920×1080
+> **Temp:** limpa (DIs e imagens movidos; arquivos antigos removidos)
+> **PRÓXIMO PASSO:** trabalhar o DI do M3 (Partes/Lições/páginas) — aguardando definição do mestre
+
+---
 # Onde paramos
 
 ## 📍 SESSÃO 14/09/2026 — CSS GLOBAL DO TEMA ATUALIZADO (indicador de progresso oculto no curso 2) ✅
