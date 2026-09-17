@@ -7,7 +7,6 @@
 
 ---
 ## 📍 SESSÃO 17/09/2026 (1ª) — ROTINA INICIALIZAÇÃO + IMAGENS M3 PROCESSADAS ✅
-## 📍 SESSÃO 17/09/2026 — ROTINA INICIALIZAÇÃO + IMAGENS M3 PROCESSADAS ✅
 
 > **Fonte:** DIs M1/M2/M3 do autor (temp → content/MN/DI-ModuloN.docx) + pasta `temp/Imagens para Módulo III/`
 > **Arquivos criados:**
