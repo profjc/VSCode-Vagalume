@@ -1,3 +1,12 @@
+## 📍 SESSÃO 17/09/2026 (2ª) — CORREÇÃO DA TIRINHA QUINO ✅ | ✅ VALIDADO NO MOODLE | SESSÃO ENCERRADA
+
+> **ERRO CORRIGIDO:** a imagem `M3P1L1p1-tirinha-quino.png` havia sido copiada erroneamente com o conteúdo da tirinha do Stahler (mesmo md5) — causa raiz: script de cópia usava `lição1` como substring, que casava primeiro com `lição10` na ordem de listagem. Ambas as cópias receberam o mesmo arquivo.
+> **CORREÇÃO REALIZADA:** (a) cópia manual com correspondência exata do arquivo reenviado pelo mestre; (b) dimensões corrigidas em todos os arquivos: página HTML (404×306 → 476×376 na `max-width` e nos atributos `width`/`height`), galeria `descricoes.md` (404×306/164KB → 476×376/152KB), anotação no `DI-Modulo3.md`; (c) temp limpa
+> **VALIDADO NO MOODLE:** página corrigida e imagem correta do Quino/Mafalda (tirinha "bibliotecas × bancos") publicadas ✅
+> **SESSÃO ENCERRADA:** commit + push realizados (17/09/2026)
+
+---
+## 📍 SESSÃO 17/09/2026 (1ª) — ROTINA INICIALIZAÇÃO + IMAGENS M3 PROCESSADAS ✅
 ## 📍 SESSÃO 17/09/2026 — ROTINA INICIALIZAÇÃO + IMAGENS M3 PROCESSADAS ✅
 
 > **Fonte:** DIs M1/M2/M3 do autor (temp → content/MN/DI-ModuloN.docx) + pasta `temp/Imagens para Módulo III/`

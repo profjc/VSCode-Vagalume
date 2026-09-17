@@ -21,7 +21,7 @@
 Fonte: Quino
 
 Link para imagem: [móduloIII\_parte1\_lição1.png](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQD-SXItn-kZQJ7rHD68XSA7AZ5F4Bq3JKas_1Wd7A6Dy8s?e=yRNqbH)
-<!-- → `assets/images/ilustracoes/M3/M3P1L1p1-tirinha-quino.png` (404×306) · alt: "Tirinha de Quino: a personagem Mafalda, deitada de barriga para baixo lendo um livro, pensa — Não seria maravilhoso o mundo se as bibliotecas fossem mais importantes que os bancos?" -->
+<!-- → `assets/images/ilustracoes/M3/M3P1L1p1-tirinha-quino.png` (476×376) · alt: "Tirinha de Quino: a personagem Mafalda, deitada de barriga para baixo lendo um livro, pensa — Não seria maravilhoso o mundo se as bibliotecas fossem mais importantes que os bancos?" -->
 
 **As bibliotecas comunitárias são equipamentos culturais que nascem do desejo coletivo de uma comunidade de ampliar o acesso a livros, à literatura e à informação em seu território.** 
 
