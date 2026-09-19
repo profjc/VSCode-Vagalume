@@ -17,6 +17,7 @@
 | 6 | Foto do acervo Vaga Lume | Linha 278 (Lição 3, Pág. 1 — Card 3) | Imagem | ⏳ Aguardando autor |
 | 7 | Foto do acervo Vaga Lume | Linha 288 (Lição 3, Pág. 1 — Card 4) | Imagem | ⏳ Aguardando autor |
 | 8 | Foto do acervo Vaga Lume | Linha 298 (Lição 3, Pág. 1 — Card 5) | Imagem | ⏳ Aguardando autor |
+| 11 | ~~Arquivo H5P da Atividade 3 (Lição 3, Pág. 3)~~ | `assets/h5p/M3/M3P1L3p3-h5p-multipla_escolha.h5p` | H5P (múltipla escolha, múltiplas respostas — 8 afirmações do DI, linhas 334–348) | 🟢 Resolvido (19/09/2026) — autor entregou em `temp/` com nome incorreto (`M3P1L1p3-h5p-verdadeiro_falso.h5p`); conteúdo conferido (8 respostas, 6 corretas) e renomeado |
 
 ### 🟡 Decisões técnicas pendentes (entre Cline e mestre)
 

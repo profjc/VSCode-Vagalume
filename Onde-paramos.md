@@ -1,3 +1,59 @@
+> **SESSÃO ENCERRADA (19/09/2026):** commit + push realizados. Retomar em PLAN MODE para planejamento da Parte 2 (Lições 4–7).
+
+---
+
+## 📍 SESSÃO 19/09/2026 (6ª) — FÓRUM 1 DA PARTE 1 GERADO ⏳ AGUARDANDO VALIDAÇÃO — PARTE 1 COMPLETA
+
+> **PÁGINA GERADA:** `templates/pages/M3/Parte1/M3P1F1.html` — Fórum 1 (Template 23, espelha M2P4F1). DI linhas 360–398, compatibilidade integral confirmada no PLAN.
+> **MOODLE:** nome do fórum: **Compartilhando Ideias**; título completo na página: "Fórum: Como você imagina uma Biblioteca Comunitária em seu território?".
+> **MARCO:** com este fórum, a **Parte 1 do Módulo 3 está completa** no repositório (3 lições + 3 atividades + fórum como última atividade, N3.5.3 ✔).
+> **PENDÊNCIAS ABERTAS DA PARTE 1:** fotos do acervo (L1p1, L2p1, L3p1×5 — itens 3–8) e validação das páginas L2p2/L2p3/L3p2/L3p3 pelo mestre.
+> **PRÓXIMO CICLO:** Parte 2 – "Territórios da Primeira Infância" (Lições 4–7 + Atividades 4–7 + Fórum 2) — planejamento no PLAN MODE.
+
+---
+
+
+## 📍 SESSÃO 19/09/2026 (5ª) — H5P DA ATIVIDADE 3 ARMAZENADO ✅
+
+> **ARQUIVO:** o mestre entregou o H5P da Atividade 3 em `temp/`, porém com nome incorreto (`M3P1L1p3-h5p-verdadeiro_falso.h5p` — mesmo nome do H5P da Lição 1).
+> **VERIFICAÇÃO:** conteúdo interno conferido (QuestionSet + MultiChoice) — 8 respostas, 6 corretas, batendo 1:1 com as afirmações do DI (linhas 334–348).
+> **ARMAZENADO:** renomeado para `assets/h5p/M3/M3P1L3p3-h5p-multipla_escolha.h5p` (nome do placeholder em `M3P1L3p3.html`). `temp/` limpa. Pendência 11 resolvida em `pendencias-M3.md`.
+> **REENVIO (19/09, 01:05):** o mestre reenviou o arquivo em `temp/` com título interno corrigido (`extraTitle`: `M3P1L3p3-...`); `content.json` idêntico (8 respostas, 6 corretas). Versão nova substituiu a armazenada e `temp/` foi limpa novamente. Obs.: o título interno ainda menciona "verdadeiro_falso" — é apenas metadado do H5P (sem efeito na página).
+> **PRÓXIMO CICLO:** Fórum 1 (encerra a Parte 1) — aguardando validação da M3P1L3p3 pelo mestre.
+
+---
+
+
+## 📍 SESSÃO 19/09/2026 (4ª) — PÁGINA M3P1L3p3 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **PÁGINA GERADA:** `templates/pages/M3/Parte1/Licao3/M3P1L3p3.html` — "Atividade: O que cabe em uma Biblioteca Comunitária?" (última página da Lição 3). Estrutura espelha a M3P1L2p3: introdução → box "Colocando em prática" (fa-pencil-square) → placeholder H5P `M3P1L3p3-h5p-multipla_escolha.h5p` (8 afirmações Sim/Não do DI, linhas 334–348, dentro do H5P) → caixa "Feedback final" (3 parágrafos do DI, linhas 352–356).
+> **PENDÊNCIA REGISTRADA:** item 11 em `content/M3/pendencias-M3.md` — arquivo H5P ainda não existe.
+> **MOODLE:** botões "Anterior" + "Finalizar" (última página da lição) — configuração do mestre.
+> **PRÓXIMO CICLO:** página do Fórum 1 ("Fórum: Como você imagina uma Biblioteca Comunitária em seu território?" — DI linhas 360–398) — encerra a Parte 1 (última atividade da parte, N3.5.3).
+
+---
+
+
+## 📍 SESSÃO 19/09/2026 (3ª) — PÁGINA M3P1L3p2 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **CORREÇÃO DE ROTA:** o mestre esclareceu que a lição em curso é a **Lição 3 ("Muito Além de Livros")** — a entrega anterior (M3P1L2p2, da Lição 2) foi um erro de interpretação meu e ficou sem uso por ora. Lição 3 no DI: apenas 2 páginas de conteúdo + 1 atividade de conclusão.
+> **PÁGINA GERADA:** `templates/pages/M3/Parte1/Licao3/M3P1L3p2.html` — "Uma Biblioteca Comunitária em movimento" (vídeo UNAS Heliópolis, `vOUPq400mUA`, template 13 — Vídeo; fidelidade DI linhas 300–312).
+> **ESTADO DA LIÇÃO 3:** Página 1 (carrossel) ✔ gerada e entregue | Página 2 ⏳ entregue, aguardando validação | Atividade de conclusão ("O que cabe em uma Biblioteca Comunitária?") ❌ ainda não gerada — próximo ciclo.
+> **PRÓXIMO PASSO:** após validação da p2, planejar a página da Atividade de conclusão da Lição 3 (DI linhas 314+; H5P arquivo ainda não definido — verificar pendências).
+
+---
+
+
+## 📍 SESSÃO 19/09/2026 (2ª) — PÁGINA M3P1L2p2 ENTREGUE ⏳ AGUARDANDO VALIDAÇÃO
+
+> **CONTEXTO:** o mestre reportou não ter recebido as páginas da Lição 2 ("Muito Além dos Livros") — geradas em 17/09, mas nunca entregues por causa da sessão bagunçada.
+> **REPARO:** `templates/pages/M3/Parte1/Licao2/M3P1L2p3.html` estava quebrada (11 `<div>` × 10 `</div>`) — acrescentados o fechamento da div container e o comentário `<!-- FIM: -->` (dano da sessão de 18/09).
+> **ENTREGUE AGORA:** `templates/pages/M3/Parte1/Licao2/M3P1L2p2.html` ("Cada Biblioteca Comunitária é um espaço único" — 2 vídeos + caixa sinopse).
+> **PRÓXIMO PASSO:** após validação da p2, entregar `M3P1L2p3.html` (atividade final com H5P de associação + caixa Feedback final) — um ciclo por página.
+
+---
+
+
 ## 📍 SESSÃO 19/09/2026 (1ª) — RESTAURAÇÃO DO ONDE-PARAMOS + COMMIT PENDENTES ✅
 
 > **CONTEXTO:** a sessão "parafuso" de 18/09 havia truncado o `Onde-paramos.md` (1087 → 12 linhas) e deixado duplicado o cabeçalho da 17/09(3ª).
