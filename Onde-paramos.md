@@ -1,3 +1,29 @@
+## 📍 SESSÃO 19/09/2026 (1ª) — RESTAURAÇÃO DO ONDE-PARAMOS + COMMIT PENDENTES ✅
+
+> **CONTEXTO:** a sessão "parafuso" de 18/09 havia truncado o `Onde-paramos.md` (1087 → 12 linhas) e deixado duplicado o cabeçalho da 17/09(3ª).
+> **RESTAURAÇÃO:** histórico completo recuperado do HEAD (Git) + bloco 18/09 mantido no topo + registro único da 17/09(3ª) reconstruído (M3P1L2p3 gerada, aguardando validação). Arquivo: 12 → 1103 linhas.
+> **VERIFICAÇÃO DE INTEGRIDADE:** páginas M3 limpas (sem WebP/FA6/onclick); placeholders coerentes com `content/M3/pendencias-M3.md` (L1p1: 1, L2p1: 1, L3p1/carrossel: 5); CSS com seletores de breadcrumbs corretos.
+> **COMMIT:** pendências commitadas e enviadas (CSS breadcrumbs, páginas M3 P1 L1–L3, H5P M3, backup CSS, checkpoint restaurado).
+
+---
+
+
+## 📍 SESSÃO 18/09/2026 (1ª) — CSS GLOBAL DO TEMA ATUALIZADO (breadcrumbs corrigidos) ✅
+
+> **ORIGEM:** novo CSS entregue pelo mestre via Google Docs (`docs.google.com/document/d/1XquajKAD8tdnGn1KPKb0KYYpZw2BkXACltV80oprwJY/`)
+> **MUDANÇAS REAIS:** seção de breadcrumbs — (1) comentários "VERSÃO FINAL" → "VERSÃO FINAL CORRIGIDA"; (2) seletores `.breadcrumb-item a/span` → `.breadcrumb-item > a/span` (combinador filho direto); (3) novo bloco "RESET DO SPAN INTERNO" removendo estilos duplicados; (4) seletor do item atual `.breadcrumb-item span:not(a)` → `.breadcrumb-item > span:not(a)`. **Nenhuma outra alteração** além desta seção.
+> **FORMATAÇÃO:** linhas em branco espúrias removidas (cat -s); UTF-8 sem BOM, LF — conforme precedente de 14/09.
+> **BACKUP:** `docs/backups/vagalume-tema-v2-antes-novo-css-2026-09-18.css` (versão anterior, 809 linhas).
+> **ARQUIVOS:** `assets/css/vagalume-tema.css` atualizado (809 → 811 linhas; 28468 → ~29874 bytes brutos, normalizado).
+
+---
+
+## 📍 SESSÃO 17/09/2026 (3ª) — M3P1L2p3 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **PÁGINA GERADA:** `templates/pages/M3/Parte1/Licao2/M3P1L2p3.html` (Módulo 3 - Parte 1 - Lição 2 - Página 3) — aguardando validação do mestre. Registro reconstruído em 19/09/2026 (o corpo original desta sessão se perdeu; detalhes apenas nesta linha).
+
+---
+
 ## 📍 SESSÃO 17/09/2026 (2ª) — CORREÇÃO DA TIRINHA QUINO ✅ | ✅ VALIDADO NO MOODLE | SESSÃO ENCERRADA
 
 > **ERRO CORRIGIDO:** a imagem `M3P1L1p1-tirinha-quino.png` havia sido copiada erroneamente com o conteúdo da tirinha do Stahler (mesmo md5) — causa raiz: script de cópia usava `lição1` como substring, que casava primeiro com `lição10` na ordem de listagem. Ambas as cópias receberam o mesmo arquivo.

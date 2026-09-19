@@ -4,6 +4,7 @@ body.course-2 #abovetiles {
     display: none !important;
 }
 
+
 /* ============================================================
    ÍCONES PERSONALIZADOS DOS TILES — CURSO VAGA LUME
    Colar em: Administração do curso → Aparência → CSS personalizado
@@ -537,7 +538,7 @@ button[id^="single_button"]:hover {
 }
 
 /*******************************************************************************
- * BREADCRUMB - ETIQUETAS COM INDICADORES EXTERNOS (VERSÃO FINAL CORRIGIDA)
+ * BREADCRUMB - ETIQUETAS COM INDICADORES EXTERNOS (VERSÃO FINAL)
  *******************************************************************************/
 
 /* Container principal transparente */
@@ -570,9 +571,9 @@ button[id^="single_button"]:hover {
     background: transparent !important;
 }
 
-/* Fundo BEGE aplicado apenas aos elementos de topo (link ou span final) */
-.breadcrumb-item > a,
-.breadcrumb-item > span {
+/* Fundo BEGE institucional aplicado às etiquetas */
+.breadcrumb-item a,
+.breadcrumb-item span {
     background-color: #FAEBDD !important;
     color: #D96F1A !important;
     padding: 6px 16px !important;
@@ -582,25 +583,15 @@ button[id^="single_button"]:hover {
     display: inline-block !important;
 }
 
-/* RESET DO SPAN INTERNO: Remove estilos duplicados e negrito indesejado */
-.breadcrumb-item a span {
-    background-color: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    display: inline !important;
-    color: inherit !important;
-    font-weight: normal !important;
-}
-
 /* Hover na etiqueta */
 .breadcrumb-item a:hover {
     background-color: #f7d8bc !important;
     color: #944B11 !important;
 }
 
-/* Estilo do item atual: Marrom e Negrito apenas no nível superior */
+/* Estilo do item atual */
 .breadcrumb-item.active span,
-.breadcrumb-item > span:not(a) {
+.breadcrumb-item span:not(a) {
     color: #5B3925 !important;
     font-weight: 700 !important;
 }
@@ -810,3 +801,9 @@ div[role="progressbar"] {
 .progress-bar {
     border-color: #D96F1A !important;
 }
+
+
+
+
+
+
