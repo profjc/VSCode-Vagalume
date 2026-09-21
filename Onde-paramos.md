@@ -1,5 +1,28 @@
 > **SESSÃO ENCERRADA (19/09/2026):** commit + push realizados. Retomar em PLAN MODE para planejamento da Parte 2 (Lições 4–7).
 
+## 📍 SESSÃO 20–21/09/2026 — REVISÃO FINAL DO MÓDULO 2 (marcador `[Revisão Final – 20/09/2026]` no DI) ⏳ EM ANDAMENTO
+
+> **FONTE:** `temp/Ajustes_Módulo 2 - rev final - 20-09-2026.md` (convertido do .docx; revisões uma a uma sob comando do mestre).
+> **ITENS CONCLUÍDOS (repositório + Moodle):**
+> 1. ✅ Label Parte 3 — título com "Primeira Infância" maiúsculas; arquivo renomeado: `templates/pages/labels/M2_Label_Parte3_O_que_e_mediar_leitura_com_a_Primeira_Infancia.html`
+> 2. ✅ Label Parte 4 — "mediar"→"ler" + maiúsculas; renomeado: `M2_Label_Parte4_Escolhendo_livros_para_ler_com_a_Primeira_Infancia.html`
+> 3. ✅ M2P1L1p1 — comentários abertura/fechamento: "Quando começa a história de leitores e leitoras?" (título no Moodle feito pelo mestre)
+> 4. ✅ M2P1L1p2 — legenda já conforme no repo ("Fonte: pipipum.com.br"); correção só no Moodle
+> 5. ✅ Atividade "Primeiras leituras" (M2P1L1p3) — reordenação via "baralhar perguntas" (H5P editado pelo mestre; já em `assets/h5p/M2/`)
+> 6. ✅ M2P2L1p2 — comentários com travessão "Ler para bebês — o que essa prática nos revela?"; feedback Tema 6 corrigido pelo mestre no Moodle/H5P (`M2P2L1-question_set-colocando_em_pratica.h5p` sincronizado em assets, verificado)
+> 7. ✅ M2P3L1p1 — tirinha da Magali movida para o topo + "Primeira Infância" maiúsculas (Primeiro parágrafo)
+> 8. ✅ M2P3F1 — box "Para participar": frase introdutória nova + "pessoa mediadora" (2 itens do DI)
+> 9. ✅ Atividade "Escolher livros faz parte da mediação de leitura" (M2P4L1p3) — Questão 3 "as obras" + feedback "retomar a página 'Escolher se parece com escutar'" — corrigidos pelo mestre no Moodle; H5P `M2P4L1p3-h5p-VouF.h5p` sincronizado em assets (verificado)
+> **PENDÊNCIAS / PRÓXIMOS ITENS DO DI (a partir da linha 1601):**
+> - [ ] Lição Bibliodiversidade — Questão 2 da atividade "A diversidade dos acervos" (H5P, mestre edita) + 2º item do fórum "A importância da bibliodiversidade para a formação leitora" (M2P4F1.html, agente)
+> - [ ] Lição Representatividade — legendas das páginas "Quem aparece nas histórias..." e "Por que a representatividade importa?" → apenas "Fonte: minadehq.com.br"
+> - [ ] Síntese do Módulo 2 — substituir ícone do card "Ler com bebês e crianças pequenas é construir vínculos e inserir na cultura" por um que remeta a vínculo/conexão/relação
+> **PENDÊNCIA DE VERIFICAÇÃO:** cópia local de `M2P1L1p3-H5P-question_set.h5p` ainda traz `randomQuestions: False` — conferir se o "baralhar perguntas" ficou salvo no arquivo de assets ou apenas no Moodle.
+> **REGRAS DA SESSÃO (firmes):** H5P é editado SEMPRE pelo mestre (agente só indica parte/lição/página e aguarda aviso); títulos do Moodle feitos pelo mestre; agente só edita HTML do repositório quando necessário; NUNCA executar mutação fora do ACT mode (inclusive via terminal).
+
+---
+
+> **SESSÃO ENCERRADA (19/09/2026):** commit + push realizados. Retomar em PLAN MODE para planejamento da Parte 2 (Lições 4–7).
 ---
 
 ## 📍 SESSÃO 19/09/2026 (6ª) — FÓRUM 1 DA PARTE 1 GERADO ⏳ AGUARDANDO VALIDAÇÃO — PARTE 1 COMPLETA
