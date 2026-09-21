@@ -1,3 +1,20 @@
+## 📍 SESSÃO 21/09/2026 — NOVO RECURSO: ENCONTROS SÍNCRONOS (GALERIA DE VÍDEOS) ⏳ AGUARDANDO VALIDAÇÃO DO MESTRE
+
+> **NOVA PASTA no repositório:** `templates/pages/Encontros-sincronos/` (recurso transversal, fora dos módulos M0–M4). Fonte: pasta Drive "7. Encontros Síncronos".
+> **Arquivos criados/convertidos:**
+> - `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` — página "Encontros Síncronos"; comentário de abertura/fechamento apenas "Encontros Síncronos"; cada encontro futuramente terá comentário próprio divisório (padrão: `<!-- Encontro I - A primeira infância vem primeiro -->`). Item 1: card de divulgação (esquerda) + vídeo YouTube em **moldura TV no modelo do PSG2** (`templates/components/video-player.html` — bezel `#212529` + `embed-responsive-16by9` + pezinho central 90×8px, validado no Moodle no projeto PSG2), pedido do mestre em 21/09. Vídeo: `https://www.youtube.com/embed/hGHUiKP2sI4` (12/09, 10h).
+> - `content/Encontros-sincronos/Encontro_Sincrono_I.md` — conversão pandoc do `Encontro Síncrono I.docx`.
+> - `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_1_card.jpg` — card tratado: PNG 1080×1350 (489 KB, RGB sem transparência) → JPEG 640×800 (107 KB, q85).
+> **PENDÊNCIAS DO ITEM:**
+> - [ ] Mestre: colar URL da imagem do card no Moodle (placeholder canônico `src=""` + imagem oficial `src="[cole a imagem aqui]"` no HTML).
+> - [ ] Mestre: criar página/posição no Moodle (seção "Encontros Síncronos") e colar o HTML.
+> - [ ] Se o TinyMCE remover os estilos inline da moldura de TV: plano B = classe `.vagalume-tv` no CSS global.
+> - [ ] Commit + push (aguardando autorização — novos: `templates/pages/Encontros-sincronos/`, `content/Encontros-sincronos/`, `assets/images/ilustracoes/Encontros-sincronos/`).
+> **Próximos itens da galeria:** novos encontros entram como novos blocos item na mesma página (card + TV).
+
+---
+
+
 > **SESSÃO ENCERRADA (19/09/2026):** commit + push realizados. Retomar em PLAN MODE para planejamento da Parte 2 (Lições 4–7).
 
 ## 📍 SESSÃO 20–21/09/2026 — REVISÃO FINAL DO MÓDULO 2 (marcador `[Revisão Final – 20/09/2026]` no DI) ⏳ EM ANDAMENTO
