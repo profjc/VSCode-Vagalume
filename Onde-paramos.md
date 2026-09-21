@@ -6,10 +6,7 @@
 > - `content/Encontros-sincronos/Encontro_Sincrono_I.md` — conversão pandoc do `Encontro Síncrono I.docx`.
 > - `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_1_card.jpg` — card tratado: PNG 1080×1350 (489 KB, RGB sem transparência) → JPEG 640×800 (107 KB, q85).
 > **PENDÊNCIAS DO ITEM:**
-> - [ ] Mestre: colar URL da imagem do card no Moodle (placeholder canônico `src=""` + imagem oficial `src="[cole a imagem aqui]"` no HTML).
-> - [ ] Mestre: criar página/posição no Moodle (seção "Encontros Síncronos") e colar o HTML.
-> - [ ] Se o TinyMCE remover os estilos inline da moldura de TV: plano B = classe `.vagalume-tv` no CSS global.
-> - [ ] Commit + push (aguardando autorização — novos: `templates/pages/Encontros-sincronos/`, `content/Encontros-sincronos/`, `assets/images/ilustracoes/Encontros-sincronos/`).
+> - ✅ ~~Mestre: colar URL da imagem do card no Moodle~~ — mestre confirmou: **nenhuma pendência no Moodle** (21/09/2026, tudo concluído e validado por ele).
 > **Próximos itens da galeria:** novos encontros entram como novos blocos item na mesma página (card + TV).
 
 ---
