@@ -12,6 +12,9 @@
 
 ## Lições Aprendidas (ATUALIZAR CONFORME NOVOS APRENDIZADOS)
 - **H5P é território do mestre (21/09/2026, firmeza do mestre):** o agente NUNCA edita arquivos `.h5p` (nem descompacta/recompacta). Ao item da revisão que envolver H5P, o agente apenas **indica parte, lição, página e a correção exata**, e aguarda o mestre editar no Moodle e sincronizar o arquivo em `assets/h5p/`. O agente pode VERIFICAR a cópia local (leitura) e registrar o estado. Precedente: revisão final do M2 (20–21/09) — itens "Primeiras leituras", "Colocando em prática" (Tema 6) e "Escolher livros..." corrigidos todos pelo mestre.
+- **Não inventar estilos de modelos externos sem consultar a fonte (21/09/2026, correção do mestre):** ao pedir "caixa discreta como as de associação dos questionários do Moodle", o agente implementou uma interpretação própria (borda tracejada cinza) sem pesquisar o CSS real do Moodle/Tema Trema. Mestre cobrou: "está autorizado a criar suas próprias regras?" — NÃO está. Procedimento correto: (1) consultar a fonte do modelo (CSS do tema/Trema, código do Moodle ou referência visual do mestre) ANTES de implementar; (2) se a referência não existir no projeto, apresentar a proposta em PLAN e seguir a orientação do mestre; (3) nunca improvisar valores visuais. Precedente: caixa de minutagem em `encontros_sincronos_galeria.html` (estilo final definido iterativamente com o mestre: fundo branco, borda pontilhada laranja `#D96F1A`, texto `small text-muted`).
+
+
 
 - **Nunca mutar fora do ACT mode, inclusive via terminal (21/09/2026, advertência do mestre):** comandos de terminal que alteram arquivos (python inline, mv, etc.) são EXECUÇÃO — proibidos em PLAN MODE. Violação registrada: tirinha da Magali editada em `M2P3L1p1.html` durante PLAN (20/09). Em PLAN: apenas leitura, análise e plano; a execução espera a alternância explícita para ACT.
 
