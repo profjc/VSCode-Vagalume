@@ -5,8 +5,8 @@
 > - `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` — página "Encontros Síncronos"; comentário de abertura/fechamento apenas "Encontros Síncronos"; cada encontro futuramente terá comentário próprio divisório (padrão: `<!-- Encontro I - A primeira infância vem primeiro -->`). Item 1: card de divulgação (esquerda) + vídeo YouTube em **moldura TV no modelo do PSG2** (`templates/components/video-player.html` — bezel `#212529` + `embed-responsive-16by9` + pezinho central 90×8px, validado no Moodle no projeto PSG2), pedido do mestre em 21/09. Vídeo: `https://www.youtube.com/embed/hGHUiKP2sI4` (12/09, 10h).
 > - `content/Encontros-sincronos/Encontro_Sincrono_I.md` — conversão pandoc do `Encontro Síncrono I.docx`.
 > - `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_1_card.jpg` — card tratado: PNG 1080×1350 (489 KB, RGB sem transparência) → JPEG 640×800 (107 KB, q85).
-> **PENDÊNCIAS DO ITEM:**
-> - ✅ ~~Mestre: colar URL da imagem do card no Moodle~~ — mestre confirmou: **nenhuma pendência no Moodle** (21/09/2026, tudo concluído e validado por ele).
+> **Correção pós-entrega (21/09/2026):** legenda do card removida por ordem do mestre (commit `b9c9e8b` — a arte do card já contém as informações). Descrição longa `sr-only` do card preservada.
+> **PENDÊNCIAS DO ITEM:** nenhuma — mestre confirmou **nenhuma pendência no Moodle** (21/09/2026, tudo concluído e validado por ele).
 > **Próximos itens da galeria:** novos encontros entram como novos blocos item na mesma página (card + TV).
 
 ---
