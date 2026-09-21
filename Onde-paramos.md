@@ -1,4 +1,4 @@
-## 📍 SESSÃO 21/09/2026 — NOVO RECURSO: ENCONTROS SÍNCRONOS (GALERIA DE VÍDEOS) ⏳ AGUARDANDO VALIDAÇÃO DO MESTRE
+## 📍 SESSÃO 21/09/2026 — NOVO RECURSO: ENCONTROS SÍNCRONOS (GALERIA DE VÍDEOS) ✅ ENCERRADA (commit 2ae0e48 + push) — PENDÊNCIAS DE AÇÃO DO MESTRE NO MOODLE
 
 > **NOVA PASTA no repositório:** `templates/pages/Encontros-sincronos/` (recurso transversal, fora dos módulos M0–M4). Fonte: pasta Drive "7. Encontros Síncronos".
 > **Arquivos criados/convertidos:**
