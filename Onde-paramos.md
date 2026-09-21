@@ -8,17 +8,20 @@
 > 2. ✅ Label Parte 4 — "mediar"→"ler" + maiúsculas; renomeado: `M2_Label_Parte4_Escolhendo_livros_para_ler_com_a_Primeira_Infancia.html`
 > 3. ✅ M2P1L1p1 — comentários abertura/fechamento: "Quando começa a história de leitores e leitoras?" (título no Moodle feito pelo mestre)
 > 4. ✅ M2P1L1p2 — legenda já conforme no repo ("Fonte: pipipum.com.br"); correção só no Moodle
-> 5. ✅ Atividade "Primeiras leituras" (M2P1L1p3) — reordenação via "baralhar perguntas" (H5P editado pelo mestre; já em `assets/h5p/M2/`)
+> 5. ✅ Atividade "Primeiras leituras" (M2P1L1p3) — ordem fixa das questões ("baralhar perguntas" → DESATIVADO, `randomQuestions: false` é o correto); H5P editado pelo mestre e salvo em `assets/h5p/M2/` (conferido e ressalvado pelo mestre em 21/09)
 > 6. ✅ M2P2L1p2 — comentários com travessão "Ler para bebês — o que essa prática nos revela?"; feedback Tema 6 corrigido pelo mestre no Moodle/H5P (`M2P2L1-question_set-colocando_em_pratica.h5p` sincronizado em assets, verificado)
 > 7. ✅ M2P3L1p1 — tirinha da Magali movida para o topo + "Primeira Infância" maiúsculas (Primeiro parágrafo)
 > 8. ✅ M2P3F1 — box "Para participar": frase introdutória nova + "pessoa mediadora" (2 itens do DI)
 > 9. ✅ Atividade "Escolher livros faz parte da mediação de leitura" (M2P4L1p3) — Questão 3 "as obras" + feedback "retomar a página 'Escolher se parece com escutar'" — corrigidos pelo mestre no Moodle; H5P `M2P4L1p3-h5p-VouF.h5p` sincronizado em assets (verificado)
+> 10. ✅ Lição Bibliodiversidade — (a) Questão 2 da atividade "A diversidade nos acervos" (M2P4L3p3, H5P `M2P4L3p3-h5p-question_set.h5p`) corrigida pelo mestre no Moodle e sincronizada em assets; (b) Fórum `M2P4F1.html`: 2º item do box "Para participar" substituído por "Como a bibliodiversidade pode orientar a escolha dos livros e as práticas de leitura desenvolvidas na Biblioteca Comunitária?" — commit+push realizados durante a sessão (06dc1e6) e novo commit ao fechar a sessão.
 > **PENDÊNCIAS / PRÓXIMOS ITENS DO DI (a partir da linha 1601):**
 > - [ ] Lição Bibliodiversidade — Questão 2 da atividade "A diversidade dos acervos" (H5P, mestre edita) + 2º item do fórum "A importância da bibliodiversidade para a formação leitora" (M2P4F1.html, agente)
 > - [ ] Lição Representatividade — legendas das páginas "Quem aparece nas histórias..." e "Por que a representatividade importa?" → apenas "Fonte: minadehq.com.br"
 > - [ ] Síntese do Módulo 2 — substituir ícone do card "Ler com bebês e crianças pequenas é construir vínculos e inserir na cultura" por um que remeta a vínculo/conexão/relação
 > **PENDÊNCIA DE VERIFICAÇÃO:** cópia local de `M2P1L1p3-H5P-question_set.h5p` ainda traz `randomQuestions: False` — conferir se o "baralhar perguntas" ficou salvo no arquivo de assets ou apenas no Moodle.
 > **REGRAS DA SESSÃO (firmes):** H5P é editado SEMPRE pelo mestre (agente só indica parte/lição/página e aguarda aviso); títulos do Moodle feitos pelo mestre; agente só edita HTML do repositório quando necessário; NUNCA executar mutação fora do ACT mode (inclusive via terminal).
+>
+> **🎉 REVISÃO FINAL DO MÓDULO 2 COMPLETA (21/09/2026) — SEM PENDÊNCIAS NO MÓDULO 2.** Todos os itens do marcador `[Revisão Final – 20/09/2026]` concluídos e validados pelo mestre, incluindo ícone `fa-link` na Síntese (aprovado). Pendência de verificação do `randomQuestions` RESOLVIDA: `false` é o estado correto (ordem fixa das questões). H5Ps do M2 todos atualizados em `assets/h5p/M2/` pelo mestre. Commit + push finais realizados nesta sessão. **PRÓXIMO PASSO:** Parte 2 do Módulo 3 — "Territórios da Primeira Infância" (Lições 4–7 + Atividades 4–7 + Fórum 2), a planejar em PLAN MODE na retomada.
 
 ---
 
