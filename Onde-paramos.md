@@ -15,7 +15,13 @@
 > **PRÓXIMO PASSO:** comparar esta versão com a versão em uso (`content/M3/DI-Modulo3.md`) — em PLAN MODE, definir estratégia de comparação.
 
 ---
-## 📍 SESSÃO 21/09/2026 — NOVO RECURSO: ENCONTROS SÍNCRONOS (GALERIA DE VÍDEOS) ✅ ENCERRADA (commit 2ae0e48 + push) — PENDÊNCIAS DE AÇÃO DO MESTRE NO MOODLE
+## 📍 SESSÃO 22/09/2026 — TESTE DE FORMATAÇÃO "BLOG" DOS ENCONTROS SÍNCRONOS ✅ ENCERRADA (validado pelo mestre) — PRÓXIMA SESSÃO: PADRÃO DEFINITIVO
+
+> **Tarefa concluída:** aplicar ajustes do doc `temp/Ajustes na galeria de vídeos dos encontros síncronos.md` na página `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html`.
+> **Resultado final (2 iterações, aprovado pelo mestre):** bloco novo no topo (formato blog, mais recente acima) com: título do bloco em largura total "Encontro síncrono: A Primeira Infância, vem primeiro (12/09/2026)" (`p.font-weight-bold`, `#5B3925`, 1.1rem); card de divulgação (col-md-5) + vídeo em moldura TV PSG2 com `title` oficial (col-md-7); legenda "Encontro Síncrono 1: A Primeira Infância, vem primeiro! (1h39min29seg); canal: Vaga Lume"; minutagem em caixa pontilhada na coluna direita; descrição do vídeo em `.vagalume-sinopse` em largura total abaixo da linha; wrapper `mb-4`; `<hr>` laranja `#D96F1A` como separador de blocos. Bloco antigo (formato anterior) segue intocado abaixo, para comparação/remoção futura.
+> **Próxima sessão (PLAN):** 1) definir remoção do bloco antigo (duplicado) após o mestre colar a versão nova no Moodle; 2) fixar o padrão definitivo dos blocos de encontros (mais recente sempre no topo, separador `<hr>`, título por bloco, sinopse em largura total, `id` de descrição longa sequencial por encontro); 3) documentar o padrão em `components-library.md` (novo template de bloco de Encontro Síncrono).
+
+---
 
 > **NOVA PASTA no repositório:** `templates/pages/Encontros-sincronos/` (recurso transversal, fora dos módulos M0–M4). Fonte: pasta Drive "7. Encontros Síncronos".
 > **Arquivos criados/convertidos:**
