@@ -1,3 +1,20 @@
+## 📍 SESSÃO 22/09/2026 — APRESENTAÇÃO DO MÓDULO 3 CRIADA ✅ (aguardando validação do mestre)
+
+> **ARQUIVO:** `templates/pages/M3/M3-Apresentacao_do_modulo_3.html` — substituído placeholder `[Em elaboração]` pelo conteúdo completo do novo DI.
+> **CONTEÚDO:** título do módulo, apresentação geral (2 parágrafos), objetivo e 4 expectativas de aprendizagem.
+> **PADRÃO:** idêntico às páginas de Apresentação dos Módulos 1 e 2 (vagalume-destaque-bloco, col-md-5/col-md-7, fa-bullseye + fa-graduation-cap).
+> **PENDENTE:** validação pelo mestre (conteúdo, layout e depois inserção no Moodle).
+
+---
+## 📍 SESSÃO 22/09/2026 — NOVO DI DO MÓDULO 3 RECEBIDO (convertido) ⏳ AGUARDANDO COMPARAÇÕES
+
+> **FONTE:** `temp/Módulo III - Versão para DI - 22-10-2026.docx` (763 KB).
+> **CONVERSÃO:** `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md` (pandoc gfm, --wrap=none; mídia extraída em `temp/media-m3-novo/media/`, 5 PNGs).
+> **Estrutura identificada (para as comparações com `content/M3/DI-Modulo3.md`, versão em uso):** 4 Partes — P1 "Bibliotecas Comunitárias: que espaços são esses?" (Lições 1–3 + fórum "Como você imagina..."), P2 "Territórios da Primeira Infância" (Lições 4–7 + fórum "Olhando a Biblioteca Comunitária com olhos de criança"), P3 "Territórios do cuidado e bem-estar" (Lições 8–9 + Fórum 3), P4 "GESTÃO DE BIBLIOTECAS COMUNITÁRIAS" (Lições 10–12). Atividades H5P de conclusão de lição (V/F, múltipla escolha etc.); 9 vídeos embedados; referências no fim.
+> **Observações da conversão (fiel, nada corrigido):** cabeçalho da Parte 4 em CAIXA ALTA no original; título longo usa ":" (ok); marcadores [H5P], [ABRIR/FECHAR BOX], [CARD], [Embedar vídeo] preservados.
+> **PRÓXIMO PASSO:** comparar esta versão com a versão em uso (`content/M3/DI-Modulo3.md`) — em PLAN MODE, definir estratégia de comparação.
+
+---
 ## 📍 SESSÃO 21/09/2026 — NOVO RECURSO: ENCONTROS SÍNCRONOS (GALERIA DE VÍDEOS) ✅ ENCERRADA (commit 2ae0e48 + push) — PENDÊNCIAS DE AÇÃO DO MESTRE NO MOODLE
 
 > **NOVA PASTA no repositório:** `templates/pages/Encontros-sincronos/` (recurso transversal, fora dos módulos M0–M4). Fonte: pasta Drive "7. Encontros Síncronos".
