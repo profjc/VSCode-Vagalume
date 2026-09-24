@@ -14,6 +14,39 @@
 
 ---
 
+### 📋 Roteiro de processamento de imagem (repetível)
+
+Passos executados para `M3P1L2p1` (foto do acervo) — repetir para cada pendência:
+
+| # | Passo | Detalhe |
+|---|---|---|
+| 1 | **Localizar imagem** | Arquivo em `temp/`. Identificar com `identify`: dimensões, formato, peso. |
+| 2 | **Redimensionar e compactar** | `convert -resize 1280x -quality 82 -strip` → `assets/images/ilustracoes/M3/M{mod}P{parte}L{licao}p{pag}[-imgN]-{slug}.jpg` (slug em português, minúsculo, underscores). **Formato:** JPEG para fotos, PNG para ilustrações. **Dimensão:** largura 1280 px mantendo proporção (2× do display no Moodle ~640px). |
+| 3 | **`descricoes.md`** | Adicionar **linha #N** na tabela de características (arquivo, dim, tamanho, origem=link SharePoint do DI, contexto, alt curto proposto, status 🔄). Atualizar **tabela de pendências do autor** (reduzir contagem). |
+| 4 | **`pendencias-M3.md`** | Marcar o item correspondente como 🟢 resolvido, apontando o caminho do arquivo em assets. |
+| 5 | **DI** | Inserir **referência cruzada** (comentário com caminho/dimensões/alt) logo após o link SharePoint da imagem no DI do autor. |
+| 6 | **Página HTML** | Inserir **descrição longa** (`<p class="sr-only" id="figN-desc">`) + `aria-labelledby` na `<figure>` + **legenda** (`figure-caption text-center mt-2` — "Fonte:" texto puro, §4.15). Manter bloco temporário "⚠️ APAGAR ESTE BLOCO" + `[cole a imagem aqui]` (mestre faz a troca no Moodle). |
+| 7 | **Checkpoint** | `Onde-paramos.md` com resumo do que foi feito e encaminhamento. |
+| 8 | **Commit + push** | Acumular com demais mudanças da sessão; mensagem única descritiva. |
+| 9 | **Limpar `temp/`** | Apagar todos os arquivos de `temp/` (backup via SharePoint + assets). |
+
+---
+
+### 👣 Próximas pendências de imagem do Módulo 3 (a repetir o roteiro acima)
+
+| # | Item | Local no DI (novo) | Arquivo esperado | Situação |
+|---|---|---|---|---|
+| ~~3~~ | ~~Foto do acervo VL (L2, P1)~~ | Lição 2, Pág. 1 | `M3P1L2p1-acervo_vaga_lume.jpg` | 🟢 **RESOLVIDO** (24/09/2026) |
+| 4 | Foto do acervo VL — Card 1 | Lição 3, Pág. 1 — Card 1 | `M3P1L3p1-card1-{slug}.jpg` | ⏳ Aguardando autor |
+| 5 | Foto do acervo VL — Card 2 | Lição 3, Pág. 1 — Card 2 | `M3P1L3p1-card2-{slug}.jpg` | ⏳ Aguardando autor |
+| 6 | Foto do acervo VL — Card 3 | Lição 3, Pág. 1 — Card 3 | `M3P1L3p1-card3-{slug}.jpg` | ⏳ Aguardando autor |
+| 7 | Foto do acervo VL — Card 4 | Lição 3, Pág. 1 — Card 4 | `M3P1L3p1-card4-{slug}.jpg` | ⏳ Aguardando autor |
+| 8 | Foto do acervo VL — Card 5 | Lição 3, Pág. 1 — Card 5 | `M3P1L3p1-card5-{slug}.jpg` | ⏳ Aguardando autor |
+| — | Foto do acervo VL (linha 1171) | *(Parte 3/4 — determinar ao chegar)* | — | ⏳ Aguardando autor |
+
+> **Próximo passo planejado:** quando o mestre entregar as 6 fotos restantes do acervo Vaga Lume, repetir o roteiro acima para cada uma. A Parte 2 (Territórios da Primeira Infância) tem suas **4 ilustrações já em assets** (`M3P2L7p1img1-4`) — a geração do carrossel/cards da Lição 4 (M3P2L4p1) pode prosseguir independentemente, pois os assets estão prontos.
+> **Commit+push:** após cada lote de imagens (ou acumulado ao final de cada sessão, com autorização do mestre).
+
 ## 📍 SESSÃO 24/09/2026 — PARTE 2 DO M3 EM GERAÇÃO: CICLOS 2–5 CONCLUÍDOS ⏳ AGUARDANDO VALIDAÇÃO M3P2L2p2
 
 > **CICLO 3 ✅:** `M3P2L1p2.html` (Atividade 1 — intro + box pen-to-square + placeholder `M3P2L1p2-h5p-multipla_escolha.h5p`, sem feedback final na página) — inserida e validada no Moodle; **H5P criado pelo mestre e sincronizado em `assets/h5p/M3/` (verificado 24/09, nome exato do placeholder)**.
