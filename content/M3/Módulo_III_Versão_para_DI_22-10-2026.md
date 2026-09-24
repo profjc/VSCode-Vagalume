@@ -1,4 +1,11 @@
-**\[MÓDULO III\]** 
+**\[MÓDULO III\]** 
+
+> **\[NOTA DE NUMERAÇÃO — padrão dos Módulos 1 e 2 (fonte da verdade: mestre)\]:** neste DI do Módulo 3, as lições são numeradas CONTINUAMENTE no módulo. Conforme decisão do mestre, a numeração real segue o padrão M1/M2: **reinicia a cada PARTE**. Mapeamento oficial (DI → numeração correta):
+> - PARTE 1: Lições 1–3 (sem mudança) · Fórum 1.
+> - PARTE 2: DI Lição 4 → **Lição 1** · DI Lição 5 → **Lição 2** · DI Lição 6 → **Lição 3** · DI Lição 7 → **Lição 4** · DI Fórum 2 → **Fórum 1 da Parte 2** (`M3P2F1.html`).
+> - PARTE 3: DI Lição 8 → **Lição 1** · DI Lição 9 → **Lição 2** · DI Fórum 3 → **Fórum 1 da Parte 3**.
+> - PARTE 4: DI Lição 10 → **Lição 1** · DI Lição 11 → **Lição 2** · DI Lição 12 → **Lição 3** · DI Fórum 4 → **Fórum 1 da Parte 4**.
+> - Atividades de conclusão seguem a lição correspondente corrigida (ex.: DI Atividade 4 = Atividade 1 da Parte 2). Arquivos HTML: `M3P2L1p1.html`, `M3P2L1p2.html`, `M3P2L2p1...`, `M3P2L4p1/2.html`, fórum `M3P2F1.html`. 
 
 **Título curto:** Bibliotecas Comunitárias
 
@@ -165,6 +172,7 @@ O direito à leitura e à informação também envolve o acesso a livros de qual
 **TÍTULO: O território é parte da Biblioteca Comunitária**
 
 [\[Inserir foto do acervo Vaga Lume\]](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCVfVQ4QmjoR4PHn0krEL6lAc1Y4r50BfrWeltb8pR5NXg?e=fPzvtb)
+<!-- --> ''assets/images/ilustracoes/M3/M3P1L2p1-acervo_vaga_lume.jpg'' (1280x853) . alt: "Árvore com tronco e galhos envoltos em tecido roxo, em gramado, com livros infantis coloridos pendurados por cordões brancos nos galhos" -->
 
 **Existem diferentes tipos de bibliotecas, cada uma com características e finalidades próprias.** As bibliotecas escolares, por exemplo, estão diretamente ligadas aos processos educativos das escolas, sejam elas públicas ou privadas. Já as bibliotecas públicas são mantidas pelo estado e procuram atender toda a população, oferecendo acesso a diferentes serviços culturais e promovendo o incentivo à leitura. 
 
@@ -428,7 +436,7 @@ Em sua resposta, procure refletir sobre questões como: 
 
 **PARTE 2 – Territórios da Primeira Infância**
 
-**\[CARD LIÇÃO 4\]**
+**\[CARD LIÇÃO 4\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 1 da Parte 2 — arquivos M3P2L1p1/p2 -->
 
 **Título: Primeira Infância na Biblioteca Comunitária**
 
@@ -518,7 +526,7 @@ c) Reconhecer que bebês e crianças pequenas também pertencem à biblioteca e 
 
 **\> FIM DA ATIVIDADE 4**
 
-**\[CARD LIÇÃO 5\]**
+**\[CARD LIÇÃO 5\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 2 da Parte 2 — arquivos M3P2L2p1/p2/p3 -->
 
 **Título: Espaços de Ser e Descobrir**
 
@@ -606,7 +614,7 @@ b) Porque as crianças precisam aprender a utilizar a Biblioteca Comunitária se
 
 a) Orientá-las a terminar todos os livros que começam para desenvolver o hábito da leitura.
 
-b) Reconhecer que podem fazer escolhas, ter preferências, abandonar um livro, retornar às histórias de que gostam e construir diferentes formas de ler e se relacionar com e leitura. \[CORRETA\]
+b) Reconhecer que podem fazer escolhas, ter preferências, abandonar um livro, retornar às histórias de que gostam e construir diferentes formas de ler e se relacionar com a leitura. \[CORRETA\]
 
 c) Direcionar suas escolhas apenas para livros com pouco texto ou que elas já consigam ler sozinhas.
 
@@ -620,7 +628,7 @@ c) Direcionar suas escolhas apenas para livros com pouco texto ou que elas já c
 
 **\> FIM DA ATIVIDADE 5**
 
-**\[CARD LIÇÃO 6\]**
+**\[CARD LIÇÃO 6\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 3 da Parte 2 — arquivos M3P2L3p1/p2 -->
 
 **Título: Espaços de Ler e Brincar**
 
@@ -690,7 +698,7 @@ E brincar também faz parte da vida da biblioteca\! Além de livros ao alcance d
 
 **\> FIM DA ATIVIDADE 6**
 
-**\[CARD LIÇÃO 7\]**
+**\[CARD LIÇÃO 7\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 4 da Parte 2 — arquivos M3P2L4p1/p2 -->
 
 **Título: Um Ambiente que Acolhe as Infâncias**
 
@@ -860,7 +868,7 @@ Explique por que escolheu essa mudança e como ela poderia contribuir para forta
 
 **PARTE 3 – Territórios do cuidado e bem-estar**
 
-**\[CARD LIÇÃO 8\]**
+**\[CARD LIÇÃO 8\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 1 da Parte 3 — arquivos M3P3L1p1... -->
 
 **Título: Espaços de Acolhimento**
 
@@ -962,7 +970,7 @@ As práticas de acolhimento ajudam a fortalecer vínculos e relações de confia
 
 **\> FIM DA ATIVIDADE 8**
 
-**\[CARD LIÇÃO 9\]**
+**\[CARD LIÇÃO 9\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 2 da Parte 3 — arquivos M3P3L2p1... -->
 
 **Título: Promovendo Cuidado e Bem-estar**
 
@@ -1094,7 +1102,7 @@ Em sua contribuição, conte para o grupo:
 
 **PARTE 4  – GESTÃO DE BIBLIOTECAS COMUNITÁRIAS **
 
-**\[CARD LIÇÃO 10\]**
+**\[CARD LIÇÃO 10\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 1 da Parte 4 — arquivos M3P4L1p1... -->
 
 **Título: Gestão como Prática Cultural**
 
@@ -1218,7 +1226,7 @@ A gestão como prática cultural não substitui as tarefas necessárias ao funci
 
 **\> FIM DA ATIVIDADE 10**
 
-**\[CARD LIÇÃO 11\]**
+**\[CARD LIÇÃO 11\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 2 da Parte 4 — arquivos M3P4L2p1... -->
 
 **Título: Gestão como Prática Compartilhada**
 
@@ -1322,7 +1330,7 @@ A gestão compartilhada se constrói com a participação de diferentes pessoas 
 
 Assim, compartilhar a gestão não significa que todas as pessoas façam as mesmas coisas, mas que **cada uma possa contribuir de diferentes maneiras para construir e manter a biblioteca ativa**.
 
-**\[CARD LIÇÃO 12\]**
+**\[CARD LIÇÃO 12\]** <!-- CORREÇÃO DE NUMERAÇÃO: esta é a LIÇÃO 3 da Parte 4 — arquivos M3P4L3p1... -->
 
 **Título: Instrumentos de Gestão**
 

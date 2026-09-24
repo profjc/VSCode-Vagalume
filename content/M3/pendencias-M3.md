@@ -11,7 +11,7 @@
 |---|---|---|---|---|
 | 1 | Abertura do módulo — "[Conteúdo a ser elaborado]" | Linha 7 | Texto de apresentação | ⏳ Aguardando autor |
 | 2 | Página de abertura no repositório | `templates/pages/M3/M3-Apresentacao_do_modulo_3.html` | HTML com `[Em elaboração]` | 🟢 Criada, pendente de conteúdo |
-| 3 | Foto do acervo Vaga Lume | Linha 148 (Lição 2, Pág. 1) | Imagem | ⏳ Aguardando autor |
+| 3 | ~~Foto do acervo Vaga Lume~~ | Linha 148 (Lição 2, Pág. 1) | Imagem — `assets/images/ilustracoes/M3/M3P1L2p1-acervo_vaga_lume.jpg` (1280×853, 239 KB) | 🟢 Resolvido (24/09/2026) — imagem processada a partir do original 6720×4480 (14,4 MB) entregue pelo mestre em `temp/`; descrição longa inserida na página e aprovada; aguardando upload no Moodle |
 | 4 | Foto do acervo Vaga Lume | Linha 258 (Lição 3, Pág. 1 — Card 1) | Imagem | ⏳ Aguardando autor |
 | 5 | Foto do acervo Vaga Lume | Linha 268 (Lição 3, Pág. 1 — Card 2) | Imagem | ⏳ Aguardando autor |
 | 6 | Foto do acervo Vaga Lume | Linha 278 (Lição 3, Pág. 1 — Card 3) | Imagem | ⏳ Aguardando autor |

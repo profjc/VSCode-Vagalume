@@ -1,3 +1,53 @@
+## 📍 24/09/2026 — PENDÊNCIA DE IMAGEM M3P1L2p1 RESOLVIDA ✅ (aguardando upload no Moodle e commit+push acumulado)
+
+> **ITEM 3 DO `pendencias-M3.md` 🟢 RESOLVIDO:**
+> - **Imagem processada:** `temp/módulo 3 - acervo vaga lume.jpg` (6720×4480, 14,4 MB) → redimensionada (1280×853, JPEG q82, 239 KB) → `assets/images/ilustracoes/M3/M3P1L2p1-acervo_vaga_lume.jpg` (proporção 3:2).
+> - **`temp/` limpa** (regra §2.6 do roteiro; backup via SharePoint no DI).
+> - **`assets/images/ilustracoes/M3/descricoes.md`:** linha #7 adicionada na tabela de características + tabela de pendências do autor atualizada (×7→×6, linha 148 removida).
+> - **`content/M3/pendencias-M3.md`:** item 3 riscado e marcado 🟢.
+> - **DI:** referência cruzada inserida (comentário com caminho/dimensões/alt após o link SharePoint da imagem).
+> - **`templates/pages/M3/Parte1/Licao2/M3P1L2p1.html`:** descrição longa aprovada inserida (`sr-only id="fig1-desc"` + `aria-labelledby` na figure) + legenda "Fonte: Acervo Vaga Lume" — página pronta para recolagem no Moodle (descrição + troca da imagem real).
+> - **Descrição aprovada pelo mestre:** sim (longa e curta/alt).
+> - **PENDENTE:** upload da imagem real no Moodle (você, pelo TinyMCE) + commit+push acumulado da sessão.
+> **SESSÃO ACUMULADA PENDENTE DE COMMIT:** renomeação Lição 4→1 (git mv manual), anotações de numeração no DI + correção de typo, páginas M3P2L1p2/l2p1/l2p2/l2p3/l3p1/l3p2, H5Ps M3P2L1p2 e M3P2L2p3 sincronizados em assets, checkpoint + esta imagem.
+> **PRÓXIMO PASSO (PLAN):** decidir commit+push (Etapa F) e então retomar o plano da Parte 2 (ciclo 9: M3P2L4p1 — carrossel da Lição 4).
+
+---
+
+## 📍 SESSÃO 24/09/2026 — PARTE 2 DO M3 EM GERAÇÃO: CICLOS 2–5 CONCLUÍDOS ⏳ AGUARDANDO VALIDAÇÃO M3P2L2p2
+
+> **CICLO 3 ✅:** `M3P2L1p2.html` (Atividade 1 — intro + box pen-to-square + placeholder `M3P2L1p2-h5p-multipla_escolha.h5p`, sem feedback final na página) — inserida e validada no Moodle; **H5P criado pelo mestre e sincronizado em `assets/h5p/M3/` (verificado 24/09, nome exato do placeholder)**.
+> **CICLO 4 ✅:** `M3P2L2p1.html` (Lição 2 p1 — "Lugar de criança é na Biblioteca Comunitária!", texto + box central + em `adultos em miniatura` preservado) — inserida e validada no Moodle.
+> **CICLO 5 ✅ (aguardando validação):** `M3P2L2p2.html` (Lição 2 p2 — "Crianças também têm direitos como leitoras!" — 2 parágrafos + vídeo embed `bBDU_2-HYjU` max 560px + legenda "Os direitos do pequeno leitor (01min48s); canal: Conto Genial" §4.14; precedente M3P1L3p2).
+> **DIRETRIZ DO MESTRE (24/09):** NÃO colar mais o HTML no chat — apenas salvar o arquivo e deixar com foco no VS Code (`code -r` última ação); informar no chat somente nomes para o Moodle (lição/página/navegação/H5P).
+> **NOMES MOODLE dos ciclos:** C3 página "Atividade: Linguagem, leitura e Bibliotecas Comunitárias na Primeira Infância" (Anterior+Finalizar) · C4 lição "Espaços de Ser e Descobrir", página "Lugar de criança é na Biblioteca Comunitária!" (Próximo) · C5 página "Crianças também têm direitos como leitoras!" (Anterior+Próximo).
+> **PRÓXIMO CICLO (PLAN):** `M3P2L2p3.html` — Atividade 2 "Crianças, seus direitos de pequenas leitoras e Bibliotecas Comunitárias" (intro + box pen-to-square + placeholder `M3P2L2p3-h5p-multipla_escolha.h5p`; 3 questões, corretas b/c/b; SEM feedback final na página).
+> **PENDÊNCIA:** commit + push (acumulando: renomeação L4→L1, anotações no DI, checkpoint, páginas dos ciclos 2–5, H5P M3P2L1p2).
+
+---
+
+## 📍 SESSÃO 23/09/2026 — PARTE 2 DO M3: NUMERAÇÃO CORRIGIDA (PADRÃO M1/M2) + M3P2L1p1 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **DECISÃO DO MESTRE (fonte da verdade):** numeração de lições REINICIA A CADA PARTE (padrão M1/M2) — o DI do M3 usa numeração contínua; corrigir sempre. Mapeamento anotado no topo de `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md` + inline em cada `[CARD LIÇÃO X]` das Partes 2–4. **P2:** DI L4–L7 → **L1–L4** · **P3:** L8–L9 → **L1–L2** · **P4:** L10–L12 → **L1–L3**. **Fóruns: um por parte = F1** (precedente M2P4F1) — o fórum da Parte 2 é `M3P2F1.html` (não F2).
+> **PARTE 1 DO M3:** nada a corrigir (DI já numera 1–3, coincide com o padrão por parte).
+> **CICLO 2 CONCLUÍDO:** Label Parte 2 validada no Moodle ✅ · `M3P2L1p1.html` (DI Lição 4 = Lição 1 da P2, "Por que as Bibliotecas Comunitárias são importantes para a Primeira Infância?") gerada, inserida e validada no Moodle ✅ — e após a decisão, renomeada (`git`-mv manual, arquivo ainda não commitado) de `Parte2/Licao4/M3P2L4p1.html` → `Parte2/Licao1/M3P2L1p1.html` + comentários de cabeçalho/fechamento corrigidos (Lição 4 → Lição 1). **MESTRE precisa ajustar comentários no Moodle? NÃO — comentários não são colados no Moodle; nada a recolar** (a página visível não muda). Ajuste do mestre no Moodle refere-se apenas ao cabeçalho/rodapé do editor — sem efeito.
+> **PLANO APROVADO — PARTE 2 (nomes CORRIGIDOS), 11 arquivos, 1 por ciclo:**
+> 1. ✅ `templates/pages/labels/M3_Label_Parte2_Territorios_da_Primeira_Infancia.html` — validada no Moodle
+> 2. ✅ `M3/Parte2/Licao1/M3P2L1p1.html` — Lição 1 p1 (validada; comentários corrigidos pós-numeração)
+> 3. `M3P2L1p2.html` — Atividade 1 "Linguagem, leitura e Bibliotecas Comunitárias na Primeira Infância" (intro + box pen-to-square + H5P 3 questões, SEM feedback final na página) — PRÓXIMO CICLO
+> 4. `M3P2L2p1.html` — Lição 2 p1 "Lugar de criança é na Biblioteca Comunitária!" (texto + box central)
+> 5. `M3P2L2p2.html` — Lição 2 p2 (vídeo "Os direitos do pequeno leitor", 01min48s, Conto Genial)
+> 6. `M3P2L2p3.html` — Atividade 2 "Crianças, seus direitos de pequenas leitoras e BC" (H5P, 3 questões)
+> 7. `M3P2L3p1.html` — Lição 3 pág. única "Brincar de ler" (texto + vídeo "Brincar de Ler", 02min33s, Palavra Cantada Oficial)
+> 8. `M3P2L3p2.html` — Atividade 3 "Jeitos de brincar de ler" (H5P múltiplas respostas — 8 afirmações: 6 {Sim}, 2 não; COM caixa "Feedback final" na página — DI linhas 683–689)
+> 9. `M3P2L4p1.html` — Lição 4 pág. única "Livros ao alcance das mãozinhas" (texto + CARROSSEL 4 cards; ilustrações `M3P2L7p1img1`–`img4` em assets — T18; carrossel × grade a confirmar com o mestre antes do ciclo)
+> 10. `M3P2L4p2.html` — Atividade 4 "Pensando um espaço para as infâncias" (H5P, 3 questões)
+> 11. `M3P2F1.html` — Fórum "Compartilhando Ideias" — "Olhando a Biblioteca Comunitária com olhos de criança" (ÚLTIMA atividade da parte — N3.5.3; espelha M3P1F1)
+> **Placeholders H5P (nomes corrigidos):** `M3P2L1p2-h5p-multipla_escolha.h5p`, `M3P2L2p3-h5p-multipla_escolha.h5p`, `M3P2L3p2-h5p-multipla_escolha_multiplas.h5p`, `M3P2L4p2-h5p-multipla_escolha.h5p` (arquivos criados SEMPRE pelo mestre; questões/feedbacks do DI vão dentro do H5P).
+> **PENDÊNCIA:** commit + push das mudanças desta sessão (renomeação L4→L1, anotações no DI, checkpoint).
+
+---
+
 ## 📍 SESSÃO 23/09/2026 — MÓDULO 3 PARTE 2 INICIADA: PLANO APROVADO + LABEL PARTE 2 GERADA ⏳ AGUARDANDO VALIDAÇÃO
 
 > **DECISÕES DO MESTRE:** o novo DI (`content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`) é a FONTE DA VERDADE daqui por diante (a partir da Parte 2; Parte 1 já conferida até o fim); Apresentação do M3 validada no Moodle ✅; DI antigo `content/M3/DI-Modulo3.md` foi EXCLUÍDO (verificado: arquivo já não existe em `content/M3/` — nenhum resquício, só referências históricas em `Onde-paramos.md` e `docs/roteiro-inicializacao-modulo.md`).

@@ -12,6 +12,7 @@
 | 4 | `M3P2L7p1img3-criancas_bananeira.png` | 1920×1080 | 79 KB | [MARCADOR-11](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDitFfF6Ju0TozxCdYs-xtIAYRdL2M1AnTth_qQgPeWSDU?e=EMzQby) | Lição 7, Pág. única — Card 3 "Um acervo pensado para a Primeira Infância" | Ilustração estilizada em cores planas: três crianças fazendo bananeira (de ponta-cabeça), vestindo roupas coloridas, sobre fundo lilás | 🔄 rascunho |
 | 5 | `M3P2L7p1img4-livro_sobre_cabeca.png` | 1920×1080 | 47 KB | [MARCADOR-10](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCaZ3AOLvpfS5R82qx53h0SAaVcDJTkkbKU8iivHN4Jnbc?e=qxEdp2) | Lição 7, Pág. única — Card 4 "Livros feitos para serem usados" | Ilustração estilizada em cores planas: uma pessoa sorridente equilibra um livro azul aberto sobre a cabeça, com fundo laranja | 🔄 rascunho |
 | 6 | `M3P3L10p1-tirinha-stahler.png` | 404×306 | 164 KB | [móduloIII_parte3_lição10](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDKuI09RUcQT7AGc97ruFMpAfCoerM2ByBLft_OJIVWJRM?e=nVw6E5) | Lição 10, Pág. 1 — "Conheça instrumentos para apoiar a gestão" | Tirinha de Stahler: uma menina segurando um celular diz a uma mulher — "Eu tenho um dispositivo menor do que esse que me dá acesso sem fio a milhares de livros e filmes"; a mulher, segurando uma carteira vermelha, responde — "A carteira da biblioteca" | 🔄 rascunho |
+| 7 | `M3P1L2p1-acervo_vaga_lume.jpg` | 1280×853 | 239 KB | [móduloIII_parte1_lição2](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCVfVQ4QmjoR4PHn0krEL6lAc1Y4r50BfrWeltb8pR5NXg?e=fPzvtb) | Lição 2, Pág. 1 — "O território é parte da Biblioteca Comunitária" | Árvore com tronco e galhos envoltos em tecido roxo, em gramado, com livros infantis coloridos pendurados por cordões brancos nos galhos | 🔄 rascunho |
 
 ---
 
@@ -21,7 +22,7 @@ Conteúdos citados no DI sem link/imagem entregue (17/09/2026):
 
 | # | Item | Linha no DI | Descrição |
 |---|---|---|---|
-| 1 | Fotos de acervo Vaga Lume ×7 | 148, 258, 268, 278, 288, 298, 1171 | `[Inserir foto do acervo Vaga Lume]` — aguardando autor |
+| 1 | Fotos de acervo Vaga Lume ×6 | 258, 268, 278, 288, 298, 1171 | `[Inserir foto do acervo Vaga Lume]` — aguardando autor (linha 148 resolvida em 24/09/2026, arquivo `M3P1L2p1-acervo_vaga_lume.jpg`) |
 | 2 | Carteirinha de leitora | 967 | Imagem + versão para impressão |
 | 3 | Caderno de Memórias | 1013 | Imagem + versão para impressão |
 | 4 | Modelo de Regimento | 1029 | Arquivo para disponibilizar |
