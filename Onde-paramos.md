@@ -15,7 +15,9 @@
 > 11. `M3P2F2.html` — Fórum 2 "Compartilhando Ideias" — "Olhando a Biblioteca Comunitária com olhos de criança" (ÚLTIMA atividade da parte — N3.5.3 ✔; espelha M3P1F1)
 > **Placeholders H5P previstos:** `M3P2L4p2-h5p-multipla_escolha.h5p`, `M3P2L5p3-h5p-multipla_escolha.h5p`, `M3P2L6p2-h5p-multipla_escolha_multiplas.h5p`, `M3P2L7p2-h5p-multipla_escolha.h5p` (arquivos H5P criados SEMPRE pelo mestre; agente avisa parte/lição/página e aguarda).
 > **OBSERVAÇÕES DO DI (fiel, nada corrigido):** typo do autor "FIM DALIÇÃO 8" (fora da P2); legendas de vídeo já no padrão §4.14; títulos de lição com "!" (L5) mantidos.
-> **PENDÊNCIA TÉCNICA:** terminal do ambiente indisponível nesta sessão (run_commands falha para qualquer comando, inclusive `pwd` e `code -r`) — commit/push e abertura no VS Code não executados; mestre deve abrir o arquivo manualmente.
+> **PENDÊNCIA TÉCNICA RESOLVIDA:** o terminal não estava quebrado — a ferramenta falhava apenas no formato de chamada em string única; em array JSON funciona normalmente. ~~master deve abrir o arquivo manualmente~~ → executar `code -r` no próximo ciclo.
+> **DIAGNÓSTICO DI ANTIGO (confirmado via git):** `content/M3/DI-Modulo3.md`/.docx foram removidos no commit `4e24848` ("M3: novo DI..."), na sessão da conversão — exclusão intencional/histórica, nada pendente. Pasta `content/M3/` contém: `Módulo_III_Versão_para_DI_22-10-2026.md`, `analise-DI-M3.md`, `pendencias-M3.md`, `media/`.
+> **COMMIT + PUSH REALIZADOS (23/09/2026):** `1317f81` — "Remove bloco antigo dos encontros sincronos + label Parte 2 do M3 + H5P VouF atualizado + checkpoint" (4 arquivos: Onde-paramos.md, encontros_sincronos_galeria.html, M3_Label_Parte2_Territorios_da_Primeira_Infancia.html novo, M2P4L1p3-h5p-VouF.h5p). Push para origin/master ok (`eed873c..1317f81`). Working tree limpo ✅
 > **PRÓXIMO CICLO (após validação do label):** M3P2L4p1 — planejar em PLAN MODE.
 
 ---
