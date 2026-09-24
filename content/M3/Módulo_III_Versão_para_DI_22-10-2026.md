@@ -289,6 +289,7 @@ Quando pensamos em uma biblioteca, é comum imaginar estantes cheias de livros. 
 A Biblioteca Comunitária aproxima pessoas, livros e diferentes formas de conhecer o mundo. É um lugar onde crianças, jovens, adultos e pessoas idosas compartilham histórias de vida, descobrem novas narrativas por meio da leitura e encontram oportunidades para conversar, brincar, trocar experiências e conviver. É dessa convivência cotidiana que surgem sentimentos de pertencimento, cuidado coletivo e fortalecimento dos vínculos comunitários. 
 
 \[inserir foto de [acervo](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQAxSsgsIdT7Sp37oFzokY1eATfws5EPtsmJxLhg43P5SOk?e=8CvNqn) Vaga Lume\] 
+<!-- ASSET: assets/images/ilustracoes/M3/M3P1L3p1-card1-encontro_e_convivencia.jpg | 1140×760 | 180 KB | Alt: Mulher conta histórias de um livro infantil para crianças sentadas no chão de um salão comunitário. -->
 
  
 
@@ -299,6 +300,7 @@ A Biblioteca Comunitária aproxima pessoas, livros e diferentes formas de conhec
 A comunidade também produz cultura. Rodas de conversa, saraus, oficinas, apresentações, escrita de livros artesanais, exposições e outras atividades fazem da biblioteca um espaço de criação, expressão e valorização das culturas locais. 
 
 [\[inserir foto de acervo Vaga Lume\] ](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDQ2M1PZAQrT6GiUufS_2SuAWm_a3jQyDiyOuTeZssBWaE?e=cueg4x)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P1L3p1-card2-producao_cultural.jpg | 1140×760 | 243 KB | Alt: Jovens dançam segurando as saias rodadas em palco de madeira durante apresentação cultural. -->
 
  
 
@@ -309,6 +311,7 @@ A comunidade também produz cultura. Rodas de conversa, saraus, oficinas, apre
 Os livros trazem histórias de muitos lugares. Ao mesmo tempo, a comunidade compartilha os seus próprios saberes: conhecimentos sobre o território, modos de vida, práticas culturais, memórias e tradições. E a Biblioteca Comunitária cria oportunidades para que todas essas perspectivas se encontrem e dialoguem. 
 
 [\[inserir foto de acervo Vaga Lume\] ](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDuGBCTxjZxSaRIdrIP-jmLASABIMFyTbxsUMcjetWbSrk?e=MTnc82)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P1L3p1-card3-troca_de_saberes.jpg | 1140×760 | 210 KB | Alt: Idosa conversa com crianças e adolescentes sentados ao redor, sob uma grande árvore. -->
 
  
 
@@ -319,6 +322,7 @@ Os livros trazem histórias de muitos lugares. Ao mesmo tempo, a comunidade comp
 As bibliotecas comunitárias também podem ser lugares onde a comunidade se reúne para conversar sobre temas importantes para sua vida coletiva. São espaços de escuta, diálogo e participação, onde diferentes vozes encontram espaço para compartilhar opiniões, refletir sobre desafios comuns e fortalecer iniciativas que contribuam para o bem-estar de quem vive ali. 
 
 [\[inserir foto de acervo Vaga Lume\] ](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDmIgwoxzkVRKW3Kr2RjlusAaPDzElQXvDBogPs-0YHS-Y?e=anmqxW)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P1L3p1-card4-escuta_e_participacao.jpg | 1140×760 | 270 KB | Alt: Pessoas de diferentes idades conversam em roda, sentadas em cadeiras com pranchetas, em varanda de madeira. -->
 
  
 
@@ -329,6 +333,7 @@ As bibliotecas comunitárias também podem ser lugares onde a comunidade se reú
 Projetos, campanhas, atividades culturais e iniciativas voltadas às crianças, às juventudes e às famílias frequentemente encontram na biblioteca um ponto de encontro e articulação. Assim, ela contribui para fortalecer a participação comunitária e o compromisso coletivo com o território. 
 
 \[inserir foto de acervo Vaga [Lume](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQA4L5CiNeglT5HMDAxzfTQFARgPiMVrR3SE0nmEbjSLNpI?e=z3YbaA)\] 
+<!-- ASSET: assets/images/ilustracoes/M3/M3P1L3p1-card5-mobilizacao_comunitaria.jpg | 1353×760 | 439 KB | Alt: Vista aérea de grande roda de pessoas de mãos dadas ao redor de mesas com materiais, sob árvores. -->
 
 **\[LIÇÃO 3 \> PÁGINA 2\]**
 
@@ -721,6 +726,7 @@ Escolhas simples na organização do espaço podem fazer uma grande diferença 
 Quando livros, estantes e mobiliários estão ao alcance das crianças, a biblioteca se torna um convite aberto à descoberta. Um ambiente organizado e seguro – com estantes fixas, mobiliário adequado, tomadas fora de alcance, espaços protegidos para a circulação – permite que elas explorem diferentes cantos, escolham livros com autonomia e transformem a curiosidade em experiências de leitura.
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-07 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCfxU2Z1bSHRoIk5Q8TFX9_AeVgN9kPF3_L5FrX_LSZrP0?e=HaZ3kz)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P2L4p1img1-canoa.png | 1920×1080 | 41 KB | Alt: Ilustracao de mulher sorridente remando uma canoa, sobre fundo bege claro. -->
 
 ![](temp/media-m3-novo/media/image1.png) 
 
@@ -731,6 +737,7 @@ Quando livros, estantes e mobiliários estão ao alcance das crianças, a biblio
 A acessibilidade também é emocional. As crianças precisam sentir que são bem-vindas, que podem explorar o espaço com tranquilidade e que seus tempos e formas de participação serão respeitados. Tapetes, almofadas, cantinhos de leitura ajudam a instituir espaços de permanência e transformam a biblioteca em um lugar de convivência, bem-estar e brincadeiras.
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-08 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQA8PRXN25lyS4OfukxUsMekATYv4RvxWa5JV4Mf9ColA38?e=EFSmPf)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P2L4p1img2-livros_sobre_mesa.png | 1920×1080 | 54 KB | Alt: Livros coloridos, alguns abertos, dispostos sobre uma mesa laranja, com fundo azul. -->
 
 ![](temp/media-m3-novo/media/image2.png) 
 
@@ -743,6 +750,7 @@ A acessibilidade também é emocional. As crianças precisam sentir que são bem
 Bebês e crianças pequenas exploram os livros com todo o corpo. Por isso, é importante oferecer um acervo cuidadosamente selecionado, com livros resistentes ao manuseio frequente, formatos adequados às diferentes idades e materiais que possam ser explorados com segurança. Cuidar da curadoria é um modo de garantir qualidade literária, diversidade e experiências de leitura compatíveis com essa fase da vida. 
 
 **\[inserir ilustração\]**  - Link: [ILUSTRAÇÕES + MARCADOR-11 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDitFfF6Ju0TozxCdYs-xtIAYRdL2M1AnTth_qQgPeWSDU?e=EMzQby)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P2L4p1img3-criancas_bananeira.png | 1920×1080 | 79 KB | Alt: Tres criancas fazendo bananeira, de ponta-cabeca, vestindo roupas coloridas, sobre fundo lilas. -->
 
 ![](temp/media-m3-novo/media/image3.png) 
 
@@ -755,6 +763,7 @@ Bebês e crianças pequenas exploram os livros com todo o corpo. Por isso, é im
 Livros ao alcance das crianças não são apenas uma escolha de organização, mas um passo inicial na formação leitora. Ao escolher, folhear, carregar e revisitar seus livros favoritos, as crianças constroem vínculos com o acervo e, consequentemente, com a prática da leitura. Manusear, portanto, faz parte desse processo. Com a presença atenta de pessoas mediadoras e cuidadoras, descobrem, pouco a pouco, diferentes formas de usar, respeitar e preservar esse patrimônio coletivo da Biblioteca Comunitária. 
 
 **\[inserir ilustração\]**  - [ILUSTRAÇÕES + MARCADOR-10 (1)](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCaZ3AOLvpfS5R82qx53h0SAaVcDJTkkbKU8iivHN4Jnbc?e=qxEdp2)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P2L4p1img4-livro_sobre_cabeca.png | 1920×1080 | 47 KB | Alt: Ilustracao de pessoa sorridente equilibra um livro azul aberto sobre a cabeca, com fundo laranja. -->
 
 ![](temp/media-m3-novo/media/image4.png) 
 
