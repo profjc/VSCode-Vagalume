@@ -14,7 +14,17 @@
 
 ### 📌 Pendente (não é bloqueante)
 - Upload das imagens no Moodle (mestre fará via TinyMCE)
-- Próximo passo: retomada da Parte 3
+
+### ✅ M3P2L4p2 concluído
+**"Atividade: Pensando um espaço para as infâncias"** — página validada no Moodle; H5P `M3P2L4p2-h5p-multipla_escolha.h5p` sincronizado em `assets/h5p/M3/`.
+
+### ✅ M3P2F1 validado
+**"Fórum: Olhando a Biblioteca Comunitária com olhos de criança"** — página validada no Moodle (nome: Compartilhando Ideias). **Parte 2 do Módulo 3 ENCERRADA.** ✅
+
+### 🟢 Novo arquivo criado nesta sessão: `docs/rotina-entrega.md`
+Arquivo de leitura obrigatória (N3.0/N1.7) consolidando tabela de nomes no Moodle, rotina de ciclo, template de entrega no chat, checklist pré-entrega e erros já cometidos.
+- **`.clinerules` ajustado**: N3.0 adicionado; N1.7 e N1.10 ampliados; Regras de Bolso #2 atualizado.
+- **Novas páginas e procedimentos seguem a `docs/rotina-entrega.md`.**
 
 ---
 

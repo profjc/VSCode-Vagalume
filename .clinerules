@@ -34,7 +34,7 @@
 Regras inegociáveis, consolidadas do corpo do arquivo. Em caso de conflito, prevalecem as regras mais recentes e específicas (ver N1.2).
 
 1. **Tool call limpa**: toda chamada de ferramenta (write_to_file, replace_in_file, execute_command, etc.) deve ser o **primeiro e único conteúdo** da mensagem — nunca precedida de texto, markdown ou `<thinking>` (N1.9.1).
-2. **Checkpoint primeiro**: ao iniciar sessão, ler `Onde-paramos.md` antes de qualquer ação (N1.7).
+2. **Checkpoint e rotina primeiro**: ao iniciar sessão, ler `Onde-paramos.md` e `docs/rotina-entrega.md` antes de qualquer ação (N1.7 / N3.0).
 3. **PLAN planeja, ACT executa**: uma página/arquivo por ciclo, com validação do mestre entre ciclos — nunca em lote (N1.3.3, N1.4.1).
 4. **Escopo estrito**: fazer exatamente o solicitado, sem extrapolar, "padronizar" ou corrigir o que não foi pedido (N1.5).
 5. **Foco ao VS Code**: ao final do ciclo de uma página a copiar, `code -r <caminho>` deve ser a **ÚLTIMA ação** (nunca seguido de atualizações de checkpoint) (N3.6 → docs/regras-licoes-aprendidas.md).
@@ -130,7 +130,7 @@ Quando o usuário iniciar uma conversa com um cumprimento (ex.: "olá", "oi", "b
 ## N1.7 Checkpoint de Continuidade (Obrigatório em nova sessão)
 Sempre que uma nova janela de chat for aberta (perda de contexto), você DEVE:
 
-1. **Ler o arquivo `Onde-paramos.md`** antes de qualquer outra ação.
+1. **Ler os arquivos `Onde-paramos.md` e `docs/rotina-entrega.md`** antes de qualquer outra ação.
 2. **Perguntar ao usuário:** "Quer saber onde paramos na última sessão?" — se ele responder sim, apresente um resumo do checkpoint.
 3. **Atualizar o arquivo** ao final de cada sessão de trabalho, registrando o último ponto alcançado.
 
@@ -175,6 +175,7 @@ Antes de cada `attempt_completion`, conferir rapidamente a conformidade com esta
 - [ ] **Foco ao VS Code**: se era página a copiar no Moodle, `code -r` foi a ÚLTIMA ação do ciclo (docs/regras-licoes-aprendidas.md)
 - [ ] **Checkpoint atualizado**: `Onde-paramos.md` reflete o trabalho concluído (N1.6.2)
 - [ ] **Página validada**: conferida contra `docs/checklist-entrega.md` (N3.5.2)
+- [ ] **Nomes no Moodle conferidos**: entreguei na janela do chat o nome correto da página/lição conforme `docs/rotina-entrega.md` §2 (N3.0)
 
 Se qualquer item falhar, corrigir ANTES de entregar.
 
@@ -277,6 +278,16 @@ Exemplo:
 <!-- Estas regras NÃO devem ser exportadas para outros projetos.            -->
 <!-- São válidas apenas para este curso (Vaga Lume no Moodle 4.5).         -->
 <!-- ====================================================================== -->
+
+## N3.0 Arquivos de Leitura Obrigatória por Sessão
+<!-- Criado 24/09/2026 — precedente: erros recorrentes de nomeação e rotina entre sessões que exigiam correção do mestre a cada ciclo. -->
+
+Antes de QUALQUER ação (gerar, editar, decidir, entregar), você DEVE ter lido estes **dois** arquivos:
+
+1. **`Onde-paramos.md`** → estado atual e checkpoint de continuidade (N1.7).
+2. **`docs/rotina-entrega.md`** → procedimento de ciclo (nomes no Moodle, template de entrega no chat, conferência pré-entrega).
+
+Estes arquivos são de leitura obrigatória — NUNCA devem ser tratados como "gaveta sob demanda" (N3.4).
 
 ## N3.1 Guia de Estilo Vaga Lume
 

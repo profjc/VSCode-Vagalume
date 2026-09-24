@@ -1,3 +1,5 @@
+- **`docs/rotina-entrega.md` criado (24/09/2026)**: arquivo de leitura obrigatória com tabela de nomes no Moodle, rotina de ciclo, template de entrega no chat, checklist de conferência pré-entrega e tabela de erros já cometidos. Leitura obrigatória no início da sessão (N3.0/N1.7). Referência consolidada — substitui a consulta dispersa a múltiplas entradas deste arquivo para nomeação e entrega.
+- **Entregar no chat o nome de página e de lição do Moodle (24/09/2026):** ao final do ciclo de uma página, entregar na janela do chat — (1) o **nome da página** a ser configurada no Moodle (título exato); (2) o **nome da lição**, quando for preciso criar uma nova lição; (3) o nome do arquivo HTML salvo no repositório e, quando houver, o nome do placeholder H5P. Precedente: M3P2L4p2 ("Atividade: Pensando um espaço para as infâncias") — página validada, H5P sincronizado, mas omiti os nomes no chat.
 # Regras e Lições Aprendidas do Projeto Vaga Lume
 
 <!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
