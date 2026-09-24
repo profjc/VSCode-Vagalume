@@ -1,3 +1,32 @@
+## 📍 SESSÃO 23/09/2026 — MÓDULO 3 PARTE 2 INICIADA: PLANO APROVADO + LABEL PARTE 2 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **DECISÕES DO MESTRE:** o novo DI (`content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`) é a FONTE DA VERDADE daqui por diante (a partir da Parte 2; Parte 1 já conferida até o fim); Apresentação do M3 validada no Moodle ✅; DI antigo `content/M3/DI-Modulo3.md` foi EXCLUÍDO (verificado: arquivo já não existe em `content/M3/` — nenhum resquício, só referências históricas em `Onde-paramos.md` e `docs/roteiro-inicializacao-modulo.md`).
+> **PLANO APROVADO — PARTE 2 "Territórios da Primeira Infância" (DI linhas 429–857), 11 arquivos, 1 por ciclo (PLAN → ACT → validação):**
+> 1. ✅ `templates/pages/labels/M3_Label_Parte2_Territorios_da_Primeira_Infancia.html` — Label da Parte 2 gerada (espelha M3_Label_Parte1; título "Territórios da Primeira Infância") — aguardando validação
+> 2. `M3/Parte2/Licao4/M3P2L4p1.html` — Lição 4 "Primeira Infância na Biblioteca Comunitária" (pág. única, 3 parágrafos + box — T1)
+> 3. `M3P2L4p2.html` — Atividade 4 "Linguagem, leitura e Bibliotecas Comunitárias na Primeira Infância" (H5P, 3 questões 1-correta — T17)
+> 4. `M3P2L5p1.html` — Lição 5 p1 "Lugar de criança é na Biblioteca Comunitária!" (texto + box central — T1)
+> 5. `M3P2L5p2.html` — Lição 5 p2 "Crianças também têm direitos como leitoras!" (vídeo "Os direitos do pequeno leitor", 01min48s, canal Conto Genial — §4.14)
+> 6. `M3P2L5p3.html` — Atividade 5 "Crianças, seus direitos de pequenas leitoras e Bibliotecas Comunitárias" (H5P, 3 questões)
+> 7. `M3P2L6p1.html` — Lição 6 pág. única "Brincar de ler" (texto + vídeo "Brincar de Ler", 02min33s, canal Palavra Cantada Oficial)
+> 8. `M3P2L6p2.html` — Atividade 6 "Jeitos de brincar de ler" (H5P múltiplas respostas — 8 afirmações: 6 {Sim}, 2 não)
+> 9. `M3P2L7p1.html` — Lição 7 pág. única "Livros ao alcance das mãozinhas" (texto + CARROSSEL com 4 cards; ilustrações `M3P2L7p1img1`–`img4` já em `assets/images/ilustracoes/M3/` com alt em `descricoes.md`) — T18; carrossel × grade ainda a confirmar com o mestre antes deste ciclo
+> 10. `M3P2L7p2.html` — Atividade 7 "Pensando um espaço para as infâncias" (H5P, 3 questões)
+> 11. `M3P2F2.html` — Fórum 2 "Compartilhando Ideias" — "Olhando a Biblioteca Comunitária com olhos de criança" (ÚLTIMA atividade da parte — N3.5.3 ✔; espelha M3P1F1)
+> **Placeholders H5P previstos:** `M3P2L4p2-h5p-multipla_escolha.h5p`, `M3P2L5p3-h5p-multipla_escolha.h5p`, `M3P2L6p2-h5p-multipla_escolha_multiplas.h5p`, `M3P2L7p2-h5p-multipla_escolha.h5p` (arquivos H5P criados SEMPRE pelo mestre; agente avisa parte/lição/página e aguarda).
+> **OBSERVAÇÕES DO DI (fiel, nada corrigido):** typo do autor "FIM DALIÇÃO 8" (fora da P2); legendas de vídeo já no padrão §4.14; títulos de lição com "!" (L5) mantidos.
+> **PENDÊNCIA TÉCNICA:** terminal do ambiente indisponível nesta sessão (run_commands falha para qualquer comando, inclusive `pwd` e `code -r`) — commit/push e abertura no VS Code não executados; mestre deve abrir o arquivo manualmente.
+> **PRÓXIMO CICLO (após validação do label):** M3P2L4p1 — planejar em PLAN MODE.
+
+---
+
+## 📍 SESSÃO 23/09/2026 — REMOÇÃO DO BLOCO ANTIGO (DUPLICADO) DOS ENCONTROS SÍNCRONOS ✅ (aguardando validação do mestre)
+
+> **ARQUIVO:** `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` — removido o bloco antigo do Encontro I (formato anterior, duplicado, linhas 51–89). Mantidos: bloco novo (formato blog, mais recente no topo) + `<hr>` laranja `#D96F1A` como linha final do bloco (decisão do mestre), pronta para separar o próximo encontro futuro.
+> **PENDENTE:** validação pelo mestre e colagem da versão no Moodle (substituir conteúdo da página "Encontros Síncronos").
+
+---
+
 ## 📍 SESSÃO 22/09/2026 — APRESENTAÇÃO DO MÓDULO 3 CRIADA ✅ (aguardando validação do mestre)
 
 > **ARQUIVO:** `templates/pages/M3/M3-Apresentacao_do_modulo_3.html` — substituído placeholder `[Em elaboração]` pelo conteúdo completo do novo DI.
