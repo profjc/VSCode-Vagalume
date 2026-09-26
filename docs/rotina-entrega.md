@@ -71,6 +71,8 @@ Ao finalizar cada ciclo, entregar um quadro como este:
     | **H5P placeholder** | `[ARQUIVO_H5P: …h5p]` (ou "Nenhum") |
     | **Observações** | posicionamento, colagens pendentes, etc. |
 
+> **NÃO devolver o código HTML na janela do chat (26/09/2026 — decisão do mestre):** a entrega no chat é **apenas o quadro** acima (nome da página, lição, arquivo e H5P). O HTML fica no repositório e é aberto no VS Code com `code -r <caminho>` como **última ação do ACT**; o mestre copia direto do editor. Precedente: ciclo da página `M3P3L1p1` (26/09/2026).
+
 ---
 
 ## §4 — Checklist de Conferência Pré-Entrega

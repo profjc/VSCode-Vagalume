@@ -990,6 +990,7 @@ As práticas de acolhimento ajudam a fortalecer vínculos e relações de confia
 **TÍTULO: Cuidado e bem-estar se constroem em comunidade** 
 
 [\[inserir foto de acervo Vaga Lume\] ](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCaieNL-DNKTqSI-Bvzo8fCAc7jvTF9jnP-PXy811eAnIk?e=g748tU)
+<!-- ASSET: assets/images/ilustracoes/M3/M3P3L2p1-cuidado_em_comunidade.jpg | 1280×853 | 260 KB | Alt: Jovem mostra um livro infantil aberto ("Tango de Gato") para uma senhora idosa, enquanto uma mulher amamenta um bebê no colo, em um quintal rural. -->
 
 Ao longo desse nosso percurso formativo, compreendemos que cuidar de uma criança não é responsabilidade de uma única pessoa. **O cuidado acontece nas relações construídas entre famílias, pessoas cuidadoras, vizinhos, escolas, serviços públicos, espaços culturais e todos aqueles que, de diferentes maneiras, estão em contato com a Primeira Infância**. Da mesma forma, o bem-estar de bebês, crianças pequenas e seus cuidadores e cuidadoras não é resultado apenas de escolhas individuais, mas de redes de apoio e convivência que fortalecem quem cuida e quem é cuidado. 
 
@@ -1021,7 +1022,9 @@ Cuidar de bebês e crianças pequenas é uma responsabilidade compartilhada entr
 
 De que maneiras uma Biblioteca Comunitária pode contribuir para as redes de cuidado e bem-estar do território?
 
-Selecione **todas as alternativas corretas**.
+Selecione **todas as TRÊS alternativas corretas**.
+
+<!-- ALTERAÇÃO DO MESTRE (26/09/2026): comanda ajustada para indicar o número de alternativas corretas — "Selecione todas as TRÊS alternativas corretas." (negrito do autor preservado no trecho). Aplicada na página M3P3L2p3.html e no texto da questão do H5P M3P3L2p3-h5p-multipla_escolha_multiplas.h5p. -->
 
 **\[FECHAR BOX\]**
 

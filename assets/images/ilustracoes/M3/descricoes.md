@@ -18,6 +18,7 @@
 | 10 | `M3P1L3p1-card3-troca_de_saberes.jpg` | 1140×760 | 210 KB | [card3_lição3](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDuGBCTxjZxSaRIdrIP-jmLASABIMFyTbxsUMcjetWbSrk?e=MTnc82) | Lição 3, Pág. 1 — Card 3 "Espaço de troca de saberes" | Idosa conversa com crianças e adolescentes sentados ao redor, sob uma grande árvore. | ✅ aprovado |
 | 11 | `M3P1L3p1-card4-escuta_e_participacao.jpg` | 1140×760 | 270 KB | [card4_lição3](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDmIgwoxzkVRKW3Kr2RjlusAaPDzElQXvDBogPs-0YHS-Y?e=anmqxW) | Lição 3, Pág. 1 — Card 4 "Espaço de escuta e participação" | Pessoas de diferentes idades conversam em roda, sentadas em cadeiras com pranchetas, em varanda de madeira. | ✅ aprovado |
 | 12 | `M3P1L3p1-card5-mobilizacao_comunitaria.jpg` | 1353×760 | 439 KB | [card5_lição3](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQA4L5CiNeglT5HMDAxzfTQFARgPiMVrR3SE0nmEbjSLNpI?e=z3YbaA) | Lição 3, Pág. 1 — Card 5 "Espaço de mobilização comunitária" | Vista aérea de grande roda de pessoas de mãos dadas ao redor de mesas com materiais, sob árvores. | ✅ aprovado |
+| 13 | `M3P3L2p1-cuidado_em_comunidade.jpg` | 1280×853 | 260 KB | [móduloIII_parte3_lição9](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQCaieNL-DNKTqSI-Bvzo8fCAc7jvTF9jnP-PXy811eAnIk?e=g748tU) | Lição 2 (DI Lição 9), Pág. 1 — "Cuidado e bem-estar se constroem em comunidade" | Jovem mostra um livro infantil aberto ("Tango de Gato") para uma senhora idosa, enquanto uma mulher amamenta um bebê no colo, em um quintal rural | 🔄 rascunho |
 
 ---
 
@@ -27,7 +28,7 @@ Conteúdos citados no DI sem link/imagem entregue (17/09/2026):
 
 | # | Item | Linha no DI | Descrição |
 |---|---|---|---|
-| 1 | Fotos de acervo Vaga Lume ×1 | 1171 | `[Inserir foto do acervo Vaga Lume]` — aguardando autor (linhas 258, 268, 278, 288, 298 resolvidas em 24/09/2026, assets `M3P1L3p1-card1~5-*.jpg`; aguardando upload no Moodle) |
+| ~~1~~ | ~~Fotos de acervo Vaga Lume~~ | 992 | 🟢 **RESOLVIDO (26/09/2026)** — última ocorrência (Lição 2, Pág. 1) processada: `M3P3L2p1-cuidado_em_comunidade.jpg` (1280×853, 260 KB) + descrição longa aprovada. As demais (linhas 174, 302, 313, 324 = L2/P1 e cards 1–5) foram resolvidas em 24/09/2026 |
 | 2 | Carteirinha de leitora | 967 | Imagem + versão para impressão |
 | 3 | Caderno de Memórias | 1013 | Imagem + versão para impressão |
 | 4 | Modelo de Regimento | 1029 | Arquivo para disponibilizar |

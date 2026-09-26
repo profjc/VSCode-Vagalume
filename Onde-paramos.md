@@ -1,3 +1,98 @@
+## 🚀 PLANO APROVADO — PARTE 4 DO MÓDULO 3: "GESTÃO DE BIBLIOTECAS COMUNITÁRIAS" (próxima sessão)
+
+> **FONTE:** `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linhas 1115–1641. **DI Lições 10, 11 e 12 → Lições 1, 2 e 3 da Parte 4.**
+> **ESTRUTURA:** 3 Lições + Fórum 4 + Síntese + Referências = **15 ciclos** (1 arquivo por ciclo, PLAN → ACT → validação).
+>
+> | # | Ciclo | Arquivo | Conteúdo / mídia |
+> |---|---|---|---|
+> | 0 | Label da Parte 4 | `templates/pages/labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html` | "Parte 4 — Gestão de Bibliotecas Comunitárias" (padrão M3_Label_Parte3) |
+> | 1 | L1 · P1 | `templates/pages/M3/Parte4/Licao1/M3P4L1p1.html` | "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" — 2 § + caixa de destaque + 2 § + vídeo `BcKH3nxcMWE` (11min42s) |
+> | 2 | L1 · P2 (atividade) | `.../M3P4L1p2.html` | "Atividade: Refletindo sobre gestão cultural" — H5P 4 questões MC simples (correta = B nas 4) → `M3P4L1p2-h5p-multipla_escolha.h5p` |
+> | 3 | L2 · P1 | `templates/pages/M3/Parte4/Licao2/M3P4L2p1.html` | "Compartilhar a gestão, construir responsabilidades coletivas" — 3 § + vídeo Shorts `ol5CRV6CDC4` (48s) |
+> | 4 | L2 · P2 | `.../M3P4L2p2.html` | "Modos de realizar a gestão compartilhada" — 4 § + vídeo `pZohuyYUyjg` (3min48s) |
+> | 5 | L2 · P3 (atividade) | `.../M3P4L2p3.html` | "Atividade: Compartilhando a gestão da Biblioteca Comunitária" — H5P de associação 4↔4 + caixa "Feedback final" → `M3P4L2p3-h5p-associacao.h5p` |
+> | 6 | L3 · P1 | `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` | "Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" — tirinha Stahler + 2 § |
+> | 7 | L3 · P2 | `.../M3P4L3p2.html` | "Carteirinha de leitoras e leitores" — lista numerada (4 passos) + pendência do autor |
+> | 8 | L3 · P3 | `.../M3P4L3p3.html` | "Caderno de Memórias" — passo a passo + pendência do autor |
+> | 9 | L3 · P4 | `.../M3P4L3p4.html` | "Regimento da Biblioteca Comunitária" + pendência do autor |
+> | 10 | L3 · P5 | `.../M3P4L3p5.html` | "Plano de Ação" — caixa com 4 tipos de ações + pendência do autor |
+> | 11 | L3 · P6 (atividade) | `.../M3P4L3p6.html` | "Atividade: Revendo a função de alguns instrumentais de gestão" — H5P de associação 4↔4 → `M3P4L3p6-h5p-associacao.h5p` |
+> | 12 | Fórum 4 | `templates/pages/M3/Parte4/M3P4F1.html` | "Pensando a gestão da Biblioteca Comunitária da qual faço parte" (Moodle: `Compartilhando Ideias`) — última atividade da Parte (N3.5.3) |
+> | 13 | Label Parte 5 + Síntese | `labels/M3_Label_Parte5_Sintese_do_modulo_3.html` + `Parte5/M3P5P1.html` | "O que aprendemos no Módulo 3?" — 6 blocos + celebração |
+> | 14 | Referências | `Parte5/M3P5P2.html` | "Referências Bibliográficas — Módulo 3" (9 vídeos ABNT, DI 1621–1641) |
+>
+> ### ❓ DECISÕES A CONFIRMAR (não bloqueiam o início pelo Label)
+> 1. **Fórum 4:** caixa "Compartilhando ideias" (DI — fiel ao autor) × "Para participar" (convenção dos Fóruns 1–3). Recomendação: manter fiel (N2.5).
+> 2. **Tirinha Stahler:** renomear `M3P3L10p1-tirinha-stahler.png` → `M3P4L3p1-tirinha-stahler.png` (numeração nova) + atualizar `descricoes.md` e a referência no DI; validar a descrição longa (status atual: 🔄 rascunho).
+> 3. **Pendências do autor** (carteirinha, Caderno de Memórias, Regimento, Plano de Ação — imagens/PDF + versão para impressão): gerar as páginas com bloco marcado "⚠️ APAGAR ESTE BLOCO" + placeholder de link/arquivo (proposta nova, só para arquivos — a regra atual cobre apenas imagens) × aguardar a entrega do autor.
+> 4. **Atividade 12:** `[Feedback geral ao concluir]` no H5P (feedback geral) × caixa "Feedback final" na página (precedente P1L3).
+> 5. **Vídeo Shorts** (`ol5CRV6CDC4`): sem precedente no projeto — confirmar embed direto, com fallback thumb + link.
+> 6. **Numeração da atividade da Lição 3:** `M3P4L3p6.html` (6ª página da lição) — confirmar.
+>
+> **ORDEM SUGERIDA:** ciclo 0 (Label da Parte 4) → Lição 1 (ciclos 1–2) → Lição 2 (3–5) → Lição 3 (6–11) → Fórum 4 (12) → Síntese/Referências (13–14).
+
+---
+
+
+## 📍 26/09/2026 — PARTE 3 DO MÓDULO 3 ✅ COMPLETA E VALIDADA (encerramento de sessão)
+
+> **FONTE:** `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linhas 982–1080. **DI Lição 9 → Lição 2 da Parte 3** (mapeamento oficial).
+> **LIÇÃO NO MOODLE:** `Promovendo Cuidado e Bem-estar`.
+>
+> ### 🖼️ Imagem processada (roteiro §72–86)
+> - **Original:** `temp/módulo 3 - Cuidado e bem-estar se constroem em comunidade.jpg` (6000×4000, 1,47 MB) — entregue pelo mestre; **visão confirmada** (imagem lida e descrita pelo Cline).
+> - **Asset:** `assets/images/ilustracoes/M3/M3P3L2p1-cuidado_em_comunidade.jpg` (1280×853, 260 KB) — `convert -resize 1280x -quality 82 -strip`.
+> - **`descricoes.md`:** **linha #13** adicionada na tabela de características + **tabela de pendências do autor**: item 1 marcado 🟢 **RESOLVIDO** (última ocorrência de foto do acervo VL).
+> - **`pendencias-M3.md`:** item **13** 🟢 resolvido (Parte 3, Lição 2, Pág. 1).
+> - **DI:** referência cruzada `<!-- ASSET: ... -->` inserida logo após o link SharePoint (linha 992 → comentário na 993).
+> - **`temp/`:** limpa após o processamento (original preservado no SharePoint + assets).
+>
+> ### 📄 Páginas geradas
+> ✅ `templates/pages/M3/Parte3/Licao2/M3P3L2p1.html` — "Cuidado e bem-estar se constroem em comunidade" (2 parágrafos com `<strong>` fiéis ao autor + foto do acervo flutuante à direita, descrição longa `sr-only` + `aria-labelledby` + legenda "Fonte: Acervo Vaga Lume") — **VALIDADA no Moodle (26/09/2026)**, com a imagem real já inserida.
+> ✅ `templates/pages/M3/Parte3/Licao2/M3P3L2p2.html` — "A Biblioteca Comunitária nas redes de cuidado" (3 parágrafos corridos, sem mídia, `<strong>` fiéis ao autor; espelha `M3P3L1p1.html`) — **VALIDADA no Moodle (26/09/2026)**.
+> ✅ `templates/pages/M3/Parte3/Licao2/M3P3L2p3.html` — Atividade "Contribuições das Bibliotecas Comunitárias para o cuidado e bem-estar" (intro + caixa "Colocando em prática" com a comanda ajustada + placeholder `[ARQUIVO_H5P: M3P3L2p3-h5p-multipla_escolha_multiplas.h5p]`; **sem** caixa de Feedback final) — **VALIDADA no Moodle (26/09/2026)**, com o H5P inserido.
+> 🗄️ **H5P arquivado (26/09/2026):** `assets/h5p/M3/M3P3L2p3-h5p-multipla_escolha_multiplas.h5p` (995 KB) — conferido por leitura: 1 questão, `type: multi`, gabarito **A/B/D corretas · C incorreta**, 8 feedbacks preenchidos (*marcada*/*não marcada*); `temp/` ficou vazia.
+> ✅ `templates/pages/M3/Parte3/M3P3F1.html` — Fórum "Como a Biblioteca Comunitária pode promover acolhimento, cuidado e bem-estar?" (T23; comentário "Fórum 1" por convenção de numeração por Parte; nome no Moodle: `Compartilhando Ideias`) — **VALIDADO no Moodle (26/09/2026)**. **PARTE 3 CONCLUÍDA:** Lições 1 e 2 + Fórum 3 + H5Ps validados.
+> **SESSÃO ENCERRADA (26/09/2026):** commit + push realizados; `temp/` vazia; próximo passo = Parte 4 (plano aprovado no topo deste arquivo).
+> **DI (linha 1025):** comanda alterada para "Selecione **todas as TRÊS alternativas corretas**." por decisão do mestre; comentário de registro inserido na linha 1027.
+>
+> ### 🔜 Plano aprovado da Lição 2 (3 arquivos, 1 por ciclo — PLAN → ACT → validação)
+> 1. ✅ `M3P3L2p1.html` — Página 1 "Cuidado e bem-estar se constroem em comunidade" — **VALIDADA no Moodle (26/09/2026)**
+> 2. ✅ `M3P3L2p2.html` — Página 2 "A Biblioteca Comunitária nas redes de cuidado" (3 parágrafos corridos, sem mídia) — **VALIDADA no Moodle (26/09/2026)**
+> 3. ✅ `M3P3L2p3.html` — Atividade "Contribuições das Bibliotecas Comunitárias para o cuidado e bem-estar" (intro + box "Colocando em prática" + H5P de múltiplas respostas corretas A/B/D — C incorreta; T17; sem caixa de feedback final) — **VALIDADA no Moodle (26/09/2026)** — H5P arquivado: `assets/h5p/M3/M3P3L2p3-h5p-multipla_escolha_multiplas.h5p`
+>
+> **NAVEGAÇÃO (mestre, no Moodle):** P1 = primeira da lição (só "Próximo") · P2 = intermediária · P3 = última ("Anterior" + "Finalizar").
+> **PARTE 3 ENCERRADA:** Fórum → `templates/pages/M3/Parte3/M3P3F1.html` (T23; nome no Moodle: `Compartilhando Ideias`; última atividade da Parte 3, N3.5.3) — **VALIDADO (26/09/2026)**.
+> **PRÓXIMO BLOCO:** Parte 4 — Gestão de Bibliotecas Comunitárias (plano completo no topo deste arquivo; DI linhas 1115–1641).
+
+---
+
+
+## 📍 26/09/2026 — LABEL DA PARTE 3 DO MÓDULO 3 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **ARQUIVO GERADO:** `templates/pages/labels/M3_Label_Parte3_Territorios_do_cuidado_e_bem-estar.html` — Label "Parte 3 — Territórios do cuidado e bem-estar" (espelha o template `M3_Label_Parte2`: borda verde `#587C41`, fundo bege `#FAEBDD`, span "Parte 3", h2 marrom `#5B3925`). Título conforme o DI (`content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linha 878).
+> **PRÓXIMO CICLO:** Lição 1 da Parte 3 — plano aprovado (ver bloco abaixo).
+
+---
+
+## 📋 PLANO APROVADO — PARTE 3 DO MÓDULO 3: LIÇÃO 1 ("Espaços de Acolhimento")
+
+> **FONTE:** `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linhas 878–980. **DI Lição 8 → Lição 1 da Parte 3** (mapeamento oficial, linhas 3–8).
+> **DECISÃO DO MESTRE (26/09/2026):** Página 1 com os **3 parágrafos corridos, sem caixa** (o fecho não vai em `vagalume-sinopse`).
+> **LIÇÃO NO MOODLE:** `Espaços de Acolhimento`.
+> **3 arquivos, 1 por ciclo (PLAN → ACT → validação):**
+> 1. ✅ `templates/pages/M3/Parte3/Licao1/M3P3L1p1.html` — Página 1 "As Bibliotecas Comunitárias são espaços fundamentais de acolhimento" (3 parágrafos corridos; `<strong>` fiéis ao autor) — **VALIDADA no Moodle (26/09/2026)**
+> 2. ✅ `M3P3L1p2.html` — Página 2 "O que torna um espaço acolhedor?" (parágrafos + vídeo `cGDSSRtlKl0`, T13) — **VALIDADA no Moodle (26/09/2026)**
+> 3. ⏳ `M3P3L1p3.html` — Atividade "Refletindo sobre acolhimento nas Bibliotecas Comunitárias" (intro + box "Colocando em prática" + H5P, T17; sem caixa de feedback final) — **GERADA, aguardando validação do mestre**
+> **H5P ARMAZENADO (26/09/2026):** `assets/h5p/M3/M3P3L1p3-h5p-verdadeiro_falso.h5p` (1,0 MB; pacote `H5P.QuestionSet` com questões `H5P.MultiChoice`) — recebido em `temp/` com o nome já correto e movido para `assets/h5p/M3/`; **`temp/` ficou vazia**.
+> ✅ **H5P CONFERIDO E ARQUIVADO (26/09/2026):** a primeira versão recebida tinha **3 questões**; você corrigiu no Moodle e o arquivo atualizado chegou em `temp/` — conferido por leitura (**4 questões**, gabaritos **F, V, F, V**, conforme o DI) e arquivado em `assets/h5p/M3/M3P3L1p3-h5p-verdadeiro_falso.h5p` (substituindo a versão anterior); **`temp/` ficou vazia**.
+> **NOMES NO MOODLE:** P1 = "As Bibliotecas Comunitárias são espaços fundamentais de acolhimento" · P2 = "O que torna um espaço acolhedor?" · P3 = "Atividade: Refletindo sobre acolhimento nas Bibliotecas Comunitárias".
+> **H5P (a criar pelo mestre):** `M3P3L1p3-h5p-verdadeiro_falso.h5p` (4 questões V/F — F, V, F, V; feedbacks nas linhas 938–978).
+> **NAVEGAÇÃO (mestre, no Moodle):** P1 = primeira da lição (só "Próximo") · P2 = intermediária · P3 = última ("Anterior" + "Finalizar").
+> **FORA DESTE PLANO:** Fórum 3 (`M3P3F1.html`) — última atividade da Parte (N3.5.3), entra no plano após a Lição 2.
+
+---
+
 ## 📍 24/09/2026 — ⬆️ COMMIT DE ENCERRAMENTO DE SESSÃO
 
 ### ✅ Concluído nesta sessão
@@ -72,7 +167,7 @@ Passos executados para `M3P1L2p1` (foto do acervo) — repetir para cada pendên
 | 6 | Foto do acervo VL — Card 3 | Lição 3, Pág. 1 — Card 3 | `M3P1L3p1-card3-{slug}.jpg` | ⏳ Aguardando autor |
 | 7 | Foto do acervo VL — Card 4 | Lição 3, Pág. 1 — Card 4 | `M3P1L3p1-card4-{slug}.jpg` | ⏳ Aguardando autor |
 | 8 | Foto do acervo VL — Card 5 | Lição 3, Pág. 1 — Card 5 | `M3P1L3p1-card5-{slug}.jpg` | ⏳ Aguardando autor |
-| — | Foto do acervo VL (linha 1171) | *(Parte 3/4 — determinar ao chegar)* | — | ⏳ Aguardando autor |
+| ~~—~~ | ~~Foto do acervo VL (linha 1171)~~ | Lição 2, Pág. 1 (DI linha 992) | `M3P3L2p1-cuidado_em_comunidade.jpg` (1280×853, 260 KB) | 🟢 **RESOLVIDO** (26/09/2026) |
 
 > **Próximo passo planejado:** quando o mestre entregar as 6 fotos restantes do acervo Vaga Lume, repetir o roteiro acima para cada uma. A Parte 2 (Territórios da Primeira Infância) tem suas **4 ilustrações já em assets** (`M3P2L7p1img1-4`) — a geração do carrossel/cards da Lição 4 (M3P2L4p1) pode prosseguir independentemente, pois os assets estão prontos.
 > **Commit+push:** após cada lote de imagens (ou acumulado ao final de cada sessão, com autorização do mestre).
