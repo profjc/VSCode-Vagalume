@@ -67,4 +67,4 @@
 | Livros sobre mesa laranja | L7 Card 2 — "Um ambiente que acolhe" | `M3P2L7p1img2-livros_sobre_mesa.png` |
 | Bananeira (3 crianças) | L7 Card 3 — "Acervo Primeira Infância" | `M3P2L7p1img3-criancas_bananeira.png` |
 | Livro sobre a cabeça | L7 Card 4 — "Livros feitos para serem usados" | `M3P2L7p1img4-livro_sobre_cabeca.png` |
-| Tirinha Stahler (carteirinha) | L10 P1 — "Conheça instrumentos…" (Parte III) | `M3P3L10p1-tirinha-stahler.png` |
+| Tirinha Stahler (carteirinha) | L3 P1 — "Conheça instrumentos…" (Parte 4) | `M3P4L3p1-tirinha-stahler.png` |

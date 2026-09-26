@@ -5,13 +5,13 @@
 >
 > | # | Ciclo | Arquivo | Conteúdo / mídia |
 > |---|---|---|---|
-> | 0 | Label da Parte 4 | `templates/pages/labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html` | "Parte 4 — Gestão de Bibliotecas Comunitárias" (padrão M3_Label_Parte3) |
-> | 1 | L1 · P1 | `templates/pages/M3/Parte4/Licao1/M3P4L1p1.html` | "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" — 2 § + caixa de destaque + 2 § + vídeo `BcKH3nxcMWE` (11min42s) |
-> | 2 | L1 · P2 (atividade) | `.../M3P4L1p2.html` | "Atividade: Refletindo sobre gestão cultural" — H5P 4 questões MC simples (correta = B nas 4) → `M3P4L1p2-h5p-multipla_escolha.h5p` |
-> | 3 | L2 · P1 | `templates/pages/M3/Parte4/Licao2/M3P4L2p1.html` | "Compartilhar a gestão, construir responsabilidades coletivas" — 3 § + vídeo Shorts `ol5CRV6CDC4` (48s) |
-> | 4 | L2 · P2 | `.../M3P4L2p2.html` | "Modos de realizar a gestão compartilhada" — 4 § + vídeo `pZohuyYUyjg` (3min48s) |
-> | 5 | L2 · P3 (atividade) | `.../M3P4L2p3.html` | "Atividade: Compartilhando a gestão da Biblioteca Comunitária" — H5P de associação 4↔4 + caixa "Feedback final" → `M3P4L2p3-h5p-associacao.h5p` |
-> | 6 | L3 · P1 | `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` | "Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" — tirinha Stahler + 2 § |
+> | 0 | Label da Parte 4 ✅ | `templates/pages/labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html` | "Parte 4 — Gestão de Bibliotecas Comunitárias" (padrão M3_Label_Parte3) — **GERADA 26/09/2026, aguardando validação** |
+> | 1 | L1 · P1 ✅ | `templates/pages/M3/Parte4/Licao1/M3P4L1p1.html` | "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" — 2 § + caixa de destaque + 2 § + vídeo `BcKH3nxcMWE` (11min42s) — **GERADA 26/09/2026, aguardando validação** |
+> | 2 | L1 · P2 (atividade) ✅ | `.../M3P4L1p2.html` | "Atividade: Refletindo sobre gestão cultural" — H5P 4 questões MC simples (correta = B nas 4) → `M3P4L1p2-h5p-multipla_escolha.h5p` — **GERADA 26/09/2026 + H5P arquivado, aguardando validação** |
+> | 3 | L2 · P1 ✅ | `templates/pages/M3/Parte4/Licao2/M3P4L2p1.html` | "Compartilhar a gestão, construir responsabilidades coletivas" — 3 § + chamada + vídeo Shorts `ol5CRV6CDC4` (48s, **embed vertical 9:16**) — **GERADA 26/09/2026, aguardando validação** |
+> | 4 | L2 · P2 ✅ | `.../M3P4L2p2.html` | "Modos de realizar a gestão compartilhada" — 3 § + chamada + vídeo `pZohuyYUyjg` (3min48s, bloco 16:9; embed verificado por oEmbed) — **GERADA 26/09/2026, aguardando validação** |
+> | 5 | L2 · P3 (atividade) ✅ | `.../M3P4L2p3.html` | "Atividade: Compartilhando a gestão da Biblioteca Comunitária" — H5P **de múltipla escolha** (4 situações ↔ 4 aspectos; as 4 alternativas fixas) + caixa "Feedback final" → `M3P4L2p3-h5p-multipla_escolha.h5p` — **VALIDADA no Moodle (26/09/2026); H5P conferido e arquivado** |
+> | 6 | L3 · P1 ✅ | `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` | "Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" — tirinha Stahler (404×306, descrição longa aprovada) + 2 § — **VALIDADA no Moodle (26/09/2026)** |
 > | 7 | L3 · P2 | `.../M3P4L3p2.html` | "Carteirinha de leitoras e leitores" — lista numerada (4 passos) + pendência do autor |
 > | 8 | L3 · P3 | `.../M3P4L3p3.html` | "Caderno de Memórias" — passo a passo + pendência do autor |
 > | 9 | L3 · P4 | `.../M3P4L3p4.html` | "Regimento da Biblioteca Comunitária" + pendência do autor |
@@ -30,6 +30,109 @@
 > 6. **Numeração da atividade da Lição 3:** `M3P4L3p6.html` (6ª página da lição) — confirmar.
 >
 > **ORDEM SUGERIDA:** ciclo 0 (Label da Parte 4) → Lição 1 (ciclos 1–2) → Lição 2 (3–5) → Lição 3 (6–11) → Fórum 4 (12) → Síntese/Referências (13–14).
+
+---
+
+## 📍 26/09/2026 — LABEL DA PARTE 4 DO MÓDULO 3 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **ARQUIVO GERADO:** `templates/pages/labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html` — Label "Parte 4 — Gestão de Bibliotecas Comunitárias" (espelha o template `M3_Label_Parte3`: borda verde `#587C41`, fundo bege `#FAEBDD`, span "Parte 4", h2 marrom `#5B3925`). Título conforme o DI (`content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linha 1115, "PARTE 4 – GESTÃO DE BIBLIOTECAS COMUNITÁRIAS").
+> **PROCEDÊNCIA:** estrutura confirmada por `diff` contra o Label da Parte 3 — idêntica, apenas o número e o título diferem.
+> **PRÓXIMO CICLO:** ciclo 2 — `templates/pages/M3/Parte4/Licao1/M3P4L1p2.html` (atividade "Refletindo sobre gestão cultural": intro + caixa "Colocando em prática" + H5P `M3P4L1p2-h5p-multipla_escolha.h5p`, 4 questões com correta B).
+
+---
+
+## 📍 26/09/2026 — M3P4L1p1 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao1/M3P4L1p1.html` — "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" (Módulo 3 - Parte 4 - Lição 1 - Página 1).
+> **LIÇÃO NO MOODLE:** `Gestão como Prática Cultural` (título do autor, DI linha 1119).
+> **ESTRUTURA:** 2 parágrafos + caixa de destaque (T1, `.vagalume-destaque-bloco mb-4` + `<p class="mb-0">`, texto do `[ABRIR BOX]` com `<strong>` do autor) + 2 parágrafos + vídeo `BcKH3nxcMWE` (T13, `col-lg-8`, embed) + legenda de créditos (§4.14) com `mb-0`. Sem imagem, sem H5P e sem pendência do autor.
+> **DECISÕES DO MESTRE (A/A):** caixa = `.vagalume-destaque-bloco mb-4`; "|" e "–" do título do vídeo convertidos em travessão `—` (precedente `M3P2L3p1`), tanto no atributo `title` quanto na legenda visível.
+> **FIDELIDADE:** texto visível conferido palavra a palavra contra o DI (linhas 1127–1147) — sem acréscimos nem omissões; nenhum `<strong>` inventado.
+> **PRÓXIMO CICLO:** ciclo 2 — `M3P4L1p2.html` (atividade: intro + caixa "Colocando em prática" + placeholder `[ARQUIVO_H5P: M3P4L1p2-h5p-multipla_escolha.h5p]`; 4 questões, correta **B** nas quatro — H5P a criar pelo mestre no Moodle).
+
+---
+
+## 📍 26/09/2026 — M3P4L1p2 GERADA + H5P ARQUIVADO ✅ (aguardando validação no Moodle)
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao1/M3P4L1p2.html` — "Atividade: Refletindo sobre gestão cultural" (T17: 1 § de retomada + caixa "Colocando em prática" com ícone `fa fa-pencil-square` + card H5P com placeholder `[ARQUIVO_H5P: M3P4L1p2-h5p-multipla_escolha.h5p]`; **sem** caixa de feedback final — o DI da Atividade 10 não traz feedback geral, alinhado ao precedente `M3P3L2p3`).
+> **H5P CONFERIDO E ARQUIVADO (26/09/2026):** `assets/h5p/M3/M3P4L1p2-h5p-multipla_escolha.h5p` (1,0 MB; pacote `H5P.QuestionSet` com `H5P.MultiChoice`, `passPercentage` 50, sem página de introdução) — entregue pelo mestre em `temp/` com o nome correto; conferido por leitura: **4 questões**, **gabarito B nas quatro**, enunciados ("Essa afirmação significa que:" / "Nesse contexto, escutar significa:" / "Isso significa que:" / "Essa afirmação quer dizer que:") e feedbacks de acerto ("**Isso mesmo!**…") e de erro preenchidos conforme o DI (linhas 1167–1238); `temp/` ficou vazia (0 arquivos).
+> **PRÓXIMO CICLO:** ciclo 4 — Lição 2 (`Gestão como Prática Compartilhada`), Página 2: `templates/pages/M3/Parte4/Licao2/M3P4L2p2.html` ("Modos de realizar a gestão compartilhada" — 4 parágrafos + vídeo `pZohuyYUyjg`, 3min48s, bloco 16:9 padrão).
+
+---
+
+## 📍 26/09/2026 — M3P4L2p1 GERADA ⏳ AGUARDANDO VALIDAÇÃO (1º vídeo vertical do curso)
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao2/M3P4L2p1.html` — "Compartilhar a gestão, construir responsabilidades coletivas" (Módulo 3 - Parte 4 - Lição 2 - Página 1; lição no Moodle: `Gestão como Prática Compartilhada`).
+> **ESTRUTURA:** 3 parágrafos corridos + parágrafo de chamada ao vídeo (`mb-4`) + vídeo + legenda de créditos (`mb-0`). Sem imagem, sem H5P e sem pendência do autor. Navegação: primeira página da Lição 2 (só "Próximo").
+> **🎬 PRIMEIRO VÍDEO VERTICAL DO CURSO (decisão do mestre — opção B):** o Short `ol5CRV6CDC4` foi embedado no formato nativo 9:16 — bloco padrão (`row justify-content-center` › `col-lg-8`) com `max-width: 315px` no wrapper e iframe `.vagalume-video` com `width: 100%; height: 560px` (o `aspect-ratio: 16/9` da classe é neutralizado porque ambos os eixos são declarados inline). Registro na gaveta: `docs/regras-licoes-aprendidas.md` (entrada de 26/09/2026 — bloco 9:16 para Shorts verticais; o 16:9 segue padrão do curso).
+> **LEGENDA:** `Gestão de Bibliotecas Comunitárias: Desafios e Engajamento Comunitário (48s); canal: @Leonardoassis1` — minutagem mantida fiel ao DI (`48s`, sem normalizar para `00min48s`) e canal em formato handle `@`, ambos por decisão do mestre (primeiros registros do tipo no curso).
+> **PRÓXIMO CICLO:** ciclo 5 — `M3P4L2p3.html` (Atividade "Compartilhando a gestão da Biblioteca Comunitária": intro + caixa "Colocando em prática" + H5P de associação 4↔4 + caixa "Feedback final"; H5P a criar pelo mestre no Moodle e entregar em `temp/`).
+
+---
+
+## 📍 26/09/2026 — M3P4L2p2 GERADA ⏳ AGUARDANDO VALIDAÇÃO
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao2/M3P4L2p2.html` — "Modos de realizar a gestão compartilhada" (Módulo 3 - Parte 4 - Lição 2 - Página 2; lição no Moodle: `Gestão como Prática Compartilhada`).
+> **ESTRUTURA:** 3 parágrafos corridos + parágrafo de chamada ao vídeo (`mb-4`) + vídeo 16:9 + legenda de créditos (`mb-0`). Sem imagem, sem H5P e sem pendência do autor. Navegação: página intermediária da Lição 2 ("Anterior" + "Próximo").
+> **🔎 VÍDEO VERIFICADO POR OEMBED (procedimento novo, 26/09/2026):** `pZohuyYUyjg` — título real "Gestão de Bibliotecas Comunitárias", canal "Vaga Lume", **16:9 (horizontal)** e embed autorizado → bloco 16:9 padrão. Legenda: `Gestão de Bibliotecas Comunitárias (03min48s); canal: Vaga Lume`.
+> **✅ VERIFICAÇÃO RETROATIVA DO CICLO 3:** o oEmbed confirmou o Short `ol5CRV6CDC4` como **VERTICAL (113×200)** e com embed autorizado — a decisão (B) do ciclo 3 (bloco 9:16) estava correta. Notas informativas, sem alteração (fidelidade ao DI): canal real "Leonardo Assis" (`@Leonardoassis1`) e título real com ponto final.
+> **DECISÃO DO MESTRE (opção B — DI linha 1275):** redundância do verbo "acompanhar" corrigida na página para "…relacionados à biblioteca e às ações realizadas."; **comentário de registro inserido no DI** logo após a linha original (que permanece intacta como texto do autor).
+> **PRÓXIMO CICLO:** ciclo 6 — Lição 3 (`Instrumentos de Gestão`), Página 1: `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` ("Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" — tirinha do Stahler + 2 parágrafos; asset da tirinha **já renomeado e documentado em 26/09/2026** — ✅ ver bloco próprio mais abaixo).
+
+---
+
+## 📍 26/09/2026 — M3P4L2p3 VALIDADA ✅ + H5P ARQUIVADO (Lição 2 da Parte 4 encerrada)
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao2/M3P4L2p3.html` — "Atividade: Compartilhando a gestão da Biblioteca Comunitária" (Módulo 3 - Parte 4 - Lição 2 - Página 3; lição no Moodle: `Gestão como Prática Compartilhada`).
+> **ESTRUTURA:** 1 § de retomada + caixa "Colocando em prática" (ícone `fa fa-pencil-square` + comanda adaptada + lista dos 4 aspectos em `<ul>`) + card H5P (`mb-4`) + **caixa "Feedback final"** (card branco + borda laranja + `fa fa-lightbulb-o`, com os 2 parágrafos do DI) fechando com `mb-0`. Sem imagem e sem pendência do autor. Navegação: **última página da Lição 2** ("Anterior" + "Finalizar").
+> **DECISÕES DO MESTRE (1-A / 2-A):** (1) H5P **transformado de associação em múltipla escolha** — as 4 situações viram perguntas e os 4 aspectos viram as 4 alternativas fixas → arquivo/placeholder nomeados `M3P4L2p3-h5p-multipla_escolha.h5p`; (2) comanda adaptada para "**Leia cada situação e selecione o aspecto da gestão compartilhada que ela representa:**" e **sem** a linha "Cada opção deve ser utilizada uma vez." (não se aplica à MC); lista dos 4 aspectos mantida sem negrito, como no precedente `M3P1L2p3`.
+> **🗄️ H5P CONFERIDO E ARQUIVADO (26/09/2026):** `assets/h5p/M3/M3P4L2p3-h5p-multipla_escolha.h5p` (1,0 MB; pacote `H5P.QuestionSet`, `passPercentage` 50, título interno `M3P4L2p3-h5p-multipla_escolha`) — conferido por leitura: **4 questões**, **4 alternativas fixas** em todas (Participação nas decisões · Divisão de responsabilidades · Conselho de biblioteca · Responsabilidade coletiva) e **gabarito exatamente o combinado**: **Q1 = A · Q2 = B · Q3 = C · Q4 = D**, com as 4 situações do DI (linhas 1317–1339).
+> **✅ VALIDADA NO MOODLE (26/09/2026):** página aplicada com o H5P inserido. **LIÇÃO 2 DA PARTE 4 ENCERRADA** (3 páginas + 1 H5P).
+> **🧹 DUPLICATA REMOVIDA DE `temp/`:** junto ao novo H5P havia uma cópia re-exportada de `M3P4L1p2-h5p-multipla_escolha.h5p` — comparada com a versão arquivada (303 entradas, **0 com conteúdo diferente**; só carimbos de data interna) e apagada por decisão do mestre. `temp/` ficou vazia (0 arquivos).
+> **🔍 CONFERÊNCIA DA CAIXA "FEEDBACK FINAL" (pedido do mestre):** confirmada **idêntica** aos dois precedentes mais recentes (`M3P1L3p3` e `M3P2L3p2`) — mesmo comentário, `card vagalume-h5p-card mb-0` › `card-body`, ícone `fa fa-lightbulb-o` (1.5rem, `#d96f1a`), título `p.h6.font-weight-bold` (`#5b3925`) e último parágrafo com `mb-0`. Nenhuma divergência. **Confirmada pelo mestre na validação no Moodle (26/09/2026).**
+> **PRÓXIMO CICLO:** ciclo 6 — Lição 3 (`Instrumentos de Gestão`), Página 1 `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` (a planejar no PLAN; tirinha do Stahler **já tratada e renomeada**).
+
+---
+
+## 📍 26/09/2026 — IMAGEM DA LIÇÃO 3 TRATADA (tirinha do Stahler) ✅
+
+> **ATIVO RENOMEADO (numeração nova):** `M3P3L10p1-tirinha-stahler.png` → **`assets/images/ilustracoes/M3/M3P4L3p1-tirinha-stahler.png`** (404×306, 164 KB). O original reenviado pelo mestre em `temp/` (`móduloIII_parte3_lição10.png`) foi conferido por md5 (idêntico ao ativo arquivado — `f982adb7…`) e removido; `temp/` ficou vazia (0 arquivos).
+> **VISÃO CONFIRMADA (imagem lida pelo Cline + correção do mestre em 26/09/2026):** cartum de Stahler (2010, The Columbus Dispatch) **em um só quadro** — uma menina segura um **celular** na mão, ao lado de uma mulher adulta, de óculos, que mostra um **cartão vermelho (a carteirinha da biblioteca)**. **As duas falas são da mulher** ("Eu tenho um dispositivo menor do que esse que me dá acesso sem fio a milhares de livros e filmes" e "A carteira da biblioteca"); **a menina não fala**. ⚠️ Registro: a primeira leitura do Cline atribuiu à menina a fala do balão da esquerda — **corrigida pelo mestre**.
+> **ARQUIVOS ATUALIZADOS:** `assets/images/ilustracoes/M3/descricoes.md` (linha #6 — nome novo, contexto "Lição 3 (DI Lição 12), Pág. 1", descrição corrigida; status **✅ aprovado em 26/09/2026**) · `content/M3/analise-DI-M3.md` (§4 — nome novo) · **DI anotado:** comentário `<!-- ASSET: ... -->` inserido logo após o link SharePoint (linha 1365), com a descrição longa já corrigida.
+> **NOTA DE ESCOPO:** `docs/roteiro-inicializacao-modulo.md` (linha 154) **não** foi alterado — é o registro histórico da inicialização de 17/09/2026, com os nomes vigentes à época.
+> **FONTE DA IMAGEM (para a legenda da página):** o DI indica `https://bibliotecariovirtual.wordpress.com/2011/10/11/real-e-digital-coexistencia-pacifica-ou-nao/` — pela §4.15 a fonte em legenda de imagem é **texto puro, sem link** (a confirmar/aprovar no ciclo 6).
+> **PRÓXIMO CICLO:** ciclo 6 — Lição 3 (`Instrumentos de Gestão`), Página 1 `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` (tirinha do Stahler + 2 parágrafos — planejamento no PLAN).
+
+---
+
+## 📍 26/09/2026 — M3P4L3p1 VALIDADA ✅ (abertura da Lição 3)
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` — "Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" (Módulo 3 - Parte 4 - Lição 3 - Página 1; lição no Moodle: `Instrumentos de Gestão`).
+> **ESTRUTURA (mirror do precedente validado `M3P1L1p1`):** `<p class="sr-only" id="fig1-desc">` com a descrição longa + `<figure class="figure float-md-right ml-md-4 mb-4 d-block mx-auto" style="max-width: 404px; …" aria-labelledby="fig1-desc">` (bloco temporário `⚠️ APAGAR ESTE BLOCO` conferido por `diff` — **idêntico ao canônico `M2P4L3p1`** + imagem oficial `src="[cole a imagem aqui]"`, `alt=""`, `role="presentation"`, `width`/`height` 404×306, `loading="lazy"` + `<figcaption>` centralizada) + 2 parágrafos; container com `style="display: flow-root"`. Navegação: primeira página da Lição 3 (só "Próximo").
+> **DECISÕES DO MESTRE (1-A / 2-C):** (1) corrigida a contração ausente — "…e no planejamento **das** ações ao longo do ano." (**comentário de registro inserido no DI** logo após a linha original, que permanece intacta); (2) legenda de fonte em **texto puro, sem link** (§4.15): `Fonte: bibliotecariovirtual.wordpress.com (cartum de Stahler, 2010)`.
+> **ACESSIBILIDADE (N2.4.7):** descrição longa aprovada (menina com celular à esquerda; mulher de óculos à direita segurando o cartão vermelho; **as duas falas são da mulher**; a menina não fala) — sem duplicidade (`alt=""` + `role="presentation"`).
+> **ℹ️ REGISTRO DE LEITURA:** o marcador interno do DI diz `> INÍCIO DA LIÇÃO 10` dentro do bloco da Lição 12 (erro do próprio marcador; sem impacto na página).
+> **✅ VALIDADA NO MOODLE (26/09/2026):** página aplicada com a tirinha inserida pela mão do mestre — **abertura da Lição 3 da Parte 4 concluída**.
+> **PRÓXIMO CICLO:** ciclo 7 — `M3P4L3p2.html` ("Carteirinha de leitoras e leitores": 2 §§ + caixa com passo a passo numerado + **pendência do autor** — imagem/versão para impressão).
+
+---
+
+## 🔚 26/09/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização)
+
+> **PARTE 4 DO MÓDULO 3 — CICLOS 0 A 6 CONCLUÍDOS E VALIDADOS NO MOODLE:**
+> - ✅ Ciclo 0 — Label `M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html`
+> - ✅ Ciclo 1 — `M3P4L1p1.html` (Lição 1 · P1 — vídeo 16:9 `BcKH3nxcMWE`)
+> - ✅ Ciclo 2 — `M3P4L1p2.html` + H5P `M3P4L1p2-h5p-multipla_escolha.h5p` (4 questões, gabarito B nas quatro)
+> - ✅ Ciclo 3 — `M3P4L2p1.html` (Lição 2 · P1 — **1º vídeo vertical do curso**: Short `ol5CRV6CDC4`, bloco 9:16)
+> - ✅ Ciclo 4 — `M3P4L2p2.html` (Lição 2 · P2 — vídeo 16:9 `pZohuyYUyjg`)
+> - ✅ Ciclo 5 — `M3P4L2p3.html` + H5P `M3P4L2p3-h5p-multipla_escolha.h5p` (4 questões, gabarito A/B/C/D) + caixa "Feedback final"
+> - ✅ Ciclo 6 — `M3P4L3p1.html` (Lição 3 · P1 — tirinha do Stahler, descrição longa aprovada)
+>
+> **LIÇÕES DA PARTE 4:** Lição 1 `Gestão como Prática Cultural` ✅ · Lição 2 `Gestão como Prática Compartilhada` ✅ (encerrada) · Lição 3 `Instrumentos de Gestão` 🔄 (1 de 6 páginas).
+> **RETOMADA — PRÓXIMO CICLO:** ciclo 7 — `templates/pages/M3/Parte4/Licao3/M3P4L3p2.html` ("Carteirinha de leitoras e leitores": 2 §§ + caixa com passo a passo numerado de 4 itens + pendência do autor).
+> **PENDÊNCIAS DO AUTOR ABERTAS (Parte 4, Lição 3):** Carteirinha de leitoras e leitores (P2) · Caderno de Memórias (P3) · Modelo de Regimento (P4) · Modelo de Plano de Ação (P5) — todas pedem **imagem/arquivo + versão para impressão** (tabela em `assets/images/ilustracoes/M3/descricoes.md`).
+> **ESTADO DO REPOSITÓRIO (encerramento):** `temp/` vazia · `assets/h5p/M3/` com 11 H5Ps · tirinha renomeada para `M3P4L3p1-tirinha-stahler.png` e documentada (galeria + análise + DI) · commit + push desta sessão realizados · árvore Git limpa.
+> **COMO RETOMAR:** ler `Onde-paramos.md` + `docs/rotina-entrega.md` (leitura obrigatória — N3.0), conferir este bloco de encerramento e planejar o ciclo 7 no PLAN mode.
 
 ---
 

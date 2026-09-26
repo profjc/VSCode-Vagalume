@@ -118,6 +118,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | 10 | **Foco ao VS Code** | `code -r <caminho>` é a ÚLTIMA ação do ACT — nunca seguido de checkpoint update, chat ou outros comandos. |
 | 11 | **Commit+push** | Só com autorização explícita do mestre. Sequência anti-travamento: diagnóstico → `git commit -m` (uma linha) → `git push origin master` → verificação. |
 | 12 | **Vídeo padrão** | TODO vídeo é embedado por padrão (iframe YouTube). Só fallback (thumb + link) se o mestre avisar que NÃO é autorizado. |
+| 13 | **Vídeo vertical (Shorts)** | Conferir a orientação por **oEmbed** antes de montar a página. Shorts verticais usam o bloco **9:16** (`max-width: 315px` + `height: 560px`); o **16:9** (`560px` + `315px`) segue padrão para vídeos horizontais. Minutagem abaixo de 1 min fica fiel ao DI (ex.: `48s`). Precedente: `M3P4L2p1.html` (26/09/2026). |
 
 ---
 

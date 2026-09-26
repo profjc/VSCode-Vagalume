@@ -1274,6 +1274,8 @@ Gestão de Bibliotecas Comunitárias: Desafios e Engajamento Comunitário (48s);
 
 Uma forma prática de exercitar a gestão compartilhada é por meio da **criação de conselhos**: grupos formados por representantes da comunidade que se reúnem para discutir, decidir e acompanhar assuntos importantes relacionados à biblioteca e acompanhar as ações realizadas.
 
+<!-- DECISÃO DO MESTRE (26/09/2026) — opção B: a redundância do verbo "acompanhar" foi corrigida na página `M3P4L2p2.html` para "...relacionados à biblioteca e às ações realizadas." O texto do autor acima permanece intacto como registro. -->
+
 Conheça, agora, experiências de pessoas voluntárias da Vaga Lume que apresentam suas estratégias, desafios e aprendizados sobre como esses espaços de participação coletiva têm contribuído para fortalecer a gestão de suas bibliotecas. 
 
 \[Embedar vídeo\] 
@@ -1360,9 +1362,13 @@ Fonte: https://bibliotecariovirtual.wordpress.com/2011/10/11/real-e-digital-coex
 
 Link: [móduloIII\_parte3\_lição10](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQDKuI09RUcQT7AGc97ruFMpAfCoerM2ByBLft_OJIVWJRM?e=nVw6E5)
 
+<!-- ASSET: assets/images/ilustracoes/M3/M3P4L3p1-tirinha-stahler.png (404x306) — descrição longa: "Cartum de Stahler (2010, The Columbus Dispatch), em um só quadro. À esquerda, uma menina segura um celular na mão e olha para uma mulher adulta, de óculos, que está à direita segurando um cartão vermelho — a carteirinha da biblioteca. Os dois balões de fala são da mulher: em um deles, ela diz 'Eu tenho um dispositivo menor do que esse que me dá acesso sem fio a milhares de livros e filmes'; no outro, 'A carteira da biblioteca'. A menina não fala." — ativo renomeado em 26/09/2026 (numeração nova: Parte 4, Lição 3); descrição corrigida e validada pelo mestre em 26/09/2026. -->
+
 **Uma Biblioteca Comunitária é construída pelas pessoas e ganha vida por meio da colaboração coletiva e divisão de responsabilidades**. Mas, para que as ideias saiam do papel e as atividades aconteçam de forma organizada, algumas ferramentas de gestão podem fazer toda a diferença. 
 
 Apresentaremos a seguir **quatro instrumentais simples** que podem apoiar na distribuição de responsabilidades, no registro da memória da biblioteca, no acompanhamento da participação das pessoas e no planejamento as ações ao longo do ano. 
+
+<!-- DECISÃO DO MESTRE (26/09/2026) — opção 1-A: a contração ausente foi corrigida na página `M3P4L3p1.html` para "...e no planejamento das ações ao longo do ano." O texto do autor acima permanece intacto como registro. -->
 
 **\[LIÇÃO 12 \> PÁGINA 2\]**
 
