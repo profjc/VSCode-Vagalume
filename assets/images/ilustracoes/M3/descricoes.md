@@ -29,7 +29,7 @@ Conteúdos citados no DI sem link/imagem entregue (17/09/2026):
 | # | Item | Linha no DI | Descrição |
 |---|---|---|---|
 | ~~1~~ | ~~Fotos de acervo Vaga Lume~~ | 992 | 🟢 **RESOLVIDO (26/09/2026)** — última ocorrência (Lição 2, Pág. 1) processada: `M3P3L2p1-cuidado_em_comunidade.jpg` (1280×853, 260 KB) + descrição longa aprovada. As demais (linhas 174, 302, 313, 324 = L2/P1 e cards 1–5) foram resolvidas em 24/09/2026 |
-| 2 | Carteirinha de leitora | 967 | Imagem + versão para impressão |
-| 3 | Caderno de Memórias | 1013 | Imagem + versão para impressão |
-| 4 | Modelo de Regimento | 1029 | Arquivo para disponibilizar |
-| 5 | Modelo de Plano de Ação | 1063 | Arquivo para disponibilizar |
+| 2 | Carteirinha de leitora | 1403 (DI novo; 967 no antigo) | Imagem + versão para impressão — **página `M3P4L3p2.html` gerada 29/09/2026 com placeholders** ("⚠️ APAGAR ESTE BLOCO" + `[LINK_DO_ARQUIVO_PDF]`); aguardando arquivos do autor |
+| 3 | Caderno de Memórias | 1447 (DI novo; 1013 no antigo) | Imagem + versão para impressão — **página `M3P4L3p3.html` gerada 29/09/2026 com placeholders**; aguardando arquivos do autor |
+| 4 | Modelo de Regimento | 1463 (DI novo; 1029 no antigo) | Arquivo para disponibilizar — **página `M3P4L3p4.html` gerada 29/09/2026 com placeholders**; aguardando arquivos do autor |
+| 5 | Modelo de Plano de Ação | 1497 (DI novo; 1063 no antigo) | Arquivo para disponibilizar — **página `M3P4L3p5.html` gerada 29/09/2026 com placeholders**; aguardando arquivos do autor |

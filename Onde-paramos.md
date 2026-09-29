@@ -1,35 +1,24 @@
-## 🚀 PLANO APROVADO — PARTE 4 DO MÓDULO 3: "GESTÃO DE BIBLIOTECAS COMUNITÁRIAS" (próxima sessão)
 
-> **FONTE:** `content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`, linhas 1115–1641. **DI Lições 10, 11 e 12 → Lições 1, 2 e 3 da Parte 4.**
-> **ESTRUTURA:** 3 Lições + Fórum 4 + Síntese + Referências = **15 ciclos** (1 arquivo por ciclo, PLAN → ACT → validação).
->
-> | # | Ciclo | Arquivo | Conteúdo / mídia |
-> |---|---|---|---|
-> | 0 | Label da Parte 4 ✅ | `templates/pages/labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html` | "Parte 4 — Gestão de Bibliotecas Comunitárias" (padrão M3_Label_Parte3) — **GERADA 26/09/2026, aguardando validação** |
-> | 1 | L1 · P1 ✅ | `templates/pages/M3/Parte4/Licao1/M3P4L1p1.html` | "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" — 2 § + caixa de destaque + 2 § + vídeo `BcKH3nxcMWE` (11min42s) — **GERADA 26/09/2026, aguardando validação** |
-> | 2 | L1 · P2 (atividade) ✅ | `.../M3P4L1p2.html` | "Atividade: Refletindo sobre gestão cultural" — H5P 4 questões MC simples (correta = B nas 4) → `M3P4L1p2-h5p-multipla_escolha.h5p` — **GERADA 26/09/2026 + H5P arquivado, aguardando validação** |
-> | 3 | L2 · P1 ✅ | `templates/pages/M3/Parte4/Licao2/M3P4L2p1.html` | "Compartilhar a gestão, construir responsabilidades coletivas" — 3 § + chamada + vídeo Shorts `ol5CRV6CDC4` (48s, **embed vertical 9:16**) — **GERADA 26/09/2026, aguardando validação** |
-> | 4 | L2 · P2 ✅ | `.../M3P4L2p2.html` | "Modos de realizar a gestão compartilhada" — 3 § + chamada + vídeo `pZohuyYUyjg` (3min48s, bloco 16:9; embed verificado por oEmbed) — **GERADA 26/09/2026, aguardando validação** |
-> | 5 | L2 · P3 (atividade) ✅ | `.../M3P4L2p3.html` | "Atividade: Compartilhando a gestão da Biblioteca Comunitária" — H5P **de múltipla escolha** (4 situações ↔ 4 aspectos; as 4 alternativas fixas) + caixa "Feedback final" → `M3P4L2p3-h5p-multipla_escolha.h5p` — **VALIDADA no Moodle (26/09/2026); H5P conferido e arquivado** |
-> | 6 | L3 · P1 ✅ | `templates/pages/M3/Parte4/Licao3/M3P4L3p1.html` | "Conheça instrumentos para apoiar a gestão de sua Biblioteca Comunitária" — tirinha Stahler (404×306, descrição longa aprovada) + 2 § — **VALIDADA no Moodle (26/09/2026)** |
-> | 7 | L3 · P2 | `.../M3P4L3p2.html` | "Carteirinha de leitoras e leitores" — lista numerada (4 passos) + pendência do autor |
-> | 8 | L3 · P3 | `.../M3P4L3p3.html` | "Caderno de Memórias" — passo a passo + pendência do autor |
-> | 9 | L3 · P4 | `.../M3P4L3p4.html` | "Regimento da Biblioteca Comunitária" + pendência do autor |
-> | 10 | L3 · P5 | `.../M3P4L3p5.html` | "Plano de Ação" — caixa com 4 tipos de ações + pendência do autor |
-> | 11 | L3 · P6 (atividade) | `.../M3P4L3p6.html` | "Atividade: Revendo a função de alguns instrumentais de gestão" — H5P de associação 4↔4 → `M3P4L3p6-h5p-associacao.h5p` |
-> | 12 | Fórum 4 | `templates/pages/M3/Parte4/M3P4F1.html` | "Pensando a gestão da Biblioteca Comunitária da qual faço parte" (Moodle: `Compartilhando Ideias`) — última atividade da Parte (N3.5.3) |
-> | 13 | Label Parte 5 + Síntese | `labels/M3_Label_Parte5_Sintese_do_modulo_3.html` + `Parte5/M3P5P1.html` | "O que aprendemos no Módulo 3?" — 6 blocos + celebração |
-> | 14 | Referências | `Parte5/M3P5P2.html` | "Referências Bibliográficas — Módulo 3" (9 vídeos ABNT, DI 1621–1641) |
->
-> ### ❓ DECISÕES A CONFIRMAR (não bloqueiam o início pelo Label)
-> 1. **Fórum 4:** caixa "Compartilhando ideias" (DI — fiel ao autor) × "Para participar" (convenção dos Fóruns 1–3). Recomendação: manter fiel (N2.5).
-> 2. **Tirinha Stahler:** renomear `M3P3L10p1-tirinha-stahler.png` → `M3P4L3p1-tirinha-stahler.png` (numeração nova) + atualizar `descricoes.md` e a referência no DI; validar a descrição longa (status atual: 🔄 rascunho).
-> 3. **Pendências do autor** (carteirinha, Caderno de Memórias, Regimento, Plano de Ação — imagens/PDF + versão para impressão): gerar as páginas com bloco marcado "⚠️ APAGAR ESTE BLOCO" + placeholder de link/arquivo (proposta nova, só para arquivos — a regra atual cobre apenas imagens) × aguardar a entrega do autor.
-> 4. **Atividade 12:** `[Feedback geral ao concluir]` no H5P (feedback geral) × caixa "Feedback final" na página (precedente P1L3).
-> 5. **Vídeo Shorts** (`ol5CRV6CDC4`): sem precedente no projeto — confirmar embed direto, com fallback thumb + link.
-> 6. **Numeração da atividade da Lição 3:** `M3P4L3p6.html` (6ª página da lição) — confirmar.
->
-> **ORDEM SUGERIDA:** ciclo 0 (Label da Parte 4) → Lição 1 (ciclos 1–2) → Lição 2 (3–5) → Lição 3 (6–11) → Fórum 4 (12) → Síntese/Referências (13–14).
+---
+
+## 🚀 PRÓXIMA SESSÃO — SEM PLANO ATIVO (MÓDULO 3 ENCERRADO; sessão 29/09/2026 finalizada)
+
+> **MÓDULO 3 COMPLETO (29/09/2026):** Partes 1–5 geradas e validadas no Moodle — Parte 4 (Lições 10–12 + Fórum 4) e Parte 5 (Label, Síntese e Referências) encerradas nesta sessão (ciclo 15 validado pelo mestre). H5Ps das 11 atividades arquivados em `assets/h5p/M3/`.
+> **PENDÊNCIAS RESTANTES DO MÓDULO (só entrega externa):** arquivos do autor para os placeholders de `M3P4L3p2–p5` (carteirinha, Caderno de Memórias, Regimento e Plano de Ação — itens 15–18 de `content/M3/pendencias-M3.md`) e formato das referências (sem ano/URL — item 8 de `docs/pendencias-projeto.md`).
+> **PRÓXIMOS PASSOS POSSÍVEIS (aguardando mestre):** Módulo 4 — Mão na massa (item 5 de `docs/pendencias-projeto.md`, `content/M4/` vazio — material ainda não entregue); Módulo de Encerramento (item 6, registro do mestre 05/09/2026); imagens dos ícones da capa (item 1).
+> **SESSÃO ENCERRADA (29/09/2026):** checkout + commit + push realizados (hash no quadro final do chat); `temp/` vazia; próximo passo = nova sessão.
+
+---
+
+## 📍 29/09/2026 — CICLO 15 GERADO: REFERÊNCIAS DO MÓDULO 3 ✅ (CICLO 15 VALIDADO PELO MESTRE — SESSÃO ENCERRADA)
+
+> **ARQUIVO GERADO:** `templates/pages/M3/Parte5/M3P5P2.html` — "Referências Bibliográficas" (Módulo 3 - Parte 5; espelho estrutural do canônico `M2P6P2`, confirmado por `diff` — únicas diferenças: módulo/parte, título "— Módulo 3", seção única "Vídeos" e as entradas).
+> **CONTEÚDO:** **10 entradas de vídeos** em ABNT com recuo deslocado (`padding-left: 20px; text-indent: -20px`), fiéis ao DI (linhas 1629–1647). Ajustes tipográficos registrados: "|" → ":" em 3 títulos (N2.4.11); "–"/"-" → "—" (N2.4.13); itálico do *Manifesto dos Direitos do Pequeno Leitor* preservado.
+> ⚠️ **REGISTRO DE DIVERGÊNCIA:** o plano aprovado dizia "9 vídeos (DI 1629–1645)" — a contagem omitia a última entrada (DI 1647: "VAGA LUME. **Gestão de Bibliotecas Comunitárias.**"). Corrigida por fidelidade N2.5 durante a auditoria palavra a palavra (sem acréscimos nem omissões).
+> **PENDÊNCIA HERDADA (mesma de M1/M2):** referências sem ano/URL/data de acesso — apenas os dados do autor (item 8 de `docs/pendencias-projeto.md`).
+> **PARTE 4 DO MÓDULO 3 ENCERRADA:** todos os 15 ciclos gerados e validados no Moodle (ciclo 15 validado pelo mestre).
+> **PENDÊNCIA DO CHECKPOINT CORRIGIDA:** removida a linha duplicada obsoleta "| 14 | Referências…" da tabela do plano (havia numeração duplicada 14/15).
+> **GIT:** páginas de 29/09 ainda NÃO commitadas (`M3P4L3p2`–`p6`, `M3P4F1`, label Parte 5, `M3P5P1`/`M3P5P2`, `Onde-paramos.md`, H5P `M3P4L3p6`) — commit + push só com autorização do mestre (N1.8).
 
 ---
 

@@ -17,7 +17,10 @@
   - Histórico: Partes 1–3 validadas (22/08); Parte 4 revisada e validada no Moodle (02/09); Ajustes Finais do V2 (10 itens) conferidos e aplicados (05/09 — Itens 1, 3–10 no repositório; Item 2 no Moodle).
   - **Módulo 1 encerrado** — nenhuma ação pendente no módulo (Parte 5 nasce no padrão novo quando o material chegar).
 
-4. [ ] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio)
+4. [x] **Entrega do Módulo 3 pronto para DI** (`content/M3/` vazio) — **ENCERRADO (29/09/2026): MÓDULO 3 COMPLETO.**
+   - Novo DI convertido (`content/M3/Módulo_III_Versão_para_DI_22-10-2026.md`); Partes 1–5 geradas e validadas no Moodle (Partes 1–3 em 26/09; Parte 4 — Lições 10–12 + Fórum 4 — e Parte 5 — Label, Síntese e Referências — em 29/09).
+   - H5Ps das 11 atividades arquivados em `assets/h5p/M3/` e validados.
+   - Restam apenas **pendências do autor**, registradas em `content/M3/pendencias-M3.md` (carteirinha, Caderno de Memórias, Regimento e Plano de Ação — imagens/PDFs para os placeholders das páginas `M3P4L3p2–p5`) e a pendência de formato das referências (item 8).
 
 5. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
 

@@ -29,6 +29,21 @@
 | 9 | Tipo de H5P das atividades 1–7 | Autor descreveu tipo (V/F, drag-drop, múltipla escolha), mas não enviou arquivos `.h5p`. Decidir: criar H5P ou alternativa? |
 | 10 | Nota para programação (Atividade 2) | Sugere drag-drop com fallback de alternativa — confirmar implementação |
 
-## ⏸️ Partes III em diante
+## 📌 Status: Partes III–IV (concluídas e validadas no Moodle)
 
-> Ainda não revisadas pelo autor. Pendências registradas em `assets/images/ilustracoes/M3/descricoes.md` (carteirinha, caderno de memórias, regimento, plano de ação).
+> **Parte 3 concluída e validada (26/09/2026)** — Lições 8–9 + Fórum 3 (novo DI).
+> **Parte 4 concluída e validada (29/09/2026)** — Lições 10–12 + Fórum 4 + Label/Síntese/Referências da Parte 5 (15/15 ciclos; ciclo 15 = `M3P5P2.html` "Referências Bibliográficas" com **10 entradas** de vídeos, DI linhas 1629–1647; divergência de contagem "9 vídeos" corrigida por fidelidade N2.5 na auditoria).
+
+### 🔴 Pendências do autor — Parte 4 (Lição 3, instrumentos de gestão)
+
+> Páginas já geradas com placeholders (29/09/2026): imagem com o bloco canônico "⚠️ APAGAR ESTE BLOCO" (`src="[cole a imagem aqui]"`) + botão de download com link provisório (`href="[LINK_DO_ARQUIVO_PDF]"`). Basta o mestre subir os arquivos e substituir os placeholders.
+
+| # | Item | Linha no DI (novo) | Página | Estado |
+|---|---|---|---|---|
+| 15 | Carteirinha de leitoras e leitores (imagem + PDF/versão para impressão) | 1403 | `M3P4L3p2.html` | ⏳ Aguardando autor — placeholders no lugar |
+| 16 | Caderno de Memórias (imagem + PDF/versão para impressão) | 1447 | `M3P4L3p3.html` | ⏳ Aguardando autor — placeholders no lugar |
+| 17 | Modelo de Regimento (imagem + PDF/versão para impressão) | 1463 | `M3P4L3p4.html` | ⏳ Aguardando autor — placeholders no lugar |
+| 18 | Modelo de Plano de Ação (imagem + PDF/versão para impressão) | 1497 | `M3P4L3p5.html` | ⏳ Aguardando autor — placeholders no lugar |
+
+> **Nota:** a tabela em `assets/images/ilustracoes/M3/descricoes.md` referenciava as linhas do DI antigo (967/1013/1029/1063) — atualizadas para o novo DI (29/09/2026).
+> **Referências sem ano/URL/data de acesso:** pendência herdada de M1/M2 (item 8 de `docs/pendencias-projeto.md` — autor decidirá o formato).
