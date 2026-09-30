@@ -1,12 +1,26 @@
 
 ---
 
-## 🚀 PRÓXIMA SESSÃO — SEM PLANO ATIVO (MÓDULO 3 ENCERRADO; sessão 29/09/2026 finalizada)
+## 🚀 PRÓXIMA SESSÃO — SEM PLANO ATIVO (sessão 30/09/2026 finalizada)
 
-> **MÓDULO 3 COMPLETO (29/09/2026):** Partes 1–5 geradas e validadas no Moodle — Parte 4 (Lições 10–12 + Fórum 4) e Parte 5 (Label, Síntese e Referências) encerradas nesta sessão (ciclo 15 validado pelo mestre). H5Ps das 11 atividades arquivados em `assets/h5p/M3/`.
-> **PENDÊNCIAS RESTANTES DO MÓDULO (só entrega externa):** arquivos do autor para os placeholders de `M3P4L3p2–p5` (carteirinha, Caderno de Memórias, Regimento e Plano de Ação — itens 15–18 de `content/M3/pendencias-M3.md`) e formato das referências (sem ano/URL — item 8 de `docs/pendencias-projeto.md`).
-> **PRÓXIMOS PASSOS POSSÍVEIS (aguardando mestre):** Módulo 4 — Mão na massa (item 5 de `docs/pendencias-projeto.md`, `content/M4/` vazio — material ainda não entregue); Módulo de Encerramento (item 6, registro do mestre 05/09/2026); imagens dos ícones da capa (item 1).
-> **SESSÃO ENCERRADA (29/09/2026):** checkout + commit + push realizados (hash no quadro final do chat); `temp/` vazia; próximo passo = nova sessão.
+> **SESSÃO 30/09/2026 — ENCONTROS SÍNCRONOS concluída e validada (aprovada pelo mestre):** `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` atualizada com o **bloco do Encontro Síncrono 2** ("Leite, Carinho e Linguagem", 26/09/2026): novo bloco no topo (padrão blog), card + vídeo (`GyUSxP5-RjI`, 1h26min36seg), minutagem e sinopse; imagem do card salva em `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_2_card.png`; **títulos dos encontros em caixa padrão Label de Parte**; espaçamento entre blocos ajustado; **comentários consecutivos corrigidos** (TinyMCE). Fonte convertida em `content/Encontros-sincronos/Encontro_Sincrono_2.md` (data 26/09).
+> **PENDENTE (entrega no Moodle):** mestre colar a versão atualizada da página "Encontros Síncronos"; substituir a imagem oficial no placeholder (`[cole a imagem aqui]`) e **remover o bloco de imagem temporária** (⚠️ APAGAR ESTE BLOCO).
+> **PENDÊNCIAS HERDADAS:** Módulo 3 — arquivos do autor para os placeholders de `M3P4L3p2–p5` e formato das referências (item 8 de `docs/pendencias-projeto.md`). Módulo 4 (Mão na massa, `content/M4/` vazio) e Módulo de Encerramento aguardando material do mestre; imagens dos ícones da capa (item 1).
+> **SESSÃO ENCERRADA (30/09/2026):** commit + push realizados; `temp/` limpa; próximo passo = nova sessão.
+
+---
+## 📍 30/09/2026 — ENCONTRO SÍNCRONO 2 INSERIDO NA GALERIA ✅ (aguardando validação do mestre)
+
+> **PÁGINA ATUALIZADA:** `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` — novo bloco do **Encontro Síncrono 2** ("Leite, Carinho e Linguagem") inserido **no topo** (padrão blog, mais recente acima) como espelho do bloco-canônico do Encontro 1, com `<hr>` laranja `#D96F1A` separador entre os bloços. O bloco do Encontro 1 (e seu `<hr>` final) foi **mantido intocado** (N1.5).
+> **CONVERSÃO:** `temp/Encontro Síncrono 2.docx` → `content/Encontros-sincronos/Encontro_Sincrono_2.md` (pandoc gfm, `--wrap=none`); **data corrigida** no `.md` (`12/09` → `26/09`, conforme card e sinopse — o `12/09` do docx era resquício do Encontro 1).
+> **BLOCO NOVO:** título NW (26/09/2026); card `col-md-5` com placeholder de imagem N2.1.3 + `sr-only id="es2-card-desc"` (descrição longa **aprovada pelo mestre**); vídeo YouTube `GyUSxP5-RjI` `col-md-7` (`title="Encontro Síncrono 2: Leite, Carinho e Linguagem"`); legenda com **duração obtida do YouTube** (`lengthSeconds 5196` → **1h26min36seg**); minutagem fiel ao docx (00:03/00:11/00:22/00:50/01:04/01:26); sinopse largura total (2 parágrafos fiéis N2.5: "voltada **para** pessoas voluntárias", "ninfa Parreiras", Macilene Magalhães/Castanhal-PA).
+> **IMAGEM TRATADA:** `temp/Card Divulgação_Encontro síncrono_Material 2.png` → `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_2_card.png` (padrão do `Encontro_Sincrono_1_card.jpg`; PNG preservado). **IA atual lê imagens** (descrição do card registrada no chat — troca de modelo do mestre).
+> **DIVERGÊNCIA REPORTADA AO MESTRE:** "Data:12/09" no docx ≠ card/sinopse "26/09" — mestre confirmou **26/09**.
+> **PENDENTE:** validação do mestre; após colar no Moodle, substituir a imagem oficial no placeholder (`[cole a imagem aqui]`) e **remover o bloco de imagem temporária** (⚠️ APAGAR ESTE BLOCO). `temp/` ainda contém o `.docx` original.
+> **GIT:** nada commitado nesta sessão (autorização pendente N1.8).
+> **AJUSTES DO MESTRE (30/09/2026, pós-geração):** títulos dos blocos **numerados** ("Encontro síncrono 1:" / "Encontro síncrono 2:") e **espaçamento aumentado** entre o `<hr>` do primeiro bloco (ES2) e o início do segundo (ES1) — `<hr class="mt-4 mb-5">` (antes `my-4`).
+> **TÍTULOS EM CAIXA — VERSÃO DEFINITIVA (30/09/2026):** caixas no **padrão Label de Parte** tornaram-se o **título definitivo** dos blocos, em **linha única** (`<h2>` 18px marrom `#5B3925`, barra verde `#587C41`, fundo bege `#FAEBDD`) com o texto completo "Encontro síncrono N: Título (data)". **Os `<p>` de título anteriores foram REMOVIDOS** (decisão do mestre — experimento aprovado e finalizado).
+> **CONFORMIDADE TinyMCE (30/09/2026):** removidos os **4 pares de comentários consecutivos** detectados (títulos ES1/ES2 + cards ES1/ES2). Correções: removido o comentário inline obsoleto do `<div class="mb-4">` e movido o comentário "Card de divulgação do encontro" para linha própria acima do `<div class="col-...">`. Verificação automática: **0 pares consecutivos** restantes.
 
 ---
 
