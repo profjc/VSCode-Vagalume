@@ -15,6 +15,11 @@
 | 2 | `tva28rNVdMU` | Parte 1, Lição 3 (p1) — linha 329 | O que é mediação de leitura? | Vaga Lume | "(02min33s); canal: Vaga Lume" ✅ |
 
 > Os **2 marcadores `[Embedar vídeo]`** (linhas 63 e 327) têm link ao lado → **não são pendências**.
+### H5P entregue (1 — arquivado)
+
+> **Atividade 1 — "Na roda de leitura"** (`M4P1L1p2`, última página da Lição 1): arquivado em `assets/h5p/M4/M4P1L1p2-h5p-multipla_escolha.h5p` (≈1,0 MB). Conferido por leitura do pacote (06/10/2026): `H5P.QuestionSet` + `H5P.MultiChoice`; **1 questão com 6 alternativas A–F**, corretas **A, C, E**; texto interno = *"Selecione todas as TRÊS alternativas que considerar adequadas."* (a pedido do mestre). `temp/` ficou vazia. ✅
+
+
 
 ## 🔴 Pendências do autor
 
@@ -24,9 +29,9 @@
 | 2 | Sequências Didáticas **6–7** (download em PDF) | Parte 3, Lição 3 (DI L8) — linhas 1189–1285 | PDFs | ⏳ Aguardando autor |
 | 3 | Sequências Didáticas **8–11** (download em PDF) | Parte 3, Lição 4 (DI L9) — linhas 1433–1687 | PDFs | ⏳ Aguardando autor |
 | 4 | Sequências Didáticas **12–13** (download em PDF) | Parte 3, Lição 5 (DI L10) — linhas 1781–1867 | PDFs | ⏳ Aguardando autor |
-| 5 | Arquivo **H5P** da Atividade 1 — "Na roda de leitura" (question-set; 6 alternativas A–F; corretas **A, C, E**) | Parte 1, Lição 1 (última página) — linhas 95–121 | H5P | ⏳ Mestre cria o `.h5p` no Moodle |
+| 5 | ~~Arquivo **H5P** da Atividade 1 — "Na roda de leitura"~~ ✅ **ARQUIVADO (06/10/2026)** em `assets/h5p/M4/M4P1L1p2-h5p-multipla_escolha.h5p` (question-set; 6 alternativas A–F; corretas **A, C, E**) | Parte 1, Lição 1 (última página) — linhas 95–121 | H5P | ✅ Concluído |
 
-> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`, nas linhas 657/1189/1433/1781) + **1 H5P**.
+> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`, nas linhas 657/1189/1433/1781) + **1 H5P** (✅ entregue e arquivado em 06/10/2026).
 
 ## 🟡 Decisões técnicas pendentes (entre Cline e mestre)
 

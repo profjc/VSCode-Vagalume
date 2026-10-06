@@ -91,6 +91,7 @@ Durante a história, algumas crianças fazem comentários e relacionam o que est
 **Quais práticas poderiam contribuir para essa mediação?**
 
 **Selecione todas as alternativas que considerar adequadas.**
+<!-- DECISÃO DO MESTRE (06/10/2026): este parágrafo NÃO vai no corpo da página — será integrado ao próprio H5P, com o texto alterado para "Selecione todas as TRÊS alternativas que considerar adequadas." -->
 
 **\[H5P – question-set\]**
 
