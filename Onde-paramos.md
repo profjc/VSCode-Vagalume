@@ -1,11 +1,42 @@
+## 🚀 PRÓXIMA SESSÃO — MÓDULO 4 ("Mãos na massa! (ou nos Livros!)") EM ANDAMENTO (sessão 06/10/2026 encerrada)
+
+> **PLANO APROVADO (06/10/2026) — executar 1 ciclo por vez (N1.3.3).**
+> **✅ Ciclo 1 (CONVERSÃO DO DI) — CONCLUÍDO (06/10/2026):** `.docx` movido de `temp/` para `content/M4/` e convertido (pandoc gfm, `--wrap=none`, `--extract-media=.`) em **`content/M4/Módulo_IV_Versão_para_DI.md`** (71.050 bytes).
+> - **Integridade ✅:** `file` = **UTF-8** · **1983 linhas** (bate exatamente com a previsão) · **0 mídias** (`--extract-media` não gerou `media/`) · **0 caixas de texto** perdidas (`w:txbxContent` = 0) · **2 links YouTube** íntegros · estrutura de Partes/Lições/Fóruns **idêntica à linha de base** (números de linha coincidem).
+> - **Observação fiel (N2.5):** o DI traz **4 `[ABRIR BOX]` e apenas 2 `[FECHAR BOX]`** — desbalanceamento já presente no original (não é artefato da conversão); **nada corrigido**.
+> - **`temp/` vazia** ✅ (o `.docx` foi movido para `content/M4/` preservando o nome de origem).
+> - **Linha de base (aferida somente-leitura):** **1983 linhas** · **0 mídias** (`word/media/` vazio) · **0 caixas de texto** (`w:txbxContent` = 0) · **2 links YouTube** (`77MwhhfnYp0`, `tva28rNVdMU`).
+> - **Estrutura:** Parte 1 "Praticando mediação de leitura com a Primeira Infância" (Lições 1–3 + Fórum 1) · Parte 2 "Como preparar uma atividade e mobilizar a comunidade?" (Lições 4–5 + Fórum 2) · Parte 3 "Bibliotecas Comunitárias em ação" (Lições 6–10, páginas únicas) · Parte 4 "Síntese do Módulo 4" + Referências.
+> - ⚠️ **Numeração de lições CONTÍNUA (1→10)** com marcador `[Reiniciar numeração das lições para cada parte]` → reiniciar por parte (precedente M3).
+> **⏭️ Ciclo 2 (a seguir):** rotina de inicialização (`docs/roteiro-inicializacao-modulo.md`) — Partes 2 (imagens) e 3 (links/pendências), com material do mestre.
+> **✅ RENUMERAÇÃO DAS LIÇÕES (06/10/2026):** aplicada por anotação no DI do M4 (padrão M3, **sem alterar os números do autor** — N2.5): bloco "NOTA DE NUMERAÇÃO" no topo (linhas 3–13) + **8 comentários inline** `<!-- CORREÇÃO DE NUMERAÇÃO -->` (Partes 2 e 3) + **2 comentários** `<!-- NUMERAÇÃO DE PÁGINA -->` (Atividade 1 = **p2** da Lição 1; Atividade 2 = **p3** da Lição 2). **Regra do mestre registrada:** a atividade que segue a lição é a **última página** dela. Mapeamento P2: L4→L1, L5→L2, Fórum 2→Fórum 1 (`M4P2F1.html`). Mapeamento P3: L6→L1, L7→L2, L8→L3, L9→L4, L10→L5.
+> **✅ ROTINA DE INICIALIZAÇÃO — PARTE 3 (LINKS + PENDÊNCIAS) CONCLUÍDA (06/10/2026):** Parte 2 (imagens) **pulada** por decisão do mestre. **2 links YouTube válidos** (oEmbed: `77MwhhfnYp0` = "EU LI NA ENÍ…", canal Caçando Estórias; `tva28rNVdMU` = "O que é mediação de leitura?", canal Vaga Lume — batem com as legendas). **2 marcadores `[Embedar vídeo]`** já têm link (não são pendência). Pendências registradas em **`content/M4/pendencias-M4.md`** (novo): **13 Sequências Didáticas em PDF** (4 marcadores, Parte 3) + **1 H5P** (Atividade 1) + decisões de UI (apresentação das sequências, carrossel × grade, 12 ícones `[CRIAR ÍCONE OU ILUSTRAÇÃO]`) + formato das referências (herdado). Sem imagens no DI (nenhum `[Inserir foto]`).
+> **🗓️ PLANO DO DIA (06/10/2026) — GERAÇÃO DAS PÁGINAS DO M4 (1 por ciclo: PLAN → ACT → validação):**
+> - **✅ CICLO ATUAL — "Apresentação do Módulo 4" CONCLUÍDO (06/10/2026):** `templates/pages/M4/M4-Apresentacao_do_modulo_4.html` criado (template 20 Abertura de Módulo). h1 = `Módulo 4 — Mãos na Massa! (ou nos Livros!): Práticas para Planejar Encontros, Mediar Leitura e Mobilizar a Comunidade`; corpo **fiel ao DI** (2 §§ de apresentação + objetivo + **5 expectativas**). **Verificado por `diff` contra `M3-Apresentacao_do_modulo_3.html`** — única diferença: número/título/conteúdo (estrutura idêntica). Higienização OK (sem `<style>`/`<link>`/`<script>`, FA5 `fa fa-*`, sem `|`). **⏳ Aguardando validação do mestre no Moodle.** Mestre confirmou o nome do card/módulo = "Mãos na massa! (ou nos Livros!)" (já corrigido no Moodle — deixa de ser pendência).
+> - **A SEGUIR (planejar no PLAN):** Label da Parte 1 e primeira página `M4P1L1p1`.
+> - **✅ TAREFA ATUAL — CONCLUÍDA (06/10/2026):** registrar os **labels (HTML) dos títulos das seções** (cards dos módulos) em novo **`docs/labels-secoes-modulos.md`** + corrigir o nome do M4 ("Mão na massa" → **"Mãos na massa! (ou nos Livros!)"**) nos docs desatualizados (project-map, regras-licoes-aprendidas, teste-icones-tiles, roteiro-inicializacao-modulo, Onde-paramos e comentários de CSS). Print da home lido em PLAN mode — 6 títulos confirmados.
+> - **Pendências do autor (não bloqueiam o início):** 13 Sequências Didáticas em PDF (Parte 3) + H5P da Atividade 1 — ver `content/M4/pendencias-M4.md`.
+> **Estado atual:** `content/M4/` com o `.docx` + `Módulo_IV_Versão_para_DI.md` anotado + `pendencias-M4.md`; `temp/` vazia.
+>
+> **🔚 ENCERRAMENTO DE SESSÃO — checkout de finalização (06/10/2026):**
+> - **Concluído na sessão:** (1) conversão do DI do M4 + anotação de numeração/páginas; (2) rotina de inicialização — Parte 3 (links + pendências; Parte 2/imagens **pulada**); (3) **página `M4-Apresentacao_do_modulo_4.html` gerada e VALIDADA no Moodle**; (4) **registro dos labels das seções** (`docs/labels-secoes-modulos.md`, novo) + correção do nome do M4 ("Mão na massa" → "Mãos na massa! (ou nos Livros!)") nos docs.
+> - **Novos arquivos:** `content/M4/Módulo IV - Versão para DI.docx` · `content/M4/Módulo_IV_Versão_para_DI.md` · `content/M4/pendencias-M4.md` · `templates/pages/M4/M4-Apresentacao_do_modulo_4.html` · `docs/labels-secoes-modulos.md`.
+> - **PRÓXIMO CICLO (planejar no PLAN):** **Label da Parte 1** ("Praticando mediação de leitura com a Primeira Infância") **ou** página **`M4P1L1p1`** ("Mediar leitura com bebês e crianças pequenas").
+> - **COMO RETOMAR:** ler `Onde-paramos.md` + `docs/rotina-entrega.md` (N3.0) → seguir a seção "MÓDULO 4" no topo → planejar no PLAN mode.
+> - **PENDÊNCIAS DO AUTOR (não bloqueiam):** 13 Sequências Didáticas (PDF, Parte 3) + H5P da Atividade 1 — ver `content/M4/pendencias-M4.md`.
+> - **Git:** commit + push desta sessão realizados; `temp/` vazia; árvore limpa.
 
 ---
 
-## 🚀 PRÓXIMA SESSÃO — SEM PLANO ATIVO (sessão 30/09/2026 finalizada)
+
+
+---
+
+## 🔚 SESSÃO 30/09/2026 — ENCERRAMENTO (histórico)
 
 > **SESSÃO 30/09/2026 — ENCONTROS SÍNCRONOS concluída e validada (aprovada pelo mestre):** `templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html` atualizada com o **bloco do Encontro Síncrono 2** ("Leite, Carinho e Linguagem", 26/09/2026): novo bloco no topo (padrão blog), card + vídeo (`GyUSxP5-RjI`, 1h26min36seg), minutagem e sinopse; imagem do card salva em `assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_2_card.png`; **títulos dos encontros em caixa padrão Label de Parte**; espaçamento entre blocos ajustado; **comentários consecutivos corrigidos** (TinyMCE). Fonte convertida em `content/Encontros-sincronos/Encontro_Sincrono_2.md` (data 26/09).
 > **PENDENTE (entrega no Moodle):** ~~mestre colar a versão atualizada da página "Encontros Síncronos"; substituir a imagem oficial no placeholder (`[cole a imagem aqui]`) e remover o bloco de imagem temporária (⚠️ APAGAR ESTE BLOCO).~~ ✅ **RESOLVIDO (30/09/2026):** página "Encontros Síncronos" **validada no Moodle com as imagens** — imagem oficial aplicada no placeholder e bloco de imagem temporária removido (confirmado pelo mestre).
-> **PENDÊNCIAS HERDADAS:** Módulo 3 — arquivos do autor para os placeholders de `M3P4L3p2–p5` e formato das referências (item 8 de `docs/pendencias-projeto.md`). Módulo 4 (Mão na massa, `content/M4/` vazio) e Módulo de Encerramento aguardando material do mestre; imagens dos ícones da capa (item 1).
+> **PENDÊNCIAS HERDADAS:** Módulo 3 — arquivos do autor para os placeholders de `M3P4L3p2–p5` e formato das referências (item 8 de `docs/pendencias-projeto.md`). Módulo 4 (Mãos na massa! (ou nos Livros!), `content/M4/` vazio) e Módulo de Encerramento aguardando material do mestre; imagens dos ícones da capa (item 1).
 > **SESSÃO ENCERRADA (30/09/2026):** commit + push realizados; `temp/` limpa; próximo passo = nova sessão.
 
 ---
@@ -525,7 +556,7 @@ Passos executados para `M3P1L2p1` (foto do acervo) — repetir para cada pendên
 
 ## 📍 SESSÃO 06/09/2026 — PENDÊNCIA 1 ENCERRADA: ÍCONES DOS TILES VALIDADOS ✅
 
-> **REGISTRO DE NOMEAÇÃO (06/09/2026):** firmada a correspondência oficial nome real × numeração dos módulos. Tabela canônica anotada de forma persistente em **`docs/project-map.md` → "Nomeação de arquivos — correspondência dos módulos"** e atalho em **`.clinerules` N3.3.1**. **M0**=Boas-vindas! · **M1**=Primeira Infância · **M2**=Leitura e Primeira Infância · **M3**=Bibliotecas Comunitárias · **M4**=Mão na massa · **Encerramento** (sem M5)=Certificação e Avaliação do curso.
+> **REGISTRO DE NOMEAÇÃO (06/09/2026):** firmada a correspondência oficial nome real × numeração dos módulos. Tabela canônica anotada de forma persistente em **`docs/project-map.md` → "Nomeação de arquivos — correspondência dos módulos"** e atalho em **`.clinerules` N3.3.1**. **M0**=Boas-vindas! · **M1**=Primeira Infância · **M2**=Leitura e Primeira Infância · **M3**=Bibliotecas Comunitárias · **M4**=Mãos na massa! (ou nos Livros!) · **Encerramento** (sem M5)=Certificação e Avaliação do curso.
 > **TÍTULOS DOS TILES (06/09/2026):** **6/6 aplicados** com cor **laranja-escuro `#944B11` via CSS inline** no texto do título (código-fonte do editor). Marrom `#5B3925` rejeitado (escuro sobre verde claro). Configuração do Moodle que permite inline habilitada pelo mestre. Lição registrada em `docs/regras-licoes-aprendidas.md`.
 > **IMAGEM MOVIDA (06/09/2026):** o mestre moveu a imagem para o bloco de ícones dos tiles — **teste pendente** para confirmar se os 6 ícones dos tiles continuam carregando (ver lição `pluginfile`).**
 > **PLACEHOLDER DE IMAGEM = NOVO PADRÃO `src=""` (06/09/2026):** testado e **aprovado** pelo mestre (página `temp/teste-placeholder.html`). O TinyMCE (com uma configuração habilitada por ele) **aceita `src=""`** no `<img>` temporário — passa a ser o padrão canônico, **dispensando a URL hospedada** (a antiga `/104/...` morreu; a `/145/...` deixou de ser necessária). Bloco padrão em `M2P4L3p1.html`; **vale APENAS para imagens** (H5P/vídeos/áudios/iframes permanecem como antes). Substituição feita em: `.clinerules` N2.1.1.3, `docs/regras-html-moodle.md` §1.1.3, `docs/checklist-entrega.md`, `docs/regras-licoes-aprendidas.md` (2 lições), `templates/pages/base/base.html`, 15 páginas e 4 galerias (URL → `src=""`). Nenhuma página no Moodle foi afetada. ✅ **Concluído e COMMITADO/PUSHADO** (`0e56521`) — mestre validou não haver necessidade de novos testes.

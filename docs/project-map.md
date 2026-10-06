@@ -31,7 +31,7 @@
 | **M1** | **Primeira Infância** | `templates/pages/M1/`, `content/M1/`; ícone `tile-01-primeira-infancia.png` |
 | **M2** | **Leitura e Primeira Infância** | `templates/pages/M2/`, `content/M2/`; ícone `tile-02-leitura-primeira-infancia.png` |
 | **M3** | **Bibliotecas Comunitárias** | `templates/pages/M3/`, `content/M3/`; ícone `tile-03-bibliotecas-comunitarias.png` |
-| **M4** | **Mão na massa** | `templates/pages/M4/`, `content/M4/`; ícone `tile-04-mao-na-massa.png` |
+| **M4** | **Mãos na massa! (ou nos Livros!)** | `templates/pages/M4/`, `content/M4/`; ícone `tile-04-mao-na-massa.png` |
 | **Encerramento** (sem número M5) | **Certificação e Avaliação do curso** | `templates/pages/Encerramento/`, `content/Encerramento/`; ícone `tile-05-certificacao-avaliacao.png` |
 
 > **Observações:** (1) **M0 = Boas-vindas** — embora os arquivos usem `templates/pages/Boas-vindas/`, para fins de numeração de tiles é o módulo **0**. (2) O **Encerramento não tem numeração `M5`** — o ícone é os prefixado `05` (ordem no curso após o M4) e o título real é "Certificação e Avaliação do curso". (3) Ícones dos tiles (versão bege `#FAEBDD`) vivem em `assets/images/icones-tiles/`, mapeados no CSS por `#tileicon_N` (`_1`=M0 … `_6`=Encerramento).

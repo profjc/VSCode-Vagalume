@@ -52,7 +52,7 @@ body.course-2 #abovetiles {
   background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-03-bibliotecas-comunitarias.png') !important;
 }
 
-/* Card 5 — Módulo 4 (Mão na massa) */
+/* Card 5 — Módulo 4 (Mãos na massa! (ou nos Livros!)) */
 .course-2 #tileicon_5 .tile-icon {
   background-image: url('https://vagalume.educagir.com.br/pluginfile.php/145/block_html/content/tile-04-mao-na-massa.png') !important;
 }

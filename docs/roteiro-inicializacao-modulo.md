@@ -12,7 +12,7 @@
 
 ### 1.1 Local e nomeação
 
-- Pasta: `content/MN/` (N = número do módulo: M0=Boas-vindas, M1=Primeira Infância, M2=Leitura e Primeira Infância, M3=Bibliotecas Comunitárias, M4=Mão na massa, Encerramento=Certificação e Avaliação)
+- Pasta: `content/MN/` (N = número do módulo: M0=Boas-vindas, M1=Primeira Infância, M2=Leitura e Primeira Infância, M3=Bibliotecas Comunitárias, M4=Mãos na massa! (ou nos Livros!), Encerramento=Certificação e Avaliação)
 - Arquivos de DI: nome padronizado `DI-ModuloN.docx` + `DI-ModuloN.md`
 - O mestre coloca o `.docx` original na pasta `temp/` — de lá o Cline move para `content/MN/`
 

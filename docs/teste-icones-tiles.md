@@ -10,7 +10,7 @@
 
 - O formato de curso é **Tiles**. O mecanismo é **CSS que esconde o ícone original** (o `i.icon` do Tiles) e **injeta a imagem escolhida** como `background-image` no contêiner `.tile-icon`, bloco por bloco (`#tileicon_N`).
 - **Imagens escolhidas:** versão **01 (bege `#FAEBDD`)** — cor exata da paleta Vaga Lume; a versão 02 (rosa/lilás) está **fora da paleta** e foi descartada.
-- **6 tiles cobertos:** Boas-vindas (00), M1 Primeira Infância (01), M2 Leitura (02), M3 Bibliotecas Comunitárias (03), M4 Mão na massa (04), Encerramento/Certificação (05).
+- **6 tiles cobertos:** Boas-vindas (00), M1 Primeira Infância (01), M2 Leitura (02), M3 Bibliotecas Comunitárias (03), M4 Mãos na massa! (ou nos Livros!) (04), Encerramento/Certificação (05).
 
 ### Verificação técnica das imagens (todas ✅)
 | Critério | Especificação | Obtido |
@@ -52,7 +52,7 @@ Contexto: `pluginfile.php/145/block_html/content/`. Base: `https://vagalume.educ
 | 2 — M1 (Primeira Infância) | `01 - Primeira Infância - 01.png` | `tile-01-primeira-infancia.png` | `.../tile-01-primeira-infancia.png` |
 | 3 — M2 (Leitura) | `02 - Leitura e Primeira Infância - 01.png` | `tile-02-leitura-primeira-infancia.png` | `.../tile-02-leitura-primeira-infancia.png` |
 | 4 — M3 (Bibliotecas) | `03 - Bibliotecas Comunitárias - 01.png` | `tile-03-bibliotecas-comunitarias.png` | `.../tile-03-bibliotecas-comunitarias.png` |
-| 5 — M4 (Mão na massa) | `04 - Mão na massa - 01.png` | `tile-04-mao-na-massa.png` | `.../tile-04-mao-na-massa.png` |
+| 5 — M4 (Mãos na massa! (ou nos Livros!)) | `04 - Mão na massa - 01.png` (nome original) | `tile-04-mao-na-massa.png` | `.../tile-04-mao-na-massa.png` |
 | 6 — Encerramento (Certificação) | `05 - Certificação e Avaliação do curso - 01.png` | `tile-05-certificacao-avaliacao.png` | `.../tile-05-certificacao-avaliacao.png` |
 
 **URLs completas:**
