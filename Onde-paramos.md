@@ -38,6 +38,19 @@
 
 ---
 
+## 🔚 06/10/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização)
+
+> **MÓDULO 4 · PARTE 1 · LIÇÃO 2 — CONCLUÍDA (3 páginas):**
+> - ✅ `M4P1L2p1.html` — "Cada criança participa à sua maneira" — validada no Moodle.
+> - ✅ `M4P1L2p2.html` — "O que considerar ao mediar leitura com bebês e crianças pequenas?" — validada/aprovada (revisão: borda laranja 1px + cantos 12px; botão logo abaixo do texto oculto).
+> - ⏳ `M4P1L2p3.html` — "Atividade: Refletindo sobre a prática da mediação de leitura" — gerada; **aguardando validação no Moodle**.
+>
+> **PADRÃO DE UI CONSOLIDADO (cards):** galeria/grade + colapso nativo do Bootstrap + **borda laranja 1px `#d96f1a`** + **cantos `12px`** + botão logo abaixo do texto oculto. Decisões do mestre registradas: **galeria** (não carrossel) — `pendencias-M4.md` itens **#7 e #8 resolvidos**.
+> **RETOMADA — PRÓXIMO CICLO:** `templates/pages/M4/Parte1/Licao3/M4P1L3p1.html` — Lição 3 "A mediação de leitura na voz de quem faz" (página única: título + 2 parágrafos + vídeo `tva28rNVdMU`, canal Vaga Lume). Depois: **Fórum 1 da Parte 1** (`M4P1F1.html`).
+> **ESTADO DO REPOSITÓRIO (encerramento):** commit + push para `origin/master` realizados · árvore Git limpa · `temp/` apenas com artefatos locais de preview (gitignored) · pendências do autor: 13 Sequências Didáticas em PDF (Parte 3).
+> **COMO RETOMAR:** ler `Onde-paramos.md` + `docs/rotina-entrega.md` (N3.0), conferir este bloco e planejar `M4P1L3p1` no PLAN mode.
+
+
 
 
 ---
