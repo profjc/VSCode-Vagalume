@@ -40,7 +40,7 @@
 | 6 | **Apresentação das Sequências Didáticas** | O DI pede: "um card que contenha o nome da atividade e uma descrição breve e, quando o cursista clica, abre a atividade com um botão para baixar", ou alternativa "mais adequada ao Moodle". Definir o componente. |
 | 7 | **Carrossel × grade (cards)** | ✅ **RESOLVIDO (06/10/2026):** decisão do mestre = **galeria/grade** (não carrossel). Parte 1, Lição 2, p2 = **3 colunas**; Atividade 2 (p3) = **2 colunas**. |
 | 8 | **12 ícones/ilustrações das dicas** | ✅ **RESOLVIDO (06/10/2026):** usar **ícones Font Awesome** (12 `fa-*` temáticos) — avaliado/validado no preview da p2. |
-| 9 | **Formato das referências** | Referências do Módulo 4 (linha 1989 — 2 vídeos) sem ano/URL/data de acesso — pendência herdada de M1/M2 (item 8 de `docs/pendencias-projeto.md`). |
+| 9 | **Formato das referências** | ✅ **RESOLVIDO (08/10/2026, decisão final do mestre):** as referências ficarão **sem ano/URL/data de acesso** (formato amigável, como em M1/M2/M3). Não há ação pendente. |
 
 ## 🗺️ Panorama do módulo (para planejamento das páginas)
 
