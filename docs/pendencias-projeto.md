@@ -22,7 +22,11 @@
    - H5Ps das 11 atividades arquivados em `assets/h5p/M3/` e validados.
    - **MÓDULO 3 ENCERRADO (08/10/2026, confirmação do mestre):** pendências do autor todas resolvidas — imagens da Parte 4/Lição 3 (`M3P4L3p2–p5`) entregues, processadas e páginas validadas no Moodle (**sem PDFs** — tachado = exclusão; Regimento à direita sem borda; Plano de Ação centralizado com borda laranja fina, imagem rotacionada 90°); abertura do módulo feita e validada; H5Ps todos resolvidos; **Referências ficam sem ano/URL/data de acesso** (decisão final do mestre — formato amigável, como M2). Detalhes em `content/M3/pendencias-M3.md`.
 
-5. [ ] **Entrega do Módulo 4 pronto para DI** (`content/M4/` vazio)
+5. [ ] **Entrega do Módulo 4 pronto para DI** — **EM ANDAMENTO (Partes 1–2 concluídas e validadas em 06–08/10/2026; Parte 3 em preparação).**
+   - DI convertido e anotado: `content/M4/Módulo_IV_Versão_para_DI.md` (numeração de lições reiniciando por Parte, padrão M1–M3, confirmado pelo mestre) + `content/M4/pendencias-M4.md` criado na rotina de inicialização (06/10/2026).
+   - **Parte 1** validada no Moodle: `M4-Apresentacao_do_modulo_4.html`, Lição 1 (`M4P1L1p1` + Atividade H5P `M4P1L1p2`), Lição 2 (`M4P1L2p1`–`p3` — galeria/grade, decisão do mestre) e Lição 3 (`M4P1L3p1`).
+   - **Parte 2** validada no Moodle: Lição 1 (`M4P2L1p1`) + Lição 2 (`M4P2L2p1`) + **Fórum 1 (`M4P2F1.html`**, última atividade da parte — N3.5.3).
+   - **Pendências do módulo (autor):** 13 Sequências Didáticas em PDF (Parte 3, Lições 2–5) — ver `content/M4/pendencias-M4.md`.
 
 6. [ ] **Módulo de Encerramento** — **módulo novo e independente**, entrará **após o Módulo 4** (registro do mestre, 05/09/2026). Aguardando material do autor.
 
