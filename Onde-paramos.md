@@ -1,4 +1,4 @@
-## 🔚 08/10/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização)
+## 🔚 08/10/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização) ✅ SESSÃO ENCERRADA — repositório sincronizado (HEAD = origin/master, `9bd0f45`) · próxima sessão: planejar `M4P3L1p1` no PLAN mode
 >
 > **🧹 HIGIENIZAÇÃO 2 (08/10/2026, simulação de sessão nova — correção dos resíduos restantes):** (1) **`pendencias-projeto.md`** item 5 (Módulo 4): "(`content/M4/` vazio)" → status real **em andamento** (DI convertido + Partes 1–2 concluídas e validadas 06–08/10/2026; Parte 3 em preparação — Lição 1 sem pendência de PDF, Lições 2–5 aguardando os 13 PDFs); (2) **`pendencias-M3.md`** itens 3–8 e 13 (fotos de acervo): "aguardando upload no Moodle" → "Parte 1/Parte 3 validada no Moodle (26/09/2026)"; nota de 29/09 ("Basta o mestre subir os arquivos") marcada como **SUPERADA**. Verificação confirmou: **Parte 3 do M4 não tem Fórum** (N3.5.3 — nada a posicionar) e a **Lição 1 da Parte 3 (`M4P3L1p1`) está pronta para gerar**, sem depender dos PDFs. Nenhum HTML tocado.
 >
