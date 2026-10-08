@@ -1,4 +1,6 @@
 ## 🔚 08/10/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização)
+>
+> **🧹 HIGIENIZAÇÃO DE REGISTROS (08/10/2026, pós-sessão, a pedido do mestre):** simulação de sessão nova detectou resíduos de texto desatualizados (itens já resolvidos que ainda constavam como "aguardando upload"/"a atualizar"). Corrigido: **`descricoes.md`** (cabeçalho da nota de alts + itens 2–5 das pendências → "página validada no Moodle em 08/10/2026"; Regimento/Plano alinhados ao padrão dos itens 15–18 do `pendencias-M3.md`); **`pendencias-M3.md`** (itens 15/16 → validados; nota de 08/10 → "todas as 4 imagens concluídas e validadas"); **`pendencias-projeto.md`** (item 4 → DI atual `08-10-2026.md` referenciado, anterior preservado). **Nenhuma pendência real restante no M3** — apenas texto residual, agora corrigido. Nenhum HTML tocado.
 
 > **MÓDULO 3 · PARTE 4 · LIÇÃO 3 — CONCLUÍDA E ENCERRADA (4 ciclos + fechamento):**
 > - ✅ `M3P4L3p2.html` — "Carteirinha de leitoras e leitores" — validada no Moodle (figura centralizada, borda laranja fina + cantos 12px).
