@@ -1,7 +1,28 @@
+## 📋 SESSÃO 09/10/2026 — REVISÃO FINAL DO MÓDULO 3 (AJUSTES DO MESTRE) — PLANO REGISTRADO, AGUARDANDO CICLOS
+
+> **CONTEXTO:** o mestre entregou `temp/Ajustes_Módulo 3.docx` (revisão final do M3, pós-validação). Convertido para **`content/M3/Ajustes_Modulo_3_09-10-2026.md`** (fonte da verdade para os ciclos). M3 estava encerrado em 08/10; estas são correções de refinamento. **Regra do ciclo: UMA página/ajuste por vez (PLAN → ACT → validação) — nunca em lote (N1.3.3).**
+>
+> **CLASSIFICAÇÃO DOS AJUSTES:**
+> - **HTML (eu gero):** P1L1p? grafia "Bibliotecas Comunitárias" (Uma construção coletiva) · carrossel de "Tudo o que pode acontecer…" (remover botão "Clique para obter mais informações", texto sempre visível, navegação sequencial: 1ª só Próximo / intermediárias ambos / última só Anterior + novo texto do item "Espaço de escuta e participação") · carrossel de "Livros ao alcance das mãozinhas" (mesmos ajustes de navegação) · "Módulo II/I" → "Módulo 2/1" (P2L1, P2L2, P4L1) · maiúsculas em "Bibliotecas Comunitárias" (P3L1, P3L2).
+> - **H5P (eu indico, mestre edita):** P1L1 atividade (negrito na afirmativa sobre público espontâneo; ordem das alternativas padronizada; questão 6 invertida; box "Feedback final" → "Retomando as ideias") · P2L2 atividade "Jeitos de brincar de ler" (box → "Retomando as ideias") · P3L2 atividade "Contribuições…" (box → "Retomando as ideias"; "Selecione todas as TRÊS" → "Selecione as TRÊS"; acento circunflexo de TRÊS parecendo trema — investigar) · P4L2 atividade "Compartilhando a gestão…" (box → "Retomando as ideias") · P4L3 atividade "Revendo a função…" (box → "Retomando as ideias").
+> - **Moodle (procedimento para o mestre):** título da atividade P1L1 → "Bibliotecas Comunitárias – muitos jeitos de fazer, compromissos em comum" (travessão en do autor — sinalizar divergência com regra de travessão `—` se aplicável) · botão "Próximo" com acento errado no R (P4L3 Plano de Ação — navegação é do Moodle/H5P, não do HTML; verificar onde está) · imagem do Plano de Ação em baixa resolução (mestre vai providenciar nova).
+>
+> **ORDEM DOS CICLOS (seguir o documento):** Parte 1 (5 páginas/itens) → Parte 2 (4) → Parte 3 (3) → Parte 4 (3).
+>
+> **CICLO 1 ✅ (09/10/2026): `M3P1L1p1.html` — "Uma construção coletiva"** — grafia "Bibliotecas Comunitárias" aplicada (única ocorrência, l. 17, dentro do `<strong>` do autor; citação da tirinha de Mafalda no `sr-only` preservada — não é o termo). ✅ VALIDADA no Moodle (09/10/2026).
+>
+> **CICLO 2 ✅ (09/10/2026): H5P `M3P1L1p3-h5p-verdadeiro_falso.h5p`** — Q6 ("Crianças costumam ser um público espontâneo…") em negrito no Moodle, igual às demais 7 questões; mestre corrigiu e sincronizou em `assets/h5p/M3/`.
+>
+> **CICLO 3 ✅ (09/10/2026): `M3P1L2p3.html` + H5P de associação** — (a) HTML: box "Feedback final" → "Retomando as ideias" (lâmpada `fa fa-lightbulb-o` mantida), comentários de abertura/fechamento alinhados ao novo título do Moodle e comentário duplicado (2 consecutivos — violação N2.2.5) corrigido — formatação do box conferida byte a byte (`h6 font-weight-bold mb-0` + `#5b3925`, lâmpada 1.5rem `#d96f1a` intocada); (b) H5P: mestre padronizou a ordem das alternativas nas 8 questões (1º "Princípios comuns…" · 2º "Características que podem mudar…", causa da inversão = `randomAnswers: true`) e corrigiu a questão 6; título da página renomeado no Moodle. ✅ VALIDADO no Moodle (09/10/2026) — HTML substituído e H5P sincronizado em `assets/h5p/M3/`.
+>
+> **PRÓXIMO CICLO:** P1L2 "Tudo o que pode acontecer em uma Biblioteca Comunitária" (carrossel: remover botão "Clique para obter mais informações" — texto sempre visível; navegação sequencial: 1ª imagem só Próximo / intermediárias Anterior+Próximo / última só Anterior; grafia + novo texto do item "Espaço de escuta e participação"). Ao concluir cada ciclo no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejar a próxima etapa.
+
+---
+
 ## 🔚 08/10/2026 — ENCERRAMENTO DE SESSÃO (checkout de finalização) ✅ SESSÃO ENCERRADA — repositório sincronizado (HEAD = origin/master, `9bd0f45`) · próxima sessão: planejar `M4P3L1p1` no PLAN mode
 >
 > **🧹 HIGIENIZAÇÃO 2 (08/10/2026, simulação de sessão nova — correção dos resíduos restantes):** (1) **`pendencias-projeto.md`** item 5 (Módulo 4): "(`content/M4/` vazio)" → status real **em andamento** (DI convertido + Partes 1–2 concluídas e validadas 06–08/10/2026; Parte 3 em preparação — Lição 1 sem pendência de PDF, Lições 2–5 aguardando os 13 PDFs); (2) **`pendencias-M3.md`** itens 3–8 e 13 (fotos de acervo): "aguardando upload no Moodle" → "Parte 1/Parte 3 validada no Moodle (26/09/2026)"; nota de 29/09 ("Basta o mestre subir os arquivos") marcada como **SUPERADA**. Verificação confirmou: **Parte 3 do M4 não tem Fórum** (N3.5.3 — nada a posicionar) e a **Lição 1 da Parte 3 (`M4P3L1p1`) está pronta para gerar**, sem depender dos PDFs. Nenhum HTML tocado.
->
+
 > **🧹 HIGIENIZAÇÃO DE REGISTROS (08/10/2026, pós-sessão, a pedido do mestre):** simulação de sessão nova detectou resíduos de texto desatualizados (itens já resolvidos que ainda constavam como "aguardando upload"/"a atualizar"). Corrigido: **`descricoes.md`** (cabeçalho da nota de alts + itens 2–5 das pendências → "página validada no Moodle em 08/10/2026"; Regimento/Plano alinhados ao padrão dos itens 15–18 do `pendencias-M3.md`); **`pendencias-M3.md`** (itens 15/16 → validados; nota de 08/10 → "todas as 4 imagens concluídas e validadas"); **`pendencias-projeto.md`** (item 4 → DI atual `08-10-2026.md` referenciado, anterior preservado). **Nenhuma pendência real restante no M3** — apenas texto residual, agora corrigido. Nenhum HTML tocado.
 
 > **MÓDULO 3 · PARTE 4 · LIÇÃO 3 — CONCLUÍDA E ENCERRADA (4 ciclos + fechamento):**
