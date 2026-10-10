@@ -135,6 +135,14 @@ Sempre que uma nova janela de chat for aberta (perda de contexto), você DEVE:
 2. **Perguntar ao usuário:** "Quer saber onde paramos na última sessão?" — se ele responder sim, apresente um resumo do checkpoint.
 3. **Atualizar o arquivo** ao final de cada sessão de trabalho, registrando o último ponto alcançado.
 
+### N1.7.1 Checkout de encerramento + simulação de reinício (regra do mestre, 10/10/2026)
+Todo checkout de encerramento de sessão termina com uma **simulação de início de nova sessão**, feita pelo próprio agente, na mesma sessão:
+
+1. **Reler os arquivos de inicialização** como se a sessão fosse nova — `Onde-paramos.md`, `docs/rotina-entrega.md` e as **Regras de Bolso** do `.clinerules` (N3.0).
+2. **Comparar** o que foi lido com o que acabou de ser registrado no checkout: estado do módulo, ciclos/entregas, pendências (inclusive as do mestre no Moodle), próximo passo, caminhos de arquivos citados, commits/hashes e comandos.
+3. **Corrigir na hora** qualquer divergência, informação faltante ou instrução ambígua — o objetivo é **não deixar nada errado para trás** para a próxima sessão.
+4. **Registrar no próprio checkout** o resultado da simulação (o que foi conferido e se houve correção).
+
 ---
 
 ## N1.8 Git — Sempre Atualizar, Mas com Autorização Explícita

@@ -30,6 +30,14 @@
 ### 1.3 Entrega no chat
 Assim que o ciclo terminar, fornecer o **quadro abaixo** (§3) com os nomes corretos para o Moodle.
 
+### 1.4 Checkout de encerramento + simulação de reinício (regra do mestre, 10/10/2026)
+Ao encerrar a sessão (checkout), **antes de dar o trabalho por concluído**, simular o início de uma nova sessão:
+
+1. **Reler os arquivos de inicialização** — `Onde-paramos.md`, este `docs/rotina-entrega.md` e as Regras de Bolso do `.clinerules` (N3.0).
+2. **Confrontar** o conteúdo lido com o checkout recém-escrito: estado do módulo, ciclos/entregas, pendências (inclusive as do mestre no Moodle), próximo passo, caminhos citados, commits/hashes.
+3. **Corrigir imediatamente** o que divergir ou estiver ambíguo — **não deixar nada errado para trás**.
+4. **Registrar no checkout** o resultado da simulação (o que foi conferido e se houve correção).
+
 ---
 
 ## §2 — Tabela de Nomes no Moodle
@@ -132,4 +140,5 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | 24/09/2026 | Criação do arquivo — consolidando regras dispersas de lições aprendidas e rotina de entrega no chat. |
 | **10/10/2026** | **Regra nova (ordem do mestre): PROIBIDO `code -r`/`code -n`** — não devolver o foco à janela do VS Code (o comando roubava o foco do teclado e detonava o HTML em edição). A página final fica salva no repositório; o HTML só vai ao chat se o mestre pedir. Atualizados §1.2, §3, §4 e §5 item 10. |
 | **10/10/2026** | **Regra nova (ordem do mestre): linha "Ações no Moodle (suas)" obrigatória** no quadro de entrega — as solicitações do autor que **não são HTML** (navegação, título da página/atividade, edição de H5P, uploads) são sempre informadas no chat. Atualizados §3 e §5. |
+| **10/10/2026** | **Regra nova (ordem do mestre): o checkout de encerramento termina com simulação de reinício** — reler os arquivos de inicialização (N3.0) e confrontar com o que foi registrado, corrigindo divergências antes de encerrar (§1.4). |
 | **Label de parte** | `Parte N — Título` | `Parte 3 — Territórios do cuidado e bem-estar` |
