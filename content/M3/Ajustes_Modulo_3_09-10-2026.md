@@ -3,7 +3,7 @@
 [TÍTULO CURTO] Bibliotecas Comunitárias
 [TÍTULO LONGO] Bibliotecas Comunitárias: Espaços de Leitura, Infâncias e Acolhimento
 
-> **STATUS (10/10/2026): ✅ TODOS OS AJUSTES APLICADOS E VALIDADOS NO MOODLE.** Execução em **16 ciclos** (A/B + 1–15): **Parte 1** ✅ (ciclos 1–5, entregues em 09/10) · **Parte 2** ✅ (ciclos 6–9) · **Parte 3** ✅ (ciclos 10–12) · **Parte 4** ✅ (ciclos 13–15) · **imagem do Plano de Ação** ✅ (ciclos A/B — V2 900×493 + página a 900 px com a legenda do autor como descrição acessível). **Sem pendências de HTML**; ficam apenas itens do mestre no Moodle — acento do botão "Próximo" (página "Plano de Ação") e a observação tipográfica do acento de "TRÊS". Detalhes: `Onde-paramos.md` (checkout de 10/10/2026).
+> **STATUS (10/10/2026): ✅ TODOS OS AJUSTES APLICADOS E VALIDADOS NO MOODLE.** Execução em **16 ciclos** (A/B + 1–15): **Parte 1** ✅ (ciclos 1–5, entregues em 09/10) · **Parte 2** ✅ (ciclos 6–9) · **Parte 3** ✅ (ciclos 10–12) · **Parte 4** ✅ (ciclos 13–15) · **imagem do Plano de Ação** ✅ (ciclos A/B — V2 900×493 + página a 900 px com a legenda do autor como descrição acessível). **Sem pendências de HTML e sem pendências no Moodle** — as duas observações finais do mestre (o acento do botão "Próximo", na página "Plano de Ação", e a tipografia do acento de "TRÊS") **não existem mais** (confirmado em 10/10/2026). Detalhes: `Onde-paramos.md` (checkout de 10/10/2026).
 
 ---
 
