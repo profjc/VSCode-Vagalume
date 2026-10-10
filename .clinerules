@@ -37,13 +37,14 @@ Regras inegociáveis, consolidadas do corpo do arquivo. Em caso de conflito, pre
 2. **Checkpoint e rotina primeiro**: ao iniciar sessão, ler `Onde-paramos.md` e `docs/rotina-entrega.md` antes de qualquer ação (N1.7 / N3.0).
 3. **PLAN planeja, ACT executa**: uma página/arquivo por ciclo, com validação do mestre entre ciclos — nunca em lote (N1.3.3, N1.4.1).
 4. **Escopo estrito**: fazer exatamente o solicitado, sem extrapolar, "padronizar" ou corrigir o que não foi pedido (N1.5).
-5. **Foco ao VS Code**: ao final do ciclo de uma página a copiar, `code -r <caminho>` deve ser a **ÚLTIMA ação** (nunca seguido de atualizações de checkpoint) (N3.6 → docs/regras-licoes-aprendidas.md).
+5. **NUNCA roubar o foco do VS Code (regra do mestre, 10/10/2026)**: é **PROIBIDO** executar `code -r`/`code -n` — o comando trazia a janela do editor para frente, roubava o foco do teclado e **detonava o HTML que o mestre estava editando**. A página final fica salva no repositório (a aba já aberta se atualiza sozinha, sem troca de foco); o HTML só é exibido no chat **se o mestre pedir** (N3.6 → docs/regras-licoes-aprendidas.md).
 6. **Método padrão de imagem**: sempre placeholder com URL fixa + imagem oficial `src="[cole a imagem aqui]"` + marcador "⚠️ APAGAR ESTE BLOCO" — nunca `src=""`, `@@PLUGINFILE@@` ou data URI (N2.1.1.3 → docs/regras-html-moodle.md §1.1.3).
 7. **Sem `<style>`/`<link>`/`<script>` globais** no HTML entregue; JS apenas local com `addEventListener` quando estritamente necessário (N2.1.1 → docs/regras-html-moodle.md §1.1).
 8. **Acessibilidade desde o início**: padrão N2.4.7 (descrição longa sem duplicidade), atributos de imagem `width`/`height`/`loading="lazy"`, hierarquia de headings, sem VLibras (N2.4.12 → docs/regras-html-moodle.md §4.12).
 9. **Navegação via Moodle**: botões "Anterior"/"Próximo"/"Finalizar" são configurados no Moodle, nunca no HTML (N3.5.1).
 10. **Gavetas sob demanda**: consultar os arquivos de consulta (N3.4) apenas quando a tarefa exigir — nunca ler tudo por reflexo.
 11. **Auto-auditoria antes de entregar**: conferir a lista N1.10 antes de qualquer `attempt_completion`.
+12. **Ações no Moodle (do mestre) sempre informadas**: toda entrega no chat traz, no próprio quadro, a linha **"Ações no Moodle (suas)"** com as solicitações do autor que **NÃO são HTML** (navegação, título da página, edição de H5P, uploads) — ou "Nenhuma" (regra do mestre, 10/10/2026; N3.5.1).
 
 ---
 
@@ -172,10 +173,11 @@ Antes de cada `attempt_completion`, conferir rapidamente a conformidade com esta
 - [ ] **Tool call limpa**: mensagem iniciou com o XML da ferramenta, sem texto prévio (N1.9.1)
 - [ ] **Escopo estrito**: entreguei exatamente o solicitado, sem extrapolações (N1.5)
 - [ ] **Um arquivo por ciclo**: nenhum lote; página/arquivo único conforme o ciclo PLAN → ACT → validação (N1.3.3)
-- [ ] **Foco ao VS Code**: se era página a copiar no Moodle, `code -r` foi a ÚLTIMA ação do ciclo (docs/regras-licoes-aprendidas.md)
+- [ ] **Sem roubo de foco**: nenhum `code -r`/`code -n` foi executado no ciclo (regra do mestre, 10/10/2026 — docs/regras-licoes-aprendidas.md)
 - [ ] **Checkpoint atualizado**: `Onde-paramos.md` reflete o trabalho concluído (N1.6.2)
 - [ ] **Página validada**: conferida contra `docs/checklist-entrega.md` (N3.5.2)
 - [ ] **Nomes no Moodle conferidos**: entreguei na janela do chat o nome correto da página/lição conforme `docs/rotina-entrega.md` §2 (N3.0)
+- [ ] **Ações no Moodle informadas**: o quadro de entrega traz a linha "Ações no Moodle (suas)" com tudo que não é HTML (navegação, título, H5P, uploads) — ou "Nenhuma" (10/10/2026)
 
 Se qualquer item falhar, corrigir ANTES de entregar.
 
@@ -386,7 +388,7 @@ Tabela completa (com pastas e ícones dos tiles) em **`docs/project-map.md` → 
 ## N3.4 Arquivos de Consulta Obrigatória (gavetas sob demanda)
 Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **`docs/regras-html-moodle.md`** → detalhes de implementação HTML no Moodle (placeholder, TinyMCE, acessibilidade, fidelidade, links)
-- **`docs/regras-licoes-aprendidas.md`** → lições aprendidas e precedentes (foco `code -r`, fóruns, nomes de arquivo, H5P, legendas)
+- **`docs/regras-licoes-aprendidas.md`** → lições aprendidas e precedentes (foco do VS Code — NÃO usar `code -r`, fóruns, nomes de arquivo, H5P, legendas)
 - **`components-library.md`** → snippets de componentes
 - **`style-guide.md`** → cores, tipografia e paleta completa
 - **`docs/checklist-entrega.md`** → checklist de validação antes de entregar
@@ -402,7 +404,7 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 3. Gerar o HTML/storyboard (página/arquivo ÚNICO — nunca em lote).
 4. Salvar em `templates/pages/` com nome descritivo.
 5. Validar contra `docs/checklist-entrega.md` (auto-auditoria N1.10).
-6. Executar `code -r <caminho>` como **ÚLTIMA ação** (foco ao VS Code).
+6. **NÃO executar `code -r`** (regra do mestre, 10/10/2026): a página final fica salva no repositório e a exibição do HTML no chat acontece apenas se solicitada — nunca devolver o foco à janela do VS Code.
 7. Interromper e aguardar validação do mestre.
 
 ### N3.5.1 Fluxo de Navegação nas Lições (princípio mental)
@@ -410,6 +412,8 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **Páginas intermediárias:** botões "Anterior" e "Próximo".
 - **Última página da lição:** sempre uma atividade H5P (template 17 — Atividade Final de Lição) + botões "Anterior" e "Finalizar".
 Os botões são configurados pelo usuário diretamente no Moodle.
+
+**Entrega (regra do mestre, 10/10/2026):** identificar TODA solicitação do autor que caiba ao mestre no Moodle (navegação, título da página/atividade, edição de H5P, uploads) e informá-la **explicitamente no quadro da entrega**, na linha "Ações no Moodle (suas)" — mesmo que o ajuste não seja HTML. Nunca omitir por ser "do mestre".
 
 ### N3.5.2 Checklist de Validação Mental (antes de entregar)
 Validar a página contra o checklist completo em **`docs/checklist-entrega.md`** (estrutura/segurança, higienização, identidade visual, acessibilidade, flutuação, funcionamento no Moodle). Percorrer TODOS os itens mentalmente antes de entregar o HTML.
@@ -420,6 +424,6 @@ Em qualquer parte (bloco) do curso que possua fórum, o fórum deve ser **SEMPRE
 ---
 
 ## N3.6 Lições Aprendidas (GAVETA SEPARADA)
-As **lições aprendidas e precedentes** (foco ao VS Code com `code -r`, placeholder de imagem consolidado, fóruns "Compartilhando Ideias", numeração decimal, legendas, nomes de arquivo, comandos de terminal, etc.) estão migradas para **`docs/regras-licoes-aprendidas.md`**.
+As **lições aprendidas e precedentes** (foco da janela do VS Code — NÃO usar `code -r`, placeholder de imagem consolidado, fóruns "Compartilhando Ideias", numeração decimal, legendas, nomes de arquivo, comandos de terminal, etc.) estão migradas para **`docs/regras-licoes-aprendidas.md`**.
 
 **Regra de uso:** consultar este arquivo quando a tarefa envolver situação com precedente documentado. Em caso de conflito, prevalece a regra mais recente e específica (N1.2).

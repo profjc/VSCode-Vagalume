@@ -24,7 +24,7 @@
 - **UMA página/arquivo por vez** — nunca em lote.
 - Gerar o HTML fiel ao texto do autor (N2.5).
 - **Validar contra `docs/checklist-entrega.md`** (todos os grupos: estrutural, higienização, identidade visual, acessibilidade, flutuação, funcionamento no Moodle).
-- **`code -r <caminho>`** como ÚLTIMA ação (nunca seguido de atualizações de checkpoint ou outros comandos).
+- **SEM `code -r`/`code -n`** (regra do mestre, 10/10/2026): nunca devolver o foco à janela do VS Code — a página final fica salva no repositório e a aba já aberta se atualiza sozinha, sem roubar o foco do teclado.
 - **INTERROMPER** e aguardar validação do mestre no Moodle.
 
 ### 1.3 Entrega no chat
@@ -70,8 +70,11 @@ Ao finalizar cada ciclo, entregar um quadro como este:
     | **Arquivo HTML** | `templates/pages/…/…html` |
     | **H5P placeholder** | `[ARQUIVO_H5P: …h5p]` (ou "Nenhum") |
     | **Observações** | posicionamento, colagens pendentes, etc. |
+    | **Ações no Moodle (suas)** | navegação ("Anterior"/"Próximo"/"Finalizar"), título da página/atividade, edição de H5P, uploads — ou "Nenhuma" |
 
-> **NÃO devolver o código HTML na janela do chat (26/09/2026 — decisão do mestre):** a entrega no chat é **apenas o quadro** acima (nome da página, lição, arquivo e H5P). O HTML fica no repositório e é aberto no VS Code com `code -r <caminho>` como **última ação do ACT**; o mestre copia direto do editor. Precedente: ciclo da página `M3P3L1p1` (26/09/2026).
+> **NÃO devolver o código HTML na janela do chat (26/09/2026 — decisão do mestre; ajustada em 10/10/2026):** a entrega no chat é **apenas o quadro** acima (nome da página, lição, arquivo e H5P). O HTML fica no repositório, salvo — o mestre copia direto da aba do editor, que se atualiza sozinha **sem troca de foco** (não se executa mais `code -r`). Se o mestre pedir, o HTML final pode ser exibido no chat. Precedente: ciclo da página `M3P3L1p1` (26/09/2026).
+>
+> **Ações no Moodle SEMPRE informadas (10/10/2026 — regra do mestre):** identificar **todas** as solicitações do autor que caibam ao mestre no Moodle (navegação, título da página/atividade, edição de H5P, uploads) e informá-las na linha **"Ações no Moodle (suas)"** do quadro — mesmo que não sejam HTML. Nunca omitir por ser "do mestre". Precedente: o botão "Próximo" com o acento na letra R (página "Plano de Ação") ficou registrado apenas no checkpoint, sem aviso no chat.
 
 ---
 
@@ -94,7 +97,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 
 ### Procedimento (1 min)
 - [ ] **Um arquivo por ciclo** — não lotei páginas
-- [ ] **`code -r` foi a ÚLTIMA ação** (ou é N/A)
+- [ ] **Nenhum `code -r`/`code -n` executado** (regra do mestre, 10/10/2026 — não roubar o foco)
 - [ ] **`Onde-paramos.md` atualizado** com o checkpoint
 - [ ] **Fórum** (se pertence a uma Parte): é a última atividade da Parte (N3.5.3)
 ---
@@ -115,7 +118,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | 7 | **Links externos** | Completos: `target="_blank"` + `rel="noopener noreferrer"` + `.nomediaplugin` + `font-weight-bold` + `color: #944b11` + `text-decoration: underline`. |
 | 8 | **Mutação em PLAN** | Nenhum comando que altere arquivos em PLAN MODE (terminal inclusive). Só leitura e análise. |
 | 9 | **Título do fórum (vagalume-destaque)** | NÃO se migra para `<strong>` — é elemento fixo do template canônico (verde `#587C41` no fórum). |
-| 10 | **Foco ao VS Code** | `code -r <caminho>` é a ÚLTIMA ação do ACT — nunca seguido de checkpoint update, chat ou outros comandos. |
+| 10 | **Foco ao VS Code** | **NUNCA** executar `code -r`/`code -n` (regra do mestre, 10/10/2026): o foco ia para o editor e detonava o HTML em edição. A página final fica salva no repositório; HTML no chat só se pedido. |
 | 11 | **Commit+push** | Só com autorização explícita do mestre. Sequência anti-travamento: diagnóstico → `git commit -m` (uma linha) → `git push origin master` → verificação. |
 | 12 | **Vídeo padrão** | TODO vídeo é embedado por padrão (iframe YouTube). Só fallback (thumb + link) se o mestre avisar que NÃO é autorizado. |
 | 13 | **Vídeo vertical (Shorts)** | Conferir a orientação por **oEmbed** antes de montar a página. Shorts verticais usam o bloco **9:16** (`max-width: 315px` + `height: 560px`); o **16:9** (`560px` + `315px`) segue padrão para vídeos horizontais. Minutagem abaixo de 1 min fica fiel ao DI (ex.: `48s`). Precedente: `M3P4L2p1.html` (26/09/2026). |
@@ -127,4 +130,6 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | Data | Mudança |
 |---|---|
 | 24/09/2026 | Criação do arquivo — consolidando regras dispersas de lições aprendidas e rotina de entrega no chat. |
+| **10/10/2026** | **Regra nova (ordem do mestre): PROIBIDO `code -r`/`code -n`** — não devolver o foco à janela do VS Code (o comando roubava o foco do teclado e detonava o HTML em edição). A página final fica salva no repositório; o HTML só vai ao chat se o mestre pedir. Atualizados §1.2, §3, §4 e §5 item 10. |
+| **10/10/2026** | **Regra nova (ordem do mestre): linha "Ações no Moodle (suas)" obrigatória** no quadro de entrega — as solicitações do autor que **não são HTML** (navegação, título da página/atividade, edição de H5P, uploads) são sempre informadas no chat. Atualizados §3 e §5. |
 | **Label de parte** | `Parte N — Título` | `Parte 3 — Territórios do cuidado e bem-estar` |

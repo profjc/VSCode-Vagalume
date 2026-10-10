@@ -1,3 +1,180 @@
+## 🔚 10/10/2026 — CHECKOUT DE ENCERRAMENTO DE SESSÃO — REVISÃO FINAL DO MÓDULO 3 ✅ CONCLUÍDA E VALIDADA (CICLOS A/B + 1–15) — repositório sincronizado · próxima sessão: **Módulo 4 — Parte 3 "Bibliotecas Comunitárias em ação"** (`M4P3L1p1`, Lição 1)
+
+> **CONTEXTO:** sessão dedicada à revisão final do M3 a partir de `content/M3/Ajustes_Modulo_3_09-10-2026.md` (convertido de `temp/Ajustes_Módulo 3.docx`). **Regra de trabalho:** um arquivo por ciclo (PLAN → ACT → validação) — nunca em lote. **Resultado: todos os ajustes do documento aplicados e validados pelo mestre.**
+>
+> **✅ ENTREGUE E VALIDADO (16 ciclos nesta sessão):** **Ciclos A/B** — nova imagem do Plano de Ação (V2 recebida em `temp/`, tratada para **900×493, PNG, ~117 KB**, mantendo o nome) + página `M3P4L3p5.html` com `max-width: 900px`, `width="900" height="493"` e **legenda do autor como descrição acessível** (sem `sr-only`; padrão canônico da `M3P4L3p2`) · **Ciclos 6–9 (Parte 2)** — `M3P2L1p1` ("No Módulo 2") · `M3P2L2p1` ("Módulo 1") · `M3P2L3p2` (box "Retomando as ideias") · `M3P2L4p1` (carrossel sem o botão "Clique para obter mais informações" + navegação sequencial) · **Ciclos 10–12 (Parte 3)** — `M3P3L1p2` e `M3P3L2p1` (grafia "Bibliotecas Comunitárias") · `M3P3L2p3` ("Selecione **as** TRÊS alternativas corretas." com o negrito do autor sobre toda a frase) · **Ciclos 13–15 (Parte 4)** — `M3P4L1p1` ("No Módulo 2") · `M3P4L2p3` e `M3P4L3p6` (boxes "Retomando as ideias"). *(Os ciclos 1–5 da Parte 1 já haviam sido entregues e validados em 09/10/2026.)*
+>
+> **🔎 VERIFICAÇÕES FINAIS:** 0 ocorrências de "Feedback final" e 0 numerais romanos nas páginas do M3 · os **12 H5P** do M3 foram escaneados — nenhum contém "Feedback final" nem "Retomando as ideias" (o box sempre viveu no HTML; **nada a editar em H5P**) · a página `M3P3L2p3` foi reconstruída byte a byte após dano de buffer no editor (hash `ecc1ace9…` conferido; o arquivo em disco sempre esteve íntegro).
+>
+> **📌 REGRAS NOVAS REGISTRADAS (ordens do mestre, 10/10/2026):** (1) **PROIBIDO `code -r`/`code -n`** — o comando roubava o foco do teclado e detonava o HTML em edição; a página final fica salva no repositório (a aba aberta se atualiza sozinha) e o HTML só é exibido no chat **se o mestre pedir** (`.clinerules` Regra de Bolso nº 5 + N3.4 + N3.5.0 passo 6 + N3.6 + checklist N1.10; `docs/rotina-entrega.md` §1.2, §3, §4 e §5 item 10; `docs/regras-licoes-aprendidas.md`); (2) **linha "Ações no Moodle (suas)" obrigatória em toda entrega** — as solicitações do autor que não são HTML (navegação, título da página, H5P, uploads) são sempre informadas no chat (`.clinerules` Regra de Bolso nº 12 + N3.5.1 + N1.10; `docs/rotina-entrega.md` §3; `docs/regras-licoes-aprendidas.md`).
+>
+> **⏳ AINDA DO LADO DO MESTRE (Moodle — não é HTML):** botão "Próximo" com o acento na letra R (página "Plano de Ação") · observação tipográfica do acento de "TRÊS" (renderização do tema Trema, fora do escopo do HTML).
+>
+> **🚀 PRÓXIMA SESSÃO — MÓDULO 4 ("Mãos na massa! (ou nos Livros!)") · PARTE 3 "Bibliotecas Comunitárias em ação":** ✅ **iniciar pela Lição 1 (`M4P3L1p1`)** — DI L6, página única, texto puro (DI 630–648), **sem pendência de PDF**; 🔴 **Lições 2–5** (DI L7–L10) continuam bloqueadas pelos **13 PDFs** das Sequências Didáticas (pendência do autor — `content/M4/pendencias-M4.md`, itens 1–4). **Alternativa:** adiantar a **Parte 4** ("Síntese do Módulo 4" + "Referências Bibliográficas — Módulo 4"), se o mestre autorizar. **Ao abrir a próxima sessão:** ler `Onde-paramos.md` + `docs/rotina-entrega.md` (N3.0) e planejar em **PLAN mode**.
+>
+> **🗂️ ESTADO DO MÓDULO 3:** **encerrado e revisado** — nenhuma pendência de HTML. Registros atualizados nesta sessão: `assets/images/ilustracoes/M3/descricoes.md` (item 17 — V2 900×493 + legenda como descrição acessível), `content/M3/Ajustes_Modulo_3_09-10-2026.md` (cabeçalho de status) e `content/M3/pendencias-M3.md`.
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 15 EXECUTADO: Parte 4 · "Atividade: Revendo a função de alguns instrumentais de gestão" — `M3P4L3p6.html` (box "Feedback final" → "Retomando as ideias") · **REVISÃO FINAL DO M3 CONCLUÍDA (todos os ajustes aplicados)** · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 14 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 125–127):** l. 29 — box "Feedback final" → **"Retomando as ideias"** + comentário interno correspondente (l. 24), no padrão validado dos Ciclos 3/5/8/14. Lâmpada `fa fa-lightbulb-o`, `vagalume-h5p-card`, `card-body` e parágrafos intocados. Ao concluir: checkpoint (encerrando a **revisão final do M3**) → entrega no chat (sem `code -r`) → interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P4L3p6.html` — l. 29 `<p class="h6 font-weight-bold mb-0" style="color: #5b3925;">Retomando as ideias</p>` + l. 24 comentário "Caixa de Retomando as Ideias" (2 alterações). Asserts: 0 menções a "Feedback final" · lâmpada 1 (intocada) · `<div>` 11/11 · `h5p-placeholder` 1 · sem `<style>/<script>/<link>/onclick`. **Sem `code -r` (regra nova).** **✅ Validado no Moodle (10/10/2026).**
+>
+> **🔚 REVISÃO FINAL DO M3 CONCLUÍDA (10/10/2026):** todos os ajustes de `content/M3/Ajustes_Modulo_3_09-10-2026.md` aplicados — Ciclos 1–5 (Parte 1, validados) · Ciclos A/B (imagem do Plano de Ação, V2 900×493 + página a 900 px com a legenda do autor como descrição acessível) · Ciclos 6–9 (Parte 2: módulo decimal, box "Retomando as ideias", carrossel "Livros ao alcance das mãozinhas") · Ciclos 10–12 (Parte 3: grafia "Bibliotecas Comunitárias" ×2, "Selecione as TRÊS alternativas corretas." em negrito do autor) · Ciclos 13–15 (Parte 4: "No Módulo 2", boxes "Retomando as ideias" ×2). **Verificação final:** 0 ocorrências de "Feedback final" e 0 numerais romanos nas páginas do M3. **Verificação extra (10/10/2026):** os **12 H5P** do M3 foram escaneados — **nenhum contém "Feedback final" nem "Retomando as ideias"** (o box sempre viveu no HTML; **nada a editar em H5P**). **Regras novas registradas (10/10/2026, ordens do mestre):** (a) **PROIBIDO `code -r`/`code -n`** (não roubar o foco do teclado) — `.clinerules` (Regra de Bolso nº 5, N3.4, N3.5.0 passo 6, N3.6, checklist N1.10), `docs/rotina-entrega.md` (§1.2, §3, §4, §5 item 10) e `docs/regras-licoes-aprendidas.md`; (b) **"Ações no Moodle (suas)" obrigatória no quadro de entrega** — solicitações do autor que não são HTML (navegação, título, H5P, uploads) sempre informadas no chat (`.clinerules` Regra de Bolso nº 12, N3.5.1, N1.10; `docs/rotina-entrega.md` §3; `docs/regras-licoes-aprendidas.md`). **Pendências do lado do mestre (Moodle, não HTML):** botão "Próximo" com acento na letra R (página "Plano de Ação") e a observação tipográfica do acento de "TRÊS" (renderização do tema). **17 arquivos modificados aguardando commit + push (autorização do mestre — N1.8).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 14 EXECUTADO: Parte 4 · "Atividade: Compartilhando a gestão da Biblioteca Comunitária" — `M3P4L2p3.html` (box "Feedback final" → "Retomando as ideias") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 13 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **🔴 REGRA NOVA REGISTRADA (10/10/2026 — ordem do mestre):** **PROIBIDO executar `code -r`/`code -n`** — o comando roubava o foco do teclado e detonava o HTML em edição (precedente: `M3P3L2p3`). A página final fica salva no repositório (a aba aberta se atualiza sozinha) e o HTML só vai ao chat se o mestre pedir. Atualizados: `.clinerules` (Regra de Bolso nº 5, N3.4, N3.5.0 passo 6, N3.6 e checklist N1.10), `docs/rotina-entrega.md` (§1.2, §3, §4 e §5 item 10) e `docs/regras-licoes-aprendidas.md` (nova lição no topo + supersessão das entradas de 03–14/08/2026).
+>
+> **Ajuste deste ciclo (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 114–116):** l. 35 — box "Feedback final" → **"Retomando as ideias"** + comentário interno correspondente (l. 30), no padrão validado dos Ciclos 3/5/8. Lâmpada `fa fa-lightbulb-o`, `vagalume-h5p-card`, `card-body` e parágrafos intocados. Ao concluir: checkpoint → **entrega no chat (sem `code -r`)** → interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P4L2p3.html` — l. 35 `<p class="h6 font-weight-bold mb-0" style="color: #5b3925;">Retomando as ideias</p>` + l. 30 comentário "Caixa de Retomando as Ideias" (2 alterações, única diferença do arquivo). Asserts: 0 menções a "Feedback final" · lâmpada `fa fa-lightbulb-o` 1 (intocada) · `<div>` 11/11 · `h5p-placeholder` 1 · sem `<style>/<script>/<link>/onclick`. **Sem `code -r` (regra nova).** **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 13 EXECUTADO: Parte 4 · "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" — `M3P4L1p1.html` ("No Módulo II" → "No Módulo 2") · ✅ validado no Moodle (10/10/2026)
+
+> **PARTE 3 ✅ ENCERRADA — 3/3 ciclos validados pelo mestre no Moodle (10/10/2026).**
+>
+> **FILA DA PARTE 4 (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 106–127; um arquivo por ciclo):** (a) `M3P4L1p1` — l. 3: "No Módulo II" → "No Módulo 2" (**este ciclo**) · (b) `M3P4L2p3` — l. 35: box "Feedback final" → "Retomando as ideias" (+ comentário, l. 30) · (c) `M3P4L3p5` ("Plano de Ação") — ✅ já feito nos Ciclos A/B (**resta apenas o botão "Próximo" no Moodle** — ajuste do mestre) · (d) `M3P4L3p6` — l. 29: box "Feedback final" → "Retomando as ideias" (+ comentário, l. 24).
+>
+> **Este ciclo:** editar `M3P4L1p1.html` (só o trecho indicado) → validar → checkpoint → `code -r` (última ação) → interromper para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P4L1p1.html` (l. 3) — "No Módulo **II**" → **"No Módulo 2"** (única alteração). Asserts: 0 numerais romanos · `<div>` 6/6 · iframe do vídeo 1 (intocado) · sem `<style>/<script>/<link>/onclick`. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 12 EXECUTADO: Parte 3 · "Atividade: Contribuições das Bibliotecas Comunitárias para o cuidado e bem-estar" — `M3P3L2p3.html` ("Selecione as TRÊS alternativas corretas." em negrito do autor) · **PARTE 3 CONCLUÍDA** · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 11 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 101 + correção do mestre em 10/10/2026):** l. 11 — excluir "todas as" e aplicar o negrito do autor sobre **toda a frase**: `<p class="mb-0"><strong>Selecione as TRÊS alternativas corretas.</strong></p>`. **Verificação no `.docx` (`temp/Ajustes_Módulo 3.docx`, XML):** os runs de "Selecione as TR" + "ÊS alternativas corretas." estão com `<w:b w:val="1"/>` → negrito cobre "Selecione" até o ponto final (o mestre confirmou).
+>
+> **Sem box "Feedback final"** nesta página (ausente do HTML e do H5P) e o "acento parecendo trema" é tipografia do tema — nada a fazer. Ao concluir: checkpoint + `code -r` (última ação) + interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P3L2p3.html` (l. 11) — `<p class="mb-0"><strong>Selecione as TRÊS alternativas corretas.</strong></p>` (palavra "todas" excluída + negrito do autor aplicado sobre toda a frase, conforme o `.docx`). Asserts: "todas as" 0 · `<div>` 8/8 · `h5p-placeholder` 1 (intocado) · sem `<style>/<script>/<link>/onclick`. **PARTE 3 CONCLUÍDA (3/3 ciclos).** Próxima fila: **Parte 4** (4 páginas/itens — "Por que gerir uma Biblioteca Comunitária também é produzir cultura?" · atividade "Compartilhando a gestão da Biblioteca Comunitária" [box] · "Plano de Ação" [✅ já feita nos Ciclos A/B — resta só o botão "Próximo" no Moodle] · atividade "Revendo a função de alguns instrumentais de gestão" [box]). **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 11 EXECUTADO: Parte 3 · "Cuidado e bem-estar se constroem em comunidade" — `M3P3L2p1.html` ("As bibliotecas comunitárias" → "As Bibliotecas Comunitárias") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 10 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 95–97):** 2º parágrafo (l. 13) — `<strong>As bibliotecas comunitárias fazem parte dessas redes.</strong>` → **"As Bibliotecas Comunitárias…"**. Nada mais é alterado (imagem flutuante + `sr-only` + parágrafos intocados). Ao concluir: checkpoint + `code -r` (última ação) + interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P3L2p1.html` (l. 13, 2º §) — **"As Bibliotecas Comunitárias fazem parte dessas redes."** (única alteração). Asserts: 0 ocorrências em minúsculas · `<div>` 1/1 · `sr-only` da imagem 1 (intocado) · sem `<style>/<script>/<link>/onclick`. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 10 EXECUTADO: Parte 3 · "O que torna um espaço acolhedor?" — `M3P3L1p2.html` ("bibliotecas comunitárias" → "Bibliotecas Comunitárias") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 9 ✅ VALIDADO PELO MESTRE (10/10/2026) — PARTE 2 CONCLUÍDA.**
+>
+> **FILA DA PARTE 3 (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 87–102; um arquivo por ciclo):** (a) `M3P3L1p2.html` — 2º § (l. 5): "bibliotecas comunitárias" → "Bibliotecas Comunitárias" (**este ciclo**) · (b) `M3P3L2p1.html` — 2º § (l. 13): "As bibliotecas comunitárias…" → "As Bibliotecas Comunitárias…" · (c) `M3P3L2p3.html` — l. 11: "Selecione **todas as** TRÊS alternativas corretas" → "Selecione as TRÊS alternativas corretas".
+>
+> **Correções verificadas em 10/10/2026:** (1) **não existe box "Feedback final"** na atividade "Contribuições…" — ausente do HTML e do H5P (`assets/h5p/M3/M3P3L2p3-h5p-multipla_escolha_multiplas.h5p`, `content.json` conferido) → era erro de classificação do checkpoint, nada a fazer; (2) o "acento parecendo trema" em TRÊS **não é defeito do HTML** — o arquivo usa o `Ê` pré-composto (UTF-8 `C3 8A`), sem marcas combinantes → é renderização tipográfica do tema (fora do escopo do HTML; registrado para o mestre).
+>
+> **Este ciclo:** editar `M3P3L1p2.html` (só o trecho indicado) → validar → checkpoint → `code -r` (última ação) → interromper para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P3L1p2.html` (2º §, l. 5) — "cotidiano das bibliotecas comunitárias" → **"cotidiano das Bibliotecas Comunitárias"** (única alteração). Asserts: 0 ocorrências em minúsculas · `<div>` 5/5 · iframe do vídeo 1 (intocado) · sem `<style>/<script>/<link>/onclick`. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 9 EXECUTADO: Parte 2 · "Livros ao alcance das mãozinhas" — `M3P2L4p1.html` (carrossel: botões "Clique…" removidos + navegação sequencial) · **PARTE 2 CONCLUÍDA** · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 8 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 75–81):** remover os 4 botões "Clique para obter mais informações" e a classe `collapse` dos 4 `<div id="collapseCardN">` (textos sempre visíveis); navegação sequencial — slide 1 (só Próximo) · slides 2–3 (ambos) · slide 4 (só Anterior). **Precedente autoritativo:** commit `c1fa083` → `templates/pages/M3/Parte1/Licao3/M3P1L3p1.html` (Ciclo 4, validado no Moodle): `class="collapse text-left mt-2 mb-3"` → `class="text-left mt-2 mb-3"` (id mantido), botão `btn btn-primary … data-toggle="collapse"` removido de cada slide, wrappers `d-flex` e indicadores intocados. Ao concluir: checkpoint + `code -r` (última ação) + interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P2L4p1.html` — 4 `<div id="collapseCardN">` sem a classe `collapse`; 4 botões "Clique para obter mais informações" removidos; navegação final: slide 1 "Um espaço que convida a explorar" (só Próximo, l. 40) · "Um ambiente que acolhe" (Anterior+Próximo, l. 65/66) · "Um acervo pensado para a Primeira Infância" (Anterior+Próximo, l. 91/92) · "Livros feitos para serem usados" (só Anterior, l. 117). Asserts: "Clique…" 0 · `class="collapse` 0 · `data-toggle` 0 · `data-slide` prev 3 / next 3 · indicadores 4 · blocos bege 4 · `<div>` 31/31 · sem `<style>/<script>/<link>/onclick`. **PARTE 2 CONCLUÍDA (4/4 ciclos).** Próxima fila: **Parte 3** (3 itens — "O que torna um espaço acolhedor?" · "Cuidado e bem-estar se constroem em comunidade" · atividade "Contribuições…" com box + "Selecione as TRÊS" e o acento de TRÊS). **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 8 EXECUTADO: Parte 2 · "Atividade: Jeitos de brincar de ler" — `M3P2L3p2.html` (box "Feedback final" → "Retomando as ideias") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 7 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 69–71):** box "Feedback final" → **"Retomando as ideias"** (l. 30) + comentário interno correspondente (l. 25) — mesmo padrão validado nos Ciclos 3 e 5 (`M3P1L2p3`/`M3P1L3p3`). Lâmpada `fa fa-lightbulb-o`, `vagalume-h5p-card`, `card-body` e parágrafos intocados. Ao concluir: checkpoint + `code -r` (última ação) + interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P2L3p2.html` — l. 30 `<p class="h6 font-weight-bold mb-0" style="color: #5b3925;">Retomando as ideias</p>` e l. 25 comentário "Caixa de Retomando as Ideias" (2 alterações, única diferença do arquivo). Asserts: 0 menções a "Feedback final" · lâmpada `fa fa-lightbulb-o` 1 (intocada) · `<div>` 11/11 · `h5p-placeholder` 1 · sem `<style>/<script>/<link>/onclick`. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 7 EXECUTADO: Parte 2 · "Lugar de criança é na Biblioteca Comunitária!" — `M3P2L2p1.html` ("Módulo I" → "Módulo 1") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO 6 ✅ VALIDADO PELO MESTRE (10/10/2026).**
+>
+> **Ajuste (fonte: `content/M3/Ajustes_Modulo_3_09-10-2026.md`, l. 67):** l. 3 — "Módulo I" → **"Módulo 1"**. Nada mais é alterado. Ao concluir: checkpoint + `code -r` (última ação) + interrupção para validação no Moodle.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P2L2p1.html` (l. 3) — `Módulo I` → **`Módulo 1`** (única alteração). Asserts: 0 numerais romanos · `<div>` 2/2 · sem `<style>/<script>/<link>/onclick`. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## ✅ 10/10/2026 — CICLO 6 EXECUTADO: Parte 2 · "Primeira Infância na Biblioteca Comunitária" — `M3P2L1p1.html` ("No módulo II" → "No Módulo 2") · ✅ validado no Moodle (10/10/2026)
+
+> **CICLO B ✅ VALIDADO PELO MESTRE (10/10/2026):** imagem do Plano de Ação substituída no Moodle e página validada — **pendência da imagem encerrada**.
+>
+> **FILA DA PARTE 2 (um arquivo por ciclo):** (a) `M3P2L1p1` — "No módulo II" → "No Módulo 2" (**este ciclo**) · (b) `M3P2L2p1` — "Módulo I" → "Módulo 1" · (c) `M3P2L3p2` — "Atividade: Jeitos de brincar de ler": box "Feedback final" → "Retomando as ideias" (box está no HTML) · (d) `M3P2L4p1` — "Livros ao alcance das mãozinhas": carrossel sem o botão "Clique para obter mais informações" + navegação sequencial (padrão do Ciclo 4).
+>
+> **Correção de mapeamento:** "Jeitos de brincar de ler" = `Parte2/Licao3/M3P2L3p2.html` e "Livros ao alcance das mãozinhas" = `Parte2/Licao4/M3P2L4p1.html` (identificação pelo título, que espelha o Moodle) — o checkpoint anterior citava P2L3/P2L2p3 por aproximação.
+>
+> **Passos:** editar o HTML (só o trecho indicado) → validar → checkpoint → `code -r` (última ação) → interromper para a entrega no chat.
+>
+> **✅ RESULTADO (10/10/2026):** `M3P2L1p1.html` (l. 3) — `No módulo II` → **`No Módulo 2`** (única alteração). Asserts: 0 numerais romanos no arquivo · `<div>` 2/2 · sem `<style>/<script>/<link>/onclick`. `code -r` como última ação. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## 🖼️ 10/10/2026 — CICLO B ✅ EXECUTADO: `M3P4L3p5.html` — largura ampliada (900 px) + legenda do autor como descrição acessível · ✅ validado no Moodle (10/10/2026)
+
+> **DECISÃO DO MESTRE (10/10/2026):** a descrição longa (`sr-only`) foi **descartada** — texto extenso demais; a imagem **apenas ilustra** que existe um Plano de Ação e que ele cabe em um formulário, e os detalhes dos quadros não precisam ser lidos (o formulário é obtido por outros meios). Adotada a **opção "zero"**: **legenda do autor como descrição acessível**, no padrão canônico da `templates/pages/M3/Parte4/Licao3/M3P4L3p2.html` — `aria-labelledby="fig1-desc"` na `<figure>` + `id="fig1-desc"` na `figcaption` (sem parágrafo `sr-only`, zero duplicidade).
+>
+> **PLANO DO CICLO B (ordem de execução):** (1) registrar este plano; (2) editar `templates/pages/M3/Parte4/Licao3/M3P4L3p5.html` — (a) **remover** o `<p class="sr-only" id="fig1-desc">`; (b) `figcaption` recebe `id="fig1-desc"` (padrão da p2, copiado byte a byte: `class="figure-caption text-center mt-2" id="fig1-desc" style="line-height: 1.3;"`); (c) comentário da figura atualizado (V2, 10/10/2026, já horizontal — sem rotação); (d) comentário da imagem oficial → `(900x493, V2 de 10/10/2026, já horizontal)`; (e) `<figure>` e `<img>` com `max-width: 900px` e `width="900" height="493"`; (f) **nada mais é tocado** (texto do autor, borda `1px #d96f1a`, cantos `12px`, bloco temporário ⚠️ + `src=""` 40×40, `alt=""` + `role="presentation"`, `loading="lazy"`, `display: flow-root`, `mb-0` final, comentários de abertura/fechamento); (3) validar contra `docs/checklist-entrega.md` + asserts de higienização; (4) fechar a linha 17 do `descricoes.md` (legenda do autor = descrição acessível, sem `sr-only`, ✅); (5) atualizar este checkpoint; (6) **última ação:** `code -r` no HTML e **interrupção** para validação; (7) entrega do quadro no chat (página do Moodle: **"Plano de Ação"**) para o mestre substituir o HTML e subir a nova imagem.
+>
+> **Método:** PLAN → ACT → validação, **um arquivo por ciclo** (N1.3.3). Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa.
+>
+> **✅ RESULTADO DO CICLO B (10/10/2026):** (a) **`templates/pages/M3/Parte4/Licao3/M3P4L3p5.html` atualizado em 5 pontos** — `sr-only` removido; `figcaption` com `id="fig1-desc"` (padrão copiado byte a byte da `M3P4L3p2.html`); `<figure>` e `<img>` com `max-width: 900px`; `width="900" height="493"`; comentários da figura e da imagem oficial atualizados (V2, 10/10/2026, já horizontal — sem rotação); (b) **nada mais alterado** — texto do autor, borda `1px #d96f1a`, cantos `12px`, bloco temporário ⚠️ + `src=""` 40×40, placeholder `[cole a imagem aqui]`, `alt=""` + `role="presentation"`, `loading="lazy"`, `display: flow-root`, `mb-0` final e comentários de abertura/fechamento ("Plano de Ação") intactos; (c) **validação por asserts:** `sr-only` 0 · `<style>/<script>/<link>/onclick` 0 · `src=""` 1 · marcador ⚠️ 1 · `<figure>` 1/1 · `<div>` 2/2 · `|` 0 · `--`/`–` em texto 0 · `max-width: 900px` nas duas pontas · `id="fig1-desc"` presente; (d) **`assets/images/ilustracoes/M3/descricoes.md`** item 17 fechado — ✅ aprovado (V2 + legenda do autor como descrição acessível, sem `sr-only`); (e) **entrega no chat** com o quadro do §3 (página do Moodle: **"Plano de Ação"**, caminho *Espaços da Primeira Infância: Instrumentos de Gestão: Plano de Ação*) — o mestre substitui o HTML e **sobe a imagem de 900×493**; (f) observação do lado do Moodle (fora do HTML): botão "Próximo" com o acento na letra R. **✅ Validado no Moodle (10/10/2026).**
+
+---
+
+
+## 🖼️ 10/10/2026 — CICLO A ✅ EXECUTADO: nova imagem do Plano de Ação (`M3P4L3p5`) — asset substituído (900×493, ~117 KB, PNG) · ✅ validado no Moodle (10/10/2026)
+
+> **PEDIDO DO MESTRE (10/10/2026):** substituir a imagem do Plano de Ação por uma nova versão entregue em `temp/`, tratando-a e **mantendo o nome original**. Origem do pedido: `content/M3/Ajustes_Modulo_3_09-10-2026.md` (l. 118–123) — *"Vou verificar uma imagem com mais resolução, pois não conseguimos ler os itens dos quadros"*.
+>
+> **DECISÕES DO MESTRE (10/10/2026):** (1) exibição **não** em largura total — **aumentar a largura atual**, fixada em **900 px** (respiro lateral: o container tem ~1110 px); (2) formato **PNG**; (3) escopo: **somente a imagem neste ciclo** e o **HTML com largura ampliada no ciclo seguinte**; (4) **refazer a descrição** (`sr-only`) e mudá-la também no HTML; (5) **manter a borda** `1px #d96f1a` + cantos `12px`; (6) limpar `temp/` ao final; (7) na entrega do Ciclo B o mestre substitui a página no Moodle e sobe a nova imagem.
+>
+> **PLANO DO CICLO A (ordem de execução):** (1) registrar este plano; (2) tratar e substituir o asset mantendo o nome — `convert "temp/V2_Imagem_plano de ação.png" -resize 900x -strip -background white -alpha remove -alpha off -define png:color-type=2 "assets/images/ilustracoes/M3/M3P4L3p5-plano_de_acao.png"` (→ 900×493, ~116 KB, sem rotação, sem upscale, 1:1); (3) validar (`identify` + leitura visual); (4) atualizar `assets/images/ilustracoes/M3/descricoes.md` item 17 (dimensões/tamanho + registro da V2; descrição longa marcada 🔄 para o Ciclo B); (5) limpar `temp/` (apenas o PNG); (6) atualizar este checkpoint; (7) **última ação:** `code -r` na imagem e **interrupção** para validação do mestre.
+>
+> **CICLO B (próximo PLAN):** `templates/pages/M3/Parte4/Licao3/M3P4L3p5.html` — `max-width: 900px`, `width="900" height="493"`, comentário da imagem atualizado e **`sr-only` refeita** (campo "Estado" no lugar de "Data"; nova linha de instrução das 2 atividades fixas + 2 pontuais; coluna 4 = "O como?"; 4 linhas de células) + fechamento da linha 17 do `descricoes.md` + entrega do quadro com o nome da página no Moodle.
+>
+> **A arte nova (V2, 1615×885, PNG, recebida em 10/10/2026) é outra versão do formulário** — e já vem **horizontal** (dispensa a rotação 90° aplicada em 08/10/2026): campo "Estado" no lugar de "Data", nova linha de instrução e correção do rótulo da 4ª coluna ("O como?").
+>
+> **Método:** PLAN → ACT → validação, **um arquivo por ciclo** (N1.3.3). Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa (Ciclo B).
+>
+> **✅ RESULTADO DO CICLO A (10/10/2026):** (a) **asset substituído mantendo o nome** — `assets/images/ilustracoes/M3/M3P4L3p5-plano_de_acao.png` agora é **900×493, 119.293 B (~117 KB), PNG RGB (color-type 2), sRGB, opaco, `-strip`** — comando aplicado: `convert "temp/V2_Imagem_plano de ação.png" -resize 900x -strip -background white -alpha remove -alpha off -define png:color-type=2 <destino>`; **sem rotação** (a V2 já vem horizontal) e **sem upscale** (1615×885 → 900×493); (b) **validação visual** (leitura da imagem final): logo Vaga Lume + título "Plano de Ação / Biblioteca Comunitária", campos Estado · Município · Nome da comunidade · Nome da Biblioteca, a linha de instrução das 2 atividades fixas + 2 pontuais e a tabela de 6 colunas (1. O quê? · 2. Quando? · 3. Quem? · 4. Como? · 5. Onde? · 6. Recursos/materiais) com 4 linhas de células vazias — coerente com a V2 e com os textos legíveis; (c) **`assets/images/ilustracoes/M3/descricoes.md`** item 17 atualizado (dimensões 900×493 · 117 KB · registro da V2 · descrição longa 🔄 marcada para o Ciclo B); (d) **`temp/` limpa** (apenas o PNG; o `Ajustes_Módulo 3.docx` permanece intocado); (e) **nenhum HTML tocado** — o `M3P4L3p5.html` fica para o Ciclo B, com `max-width: 900px`, `width="900" height="493"`, comentário da imagem e `sr-only` refeita. **✅ Validado no Moodle (10/10/2026).**
+>
+> ---
+
+
 ## 🔚 09/10/2026 — CHECKOUT DE SESSÃO (REVISÃO FINAL DO MÓDULO 3) ✅ CICLOS 1–5 EXECUTADOS E ENTREGUES — repositório sincronizado (HEAD = origin/master, `c1fa083`) · próxima sessão: retomar a fila da Parte 2 no PLAN mode (a partir de P2L1)
 
 > **CONTEXTO:** o mestre entregou `temp/Ajustes_Módulo 3.docx` (revisão final do M3, pós-validação). Convertido para **`content/M3/Ajustes_Modulo_3_09-10-2026.md`** (fonte da verdade para os ciclos). M3 estava encerrado em 08/10; estas são correções de refinamento. **Regra do ciclo: UMA página/ajuste por vez (PLAN → ACT → validação) — nunca em lote (N1.3.3).**

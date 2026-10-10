@@ -6,6 +6,8 @@
 ## 📌 Status: escopo Partes I–II (revisadas pelo autor)
 
 > **✅ MÓDULO 3 ENCERRADO (08/10/2026, confirmação do mestre):** todas as pendências do módulo resolvidas — abertura do módulo feita e validada no Moodle, todos os H5Ps resolvidos e atualizados, imagens da Parte 4/Lição 3 processadas e páginas validadas, e Referências ficarão **sem ano/URL/data de acesso** (decisão final do mestre — formato amigável, como M2). Nenhuma ação pendente no módulo.
+>
+> **✅ REVISÃO FINAL DO M3 CONCLUÍDA E VALIDADA (10/10/2026):** todos os ajustes de `content/M3/Ajustes_Modulo_3_09-10-2026.md` foram aplicados em **16 ciclos** (A/B + 1–15) e validados no Moodle pelo mestre — incluindo a **nova imagem do Plano de Ação (V2, 900×493)** e a grafia "Bibliotecas Comunitárias"/numeração decimal. **Nenhuma pendência de HTML no módulo.**
 
 ### 🔴 Pendências do autor — HISTÓRICO (todas resolvidas)
 
