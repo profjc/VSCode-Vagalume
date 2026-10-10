@@ -13,6 +13,8 @@
 > **🚀 PRÓXIMA SESSÃO — MÓDULO 4 ("Mãos na massa! (ou nos Livros!)") · PARTE 3 "Bibliotecas Comunitárias em ação":** ✅ **iniciar pela Lição 1 (`M4P3L1p1`)** — DI L6, página única, texto puro (DI 630–648), **sem pendência de PDF**; 🔴 **Lições 2–5** (DI L7–L10) continuam bloqueadas pelos **13 PDFs** das Sequências Didáticas (pendência do autor — `content/M4/pendencias-M4.md`, itens 1–4). **Alternativa:** adiantar a **Parte 4** ("Síntese do Módulo 4" + "Referências Bibliográficas — Módulo 4"), se o mestre autorizar. **Ao abrir a próxima sessão:** ler `Onde-paramos.md` + `docs/rotina-entrega.md` (N3.0) e planejar em **PLAN mode**.
 >
 > **🗂️ ESTADO DO MÓDULO 3:** **encerrado e revisado** — nenhuma pendência de HTML. Registros atualizados nesta sessão: `assets/images/ilustracoes/M3/descricoes.md` (item 17 — V2 900×493 + legenda como descrição acessível), `content/M3/Ajustes_Modulo_3_09-10-2026.md` (cabeçalho de status) e `content/M3/pendencias-M3.md`.
+>
+> **📦 ARQUIVAMENTO DOS `.docx` DO AUTOR (10/10/2026):** `temp/` ficou **vazia** — os dois arquivos foram movidos para **`content/M3/`** (pasta de arquivamento do módulo, mesmo padrão de `content/M1/DI-Modulo1.docx`, `content/M2/DI-Modulo2.docx` e `content/M4/Módulo IV - Versão para DI.docx`), **com os nomes originais preservados**: **`Ajustes_Módulo 3.docx`** (briefing da revisão final, 29 KB) e **`Módulo III - Versão para DI.docx`** (DI do autor, 6,6 MB, recebido em 10/10/2026).
 
 ---
 
