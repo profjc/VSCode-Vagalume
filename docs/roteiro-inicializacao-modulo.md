@@ -42,7 +42,7 @@ ls media/ | wc -l             # nº de imagens extraídas (prévias — NÃO usa
 
 - [ ] `.docx` + `.md` em `content/MN/` com nomes padronizados
 - [ ] `file` OK; `.md` UTF-8; `media/` extraída
-- [ ] `code -r` no `.md` para consulta do mestre
+- [ ] `code` (sem `-r`/`-n`) no `.md` para consulta do mestre — entrega na janela ativa (11/10/2026)
 - [ ] Commit parcial (autorização do mestre)
 
 ---
@@ -93,7 +93,7 @@ Onde `{slug}` é uma descrição curta do conteúdo visual, em português, minú
 - [ ] Galeria `descricoes.md` criada com todas as entradas
 - [ ] DI anotado com referências cruzadas (comentário HTML)
 - [ ] `temp/` limpa
-- [ ] `code -r` na galeria como última ação
+- [ ] `code` (sem `-r`/`-n`) na galeria como última ação — entrega na janela ativa (11/10/2026)
 
 ---
 

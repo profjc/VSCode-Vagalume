@@ -37,7 +37,7 @@ Regras inegociáveis, consolidadas do corpo do arquivo. Em caso de conflito, pre
 2. **Checkpoint e rotina primeiro**: ao iniciar sessão, ler `Onde-paramos.md` e `docs/rotina-entrega.md` antes de qualquer ação (N1.7 / N3.0).
 3. **PLAN planeja, ACT executa**: uma página/arquivo por ciclo, com validação do mestre entre ciclos — nunca em lote (N1.3.3, N1.4.1).
 4. **Escopo estrito**: fazer exatamente o solicitado, sem extrapolar, "padronizar" ou corrigir o que não foi pedido (N1.5).
-5. **NUNCA roubar o foco do VS Code (regra do mestre, 10/10/2026)**: é **PROIBIDO** executar `code -r`/`code -n` — o comando trazia a janela do editor para frente, roubava o foco do teclado e **detonava o HTML que o mestre estava editando**. A página final fica salva no repositório (a aba já aberta se atualiza sozinha, sem troca de foco); o HTML só é exibido no chat **se o mestre pedir** (N3.6 → docs/regras-licoes-aprendidas.md).
+5. **Entregar o HTML na janela ativa do VS Code — sem roubar o foco do teclado (regra do mestre; 10/10/2026, refinada em 11/10/2026)**: ao concluir **qualquer** página/arquivo HTML, **entregá-lo na janela ativa do VS Code** — abrir o arquivo com `code <caminho>` (**sem `-r` e sem `-n`**), como **ÚLTIMA ação** do ciclo. **Entregar na janela ≠ colocar o foco do teclado na janela:** `code -r` (reuse window) e `code -n` (nova janela) continuam **PROIBIDOS** — trazem a janela do editor para frente, roubam o foco do teclado e **detonam o HTML que o mestre estava editando** (precedente: `M3P3L2p3`, 10/10/2026). O HTML **não** vai ao chat por padrão — só se o mestre pedir; o chat recebe apenas o **quadro** de entrega (`docs/rotina-entrega.md` §3). ⚠️ **Arquivo NOVO não tem aba aberta** — o fallback "a aba já aberta se atualiza sozinha" **não vale** para ele: rodar `code <caminho>` é obrigatório (N3.6 → docs/regras-licoes-aprendidas.md).
 6. **Método padrão de imagem**: sempre placeholder com URL fixa + imagem oficial `src="[cole a imagem aqui]"` + marcador "⚠️ APAGAR ESTE BLOCO" — nunca `src=""`, `@@PLUGINFILE@@` ou data URI (N2.1.1.3 → docs/regras-html-moodle.md §1.1.3).
 7. **Sem `<style>`/`<link>`/`<script>` globais** no HTML entregue; JS apenas local com `addEventListener` quando estritamente necessário (N2.1.1 → docs/regras-html-moodle.md §1.1).
 8. **Acessibilidade desde o início**: padrão N2.4.7 (descrição longa sem duplicidade), atributos de imagem `width`/`height`/`loading="lazy"`, hierarquia de headings, sem VLibras (N2.4.12 → docs/regras-html-moodle.md §4.12).
@@ -89,7 +89,7 @@ Regras permanentes de colaboração com o mestre, aplicáveis a TODAS as tarefas
 
 1. **PLAN MODE planeja** — toda decisão, estratégia ou análise de conteúdo é discutida EXCLUSIVAMENTE em PLAN MODE. Nunca planejar em ACT MODE.
 2. **ACT MODE apenas executa** — UMA página/arquivo por vez.
-3. **Entrega única por ciclo:** ao concluir a execução no ACT MODE (salvar arquivo + devolver foco ao VS Code), a tarefa é INTERROMPIDA e o mestre é solicitado para validação. Só então, ao retornar ao PLAN MODE, planeja-se a próxima página.
+3. **Entrega única por ciclo:** ao concluir a execução no ACT MODE (salvar arquivo + **entregar na janela ativa do VS Code** com `code <caminho>`, sem `-r`/`-n`), a tarefa é INTERROMPIDA e o mestre é solicitado para validação. Só então, ao retornar ao PLAN MODE, planeja-se a próxima página.
 4. **Nunca lote:** é PROIBIDO executar múltiplas páginas de uma vez. Cada página/arquivo tem seu ciclo próprio: PLAN → ACT → validação.
 5. **Todo plano apresentado em PLAN MODE deve incluir explicitamente:** "Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa."
 6. **Todo plano em etapas deve ser salvo no `Onde-paramos.md`** ANTES de iniciar a execução no ACT MODE, para que nenhuma sessão perca o fio da meada. Ao concluir TODAS as tarefas do plano, o plano é REMOVIDO do `Onde-paramos.md` e substituído pelo próximo plano.
@@ -181,7 +181,7 @@ Antes de cada `attempt_completion`, conferir rapidamente a conformidade com esta
 - [ ] **Tool call limpa**: mensagem iniciou com o XML da ferramenta, sem texto prévio (N1.9.1)
 - [ ] **Escopo estrito**: entreguei exatamente o solicitado, sem extrapolações (N1.5)
 - [ ] **Um arquivo por ciclo**: nenhum lote; página/arquivo único conforme o ciclo PLAN → ACT → validação (N1.3.3)
-- [ ] **Sem roubo de foco**: nenhum `code -r`/`code -n` foi executado no ciclo (regra do mestre, 10/10/2026 — docs/regras-licoes-aprendidas.md)
+- [ ] **Entrega na janela ativa**: o arquivo foi aberto com `code <caminho>` (**sem `-r`/`-n`**) como última ação do ciclo — "entregar na janela ativa" ≠ "roubar o foco do teclado" (regra do mestre; 10/10/2026, refinada em 11/10/2026 — docs/regras-licoes-aprendidas.md)
 - [ ] **Checkpoint atualizado**: `Onde-paramos.md` reflete o trabalho concluído (N1.6.2)
 - [ ] **Página validada**: conferida contra `docs/checklist-entrega.md` (N3.5.2)
 - [ ] **Nomes no Moodle conferidos**: entreguei na janela do chat o nome correto da página/lição conforme `docs/rotina-entrega.md` §2 (N3.0)
@@ -396,7 +396,7 @@ Tabela completa (com pastas e ícones dos tiles) em **`docs/project-map.md` → 
 ## N3.4 Arquivos de Consulta Obrigatória (gavetas sob demanda)
 Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **`docs/regras-html-moodle.md`** → detalhes de implementação HTML no Moodle (placeholder, TinyMCE, acessibilidade, fidelidade, links)
-- **`docs/regras-licoes-aprendidas.md`** → lições aprendidas e precedentes (foco do VS Code — NÃO usar `code -r`, fóruns, nomes de arquivo, H5P, legendas)
+- **`docs/regras-licoes-aprendidas.md`** → lições aprendidas e precedentes (entrega na janela ativa do VS Code com `code <caminho>` — nunca `-r`/`-n`; fóruns, nomes de arquivo, H5P, legendas)
 - **`components-library.md`** → snippets de componentes
 - **`style-guide.md`** → cores, tipografia e paleta completa
 - **`docs/checklist-entrega.md`** → checklist de validação antes de entregar
@@ -412,7 +412,7 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 3. Gerar o HTML/storyboard (página/arquivo ÚNICO — nunca em lote).
 4. Salvar em `templates/pages/` com nome descritivo.
 5. Validar contra `docs/checklist-entrega.md` (auto-auditoria N1.10).
-6. **NÃO executar `code -r`** (regra do mestre, 10/10/2026): a página final fica salva no repositório e a exibição do HTML no chat acontece apenas se solicitada — nunca devolver o foco à janela do VS Code.
+6. **Entregar na janela ativa do VS Code** (regra do mestre; 10/10/2026, refinada em 11/10/2026): abrir o arquivo salvo com `code <caminho>` (**sem `-r`/`-n`**) como **última ação** do ciclo — é assim que o mestre recebe a página para copiar. **Nunca** `code -r`/`code -n` (trazem a janela para frente e roubam o foco do teclado). O HTML só é exibido no chat se o mestre pedir.
 7. Interromper e aguardar validação do mestre.
 
 ### N3.5.1 Fluxo de Navegação nas Lições (princípio mental)
@@ -432,6 +432,6 @@ Em qualquer parte (bloco) do curso que possua fórum, o fórum deve ser **SEMPRE
 ---
 
 ## N3.6 Lições Aprendidas (GAVETA SEPARADA)
-As **lições aprendidas e precedentes** (foco da janela do VS Code — NÃO usar `code -r`, placeholder de imagem consolidado, fóruns "Compartilhando Ideias", numeração decimal, legendas, nomes de arquivo, comandos de terminal, etc.) estão migradas para **`docs/regras-licoes-aprendidas.md`**.
+As **lições aprendidas e precedentes** (entrega na janela ativa do VS Code com `code <caminho>` — nunca `-r`/`-n`; placeholder de imagem consolidado, fóruns "Compartilhando Ideias", numeração decimal, legendas, nomes de arquivo, comandos de terminal, etc.) estão migradas para **`docs/regras-licoes-aprendidas.md`**.
 
 **Regra de uso:** consultar este arquivo quando a tarefa envolver situação com precedente documentado. Em caso de conflito, prevalece a regra mais recente e específica (N1.2).

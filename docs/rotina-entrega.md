@@ -24,7 +24,7 @@
 - **UMA página/arquivo por vez** — nunca em lote.
 - Gerar o HTML fiel ao texto do autor (N2.5).
 - **Validar contra `docs/checklist-entrega.md`** (todos os grupos: estrutural, higienização, identidade visual, acessibilidade, flutuação, funcionamento no Moodle).
-- **SEM `code -r`/`code -n`** (regra do mestre, 10/10/2026): nunca devolver o foco à janela do VS Code — a página final fica salva no repositório e a aba já aberta se atualiza sozinha, sem roubar o foco do teclado.
+- **ENTREGAR NA JANELA ATIVA do VS Code** (regra do mestre; 10/10/2026, refinada em 11/10/2026): abrir o arquivo salvo com **`code <caminho>` (sem `-r` e sem `-n`)** como **ÚLTIMA ação** do ciclo — é assim que o mestre recebe a página para copiar. **Entregar na janela ≠ roubar o foco do teclado:** `code -r`/`code -n` seguem **PROIBIDOS** (trazem a janela para frente e destroem o HTML em edição). ⚠️ Em **arquivo NOVO** não existe aba aberta que "se atualize sozinha" — o `code <caminho>` é **obrigatório**.
 - **INTERROMPER** e aguardar validação do mestre no Moodle.
 
 ### 1.3 Entrega no chat
@@ -80,7 +80,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
     | **Observações** | posicionamento, colagens pendentes, etc. |
     | **Ações no Moodle (suas)** | navegação ("Anterior"/"Próximo"/"Finalizar"), título da página/atividade, edição de H5P, uploads — ou "Nenhuma" |
 
-> **NÃO devolver o código HTML na janela do chat (26/09/2026 — decisão do mestre; ajustada em 10/10/2026):** a entrega no chat é **apenas o quadro** acima (nome da página, lição, arquivo e H5P). O HTML fica no repositório, salvo — o mestre copia direto da aba do editor, que se atualiza sozinha **sem troca de foco** (não se executa mais `code -r`). Se o mestre pedir, o HTML final pode ser exibido no chat. Precedente: ciclo da página `M3P3L1p1` (26/09/2026).
+> **ENTREGA = arquivo aberto na janela ativa do VS Code; o chat recebe só o quadro (26/09/2026; ajustado em 10/10/2026 e refinado em 11/10/2026):** a entrega no chat é **apenas o quadro** acima (nome da página, lição, arquivo e H5P). O HTML **não** é colado no chat: ele é **entregue na janela ativa do VS Code**, abrindo o arquivo com **`code <caminho>` (sem `-r`/`-n`)** como **última ação** do ciclo — o mestre copia direto da aba. Se o mestre pedir, o HTML final também pode ser exibido no chat. Precedentes: ciclo da página `M3P3L1p1` (26/09/2026) e o label da Parte 3 do M4 (11/10/2026 — entregue apenas no chat, sem abrir o arquivo: o mestre teve de cobrar duas vezes).
 >
 > **Ações no Moodle SEMPRE informadas (10/10/2026 — regra do mestre):** identificar **todas** as solicitações do autor que caibam ao mestre no Moodle (navegação, título da página/atividade, edição de H5P, uploads) e informá-las na linha **"Ações no Moodle (suas)"** do quadro — mesmo que não sejam HTML. Nunca omitir por ser "do mestre". Precedente: o botão "Próximo" com o acento na letra R (página "Plano de Ação") ficou registrado apenas no checkpoint, sem aviso no chat.
 
@@ -105,7 +105,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 
 ### Procedimento (1 min)
 - [ ] **Um arquivo por ciclo** — não lotei páginas
-- [ ] **Nenhum `code -r`/`code -n` executado** (regra do mestre, 10/10/2026 — não roubar o foco)
+- [ ] **Arquivo entregue na janela ativa**: `code <caminho>` executado (**sem `-r`/`-n`**) como última ação do ciclo (regra do mestre; 10/10/2026, refinada em 11/10/2026)
 - [ ] **`Onde-paramos.md` atualizado** com o checkpoint
 - [ ] **Fórum** (se pertence a uma Parte): é a última atividade da Parte (N3.5.3)
 ---
@@ -126,7 +126,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | 7 | **Links externos** | Completos: `target="_blank"` + `rel="noopener noreferrer"` + `.nomediaplugin` + `font-weight-bold` + `color: #944b11` + `text-decoration: underline`. |
 | 8 | **Mutação em PLAN** | Nenhum comando que altere arquivos em PLAN MODE (terminal inclusive). Só leitura e análise. |
 | 9 | **Título do fórum (vagalume-destaque)** | NÃO se migra para `<strong>` — é elemento fixo do template canônico (verde `#587C41` no fórum). |
-| 10 | **Foco ao VS Code** | **NUNCA** executar `code -r`/`code -n` (regra do mestre, 10/10/2026): o foco ia para o editor e detonava o HTML em edição. A página final fica salva no repositório; HTML no chat só se pedido. |
+| 10 | **Entrega ao VS Code** | **SEMPRE** entregar a página na **janela ativa** — `code <caminho>` (sem `-r`/`-n`) como **última ação** do ciclo (11/10/2026). **NUNCA** `code -r`/`code -n` (10/10/2026): o foco ia para o editor e detonava o HTML em edição. HTML no chat só se pedido; **arquivo novo** não tem aba aberta (o `code` é obrigatório). |
 | 11 | **Commit+push** | Só com autorização explícita do mestre. Sequência anti-travamento: diagnóstico → `git commit -m` (uma linha) → `git push origin master` → verificação. |
 | 12 | **Vídeo padrão** | TODO vídeo é embedado por padrão (iframe YouTube). Só fallback (thumb + link) se o mestre avisar que NÃO é autorizado. |
 | 13 | **Vídeo vertical (Shorts)** | Conferir a orientação por **oEmbed** antes de montar a página. Shorts verticais usam o bloco **9:16** (`max-width: 315px` + `height: 560px`); o **16:9** (`560px` + `315px`) segue padrão para vídeos horizontais. Minutagem abaixo de 1 min fica fiel ao DI (ex.: `48s`). Precedente: `M3P4L2p1.html` (26/09/2026). |
@@ -141,4 +141,5 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | **10/10/2026** | **Regra nova (ordem do mestre): PROIBIDO `code -r`/`code -n`** — não devolver o foco à janela do VS Code (o comando roubava o foco do teclado e detonava o HTML em edição). A página final fica salva no repositório; o HTML só vai ao chat se o mestre pedir. Atualizados §1.2, §3, §4 e §5 item 10. |
 | **10/10/2026** | **Regra nova (ordem do mestre): linha "Ações no Moodle (suas)" obrigatória** no quadro de entrega — as solicitações do autor que **não são HTML** (navegação, título da página/atividade, edição de H5P, uploads) são sempre informadas no chat. Atualizados §3 e §5. |
 | **10/10/2026** | **Regra nova (ordem do mestre): o checkout de encerramento termina com simulação de reinício** — reler os arquivos de inicialização (N3.0) e confrontar com o que foi registrado, corrigindo divergências antes de encerrar (§1.4). |
+| **11/10/2026** | **Refinamento (ordem do mestre): a entrega da página é NA JANELA ATIVA do VS Code** — abrir o arquivo salvo com `code <caminho>` (**sem `-r`/`-n`**) como **última ação** do ciclo; "entregar na janela ativa" **não** significa colocar o foco do teclado na janela (a proibição de `code -r`/`code -n` permanece). ⚠️ **Arquivo NOVO** não tem aba aberta que "se atualize sozinha" — o `code` é obrigatório (falha do label da Parte 3 do M4). Atualizados §1.2, §3, §4 e §5 item 10. |
 | **Label de parte** | `Parte N — Título` | `Parte 3 — Territórios do cuidado e bem-estar` |
