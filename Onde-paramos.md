@@ -1,3 +1,41 @@
+## ✅ 13/10/2026 — LIÇÃO 2 FECHADA (3 ciclos executados) · Módulo 4 · Parte 3 · Lição 2 (Sequências Didáticas) — **páginas + PDFs das SDs 1–5 completos (p1–p6)** · **SDs 3 e 4 validadas no Moodle** · **SD 5 (`M4P3L2p6`) aguardando validação do mestre**
+
+> **ESTADO FINAL DA LIÇÃO 2 (M4 · Parte 3):** `M4P3L2p1` (abertura) · `p2` = SD 1 · `p3` = SD 2 · `p4` = SD 3 · `p5` = SD 4 · `p6` = SD 5 — **páginas + PDFs das SDs 1–5 completos** (`assets/pdf/M4/`). **SDs 1, 2, 3 e 4 validadas pelo mestre e inseridas no Moodle**; **a SD 5 aguarda validação**.
+>
+> **REFERÊNCIAS CANÔNICAS PARA A PRÓXIMA LIÇÃO (Parte 3, Lição 3 — SDs 6 e 7):** página-modelo = **a SD 5** (`templates/pages/M4/Parte3/Licao2/M4P3L2p6.html` — atenção: por altura, a **lista do passo 2 saiu em 2 colunas** `row`/`col-md-6`, recurso aprovado como fallback) · estrutura base = `M4P3L2p3.html` · botão PDF no **Caminho B** (div + regra no CSS do tema — `assets/css/vagalume-tema.css`, l. 814-830), entre `<!-- INICIO-BOTAO-PDF -->` e `<!-- FIM-BOTAO-PDF -->`, com `href="#"` (sem `style` inline, sem `role`) · espelho A4 = `templates/documentos/espelho-sequencia-didatica.html` (corpo 12 pt) · build = `bash scripts/gerar-pdf-sd.sh templates/pages/M4/Parte3/Licao2/<pagina>.html assets/pdf/M4/<pagina>.pdf`.
+>
+> **⚖️ REGRA DE ALTURA DO PDF (medida, não estimada):** limite útil ≈ **y = 1458 px a 130 dpi** (sobra confortável = 40–80 px). Se o conteúdo passar disso (o rodapé em fluxo empurra para a 2ª página), aplicar nesta ordem: **(a)** listas/categorias longas em **2 colunas** (`row` + `col-md-6`), **(b)** corpo **11,5 pt**. **Medir SEMPRE** com `pdftoppm -r 130` + bbox — precedente: a SD 5 estourou com o passo 2 em coluna única e **coube com 5 + 5**.
+>
+> **✅ RESULTADO DO CICLO 1 (`M4P3L2p4` — SD 3 "Roda de conversa com anciãos") · 13/10/2026:**
+> - **Página:** `templates/pages/M4/Parte3/Licao2/M4P3L2p4.html` (137 linhas · **8.401 B**) no modelo canônico — faixa bege + selo "Sequência Didática 3" + ícone `fa-comments` · **Objetivos** (3) · **Materiais** (4, em 2 colunas) · **Como fazer** (5 passos com badge laranja) · **"Para refletir após a atividade…"** (3) · **"Outras possibilidades…"** (4) · botão PDF no **Caminho B** entre os marcadores. Fiel ao DI (l. 845-944) — as aspas das perguntas do passo 2 são **do autor** (N2.5).
+> - **Asserts:** 0 `<style>/<script>/<link>/onclick/contenteditable` · tags balanceadas (div 26/26 · p 16/16 · ul 5/5 · ol 1/1 · li 19/19 · span 6/6 · a 1/1 · i 7/7) · 0 "\|" · 0 en-dash · 0 FA6 · 0 `role="button"` · `vagalume-btn-pdf` 1 · marcadores `INICIO-BOTAO-PDF`/`FIM-BOTAO-PDF` intactos · comentários de abertura/fechamento espelhando o título do Moodle.
+> - **PDF:** `assets/pdf/M4/M4P3L2p4.pdf` — **1 página A4 (594,96 × 841,92 pt) · 93.293 B**. Medição a 130 dpi: conteúdo em bbox `(60, 63, 1013, 1385)` → **sobra de ~73 px (~5 %)** até o limite útil da área (y≈1458) — **pegada idêntica à da SD 2** (referência já aprovada). Render conferido (cabeçalho com logos, todos os blocos, rodapé em fluxo).
+> - **Pendências do mestre neste ciclo (Moodle):** criar/renomear a página como **`Sequência Didática 3: Roda de conversa com anciãos`** · inserir o PDF pelo diálogo (nunca criar o link pelo diálogo antes do markup) · configurar os botões Anterior/Próximo. *(Sem H5P nesta lição.)*
+>
+> - **✅ VALIDADO PELO MESTRE (13/10/2026):** página e PDF conferidos e **inseridos no Moodle** — Ciclo 1 fechado, sem pendências.
+>
+> **✅ RESULTADO DO CICLO 2 (`M4P3L2p5` — SD 4 "Exposição de artefatos culturais") · 13/10/2026:**
+> - **Página:** `templates/pages/M4/Parte3/Licao2/M4P3L2p5.html` (138 linhas · **7.751 B**) no modelo canônico — selo "Sequência Didática 4" + ícone `fa-landmark` · **Objetivos** 3 · **Materiais** 6 em **2 colunas (3 + 3)** · **Como fazer** **4 passos**, com o **passo 2 trazendo a lista aninhada das 6 categorias** (sub-`ul` dentro do `div.ml-3`, itens do autor com ";" e o último com ".") · **"Para refletir após a atividade…"** 4 perguntas · **"Outras possibilidades…"** 2 · botão PDF no Caminho B entre os marcadores. Fiel ao DI (l. 947-1057).
+> - **Asserts:** 0 `<style>/<script>/<link>/onclick/contenteditable` · tags balanceadas (div 25/25 · p 14/14 · ul 6/6 · ol 1/1 · li 25/25 · span 5/5 · a 1/1 · i 7/7) · 0 "\|" · 0 en-dash · 0 FA6 · 0 `role="button"` · `vagalume-btn-pdf` 1 · marcadores `INICIO-BOTAO-PDF`/`FIM-BOTAO-PDF` intactos · comentários de abertura/fechamento espelhando o título do Moodle.
+> - **PDF:** `assets/pdf/M4/M4P3L2p5.pdf` — **1 página A4 · 96.120 B**. Medição a 130 dpi: conteúdo em bbox `(60, 63, 1013, 1394)` → **sobra de ~64 px (~4,2 %)** até o limite útil (y≈1458) — **coube em 12 pt; o fallback (2 colunas / 11,5 pt) NÃO foi acionado** (a lista aninhada somou só ~9 px sobre a SD 3). Render conferido (cabeçalho com logos, todos os blocos, rodapé em fluxo).
+> - **Pendências do mestre neste ciclo (Moodle):** criar/renomear a página como **`Sequência Didática 4: Exposição de artefatos culturais`** · inserir o PDF pelo diálogo · configurar os botões Anterior/Próximo. *(Sem H5P.)*
+>
+> - **✅ VALIDADO PELO MESTRE (13/10/2026):** página e PDF conferidos e **inseridos no Moodle** — Ciclo 2 fechado, sem pendências.
+>
+> **✅ RESULTADO DO CICLO 3 (`M4P3L2p6` — SD 5 "Mapa dos saberes e fazeres da comunidade") · 13/10/2026:**
+> - **Página:** `templates/pages/M4/Parte3/Licao2/M4P3L2p6.html` (154 linhas · **8.479 B**) no modelo canônico — selo "Sequência Didática 5" + ícone `fa-map-marked-alt` · **Objetivos** 3 · **Materiais** 4 em **2 colunas (2 + 2)** · **Como fazer** **5 passos**, com o **passo 2 trazendo as 10 categorias em 2 colunas (5 + 5)** · **"Para refletir após a atividade…"** 3 · **"Outras possibilidades…"** 3 · botão PDF no Caminho B entre os marcadores. Texto fiel ao DI (l. 1061-1180), inclusive a pontuação do autor (`;` nos 9 primeiros itens e `.` no último).
+> - **Asserts:** 0 `<style>/<script>/<link>/onclick/contenteditable` · tags balanceadas (div 29/29 · p 16/16 · ul 7/7 · ol 1/1 · li 28/28 · span 6/6 · a 1/1 · i 7/7) · 0 "\|" · 0 en-dash · 0 FA6 · 0 `role="button"` · `vagalume-btn-pdf` 1 · marcadores `INICIO-BOTAO-PDF`/`FIM-BOTAO-PDF` intactos · comentários de abertura/fechamento espelhando o título do Moodle.
+> - **⚠️ FALLBACK APLICADO (1ª vez no projeto):** com a lista do passo 2 em **coluna única a 12 pt**, o PDF saiu com **2 páginas** (conteúdo até y=1442 e o rodapé em fluxo transbordava). Regerado com as **10 categorias em 2 colunas (5 + 5)** → **1 página A4 · 99.219 B**, conteúdo até **y=1398** (**sobra de ~60 px**). A opção 11,5 pt **NÃO** foi necessária. Render conferido.
+> - **Pendências do mestre neste ciclo (Moodle):** criar/renomear a página como **`Sequência Didática 5: Mapa dos saberes e fazeres da comunidade`** · inserir o PDF pelo diálogo · configurar os botões Anterior/Próximo. *(Sem H5P.)*
+>
+> **➡️ PRÓXIMA ETAPA (ao voltar ao PLAN MODE):** **Parte 3 · Lição 3 (DI Lição 8 — "Cultura das infâncias")** → página `M4P3L3p1` (abertura, como a `M4P3L2p1`) + **SDs 6 e 7** (DI l. 1182-1285; item 2 de `content/M4/pendencias-M4.md`), no mesmo modelo canônico e sob a **regra de altura do PDF** acima. **A Lição 2 fica fechada** (p1–p6) após a validação da SD 5 no Moodle.
+
+>
+> **Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa.**
+
+---
+
+
 ## ✅ 12/10/2026 — CICLO CONCLUÍDO E NO AR · Botão "Baixar atividade (PDF)" das SDs 1 e 2: causa raiz no diálogo `tiny_link` do Moodle e solução Caminho B (div + 1 regra no CSS do tema)
 
 > **⚠️ CANDIDATO 2 REPROVADO NO MOODLE (12/10/2026):** o botão apareceu **sem o laranja** e, **depois de inserir o arquivo, desapareceu** — sobrou só o link. A hipótese inicial ("o editor esvazia o `<a>`") estava **errada**.
