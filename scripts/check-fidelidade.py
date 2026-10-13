@@ -71,7 +71,13 @@ def main():
         if i > len(di):
             break
         t = prep(norm(di[i - 1]))
-        if not t or t.startswith('[') or t.startswith('Sequência Didática '):
+        if not t:
+            continue
+        # Meta-instruções do DI (não são conteúdo): marcadores "\> INÍCIO/FIM DA LIÇÃO",
+        # blocos entre [ ... ], a linha "TÍTULO: ..." da lição e o rótulo "Sequência Didática N".
+        if (t.startswith('\\') or t.startswith('[') or t.startswith('TÍTULO:')
+                or t.startswith('> INÍCIO') or t.startswith('> FIM')
+                or t.startswith('Sequência Didática ')):
             continue
         if t not in vis:
             falhas.append((i, t))
