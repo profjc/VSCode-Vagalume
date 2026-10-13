@@ -810,3 +810,21 @@ div[role="progressbar"] {
 .progress-bar {
     border-color: #D96F1A !important;
 }
+
+/*******************************************************************************
+ * BOTÃO DE DOWNLOAD DAS SEQUÊNCIAS DIDÁTICAS (PDF) — Módulo 4 · Parte 3 · Lição 2
+ * POR QUE EXISTE: o diálogo de link do Moodle RECONSTRÓI o <a> por um template
+ * fixo (tiny_link/embed_link: apenas href/target/title) — nenhuma class/style
+ * sobrevive no link. Por isso o visual mora no <div> (classe .btn-primary, do
+ * tema) e aqui só se fixa a cor do texto do link que fica dentro dele.
+ * ESCOPO FECHADO (zero efeito colateral): o seletor exige a classe
+ * .vagalume-btn-pdf, que só existe nesse botão, e um ancestral .vagalume-pagina
+ * (container das páginas de conteúdo) → nada do Moodle (navbar, navegação
+ * Anterior/Próximo/Finalizar, H5P, blocos) é alcançado. Acrescentado ao FINAL do
+ * arquivo para não deslocar/reordenar nenhuma regra existente.
+ *******************************************************************************/
+.vagalume-pagina .vagalume-btn-pdf a,
+.vagalume-pagina .vagalume-btn-pdf a:hover {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}

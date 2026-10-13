@@ -560,17 +560,16 @@ Verde institucional (padrão):
 
 # Reserva (templates disponíveis, sem uso até agora)
 
-## R1. Botão Primário (CTA)
-> **Status:** 🟡 Reserva — para links de download/materiais complementares em páginas futuras
+## R1. Botão Primário (CTA) — link de download (PDF das Sequências Didáticas)
+> **Status:** ✅ **Em uso** — botão "Baixar atividade (PDF)" das Sequências Didáticas (`M4/Parte3/Licao2/`)
 > **Como pedir no DI:** `[botão]` + texto + URL
+> ⚠️ **NUNCA usar `style` inline nem `role="button"` neste botão — e NUNCA criar/editar o link pelo diálogo do Moodle.**
+> O diálogo de link do Moodle **reconstrói o `<a>`** por um template fixo (`tiny_link/embed_link`: só `href`, `target` e `title`) e **descarta class/style/role e o que estiver dentro do link**. Por isso o visual mora no **`<div>`** (classe `.btn-primary` do tema, com `!important`, que sobrevive ao editor) e o `<a>` fica dentro, carregando **apenas** `href`/`target`/`rel`/`nomediaplugin`. O ícone vai **fora** do `<a>`. A cor do texto do link é fixada por 1 regra no CSS do tema (`.vagalume-pagina .vagalume-btn-pdf a`), de escopo fechado — zero efeito colateral. Detalhes e precedente: `docs/regras-licoes-aprendidas.md` (lição de 12/10/2026).
 
 ```html
-<a href="#" target="_blank" rel="noopener noreferrer"
-   class="btn btn-primary"
-   style="background-color: #D96F1A; border-color: #D96F1A; color: #ffffff; border-radius: 8px; padding: 0.5rem 1.5rem; font-weight: 600;"
-   aria-label="Descrição do link">
-  Texto do Botão
-</a>
+<div class="text-center mt-4">
+  <div class="btn btn-primary vagalume-btn-pdf"><i class="fa fa-download mr-2" aria-hidden="true"></i><a href="URL" class="nomediaplugin" target="_blank" rel="noopener noreferrer">Baixar atividade (PDF)</a></div>
+</div>
 ```
 
 ---
