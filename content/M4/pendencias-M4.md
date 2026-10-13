@@ -27,11 +27,11 @@
 |---|---|---|---|---|
 | 1 | Sequências Didáticas **1–5** (download em PDF) | Parte 3, Lição 2 (DI L7) — linhas 657–1060 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SDs 1–5 produzidas pelo projeto: páginas `M4P3L2p1`–`p6` e PDFs de **1 página A4** em `assets/pdf/M4/`; **validadas por você e inseridas no Moodle** |
 | 2 | Sequências Didáticas **6–7** (download em PDF) | Parte 3, Lição 3 (DI L8) — linhas 1189–1285 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SD 6 (`M4P3L3p2`, PDF de **1 página**) e SD 7 (`M4P3L3p3`, PDF de **2 páginas** — Opção A aprovada pelo mestre); SD 6 validada no Moodle, **SD 7 em validação** |
-| 3 | Sequências Didáticas **8–11** (download em PDF) | Parte 3, Lição 4 (DI L9) — linhas 1433–1687 | PDFs | ⏳ **A produzir pelo projeto** — páginas `M4P3L4p2`–`p5` + PDFs, no modelo canônico das SDs 1–7 (plano da próxima sessão em `Onde-paramos.md`) |
+| 3 | Sequências Didáticas **8–11** (download em PDF) | Parte 3, Lição 4 (DI L9) — linhas 1433–1687 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SDs 8–11 produzidas pelo projeto: abertura `M4P3L4p1` + páginas `M4P3L4p2`–`p5`, com PDFs de **1 página A4** em `assets/pdf/M4/` (todos em 12 pt, **sem fallback**); **SDs 8, 9, 10 e 11 validadas por você e inseridas no Moodle** — **Lição 4 fechada** |
 | 4 | Sequências Didáticas **12–13** (download em PDF) | Parte 3, Lição 5 (DI L10) — linhas 1781–1867 | PDFs | ⏳ **A produzir pelo projeto** — depois da Lição 4 |
 | 5 | ~~Arquivo **H5P** da Atividade 1 — "Na roda de leitura"~~ ✅ **ARQUIVADO (06/10/2026)** em `assets/h5p/M4/M4P1L1p2-h5p-multipla_escolha.h5p` (question-set; 6 alternativas A–F; corretas **A, C, E**) | Parte 1, Lição 1 (última página) — linhas 95–121 | H5P | ✅ Concluído |
 
-> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`, nas linhas 657/1189/1433/1781) + **1 H5P** (✅ entregue e arquivado em 06/10/2026). **Produzidas até agora: 7 de 13 (SDs 1–7 — Lições 2 e 3 da Parte 3), todas com PDF em `assets/pdf/M4/`.**
+> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`, nas linhas 657/1189/1433/1781) + **1 H5P** (✅ entregue e arquivado em 06/10/2026). **Produzidas até agora: 11 de 13 (SDs 1–11 — Lições 2, 3 e 4 da Parte 3), todas com PDF em `assets/pdf/M4/`.** Falta apenas a **Lição 5** (DI L10, linhas 1781–1867), com as SDs **12 e 13**.
 
 ## 🟡 Decisões técnicas pendentes (entre Cline e mestre)
 
