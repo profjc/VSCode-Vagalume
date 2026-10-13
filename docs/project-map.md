@@ -19,6 +19,7 @@
 | `assets/h5p/` | Backup local dos `.h5p` de origem | Subpastas por módulo (ex: `M1/`, `M2/`); manter o mesmo nome usado no placeholder (ex: `M2P1L1p3-H5P-question_set.h5p`) para rastreabilidade. Recursos internos do pacote (imagens/svg) ficam na mesma subpasta junto ao `.h5p` |
 | `docs/` | Documentação do projeto | Workflow, checklist, diretrizes, galeria, backups |
 | `docs/backups/` | Backups versionados do `.clinerules` e CSS | Padrão: `clinerules-vN-antes-[descrição].md` |
+| `scripts/` | Scripts de apoio do projeto | `gerar-pdf-sd.sh` (build do PDF A4 da Sequência Didática, a partir da página + espelho) · `check-fidelidade.py` (confere a página HTML contra o trecho do DI: `python3 scripts/check-fidelidade.py <pagina.html> <DI.md> <linha_ini> <linha_fim>`) |
 | `Onde-paramos.md` | Checkpoint de continuidade entre sessões | Ler ao iniciar sessão; atualizar ao encerrar |
 
 ## Nomeação de arquivos — correspondência dos módulos
