@@ -21,17 +21,23 @@
 
 
 
+## ✅ Módulo 4 encerrado (13/10/2026)
+
+> **Nenhuma pendência aberta no módulo.** As **13 Sequências Didáticas** (Parte 3, Lições 2-5) foram **produzidas pelo projeto** (páginas + PDFs em `assets/pdf/M4/`), o **H5P da Atividade 1** está arquivado em `assets/h5p/M4/`, todas as **decisões técnicas** (itens 6 a 9) foram resolvidas e a **Parte 4** (label + Síntese do Módulo 4 + Referências Bibliográficas) foi **validada no Moodle**.
+> **Confirmação do mestre (13/10/2026):** **nada pendente do lado do Moodle** — H5P da Atividade 1 inserido, labels das Partes 1-4 posicionados, 13 PDFs no ar.
+> **Fora do módulo (fila do curso):** **Módulo de Encerramento** (Certificação e Avaliação) — aguardando material do autor.
+
 ## 🔴 Pendências do autor
 
 | # | Item | Local no DI | Tipo | Situação |
 |---|---|---|---|---|
 | 1 | Sequências Didáticas **1–5** (download em PDF) | Parte 3, Lição 2 (DI L7) — linhas 657–1060 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SDs 1–5 produzidas pelo projeto: páginas `M4P3L2p1`–`p6` e PDFs de **1 página A4** em `assets/pdf/M4/`; **validadas por você e inseridas no Moodle** |
-| 2 | Sequências Didáticas **6–7** (download em PDF) | Parte 3, Lição 3 (DI L8) — linhas 1189–1285 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SD 6 (`M4P3L3p2`, PDF de **1 página**) e SD 7 (`M4P3L3p3`, PDF de **2 páginas** — Opção A aprovada pelo mestre); SD 6 validada no Moodle, **SD 7 em validação** |
+| 2 | Sequências Didáticas **6–7** (download em PDF) | Parte 3, Lição 3 (DI L8) — linhas 1189–1285 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SD 6 (`M4P3L3p2`, PDF de **1 página**) e SD 7 (`M4P3L3p3`, PDF de **2 páginas** — Opção A aprovada pelo mestre); **SDs 6 e 7 validadas por você e inseridas no Moodle** (Lição 3 fechada) |
 | 3 | Sequências Didáticas **8–11** (download em PDF) | Parte 3, Lição 4 (DI L9) — linhas 1433–1687 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SDs 8–11 produzidas pelo projeto: abertura `M4P3L4p1` + páginas `M4P3L4p2`–`p5`, com PDFs de **1 página A4** em `assets/pdf/M4/` (todos em 12 pt, **sem fallback**); **SDs 8, 9, 10 e 11 validadas por você e inseridas no Moodle** — **Lição 4 fechada** |
 | 4 | Sequências Didáticas **12–13** (download em PDF) | Parte 3, Lição 5 (DI L10) — linhas 1772–1952 | PDFs | ✅ **CONCLUÍDO (13/10/2026)** — SD 12 (`M4P3L5p2`, ícone `fa-book-medical`) e SD 13 (`M4P3L5p3`, ícone `fa-broom`), ambas com PDF de **1 página A4** em `assets/pdf/M4/` (12 pt, sem fallback); abertura `M4P3L5p1` (sem PDF); **SDs 12 e 13 validadas por você e inseridas no Moodle** — **Lição 5 e a Parte 3 fechadas (13 de 13 SDs)** |
 | 5 | ~~Arquivo **H5P** da Atividade 1 — "Na roda de leitura"~~ ✅ **ARQUIVADO (06/10/2026)** em `assets/h5p/M4/M4P1L1p2-h5p-multipla_escolha.h5p` (question-set; 6 alternativas A–F; corretas **A, C, E**) | Parte 1, Lição 1 (última página) — linhas 95–121 | H5P | ✅ Concluído |
 
-> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`) + **1 H5P** (✅ entregue e arquivado em 06/10/2026). **Produzidas: 13 de 13 (SDs 1–13 — Lições 2, 3, 4 e 5 da Parte 3), todas com PDF em `assets/pdf/M4/`.** ✅ **Bloco de Sequências Didáticas do Módulo 4 COMPLETO** — resta apenas a **Parte 4** (Síntese do Módulo 4 + Referências Bibliográficas).
+> **Total:** **13 Sequências Didáticas** (4 marcadores `[AS SEQUÊNCIAS DIDÁTICAS ... PDF]`) + **1 H5P** (✅ entregue e arquivado em 06/10/2026). **Produzidas: 13 de 13 (SDs 1–13 — Lições 2, 3, 4 e 5 da Parte 3), todas com PDF em `assets/pdf/M4/`.** ✅ **Bloco de Sequências Didáticas do Módulo 4 COMPLETO** — e a **Parte 4** (label + **Síntese do Módulo 4** + **Referências Bibliográficas**) foi **concluída e validada no Moodle em 13/10/2026** → **MÓDULO 4 ENCERRADO.**
 
 ## 🟡 Decisões técnicas pendentes (entre Cline e mestre)
 
@@ -50,4 +56,4 @@
   - Lição 3: p1 (texto + vídeo `tva28rNVdMU`).
 - **Parte 2** "Como preparar uma atividade e mobilizar a comunidade?": Lição 1 (DI L4 — "Planejamento") + Lição 2 (DI L5 — "Comunicação") + Fórum 1. (páginas únicas, com cards `[CARD 1..5]` e `[CARD 1..2]`)
 - **Parte 3** "Bibliotecas Comunitárias em ação": Lições 1–5 (DI L6–L10), todas **página única** — tema das **13 Sequências Didáticas** (pendência de PDFs).
-- **Parte 4**: "Síntese do Módulo 4" (troféu "concluiu os quatro módulos") + "Referências Bibliográficas — Módulo 4".
+- **Parte 4**: "Síntese do Módulo 4" (troféu "concluiu os quatro módulos") + "Referências Bibliográficas — Módulo 4". ✅ **Concluída e validada no Moodle (13/10/2026)** — label `M4_Label_Parte4_Sintese_do_modulo_4` + páginas `M4P4P1` e `M4P4P2`.

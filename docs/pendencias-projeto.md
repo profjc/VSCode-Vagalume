@@ -6,8 +6,8 @@
 
 ## Ordem de prioridade
 
-1. [ ] **Imagens faltantes — ícones dos cards dos módulos** — **NOVA (02/09/2026)**
-   - Criar/obter as imagens dos ícones para os cards dos módulos na capa do curso e subir no Moodle.
+1. [x] **Imagens faltantes — ícones dos cards dos módulos** — **ENCERRADA (13/10/2026): RESOLVIDA HÁ MUITO TEMPO (confirmação do mestre).**
+   - O registro estava **desatualizado**: os ícones dos cards dos módulos na capa **já estão no Moodle** há muito tempo. Nada a fazer.
 
 2. [x] **Imagem faltante — M2P4L3p1** (imagem do Acervo Vaga Lume) — **ENCERRADA (05/09/2026): RESOLVIDA PELO MESTRE.**
    - Imagem compactada em `assets/images/ilustracoes/M2/M2P4L3p1-acervo_vaga_lume.jpeg` (1600×1067, JPEG); descrição longa/alt atualizada na página e registrada em `assets/images/ilustracoes/M2/descricoes.md`.
@@ -22,13 +22,16 @@
    - H5Ps das 11 atividades arquivados em `assets/h5p/M3/` e validados.
    - **MÓDULO 3 ENCERRADO (08/10/2026, confirmação do mestre):** pendências do autor todas resolvidas — imagens da Parte 4/Lição 3 (`M3P4L3p2–p5`) entregues, processadas e páginas validadas no Moodle (**sem PDFs** — tachado = exclusão; Regimento à direita sem borda; Plano de Ação centralizado com borda laranja fina, imagem rotacionada 90°); abertura do módulo feita e validada; H5Ps todos resolvidos; **Referências ficam sem ano/URL/data de acesso** (decisão final do mestre — formato amigável, como M2). Detalhes em `content/M3/pendencias-M3.md`.
 
-5. [ ] **Entrega do Módulo 4 pronto para DI** — **EM ANDAMENTO (Partes 1–2 concluídas e validadas em 06–08/10/2026; Parte 3 em preparação).**
-   - DI convertido e anotado: `content/M4/Módulo_IV_Versão_para_DI.md` (numeração de lições reiniciando por Parte, padrão M1–M3, confirmado pelo mestre) + `content/M4/pendencias-M4.md` criado na rotina de inicialização (06/10/2026).
+5. [x] **Entrega do Módulo 4 pronto para DI** — **ENCERRADO (13/10/2026): MÓDULO 4 COMPLETO E 100 % VALIDADO NO MOODLE (Partes 1 a 4).**
+   - DI convertido e anotado: `content/M4/Módulo_IV_Versão_para_DI.md` (numeração de lições reiniciando por Parte, padrão M1–M3, confirmado pelo mestre) + `content/M4/pendencias-M4.md` (criado em 06/10/2026 — **encerrado em 13/10/2026, sem pendências**).
    - **Parte 1** validada no Moodle: `M4-Apresentacao_do_modulo_4.html`, Lição 1 (`M4P1L1p1` + Atividade H5P `M4P1L1p2`), Lição 2 (`M4P1L2p1`–`p3` — galeria/grade, decisão do mestre) e Lição 3 (`M4P1L3p1`).
    - **Parte 2** validada no Moodle: Lição 1 (`M4P2L1p1`) + Lição 2 (`M4P2L2p1`) + **Fórum 1 (`M4P2F1.html`**, última atividade da parte — N3.5.3).
-   - **Pendências do módulo (autor):** 13 Sequências Didáticas em PDF (Parte 3, Lições 2–5) — ver `content/M4/pendencias-M4.md`.
+   - **Parte 3** validada no Moodle: 5 lições (**18 páginas**) — as **13 Sequências Didáticas** foram **produzidas pelo projeto** (não entregues pelo autor): páginas `M4P3L2p2`–`M4P3L5p3` + **13 PDFs** em `assets/pdf/M4/` (12 de 1 página A4 + a SD 7 de 2 páginas — Opção A aprovada pelo mestre), todos inseridos por você.
+   - **Parte 4** validada no Moodle: label `M4_Label_Parte4_Sintese_do_modulo_4` + **Síntese do Módulo 4** (`M4P4P1`) + **Referências Bibliográficas** (`M4P4P2`, formato amigável — sem ano/URL/data).
+   - **H5P:** `assets/h5p/M4/M4P1L1p2-h5p-multipla_escolha.h5p` (question-set; 6 alternativas A–F; corretas A, C, E) — **inserido no Moodle** (confirmado pelo mestre em 13/10/2026).
+   - **Pendências do módulo:** **nenhuma** — nem do autor, nem do projeto, nem do mestre no Moodle (confirmação de 13/10/2026: labels das Partes 1-4 posicionados e 13 PDFs no ar).
 
-6. [ ] **Módulo de Encerramento** — **módulo novo e independente**, entrará **após o Módulo 4** (registro do mestre, 05/09/2026). Aguardando material do autor.
+6. [ ] **Módulo de Encerramento** (Certificação e Avaliação do curso) — **módulo novo e independente**, entra **após o Módulo 4** (registro do mestre, 05/09/2026). **ÚNICA PENDÊNCIA ABERTA DO PROJETO — aguardando material do autor** (confirmado pelo mestre em 13/10/2026, no fecho do Módulo 4). Ao chegar: converter o `.docx` → `.md` em `content/`, montar o arquivo de pendências e planejar no PLAN mode.
 
 7. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
    - **Formato decidido pelo autor: "amigável"** (dados de autoria/título/links, sem rigidez ABNT) — **já é o formato atual da página**.
