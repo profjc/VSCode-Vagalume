@@ -8,6 +8,33 @@
 ---
 
 
+## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 e 1 concluídos** (plano salvo + inventário de recursos gerado)
+
+> **🎯 O QUE É:** tarefa nova, independente do fluxo das páginas — estimar a **carga horária efetiva** do curso (M0 + M1 + M2 + M3 + M4, tudo o que já está no ar e validado) por **categoria de recurso** (textos, imagens, vídeos, atividades, bibliografia, navegação, fóruns, encontros síncronos, SDs), separando **carga obrigatória** de **carga opcional**. Produto final: **PDF A4 + DOCX** imprimíveis + planilha de cálculo. **Não existem relatórios do Moodle** (confirmado por você em 14/10/2026) → é **estimativa** feita com inventário exato + parâmetros validados por você.
+>
+> **✅ CICLO 0 CONCLUÍDO (14/10/2026):**
+> - **Git sincronizado:** commit **`ebe1292`** — `sync antes do relatorio de carga horaria: h5p M3P3L2p3 atualizado (ciclo 0)` (o `.h5p` pendente entrou, conforme sua autorização) · **push feito, `HEAD = origin/master`**.
+> - **Plano salvo (documento vivo):** **`docs/relatorios/carga-horaria/PLANO-carga-horaria.md`** — com objetivo e natureza (§1), escopo e buckets (§2), **suas decisões** (§3), método/fórmula (§4.1), **tabela de parâmetros** (§4.2), cenários (§4.3), regras anti-dupla-contagem (§4.4), inventário preliminar (§5), mapa de artefatos (§6), ciclos (§7) e **passo a passo de reexecução quando o Módulo de Encerramento chegar (§8)** + riscos e pendências (§9).
+> - **Pasta nova criada:** `docs/relatorios/carga-horaria/` — **versionada** (o `.gitignore` só ignora `temp/`).
+>
+> **🧠 SUAS DECISÕES REGISTRADAS (14/10/2026):** (1) as “24 horas” do DI referem-se ao **curso todo**, mas entram só como **comparação de sanidade** (provavelmente desatualizadas); (2) **fórum = 35 min** (ler · postar · ler colegas · responder a dois); (3) **3 cenários + recomendado**; (4) **3º encontro síncrono (1h30) + bloco novo dos encontros computados como executados**, com parâmetros idênticos aos anteriores; (5) **git atualizado antes de iniciar** e depois **a cada ~20 atualizações acumuladas**; (6) **link do vídeo “Representatividade nos livros”** recebido → é o vídeo de **`M2P4L4p3`** (**14min06s**), o que **resolve a pendência 7** do `docs/pendencias-projeto.md` (registrar no Ciclo 3).
+>
+> **✅ CICLO 1 CONCLUÍDO (14/10/2026):** criados **`scripts/inventario-recursos.py`** (versionado, com cabeçalho de uso) e os produtos **`docs/relatorios/carga-horaria/inventario-recursos.md`** + **`.csv`** (**147 páginas**). Entradas novas no **`docs/project-map.md`** (linha de `scripts/` e nova linha de `docs/relatorios/`).
+> - **Números do inventário (obrigatório, M0–M4):** 147 páginas · **29.366 palavras** (28.899 sem a página dos encontros) · 41 imagens · **19 vídeos = 2h24min52s** + as **2 gravações** dos encontros (**3h06min05s**, opcionais) · **26 atividades H5P** com **110 itens/questões** lidas do `content.json` · 14 fóruns · 13 PDFs.
+> - **Decisões de contagem aplicadas no script:** (a) vídeo **embedado ou instruído** conta; (b) vídeo **sugerido** (“Quer saber mais?” e bibliografia) é registrado e **não** conta; (c) instrução de **trecho** conta só o trecho (Sesc: 34:29→54:15 = **19min46s**); (d) os **21 itens de vídeo da bibliografia** foram cruzados 1:1 → **16 já contados no tempo efetivo** + **5 presentes como sugestão** (3 FMCSV + ChildFund + Sesc).
+> - **Órfão registrado:** `M2P1L1p4-caca-palavras.h5p` está em `assets/h5p/` mas **sem página vinculada** (fora do curso).
+> - **Incidente do editor resolvido (14/10/2026):** uma digitação acidental foi parar no `inventario-recursos.md` porque o comando `code` **reativou a aba e puxou o foco do teclado**. O **disco foi conferido** (`diff` + `md5sum` contra a geração: **idênticos**) e o conteúdo canônico reescrito; a aba foi **revertida por você**. Lição registrada em `docs/regras-licoes-aprendidas.md`; **decisão: relatórios (`.md`/`.csv`) não são mais abertos com `code`** — a entrega na janela ativa fica **restrita às páginas HTML do curso**.
+> - **⏳ Pendência de git (aguarda SUA autorização explícita — N1.8):** **5 arquivos** para `commit` + `push` — `Onde-paramos.md`, `docs/project-map.md`, `docs/regras-licoes-aprendidas.md`, `docs/relatorios/` (novo: plano + inventário `.md`/`.csv`) e `scripts/inventario-recursos.py` (novo). Mensagem sugerida: `relatorio de carga horaria: ciclo 1 (inventario de recursos + script + registros)`.
+>
+> **➡️ PRÓXIMO PASSO — CICLO 2 (a executar em SESSÃO NOVA, com contexto limpo):** criar **`docs/relatorios/carga-horaria/parametros-carga-horaria.md`** — tabela de parâmetros (**valor de referência + faixa mín ↔ máx**) por categoria, cada um com **fonte citada** (pesquisa na internet: velocidade de leitura de adultos em português · tempo por questão em quiz · fator de vídeo “assistir” × “assistir anotando” · base do “1,5 min por item” de bibliografia).
+> - **Âncora interna já mapeada:** a página **“Dicas para se organizar”** do Boas-vindas (`Boas-vindas_Dicas_para_se_organizar.html`) cita o **Método Pomodoro (25 min + 5 de pausa)** — é a única orientação de tempo que o próprio curso dá ao aluno (bom gancho para o relatório).
+> - **Decisões a fechar no Ciclo 2:** (a) **overhead de 10%** do cenário recomendado (confirmar); (b) **artigo do Fórum 4 do M1** (Fundação Telefônica Vivo, “Da alimentação à poesia…”) entra como **leitura computada** (padrão que adotei) ou como sugestão? (c) manter **1,5 min/item** em “consultar a bibliografia” (38 itens); (d) **velocidade de leitura-alvo** (sugestão: **200 ppm** de referência, 150/250 nas pontas).
+> - **Fluxo combinado (decisão de 14/10/2026):** o Ciclo 2 roda em **sessão nova** — a pesquisa na internet traz blocos grandes de texto e esta sessão já carrega Ciclo 0 + Ciclo 1 + depuração. Ao abrir: ler `Onde-paramos.md` + `docs/rotina-entrega.md` (N3.0), **planejar em PLAN** e só então executar. **Uma entrega por ciclo** — interrompo para sua validação.
+>
+> **Ao concluir a execução no ACT, a tarefa será interrompida e solicitado o retorno ao PLAN MODE para planejamento da próxima etapa.**
+
+---
+
 ## 🔚 13/10/2026 — M4 · PARTE 4 · **CICLO 2 VALIDADO POR VOCÊ NO MOODLE** · **MÓDULO 4 ENCERRADO** (Partes 1 a 4 completas e validadas) · baixas e registros atualizados
 
 > **✅ CICLO 2 VALIDADO:** a página **"Referências Bibliográficas"** (`M4P4P2.html`) foi inserida e validada por você no Moodle em 13/10/2026 — **com ela o Módulo 4 está 100 % no ar.**

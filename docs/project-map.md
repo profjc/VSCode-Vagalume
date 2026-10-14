@@ -19,8 +19,9 @@
 | `assets/h5p/` | Backup local dos `.h5p` de origem | Subpastas por módulo (ex: `M1/`, `M2/`); manter o mesmo nome usado no placeholder (ex: `M2P1L1p3-H5P-question_set.h5p`) para rastreabilidade. Recursos internos do pacote (imagens/svg) ficam na mesma subpasta junto ao `.h5p` |
 | `docs/` | Documentação do projeto | Workflow, checklist, diretrizes, galeria, backups |
 | `docs/backups/` | Backups versionados do `.clinerules` e CSS | Padrão: `clinerules-vN-antes-[descrição].md` |
-| `scripts/` | Scripts de apoio do projeto | `gerar-pdf-sd.sh` (build do PDF A4 da Sequência Didática, a partir da página + espelho) · `check-fidelidade.py` (confere a página HTML contra o trecho do DI: `python3 scripts/check-fidelidade.py <pagina.html> <DI.md> <linha_ini> <linha_fim>`) |
+| `scripts/` | Scripts de apoio do projeto | `gerar-pdf-sd.sh` (build do PDF A4 da Sequência Didática, a partir da página + espelho) · `check-fidelidade.py` (confere a página HTML contra o trecho do DI: `python3 scripts/check-fidelidade.py <pagina.html> <DI.md> <linha_ini> <linha_fim>`) · `inventario-recursos.py` (inventário de recursos do curso para o relatório de carga horária: `python3 scripts/inventario-recursos.py`) |
 | `docs/historico/` | **Arquivo do log de sessões** (blocos antigos do `Onde-paramos.md`) | Rotação: quando o log passar de ~2.000 linhas (~300 KB), mover para cá os blocos anteriores ao front de trabalho atual. **Consulta histórica — não é leitura obrigatória de sessão.** Ex.: `onde-paramos-arquivo-ate-11-10-2026.md` |
+| `docs/relatorios/` | **Relatórios do projeto** (produtos para impressão/gestão, fora do fluxo do Moodle) | Subpasta `carga-horaria/`: `PLANO-carga-horaria.md` (plano vivo da estimativa), `inventario-recursos.md`/`.csv` (inventário gerado por script) e, mais adiante, `calculo-carga-horaria.csv`, o PDF e o DOCX do relatório |
 | `Onde-paramos.md` | Checkpoint de continuidade entre sessões | Ler ao iniciar sessão; atualizar ao encerrar |
 
 ## Nomeação de arquivos — correspondência dos módulos
