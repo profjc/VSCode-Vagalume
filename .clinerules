@@ -401,6 +401,7 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **`style-guide.md`** → cores, tipografia e paleta completa
 - **`docs/checklist-entrega.md`** → checklist de validação antes de entregar
 - **`docs/project-map.md`** → mapa completo de pastas e recursos
+- **`skills/metricas-carga-horaria/SKILL.md`** → quando o pedido for **carga horária / tempo de dedicação / carga efetiva** de um curso (skill exportável: inventário de recursos + parâmetros com fontes + relatório imprimível)
 
 ---
 

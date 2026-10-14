@@ -7,7 +7,7 @@
 # 📊 Plano — Estimativa de Carga Horária Efetiva do Curso
 
 > **O que é:** plano de trabalho e registro de método para produzir o **relatório de carga horária efetiva** do curso, com base nos módulos já produzidos e validados no Moodle.
-> **Status:** em execução por ciclos — **Ciclo 0 concluído em 14/10/2026** (plano salvo + registro no checkpoint + git).
+> **Status:** em execução por ciclos — **Ciclos 0, 1 e 2 concluídos em 14/10/2026** (plano · inventário de recursos · parâmetros com fontes citadas).
 > **Documento vivo:** atualizar a cada ciclo e **reexecutar** quando o Módulo de Encerramento (Certificação e Avaliação) for produzido — ver §8.
 
 ---
@@ -58,7 +58,7 @@
 
 O cálculo é feito **página a página** (uma linha por página no arquivo de cálculo) e depois agregado por **parte**, **módulo**, **categoria** e **bucket** (obrigatório/opcional). Toda quantidade precisa ser **rastreável até o arquivo** (`templates/pages/...`, `assets/h5p/...`, `assets/pdf/...`).
 
-### §4.2 Tabela de parâmetros (proposta — a fixar no Ciclo 2)
+### §4.2 Tabela de parâmetros (fixada no Ciclo 2 — ver `parametros-carga-horaria.md`)
 
 | Categoria | Unidade medida no inventário | Parâmetro de **referência** | Faixa (mín ↔ máx) |
 |---|---|---|---|
@@ -75,7 +75,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **Gravações dos encontros** (bucket B) | duração (1h26min36 + 1h39min29 + 3º encontro) | **×1,0** | — |
 | **SDs em PDF** (bucket B) | nº de PDFs (13) e nº de páginas de cada um | leitura a **200 ppm** sobre o texto do PDF | — |
 
-> **Fontes dos parâmetros:** a preencher no Ciclo 2 (`parametros-carga-horaria.md`) — velocidade de leitura de adultos em português e benchmarks de e-learning, com **citação da fonte** (o mestre autorizou a pesquisa na internet em 14/10/2026).
+> **Fontes dos parâmetros:** **FIXADAS no Ciclo 2** — ver **`docs/relatorios/carga-horaria/parametros-carga-horaria.md`** (tabela-mestra com valor de referência, faixa mín ↔ máx, **nível de confiança** — científico/benchmark/heurística — e **fonte citada** por parâmetro, além das 4 decisões do mestre). Os valores desta tabela **batem 1:1** com a tabela-mestra do novo arquivo.
 
 ### §4.3 Cenários
 
@@ -127,9 +127,9 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | Artefato | Caminho | Ciclo | Status |
 |---|---|---|---|
 | **Este plano** | `docs/relatorios/carga-horaria/PLANO-carga-horaria.md` | 0 | ✅ criado |
-| Script de inventário (versionado) | `scripts/inventario-recursos.py` | 1 | ⏳ a criar |
-| Inventário (máquina + leitura) | `docs/relatorios/carga-horaria/inventario-recursos.csv` · `.md` | 1 | ⏳ a criar |
-| Parâmetros + fontes citadas | `docs/relatorios/carga-horaria/parametros-carga-horaria.md` | 2 | ⏳ a criar |
+| Script de inventário (versionado) | `scripts/inventario-recursos.py` | 1 | ✅ criado (14/10/2026) |
+| Inventário (máquina + leitura) | `docs/relatorios/carga-horaria/inventario-recursos.csv` · `.md` | 1 | ✅ criado (14/10/2026) |
+| Parâmetros + fontes citadas | `docs/relatorios/carga-horaria/parametros-carga-horaria.md` | 2 | ✅ criado (14/10/2026) |
 | Ajustes finos (imagens, fóruns, bibliografia) | seção/arquivo do inventário (`.md`) | 3 | ⏳ a criar |
 | Cálculo página a página + tabelas | `docs/relatorios/carga-horaria/calculo-carga-horaria.csv` | 4 | ⏳ a criar |
 | **Relatório imprimível (PDF A4)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.pdf` | 5 | ⏳ a criar |
@@ -144,7 +144,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 |---|---|---|
 | **0** | Git sincronizado + este plano salvo + registro no `Onde-paramos.md` | ✅ concluído (14/10/2026) |
 | **1** | `scripts/inventario-recursos.py` + `inventario-recursos.csv`/`.md` + entrada no `docs/project-map.md` | ✅ concluído (14/10/2026) |
-| **2** | `parametros-carga-horaria.md` (parâmetros + **fontes citadas**) | ⏳ próximo |
+| **2** | `parametros-carga-horaria.md` (parâmetros + **fontes citadas**) | ✅ concluído (14/10/2026) |
 | **3** | Ajustes finos: classificar as 39 imagens · revisar os 14 enunciados de fórum · cruzar bibliografia ↔ vídeos · buscar as durações faltantes na internet | ⏳ |
 | **4** | `calculo-carga-horaria.csv` + tabelas-resumo (módulo, parte, categoria, cenários, buckets) | ⏳ |
 | **5** | Relatório imprimível: **PDF A4 + DOCX** + planilha | ⏳ |
@@ -167,7 +167,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 2. **Módulo de Encerramento fora do escopo** → o total crescerá na reexecução (§8).
 3. **21 vídeos da bibliografia sem link:** uso dos créditos das páginas quando houver match seguro; os demais serão buscados por título + canal na internet. Sem match seguro, o item entra como **“duração não localizada”** (não estimar no escuro).
 4. **Imagens:** os 39 marcadores são placeholders (as imagens finais estão no Moodle) — a contagem é por marcador e a **classificação por tipo** (foto, tirinha, gráfico, carrossel) é inferência do conteúdo, validada no Ciclo 3.
-5. **Overhead de 10%** (cenário recomendado) — decisão a confirmar no Ciclo 2.
+5. **Overhead de 10%** (cenário recomendado) — **CONFIRMADO** pelo mestre no Ciclo 2 (14/10/2026); âncora: Pomodoro 25+5 (~20 %) — ver `parametros-carga-horaria.md` §5.11.
 6. **Fóruns:** confirmar no Ciclo 3 se **todos** os 14 enunciados pedem o mesmo ciclo (postar · ler colegas · responder a dois); havendo exceção, registrá-la.
 7. **Git:** consolidação a cada **~20 atualizações acumuladas** ou no fecho da etapa (decisão de 14/10/2026).
 
@@ -177,4 +177,5 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 |---|---|
 | **14/10/2026** | **Ciclo 0** — criação do plano; decisões do mestre incorporadas; inventário preliminar registrado; link do vídeo “Representatividade nos livros” recebido e mapeado para `M2P4L4p3` (**14min06s**); git sincronizado (commit `ebe1292`); frente registrada no `Onde-paramos.md`. |
 | **14/10/2026** | **Ciclo 1** — criados `scripts/inventario-recursos.py` (versionado) e `inventario-recursos.md`/`.csv` (147 páginas, 29.366 palavras, 41 imagens, 26 atividades H5P com 110 itens, 14 fóruns, 13 PDFs, 19 vídeos contados em 2h24min52s + 2 gravações de encontros em 3h06min05s); cruzamento dos 21 vídeos da bibliografia (16 já contados no tempo efetivo + 5 presentes como sugestão); entradas novas no `docs/project-map.md` (`scripts/` e `docs/relatorios/`); decisões de contagem (embedado/instruído conta; sugerido não conta; trecho conta só o trecho) aplicadas no script. |
+| **14/10/2026** | **Ciclo 2** — criado `parametros-carga-horaria.md` (tabela-mestra + fundamentação por parâmetro + **fontes citadas** + as 4 decisões do mestre); §4.2, §6, §7, §9 e §10 deste plano atualizados para apontar o novo arquivo; status dos Ciclos 1 e 2 corrigido para concluído. |
 

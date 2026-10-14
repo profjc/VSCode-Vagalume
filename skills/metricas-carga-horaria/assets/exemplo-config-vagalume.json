@@ -1,0 +1,32 @@
+{
+  "_comentario": "Config de EXEMPLO da skill metricas-carga-horaria, calibrado no projeto de origem (Vaga Lume, Moodle 4.5). Copie e ajuste as 5 chaves ao seu projeto. Uso: python3 inventario-recursos.py --root <raiz-do-projeto> --config exemplo-config-vagalume.json   (sem este arquivo o script roda, mas com MODULOS/REF_PAGINAS/DUR_EXTERNAS vazios e PADROES genericos).",
+  "_chaves": "modulos = pasta do modulo -> sigla no relatorio | ref_paginas = paginas de Referencias (caminho relativo a pasta de paginas) | ignorar = pastas de interface (nao sao conteudo) | padroes = strings que identificam o tipo de cada pagina | duracoes = id do YouTube -> segundos (videos cuja duracao NAO esta nos creditos da pagina)",
+  "modulos": {
+    "Boas-vindas": "M0",
+    "M1": "M1",
+    "M2": "M2",
+    "M3": "M3",
+    "M4": "M4",
+    "Encontros-sincronos": "ENC"
+  },
+  "ref_paginas": [
+    "M1/Parte5/M1P5P2.html",
+    "M2/Parte6/M2P6P2.html",
+    "M3/Parte5/M3P5P2.html",
+    "M4/Parte4/M4P4P2.html"
+  ],
+  "ignorar": ["base/", "labels/", "frontpage/"],
+  "padroes": {
+    "referencias": ["Referências Bibliográficas"],
+    "forum": ["Fórum:"],
+    "sintese": ["Síntese do Módulo", "O que aprendemos no Módulo"],
+    "abertura": ["Apresentação do Módulo"]
+  },
+  "duracoes": {
+    "olFTlBgnzGA": 72,
+    "NVRm2tjoeqw": 268,
+    "TmNf3cDnM1Q": 224,
+    "KrMfedDRUhw": 140,
+    "dIyr6srurC0": 5805
+  }
+}

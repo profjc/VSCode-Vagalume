@@ -20,8 +20,9 @@
 | `docs/` | Documentação do projeto | Workflow, checklist, diretrizes, galeria, backups |
 | `docs/backups/` | Backups versionados do `.clinerules` e CSS | Padrão: `clinerules-vN-antes-[descrição].md` |
 | `scripts/` | Scripts de apoio do projeto | `gerar-pdf-sd.sh` (build do PDF A4 da Sequência Didática, a partir da página + espelho) · `check-fidelidade.py` (confere a página HTML contra o trecho do DI: `python3 scripts/check-fidelidade.py <pagina.html> <DI.md> <linha_ini> <linha_fim>`) · `inventario-recursos.py` (inventário de recursos do curso para o relatório de carga horária: `python3 scripts/inventario-recursos.py`) |
+| `skills/` | **Skills reutilizáveis do agente** (pacotes exportáveis para outros projetos) | `skills/metricas-carga-horaria/` — skill de **estimativa de carga horária de cursos Moodle**: `SKILL.md` + `reference/` (parâmetros com fontes, método/cenários, armadilhas) + `assets/` (script de inventário generalizável por CLI + esqueleto do relatório). **Exportar = copiar a pasta.** **Governança:** a skill é a **fonte do MÉTODO**; cada projeto mantém a sua **instanciação** (decisões do cliente) — aqui, `docs/relatorios/carga-horaria/parametros-carga-horaria.md`. |
 | `docs/historico/` | **Arquivo do log de sessões** (blocos antigos do `Onde-paramos.md`) | Rotação: quando o log passar de ~2.000 linhas (~300 KB), mover para cá os blocos anteriores ao front de trabalho atual. **Consulta histórica — não é leitura obrigatória de sessão.** Ex.: `onde-paramos-arquivo-ate-11-10-2026.md` |
-| `docs/relatorios/` | **Relatórios do projeto** (produtos para impressão/gestão, fora do fluxo do Moodle) | Subpasta `carga-horaria/`: `PLANO-carga-horaria.md` (plano vivo da estimativa), `inventario-recursos.md`/`.csv` (inventário gerado por script) e, mais adiante, `calculo-carga-horaria.csv`, o PDF e o DOCX do relatório |
+| `docs/relatorios/` | **Relatórios do projeto** (produtos para impressão/gestão, fora do fluxo do Moodle) | Subpasta `carga-horaria/`: `PLANO-carga-horaria.md` (plano vivo da estimativa), `inventario-recursos.md`/`.csv` (inventário de recursos gerado por script), `parametros-carga-horaria.md` (parâmetros de tempo com fontes citadas) e, mais adiante, `calculo-carga-horaria.csv`, o PDF e o DOCX do relatório |
 | `Onde-paramos.md` | Checkpoint de continuidade entre sessões | Ler ao iniciar sessão; atualizar ao encerrar |
 
 ## Nomeação de arquivos — correspondência dos módulos
@@ -69,3 +70,4 @@ Consultar antes de criar qualquer página:
 - **`components-library.md`** → snippets e implementação dos componentes
 - **`assets/css/vagalume-tema.css`** → classes CSS globais disponíveis
 - **`docs/checklist-entrega.md`** → checklist de validação pré-entrega
+- **`skills/metricas-carga-horaria/SKILL.md`** → quando o pedido envolver **carga horária / tempo de dedicação / carga efetiva** de um curso (skill exportável para outros projetos; ver a linha `skills/` na tabela acima)
