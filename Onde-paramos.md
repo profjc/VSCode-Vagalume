@@ -8,7 +8,7 @@
 ---
 
 
-## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 e 1 concluídos** · **CICLO 2 EM EXECUÇÃO** (parâmetros + fontes)
+## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 a 2D CONCLUÍDOS** (plano · inventário · parâmetros · skill v1.1.1) · **próximo: CICLO 3** (ajustes finos)
 
 > **🎯 O QUE É:** tarefa nova, independente do fluxo das páginas — estimar a **carga horária efetiva** do curso (M0 + M1 + M2 + M3 + M4, tudo o que já está no ar e validado) por **categoria de recurso** (textos, imagens, vídeos, atividades, bibliografia, navegação, fóruns, encontros síncronos, SDs), separando **carga obrigatória** de **carga opcional**. Produto final: **PDF A4 + DOCX** imprimíveis + planilha de cálculo. **Não existem relatórios do Moodle** (confirmado por você em 14/10/2026) → é **estimativa** feita com inventário exato + parâmetros validados por você.
 >
