@@ -1,13 +1,13 @@
 # Esqueleto do relatório de carga horária
 
 > Modelo do **relatório imprimível** (PDF A4 + DOCX) — preencha os `{{placeholders}}`.
-> **Versão 1.1 (14/10/2026).**
+> **Versão 1.1.1 (14/10/2026).**
 
 ## Capa
 
 - Título: **Carga horária efetiva — {{Nome do Curso}}**
 - Subtítulo: *estimativa por categoria de recurso*
-- `{{versão}}` · `{{data}}` · responsável: `{{nome}}` · gerado com a skill `metricas-carga-horaria` v1.0
+- `{{versão}}` · `{{data}}` · responsável: `{{nome}}` · gerado com a skill `metricas-carga-horaria` v{{versão da skill}}
 
 ## 1. Apresentação
 

@@ -1,7 +1,7 @@
 # Método, cenários e regras anti-dupla-contagem
 
 > Como transformar o **inventário** (quantidades) em **tempo**. Genérico e reutilizável.
-> **Versão 1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
+> **Versão 1.1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
 
 ## 1 — Fórmula
 

@@ -544,7 +544,7 @@ def main():
     ap.add_argument('--h5p', help='pasta dos pacotes .h5p (default: <root>/assets/h5p)')
     ap.add_argument('--pdf', help='pasta dos PDFs anexos (default: <root>/assets/pdf)')
     ap.add_argument('--out', help='pasta de saida (default: <root>/docs/relatorios/carga-horaria)')
-    ap.add_argument('--config', help='arquivo JSON com modulos/ref_paginas/ignorar/duracoes/paths')
+    ap.add_argument('--config', help='arquivo JSON com modulos/ref_paginas/ignorar/padroes/duracoes/paths')
     ap.add_argument('--modulos', help='mapa Pasta=SIGLA,Pasta=SIGLA (ex.: M1=M1,Modulo_2=M2)')
     ap.add_argument('--ignorar', help='pastas ignoradas, separadas por virgula')
     ap.add_argument('--csv', help='caminho do CSV de saida')

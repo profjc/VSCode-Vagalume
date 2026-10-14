@@ -3,7 +3,7 @@
 > Tabela **reutilizável** de parâmetros de tempo para estimar carga horária. Cada linha traz
 > **valor de referência**, **faixa (mín ↔ máx, em tempo)**, **nível de confiança** e **fonte**.
 > Ajuste ao projeto (idioma, público, mídia) **mantendo o rótulo de confiança**.
-> **Versão 1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
+> **Versão 1.1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
 > **Governança:** este arquivo é o **MÉTODO genérico** (a skill). Cada projeto mantém a sua **instanciação**
 > — com as **decisões do cliente** — e cita a versão da skill usada. Mudou uma regra geral aqui?
 > **Revalide a paridade** do script (`SKILL.md` → “Validação de paridade”).

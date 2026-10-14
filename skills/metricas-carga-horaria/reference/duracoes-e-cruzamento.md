@@ -1,7 +1,7 @@
 # Durações de vídeo e cruzamento com a bibliografia
 
 > De onde vem a **duração** de cada vídeo e como evitar **dupla contagem** entre o vídeo assistido no
-> curso e o **item de vídeo da bibliografia**. **Versão 1.1 (14/10/2026)** — origem: projeto Vaga Lume.
+> curso e o **item de vídeo da bibliografia**. **Versão 1.1.1 (14/10/2026)** — origem: projeto Vaga Lume.
 
 ## 1 — Preferir os créditos da própria página
 

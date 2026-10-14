@@ -1,7 +1,7 @@
 # H5P — onde mora a contagem de itens (por tipo)
 
 > Como o Passo 1 obtém o **nº de itens/questões** de cada atividade, lendo o `content.json` **de dentro**
-> do pacote `.h5p` (que é um ZIP). **Versão 1.1 (14/10/2026)** — origem: projeto Vaga Lume.
+> do pacote `.h5p` (que é um ZIP). **Versão 1.1.1 (14/10/2026)** — origem: projeto Vaga Lume.
 
 ## Por que isso importa
 

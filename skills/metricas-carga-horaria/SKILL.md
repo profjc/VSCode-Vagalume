@@ -130,7 +130,7 @@ e **bucket** (obrigatório/opcional). Aplique as **regras anti-dupla-contagem** 
 
 Antes de confiar numa nova exportação, prove que o script reproduz o projeto de origem:
 
-1. rode com o **config do projeto de origem**, com o CSV **fora** do projeto (`--csv /tmp/check.csv`);
+1. rode com o **config do projeto de origem**, com **as saídas fora do projeto** (`--csv /tmp/check.csv --md /tmp/check.md`) — **sempre com `--md` também**: sem ele o MD é gravado no caminho **padrão** e **sobrescreve o inventário oficial** (armadilha nº 19);
 2. compare com o inventário oficial: `diff /tmp/check.csv <inventario-oficial>.csv` → **tem de ser idêntico**;
 3. **se divergir, investigue antes de usar** — quase sempre é (a) `modulos`/`padroes` do config ou
    (b) uma correção que existe num script e não no outro;
@@ -173,7 +173,7 @@ skills/metricas-carga-horaria/
 
 ## Versionamento e reuso
 
-- **Versão atual: 1.1 (14/10/2026)** — projeto de origem **Vaga Lume** (Moodle 4.5).
+- **Versão atual: 1.1.1 (14/10/2026)** — projeto de origem **Vaga Lume** (Moodle 4.5).
 - **Exportar para outro projeto:** **copie a pasta inteira** `skills/metricas-carga-horaria/` e ajuste
   apenas o que o **checklist de adaptação** indica; depois rode a **validação de paridade**.
 - **Reexecutar:** rode o script (Passo 1) com o **config do projeto** e recalcule com a **mesma** tabela de
@@ -184,6 +184,7 @@ skills/metricas-carga-horaria/
 |---|---|---|
 | 1.0 | 14/10/2026 | Primeira versão: SKILL.md (5 passos), `parametros.md` (13 parâmetros + 8 fontes), `metodo-e-cenarios.md`, `armadilhas.md`, script CLI e esqueleto do relatório. |
 | **1.1** | **14/10/2026** | **`padroes` parametrizável** no script (fim dos títulos fixos; falha silenciosa documentada) + **paths relativos resolvidos a partir de `--root`**; **`exemplo-config-vagalume.json`**; **seção “Validação de paridade”**; novos arquivos **`h5p-tipos.md`** e **`duracoes-e-cruzamento.md`** (com o erro 60× do trecho, o falso positivo do cruzamento e a receita oEmbed/`lengthSeconds`); **critérios de classificação de imagens** e **dicionário de dados do CSV**; armadilhas nº 14–18. |
+| **1.1.1** | **14/10/2026** | **Revisão pós-auditoria** (sessão nova): `--md` **obrigatório** na validação de paridade + **armadilha nº 19** (testar sem `--md` sobrescreve o inventário oficial); descrição de `reference/`/`assets/` corrigida no mapa do projeto; `--config` (help) passa a citar **`padroes`**; o esqueleto passa a citar `v{{versão da skill}}`. |
 
 ### Roadmap / pendências desta skill
 

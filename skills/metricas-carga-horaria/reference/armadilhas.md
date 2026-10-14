@@ -1,6 +1,6 @@
 # Armadilhas e lições aprendidas
 
-> O que costuma dar errado nestas métricas — e como evitar. **Versão 1.1 (14/10/2026)** —
+> O que costuma dar errado nestas métricas — e como evitar. **Versão 1.1.1 (14/10/2026)** —
 > origem: projeto Vaga Lume.
 
 1. **Apresentar heurística como ciência.** Sempre rotular 🟢/🟡/🔴. Um número sem fonte **é
@@ -47,6 +47,10 @@
 18. **Tratar `n/d` do H5P como zero.** Quando o `content.json` não é lido, a atividade entra com **0 item**
     e o tempo dela **desaparece** do relatório. É o caso de **mostrar `n/d` no relatório** e contar à mão
     pelo conteúdo publicado (ver `h5p-tipos.md`).
+19. **Rodar o script de teste sem `--md`.** O `--md` **tem** default (o inventário oficial do projeto): rodar
+    só com `--csv /tmp/...` **grava por cima** do `inventario-recursos.md` do projeto — aconteceu em
+    **14/10/2026** durante a auditoria da skill. Ao testar, passe **sempre** `--csv` **e** `--md` para `/tmp`;
+    se sobrescrever, **regenere com o script do projeto** e confirme com `git status`.
 
 ## Checklist final antes de publicar
 
