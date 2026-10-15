@@ -36,7 +36,7 @@
 7. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
    - **Formato decidido pelo autor: "amigável"** (dados de autoria/título/links, sem rigidez ABNT) — **já é o formato atual da página**.
    - **Layout espelhado no template do Módulo 1** (`M1P5P2.html`): subtítulos "Livros e artigos"/"Vídeos" convertidos para `h4`; link Cabrejo-Parra `#944b11` (§6.1).
-   - Só resta ao mestre **recolar `M2P6P2.html` no Moodle**.
+   - ✅ **RECOLADO NO MOODLE — SEM AÇÃO PENDENTE.** Confirmação do mestre em **15/10/2026**: *"não há pendências abertas no Moodle, tudo já foi solucionado"* (a frase anterior — "só resta ao mestre recolocar" — ficou **baixada**).
      - ✅ **Vídeo "Representatividade nos livros" (Programa Vaga Lume): LOCALIZADO E ENCERRADO (14/10/2026)** — é o vídeo **`CLm7tYSlPbE`** (canal **Vaga Lume**, **14min06s**), embedado na página **`M2P4L4p3`**; identidade conferida por `oEmbed` e registrada na carga horária (**`docs/relatorios/carga-horaria/ajustes-finos.md` §3.1, linha 6**). Era a **pendência 7** do plano do Ciclo 3 (decisão (6) do mestre).
    - Aplicar a decisão do autor nas páginas de referências do curso (padrão hoje: `M2P6P2.html`, mesmo padrão visual do `M1P5P2`).
 

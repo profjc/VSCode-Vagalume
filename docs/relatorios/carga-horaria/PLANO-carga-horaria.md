@@ -7,7 +7,7 @@
 # 📊 Plano — Estimativa de Carga Horária Efetiva do Curso
 
 > **O que é:** plano de trabalho e registro de método para produzir o **relatório de carga horária efetiva** do curso, com base nos módulos já produzidos e validados no Moodle.
-> **Status:** em execução por ciclos — **Ciclos 0 a 4 concluídos em 14/10/2026** (plano · inventário · parâmetros · ajustes finos 3A–3D · **cálculo página a página + cenários**). **Próximo: Ciclo 5** (relatório imprimível PDF + DOCX).
+> **Status:** em execução por ciclos — **Ciclos 0 a 6 concluídos em 15/10/2026** (plano · inventário · parâmetros · ajustes finos 3A–3D + SDs · **cálculo página a página + cenários** · **relatório PDF + DOCX + XLSX** · **resumo executivo 2 páginas A4 + DOCX**). **Próximo: reexecução** quando o Módulo de Encerramento (Certificação e Avaliação) for produzido — ver §8.
 > **Documento vivo:** atualizar a cada ciclo e **reexecutar** quando o Módulo de Encerramento (Certificação e Avaliação) for produzido — ver §8.
 
 ---
@@ -28,16 +28,17 @@
 |---|---|---|
 | **No ar e validado no Moodle** | M0 Boas-vindas + M1 + M2 + M3 + M4 (**146 páginas**) | **SIM** |
 | **No ar** | Página dos **Encontros Síncronos** (2 encontros com gravação, card e minutagem) | **SIM** |
-| **Previsto — computado como executado** (decisão do mestre, 14/10/2026) | **3º Encontro Síncrono (1h30)** + **novo bloco (texto + imagem + vídeo)** a inserir na página dos Encontros | **SIM** |
-| **Não produzido** | **Módulo de Encerramento** (Certificação e Avaliação do curso) — única pendência aberta do projeto | **NÃO** — entra como nota e é incorporado na reexecução (§8) |
+| **Previsto — computado como executado** (decisão do mestre, 14/10/2026) | **3º Encontro Síncrono (1h30)** | **SIM** |
+| **Previsto — NÃO computado** (decisão do mestre, 15/10/2026) | **Bloco novo dos Encontros** (texto + imagem + vídeo) a inserir na página dos Encontros — **sem quantidades definidas** | **NÃO** — reincorporar na reexecução (§8) |
+| **Não produzido** | **Módulo de Encerramento** (Certificação e Avaliação do curso) — única pendência aberta do projeto | **SIM** — **estimado = tempo total do Módulo 0** (decisão do mestre, 15/10/2026 — §3, item 7): A mín 24min46s · **ref 28min01s** · máx 57min17s, com **ressalva declarada**; substituído pela **medição** na reexecução (§8) |
 
 **Buckets do relatório:**
 
-- **A — Carga obrigatória:** leitura das páginas · imagens · vídeos de conteúdo · atividades H5P · fóruns · navegação · encontros síncronos (participação) · bloco novo dos encontros.
+- **A — Carga obrigatória:** leitura das páginas · imagens · vídeos de conteúdo · atividades H5P · fóruns · navegação · encontros síncronos (participação).
 - **B — Carga opcional/complementar:** referências bibliográficas (38 itens, sendo 21 vídeos) · PDFs das Sequências Didáticas (13) · gravações dos encontros síncronos (3h06).
-- **Notas obrigatórias do relatório:** (i) Módulo de Encerramento fora do escopo; (ii) **sobreposição** entre vídeos da bibliografia (bucket B) e vídeos já contados no conteúdo (bucket A) — evitar dupla contagem; (iii) tempo de fórum considera o ciclo completo exigido (ler · postar · ler os colegas · **responder a dois**).
+- **Notas obrigatórias do relatório:** (i) **Módulo de Encerramento estimado = Módulo 0** (ressalva declarada — reexecução, §8) e **bloco novo dos Encontros fora do cálculo** (sem quantidades); (ii) **sobreposição** entre vídeos da bibliografia (bucket B) e vídeos já contados no conteúdo (bucket A) — evitar dupla contagem; (iii) tempo de fórum considera o ciclo completo exigido (ler · postar · ler os colegas · **responder a dois**).
 
-## §3 — Decisões do mestre (14/10/2026)
+## §3 — Decisões do mestre (14 e 15/10/2026)
 
 | # | Questão | Decisão |
 |---|---|---|
@@ -73,7 +74,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **Atividades H5P** | nº de atividades + nº de questões/itens (lidos do `content.json` do pacote) | **1,5 min/questão** (escolha única, múltipla e V/F) · **3 min** (associação, arrastar, desafio de palavras) · **20 s/carta** (virar cartões) · **5 min** (caça-palavras) | −50% ↔ +50% |
 | **Fóruns** | nº de fóruns (14) + exigências do enunciado | **35 min/fórum** (5 ler instruções + 20 escrever + 10 ler colegas e **responder a dois**) | 20 ↔ 45 min |
 | **Bibliografia** (bucket B) | nº de itens (38, sendo 21 vídeos) | **1,5 min/item** (consulta/seleção) | 0,5 ↔ 3 min/item |
-| **Navegação** | nº de páginas (146) + labels (21) + frontpage (3) | **30 s por página nova** | 15 ↔ 45 s |
+| **Navegação** | nº de páginas (**147** — 146 previstas + a página dos Encontros) + labels (21) + frontpage (3) | **30 s por página nova** | 15 ↔ 45 s |
 | **Encontros síncronos** | nº de encontros (**3**) | **1h30 por encontro** (participação) | — |
 | **Gravações dos encontros** (bucket B) | duração (1h26min36 + 1h39min29 + 3º encontro) | **×1,0** | — |
 | **SDs em PDF** (bucket B) | nº de PDFs (13) e nº de páginas de cada um | leitura a **200 ppm** sobre o texto do PDF | — |
@@ -136,9 +137,16 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | Ajustes finos (imagens, fóruns, bibliografia, textos externos, SDs) | `docs/relatorios/carga-horaria/ajustes-finos.md` | 3 | ✅ criado (14/10/2026) |
 | Cálculo página a página + tabelas-resumo | `docs/relatorios/carga-horaria/calculo-carga-horaria.csv` · `.md` | 4 | ✅ criado (14/10/2026) |
 | Script do cálculo (reprodutível) | `scripts/calculo-carga-horaria.py` | 4 | ✅ criado (14/10/2026) |
-| **Relatório imprimível (PDF A4)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.pdf` | 5 | ⏳ a criar |
-| **Relatório editável (DOCX)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.docx` | 5 | ⏳ a criar |
-| Espelho de impressão (HTML A4) | `docs/relatorios/carga-horaria/espelho-relatorio.html` | 5 | ⏳ a criar |
+| **Relatório imprimível (PDF A4)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.pdf` | 5 | ✅ criado (15/10/2026) — 10 páginas |
+| **Relatório editável (DOCX)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.docx` | 5 | ✅ criado (15/10/2026) — logos no topo |
+| Fonte do relatório + gráficos | `docs/relatorios/carga-horaria/Relatorio-carga-horaria.md` · `assets/images/relatorios/*.png` | 5 | ✅ criado (15/10/2026) |
+| Scripts do relatório (PDF · DOCX · gráficos) | `scripts/gerar-relatorio.sh` · `gerar-relatorio-docx.sh` · `gerar-graficos-relatorio.py` · `gerar-reference-docx.py` · `ajustar-tabelas-docx.py` · `adicionar-logos-docx.py` | 5 | ✅ criado (15/10/2026) |
+| Espelho de impressão do relatório (HTML A4) | `templates/documentos/espelho-relatorio.html` | 5 | ✅ criado (15/10/2026) |
+| **Resumo executivo — fonte** | `docs/relatorios/carga-horaria/Resumo-executivo-carga-horaria.md` | 6 | ✅ criado (15/10/2026) |
+| **Resumo executivo — espelho (HTML A4)** | `templates/documentos/espelho-resumo-executivo.html` | 6 | ✅ criado (15/10/2026) |
+| **Resumo executivo — PDF (2 páginas A4)** | `docs/relatorios/carga-horaria/Resumo-executivo-carga-horaria-vagalume.pdf` | 6 | ✅ criado (15/10/2026) |
+| **Resumo executivo — DOCX editável** | `docs/relatorios/carga-horaria/Resumo-executivo-carga-horaria-vagalume.docx` | 6 | ✅ criado (15/10/2026) |
+| Scripts do resumo executivo (PDF · DOCX) | `scripts/gerar-resumo-executivo.sh` · `gerar-resumo-executivo-docx.sh` | 6 | ✅ criado (15/10/2026) |
 
 > Ferramentas verificadas no ambiente (14/10/2026): `pandoc` (DOCX), `libreoffice`, `reportlab`, `markdown` e o pipeline de PDF do projeto (`scripts/gerar-pdf-sd.sh` → Chrome headless + espelho A4).
 
@@ -151,8 +159,8 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **2** | `parametros-carga-horaria.md` (parâmetros + **fontes citadas**) | ✅ concluído (14/10/2026) |
 | **3** | Ajustes finos (3A imagens · 3B fóruns · 3C bibliografia ↔ vídeos · 3D textos externos) → `ajustes-finos.md` | ✅ concluído (14/10/2026) |
 | **4** | Cálculo (`scripts/calculo-carga-horaria.py`) + `calculo-carga-horaria.csv`/`.md` + tabelas-resumo (módulo, parte, categoria, cenários, buckets) | ✅ concluído (14/10/2026) |
-| **5** | Relatório imprimível: **PDF A4 + DOCX** + planilha final formatada | ⏳ **próximo** |
-| **6** *(opcional)* | Resumo executivo de 1–2 páginas | ⏳ |
+| **5** | Relatório imprimível: **PDF A4 + DOCX** + planilha final formatada | ✅ concluído (15/10/2026) — PDF 10 pág. + DOCX + XLSX |
+| **6** | Resumo executivo de 1–2 páginas | ✅ concluído (15/10/2026) — **2 páginas A4 + DOCX** |
 
 **Regra de execução:** uma entrega por ciclo, com **parada para validação** do mestre (nunca em lote); saídas grandes vão para arquivo, e no chat vão apenas os totais.
 
@@ -168,7 +176,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 ## §9 — Riscos, limitações e pendências
 
 1. **Estimativa ≠ medição:** não há relatórios do Moodle (confirmado em 14/10/2026) — o relatório declara isso na metodologia.
-2. **Módulo de Encerramento fora do escopo** → o total crescerá na reexecução (§8).
+2. **Módulo de Encerramento:** computado como **estimado = Módulo 0** (decisão de 15/10/2026 — §3, item 7), com **ressalva declarada**; a **medição** entra na **reexecução** (§8). O **bloco novo dos Encontros** ficou **fora** do cálculo (sem quantidades) e também entra na reexecução.
 3. **21 vídeos da bibliografia sem link:** uso dos créditos das páginas quando houver match seguro; os demais serão buscados por título + canal na internet. Sem match seguro, o item entra como **“duração não localizada”** (não estimar no escuro).
 4. **Imagens:** os 39 marcadores são placeholders (as imagens finais estão no Moodle) — a contagem é por marcador e a **classificação por tipo** (foto, tirinha, gráfico, carrossel) é inferência do conteúdo, validada no Ciclo 3.
 5. **Overhead de 10%** (cenário recomendado) — **CONFIRMADO** pelo mestre no Ciclo 2 (14/10/2026); âncora: Pomodoro 25+5 (~20 %) — ver `parametros-carga-horaria.md` §5.11.
@@ -185,4 +193,5 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **14/10/2026** | **Ciclo 3** — criado `ajustes-finos.md`: **3A** classificação das 41 imagens por tipo (bucket A 16min40s · B 90s) · **3B** revisão dos 14 fóruns (13×35 + Boas-vindas 20 = 7h55min) · **3C** cruzamento bibliografia × vídeos (15 itens de texto = 22,5 min; 18 vídeos já contados) · **3D** textos externos instruídos (1.524 palavras = 7min37s, bucket A). §8 do `parametros-carga-horaria.md` atualizada no fecho. Inventário **intacto**. |
 | **14/10/2026** | **Ciclo 4** — criados `scripts/calculo-carga-horaria.py` (reprodutível) e `calculo-carga-horaria.csv` (150 linhas: 147 páginas + 3 ajustes) + `calculo-carga-horaria.md` (tabelas-resumo). **Bucket A:** mín 15h27min43s · **ref 21h52min41s** · máx 28h42min36s · **recomendado 24h03min57s**. **Bucket B:** mín 4h58min45s · ref 5h23min32s · máx 6h45min55s. Acrescentada a **§8** do `ajustes-finos.md` (texto dos 13 PDFs das SDs = 3.608 palavras). |
 | **15/10/2026** | **Ciclo 5 (Relatório) e revisão** — criados `Relatorio-carga-horaria.md`, `templates/documentos/espelho-relatorio.html`, `scripts/gerar-relatorio.sh`, `scripts/gerar-graficos-relatorio.py` (2 gráficos) e o **PDF A4 (10 pág.)**. **Revisão (decisões 7–9):** **Módulo de Encerramento estimado = M0** (+28min01s em A) · **3º Encontro efetivo (1h30)** · referências 4/5/7/9 **mantidas** (uso comprovado) · **badges de confiança coloridos** no PDF. **Bucket A:** mín 15h52min29s · **ref 22h20min42s** · máx 29h39min53s · **recomendado 24h34min46s**. **A+B** ref 27h44min14s. |
+| **15/10/2026** | **Ciclo 6 (Resumo executivo)** — criados `docs/relatorios/carga-horaria/Resumo-executivo-carga-horaria.md` (fonte), `templates/documentos/espelho-resumo-executivo.html` (espelho A4 com a identidade do Ciclo 5, **cabeçalho compacto** — sem capa), `scripts/gerar-resumo-executivo.sh` (**PDF** via Chrome headless) e `scripts/gerar-resumo-executivo-docx.sh` (**DOCX** via pandoc + reference-docx + pós-processadores). **Saídas:** PDF **2 páginas A4** (185.293 B — p.1 números-chave/tabela de cenários/composição/natureza; p.2 tabela por módulo/gráfico/recomendação/limitações) e **DOCX** (73.174 B, logos no topo, fluxo natural sem quebra forçada — decisão do mestre). **Números:** A ref 22h20min42s · recomendado 24h34min46s · B ref 5h23min32s. **Ciclo 6 FECHADO.** |
 
