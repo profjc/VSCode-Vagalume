@@ -8,7 +8,7 @@
 ---
 
 
-## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 a 3D CONCLUÍDOS** (plano · inventário · parâmetros · skill v1.1.1 · **ajustes finos 3A–3D**) · **🏁 CICLO 3 FECHADO** (§8 do `parametros-carga-horaria.md` atualizada) · **próximo: CICLO 4** (Cálculo página a página + cenários)
+## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 a 3D CONCLUÍDOS** (plano · inventário · parâmetros · skill v1.1.1 · **ajustes finos 3A–3D**) · **🏁 CICLO 3 FECHADO** (§8 do `parametros-carga-horaria.md` atualizada) · **próximo: CICLO 4** (Cálculo página a página + cenários) · **commit `40f4173`**
 
 > **🎯 O QUE É:** tarefa nova, independente do fluxo das páginas — estimar a **carga horária efetiva** do curso (M0 + M1 + M2 + M3 + M4, tudo o que já está no ar e validado) por **categoria de recurso** (textos, imagens, vídeos, atividades, bibliografia, navegação, fóruns, encontros síncronos, SDs), separando **carga obrigatória** de **carga opcional**. Produto final: **PDF A4 + DOCX** imprimíveis + planilha de cálculo. **Não existem relatórios do Moodle** (confirmado por você em 14/10/2026) → é **estimativa** feita com inventário exato + parâmetros validados por você.
 >
@@ -171,8 +171,19 @@
 > - **Achado registrado:** o artigo da FTV tem **vídeo embutido** (YouTube `UALS_mPdlTw`) **não instruído** pelo curso → **não computado**.
 > - **🧮 RESUMO DO CICLO 3 (14/10/2026):** **3A** imagens (39 classificadas + ENC) · **3B** fóruns (14) · **3C** bibliografia × vídeos (38 itens; 21 conferidos por `oEmbed`) · **3D** textos externos instruídos (2). **Bucket A parcial:** imagens **16min40s** + fóruns **7h55min** + textos externos **7min37s**. **Bucket B:** bibliografia **22,5 min** + ENC **90 s**.
 > - **Guardas conferidas:** `inventario-recursos.md`/`.csv`, `PLANO-carga-horaria.md` e o **script** **INTOCADOS** (`git diff` vazio) · **nenhum arquivo aberto com `code`** · escopo estrito (só os 2 arquivos previstos foram alterados: `ajustes-finos.md` e a **§8** do `parametros-carga-horaria.md`).
-> - **Git:** `Onde-paramos.md` (**M**) · `parametros-carga-horaria.md` (**M**) · `ajustes-finos.md` (**novo**) — **pendentes da sua autorização** (o fecho do Ciclo 3 é o ponto natural para consolidar).
+> - **Git:** `Onde-paramos.md` (**M**) · `parametros-carga-horaria.md` (**M**) · `ajustes-finos.md` (**novo**) — **CONSOLIDADOS no commit `40f4173`** (ver o bloco de encerramento da sessão, abaixo).
 > - **Próximo:** **CICLO 4 — CÁLCULO** (planilha **página a página** com quantidades × parâmetros × cenários; buckets A/B; overhead de +10% no recomendado), depois o **Ciclo 5** (relatório imprimível **PDF A4 + DOCX**). **Pendência do mestre no Moodle neste front: nenhuma.**
+
+> **🔚 ENCERRAMENTO DA SESSÃO + SIMULAÇÃO DE REINÍCIO (N1.7.1) · 14/10/2026:**
+> - **Git consolidado:** commit **`40f4173`** — `carga horaria: ciclo 3 concluido (3a a 3d), ajustes-finos novo e pendencia 7 encerrada` (**4 arquivos**: `Onde-paramos.md` · `docs/pendencias-projeto.md` · `docs/relatorios/carga-horaria/parametros-carga-horaria.md` · `docs/relatorios/carga-horaria/ajustes-finos.md` **novo**) · **push feito** (`eb3f8ec..40f4173`) · **árvore limpa, `HEAD = origin/master`** (verificado).
+> - **Fechado neste encerramento:** **(1)** cabeçalho do front atualizado (dizia "CICLOS 0 a 2D · próximo: CICLO 3A" → agora **"CICLOS 0 a 3D · CICLO 3 FECHADO · próximo CICLO 4"**); **(2)** **pendência 7 do `docs/pendencias-projeto.md` ENCERRADA** — o vídeo "Representatividade nos livros" é **`CLm7tYSlPbE`** (canal Vaga Lume, **14min06s**, página `M2P4L4p3`), como pediam a **decisão (6)** de 14/10 e o plano do Ciclo 3 (estava resolvido no `ajustes-finos.md` §3.1, mas o arquivo de pendências ainda o marcava como aberto).
+> - **🔁 Simulação de reinício (o que conferi, como se a sessão fosse nova):** relidos **`Onde-paramos.md`**, **`docs/rotina-entrega.md`** e as **Regras de Bolso (N1.0)**; confrontados o **estado do front** (ciclos 0 a 3D), a **cadeia de hashes** (`ebe1292` → `44f37ff` → `e55c12e` → `4dbd830` → `1488c13` → **`40f4173`**), os **caminhos citados**, o **próximo passo** e as **pendências**.
+> - **✅ Divergências corrigidas (2):** (i) **cabeçalho do front** desatualizado; (ii) **pendência 7 aberta** apesar de resolvida. **Nenhuma outra divergência encontrada.**
+> - **Leitura recomendada na próxima sessão (nesta ordem):** `Onde-paramos.md` (este front, blocos de 14/10) → `docs/rotina-entrega.md` → `docs/relatorios/carga-horaria/PLANO-carga-horaria.md` (§4–§7) → `inventario-recursos.md`/`.csv` → `parametros-carga-horaria.md` → **`ajustes-finos.md`** (§0–§7).
+> - **Pendências:** **nada em aberto com você no Moodle neste front**; **única pendência aberta do projeto** = item 6 do `docs/pendencias-projeto.md` (**Módulo de Encerramento**, aguardando material do autor).
+> - **Próximo ciclo:** **CICLO 4 — CÁLCULO** (planilha **página a página**: quantidades × parâmetros × cenários · buckets A/B · overhead **+10%** no recomendado) → depois **Ciclo 5** (relatório imprimível **PDF A4 + DOCX**).
+> - **⚠️ Transparência:** os blocos de resultado **3A.1 a 3B** (acima) anotam o git como "pendente da sua autorização" — **era o estado daqueles momentos**; **tudo foi consolidado agora no `40f4173`** (nada ficou por commitar).
+
 
 
 
