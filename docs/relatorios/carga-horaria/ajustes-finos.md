@@ -10,7 +10,7 @@
 > **O que é:** registro dos **ajustes finos** que o inventário automático **não** faz — classificação das **imagens por tipo**, revisão dos **enunciados de fórum**, cruzamento **bibliografia × vídeos** e medição do **artigo externo**. É a **segunda metade** da contagem: o **Cálculo (Ciclo 4)** lê *inventário + este arquivo*.
 > **Decisão (i) do mestre (14/10/2026):** os ajustes vivem **aqui**, em arquivo separado — o **inventário gerado (`inventario-recursos.md`/`.csv`) fica INTACTO** (reprodutibilidade preservada). **Regra de ouro da skill:** nunca editar o CSV/MD do inventário à mão.
 > **Método (skill `metricas-carga-horaria` v1.1.1):** `reference/parametros.md` (parâmetros com fonte e nível de confiança 🟢/🟡/🔴) · `reference/metodo-e-cenarios.md` (buckets e anti-dupla-contagem) · `reference/armadilhas.md`.
-> **Status:** **🏁 CICLO 3 FECHADO ✅ (14/10/2026)** — **3A** imagens ✅ · **3B** fóruns ✅ · **3C** bibliografia × vídeos ✅ · **3D** textos externos instruídos ✅. **Bucket A:** imagens **16min40s** · fóruns **7h55min** · textos externos instruídos **7min37s**. **Bucket B:** bibliografia **22,5 min** · ENC **90 s**. **Próximo: CICLO 4 (Cálculo página a página + cenários)**, que lê *inventário + este arquivo*.
+> **Status:** **🏁 CICLO 3 FECHADO ✅ (14/10/2026)** — **3A** imagens ✅ · **3B** fóruns ✅ · **3C** bibliografia × vídeos ✅ · **3D** textos externos instruídos ✅. **Bucket A:** imagens **16min40s** · fóruns **7h55min** · textos externos instruídos **7min37s**. **Bucket B:** bibliografia **22,5 min** · ENC **90 s**. **Próximo: CICLO 4 (Cálculo página a página + cenários)**, que lê *inventário + este arquivo*. **Ciclo 4 (14/10/2026):** acrescentada a **§8** (texto dos 13 PDFs das SDs) — o cálculo (`calculo-carga-horaria.csv`/`.md`) lê *inventário + este arquivo*.
 
 ---
 
@@ -273,4 +273,33 @@ As **5 durações** que o plano do Ciclo 3 listava como "a localizar" estão **r
 - **Arquivos de imagem sem marcador** (observação de fidelidade do inventário — **não** entram nos 41): `M2P2L1p1-img-leitura-bebes.jpg` (a página `M2P2L1p1` tem **vídeo embedado**, não imagem) e `M2P3L1p2img-piscina.png` (**duplicata** da ilustração do trampolim de `M2P3L2p1`; a página `M2P3L1p2` não tem figura). Nenhum deles tem `[cole a imagem aqui]` → fora da contagem.
 - **1 marcador sem cópia versionada** (`M2P1L1p2`): a página está **validada no Moodle** (a imagem existe lá), mas o arquivo **não está no repositório** — classificado por contexto e **declarado** na §1.2.
 - **3 imagens não foram inspecionadas visualmente** — o leitor devolveu **"media omitted (limite de tamanho)"** em 2 tentativas: `M3P4L3p4-regimento.png`, `M3P4L3p5-plano_de_acao.png` e `Encontro_Sincrono_2_card.png`. A classificação usou o **`sr-only` da página + `descricoes.md`** (no ENC, também a **analogia com o card 1**, que foi visto) — **declarado** nas linhas 38, 39 e 41. Se houver divergência, a correção é de **1 linha** (ver §5).
+
+---
+
+## §8 — Textos das Sequências Didáticas (PDF) — medição para o Cálculo ✅ 4
+
+> **Por que aqui:** o inventário automático só registra `pdf=sim`; **não** mede o **texto** do PDF. Como o parâmetro §5.10 é **leitura a 200 ppm**, a medição do texto entrou no **Ciclo 4**. Os **13 PDFs** (`assets/pdf/M4/`) são medidos **em tempo de execução** pelo script `calculo-carga-horaria.py` (`pdftotext` + a mesma expressão de contagem do inventário). Bucket **B** (opcional).
+
+| Página (arquivo) | PDF | Palavras | 200 ppm (leitura pura) |
+|---|---|---|---|
+| `M4/Parte3/Licao2/M4P3L2p2.html` | `M4P3L2p2.pdf` | 274 | 1min22s |
+| `M4/Parte3/Licao2/M4P3L2p3.html` | `M4P3L2p3.pdf` | 335 | 1min40s |
+| `M4/Parte3/Licao2/M4P3L2p4.html` | `M4P3L2p4.pdf` | 326 | 1min38s |
+| `M4/Parte3/Licao2/M4P3L2p5.html` | `M4P3L2p5.pdf` | 247 | 1min14s |
+| `M4/Parte3/Licao2/M4P3L2p6.html` | `M4P3L2p6.pdf` | 237 | 1min11s |
+| `M4/Parte3/Licao3/M4P3L3p2.html` | `M4P3L3p2.pdf` | 279 | 1min24s |
+| `M4/Parte3/Licao3/M4P3L3p3.html` | `M4P3L3p3.pdf` | 439 | 2min12s |
+| `M4/Parte3/Licao4/M4P3L4p2.html` | `M4P3L4p2.pdf` | 276 | 1min23s |
+| `M4/Parte3/Licao4/M4P3L4p3.html` | `M4P3L4p3.pdf` | 214 | 1min04s |
+| `M4/Parte3/Licao4/M4P3L4p4.html` | `M4P3L4p4.pdf` | 249 | 1min15s |
+| `M4/Parte3/Licao4/M4P3L4p5.html` | `M4P3L4p5.pdf` | 241 | 1min12s |
+| `M4/Parte3/Licao5/M4P3L5p2.html` | `M4P3L5p2.pdf` | 225 | 1min08s |
+| `M4/Parte3/Licao5/M4P3L5p3.html` | `M4P3L5p3.pdf` | 266 | 1min20s |
+| **Total (13 PDFs)** | | **3.608** | **18min02s** |
+
+**Convenções e método:**
+- **Contagem:** `pdftotext` + regex `[A-Za-zÀ-ÿ0-9]+` (= método do inventário) → **3.608 palavras**. Por `wc -w` daria **3.678** (diferença de tokenização de hífens/pontuação) — **usamos o método do projeto**.
+- **No Cálculo (Ciclo 4):** a leitura entra a **200 ppm** e recebe o **estudo ativo ×1,3** (como toda a leitura) → **23min27s** no cenário de referência (bucket B).
+- **Anti-dupla-contagem:** a **página** da SD conta no bucket **A** (leitura normal + navegação); o **PDF** conta no bucket **B** — nunca os dois no mesmo bucket (§7 da skill).
+- **Reprodutibilidade:** a medição é **feita pelo script** a cada execução (não fixada à mão) — o número acompanha qualquer alteração futura nos PDFs.
 

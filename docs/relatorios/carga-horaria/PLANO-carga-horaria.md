@@ -7,7 +7,7 @@
 # 📊 Plano — Estimativa de Carga Horária Efetiva do Curso
 
 > **O que é:** plano de trabalho e registro de método para produzir o **relatório de carga horária efetiva** do curso, com base nos módulos já produzidos e validados no Moodle.
-> **Status:** em execução por ciclos — **Ciclos 0, 1 e 2 concluídos em 14/10/2026** (plano · inventário de recursos · parâmetros com fontes citadas).
+> **Status:** em execução por ciclos — **Ciclos 0 a 4 concluídos em 14/10/2026** (plano · inventário · parâmetros · ajustes finos 3A–3D · **cálculo página a página + cenários**). **Próximo: Ciclo 5** (relatório imprimível PDF + DOCX).
 > **Documento vivo:** atualizar a cada ciclo e **reexecutar** quando o Módulo de Encerramento (Certificação e Avaliação) for produzido — ver §8.
 
 ---
@@ -47,6 +47,9 @@
 | 4 | 3º encontro e bloco novo dos encontros | **Computar como executados**, com os **mesmos parâmetros dos encontros anteriores** (vídeos de ~1h26–1h39; card/imagem + sinopse + minutagem) |
 | 5 | Git | **Atualizar antes de iniciar** e depois **no final** ou **a cada ~20 atualizações acumuladas** (com autorização) |
 | 6 | Bibliografia — duração do vídeo “Representatividade nos livros” | **Link fornecido pelo mestre em 14/10/2026:** `https://www.youtube.com/watch?v=CLm7tYSlPbE` |
+| 7 | Módulo de Encerramento (não produzido) | **Computar = tempo total do Módulo 0 (Boas-vindas)** — A mín 24min46s · ref 28min01s · máx 57min17s — **com ressalva declarada** (estimativa de ordem de grandeza, a substituir pela medição) **[15/10/2026]** |
+| 8 | 3º Encontro Síncrono (não ocorrido) | **Computar como efetivo**, com a **mesma duração dos anteriores (1h30)** — já contado; a 3ª gravação entra como declarada **[15/10/2026]** |
+| 9 | Referências para retirada (4, 5, 7, 9) | **Mantidas** — verificou-se que **todas são efetivamente usadas** (Komeno §5.1 · Chen §5.4 · Ogut §5.11 · PDFQuiz §5.5); regra do mestre: “manter só o que se usa e se pode provar onde” **[15/10/2026]** |
 
 ---
 
@@ -130,8 +133,9 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | Script de inventário (versionado) | `scripts/inventario-recursos.py` | 1 | ✅ criado (14/10/2026) |
 | Inventário (máquina + leitura) | `docs/relatorios/carga-horaria/inventario-recursos.csv` · `.md` | 1 | ✅ criado (14/10/2026) |
 | Parâmetros + fontes citadas | `docs/relatorios/carga-horaria/parametros-carga-horaria.md` | 2 | ✅ criado (14/10/2026) |
-| Ajustes finos (imagens, fóruns, bibliografia) | seção/arquivo do inventário (`.md`) | 3 | ⏳ a criar |
-| Cálculo página a página + tabelas | `docs/relatorios/carga-horaria/calculo-carga-horaria.csv` | 4 | ⏳ a criar |
+| Ajustes finos (imagens, fóruns, bibliografia, textos externos, SDs) | `docs/relatorios/carga-horaria/ajustes-finos.md` | 3 | ✅ criado (14/10/2026) |
+| Cálculo página a página + tabelas-resumo | `docs/relatorios/carga-horaria/calculo-carga-horaria.csv` · `.md` | 4 | ✅ criado (14/10/2026) |
+| Script do cálculo (reprodutível) | `scripts/calculo-carga-horaria.py` | 4 | ✅ criado (14/10/2026) |
 | **Relatório imprimível (PDF A4)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.pdf` | 5 | ⏳ a criar |
 | **Relatório editável (DOCX)** | `docs/relatorios/carga-horaria/Relatorio-carga-horaria-vagalume.docx` | 5 | ⏳ a criar |
 | Espelho de impressão (HTML A4) | `docs/relatorios/carga-horaria/espelho-relatorio.html` | 5 | ⏳ a criar |
@@ -145,9 +149,9 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **0** | Git sincronizado + este plano salvo + registro no `Onde-paramos.md` | ✅ concluído (14/10/2026) |
 | **1** | `scripts/inventario-recursos.py` + `inventario-recursos.csv`/`.md` + entrada no `docs/project-map.md` | ✅ concluído (14/10/2026) |
 | **2** | `parametros-carga-horaria.md` (parâmetros + **fontes citadas**) | ✅ concluído (14/10/2026) |
-| **3** | Ajustes finos: classificar as 39 imagens · revisar os 14 enunciados de fórum · cruzar bibliografia ↔ vídeos · buscar as durações faltantes na internet | ⏳ |
-| **4** | `calculo-carga-horaria.csv` + tabelas-resumo (módulo, parte, categoria, cenários, buckets) | ⏳ |
-| **5** | Relatório imprimível: **PDF A4 + DOCX** + planilha | ⏳ |
+| **3** | Ajustes finos (3A imagens · 3B fóruns · 3C bibliografia ↔ vídeos · 3D textos externos) → `ajustes-finos.md` | ✅ concluído (14/10/2026) |
+| **4** | Cálculo (`scripts/calculo-carga-horaria.py`) + `calculo-carga-horaria.csv`/`.md` + tabelas-resumo (módulo, parte, categoria, cenários, buckets) | ✅ concluído (14/10/2026) |
+| **5** | Relatório imprimível: **PDF A4 + DOCX** + planilha final formatada | ⏳ **próximo** |
 | **6** *(opcional)* | Resumo executivo de 1–2 páginas | ⏳ |
 
 **Regra de execução:** uma entrega por ciclo, com **parada para validação** do mestre (nunca em lote); saídas grandes vão para arquivo, e no chat vão apenas os totais.
@@ -178,4 +182,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | **14/10/2026** | **Ciclo 0** — criação do plano; decisões do mestre incorporadas; inventário preliminar registrado; link do vídeo “Representatividade nos livros” recebido e mapeado para `M2P4L4p3` (**14min06s**); git sincronizado (commit `ebe1292`); frente registrada no `Onde-paramos.md`. |
 | **14/10/2026** | **Ciclo 1** — criados `scripts/inventario-recursos.py` (versionado) e `inventario-recursos.md`/`.csv` (147 páginas, 29.366 palavras, 41 imagens, 26 atividades H5P com 110 itens, 14 fóruns, 13 PDFs, 19 vídeos contados em 2h24min52s + 2 gravações de encontros em 3h06min05s); cruzamento dos 21 vídeos da bibliografia (16 já contados no tempo efetivo + 5 presentes como sugestão); entradas novas no `docs/project-map.md` (`scripts/` e `docs/relatorios/`); decisões de contagem (embedado/instruído conta; sugerido não conta; trecho conta só o trecho) aplicadas no script. |
 | **14/10/2026** | **Ciclo 2** — criado `parametros-carga-horaria.md` (tabela-mestra + fundamentação por parâmetro + **fontes citadas** + as 4 decisões do mestre); §4.2, §6, §7, §9 e §10 deste plano atualizados para apontar o novo arquivo; status dos Ciclos 1 e 2 corrigido para concluído. |
+| **14/10/2026** | **Ciclo 3** — criado `ajustes-finos.md`: **3A** classificação das 41 imagens por tipo (bucket A 16min40s · B 90s) · **3B** revisão dos 14 fóruns (13×35 + Boas-vindas 20 = 7h55min) · **3C** cruzamento bibliografia × vídeos (15 itens de texto = 22,5 min; 18 vídeos já contados) · **3D** textos externos instruídos (1.524 palavras = 7min37s, bucket A). §8 do `parametros-carga-horaria.md` atualizada no fecho. Inventário **intacto**. |
+| **14/10/2026** | **Ciclo 4** — criados `scripts/calculo-carga-horaria.py` (reprodutível) e `calculo-carga-horaria.csv` (150 linhas: 147 páginas + 3 ajustes) + `calculo-carga-horaria.md` (tabelas-resumo). **Bucket A:** mín 15h27min43s · **ref 21h52min41s** · máx 28h42min36s · **recomendado 24h03min57s**. **Bucket B:** mín 4h58min45s · ref 5h23min32s · máx 6h45min55s. Acrescentada a **§8** do `ajustes-finos.md` (texto dos 13 PDFs das SDs = 3.608 palavras). |
+| **15/10/2026** | **Ciclo 5 (Relatório) e revisão** — criados `Relatorio-carga-horaria.md`, `templates/documentos/espelho-relatorio.html`, `scripts/gerar-relatorio.sh`, `scripts/gerar-graficos-relatorio.py` (2 gráficos) e o **PDF A4 (10 pág.)**. **Revisão (decisões 7–9):** **Módulo de Encerramento estimado = M0** (+28min01s em A) · **3º Encontro efetivo (1h30)** · referências 4/5/7/9 **mantidas** (uso comprovado) · **badges de confiança coloridos** no PDF. **Bucket A:** mín 15h52min29s · **ref 22h20min42s** · máx 29h39min53s · **recomendado 24h34min46s**. **A+B** ref 27h44min14s. |
 

@@ -9,7 +9,7 @@
 
 > **O que é:** tabela-mestra dos **parâmetros de tempo** do relatório de carga horária — cada um com **valor de referência**, **faixa mín ↔ máx** (em tempo), **nível de confiança** e **fonte citada**.
 > **Como usar:** o cálculo aplica `tempo = quantidade × parâmetro × fator de cenário` (`PLANO-carga-horaria.md` §4.1). Aqui ficam os **parâmetros**; as **quantidades** vêm de `inventario-recursos.md`/`.csv` (uma linha por página).
-> **Status:** fixado no **Ciclo 2** (14/10/2026), incluindo as **4 decisões do mestre** (§6). **Ciclo 3 (ajustes finos) CONCLUÍDO em 14/10/2026** — as lacunas da **§8** estão resolvidas e os números de base vivem no **`ajustes-finos.md`**. **Próximo: Ciclo 4 (Cálculo página a página + cenários).**
+> **Status:** fixado no **Ciclo 2** (14/10/2026), incluindo as **4 decisões do mestre** (§6). **Ciclos 3 (ajustes finos) e 4 (cálculo) CONCLUÍDOS em 14/10/2026** — as lacunas da **§8** estão resolvidas (números em **`ajustes-finos.md`**) e o **cálculo página a página** vive em **`calculo-carga-horaria.csv`/`.md`**. **Próximo: Ciclo 5 (relatório PDF + DOCX).**
 > **Governança (14/10/2026):** este documento é a **INSTANCIAÇÃO do projeto**; o **método genérico** —
 > com os mesmos parâmetros, fontes e rótulos de confiança — vive na skill **`skills/metricas-carga-horaria/`**
 > (`SKILL.md` · `reference/parametros.md`). Mudou um parâmetro aqui? Registre a **decisão do mestre**;
