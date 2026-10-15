@@ -9,6 +9,9 @@ Produz a **carga horária efetiva** de um curso Moodle por **categoria de recurs
 **estimativa** (não medição), com **quantidades exatas e rastreáveis** e **parâmetros de tempo
 com fonte citada**. Exportável para qualquer projeto Moodle.
 
+> ⚠️ **LEIA PRIMEIRO — vai usar a skill em OUTRO projeto?** → **`LEIA-PRIMEIRO.md`**: a regra
+> **adaptar × generalizar**, o **checklist dos pontos de instância** e o **oráculo** (paridade byte a byte).
+
 ## Quando usar
 
 - Pedido explícito de **carga horária / tempo de dedicação / carga efetiva** de um curso.
@@ -211,6 +214,7 @@ Antes de confiar numa nova exportação, prove que o script reproduz o projeto d
 ```
 skills/metricas-carga-horaria/
 ├── SKILL.md                           ← este arquivo (a skill)
+├── LEIA-PRIMEIRO.md                   ← onboarding: adaptar × generalizar (LER em projeto novo)
 ├── reference/
 │   ├── parametros.md                  ← tabela de parâmetros + fontes citadas
 │   ├── metodo-e-cenarios.md           ← fórmula, cenários, overhead, anti-dupla-contagem, decisões do cliente
@@ -232,7 +236,7 @@ skills/metricas-carga-horaria/
 
 ## Versionamento e reuso
 
-- **Versão atual: 1.2 (15/10/2026)** — projeto de origem **Vaga Lume** (Moodle 4.5).
+- **Versão atual: 1.2.1 (15/10/2026)** — projeto de origem **Vaga Lume** (Moodle 4.5).
 - **Exportar para outro projeto:** **copie a pasta inteira** `skills/metricas-carga-horaria/` e ajuste
   apenas o que o **checklist de adaptação** indica; depois rode a **validação de paridade**.
 - **Reexecutar:** rode o script (Passo 1) com o **config do projeto** e recalcule com a **mesma** tabela de
@@ -245,6 +249,7 @@ skills/metricas-carga-horaria/
 | 1.0 | 14/10/2026 | Primeira versão: SKILL.md (5 passos), `parametros.md` (13 parâmetros + 8 fontes), `metodo-e-cenarios.md`, `armadilhas.md`, script CLI e esqueleto do relatório. |
 | **1.1** | **14/10/2026** | **`padroes` parametrizável** no script (fim dos títulos fixos; falha silenciosa documentada) + **paths relativos resolvidos a partir de `--root`**; **`exemplo-config-vagalume.json`**; **seção “Validação de paridade”**; novos arquivos **`h5p-tipos.md`** e **`duracoes-e-cruzamento.md`** (com o erro 60× do trecho, o falso positivo do cruzamento e a receita oEmbed/`lengthSeconds`); **critérios de classificação de imagens** e **dicionário de dados do CSV**; armadilhas nº 14–18. |
 | **1.1.1** | **14/10/2026** | **Revisão pós-auditoria** (sessão nova): `--md` **obrigatório** na validação de paridade + **armadilha nº 19** (testar sem `--md` sobrescreve o inventário oficial); descrição de `reference/`/`assets/` corrigida no mapa do projeto; `--config` (help) passa a citar **`padroes`**; o esqueleto passa a citar `v{{versão da skill}}`. |
+| **1.2.1** | **15/10/2026** | **Onboarding da skill:** novo **`LEIA-PRIMEIRO.md`** (a ler ao usar em outro projeto) com a regra **adaptar × generalizar**, o **checklist dos pontos de instância** (§3) e o **oráculo** de paridade (§4); aviso no topo do `SKILL.md`. **Sem mudança de código.** |
 | **1.2** | **15/10/2026** | **Lições dos Ciclos 0–6 do relatório de carga horária (Vaga Lume).** Nova **arquitetura da skill** com mais 3 `reference/` (`calculo-e-planilha.md`, `esteira-documento.md`, `resumo-executivo.md`); **Passo 4** ganha o **modelo da planilha** + o script `calculo-carga-horaria.py` (antes pendência do roadmap); **Passo 5** ganha a **esteira de documento** (espelho A4 → PDF Chrome headless; DOCX por pandoc + `ajustar-tabelas-docx.py` + `adicionar-logos-docx.py`; XLSX) e o **resumo executivo de 1–2 páginas** (com a técnica de fechar em N páginas); **novo Passo 6 — Reexecutar** + regra **“bloqueio por inércia, revisão por gatilho”**; **estimativa por analogia** (módulo não produzido, com ressalva) reconciliada com o “Quando NÃO usar”; **níveis de confiança** passam a **badges coloridos + rótulo textual** no imprimível; **decisões do cliente** e **anti-dupla-contagem** ampliadas; **armadilhas nº 20–26**; esqueletos (relatório e resumo executivo) e assets da esteira doados. |
 
 ### Roadmap / pendências desta skill
@@ -252,7 +257,8 @@ skills/metricas-carga-horaria/
 - [x] **Modelo da planilha de cálculo** — **doada na v1.2** (`reference/calculo-e-planilha.md` + `assets/calculo-carga-horaria.py` + `assets/exemplo-calc-vagalume.json`).
 - [ ] **Generalizar os scripts** — hoje são **instâncias** (parâmetros e ajustes finos no código): migrar
       `calculo-carga-horaria.py` e os pós-processadores DOCX para **config JSON** (mesmo padrão do
-      `--config` do inventário), para exportação sem editar código.
+      `--config` do inventário), para exportação sem editar código. **Gatilho declarado: quando houver
+      2º projeto/exportação à vista — ver `LEIA-PRIMEIRO.md` §2 (adaptar × generalizar).**
 - [ ] Avaliar um **modo `--h5p-itens`** que liste, por pacote, a chave usada e o valor lido (auditoria rápida
       da contagem do Passo 1).
 - [ ] Se um projeto usar **outra plataforma** (não Moodle), registrar no `armadilhas.md` o que muda
