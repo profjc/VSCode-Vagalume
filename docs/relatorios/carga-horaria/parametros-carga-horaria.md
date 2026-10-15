@@ -9,7 +9,7 @@
 
 > **O que é:** tabela-mestra dos **parâmetros de tempo** do relatório de carga horária — cada um com **valor de referência**, **faixa mín ↔ máx** (em tempo), **nível de confiança** e **fonte citada**.
 > **Como usar:** o cálculo aplica `tempo = quantidade × parâmetro × fator de cenário` (`PLANO-carga-horaria.md` §4.1). Aqui ficam os **parâmetros**; as **quantidades** vêm de `inventario-recursos.md`/`.csv` (uma linha por página).
-> **Status:** fixado no **Ciclo 2** (14/10/2026), incluindo as **4 decisões do mestre** (§6).
+> **Status:** fixado no **Ciclo 2** (14/10/2026), incluindo as **4 decisões do mestre** (§6). **Ciclo 3 (ajustes finos) CONCLUÍDO em 14/10/2026** — as lacunas da **§8** estão resolvidas e os números de base vivem no **`ajustes-finos.md`**. **Próximo: Ciclo 4 (Cálculo página a página + cenários).**
 > **Governança (14/10/2026):** este documento é a **INSTANCIAÇÃO do projeto**; o **método genérico** —
 > com os mesmos parâmetros, fontes e rótulos de confiança — vive na skill **`skills/metricas-carga-horaria/`**
 > (`SKILL.md` · `reference/parametros.md`). Mudou um parâmetro aqui? Registre a **decisão do mestre**;
@@ -147,13 +147,18 @@ Percentual acrescido ao **cenário recomendado** para cobrir pausas, retomadas e
 7. **Bloco novo dos encontros + 3º encontro:** computados como executados, com os parâmetros dos encontros anteriores.
 8. **Estudo de caso do fórum (vídeo + artigo):** o **vídeo** entra no bucket A pela regra "vídeo instruído conta"; o **artigo** entra no bucket A como **leitura computada** (§6b) — em ambos os casos **sem** somar de novo o "ler instruções" do fórum.
 
-## §8 — Lacunas e pendências (a resolver no Ciclo 3)
+## §8 — Lacunas e pendências — ✅ RESOLVIDAS no Ciclo 3 (14/10/2026)
 
-- **Imagens:** classificar as **39** por tipo (foto, tirinha, gráfico, carrossel) — a classificação altera o parâmetro (§5.3).
-- **Fóruns:** confirmar se **todos os 14** enunciados exigem o mesmo ciclo (postar · ler colegas · responder a dois) — havendo exceção, registrá-la.
-- **Bibliografia:** cruzar **1:1** os 21 itens de vídeo com os vídeos do curso (16 já batidos) e buscar as **durações faltantes**; sem match seguro, marcar "duração não localizada" (não estimar no escuro).
-- **Artigo do Fórum 4 do M1 (decisão b):** medir o **comprimento real** do texto (para aplicar 200 ppm).
-- **Sem fonte canônica:** estudo ativo (§5.2), imagens (§5.3), fator de vídeo anotando (§5.4), bibliografia (§5.7) e navegação (§5.8) — todos rotulados 🔴.
+> **Fechadas em 14/10/2026** pelos sub-ciclos **3A a 3D** — os números e as evidências vivem em **`ajustes-finos.md`** (que passou a ser a **segunda metade** da contagem). O **inventário** (`inventario-recursos.md`/`.csv`) segue **intacto** (decisão **(i)** do mestre).
+
+| Lacuna (Ciclo 2) | Como foi resolvida | Onde |
+|---|---|---|
+| **Imagens** — classificar as 39 por tipo | ✅ **39 classificadas** + os 2 do ENC decididos (carrossel **20 s/imagem** · fotos/ilustrações **15 s** · tirinhas/charges/cartuns **45 s** · documentos estruturados **90 s**) → bucket A **16min40s**; ENC **90 s** no B | `ajustes-finos.md` **§1** (3A) |
+| **Fóruns** — confirmar o ciclo dos 14 | ✅ **13 confirmados** em **35 min** (postar + comentar em ≥2) e **1 exceção**: Boas-vindas = **20 min** → **7h55min** | **§2** (3B) |
+| **Bibliografia** — cruzar os 21 vídeos e achar durações | ✅ **21 cruzados 1 a 1 por `oEmbed`** (título + canal): **18** já contados no bucket A, **3** sugestões (não contam); as **5 durações** já estavam **resolvidas e documentadas** no script (`DUR_EXTERNAS`) — itens de texto: **15 × 1,5 = 22,5 min** | **§3** (3C) |
+| **Artigo do Fórum 4 do M1** — medir o texto | ✅ **954 palavras → 4min46s** (200 ppm) — **+ a reportagem da BBC** (**570** palavras → **2min51s**), igualmente instruída → **7min37s** no bucket A | **§4** (3D) |
+
+**Permanece como rótulo (não é lacuna):** os parâmetros **sem fonte canônica** — estudo ativo (§5.2), imagens (§5.3), fator de vídeo anotando (§5.4), bibliografia (§5.7) e navegação (§5.8) — seguem **🔴 heurística do projeto**, declarada em cada linha.
 
 ---
 
