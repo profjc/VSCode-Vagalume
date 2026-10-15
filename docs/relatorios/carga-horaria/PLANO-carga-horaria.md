@@ -172,6 +172,35 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 4. Recalcular em `calculo-carga-horaria.csv` com a **mesma tabela §4.2**; se houver decisão nova do mestre, registrá-la na **§3** antes de recalcular.
 5. Regerar **PDF + DOCX** (§6) e reentregar ao mestre.
 6. Atualizar a **§10** (histórico) e o `Onde-paramos.md`.
+7. **📌 Prompt de arranque da sessão de reexecução** (pronto para copiar e colar na sessão em que o material chegar):
+
+```text
+Sessão nova — front: REEXECUÇÃO do relatório de carga horária (§8 do PLANO-carga-horaria.md).
+O Módulo de Encerramento (Certificação e Avaliação) chegou: material em content/Encerramento/.
+
+Antes de qualquer coisa, leia Onde-paramos.md e docs/rotina-entrega.md (N3.0) e me diga onde paramos.
+
+Tarefa: produzir o módulo pelo fluxo normal do projeto e, em seguida, reexecutar a estimativa de carga
+horária, conforme a §8 do docs/relatorios/carga-horaria/PLANO-carga-horaria.md:
+
+(1) converter o .docx do autor -> content/Encerramento/*.md no padrão do projeto;
+(2) montar/atualizar o arquivo de pendências do módulo (content/Encerramento/pendencias-*.md);
+(3) planejar no PLAN mode, em ciclos (UMA entrega por ciclo, com parada para validação), até gerar as
+    páginas em templates/pages/Encerramento/ (+ PDFs, se houver Sequências Didáticas) e a lista das
+    AÇÕES DO MESTRE no Moodle;
+(4) rodar python3 scripts/inventario-recursos.py — as páginas novas entram automaticamente;
+(5) rodar python3 scripts/calculo-carga-horaria.py com a MESMA tabela de parâmetros (§4.2 do PLANO);
+(6) SUBSTITUIR a estimativa do Módulo de Encerramento (hoje = Módulo 0: 24min46s/28min01s/57min17s,
+    com ressalva declarada) pela MEDIÇÃO REAL;
+(7) reincorporar o bloco novo dos Encontros (texto + imagem + vídeo), se já existir;
+(8) confirmar a 3ª gravação do Encontro (hoje 1h30 DECLARADA);
+(9) regerar PDF + DOCX + XLSX do relatório e PDF + DOCX do resumo executivo (§6);
+(10) atualizar as §5, §6, §7 e §10 do PLANO + docs/pendencias-projeto.md (item 6) + Onde-paramos.md.
+
+Regras: escopo estrito; nenhum arquivo de RELATÓRIO aberto com code (a entrega na janela ativa vale só
+para as páginas HTML do curso); git um comando por vez e só com a minha autorização; os parâmetros e as
+decisões já tomadas NÃO se rediscutem (estão na §3 do PLANO).
+```
 
 ## §9 — Riscos, limitações e pendências
 

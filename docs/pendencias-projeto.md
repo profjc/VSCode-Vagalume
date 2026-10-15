@@ -32,6 +32,7 @@
    - **Pendências do módulo:** **nenhuma** — nem do autor, nem do projeto, nem do mestre no Moodle (confirmação de 13/10/2026: labels das Partes 1-4 posicionados e 13 PDFs no ar).
 
 6. [ ] **Módulo de Encerramento** (Certificação e Avaliação do curso) — **módulo novo e independente**, entra **após o Módulo 4** (registro do mestre, 05/09/2026). **ÚNICA PENDÊNCIA ABERTA DO PROJETO — aguardando material do autor** (confirmado pelo mestre em 13/10/2026, no fecho do Módulo 4). Ao chegar: converter o `.docx` → `.md` em `content/`, montar o arquivo de pendências e planejar no PLAN mode.
+   - **📌 Ao chegar o material:** o **prompt de arranque da sessão de reexecução** (produção do módulo **+** reexecução da carga horária, com os 10 passos) está pronto na **§8 do `docs/relatorios/carga-horaria/PLANO-carga-horaria.md` (item 7)** — é só copiar e colar.
 
 7. [x] **Referências Bibliográficas — Módulo 2 (`M2P6P2.html`)** — **ENCERRADA (05/09/2026): FORMATAÇÃO CONCLUÍDA.**
    - **Formato decidido pelo autor: "amigável"** (dados de autoria/título/links, sem rigidez ABNT) — **já é o formato atual da página**.
