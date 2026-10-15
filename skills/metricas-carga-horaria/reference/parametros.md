@@ -3,7 +3,7 @@
 > Tabela **reutilizável** de parâmetros de tempo para estimar carga horária. Cada linha traz
 > **valor de referência**, **faixa (mín ↔ máx, em tempo)**, **nível de confiança** e **fonte**.
 > Ajuste ao projeto (idioma, público, mídia) **mantendo o rótulo de confiança**.
-> **Versão 1.1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
+> **Versão 1.2 (15/10/2026)** — projeto de origem: Vaga Lume.
 > **Governança:** este arquivo é o **MÉTODO genérico** (a skill). Cada projeto mantém a sua **instanciação**
 > — com as **decisões do cliente** — e cita a versão da skill usada. Mudou uma regra geral aqui?
 > **Revalide a paridade** do script (`SKILL.md` → “Validação de paridade”).
@@ -16,6 +16,9 @@
 | **ref.** | valor de **referência** (base do cenário "referência") |
 | **mín ↔ máx** | faixa de **tempo**: *mín* = cenário mais rápido; *máx* = cenário mais lento |
 | 🟢 / 🟡 / 🔴 | **científico** (com DOI) · **benchmark** · **heurística do projeto** |
+
+> **No entregável imprimível:** os 🟢🟡🔴 viram **badges coloridos + rótulo textual** (os emojis saem
+> **pretos** no PDF/DOCX) — ver `reference/esteira-documento.md` §5.
 
 ## Tabela-mestra
 
@@ -37,6 +40,11 @@
 
 > **Nota:** a faixa "mín ↔ máx" é **de tempo**. Em leitura, **250 ppm** dá o **mínimo** de tempo e
 > **150 ppm**, o **máximo**. Cálculo: `minutos = palavras ÷ ppm`.
+
+> **Nota sobre o parâmetro #6 (atividades):** há **duas leituras** — a **adotada** (múltipla/V-F
+> **1,5 min/questão**; associação/arrastar/desafio **3 min/ATIVIDADE**; 20 s/carta; 5 min/caça-palavras) e a
+> alternativa (**3 min por item** nos tipos complexos). A escolha **tem de ser declarada** no relatório
+> (armadilha nº 24) — a diferença é material e **não** é coberta pela faixa −50 % ↔ +50 %.
 
 ---
 

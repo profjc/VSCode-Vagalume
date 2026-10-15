@@ -1,0 +1,71 @@
+{
+  "_comentario": "AJUSTES FINOS + PARÂMETROS do projeto de origem (Vaga Lume) — INSTÂNCIA DE EXEMPLO da skill metricas-carga-horaria v1.2. Na v1.2 o script assets/calculo-carga-horaria.py traz estes valores NO CÓDIGO (escopo A da doação). Este JSON documenta a instância e é o ALVO da generalização futura (roadmap: 'generalizar os scripts' — ler daqui em vez do código).",
+  "_como_usar": "Ao exportar a skill, troque os valores pelos DO SEU PROJETO. As chaves se mantêm; os valores são do curso de origem.",
+  "parametros": {
+    "PPM": {"min": 250, "ref": 200, "max": 150},
+    "ESTUDO": {"min": 1.0, "ref": 1.3, "max": 1.5},
+    "IMG_FATOR": {"min": 0.5, "ref": 1.0, "max": 1.5},
+    "VID_FATOR": {"min": 1.0, "ref": 1.0, "max": 1.25},
+    "H5P_FATOR": {"min": 0.5, "ref": 1.0, "max": 1.5},
+    "FORUM": {"min": 20, "ref": 35, "max": 45},
+    "BIBLIO": {"min": 0.5, "ref": 1.5, "max": 3.0},
+    "NAV": {"min": 15, "ref": 30, "max": 45},
+    "ENCONTRO_S": 5400,
+    "OVERHEAD": 0.10,
+    "NAV_LABELS": 21,
+    "NAV_FRONTPAGE": 3,
+    "ENC_ENCONTROS": 3,
+    "ENC_GRAVACOES_S": [5196, 5969],
+    "ENC_GRAVACAO_3_S": 5400
+  },
+  "h5p_por_tipo": {
+    "multipla": ["item", 90],
+    "vouf": ["item", 90],
+    "associacao": ["ativ", 180],
+    "arrastar": ["ativ", 180],
+    "desafio": ["ativ", 180],
+    "virar": ["item", 20],
+    "caca": ["ativ", 300]
+  },
+  "h5p_tipo_por_pagina": {
+    "M1/Parte2/Licao1/M1P2L1p10.html": "multipla",
+    "M1/Parte3/Licao1/M1P3L1p4.html": "desafio",
+    "M1/Parte3/Licao2/M1P3L2p4.html": "arrastar",
+    "M1/Parte4/Licao1/M1P4L1p5.html": "vouf",
+    "M2/Parte1/Licao1/M2P1L1p3.html": "multipla",
+    "M2/Parte2/Licao1/M2P2L1p2.html": "multipla",
+    "M2/Parte3/Licao1/M2P3L1p3.html": "multipla",
+    "M2/Parte3/Licao2/M2P3L2p3.html": "multipla",
+    "M2/Parte4/Licao1/M2P4L1p3.html": "vouf",
+    "M2/Parte4/Licao2/M2P4L2p2.html": "arrastar",
+    "M2/Parte4/Licao3/M2P4L3p3.html": "multipla",
+    "M2/Parte4/Licao4/M2P4L4p5.html": "virar",
+    "M2/Parte5/M2P5L1p3.html": "multipla",
+    "M3/Parte1/Licao1/M3P1L1p3.html": "vouf",
+    "M3/Parte1/Licao2/M3P1L2p3.html": "associacao",
+    "M3/Parte1/Licao3/M3P1L3p3.html": "multipla",
+    "M3/Parte2/Licao1/M3P2L1p2.html": "multipla",
+    "M3/Parte2/Licao2/M3P2L2p3.html": "multipla",
+    "M3/Parte2/Licao3/M3P2L3p2.html": "multipla",
+    "M3/Parte2/Licao4/M3P2L4p2.html": "multipla",
+    "M3/Parte3/Licao1/M3P3L1p3.html": "vouf",
+    "M3/Parte3/Licao2/M3P3L2p3.html": "multipla",
+    "M3/Parte4/Licao1/M3P4L1p2.html": "multipla",
+    "M3/Parte4/Licao2/M3P4L2p3.html": "multipla",
+    "M3/Parte4/Licao3/M3P4L3p6.html": "associacao",
+    "M4/Parte1/Licao1/M4P1L1p2.html": "multipla"
+  },
+  "bibliografia_itens_texto_por_pagina": {
+    "M1/Parte5/M1P5P2.html": 12,
+    "M2/Parte6/M2P6P2.html": 3,
+    "M3/Parte5/M3P5P2.html": 0,
+    "M4/Parte4/M4P4P2.html": 0
+  },
+  "textos_externos_palavras_por_pagina": {
+    "M1/Parte4/M1P4F1.html": 954,
+    "M1/Parte3/Licao1/M1P3L1p2.html": 570
+  },
+  "pagina_encontros": "Encontros-sincronos/encontros_sincronos_galeria.html",
+  "imagens_bucket_B": {"Encontros-sincronos/encontros_sincronos_galeria.html": 90},
+  "_nota_imagens": "As imagens por página (IMG_S) são 24 chaves — ver o bloco IMG_S no script assets/calculo-carga-horaria.py (fonte: ajustes-finos.md §1)."
+}

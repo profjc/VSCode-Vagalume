@@ -1,6 +1,6 @@
 # Armadilhas e lições aprendidas
 
-> O que costuma dar errado nestas métricas — e como evitar. **Versão 1.1.1 (14/10/2026)** —
+> O que costuma dar errado nestas métricas — e como evitar. **Versão 1.2 (15/10/2026)** —
 > origem: projeto Vaga Lume.
 
 1. **Apresentar heurística como ciência.** Sempre rotular 🟢/🟡/🔴. Um número sem fonte **é
@@ -52,6 +52,34 @@
     **14/10/2026** durante a auditoria da skill. Ao testar, passe **sempre** `--csv` **e** `--md` para `/tmp`;
     se sobrescrever, **regenere com o script do projeto** e confirme com `git status`.
 
+20. **Página que bloqueia o acesso direto ou não tem `<article>`.** Sites de fundação às vezes devolvem
+    **“Access Denied”** (bloqueio) e portais de notícia montam a matéria em `<div>`s (a contagem crua pega
+    **menu + rodapé + “Mais lidas”**). **Extraia por um leitor que devolve texto limpo** (ex.: `r.jina.ai`)
+    e **delimite o corpo** do texto: exclua título, linha de apoio, data, “tempo de leitura”, categoria,
+    compartilhamento, blocos de relacionados e legendas. *Contraprova útil:* a própria página pode declarar
+    “tempo de leitura: N minutos” — se a estimativa cair na faixa, o corpo está bem delimitado.
+21. **Medir PDF com `wc -w`.** Para anexos em PDF, use **`pdftotext` + a MESMA expressão de contagem do
+    inventário** (`[A-Za-zÀ-ÿ0-9]+`) — não `wc -w` (tokeniza hífen/pontuação diferente e dá outro número:
+    3.608 × 3.678 no projeto de origem). E meça **em tempo de execução** (não fixe o número à mão).
+22. **Confiar em revalidar duração de vídeo por `curl` offline.** O `oEmbed` identifica o vídeo, mas o
+    `lengthSeconds` vem do **HTML da página do YouTube**, que **não** responde neste ambiente. Resultado:
+    as durações que não estão nos créditos ficam **fixadas no config/script, com comentário** declarando a
+    origem — é a fonte **offline e reproduzível**.
+23. **Dupla contagem cruzada.** Vigie **sempre** os dois pares: **(a)** vídeo **no corpo** × **na
+    bibliografia** (contar uma vez) e **(b)** **página** da Sequência Didática × **PDF** da SD (página no A,
+    PDF no B). São as duas duplas que mais inflam o total.
+24. **Interpretar o parâmetro H5P sem declarar.** Há **duas leituras**: **1,5 min/questão** (múltipla/V-F) ×
+    **3 min/atividade** (associação/arrastar/desafio) — a adotada — ou **3 min por item** nos tipos complexos.
+    **Declare** a interpretação no relatório e registre a alternativa no código.
+25. **As 3 travas da esteira de documento.** (i) **Quebra de página**: a classe na heading quebra **só no
+    PDF**; o DOCX exigiria `{=openxml}` com `<w:br w:type="page"/>` (descartado em silêncio no HTML);
+    (ii) **`reference-docx` sai em LETTER** (não A4) — o entregável de impressão é o **PDF A4**;
+    (iii) **pandoc 2.9 emite `<w:tblGrid />` vazio** → colunas colapsam; rode o pós-processador de tabelas.
+26. **Script da esteira que ESCREVE arquivo.** Generaliza a nº 19: todo script que grava (inventário,
+    cálculo, DOCX, PDF, XLSX) tem **caminho padrão = arquivo oficial do projeto**. Em **teste**, redirecione
+    **todas** as saídas para fora do repositório (`/tmp`) e confirme com `git status`. Sobrescrever o oficial
+    por acidente só se desfaz **regerando** com o script do projeto e conferindo `diff`/`md5sum`.
+
 ## Checklist final antes de publicar
 
 - [ ] Inventário rastreável (uma linha por página; totais conferidos).
@@ -63,3 +91,6 @@
 - [ ] Fontes citadas no relatório.
 - [ ] **Validação de paridade** feita (quando a skill foi exportada/atualizada): CSV do script × inventário
       oficial — idênticos, ou divergência investigada e explicada.
+- [ ] **Estimativas por analogia** declaradas — e a **reexecução** prevista para substituí-las pela medição.
+- [ ] **Resumo executivo** fechado em ≤ 2 páginas A4 (`pdfinfo`) e **DOCX** gerado pela esteira.
+- [ ] **Nenhum arquivo de relatório aberto com `code`**; saídas de teste **fora** do projeto (`/tmp`).

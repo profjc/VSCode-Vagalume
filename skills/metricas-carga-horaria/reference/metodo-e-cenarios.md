@@ -1,7 +1,7 @@
 # Método, cenários e regras anti-dupla-contagem
 
 > Como transformar o **inventário** (quantidades) em **tempo**. Genérico e reutilizável.
-> **Versão 1.1.1 (14/10/2026)** — projeto de origem: Vaga Lume.
+> **Versão 1.2 (15/10/2026)** — projeto de origem: Vaga Lume.
 
 ## 1 — Fórmula
 
@@ -46,6 +46,13 @@ decisão do cliente.** Faixa considerada: **0 ↔ +20 %**.
 6. **Estudo de caso do fórum** → o **vídeo** conta pela regra "instruído conta"; o **texto/artigo**
    entra como **leitura computada** — em ambos os casos **sem** somar de novo o "ler instruções".
 7. **Páginas de abertura, síntese e referências** → **leitura normal** (bucket A).
+8. **Imagem recapitulada / thumb de player** → **0 s**: um mural que **repete** imagens já contadas num
+   carrossel, ou a **miniatura de um vídeo já contado**, **não** é conteúdo novo.
+9. **Página da Sequência Didática × PDF da SD** → a **página** conta no **A**; o **PDF** conta no **B**
+   (é a regra 1 aplicada ao par página × anexo).
+10. **Gravação do encontro** → a **página** do encontro **já carrega** as gravações no ar no seu próprio
+    vídeo; a **linha de ajuste** traz **só** a gravação **nova/declarada** — nunca as duas de novo
+    (*bug real do projeto de origem: as 2 gravações entraram em dobro até o cálculo corrigir*).
 
 ## 5 — Agregações de saída
 
@@ -74,12 +81,36 @@ quantidades + tempos por cenário.
 | `pdf` | `sim` quando existe anexo PDF com o nome da página |
 
 **Regra de ouro:** a planilha de **cálculo** (Passo 4) **nasce deste CSV** — copie as colunas de
-quantidade e acrescente, por linha, o tempo de cada categoria nos 4 cenários e o bucket (A/B).
+quantidade e acrescente, por linha, o tempo de cada categoria nos **4 cenários** e o **bucket** (A/B).
 **Nunca** recalcule o inventário “de cabeça”, nem edite as quantidades à mão sem refazer o passo 1.
 
-## 6 — Natureza e limitações (declarar no relatório)
+> **O dicionário do CSV de CÁLCULO** (as colunas de tempo por cenário, as **linhas de ajuste** e a
+> **reconciliação com âncoras**) está em **`reference/calculo-e-planilha.md`** — é o Passo 4 detalhado.
+
+## 6 — Natureza, limitações e estimativa por analogia (declarar no relatório)
 
 - É **estimativa, não medição**. Se houver **relatório oficial de duração** do Moodle, **medir** e
   usar a estimativa apenas como comparação de sanidade.
-- Módulos/atividades **ainda não produzidos** ficam **fora** e são reincorporados na reexecução.
 - Itens sem duração localizada são marcados **"duração não localizada"** — **nunca** estimar no escuro.
+- **Módulo previsto e ainda não produzido → estimativa POR ANALOGIA:** use um **módulo existente (medido)**
+  como **modelo** e copie dele o tempo **categoria a categoria**, **declarando a ressalva** ("estimativa de
+  ordem de grandeza, a substituir pela medição"). **Nunca** apresentar a analogia como se fosse medição.
+  - O que **não** tiver quantidades definidas (um bloco ainda não produzido) fica **fora** do cálculo, com
+    **nota**, e é **reincorporado na reexecução**.
+  - A linha de analogia entra na planilha como uma **linha de ajuste** (`tipo_pagina = estimativa`), separada
+    das páginas.
+  - *Precedente: o **Módulo de Encerramento** (não produzido) foi estimado = **Módulo 0 (Boas-vindas)** —
+    A mín 24min46s · ref 28min01s · máx 57min17s.*
+
+## 7 — Decisões do cliente (registrar e versionar)
+
+Toda escolha metodológica do projeto (**tempo por fórum**, **overhead**, **ppm**, **tipo de imagem**,
+**interpretação do parâmetro H5P**, **analogia**…) vai para uma **tabela de decisões** — no projeto de
+origem, a **§3 do plano** (`PLANO-carga-horaria.md`), com **número · questão · decisão**, cada linha datada.
+Sem essa tabela, **a discussão se repete** a cada reexecução.
+
+**Regra de reexecução — "bloqueio por inércia, revisão por gatilho":** ao reexecutar (Passo 6), os
+parâmetros e as decisões **não** se rediscutem por padrão. Reabra **só** com gatilho declarado —
+**(a)** pedido do cliente, **(b)** mudança do curso que **invalide** a decisão, ou **(c)** **evidência/fonte
+nova**. Ao reabrir: registre **motivo + valor novo + data** na tabela e **refaça a validação de paridade**
+(o número muda — e isso fica registrado).

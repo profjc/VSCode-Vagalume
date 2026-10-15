@@ -1,7 +1,7 @@
 # H5P — onde mora a contagem de itens (por tipo)
 
 > Como o Passo 1 obtém o **nº de itens/questões** de cada atividade, lendo o `content.json` **de dentro**
-> do pacote `.h5p` (que é um ZIP). **Versão 1.1.1 (14/10/2026)** — origem: projeto Vaga Lume.
+> do pacote `.h5p` (que é um ZIP). **Versão 1.2 (15/10/2026)** — origem: projeto Vaga Lume.
 
 ## Por que isso importa
 
@@ -40,3 +40,11 @@ unzip -p  pacote.h5p content/content.json | python3 -m json.tool | head -60
 > **Regra de honestidade:** `n/d` **não** é zero. Se um pacote não puder ser lido, diga no relatório
 > ("atividade X sem contagem de itens") em vez de fingir precisão. Contar à mão pelo conteúdo publicado
 > no Moodle é a alternativa.
+
+## O que é do PROJETO (não da skill)
+
+O **mapa página → tipo de H5P** é **da instanciação** (no projeto de origem, o dicionário `H5P_TIPO` no
+`calculo-carga-horaria.py`). A skill guarda apenas **onde ler a contagem** (o `content.json`); enquadrar
+cada pacote no tipo é uma **decisão do projeto**, auditável na seção de H5P do inventário. O mapeamento
+também é o que permite aplicar o **parâmetro por tipo** (ver `reference/parametros.md`, #6, e a
+**armadilha nº 24** sobre as duas interpretações possíveis).

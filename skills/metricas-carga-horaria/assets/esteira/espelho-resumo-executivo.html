@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Resumo executivo — Carga horária efetiva · Ambiente de Formação Vaga Lume</title>
+<style>
+  /* ============================================================
+     ESPELHO DO RESUMO EXECUTIVO DE CARGA HORARIA (PDF A4, 2 paginas)
+     Identidade do relatorio (Ciclo 5) sem a capa inteira —
+     faixa de cabecalho compacta (kicker + logos) + corpo.
+     Nao vai para o Moodle — e a versao imprimivel do resumo.
+     ============================================================ */
+  :root { --laranja:#D96F1A; --marrom:#5B3925; --texto:#261810; --bege:#FAEBDD; --dourado:#F8B133; --verde:#587C41; }
+  * { box-sizing: border-box; }
+  html, body { background-color:#f4f4f4; }
+  body { font-family:'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; color:var(--texto); margin:0; }
+  .doc { background-color:#ffffff; max-width:210mm; margin:20px auto; padding:18mm 16mm; box-shadow:0 2px 14px rgba(0,0,0,.12); }
+
+  /* ---------- Cabecalho compacto (identidade do relatorio) ---------- */
+  .resumo-topo { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; border-bottom:2px solid var(--laranja); padding-bottom:10px; }
+  .capa-kicker { color:var(--laranja); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.78rem; padding-top:5px; }
+  .capa-logos { display:flex; align-items:flex-start; gap:14px; }
+  .capa-logos img { height:42px; width:auto; display:block; }
+  .capa-logos img.vanleer { height:50px; }
+  .resumo-titulo { margin-top:.6rem; }
+  .resumo-titulo h1 { color:var(--marrom); font-size:1.65rem; line-height:1.15; margin:0; }
+  .resumo-titulo .curso { color:var(--laranja); font-size:1.2rem; font-weight:700; margin:.15rem 0 0; }
+  .resumo-titulo .sub { color:var(--texto); font-size:.95rem; margin:.2rem 0 0; }
+
+  /* ---------- Corpo (conteudo injetado do .md) ---------- */
+  .doc-body h1 { color:var(--marrom); font-size:1.3rem; border-bottom:2px solid var(--bege); padding-bottom:.25rem; margin:1.15rem 0 .45rem; break-after:avoid; page-break-after:avoid; }
+  .doc-body p, .doc-body li { line-height:1.5; }
+  .doc-body table { width:100%; border-collapse:collapse; margin:.5rem 0 .9rem; font-size:.83rem; break-inside:avoid; page-break-inside:avoid; }
+  .doc-body th { background-color:var(--marrom); color:#ffffff; text-align:left; padding:.38rem .5rem; font-weight:700; }
+  .doc-body td { border-bottom:1px solid #e6d5c3; padding:.32rem .5rem; }
+  .doc-body tbody tr:nth-child(even) td { background-color:#fbf6f0; }
+  .doc-body img { max-width:64%; height:auto; display:block; margin:.55rem auto; }
+  .doc-body blockquote { border-left:4px solid var(--laranja); background-color:var(--bege); margin:.7rem 0; padding:.65rem .9rem; border-radius:0 8px 8px 0; }
+  .doc-body blockquote p { margin:0; font-size:.97rem; }
+  .doc-body strong { color:var(--marrom); }
+  .doc-body ul { margin:.2rem 0 .5rem; padding-left:1.1rem; }
+
+  /* ---------- Quebra de pagina controlada (2a pagina) ---------- */
+  .doc-body h1.quebra-pagina { break-before:page; page-break-before:always; margin-top:0; }
+
+  /* ---------- Rodape ---------- */
+  .resumo-rodape { border-top:1px solid #e6d5c3; margin-top:.7rem; padding-top:7px; font-size:.75rem; color:var(--marrom); }
+
+  @media print {
+    @page { size:A4; margin:20mm 16mm 18mm; }
+    html, body { background-color:#ffffff; }
+    * { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+    .doc { max-width:100%; margin:0; padding:0; box-shadow:none; }
+    .doc-body table, .doc-body img, .doc-body blockquote { break-inside:avoid; page-break-inside:avoid; }
+    .doc-body li, .doc-body p { orphans:3; widows:3; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="doc">
+
+    <!-- ===== CABECALHO COMPACTO (identidade do relatorio) ===== -->
+    <header class="resumo-topo">
+      <span class="capa-kicker">Resumo executivo · Relatório de Carga Horária</span>
+      <span class="capa-logos">
+        <img src="../../assets/images/logos/vagalume-pdf.png" alt="Logotipo Vaga Lume" width="43" height="42">
+        <img class="vanleer" src="../../assets/images/logos/vanleer-pdf.png" alt="Logotipo Fundação Van Leer" width="37" height="50">
+      </span>
+    </header>
+
+    <div class="resumo-titulo">
+      <h1>Carga horária efetiva</h1>
+      <p class="curso">Ambiente de Formação Vaga Lume</p>
+      <p class="sub">Resumo executivo · estimativa por categoria de recurso · v1.0 · 15/10/2026</p>
+    </div>
+
+    <!-- ===== CORPO: conteudo do Resumo-executivo-carga-horaria.md (injetado pelo script) ===== -->
+    <main class="doc-body">
+<!-- CONTEUDO -->
+    </main>
+
+    <p class="resumo-rodape">Associação Vaga Lume em parceria com a Fundação Van Leer · Resumo executivo do Relatório de Carga Horária · v1.0 · 15/10/2026 · Responsável: AGIR</p>
+
+  </div>
+
+</body>
+</html>

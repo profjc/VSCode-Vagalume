@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Carga horária efetiva — Ambiente de Formação Vaga Lume</title>
+<style>
+  /* ============================================================
+     ESPELHO DO RELATORIO DE CARGA HORARIA (PDF A4)
+     Modelo para impressao: capa + corpo + cabecalho/rodape repetidos.
+     Nao vai para o Moodle — e a versao imprimivel do relatorio.
+     ============================================================ */
+  :root { --laranja:#D96F1A; --marrom:#5B3925; --texto:#261810; --bege:#FAEBDD; --dourado:#F8B133; --verde:#587C41; }
+  * { box-sizing: border-box; }
+  html, body { background-color:#f4f4f4; }
+  body { font-family:'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; color:var(--texto); margin:0; }
+  .doc { background-color:#ffffff; max-width:210mm; margin:20px auto; padding:18mm 16mm; box-shadow:0 2px 14px rgba(0,0,0,.12); }
+
+  /* ---------- Capa ---------- */
+  .capa { min-height:246mm; display:flex; flex-direction:column; justify-content:space-between; break-after:page; page-break-after:always; }
+  .capa-topo { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; border-bottom:2px solid var(--laranja); padding-bottom:12px; }
+  .capa-kicker { color:var(--laranja); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.8rem; padding-top:6px; }
+  .capa-logos { display:flex; align-items:flex-start; gap:16px; }
+  .capa-logos img { height:52px; width:auto; display:block; }
+  .capa-logos img.vanleer { height:60px; }
+  .capa h1 { color:var(--marrom); font-size:2.3rem; line-height:1.15; margin:.5rem 0 .2rem; }
+  .capa .curso { color:var(--laranja); font-size:1.35rem; font-weight:700; margin:0; }
+  .capa .sub { color:var(--texto); font-size:1rem; margin-top:.6rem; }
+  .capa .destaque { background:var(--bege); border-left:6px solid var(--laranja); border-radius:10px; padding:1rem 1.2rem; margin-top:1.8rem; }
+  .capa .destaque .num { color:var(--marrom); font-size:1.7rem; font-weight:700; display:block; }
+  .capa .destaque .lbl { font-size:.9rem; }
+  .capa .creditos { border-top:1px solid #e6d5c3; padding-top:10px; font-size:.85rem; color:var(--marrom); display:flex; flex-wrap:wrap; gap:6px 22px; }
+  .capa .capa-rodape { margin-top:10px; font-size:.72rem; color:#8a7a6d; }
+
+  /* ---------- Corpo (conteudo injetado do .md) ---------- */
+  .doc-body h1 { color:var(--marrom); font-size:1.35rem; border-bottom:2px solid var(--bege); padding-bottom:.25rem; margin:1.7rem 0 .6rem; break-after:avoid; page-break-after:avoid; }
+  .doc-body h2 { color:var(--laranja); font-size:1.08rem; margin:1.15rem 0 .4rem; break-after:avoid; page-break-after:avoid; }
+  .doc-body p, .doc-body li { line-height:1.5; }
+  .doc-body table { width:100%; border-collapse:collapse; margin:.5rem 0 1rem; font-size:.86rem; break-inside:avoid; page-break-inside:avoid; }
+  .doc-body th { background-color:var(--marrom); color:#ffffff; text-align:left; padding:.45rem .55rem; font-weight:700; }
+  .doc-body td { border-bottom:1px solid #e6d5c3; padding:.38rem .55rem; }
+  .doc-body tbody tr:nth-child(even) td { background-color:#fbf6f0; }
+  .doc-body img { max-width:100%; height:auto; display:block; margin:1rem auto; }
+  .doc-body blockquote { border-left:4px solid var(--laranja); background-color:var(--bege); margin:.8rem 0; padding:.6rem .9rem; border-radius:0 8px 8px 0; }
+  .doc-body blockquote p { margin:0; }
+  .doc-body strong { color:var(--marrom); }
+  .doc-body a { color:#944B11; }
+  .doc-body code { background-color:var(--bege); padding:.05rem .3rem; border-radius:4px; font-size:.85em; }
+
+  /* Badges de confianca (cores distintas, com bolinha) */
+  .doc-body .cg, .doc-body .cb, .doc-body .ch { font-weight:700; white-space:nowrap; }
+  .doc-body .cg { color:#587C41; }
+  .doc-body .cb { color:#B5770A; }
+  .doc-body .ch { color:#B23B1E; }
+  .doc-body .cg::before, .doc-body .cb::before, .doc-body .ch::before { content:"\25CF\00a0"; }
+
+  /* ---------- Cabecalho / rodape repetidos (impressao) ---------- */
+  .hdr, .ftr { display:none; }
+
+  @media print {
+    @page { size:A4; margin:20mm 16mm 18mm; }
+    html, body { background-color:#ffffff; }
+    * { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+    .doc { max-width:100%; margin:0; padding:0; box-shadow:none; }
+
+    .capa { min-height:244mm; }
+    .doc-body table, .doc-body img, .doc-body blockquote { break-inside:avoid; page-break-inside:avoid; }
+    .doc-body li, .doc-body p { orphans:3; widows:3; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="doc">
+
+    <!-- ===== CAPA ===== -->
+    <section class="capa">
+      <div class="capa-topo">
+        <span class="capa-kicker">Relatório de Carga Horária</span>
+        <span class="capa-logos">
+          <img src="../../assets/images/logos/vagalume-pdf.png" alt="Logotipo Vaga Lume" width="53" height="52">
+          <img class="vanleer" src="../../assets/images/logos/vanleer-pdf.png" alt="Logotipo Fundação Van Leer" width="44" height="60">
+        </span>
+      </div>
+      <div>
+        <h1>Carga horária efetiva</h1>
+        <p class="curso">Ambiente de Formação Vaga Lume</p>
+        <p class="sub">Estimativa por categoria de recurso · cenários e justificativas</p>
+        <div class="destaque">
+          <span class="num">≈ 24,5 h de carga obrigatória</span>
+          <span class="lbl">no cenário recomendado (≈ 22 h no cenário de referência) · + ≈ 5 h de carga opcional/complementar</span>
+        </div>
+      </div>
+      <div>
+        <div class="creditos">
+          <span><strong>Responsável:</strong> AGIR</span>
+          <span><strong>Data:</strong> 15/10/2026</span>
+          <span><strong>Versão:</strong> 1.0</span>
+          <span><strong>Método:</strong> skill metricas-carga-horaria v1.2</span>
+        </div>
+        <p class="capa-rodape">Associação Vaga Lume em parceria com a Fundação Van Leer · Relatório de Carga Horária · v1.0 · 15/10/2026</p>
+      </div>
+    </section>
+
+    <!-- ===== CORPO: conteudo do Relatorio-carga-horaria.md (injetado pelo script) ===== -->
+    <main class="doc-body">
+<!-- CONTEUDO -->
+    </main>
+
+  </div>
+
+</body>
+</html>

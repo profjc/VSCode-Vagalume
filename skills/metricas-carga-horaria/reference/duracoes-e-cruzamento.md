@@ -1,7 +1,7 @@
 # Durações de vídeo e cruzamento com a bibliografia
 
 > De onde vem a **duração** de cada vídeo e como evitar **dupla contagem** entre o vídeo assistido no
-> curso e o **item de vídeo da bibliografia**. **Versão 1.1.1 (14/10/2026)** — origem: projeto Vaga Lume.
+> curso e o **item de vídeo da bibliografia**. **Versão 1.2 (15/10/2026)** — origem: projeto Vaga Lume.
 
 ## 1 — Preferir os créditos da própria página
 
@@ -30,6 +30,10 @@ curl -s "https://www.youtube.com/watch?v=$ID" | grep -o '"lengthSeconds":"[0-9]*
   é assim que se evita pegar o vídeo errado (títulos repetidos entre canais são comuns).
 - A duração entra no **config** do projeto (`"duracoes": {"<id>": <segundos>}`) → a próxima execução
   fica **offline e reproduzível**.
+- ⚠️ **O `lengthSeconds` NÃO é revalidável offline** (lição de 14/10/2026): neste ambiente o `curl` da
+  página `watch?v=<id>` **não responde** (só o `oEmbed` — que dá a **identidade**: título + canal). Por isso
+  as durações que **não** estão nos créditos ficam **fixadas no config/script, com comentário** declarando
+  a origem — é a fonte offline confiável. **Nunca** dependa de rede para reproduzir o número.
 - Se não localizar: marcar **“duração não localizada”**. **Nunca** estimar no escuro (armadilha nº 3).
 
 ## 3 — Vídeo com instrução de trecho
