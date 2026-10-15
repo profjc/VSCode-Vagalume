@@ -8,7 +8,7 @@
 ---
 
 
-## 📊 14/10/2026 — FRONT NOVO: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 a 4 CONCLUÍDOS** (plano · inventário · parâmetros · skill v1.1.1 · **ajustes finos 3A–3D** · **🏁 CICLO 4 = cálculo página a página + cenários**) · **A ref `21h52min41s` · recomendado `24h03min57s`** · **próximo: CICLO 5** (relatório PDF A4 + DOCX) · **commit pendente (autorização)**
+## 📊 14–15/10/2026 — FRONT: **ESTIMATIVA DE CARGA HORÁRIA DO CURSO** (relatório para impressão) · **CICLOS 0 a 5 CONCLUÍDOS** (plano · inventário · parâmetros · skill v1.1.1 · ajustes finos 3A–3D · cálculo página a página · **🏁 CICLO 5 = relatório PDF + DOCX + XLSX**) · **A ref `22h20min42s` · recomendado `24h34min46s`** · **próximo: CICLO 6** (resumo executivo, opcional) · **commit `94bdd3d` (push feito, tree limpo)**
 
 > **🎯 O QUE É:** tarefa nova, independente do fluxo das páginas — estimar a **carga horária efetiva** do curso (M0 + M1 + M2 + M3 + M4, tudo o que já está no ar e validado) por **categoria de recurso** (textos, imagens, vídeos, atividades, bibliografia, navegação, fóruns, encontros síncronos, SDs), separando **carga obrigatória** de **carga opcional**. Produto final: **PDF A4 + DOCX** imprimíveis + planilha de cálculo. **Não existem relatórios do Moodle** (confirmado por você em 14/10/2026) → é **estimativa** feita com inventário exato + parâmetros validados por você.
 >
@@ -240,6 +240,13 @@
 >
 > **✅ ETAPA 5C CONCLUÍDA (15/10/2026) — CICLO 5 COMPLETO:** gerados **`Relatorio-carga-horaria-vagalume.docx`** (pandoc + **`reference-docx`** com identidade: fonte Segoe UI + títulos nas cores da marca) e **`calculo-carga-horaria.xlsx`** (planilha formatada, via LibreOffice). **Scripts novos:** `gerar-reference-docx.py` · `gerar-relatorio-docx.sh` · `ajustar-tabelas-docx.py` (**corrige o `<w:tblGrid/>` vazio** do pandoc 2.9, que colapsava as colunas no LibreOffice) · `adicionar-logos-docx.py` (**logos Vaga Lume + Van Leer no topo do DOCX**). **Entregáveis finais do Ciclo 5:** PDF (10 pág.) + DOCX (editável) + XLSX (planilha) + `.md` fonte.
 > **Próximo:** **CICLO 6** — **Resumo executivo** (1–2 páginas, opcional) · e a **reexecução** quando o Módulo de Encerramento for produzido (§8 do `PLANO-carga-horaria.md`).
+>
+> **🔚 CHECKOUT DE ENCERRAMENTO (15/10/2026) — SESSÃO ENCERRADA (N1.7.1):** git sincronizado — **`ff5325a` → `94bdd3d`**, `git push origin master` feito, **tree limpo**, **`HEAD = origin/master`**. **CICLO 5 COMPLETO** (relatório PDF + DOCX + XLSX).
+> **Produtos (em `docs/relatorios/carga-horaria/`):** `Relatorio-carga-horaria-vagalume.pdf` (**10 pág. A4**, capa com logos + badges coloridos) · `.docx` (**editável**, logos no topo) · `calculo-carga-horaria.xlsx` (**planilha**) · `Relatorio-carga-horaria.md` (**fonte**) + `calculo-carga-horaria.csv`/`.md`. **Scripts:** `calculo-carga-horaria.py` · `gerar-graficos-relatorio.py` · `gerar-relatorio.sh` · `gerar-relatorio-docx.sh` · `gerar-reference-docx.py` · `ajustar-tabelas-docx.py` · `adicionar-logos-docx.py`. **Espelho:** `templates/documentos/espelho-relatorio.html`.
+> **Números finais:** **A — mín 15h52min29s · ref 22h20min42s · máx 29h39min53s · recomendado 24h34min46s** · **B — ref 5h23min32s** · **A+B — ref 27h44min14s**. **Capa:** "≈ 24,5 h".
+> **PRÓXIMA SESSÃO (sugestão):** **CICLO 6 — Resumo executivo (1–2 páginas)** ou ajustes visuais pontuais; a **reexecução** fica para quando o **Módulo de Encerramento** for produzido (§8 do `PLANO-carga-horaria.md`). **Nenhuma pendência do mestre no Moodle neste front.**
+>
+> **🧪 SIMULAÇÃO DE REINÍCIO (N1.7.1):** relidos `Onde-paramos.md` (este bloco), `docs/rotina-entrega.md` (N3.0) e as **Regras de Bolso** (N1.0). Conferido: front identificado (carga horária), ciclos 0–5 concluídos, produtos e caminhos corretos, **commit `94bdd3d`**, git limpo, próxima etapa definida. **Sem divergências** a corrigir.
 
 ---
 
