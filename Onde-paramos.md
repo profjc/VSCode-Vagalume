@@ -8,6 +8,35 @@
 ---
 
 
+## 🏁 19/10/2026 — FRONT: **ENCONTROS SÍNCRONOS ENCERRADO** (Encontro 3 — "Cuidar de quem cuida") · ✅ **VALIDADO NO MOODLE E SINCRONIZADO** · front concluído (era o último encontro)
+
+> **🎯 O QUE É:** inserir mais um encontro na página **"Encontros Síncronos"** (`templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html`) — conversão do doc orientador em `temp/` para `.md`, tratamento da imagem do card e **inserção no topo do documento** (padrão blog: bloco mais recente no topo, separado por `<hr>`).
+>
+> **🧠 DECISÕES DO MESTRE (19/10/2026):** (1) **data correta = 17/10** — o "realizado em 10 de outubro" da sinopse é **erro de digitação** e deve ser corrigido no `.md` e no HTML; (2) **sinopse mantém apenas Maria Amorim** — o card anuncia também Valeria Almeida, mas o mestre confirmou que **só Maria Amorim** esteve no encontro (texto do autor preservado); (3) página-alvo = **"Encontros Síncronos"** (única página de encontros do projeto; não existe arquivo "Encontros presenciais").
+>
+> **🔎 DADOS APURADOS:** tema **"Cuidar de quem cuida"** · **17/10/2026, 10h** · vídeo `9mOPNG0NvSc` (canal **Vaga Lume**, **5.239 s = 1h27min19seg**) · minutagem **00:03 · 00:10 · 00:14 · 00:54 · 01:15 · 01:27** · card em JPEG 1080×1350 (convidada Maria Amorim; mediadora Ângela Cabral).
+>
+> **📋 PLANO (1 ciclo, 1 entregável = a página):** **Passo 0** = registrar este plano (feito) · **Passo 1** = `pandoc` → `content/Encontros-sincronos/Encontro_Sincrono_3.md` + correção da data para 17 de outubro · **Passo 2** = imagem `Encontro_Sincrono_3_card.jpg` (640×800 JPEG q88, `-strip`) em `assets/images/ilustracoes/Encontros-sincronos/` · **Passo 3** = inserir o bloco do Encontro 3 no topo do HTML (faixa Label de Parte + card com placeholder + vídeo em moldura TV + legenda com duração + caixa de minutagem + sinopse em 2 parágrafos) · **Passo 4** = validar `docs/checklist-entrega.md`, entregar com `code <caminho>` (sem `-r`/`-n`) e quadro no chat · **Passo 5** = commit + push **só com autorização**.
+>
+> **✅ RESULTADO DO CICLO (19/10/2026):**
+> - **`content/Encontros-sincronos/Encontro_Sincrono_3.md`** (27 linhas) — gerado por `pandoc --wrap=none`; data corrigida para **17 de outubro de 2026** (o "10 de outubro" era erro de digitação); demais trechos fiéis ao autor (**só Maria Amorim**).
+> - **`assets/images/ilustracoes/Encontros-sincronos/Encontro_Sincrono_3_card.jpg`** — **640×800 JPEG · 140.760 B** (`-resize 640x800 -strip -quality 88`), proporção 4:5 preservada; coerente com o card 1 e com os atributos `width`/`height` declarados no HTML.
+> - **`templates/pages/Encontros-sincronos/encontros_sincronos_galeria.html`** — bloco do Encontro 3 inserido **no topo** (+51 linhas), padrão blog: faixa Label de Parte · card (col-md-5) com bloco temporário + `sr-only id="es3-card-desc"` · vídeo `9mOPNG0NvSc` em moldura TV (col-md-7) · legenda `(1h27min19seg); canal: Vaga Lume` · minutagem em caixa tracejada · sinopse em 2 parágrafos · `<hr class="mt-4 mb-5">` antes do Encontro 2.
+> - **Comentários de bloco (19/10/2026, pedido do mestre):** cada encontro passou a ter marcadores explícitos `<!-- INÍCIO DO BLOCO: ... -->` e `<!-- FIM DO BLOCO: ... -->` (3 blocos — Encontro 3, 2 e 1), delimitando início e fim de cada bloco para documentação; **nenhum comentário consecutivo** (exigência do TinyMCE) e `<div>` **37/37** preservados.
+> - **Validação (`docs/checklist-entrega.md`):** `<div>` **37/37** · IDs únicos (`es1n-card-desc`, `es2-card-desc`, `es3-card-desc`) · sem `–`, `--`, `fa-solid`, `<style>`, `onclick`, `contenteditable` ou `@@PLUGINFILE@@` · imagens com `width`/`height`/`loading="lazy"` · travessões verdadeiros na minutagem.
+> - **Duração real da gravação do Encontro 3:** **5.239 s = 1h27min19seg** (YouTube, canal Vaga Lume) — registrada aqui para eventual reexecução da carga horária; **o relatório NÃO foi reaberto** (decisão do mestre, 19/10/2026: "não mexer na carga horária" — o 3º encontro já estava computado por estimativa de 1h30).
+> - **Documentação atualizada no encerramento:** `docs/regras-licoes-aprendidas.md` (lição do blog com marcadores `INÍCIO/FIM DO BLOCO` + conferência docx × card) · `docs/project-map.md` (pasta transversal `templates/pages/Encontros-sincronos/`).
+>
+> **✅ VALIDADO NO MOODLE (19/10/2026, confirmação do mestre):** página **"Encontros Síncronos"** com o bloco do Encontro 3, o card e os marcadores de bloco conferidos. **Pendências do mestre no Moodle: NENHUMA.**
+>
+> **🏁 FRONT ENCERRADO:** o Encontro 3 era o **último** encontro síncrono do curso. A página passa a ser **recurso transversal fechado** (3 encontros: 12/09, 26/09 e 17/10/2026).
+>
+> **Git:** commit `PENDENTE` + push — a registrar no fecho desta sessão (tree limpo e `HEAD = origin/master` conferidos).
+>
+> **Próximo passo:** **Módulo de Encerramento** (Certificação e Avaliação do curso) — **única pendência aberta do projeto** (`docs/pendencias-projeto.md`, item 6), aguardando material do autor.
+
+---
+
 ## 🧩 15/10/2026 — FRONT: **REVISÃO DA SKILL `metricas-carga-horaria` (v1.1.1 → v1.2 → v1.2.1)** · 🏁 CONCLUÍDO E SINCRONIZADO (Ciclos 0 + A a M) · paridade ✅ · *onboarding* `LEIA-PRIMEIRO.md` · **commits `7112e33` (v1.2) + `cd24d68` (v1.2.1) + push, tree limpo, `HEAD = origin/master`**
 
 > **🎯 O QUE É:** tarefa nova e independente do fluxo das páginas e do relatório — revisar a **skill exportável** `skills/metricas-carga-horaria/` com as lições efetivamente praticadas nos **Ciclos 0 a 6** do relatório de carga horária (14–15/10/2026), para que ela continue **exportável e reproduzível** em qualquer curso Moodle. **Entrega:** a **análise de lacunas** (feita em PLAN, 15/10) agora vira **execução em ciclos**, **um arquivo por ciclo**, com interrupção para validação (N1.3.3).

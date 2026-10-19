@@ -7,6 +7,7 @@
 | Local | Guarda | Observações |
 |-------|--------|-------------|
 | `templates/pages/` | Páginas **finais** HTML (prontas para colar no Moodle) | Subpastas por módulo (ex: `Boas-vindas/`, `M1/`, `M2/`) |
+| `templates/pages/Encontros-sincronos/` | Página **transversal** **"Encontros Síncronos"** (fora dos módulos M0–M4) | `encontros_sincronos_galeria.html` — padrão **blog**: bloco mais recente no topo, `<hr>` entre blocos e marcadores `<!-- INÍCIO/FIM DO BLOCO -->`; fontes em `content/Encontros-sincronos/`; cards em `assets/images/ilustracoes/Encontros-sincronos/`. **Front encerrado em 19/10/2026** (3 encontros) |
 | `templates/pages/base/base.html` | Modelo base (snippet de partida) | — |
 | `templates/components/` | Snippets avulsos reutilizáveis | Ex: `forum.html`; a biblioteca de componentes vive em `components-library.md` |
 | `templates/documentos/` | **Espelhos A4** de documentos imprimíveis (**não** vão ao Moodle) | `espelho-relatorio.html` · `espelho-resumo-executivo.html` · `espelho-sequencia-didatica.html`; recebem o corpo no marcador `<!-- CONTEUDO -->` e são impressos pelo Chrome headless |
