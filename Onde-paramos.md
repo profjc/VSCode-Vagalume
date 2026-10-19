@@ -31,9 +31,11 @@
 >
 > **🏁 FRONT ENCERRADO:** o Encontro 3 era o **último** encontro síncrono do curso. A página passa a ser **recurso transversal fechado** (3 encontros: 12/09, 26/09 e 17/10/2026).
 >
-> **Git:** commit `PENDENTE` + push — a registrar no fecho desta sessão (tree limpo e `HEAD = origin/master` conferidos).
+> **Git:** commit `7f96aef` (trabalho: "encontros sincronos: encontro 3 validado, imagem, fonte md e comentarios de bloco") + commit de checkpoint (este registro) + push `origin/master` — tree limpo e `HEAD = origin/master` conferidos no fecho.
 >
 > **Próximo passo:** **Módulo de Encerramento** (Certificação e Avaliação do curso) — **única pendência aberta do projeto** (`docs/pendencias-projeto.md`, item 6), aguardando material do autor.
+>
+> **🧪 SIMULAÇÃO DE REINÍCIO (N1.7.1, 19/10/2026):** relidos `Onde-paramos.md` (este bloco), `docs/rotina-entrega.md` e as **Regras de Bolso** (N1.0). Conferido: front **encontros síncronos ENCERRADO** · entregas (`.md` de origem, imagem 640×800, HTML com 3 blocos, lição e mapa) · **pendências do mestre no Moodle = nenhuma** · **próximo passo = Módulo de Encerramento** (única pendência aberta) · caminhos citados · hash `7f96aef`. **Divergência encontrada e corrigida:** a **Regra de Bolso nº 6** ainda dizia "nunca `src=\"\"`" — contradizia a regra canônica **N2.1.1.3** (placeholder com `src=""`, validado em 06/09/2026) e o `docs/checklist-entrega.md`; a regra foi **alinhada à fonte canônica** (o HTML da página já estava correto). **Nada mais a corrigir.**
 
 ---
 
