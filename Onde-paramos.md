@@ -70,6 +70,8 @@
 >
 > ### 🧪 SIMULAÇÃO DE REINÍCIO (N1.7.1 — 22/10/2026)
 > Relidos `Onde-paramos.md` (este bloco), `docs/rotina-entrega.md` e as **Regras de Bolso** (N1.0), confrontando com o registrado: front = **revisão do M4**; **5/25 páginas** ajustadas e validadas; DI em `content/M4/Ajustes_Modulo_4_22-10-2026.md` (status 5/25); **próxima = página 6/25 `M4P2L1p1`**; pendências e decisões listadas; caminhos, contagens e comandos conferidos. **Divergências corrigidas:** (1) o ponteiro de "próximo ciclo" havia pulado `M4P1L3p1` (corrigido no ciclo 6); (2) a numeração "ciclo" deixou de coincidir com "página" do mapa — **a referência oficial passa a ser "página N/25"** (o mapa do `.md` é a fonte da verdade; "ciclo" é só a ordem de execução). Nada mais a corrigir.
+>
+> **Git:** commit `a8b197c` ("revisao M4: DI convertido, 5 paginas da parte 1 ajustadas e validadas, checkpoint de sessao") + push `origin/master` — `HEAD = origin/master = a8b197c` e tree limpo conferidos no fecho; este registro (commit de checkpoint) vai no commit seguinte.
 
 ---
 
