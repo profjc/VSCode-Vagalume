@@ -27,6 +27,16 @@
 > **Confirmação do mestre (13/10/2026):** **nada pendente do lado do Moodle** — H5P da Atividade 1 inserido, labels das Partes 1-4 posicionados, 13 PDFs no ar.
 > **Fora do módulo (fila do curso):** **Módulo de Encerramento** (Certificação e Avaliação) — aguardando material do autor.
 
+## 🔁 Revisão do autor — DI de ajustes (22/10/2026, em andamento)
+
+> **Fonte:** `content/M4/Ajustes_Modulo_4_22-10-2026.md` (convertido de `temp/Ajustes_Módulo 4.docx` em 22/10/2026) — **25 páginas** · **85 parágrafos de ação** · **mapa DI → arquivo** no topo do `.md` (fonte da verdade da ordem).
+>
+> - **Status: 5/25 páginas ajustadas e validadas no Moodle** — Parte 1 fechada: `M4P1L1p1` · `M4P1L1p2` (H5P ajustado pelo mestre) · `M4P1L2p2` · `M4P1L2p3` · `M4P1L3p1`.
+> - **Próxima:** página **6/25** — `M4P2L1p1` ("Planejando o encontro"): "Biblioteca Comunitária" no último parágrafo + **botões por tela** do carrossel (padrão `M3P2L4p1`, **sem JS**).
+> - **Decisões abertas (por página):** etiqueta "Sequência Didática N" (página 10 — retirar a pílula ou trocar por "Atividade N") · fotos das 4 aberturas (páginas 9, 15, 18 e 23 — dependem de download do SharePoint para `temp/`) · box "Guarde essa ideia!" (página 9) · Atividade 13 (página 25 — conferir "Guardiões da Biblioteca") · SD 11 (página 22 — "Atividade 11: Clube de Leitura").
+> - **H5P da Atividade 1 (`M4P1L1p2`):** **atualizado pelo mestre em 22/10/2026** — enunciado final **"Selecione todas as três alternativas que considerar mais adequadas."** ("três" em minúsculas); o pacote em `assets/h5p/M4/` foi substituído e a atividade, reinserida no Moodle.
+> - **Fora do escopo até autorização:** títulos do módulo ("Mão na Massa"/"Mediar Leituras") e da Parte 1 (truncada no DI) — envolve `M4-Apresentacao_do_modulo_4.html`, `M4P4P1.html` e o label da Parte 1.
+
 ## 🔴 Pendências do autor
 
 | # | Item | Local no DI | Tipo | Situação |
