@@ -4,7 +4,7 @@
 > **Conversão:** `pandoc --wrap=none` em 22/10/2026 → este arquivo. Limpeza **apenas de formatação** (desescape de `\[`, `\]`, `\|`, remoção do bloco `{=html}`, `--` → `—`); **texto do autor intocável** (N2.5).
 > **Integridade conferida (22/10/2026):** `.docx` válido · **212 parágrafos** · **0 tabelas** · **0 imagens/shapes** · **0 comentários** · **0 alterações controladas** · **29 hyperlinks = 25 páginas do Moodle + 4 fotos (SharePoint)** · **25 páginas citadas** · **85 parágrafos de ação**.
 > **Escopo:** Partes 1, 2 e 3 do Módulo 4 (a Parte 4 — Síntese e Referências — não aparece no documento).
-> **Status:** em execução — **14/25 páginas ajustadas e VALIDADAS** no Moodle (`M4P1L1p1`, `M4P1L1p2`, `M4P1L2p2`, `M4P1L2p3`, `M4P1L3p1`, `M4P2L1p1`, `M4P2L2p1`, `M4P3L1p1`, `M4P3L2p1`, `M4P3L2p2`, `M4P3L2p3`, `M4P3L2p4`, `M4P3L2p5` e `M4P3L2p6`). **Partes 1 e 2 fechadas; Lição "Valorização da Cultura Local" fechada.** Próxima: página 15/25 (`M4P3L3p1`).
+> **Status:** em execução — **21/25 páginas ajustadas** no Moodle (`M4P1L1p1`, `M4P1L1p2`, `M4P1L2p2`, `M4P1L2p3`, `M4P1L3p1`, `M4P2L1p1`, `M4P2L2p1`, `M4P3L1p1`, `M4P3L2p1`, `M4P3L2p2`, `M4P3L2p3`, `M4P3L2p4`, `M4P3L2p5`, `M4P3L2p6`, `M4P3L3p1`, `M4P3L3p2`, `M4P3L3p3`, `M4P3L4p1`, `M4P3L4p2`, `M4P3L4p3` e `M4P3L4p4`), sendo **21 validadas pelo mestre** — **nenhuma página pendente de validação**. **Partes 1 e 2 fechadas; Lições "Valorização da Cultura Local" e "Cultura das Infâncias" fechadas.** Próxima: página 22/25 (`M4P3L4p5`).
 
 ---
 
@@ -227,6 +227,8 @@ Cada atividade também estará disponível em PDF. Se desejar, você poderá bai
 
 -   Inserir a foto no início da página: [Módulo4\_parte3\_cultura das infâncias](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQAHZ4upY90rTY5p3BjlZ_k3Ac0r4rSNghjWU_eZk48dfiU?e=zc0cy5)
 
+<!-- ASSET (23/10/2026): assets/images/ilustracoes/M4/M4P3L3p1-cultura_das_infancias.jpg | 1280x853 | 366 KB | Alt: Cinco crianças reunidas em torno de um livro infantil aberto sobre uma plataforma de madeira, ao ar livre, ao lado de uma casa de madeira, com vegetação ao fundo. | Original em temp/ (6720x4480, 17,3 MB) tratado com `convert -strip -resize 1280x853 -quality 85` (JPEG, sem upscale). Página M4P3L3p1: figura À DIREITA (`float-md-right ml-md-4 mb-4`, max-width 375px, cantos 12px, container com `display: flow-root`), descrição longa em `sr-only` id `fig1-desc` (leitura única via `aria-labelledby` na figure + `role="presentation"`/`alt=""` na imagem) e `figcaption` com a legenda do autor "Fonte: Acervo Vaga Lume". Status da descrição: ✅ aprovada pelo mestre em 23/10/2026 (página validada no Moodle). -->
+
 -   Legenda da foto: Fonte: Acervo Vaga Lume
 
 -   **Substituir** o texto da página POR
@@ -268,6 +270,8 @@ Cada atividade também estará disponível em PDF. Se desejar, você poderá bai
 -   **Substituir o título da página** "Sequências didáticas" POR "Conheça atividades para apoiar na promoção do bem-estar em sua comunidade".
 
 -   Inserir a foto no início da página: [Módulo4\_parte3\_promoção do bem-estar](https://associacaovagalumebr.sharepoint.com/:i:/s/geral/IQAuMKo1lZcOSactMkNI0Vn4AWkkQYc9XbSGSbm9ZaGhhIY?e=pxUblH)
+
+<!-- ASSET (23/10/2026): assets/images/ilustracoes/M4/M4P3L4p1-promocao_do_bem_estar.jpg | 1280x853 | 205 KB | Alt: Grupo numeroso de adultos em roda, de mãos dadas, em salão com paredes brancas, teto de vigas de madeira e piso avermelhado. | Original em temp/ (6720x4480, 17,1 MB) tratado com `convert -strip -resize 1280x853 -quality 85` (JPEG, sem upscale). Página M4P3L4p1: figura À DIREITA (`float-md-right ml-md-4 mb-4`, max-width 375px, cantos 12px, container com `display: flow-root`), descrição longa em `sr-only` id `fig1-desc` (leitura única via `aria-labelledby` na figure + `role="presentation"`/`alt=""` na imagem) e `figcaption` com a legenda do autor "Fonte: Acervo Vaga Lume". Status da descrição: ✅ aprovada pelo mestre em 23/10/2026 (página validada no Moodle). -->
 
 -   Legenda da foto: Fonte: Acervo Vaga Lume
 
