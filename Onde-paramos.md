@@ -144,7 +144,7 @@
 > **Rotação do log (verificação):** `Onde-paramos.md` = **~900 linhas / ~230 KB** → **abaixo** dos gatilhos (**~2.000 linhas / ~300 KB**); **rotação desnecessária** neste checkout. Reavaliar no próximo encerramento.
 > **Divergências corrigidas:** (1) o título do bloco dizia "5/25 páginas" → atualizado para 14/25; (2) as pendências ainda listavam etiqueta e box como abertos → movidos para "fechadas"; (3) a pendência de renomeação da lição da Parte 1 foi fechada pela sua confirmação; (4) o prompt vigente foi promovido para o **topo** do arquivo e o antigo ficou rotulado como histórico. **Nada mais a corrigir.**
 >
-> **Git:** sessão encerrada com **19 itens** pendentes (8 HTMLs das páginas 6-14, 5 PDFs das páginas 10-14, 4 arquivos de registro e a pasta nova `assets/images/ilustracoes/M4/`) — commit e push executados no fecho; **hash registrado no commit de checkpoint** (logo abaixo).
+> **Git:** commit **`8c1d55d`** ("revisao M4: paginas 6 a 14 ajustadas e validadas com PDFs regerados") — **20 arquivos**: 8 HTMLs (páginas 6-14), 5 PDFs (páginas 10-14), 4 arquivos de registro e a pasta nova `assets/images/ilustracoes/M4/` (imagem tratada + `descricoes.md`); + push `origin/master` (`8c451c4..8c1d55d`). **Este registro (checkpoint do fecho) vai no commit seguinte.**
 
 ---
 
