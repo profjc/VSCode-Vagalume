@@ -31,7 +31,7 @@
 >
 > **➡️ Próximo passo do curso:** **Módulo de Encerramento** (Certificação e Avaliação) — única pendência aberta do projeto (`docs/pendencias-projeto.md`, item 6), aguardando material do autor. Prompt de arranque pronto na §8 do `docs/relatorios/carga-horaria/PLANO-carga-horaria.md` (item 7).
 >
-> **Git:** commit + push executados neste fecho — sequência anti-travamento (N1.8.1): diagnóstico → `git commit -m` (uma linha) → `git push origin master` → verificação. Hashes registrados na simulação abaixo.
+> **Git:** commit + push executados neste fecho — sequência anti-travamento (N1.8.1): diagnóstico (11 arquivos: 10 M + 1 novo; branch `master`; `origin` GitHub) → **commit `483a6ef`** ("revisao M4 encerrada: paginas 22 a 25 ajustadas e validadas com 3 PDFs regerados e foto da licao 5 tratada" — 11 files, +151/−23) → **push `origin/master` (`d39412c..483a6ef`)** → verificação final (working tree limpo, HEAD = origin/master, confirmada após o commit de checkpoint abaixo).
 
 ---
 
