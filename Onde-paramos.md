@@ -18,6 +18,21 @@
 >
 > **Estado em uma linha:** front = revisão do M4 **ENCERRADA** · **25/25 páginas ajustadas e VALIDADAS** · 13 PDFs regerados e substituídos no Moodle · **sem pendências** (nem mestre, nem projeto, nem autor) · próximo passo do curso: Módulo de Encerramento (aguardando material do autor).
 
+## 🔄 04/11/2026 — REABERTURA DO M4 — **Atividade 13 renomeada: "Guardiões da Biblioteca"**
+
+> **Pedido do mestre:** mudar o título da página 25 (`M4P3L5p3`) de "Atividade 13: Manutenção e restauro de livros" para **"Atividade 13: Guardiões da Biblioteca"** — sem alterar o conteúdo visível ao aluno, mas refletindo no título da documentação (comentários) e no PDF.
+> **Feito (1 ciclo PLAN → ACT):**
+> 1. `templates/pages/M4/Parte3/Licao5/M4P3L5p3.html` — comentários de abertura (l. 1) e fechamento (l. 126) atualizados para "Atividade 13: Guardiões da Biblioteca". Corpo intocado (a faixa visível já era "Guardiões da Biblioteca").
+> 2. PDF regerado: `scripts/gerar-pdf-sd.sh` → `assets/pdf/M4/M4P3L5p3.pdf` (90.273 bytes). Validação: `pdfinfo` = 1 pág. A4 (594.96 × 841.92 pts); `pdftotext` = 0 ocorrências de "Sequência Didática"; título novo presente no cabeçalho e na faixa.
+> 3. **H5P `M4P1L1p2-h5p-multipla_escolha.h5p` atualizado pelo mestre (03/11/2026, 23:57)** — única mudança: título do enunciado → **"Selecione as três alternativas que considerar mais adequadas."** (saiu o "todas"; "três" em minúsculas; 0 ocorrências de "TRÊS" em caixa alta — conferido no `content.json` do pacote). Estrutura intocada (1 pergunta, 6 alternativas A–F, corretas A, C, E); arquivo substituído em `assets/h5p/M4/` pelo mestre; placeholder e nome do arquivo no HTML inalterados; sem PDF envolvido.
+> **Reversão de decisão:** substitui a decisão de 23/10 ("título da Atividade 13 = literal do DI"). Com o novo título, Atividade 12 e 13 deixam de repetir título e a faixa visível coincide com o título do Moodle. Nome do arquivo não muda.
+> **Ações no Moodle (do mestre):** ✅ **TUDO FEITO** — renomeação da página 25, substituição do PDF `M4P3L5p3.pdf` e substituição do H5P `M4P1L1p2` confirmadas (mestre em 04/11: "No Moodle foi tudo atualizado e substituído").
+> **🏁 MÓDULO 4 FINALIZADO, CONFERIDO E ATUALIZADO (04/11/2026) — LIBERADO NA PLATAFORMA.** Confirmação do mestre. Único módulo restante do curso: **Módulo 5** (nomenclatura do mestre; nos docs do projeto = "Módulo de Encerramento" — `docs/pendencias-projeto.md`, item 6), a ser tratado nas **próximas sessões**, aguardando material do autor.
+> **➡️ Próximo passo:** **Módulo 5 (Encerramento)** — converter o `.docx` do autor → `.md` em `content/`, montar o arquivo de pendências e planejar no PLAN mode (prompt de arranque pronto na §8 do `docs/relatorios/carga-horaria/PLANO-carga-horaria.md`).
+
+---
+
+
 ## 🏁 23/10/2026 — FECHO FINAL — **REVISÃO DO MÓDULO 4 ENCERRADA (25/25 ajustadas e VALIDADAS)**
 
 > **✅ Confirmação do mestre (23/10/2026):** "tudo referente ao Moodle foi feito e validado, sem pendências minhas" — página 25 validada/renomeada ("Atividade 13: Manutenção e restauro de livros") e os 3 PDFs desta sessão (22, 24, 25) substituídos no Moodle, junto com os demais.
