@@ -163,6 +163,9 @@ Alternativas (apenas se o usuário solicitar explicitamente formatação diferen
 - `-m` múltiplos: `git commit -m "Título" -m "- Item 1" -m "- Item 2"`
 - Editor VS Code: `git config --global core.editor "code --wait"`
 
+### N1.8.2 Commit de segurança a cada ~20 modificações (regra do mestre, 24/11/2026)
+Quando o trabalho acumulado no working tree chegar a **~20 arquivos modificados/novos** (entre páginas, imagens tratadas, `.md` de conversão e documentação), o agente **DEVE LEMBRAR o mestre a autorizar um commit + push de segurança** antes de seguir — `git status --porcelain | wc -l` é a contagem de referência. Nunca commitar sem a autorização explícita (N1.8), mas **nunca deixar passar o gatilho em silêncio**: o lembrete entra no fecho do ciclo ou no bloco de entrega no chat. Precedente: sessão de 24/11/2026 (Módulo 5) — ciclos 4–6 + DI v2 acumularam **24+ arquivos** sem commit; o mestre cobrou o lembrete.
+
 ---
 
 ## N1.9 Prevenção de Travamento do Agente
@@ -420,6 +423,7 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **Primeira página da lição:** apenas botão "Próximo".
 - **Páginas intermediárias:** botões "Anterior" e "Próximo".
 - **Última página da lição:** sempre uma atividade H5P (template 17 — Atividade Final de Lição) + botões "Anterior" e "Finalizar".
+- **Lição de PÁGINA ÚNICA (padrão do Módulo 5 — definição do mestre, 24/11/2026):** a navegação no Moodle é o botão **"Finalizar"** (não "Próximo") — as Lições 1 a 4 do Módulo 5 são cada uma de página única, então **toda entrega dessas páginas registra "Finalizar"** na linha "Ações no Moodle (suas)"; a Lição 1 já foi configurada assim no Moodle.
 Os botões são configurados pelo usuário diretamente no Moodle.
 
 **Entrega (regra do mestre, 10/10/2026):** identificar TODA solicitação do autor que caiba ao mestre no Moodle (navegação, título da página/atividade, edição de H5P, uploads) e informá-la **explicitamente no quadro da entrega**, na linha "Ações no Moodle (suas)" — mesmo que o ajuste não seja HTML. Nunca omitir por ser "do mestre".

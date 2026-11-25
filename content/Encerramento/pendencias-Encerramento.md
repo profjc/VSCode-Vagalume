@@ -6,9 +6,23 @@
 > **Recursos brutos:** `temp/5. Módulo 5/` (rito aprovado em 22/11/2026 — eu solicito, o mestre baixa do SharePoint para a `temp/`).
 > **Saídas do módulo:** `templates/pages/Encerramento/` (páginas) · `templates/pages/labels/` (label da Parte 1) · `assets/images/ilustracoes/Encerramento/` (fotos tratadas).
 
-> **🔄 DI ATUALIZADO EM 24/11/2026 — versão anterior DESCARTADA.** O autor enviou nova versão do `.docx` (`temp/5. Módulo 5/Módulo V - Versão para DI.docx`, 111.185 B, modificado 24/11/2026 16:35). O `.md` de 22/11 foi substituído por `content/Encerramento/Módulo_V_Versão_para_DI.md` (**359 linhas / 35.289 B**). Limpeza **apenas de formatação**: `–` → `—` (6 ocorrências) · desescape de `\!` (5) e de parênteses `\( \)` (23, artefatos do pandoc) · 0 `{=html}` · 4 NBSP preservados · **texto do autor intocado (N2.5)**. ⚠️ **As linhas citadas nas tabelas abaixo referem-se à versão de 22/11** — a numeração mudou; conferir sempre pelo conteúdo, não pela linha.
+> **🔄 DI ATUALIZADO — versão final v2 (24/11/2026, 23:10).** O autor enviou uma **segunda versão** (`temp/5. Módulo 5/Módulo V - Versão para DI - v2.docx`, 114.749 B, 24/11/2026 23:10 — `unzip -t` OK). O `.md` atual passou a vir **desta versão**: `content/Encerramento/Módulo_V_Versão_para_DI.md` (**416 linhas / 36.139 B**). Limpeza **apenas de formatação**: `--` → `—` (11 ocorrências) · 0 `{=html}` · 4 NBSP preservados · **texto do autor intocado (N2.5)** · **conferência byte a byte**: o `.md` é **idêntico** ao bruto do pandoc após a troca dos travessões. A versão de 24/11 16:35 (359 linhas) foi **descartada**. ⚠️ **As linhas citadas nas tabelas abaixo referem-se às versões anteriores** — conferir pelo conteúdo.
 
-## 🔄 Alterações da versão de 24/11/2026 do DI
+## 🔄 Alterações da versão v2 (24/11/2026, 23:10) — aprovadas pelo mestre
+
+> **Contexto:** as linhas **1–234 são idênticas** às da versão anterior — **nenhuma alteração nas páginas já entregues e validadas** (Apresentação + Lições 1–4 "Recordar é viver"). Todas as mudanças estão na reta final do módulo.
+
+| # | Onde | Antes (16:35) | Agora (v2) | Avaliação do DI |
+|---|---|---|---|---|
+| 1 | Delimitadores | Resíduos quebrados: `[CARD LIÇÃO 2]` / `[CARD LIÇÃO 3]` / `INICIODA LIÇÃO 1` / `FIM DA LIÇÃO 1` | `[Parte II - Avaliação final]` · `[Página html 1]`…`[/Página html 1]` (Avaliação) · `[Página html 2]`…`[/Página html 2]` (Plano de Ação) · `[/Parte 2]` · `[Parte 3]` · `[Página html ]` · `[/Parte 3]` | ✅ concordo — arquitetura explícita; normalizar "Parte II" → **"Parte 2"** (decimal, decisão de 22/11) |
+| 2 | **Plano de Ação** | Passos de entrega (Baixe → Imprima → Preencha → Foto → Envie + WhatsApp) **dentro da página** | Bloco próprio **`[Tarefa de entrega do Moodle]`…`[/Tarefa de entrega]`** — **Tarefa (Assignment) do Moodle separada** | ✅ **concordo — mudança mais valiosa**: a entrega vira atividade rastreável (essencial para a certificação, como a "Dica 2" do autor aponta) e separa instrução (página) de ação (atividade) |
+| 3 | Carta | "Atividade: Carta ao cursista", dentro da página "Antes de sair" | **Página própria "Carta ao cursista"** (o título "Antes de sair" saiu) · conteúdo idêntico, vídeo `2tqEMOjbeq0` incluído | ✅ concordo — carta é conteúdo de fechamento, não atividade |
+| 4 | Certificado | "Página: certificado" | **"[Atividade: certificado]"** (link do modelo mantido) | ✅ concordo — é atividade no Moodle (**`mod_customcert` já instalado e configurado pelo mestre**) |
+| 5 | Ficha Técnica | Só o placeholder "Verificar onde inserir" | **Conteúdo completo inline**: Equipe Vaga Lume (Gestão · Coordenação e lideranças · Equipe de Educadores) + créditos (Concepção · Conteudistas · Projeto gráfico · Revisão e Validação · **Designer instrucional e plataforma: Professor J.C. / AGIR**) — a marca ~~Verificar onde inserir~~ segue riscada | ✅ concordo — resolve a pendência que estava para o ciclo 9 |
+
+> **Pontos de atenção registrados:** (a) **"Parte II" (romano) × "Parte 3" (arábico)** → normalizar para decimal; (b) **`[Página html ]` sem número** na Carta (cosmético, sem impacto); (c) **"Dica 2" do Plano de Ação com gramática quebrada** ("Não se esqueça que será certificado as pessoas que junto com o envio do plano de ação, finalizaram seu percurso. Garante a finalização de seu percurso, mas motive as pessoas que façam o mesmo.") → **correção será sugerida no ciclo 8 e validada pelo mestre com o autor**; (d) o **título "Antes de sair"** desapareceu do DI (a página passa a se chamar "Carta ao cursista") — confirmar no ciclo 9.
+
+## 🔄 Alterações da versão de 24/11/2026 (16:35) do DI
 
 | # | Local | Alteração | Efeito no projeto |
 |---|---|---|---|
@@ -117,7 +131,7 @@
 | # | Item | Local no DI | Situação |
 |---|---|---|---|
 | A1 | **Links de foto ausentes/malformados** na Lição 1: Foto 1 e Foto 2 sem hyperlink; Foto 3 com link cujo alvo é texto (`[Foto:](https://Foto 3 - ...)`) | l. 55, 60 e 65 | ⏳ resolver no ciclo 3 com o mestre (baixar pela pasta da lição no SharePoint) |
-| A2 | **Fotos possivelmente repetidas**: Lição 2 — Fotos 3 e 6 com o mesmo nome (Uarini, 2025); Lição 3 — Fotos 2, 3 e 5 com o mesmo nome (Oficina de Livros Artesanais em Uarini); Lição 4 — Fotos 1 e 2 com o mesmo nome | l. 105/120 · 142/147/157 · 179/184 | ⏳ confirmar com o mestre se são imagens distintas com nome repetido |
+| A2 | **Fotos possivelmente repetidas**: Lição 2 — Fotos 3 e 6 com o mesmo nome (Uarini, 2025); Lição 3 — Fotos 2, 3 e 5 com o mesmo nome (Oficina de Livros Artesanais em Uarini); Lição 4 — Fotos 1 e 2 com o mesmo nome | l. 105/120 · 142/147/157 · 179/184 | ✅ **RESOLVIDO (24/11/2026):** leitura visual confirmou, nas três lições, que são **imagens distintas** — legendas repetidas permanecem, por decisão do mestre (ver `descricoes.md`) |
 | A3 | **Numeração inconsistente dos cards**: "CARD LIÇÃO 2" e "CARD LIÇÃO 3" usados duas vezes; "INICIODA LIÇÃO 1" (sem espaço) e "FIM DA LIÇÃO 1" após a Lição 4 | l. 211, 215, 229, 295 e 209 | ✅ resolvido por decisão do mestre (22/11/2026): **renumerar no padrão dos módulos anteriores** (Lições 1 a 7) — texto do autor intocado |
 | A4 | **Pasta do SharePoint da Lição 3** grafa "Primeira Infâncias" (plural) | l. 137–162 (URLs) | ℹ️ informativo — sem ação |
 
@@ -133,20 +147,28 @@
 | 6 | **Grafia (22/11/2026, na entrega da Apresentação):** "primeira infância" → "**Primeira Infância**" quando as demais ocorrências do DI usam maiúscula; e incluir o "**com**" em "fortalecimento dos vínculos **com** a Primeira Infância" (3ª expectativa) |
 | 7 | **Novo formato de carrossel (24/11/2026):** o `[Novo Formato]` do DI (imagem + legenda com título e texto + botão "Saiba mais sobre essa imagem" com a identificação da foto) deve ser aplicado em **todas as lições com carrossel** e em **todos os 6 slides** — o DI traz o modelo apenas no primeiro slide da Lição 1 |
 | 8 | **DI de 24/11/2026 (24/11/2026):** descartar a versão anterior do `.md` e trabalhar sobre a nova conversão (`content/Encerramento/Módulo_V_Versão_para_DI.md`, 359 linhas) |
+| 9 | **DI v2 (24/11/2026, 23:10) — aprovado pelo mestre:** o `.md` passa a vir da **v2** (416 linhas / 36.139 B); as 5 mudanças estruturais (partes explícitas, Tarefa de entrega, Carta como página, certificado como atividade, Ficha Técnica inline) estão **aprovadas** |
+| 10 | **Certificado (24/11/2026):** o plugin **`mod_customcert` já está instalado e o certificado já está pronto no Moodle** — o botão de download **é gerado pelo plugin** (não entra no HTML). O Cline produz apenas **o texto da página que acompanha o botão** — texto será **proposto pelo Cline e validado pelo mestre** (ciclo 10) |
+| 11 | **"Dica 2" do Plano de Ação (24/11/2026):** o trecho com gramática quebrada fica **como está** por ora; o Cline **sugere a correção no ciclo 8** e o mestre valida com o autor antes de aplicar |
+| 12 | **Labels das Partes 2 e 3 (24/11/2026):** os labels das novas partes serão criados; proposta de texto — **"Parte 2 — Avaliação final e Plano de Ação"** e **"Parte 3 — Finalização do curso"** (sujeita a validação do mestre/redação do autor) |
+| 13 | **Numeração das lições REINICIA em cada Parte (regra do mestre, 24/11/2026)** — **substitui a decisão 2 (sequencial 1–7) para as Partes 2 e 3:** **Parte 2** → **Lição 1** (Avaliação do curso, `M5P2L1p1`) e **Lição 2** (Plano de ação, `M5P2L2p1`, + Tarefa de entrega); **Parte 3** → **Lição 1** (Carta ao cursista, `M5P3L1p1`) com as páginas seguintes da mesma lição — certificado (`M5P3L1p2`) e Ficha Técnica (`M5P3L1p3`). Parte 1 (Lições 1–4, já entregues) não muda |
 
-## 🗺️ Panorama do módulo (mapa de páginas)
+## 🗺️ Panorama do módulo (mapa de páginas — estrutura v2 com Partes 2 e 3)
 
-| Ciclo | Página (Moodle) | Arquivo |
-|---|---|---|
-| 1 | Apresentação do Módulo 5 | `templates/pages/Encerramento/M5-Apresentacao_do_modulo_5.html` |
-| 2 | Label Parte 1 — Revisitando os módulos do curso e as aprendizagens adquiridas | `templates/pages/labels/M5_Label_Parte1_...html` |
-| 3 | Recordar é viver: Módulo I Primeira infância | `templates/pages/Encerramento/Parte1/Licao1/M5P1L1p1.html` |
-| 4 | Recordar é viver: Módulo II Leitura e primeira infância | `.../Parte1/Licao2/M5P1L2p1.html` |
-| 5 | Recordar é viver: Módulo III Bibliotecas Comunitárias e Primeira Infância | `.../Parte1/Licao3/M5P1L3p1.html` |
-| 6 | Recordar é viver: Módulo IV Mãos na Massa! (ou nos livros!) | `.../Parte1/Licao4/M5P1L4p1.html` |
-| 7 | Avaliação do curso | `.../Parte1/Licao5/M5P1L5p1.html` |
-| 8 | Plano de ação | `.../Parte1/Licao6/M5P1L6p1.html` |
-| 9 | Antes de sair — "Atividade: Carta ao cursista" | `.../Parte1/Licao7/M5P1L7p1.html` |
+| Ciclo | Parte | Página/Atividade (Moodle) | Arquivo |
+|---|---|---|---|
+| 1 | — | Apresentação do Módulo 5 | `templates/pages/Encerramento/M5-Apresentacao_do_modulo_5.html` |
+| 2 | Parte 1 | Label — Revisitando os módulos do curso e as aprendizagens adquiridas | `templates/pages/labels/M5_Label_Parte1_...html` |
+| 3 | Parte 1 | Recordar é viver: Módulo 1 — Primeira Infância | `.../Parte1/Licao1/M5P1L1p1.html` |
+| 4 | Parte 1 | Recordar é viver: Módulo 2 — Leitura e Primeira Infância | `.../Parte1/Licao2/M5P1L2p1.html` |
+| 5 | Parte 1 | Recordar é viver: Módulo 3 — Bibliotecas Comunitárias e Primeira Infância | `.../Parte1/Licao3/M5P1L3p1.html` |
+| 6 | Parte 1 | Recordar é viver: Módulo 4 — Mãos na Massa! (ou nos livros!) | `.../Parte1/Licao4/M5P1L4p1.html` |
+| 7 | **Parte 2** | Lição 1 — Avaliação do curso (link + embed do Forms) | `.../Parte2/Licao1/M5P2L1p1.html` |
+| 8 | **Parte 2** | Lição 2 — Plano de ação (página) + **Tarefa de entrega do Moodle** (atividade) | `.../Parte2/Licao2/M5P2L2p1.html` + Tarefa (texto no Moodle) |
+| 9 | **Parte 3** | Lição 1 — Carta ao cursista (título do DI v2) | `.../Parte3/Licao1/M5P3L1p1.html` |
+| 10 | **Parte 3** | Página do certificado — texto do Cline + botão do `mod_customcert` | `.../Parte3/Licao1/M5P3L1p2.html` |
+| 11 | **Parte 3** | Ficha Técnica (conteúdo inline do DI v2) | `.../Parte3/Licao1/M5P3L1p3.html` |
+| 12 | Partes 2 e 3 | Labels das novas partes | `templates/pages/labels/M5_Label_Parte2_...html` · `M5_Label_Parte3_...html` |
 
 > **Sem H5P e sem Sequências Didáticas** neste módulo (logo, sem PDFs de SD). Navegação (Anterior/Próximo/Finalizar) é configurada pelo mestre no Moodle (N3.5.1).
 
@@ -158,10 +180,13 @@
 | 1 | Apresentação do Módulo 5 (`M5-Apresentacao_do_modulo_5.html`) — **validada e inserida no Moodle (22/11/2026)** | ✅ 22/11/2026 |
 | 2 | Label da Parte 1 (`M5_Label_Parte1_...`) — **validado e inserido no Moodle (22/11/2026)** | ✅ 22/11/2026 |
 | 3 | Lição 1 — `templates/pages/Encerramento/Parte1/Licao1/M5P1L1p1.html` — 6 fotos tratadas + 6 descrições longas aprovadas uma a uma + carrossel no novo formato + **área de upload temporária** (padrão novo firmado) — **validada e inserida no Moodle (24/11/2026)** | ✅ 24/11/2026 |
-| 4 | Lição 2 (carrossel) — fotos 6/6 na `temp/` | ⏳ |
-| 5 | Lição 3 (carrossel) — fotos 6/6 na `temp/` | ⏳ |
-| 6 | Lição 4 (carrossel) — fotos 6/6 na `temp/` | ⏳ |
-| 7 | Lição 5 — Avaliação do curso | ⏳ |
-| 8 | Lição 6 — Plano de ação | ⏳ |
-| 9 | Lição 7 — Antes de sair | ⏳ |
-| 10+ | Reexecução da carga horária (§8 do PLANO) | ⏳ |
+| 4 | Lição 2 — `templates/pages/Encerramento/Parte1/Licao2/M5P1L2p1.html` — 6 fotos tratadas + 6 descrições aprovadas + carrossel no novo formato + área de upload temporária — **validada e inserida no Moodle (24/11/2026)** com navegação "Finalizar" | ✅ 24/11/2026 |
+| 5 | Lição 3 — `templates/pages/Encerramento/Parte1/Licao3/M5P1L3p1.html` — 6 fotos tratadas + 6 descrições aprovadas + carrossel no novo formato + área de upload temporária — **validada e inserida no Moodle (24/11/2026)** | ✅ 24/11/2026 |
+| 6 | Lição 4 — `templates/pages/Encerramento/Parte1/Licao4/M5P1L4p1.html` **ENTREGUE (24/11/2026)**: 6 fotos tratadas (proporções próprias nas Fotos 4 e 5) + 6 descrições aprovadas + carrossel no novo formato + área de upload temporária (aviso das Fotos 1 e 2) — ⏳ **aguardando validação no Moodle** (navegação: "Finalizar") | 🟡 entregue |
+| 7 | Lição 1 — Avaliação do curso (**Parte 2**, `.../Parte2/Licao1/M5P2L1p1.html`) — link + embed do Microsoft Forms | ⏳ |
+| 8 | Lição 2 — Plano de ação (**Parte 2**, `.../Parte2/Licao2/M5P2L2p1.html`) + **Tarefa de entrega do Moodle** (atividade, texto no Moodle) | ⏳ |
+| 9 | Lição 1 — Carta ao cursista (**Parte 3**, `.../Parte3/Licao1/M5P3L1p1.html`) | ⏳ |
+| 10 | Página do certificado (**Parte 3**, `M5P3L1p2.html`) — texto proposto pelo Cline + botão do `mod_customcert` (plugin) | ⏳ |
+| 11 | Ficha Técnica (**Parte 3**, `M5P3L1p3.html`) — conteúdo inline do DI v2 | ⏳ |
+| 12 | Labels das Partes 2 e 3 (`M5_Label_Parte2_...` · `M5_Label_Parte3_...`) | ⏳ |
+| 13+ | Reexecução da carga horária (§8 do PLANO) | ⏳ |

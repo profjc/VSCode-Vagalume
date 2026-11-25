@@ -131,6 +131,7 @@ Ao finalizar cada ciclo, entregar um quadro como este:
 | 12 | **Vídeo padrão** | TODO vídeo é embedado por padrão (iframe YouTube). Só fallback (thumb + link) se o mestre avisar que NÃO é autorizado. |
 | 13 | **Vídeo vertical (Shorts)** | Conferir a orientação por **oEmbed** antes de montar a página. Shorts verticais usam o bloco **9:16** (`max-width: 315px` + `height: 560px`); o **16:9** (`560px` + `315px`) segue padrão para vídeos horizontais. Minutagem abaixo de 1 min fica fiel ao DI (ex.: `48s`). Precedente: `M3P4L2p1.html` (26/09/2026). |
 | 14 | **Página com várias imagens (carrossel/galeria)** | **ÁREA DE UPLOAD TEMPORÁRIA no topo** (fora do carrossel): o TinyMCE só mostra o 1º slide e Anterior/Próximo não funcionam no editor. Um bloco temporário por imagem, **rotulado pelo destino** ("Slide N — Foto N — <identificação>"), entre `INÍCIO`/`FIM DA ÁREA DE UPLOAD TEMPORÁRIA`; o mestre sobe todas, cola cada endereço no `src` do slide certo e apaga a área. Precedente validado: `M5P1L1p1.html` (24/11/2026). |
+| 15 | **Acúmulo de ~20 modificações sem commit** | **Lembrar o mestre a autorizar commit + push de segurança** (`git status --porcelain \| wc -l` como contagem). Nunca commitar sem autorização, mas nunca deixar o gatilho passar em silêncio (`.clinerules` N1.8.2, 24/11/2026). |
 
 ---
 
