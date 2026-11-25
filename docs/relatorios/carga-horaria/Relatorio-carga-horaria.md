@@ -2,26 +2,26 @@
 title: "Carga horária efetiva — Ambiente de Formação Vaga Lume"
 subtitle: "Estimativa por categoria de recurso · cenários e justificativas"
 author: "AGIR"
-date: "15/10/2026"
+date: "25/11/2026"
 lang: pt-BR
 ---
 
 # Sumário executivo
 
-A **carga horária obrigatória estimada** do curso é de **22h21min** (cenário de referência) — ou **24h35min no cenário recomendado**, que acrescenta 10% de folga para pausas, retomadas e espera. A **carga opcional/complementar** (bibliografia, PDFs das Sequências Didáticas e gravações dos encontros) soma **5h24min**.
+A **carga horária obrigatória estimada** do curso é de **23h19min** (cenário de referência) — ou **25h39min no cenário recomendado**, que acrescenta 10% de folga para pausas, retomadas e espera. A **carga opcional/complementar** (bibliografia, PDFs das Sequências Didáticas e gravações dos encontros) soma **5h21min**.
 
 | Cenário | Obrigatória (A) | Opcional (B) | **Total (A+B)** |
 |---|---|---|---|
-| Mínimo | 15h52min29s | 4h58min45s | 20h51min14s |
-| **Referência** | **22h20min42s** | 5h23min32s | **27h44min14s** |
-| Máximo | 29h39min53s | 6h45min55s | 36h25min48s |
-| **Recomendado** (+10%) | **24h34min46s** | 5h55min53s | **30h30min39s** |
+| Mínimo | 16h31min41s | 4h56min12s | 21h27min53s |
+| **Referência** | **23h19min09s** | 5h21min13s | **28h40min22s** |
+| Máximo | 30h37min57s | 7h05min37s | 37h43min34s |
+| **Recomendado** (+10%) | **25h39min04s** | 5h53min20s | **31h32min24s** |
 
-**Em uma frase:** o curso pede cerca de **22 horas** de dedicação obrigatória (≈ **24,5 horas** com folga), distribuídas por **5 módulos + Encontros Síncronos + Encerramento**, além de aproximadamente **5 horas** de aprofundamento opcional.
+**Em uma frase:** o curso pede cerca de **23 horas** de dedicação obrigatória (≈ **25,6 horas** com folga), distribuídas por **6 módulos** (Boas-vindas, Primeira Infância, Leitura e Primeira Infância, Bibliotecas Comunitárias, Mão na massa e Encerramento) e pela página dos **Encontros Síncronos**, além de aproximadamente **5,4 horas** de aprofundamento opcional.
 
-**O que compõe a carga obrigatória:** leitura das páginas, análise das imagens, vídeos de conteúdo, atividades (H5P), participação nos fóruns, navegação, encontros síncronos e as leituras externas instruídas.
+**O que compõe a carga obrigatória:** leitura das páginas, análise das imagens, vídeos de conteúdo, atividades (H5P), participação nos fóruns, navegação, encontros síncronos, leituras externas instruídas e as atividades de conclusão do M5 (avaliação, Plano de Ação, Tarefa e Certificado).
 
-**O que ainda não foi produzido:** o **bloco novo dos Encontros** (texto + imagem + vídeo), que **não entra** no cálculo. O **Módulo de Encerramento** entra como **estimativa por analogia com o Módulo 0** (ver **seção 6**), com ressalva.
+**Cobertura:** todos os módulos estão **produzidos e medidos**, inclusive o **Módulo de Encerramento (M5)** e o **bloco dos Encontros** (texto, cartazes e 3 gravações). A **reexecução de 25/11/2026** substituiu a antiga **estimativa por analogia com o Módulo 0** pela **medição página a página** (ver **seção 6**).
 
 **Natureza do número:** é uma **estimativa**, não uma medição. Não existem relatórios de duração/conclusão do Moodle (confirmado em 14/10/2026). As **quantidades** (páginas, palavras, imagens, itens de atividade) são **exatas e rastreáveis** até o arquivo de origem; os **tempos** são **parâmetros metodológicos** com fonte citada.
 
@@ -35,14 +35,14 @@ O objetivo é oferecer à equipe um **número defensável** de tempo de dedicaç
 
 **Escopo considerado:**
 
-- **No ar e validados:** **M0 — Boas-vindas**, **M1 — Primeira Infância**, **M2 — Leitura e Primeira Infância**, **M3 — Bibliotecas Comunitárias**, **M4 — Mão na massa** e a página dos **Encontros Síncronos** — total de **147 páginas**.
-- **Computado como efetivo** (decisão da coordenação): o **3º Encontro Síncrono** — que ainda não ocorreu, mas **ocorrerá** e terá a **mesma duração dos encontros anteriores (1h30)**. O **bloco novo** (texto + imagem + vídeo) a inserir na página dos Encontros **não entra** (sem quantidades definidas).
-- **Módulo de Encerramento** (Certificação e Avaliação): **ainda não produzido** — para uma estimativa mais realista, é computado **por analogia com o Módulo 0 (Boas-vindas)**, com ressalva declarada (ver **seção 6**).
+- **No ar e validados:** **M0 — Boas-vindas**, **M1 — Primeira Infância**, **M2 — Leitura e Primeira Infância**, **M3 — Bibliotecas Comunitárias**, **M4 — Mão na massa**, **M5 — Certificação e Avaliação do curso (Encerramento)** e a página dos **Encontros Síncronos** — total de **158 páginas**.
+- **Computado como efetivo** (decisão da coordenação): o **3º Encontro Síncrono**, com a **mesma duração dos anteriores (1h30)**. O **bloco dos Encontros** — texto, **3 cartazes** e as **3 gravações** — está **reincorporado** desde 25/11/2026, com a **duração real da 3ª gravação (1h27min19s)** lida nos créditos da página.
+- **Módulo de Encerramento** (Certificação e Avaliação): **produzido e medido** desde 25/11/2026 — **11 páginas**, 4 carrosséis (24 fotos), 1 vídeo de 2min53s e **4 atividades de conclusão** (questionário do Forms, preenchimento do Plano de Ação, envio da Tarefa e emissão do Certificado).
 
 **Buckets (separação obrigatória):**
 
-- **A — carga obrigatória:** leitura das páginas, imagens, vídeos de conteúdo, atividades, fóruns, navegação, encontros síncronos e leituras externas instruídas.
-- **B — carga opcional/complementar:** bibliografia, PDFs das Sequências Didáticas (13) e gravações dos encontros.
+- **A — carga obrigatória:** leitura das páginas, imagens, vídeos de conteúdo, atividades, fóruns, navegação, encontros síncronos, leituras externas instruídas e as atividades de conclusão do M5.
+- **B — carga opcional/complementar:** bibliografia, PDFs das Sequências Didáticas (13) e as gravações dos encontros (3).
 
 O **número principal do relatório é o bucket A**; o B é apresentado **sempre em separado**, para que a carga obrigatória não seja inflada por itens de aprofundamento.
 
@@ -58,7 +58,7 @@ O cálculo é feito **página a página** (uma linha por página) e depois agreg
 
 ## 2.2 De onde vêm as quantidades
 
-As quantidades vêm do **inventário de recursos** gerado automaticamente a partir do próprio curso: **147 páginas**, **29.366 palavras** visíveis, **41 marcadores de imagem**, **19 vídeos** de conteúdo, **26 atividades** H5P (110 itens), **14 fóruns** e **13 PDFs** de Sequências Didáticas. A classificação das imagens por tipo, a revisão dos enunciados de fórum e o cruzamento da bibliografia foram feitos manualmente e registrados em documento próprio.
+As quantidades vêm do **inventário de recursos** gerado automaticamente a partir do próprio curso: **158 páginas**, **35.145 palavras** visíveis, **70 marcadores de imagem**, **20 vídeos** de conteúdo (mais **3 gravações** dos encontros), **26 atividades** H5P (110 itens), **14 fóruns**, **13 PDFs** de Sequências Didáticas e **1 PDF** do Plano de Ação (M5). A classificação das imagens por tipo, a revisão dos enunciados de fórum e o cruzamento da bibliografia foram feitos manualmente e registrados em documento próprio.
 
 ## 2.3 Tabela de parâmetros (resumida)
 
@@ -73,6 +73,7 @@ As quantidades vêm do **inventário de recursos** gerado automaticamente a part
 | Bibliografia | **1,5 min/item** de texto | [Heurística]{.ch} |
 | Navegação | **30 s por página nova** | [Heurística]{.ch} |
 | Encontros síncronos | **1h30 por encontro** (participação) | [Benchmark]{.cb} |
+| Atividades de conclusão (M5) | questionário da avaliação **10 min** · preenchimento do Plano de Ação **15 min** · envio da Tarefa **3 min** · certificado **2 min** | [Heurística]{.ch} |
 | SDs em PDF | leitura a **200 palavras/minuto** | [Científico]{.cg} [Heurística]{.ch} |
 
 **Níveis de confiança:** [Científico]{.cg} (com fonte publicada) · [Benchmark]{.cb} (referência institucional/mercado) · [Heurística]{.ch} (decisão explícita do projeto, sem fonte canônica). As fontes completas estão na **seção 7**.
@@ -102,30 +103,31 @@ Para não inflar o total, foram aplicadas regras explícitas: **páginas de fór
 | M1 — Primeira Infância | 34 | 3h45min03s |
 | M2 — Leitura e Primeira Infância | 36 | 5h03min14s |
 | M3 — Bibliotecas Comunitárias | 42 | 5h25min20s |
-| M4 — Mão na massa | 31 | 2h25min31s |
-| Encontros Síncronos (página) | 1 | 3min32s |
-| Ajustes (encontros + navegação de interface) | — | 4h42min00s |
-| Encerramento — Certificação e Avaliação *(estimado = M0)* | — | 28min01s |
-| **Total (referência)** | **147** | **22h20min42s** |
+| M4 — Mão na massa | 31 | 2h31min34s |
+| M5 — Certificação e Avaliação (Encerramento) | 11 | 47min20s |
+| Encontros Síncronos (página) | 1 | 5min07s |
+| Atividades de conclusão do M5 (questionário, plano, tarefa, certificado) | — | 30min00s |
+| Ajustes (encontros + navegação de interface) | — | 4h43min30s |
+| **Total (referência)** | **158** | **23h19min09s** |
 
 ## 3.2 Por categoria de recurso
 
 | Categoria | Quantidade | Referência | Mínimo | Máximo |
 |---|---|---|---|---|
 | Fóruns | 14 | 7h55min00s | 4h40min00s | 10h30min00s |
-| Encontros síncronos | 3 | 4h30min00s | — | — |
-| Leitura de textos | 26.898 palavras | 2h54min45s | 1h47min42s | 4h29min03s |
-| Vídeos de conteúdo | 2h24min52s | 2h24min52s | 2h24min52s | 3h01min06s |
+| Encontros síncronos | 3 | 4h30min00s | 4h30min00s | 4h30min00s |
+| Leitura de textos | 32.677 palavras | 3h32min20s | 2h10min49s | 5h26min47s |
+| Vídeos de conteúdo | 2h27min45s | 2h27min45s | 2h27min45s | 3h04min42s |
 | Atividades (H5P) | 26 | 2h16min00s | 1h08min00s | 3h24min00s |
-| Navegação | 147 páginas + 24 de interface | 1h25min30s | 42min45s | 2h08min15s |
-| Imagens | 39 marcadores | 16min40s | 8min18s | 25min02s |
+| Navegação | 158 páginas + 27 de interface | 1h32min30s | 46min15s | 2h18min45s |
+| Imagens | 67 marcadores | 25min40s | 12min50s | 38min30s |
 | Textos externos instruídos | 1.524 palavras | 9min54s | 6min06s | 15min14s |
-| **Encerramento** *(estimado = M0)* | por analogia com o Módulo 0 | 28min01s | 24min46s | 57min17s |
-| **Total — bucket A** | | **22h20min42s** | **15h52min29s** | **29h39min53s** |
+| Atividades de conclusão do M5 | 4 atividades | 30min00s | 30min00s | 30min00s |
+| **Total — bucket A** | | **23h19min09s** | **16h31min41s** | **30h37min57s** |
 
 ![Carga obrigatória por categoria de recurso](assets/images/relatorios/grafico-categorias.png)
 
-> **Leitura dos números:** os **fóruns** (7h55min) e os **encontros síncronos** (4h30min) são os itens mais pesados da carga obrigatória — juntos, quase **metade** do bucket A. A leitura das páginas soma ~2h55min.
+> **Leitura dos números:** os **fóruns** (7h55min) e os **encontros síncronos** (4h30min) são os itens mais pesados da carga obrigatória — juntos, mais de **metade** do bucket A. A leitura das páginas soma ~3h32min e os vídeos de conteúdo, 2h28min.
 
 # 4. Resultado — carga opcional/complementar (bucket B)
 
@@ -133,10 +135,9 @@ Para não inflar o total, foram aplicadas regras explícitas: **páginas de fór
 |---|---|---|---|
 | M1 | Bibliografia | 12 itens de texto | 18min00s |
 | M2 | Bibliografia | 3 itens de texto | 4min30s |
-| M4 | PDFs das Sequências Didáticas | 13 PDFs (3.608 palavras) | 23min27s |
-| Encontros | Gravações no ar + imagens | 2 gravações + 2 cartazes | 3h07min35s |
-| Encontros | 3ª gravação (declarada) | 1 | 1h30min00s |
-| **Total** | | | **5h23min32s** |
+| M4 | PDFs das Sequências Didáticas | 13 PDFs (3.548 palavras) | 23min04s |
+| Encontros | Gravações + imagens | 3 gravações (4h33min24s) + 3 cartazes | 4h35min39s |
+| **Total** | | | **5h21min13s** |
 
 > **Nota:** a bibliografia tem **38 itens**, mas **21 são vídeos** — destes, **18 já foram contados no bucket A** (são o mesmo vídeo que aparece no conteúdo) e **3 são sugestões** ("Quer saber mais?"), que **não contam**. Por isso a bibliografia soma apenas os **15 itens de texto** a 1,5 min cada. Os PDFs das Sequências Didáticas contam **no bucket B**, enquanto a **página** correspondente já contou no bucket A.
 
@@ -144,27 +145,28 @@ Para não inflar o total, foram aplicadas regras explícitas: **páginas de fór
 
 | Cenário | Obrigatória (A) | Opcional (B) | **Total (A+B)** |
 |---|---|---|---|
-| Mínimo | 15h52min29s | 4h58min45s | 20h51min14s |
-| **Referência** | **22h20min42s** | 5h23min32s | **27h44min14s** |
-| Máximo | 29h39min53s | 6h45min55s | 36h25min48s |
-| **Recomendado** | **24h34min46s** | 5h55min53s | **30h30min39s** |
+| Mínimo | 16h31min41s | 4h56min12s | 21h27min53s |
+| **Referência** | **23h19min09s** | 5h21min13s | **28h40min22s** |
+| Máximo | 30h37min57s | 7h05min37s | 37h43min34s |
+| **Recomendado** | **25h39min04s** | 5h53min20s | **31h32min24s** |
 
-**Recomendação:** adotar o **cenário recomendado** — **≈ 24,5 horas de carga obrigatória** — como referência de comunicação. Ele parte do cenário de referência (22h21min) e acrescenta **10% de overhead** de estudo, cobrindo pausas, retomadas e espera por resposta nos fóruns. É a estimativa mais realista para o cursista e a mais defensável, porque cada parcela pode ser auditada.
+**Recomendação:** adotar o **cenário recomendado** — **≈ 25,6 horas de carga obrigatória** — como referência de comunicação. Ele parte do cenário de referência (**23h19min09s**) e acrescenta **10% de overhead** de estudo, cobrindo pausas, retomadas e espera por resposta nos fóruns. É a estimativa mais realista para o cursista e a mais defensável, porque cada parcela pode ser auditada.
 
-A **carga opcional (≈ 5h24min)** deve ser comunicada **à parte**, como aprofundamento — não como exigência.
+A **carga opcional (≈ 5h21min)** deve ser comunicada **à parte**, como aprofundamento — não como exigência.
 
 # 6. Notas e limitações
 
 1. **É estimativa, não medição.** Não existem relatórios oficiais de duração do Moodle; se vierem a existir, recomenda-se **medir** e usar esta estimativa apenas como comparação de sanidade.
 2. **Páginas de fórum não somam leitura** — o "ler instruções" já está dentro dos 35 min por fórum (20 min no fórum de Boas-vindas). É uma regra anti-dupla-contagem.
 3. **Vídeos da bibliografia**, quando já contados no conteúdo, **não somam de novo** (princípio firmado pela coordenação).
-4. **SDs em PDF:** o texto dos 13 PDFs foi medido (3.608 palavras, a 200 ppm). A **página** da SD conta no bucket A e o **PDF** no B.
+4. **SDs em PDF:** o texto dos 13 PDFs foi medido (**3.548 palavras**, a 200 ppm — os PDFs foram regerados em 23/10/2026). A **página** da SD conta no bucket A e o **PDF** no B.
 5. **Atividades H5P:** adotou-se **1,5 min/questão** para múltipla escolha e verdadeiro/falso; **3 min por atividade** para associação/arrastar/desafio de palavras; **20 s por carta** (virar cartões) e **5 min** (caça-palavras).
 6. **Estudo ativo (×1,3)** aplicado a toda a leitura (conteúdo, textos externos e SDs), e **nunca** aos fóruns.
-7. **Encontros:** o **3º Encontro Síncrono** — ainda **não ocorrido** — é computado como **efetivo**, porque **ocorrerá** e terá a **mesma duração dos encontros anteriores (1h30)** (decisão da coordenação). A **3ª gravação** foi assumida em **1h30** (duração declarada) até que o encontro ocorra.
-8. **Bloco novo dos Encontros** (texto + imagem + vídeo) **não foi incluído** por não ter quantidades definidas (ainda não produzido) — será reincorporado na reexecução.
-9. **Módulo de Encerramento** (Certificação e Avaliação): **ainda não produzido** — estimado **por analogia com o Módulo 0 (Boas-vindas)** = **28min01s**, a pedido da coordenação, para uma carga mais realista. **Ressalva:** é uma estimativa de **ordem de grandeza**, a ser **substituída pela medição** quando o módulo for produzido.
-10. **Reexecução:** quando o curso mudar (novo módulo, nova atividade, novo encontro), basta rodar novamente a esteira de inventário e cálculo — os parâmetros e as decisões permanecem registrados.
+7. **Encontros:** o **3º Encontro Síncrono** é computado como **efetivo**, com a **mesma duração dos encontros anteriores (1h30)** (decisão da coordenação). A **3ª gravação** já está **na página dos Encontros**, com a **duração real de 1h27min19s** lida nos créditos — a hipótese de 1h30 (declarada) foi substituída.
+8. **Bloco dos Encontros** (texto + imagem + vídeo) **reincorporado** em 25/11/2026: 710 palavras, **3 cartazes** (135 s) e **3 gravações** (4h33min24s) — as gravações entram no bucket B e o texto no bucket A.
+9. **Módulo de Encerramento** (Certificação e Avaliação): **produzido e medido** em 25/11/2026 — **11 páginas** = **47min20s** (leitura, 24 fotos em 4 carrosséis, 1 vídeo de 2min53s e navegação) + **30min** de atividades de conclusão = **1h17min20s** no bucket A. A estimativa por analogia com o Módulo 0 (28min01s) **não é mais usada**.
+10. **Reexecução:** quando o curso mudar (novo módulo, nova atividade, novo encontro), basta rodar novamente a esteira de inventário e cálculo — os parâmetros e as decisões permanecem registrados. Esta edição é a **reexecução de 25/11/2026** (Módulo 5 produzido, 3ª gravação no ar e revisão do M4).
+11. **Atividades de conclusão do M5** (bucket A): questionário da avaliação **10 min** (decisão da coordenação, 25/11/2026); preenchimento do PDF do Plano de Ação **15 min** (mínimo 2 atividades × 6 campos ≈ 75 s/campo); envio da Tarefa **3 min**; emissão do Certificado **2 min** (operacionais).
 
 # 7. Fontes
 
@@ -192,4 +194,4 @@ A **carga opcional (≈ 5h24min)** deve ser comunicada **à parte**, como aprofu
 - **Inventário de recursos** (quantidades por página) — documentos `inventario-recursos.md` / `.csv`.
 - **Ajustes finos** (classificação das imagens por tipo, revisão dos fóruns, cruzamento da bibliografia e leitura das SDs) — documento `ajustes-finos.md`.
 
-> **Método:** os números foram produzidos com a skill `metricas-carga-horaria` v1.1.1 e são reproduzíveis pela esteira `scripts/inventario-recursos.py` → `scripts/calculo-carga-horaria.py`.
+> **Método:** os números foram produzidos com a skill `metricas-carga-horaria` v1.2.1 (reexecução de 25/11/2026) e são reproduzíveis pela esteira `scripts/inventario-recursos.py` → `scripts/calculo-carga-horaria.py`.

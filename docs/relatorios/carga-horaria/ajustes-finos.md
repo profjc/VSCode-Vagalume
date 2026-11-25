@@ -10,7 +10,7 @@
 > **O que é:** registro dos **ajustes finos** que o inventário automático **não** faz — classificação das **imagens por tipo**, revisão dos **enunciados de fórum**, cruzamento **bibliografia × vídeos** e medição do **artigo externo**. É a **segunda metade** da contagem: o **Cálculo (Ciclo 4)** lê *inventário + este arquivo*.
 > **Decisão (i) do mestre (14/10/2026):** os ajustes vivem **aqui**, em arquivo separado — o **inventário gerado (`inventario-recursos.md`/`.csv`) fica INTACTO** (reprodutibilidade preservada). **Regra de ouro da skill:** nunca editar o CSV/MD do inventário à mão.
 > **Método (skill `metricas-carga-horaria` v1.1.1):** `reference/parametros.md` (parâmetros com fonte e nível de confiança 🟢/🟡/🔴) · `reference/metodo-e-cenarios.md` (buckets e anti-dupla-contagem) · `reference/armadilhas.md`.
-> **Status:** **🏁 CICLO 3 FECHADO ✅ (14/10/2026)** — **3A** imagens ✅ · **3B** fóruns ✅ · **3C** bibliografia × vídeos ✅ · **3D** textos externos instruídos ✅. **Bucket A:** imagens **16min40s** · fóruns **7h55min** · textos externos instruídos **7min37s**. **Bucket B:** bibliografia **22,5 min** · ENC **90 s**. **Próximo: CICLO 4 (Cálculo página a página + cenários)**, que lê *inventário + este arquivo*. **Ciclo 4 (14/10/2026):** acrescentada a **§8** (texto dos 13 PDFs das SDs) — o cálculo (`calculo-carga-horaria.csv`/`.md`) lê *inventário + este arquivo*.
+> **Status:** **🏁 CICLO 3 FECHADO ✅ (14/10/2026)** — **3A** imagens ✅ · **3B** fóruns ✅ · **3C** bibliografia × vídeos ✅ · **3D** textos externos instruídos ✅. **Bucket A:** imagens **16min40s** · fóruns **7h55min** · textos externos instruídos **7min37s**. **Bucket B:** bibliografia **22,5 min** · ENC **90 s**. **Próximo: CICLO 4 (Cálculo página a página + cenários)**, que lê *inventário + este arquivo*. **Ciclo 4 (14/10/2026):** acrescentada a **§8** (texto dos 13 PDFs das SDs) — o cálculo (`calculo-carga-horaria.csv`/`.md`) lê *inventário + este arquivo*. **Reexecução de 25/11/2026:** §1.4 e §1.5 atualizadas (ENC com **3 cartazes**, M4 com **4 fotos** e M5 com **24 fotos**) e **§9** criada com as atividades de conclusão do M5 — ver `PLANO-carga-horaria.md` §8.
 
 ---
 
@@ -83,14 +83,15 @@ Parâmetro: **imagens por tipo** (`parametros-carga-horaria.md` §4, linha 3 —
 
 **Subtotal M3 — bucket A (= 45 + 15 + 75 + 60 + 15 + 45 + 90 + 45 + 90 + 15): 495 s = 8min15s.** *(Alternativas nas decisões (3a), (3b) e (3c) — ver §5.)*
 
-### §1.4 — Página dos Encontros Síncronos (ENC) — **2 cards** ✅ 3A.3
+### §1.4 — Página dos Encontros Síncronos (ENC) — **3 cards** ✅ 3A.3 + reexecução 25/11/2026
 
 | # | Página (arquivo) | Marca. | Arquivo da imagem (`assets/images/ilustracoes/Encontros-sincronos/`) | Tipo atribuído | Tempo | Evidência da decisão |
 |---|---|---|---|---|---|---|
 | 40 | `Encontros-sincronos/encontros_sincronos_galeria.html` | 1 | `Encontro_Sincrono_1_card.jpg` | **cartaz de divulgação** (título, tema, data/hora, convidada, mediadora, programação, logos) | **45 s** | imagem **vista** + `sr-only` ("Card de divulgação do Encontro Síncrono…") — **decisão (4)** |
 | 41 | `Encontros-sincronos/encontros_sincronos_galeria.html` | 1 | `Encontro_Sincrono_2_card.png` | **cartaz de divulgação** (mesmo padrão do card 1) | **45 s** | ⚠️ **imagem não inspecionável** ("media omitted") — evidência: `sr-only` ("Card de divulgação do Segundo Encontro Síncrono…") + **analogia com o card 1**; **decisão (4)** |
+| 42 | `Encontros-sincronos/encontros_sincronos_galeria.html` | 1 | `Encontro_Sincrono_3_card.jpg` | **cartaz de divulgação** (mesmo padrão dos cards 1 e 2) | **45 s** | ⚠️ **imagem não inspecionável** — evidência: `sr-only` do 3º card + **analogia com os cards 1 e 2**; **decisão (4)** (reexecução de 25/11/2026) |
 
-**Subtotal ENC — bucket B (= 2 × 45 s): 90 s = 1min30s.** *(Vai com as **gravações** dos encontros, já opcionais.)*
+**Subtotal ENC — bucket B (= 3 × 45 s): 135 s = 2min15s.** *(Vai com as **gravações** dos encontros, já opcionais.)*
 
 ### §1.5 — Totais das imagens (Ciclo 3A fechado)
 
@@ -99,8 +100,10 @@ Parâmetro: **imagens por tipo** (`parametros-carga-horaria.md` §4, linha 3 —
 | M1 | 13 | carrossel (5) + fotos/peças | **160 s = 2min40s** | 0 |
 | M2 | 9 | tirinhas/cartuns/HQ (7) + 2 simples | **345 s = 5min45s** | 0 |
 | M3 | 17 | 5 fotos + 4 ilustrações + tirinha/cartum + 3 documentos/capas | **495 s = 8min15s** | 0 |
-| ENC | 2 | cartazes de divulgação | 0 | **90 s = 1min30s** |
-| **Total** | **41 de 41** | **Ciclo 3A fechado ✅** | **1.000 s = 16min40s** | **90 s = 1min30s** |
+| M4 | 4 | 4 fotos únicas (Acervo Vaga Lume — revisão de 23/10/2026) | **60 s = 1min** | 0 |
+| M5 | 24 | 4 carrosséis de 6 fotos (ações da rede de voluntários) | **480 s = 8min** | 0 |
+| ENC | 3 | cartazes de divulgação | 0 | **135 s = 2min15s** |
+| **Total** | **70 de 70** | **reexecução fechada ✅ (25/11/2026)** | **1.540 s = 25min40s** | **135 s = 2min15s** |
 
 ---
 
@@ -282,24 +285,65 @@ As **5 durações** que o plano do Ciclo 3 listava como "a localizar" estão **r
 
 | Página (arquivo) | PDF | Palavras | 200 ppm (leitura pura) |
 |---|---|---|---|
-| `M4/Parte3/Licao2/M4P3L2p2.html` | `M4P3L2p2.pdf` | 274 | 1min22s |
-| `M4/Parte3/Licao2/M4P3L2p3.html` | `M4P3L2p3.pdf` | 335 | 1min40s |
-| `M4/Parte3/Licao2/M4P3L2p4.html` | `M4P3L2p4.pdf` | 326 | 1min38s |
-| `M4/Parte3/Licao2/M4P3L2p5.html` | `M4P3L2p5.pdf` | 247 | 1min14s |
-| `M4/Parte3/Licao2/M4P3L2p6.html` | `M4P3L2p6.pdf` | 237 | 1min11s |
-| `M4/Parte3/Licao3/M4P3L3p2.html` | `M4P3L3p2.pdf` | 279 | 1min24s |
-| `M4/Parte3/Licao3/M4P3L3p3.html` | `M4P3L3p3.pdf` | 439 | 2min12s |
-| `M4/Parte3/Licao4/M4P3L4p2.html` | `M4P3L4p2.pdf` | 276 | 1min23s |
-| `M4/Parte3/Licao4/M4P3L4p3.html` | `M4P3L4p3.pdf` | 214 | 1min04s |
-| `M4/Parte3/Licao4/M4P3L4p4.html` | `M4P3L4p4.pdf` | 249 | 1min15s |
-| `M4/Parte3/Licao4/M4P3L4p5.html` | `M4P3L4p5.pdf` | 241 | 1min12s |
-| `M4/Parte3/Licao5/M4P3L5p2.html` | `M4P3L5p2.pdf` | 225 | 1min08s |
-| `M4/Parte3/Licao5/M4P3L5p3.html` | `M4P3L5p3.pdf` | 266 | 1min20s |
-| **Total (13 PDFs)** | | **3.608** | **18min02s** |
+| `M4/Parte3/Licao2/M4P3L2p2.html` | `M4P3L2p2.pdf` | 270 | 1min21s |
+| `M4/Parte3/Licao2/M4P3L2p3.html` | `M4P3L2p3.pdf` | 331 | 1min39s |
+| `M4/Parte3/Licao2/M4P3L2p4.html` | `M4P3L2p4.pdf` | 322 | 1min37s |
+| `M4/Parte3/Licao2/M4P3L2p5.html` | `M4P3L2p5.pdf` | 243 | 1min13s |
+| `M4/Parte3/Licao2/M4P3L2p6.html` | `M4P3L2p6.pdf` | 233 | 1min10s |
+| `M4/Parte3/Licao3/M4P3L3p2.html` | `M4P3L3p2.pdf` | 275 | 1min23s |
+| `M4/Parte3/Licao3/M4P3L3p3.html` | `M4P3L3p3.pdf` | 435 | 2min10s |
+| `M4/Parte3/Licao4/M4P3L4p2.html` | `M4P3L4p2.pdf` | 272 | 1min22s |
+| `M4/Parte3/Licao4/M4P3L4p3.html` | `M4P3L4p3.pdf` | 210 | 1min03s |
+| `M4/Parte3/Licao4/M4P3L4p4.html` | `M4P3L4p4.pdf` | 245 | 1min14s |
+| `M4/Parte3/Licao4/M4P3L4p5.html` | `M4P3L4p5.pdf` | 229 | 1min09s |
+| `M4/Parte3/Licao5/M4P3L5p2.html` | `M4P3L5p2.pdf` | 221 | 1min06s |
+| `M4/Parte3/Licao5/M4P3L5p3.html` | `M4P3L5p3.pdf` | 262 | 1min19s |
+| **Total (13 PDFs)** | | **3.548** | **17min44s** |
 
 **Convenções e método:**
-- **Contagem:** `pdftotext` + regex `[A-Za-zÀ-ÿ0-9]+` (= método do inventário) → **3.608 palavras**. Por `wc -w` daria **3.678** (diferença de tokenização de hífens/pontuação) — **usamos o método do projeto**.
-- **No Cálculo (Ciclo 4):** a leitura entra a **200 ppm** e recebe o **estudo ativo ×1,3** (como toda a leitura) → **23min27s** no cenário de referência (bucket B).
+- **Contagem:** `pdftotext` + regex `[A-Za-zÀ-ÿ0-9]+` (= método do inventário) → **3.548 palavras** (medição de 25/11/2026; em 14/10 era **3.608** — os **PDFs foram regerados em 23/10/2026**, na revisão do M4). Por `wc -w` daria **3.618** (diferença de tokenização de hífens/pontuação) — **usamos o método do projeto**.
+- **No Cálculo (Ciclo 4):** a leitura entra a **200 ppm** e recebe o **estudo ativo ×1,3** (como toda a leitura) → **23min04s** no cenário de referência (bucket B).
 - **Anti-dupla-contagem:** a **página** da SD conta no bucket **A** (leitura normal + navegação); o **PDF** conta no bucket **B** — nunca os dois no mesmo bucket (§7 da skill).
 - **Reprodutibilidade:** a medição é **feita pelo script** a cada execução (não fixada à mão) — o número acompanha qualquer alteração futura nos PDFs.
 
+
+---
+
+## §9 — Reexecução de 25/11/2026 (Módulo 5 produzido + revisão do M4 + Encontros)
+
+> **Gatilho:** Passo 6 da skill — o **Módulo 5 (Encerramento)** foi **produzido, validado no Moodle e fechado** em 25/11/2026; a página dos **Encontros** recebeu a **3ª gravação**; e o **M4** havia sido revisado em **23/10/2026** (depois do inventário de 14/10). O inventário foi **regerado** (158 páginas) e **nada foi editado à mão** (regra de ouro).
+
+### §9.1 — Imagens novas (29 marcadores)
+
+| Origem | Página(s) | Marca. | Tipo atribuído | Tempo | Evidência / decisão |
+|---|---|---|---|---|---|
+| **M4** (revisão de 23/10/2026) | `M4P3L2p1` · `M4P3L3p1` · `M4P3L4p1` · `M4P3L5p1` | 1 cada | **foto única** ("Acervo Vaga Lume", 1280×853) | **15 s cada** = **60 s** | `figcaption` ("Fonte: Acervo Vaga Lume") + `sr-only` `fig1-desc`; critério §0 (foto/cena única) |
+| **M5** (módulo novo) | `M5P1L1p1` · `M5P1L2p1` · `M5P1L3p1` · `M5P1L4p1` | 6 cada | **carrossel de 6 fotos** (ações da rede de voluntários nas comunidades) | **20 s/imagem = 120 s por página** (**480 s** no total) | formato aprovado em 24/11/2026 (foto + legenda + botão "Saiba mais sobre essa imagem"); parâmetro de **carrossel = 20 s/imagem** (§0) |
+| **ENC** | `encontros_sincronos_galeria.html` | +1 | **cartaz de divulgação** (3º encontro) | **45 s** | §1.4 — decisão (4) |
+
+### §9.2 — Vídeos
+
+- **M5 — Carta ao cursista** (`M5P3P1`): 1 vídeo embedado de **2min53s** — já contado pelo inventário na coluna `video_segundos`; **sem ajuste manual**.
+- **ENC — 3ª gravação**: **1h27min19s**, lidos nos **créditos da página** (substitui a **1h30 declarada** do Ciclo 5). A página passou a somar **4h33min24s** de gravações (bucket B) e a antiga linha de ajuste *"3ª gravação (declarada)"* foi **removida** do cálculo — **anti-dupla-contagem**.
+
+### §9.3 — Atividades de conclusão do M5 (linhas de ajuste, bucket A)
+
+| Atividade | Origem | Tempo | Natureza | Derivação |
+|---|---|---|---|---|
+| Questionário da **Avaliação do curso** (Microsoft Forms embedado) | `M5P2P1` | **10 min** (600 s) | 🟡 **decisão do mestre** | decisão de **25/11/2026** — "pode contar 10 minutos para o questionário" |
+| **PDF do Plano de Ação** — preenchimento | `M5P2AT1` + `assets/pdf/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.pdf` | **15 min** (900 s) | 🔴 heurística declarada | formulário de **1 página / 144 palavras**, com **6 campos por atividade** e exigência de **mínimo 2 atividades** → **12 campos × ~75 s** |
+| **Tarefa** — foto do plano + envio | `M5P2AT1` | **3 min** (180 s) | 🔴 heurística declarada | operacional da Tarefa (baixar, imprimir, preencher já contam no PDF; aqui: fotografar e anexar) |
+| **Certificado de Conclusão** — emissão/download | `M5P3AT1` | **2 min** (120 s) | 🔴 heurística declarada | botão do `mod_customcert`: gerar e baixar o PDF do certificado |
+
+> **Por que linha de ajuste e não página:** são **ações** (preencher, enviar, baixar), não leitura de página — o texto das páginas já entra pela leitura normal. O **PDF do Plano de Ação não é vinculado a página** no inventário (nome do arquivo ≠ nome da página) → entra por aqui, e não pela coluna `pdf` do CSV.
+
+### §9.4 — Navegação
+
+- **labels:** 21 → **24 arquivos** em `templates/pages/labels/` (23 labels reais + 1 template) — as **3 labels do M5** (Partes 1, 2 e 3) entraram em 24/11 e 25/11/2026.
+- **frontpage:** 3 (sem mudança).
+
+### §9.5 — O que **não** mudou
+
+- **Parâmetros** e **decisões** (§5) → **intocados** (bloqueio por inércia: revisão só por gatilho declarado).
+- **Fóruns** (14), **H5P** (26 atividades / 110 itens) e **bibliografia** (15 itens de texto) → sem mudança.
+- **Estratégia de leitura** (200 ppm × estudo 1,3) e **cenários** → sem mudança.

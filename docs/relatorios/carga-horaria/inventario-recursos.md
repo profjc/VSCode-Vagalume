@@ -1,7 +1,7 @@
 # Inventário de recursos — curso Vaga Lume
 
-> Gerado automaticamente por `scripts/inventario-recursos.py` em 14/10/2026.
-> Escopo: módulos produzidos e validados no Moodle (M0 Boas-vindas, M1, M2, M3, M4) e a página dos Encontros Síncronos. Este arquivo é a base quantitativa do relatório de carga horária — método e parâmetros em `PLANO-carga-horaria.md`.
+> Gerado automaticamente por `scripts/inventario-recursos.py` em 25/11/2026.
+> Escopo: módulos produzidos e validados no Moodle (M0 Boas-vindas, M1, M2, M3, M4 e M5 Encerramento) e a página dos Encontros Síncronos. Este arquivo é a base quantitativa do relatório de carga horária — método e parâmetros em `PLANO-carga-horaria.md`.
 
 ## 1. Resumo por módulo
 
@@ -11,19 +11,20 @@
 | M1 | 34 | 6851 | 13 | 1/2 | 23min35s | 4 | 24 | 3 | 0 |
 | M2 | 36 | 4945 | 9 | 4/0 | 58min16s | 9 | 44 | 4 | 0 |
 | M3 | 42 | 8033 | 17 | 10/0 | 53min37s | 12 | 41 | 4 | 0 |
-| M4 | 31 | 7926 | 0 | 2/0 | 9min24s | 1 | 1 | 2 | 13 |
-| ENC | 1 | 467 | 2 | 2/0 | 3h06min05s | 0 | 0 | 0 | 0 |
-| **TOTAL** | **147** | **29366** | **41** | **19/2** | **5h30min57s** | **26** | **110** | **14** | **13** |
+| M4 | 31 | 8697 | 4 | 2/0 | 9min24s | 1 | 1 | 2 | 13 |
+| M5 | 11 | 4765 | 24 | 1/0 | 2min53s | 0 | 0 | 0 | 0 |
+| ENC | 1 | 710 | 3 | 3/0 | 4h33min24s | 0 | 0 | 0 | 0 |
+| **TOTAL** | **158** | **35145** | **70** | **21/2** | **7h01min09s** | **26** | **110** | **14** | **13** |
 
-> **Notas de contagem:** "Vídeos (emb./instr.)" = vídeos embedados (iframe) + vídeos instruídos por link na página/fórum (entram no tempo efetivo). Vídeos **sugeridos** ("Quer saber mais?", bibliografia) são registrados na seção 4 e **não** entram no tempo efetivo. "Imagens" = marcadores `[cole a imagem aqui]`; `imagens_bloco_temp` no CSV são os blocos temporários a apagar. "Itens H5P" = questões/itens lidos do `content.json`. A linha **ENC** é a página dos Encontros Síncronos: seus 2 vídeos são as **gravações** dos encontros (carga **opcional**; não entram no tempo efetivo dos módulos).
+> **Notas de contagem:** "Vídeos (emb./instr.)" = vídeos embedados (iframe) + vídeos instruídos por link na página/fórum (entram no tempo efetivo). Vídeos **sugeridos** ("Quer saber mais?", bibliografia) são registrados na seção 4 e **não** entram no tempo efetivo. "Imagens" = marcadores `[cole a imagem aqui]`; `imagens_bloco_temp` no CSV são os blocos temporários a apagar. "Itens H5P" = questões/itens lidos do `content.json`. A linha **ENC** é a página dos Encontros Síncronos: seus 3 vídeos são as **gravações** dos encontros (carga **opcional** — bucket B, reincorporada ao cálculo em 25/11/2026).
 
 ## 2. Distribuição das páginas por tipo
 
 | Tipo de página | Páginas | Palavras |
 |---|---|---|
-| conteudo | 121 | 23258 |
+| conteudo | 131 | 28742 |
 | forum | 14 | 2468 |
-| abertura | 4 | 1210 |
+| abertura | 5 | 1505 |
 | sintese | 4 | 1532 |
 | referencias | 4 | 898 |
 
@@ -63,7 +64,9 @@
 
 | ID | Como entra | Duração | Canal | Título (crédito/contexto) | Página(s) |
 |---|---|---|---|---|---|
+| 2tqEMOjbeq0 | embedado | 2min53s | Vaga Lume | Vaga Lume 25 anos - Ler o mundo, ler todo mundo | Encerramento/Parte3/M5P3P1.html |
 | 77MwhhfnYp0 | embedado | 6min51s | Caçando Estórias | Eu li na Ení — Tema: Mediação de leitura e formação de leitores | M4/Parte1/Licao1/M4P1L1p1.html |
+| 9mOPNG0NvSc | embedado | 1h27min19s | Vaga Lume | Encontro Síncrono 3: Cuidar de quem cuida | Encontros-sincronos/encontros_sincronos_galeria.html |
 | BcKH3nxcMWE | embedado | 11min42s | Itaú Cultural | Bel Mayer — Rede Nacional de Bibliotecas Comunitárias — gestão cultura | M3/Parte4/Licao1/M3P4L1p1.html |
 | CLm7tYSlPbE | embedado | 14min06s | Vaga Lume | Representatividade nos livros | M2/Parte4/Licao4/M2P4L4p3.html |
 | GyUSxP5-RjI | embedado | 1h26min36s | Vaga Lume | Encontro Síncrono 2: Leite, Carinho e Linguagem | Encontros-sincronos/encontros_sincronos_galeria.html |
@@ -144,7 +147,7 @@
 
 ## 7. Fora do conteúdo (interface e navegação)
 
-25 arquivos: frontpage/Capa_site.html, frontpage/capa_curso.html, frontpage/forum_avisos.html, base/base.html, labels/M1_Label_Parte1_Primeira_infancia_um_comeco_de_conversa.html, labels/M1_Label_Parte2_O_desenvolvimento_na_Primeira_Infancia.html, labels/M1_Label_Parte3_Infancias_no_plural.html, labels/M1_Label_Parte4_Uma_aldeia_de_pessoas.html, labels/M1_Label_Parte5_Sintese_do_modulo_1.html, labels/M2_Label_Parte1_Primeiros_encontros_com_a_leitura.html, labels/M2_Label_Parte2_Afinal_por_que_ler_com_bebes_e_criancas_pequenas.html, labels/M2_Label_Parte3_O_que_e_mediar_leitura_com_a_Primeira_Infancia.html, labels/M2_Label_Parte4_Escolhendo_livros_para_ler_com_a_Primeira_Infancia.html, labels/M2_Label_Parte5_A_pessoa_mediadora_de_leitura_tambem_e_cuidadora.html, labels/M2_Label_Parte6_Sintese_do_modulo_2.html, labels/M3_Label_Parte1_Bibliotecas_Comunitarias_que_espacos_sao_esses.html, labels/M3_Label_Parte2_Territorios_da_Primeira_Infancia.html, labels/M3_Label_Parte3_Territorios_do_cuidado_e_bem-estar.html, labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html, labels/M3_Label_Parte5_Sintese_do_modulo_3.html, labels/M4_Label_Parte1_Praticando_mediacao_de_leitura_com_a_Primeira_Infancia.html, labels/M4_Label_Parte2_Como_preparar_uma_atividade_e_mobilizar_a_comunidade.html, labels/M4_Label_Parte3_Bibliotecas_Comunitarias_em_acao.html, labels/M4_Label_Parte4_Sintese_do_modulo_4.html, labels/ModuloN_Label_ParteN_titulo.html
+28 arquivos: frontpage/Capa_site.html, frontpage/capa_curso.html, frontpage/forum_avisos.html, base/base.html, labels/M1_Label_Parte1_Primeira_infancia_um_comeco_de_conversa.html, labels/M1_Label_Parte2_O_desenvolvimento_na_Primeira_Infancia.html, labels/M1_Label_Parte3_Infancias_no_plural.html, labels/M1_Label_Parte4_Uma_aldeia_de_pessoas.html, labels/M1_Label_Parte5_Sintese_do_modulo_1.html, labels/M2_Label_Parte1_Primeiros_encontros_com_a_leitura.html, labels/M2_Label_Parte2_Afinal_por_que_ler_com_bebes_e_criancas_pequenas.html, labels/M2_Label_Parte3_O_que_e_mediar_leitura_com_a_Primeira_Infancia.html, labels/M2_Label_Parte4_Escolhendo_livros_para_ler_com_a_Primeira_Infancia.html, labels/M2_Label_Parte5_A_pessoa_mediadora_de_leitura_tambem_e_cuidadora.html, labels/M2_Label_Parte6_Sintese_do_modulo_2.html, labels/M3_Label_Parte1_Bibliotecas_Comunitarias_que_espacos_sao_esses.html, labels/M3_Label_Parte2_Territorios_da_Primeira_Infancia.html, labels/M3_Label_Parte3_Territorios_do_cuidado_e_bem-estar.html, labels/M3_Label_Parte4_Gestao_de_Bibliotecas_Comunitarias.html, labels/M3_Label_Parte5_Sintese_do_modulo_3.html, labels/M4_Label_Parte1_Praticando_mediacao_de_leitura_com_a_Primeira_Infancia.html, labels/M4_Label_Parte2_Como_preparar_uma_atividade_e_mobilizar_a_comunidade.html, labels/M4_Label_Parte3_Bibliotecas_Comunitarias_em_acao.html, labels/M4_Label_Parte4_Sintese_do_modulo_4.html, labels/M5_Label_Parte1_Revisitando_os_modulos_do_curso_e_as_aprendizagens_adquiridas.html, labels/M5_Label_Parte2_Avaliacao_final_e_Plano_de_Acao.html, labels/M5_Label_Parte3_Finalizacao_do_curso.html, labels/ModuloN_Label_ParteN_titulo.html
 
 ## 8. Avisos e pendências de inventário
 

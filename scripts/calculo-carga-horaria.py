@@ -77,9 +77,21 @@ IMG_S = {
     'M3/Parte4/Licao3/M3P4L3p3.html': 45,
     'M3/Parte4/Licao3/M3P4L3p4.html': 90,
     'M3/Parte4/Licao3/M3P4L3p5.html': 15,
+    # --- Reexecucao de 25/11/2026 ---
+    # M4: 4 fotos unicas "Acervo Vaga Lume" (1280x853) incluídas na revisao de 23/10/2026,
+    # posterior ao inventario oficial de 14/10. Foto = 15 s (parametros §5.3).
+    'M4/Parte3/Licao2/M4P3L2p1.html': 15,
+    'M4/Parte3/Licao3/M4P3L3p1.html': 15,
+    'M4/Parte3/Licao4/M4P3L4p1.html': 15,
+    'M4/Parte3/Licao5/M4P3L5p1.html': 15,
+    # M5: 4 carrosseis de 6 fotos (acoes da rede de voluntarios) = 6 x 20 s = 120 s por pagina.
+    'Encerramento/Parte1/Licao1/M5P1L1p1.html': 120,
+    'Encerramento/Parte1/Licao2/M5P1L2p1.html': 120,
+    'Encerramento/Parte1/Licao3/M5P1L3p1.html': 120,
+    'Encerramento/Parte1/Licao4/M5P1L4p1.html': 120,
 }
 ENC_PAGINA = 'Encontros-sincronos/encontros_sincronos_galeria.html'
-IMG_S_B = {ENC_PAGINA: 90}   # 2 cartazes x 45 s (bucket B)
+IMG_S_B = {ENC_PAGINA: 135}  # 3 cartazes x 45 s (bucket B) — 3º card em 25/11/2026
 
 # §3 Bibliografia — itens de TEXTO por pagina de Referencias (bucket B)
 BIBLIO_ITENS = {
@@ -137,11 +149,25 @@ H5P_PAR = {
 
 # Encontros sincronos (parametros §5.9 + decisao do mestre de 14/10/2026)
 ENC_ENCONTROS = 3
-ENC_GRAVACOES_S = [5196, 5969]   # no ar: Encontro 1 (1h26min36) e Encontro 2 (1h39min29)
-ENC_GRAVACAO_3_S = 5400          # DECLARADO: 1h30 (mesma duracao do encontro) — a confirmar
+ENC_GRAVACOES_S = [5196, 5969, 5239]   # Encontro 1 (1h26min36), 2 (1h39min29) e 3 (1h27min19)
+
+# Reexecucao de 25/11/2026 — atividades de conclusao do M5 (linhas de ajuste, nao sao pagina).
+# 600 s = questionario da Avaliacao do curso (decisao do mestre, 25/11/2026);
+# 900 s = preenchimento do PDF do Plano de Acao (min. 2 atividades x 6 campos, ~75 s/campo);
+# 180 s = fotografar e enviar a Tarefa; 120 s = emitir/baixar o Certificado de Conclusao.
+ATIV_M5 = [
+    ('(ajuste) M5 - Questionario da Avaliacao do curso (Microsoft Forms)', 600,
+     'decisao do mestre (25/11/2026): 10 min para o questionario embedado'),
+    ('(ajuste) M5 - PDF do Plano de Acao (preenchimento)', 900,
+     'heuristica declarada: 2 atividades x 6 campos (~75 s/campo) - formulario de 1 pagina'),
+    ('(ajuste) M5 - Tarefa: foto do plano + envio', 180,
+     'heuristica declarada: fotografar e anexar o plano (operacional da Tarefa)'),
+    ('(ajuste) M5 - Certificado de Conclusao (emissao/download)', 120,
+     'heuristica declarada: gerar e baixar o PDF do certificado'),
+]
 
 # Navegacao estrutural (parametros §5.8)
-NAV_LABELS = 21
+NAV_LABELS = 24       # arquivos em templates/pages/labels/ (23 labels reais + 1 template)
 NAV_FRONTPAGE = 3
 
 
@@ -341,16 +367,14 @@ def calcular(inv):
 
 
 # ============================================================================
-# LINHAS DE AJUSTE (nao sao "pagina"): navegacao de interface, encontros, gravacoes
+# LINHAS DE AJUSTE (nao sao "pagina"): navegacao de interface, encontros e atividades do M5
 # ============================================================================
-# Categorias do bucket A (para a estimativa do Encerramento = M0)
-CATS_A = ('A_leitura', 'A_imagem', 'A_video', 'A_h5p', 'A_forum', 'A_nav', 'A_ext')
 
 
-def linhas_de_ajuste(m0):
+def linhas_de_ajuste():
     linhas = []
 
-    # Navegacao estrutural: 21 labels + 3 frontpage (bucket A)
+    # Navegacao estrutural: 24 arquivos de label + 3 frontpage (bucket A)
     n = NAV_LABELS + NAV_FRONTPAGE
     L = linha_vazia()
     L['arquivo'] = '(ajuste) labels + frontpage'
@@ -380,36 +404,22 @@ def linhas_de_ajuste(m0):
     L['obs'] = '3 encontros x 1h30 (3º computado como executado — decisao do mestre)'
     linhas.append(L)
 
-    # 3ª gravacao do Encontro (bucket B) — DECLARADA 1h30 (a confirmar).
-    # ATENCAO: as 2 gravacoes ja no ar estao na propria pagina dos Encontros (IMG/video -> B).
-    total_grav = ENC_GRAVACAO_3_S
-    L = linha_vazia()
-    L['arquivo'] = '(ajuste) 3ª gravacao do Encontro (declarada)'
-    L['modulo'] = 'ENC'
-    L['tipo_pagina'] = 'gravacao'
-    L['video_s'] = total_grav
-    for c in CEN:
-        L['B_gravacao_{}'.format(c)] = total_grav
-        L['B_total_{}'.format(c)] = total_grav
-    L['bucket'] = 'B'
-    L['obs'] = '3ª gravacao DECLARADA 1h30 (a confirmar) — as 2 no ar estao na pagina dos Encontros'
-    linhas.append(L)
+    # 3ª gravacao do Encontro: em 25/11/2026 ela passou a estar NA PAGINA dos Encontros
+    # (video embedado, 1h27min19s lidos nos creditos) -> a antiga linha "(ajuste) 3ª gravacao
+    # (declarada 1h30)" foi REMOVIDA para nao contar duas vezes (anti-dupla-contagem).
 
-    # Modulo de Encerramento (Certificacao e Avaliacao) — ESTIMADO = Modulo 0.
-    # Decisao do mestre (15/10/2026): "computar o modulo de finalizacao como tendo o
-    # mesmo tempo total que o modulo de Boas-vindas", com ressalva declarada.
-    L = linha_vazia()
-    L['arquivo'] = '(ajuste) Módulo de Encerramento (estimado = M0)'
-    L['modulo'] = 'ENCERR.'
-    L['tipo_pagina'] = 'estimativa'
-    for cat in CATS_A:
+    # Atividades de conclusao do M5 (bucket A) — nao sao pagina: questionario do Forms,
+    # preenchimento do PDF do Plano de Acao, envio da Tarefa e emissao do Certificado.
+    for rotulo, seg, obs in ATIV_M5:
+        L = linha_vazia()
+        L['arquivo'] = rotulo
+        L['modulo'] = 'M5'
+        L['tipo_pagina'] = 'atividade'
         for c in CEN:
-            L[cat + '_' + c] = m0[cat][c]
-    for c in CEN:
-        L['A_total_' + c] = sum(m0[cat][c] for cat in CATS_A)
-    L['bucket'] = 'A'
-    L['obs'] = 'ESTIMADO = Módulo 0 (decisao do mestre, 15/10/2026) — a substituir pela medicao quando o modulo for produzido'
-    linhas.append(L)
+            L['A_total_{}'.format(c)] = seg
+        L['bucket'] = 'A'
+        L['obs'] = obs
+        linhas.append(L)
     return linhas
 
 
@@ -423,13 +433,7 @@ def main():
     with open(INV_CSV, encoding='utf-8') as f:
         inv = list(csv.DictReader(f, delimiter=';'))
     conteudo = calcular(inv)
-    # M0 (Boas-vindas) — base da estimativa do Modulo de Encerramento (decisao do mestre)
-    m0 = {}
-    for cat in CATS_A:
-        m0[cat] = {}
-        for c in CEN:
-            m0[cat][c] = sum(int(L[cat + '_' + c]) for L in conteudo if L['modulo'] == 'M0')
-    linhas = conteudo + linhas_de_ajuste(m0)
+    linhas = conteudo + linhas_de_ajuste()
 
     with open(OUT_CSV, 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=HEADER, delimiter=';')
@@ -471,8 +475,9 @@ def escrever_md(f, linhas, totais, inv):
     W('# ⏱️ Cálculo de Carga Horária — Curso Vaga Lume\n\n')
     W('> **O que é:** planilha de cálculo (Ciclo 4) com **uma linha por página** no `.csv` '
       'companheiro e as **tabelas-resumo** aqui. Método: `tempo = quantidade × parâmetro × fator de cenário`.\n')
-    W('> **Quantidades:** `inventario-recursos.csv` (147 páginas). **Parâmetros:** '
-      '`parametros-carga-horaria.md` (Ciclo 2). **Ajustes finos:** `ajustes-finos.md` (Ciclo 3).\n')
+    W('> **Quantidades:** `inventario-recursos.csv` (todas as páginas do curso, medidas no '
+      'inventário de 25/11/2026). **Parâmetros:** '
+      '`parametros-carga-horaria.md` (Ciclo 2). **Ajustes finos:** `ajustes-finos.md` (Ciclo 3 + reexecução de 25/11/2026, inclusive as atividades do M5).\n')
     W('> **Buckets:** A = carga **obrigatória** · B = **opcional/complementar**. '
       '**Overhead de +10%** incide **somente** no cenário **recomendado**.\n')
     W('> **É ESTIMATIVA, não medição** (parâmetros são escolhas metodológicas; as quantidades são exatas).\n\n')
@@ -498,8 +503,8 @@ def escrever_md(f, linhas, totais, inv):
     # ---- §2 Por modulo ----
     W('## §2 — Por módulo (cenário de referência)\n\n')
     W('| Módulo | Linhas | A ref | B ref | Total ref |\n|---|---|---|---|---|\n')
-    ordem = ['M0', 'M1', 'M2', 'M3', 'M4', 'ENC', 'ENCERR.', 'ESTRUTURA']
-    rotulo = {'ENC': 'Encontros Síncronos (página)', 'ENCERR.': 'Encerramento (estimado = M0)',
+    ordem = ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'ENC', 'ESTRUTURA']
+    rotulo = {'ENC': 'Encontros Síncronos (página)', 'M5': 'M5 — Encerramento (medido)',
               'ESTRUTURA': 'Estrutura (navegação)'}
     for m in ordem:
         if m not in mods:
@@ -508,28 +513,30 @@ def escrever_md(f, linhas, totais, inv):
         a, b = t.get('A_total_ref', 0), t.get('B_total_ref', 0)
         W('| {} | {} | {} | {} | {} |\n'.format(
             rotulo.get(m, m), len(mods[m]), fmt(a), fmt(b), fmt(a + b)))
-    encerr = [L for L in linhas if L['modulo'] == 'ENCERR.']
-    if encerr:
-        t = _soma(encerr)
+    aj_m5 = [L for L in linhas if L['arquivo'].startswith('(ajuste)') and L['modulo'] == 'M5']
+    if aj_m5:
+        t = _soma(aj_m5)
         a, b = t.get('A_total_ref', 0), t.get('B_total_ref', 0)
-        W('| Encerramento *(estimado = M0)* | {} | {} | {} | {} |\n'.format(
-            len(encerr), fmt(a), fmt(b), fmt(a + b)))
-    aj = [L for L in linhas if L['arquivo'].startswith('(ajuste)') and L['modulo'] != 'ENCERR.']
+        W('| *(ajustes M5: atividades de conclusão)* | {} | {} | {} | {} |\n'.format(
+            len(aj_m5), fmt(a), fmt(b), fmt(a + b)))
+    aj = [L for L in linhas if L['arquivo'].startswith('(ajuste)') and L['modulo'] != 'M5']
     if aj:
         t = _soma(aj)
         a, b = t.get('A_total_ref', 0), t.get('B_total_ref', 0)
-        W('| *(ajustes: navegação, encontros, gravação)* | {} | {} | {} | {} |\n'.format(
+        W('| *(ajustes: navegação e encontros)* | {} | {} | {} | {} |\n'.format(
             len(aj), fmt(a), fmt(b), fmt(a + b)))
     W('\n')
-    W('> A linha *(ajustes)* reúne o que não pertence a uma página (navegação de interface, '
-      'encontros síncronos e 3ª gravação). O **Encerramento** é **estimado = M0** (ver §6). '
-      'Módulos + Encerramento + ajustes fecham com o §1.\n\n')
+    W('> As linhas *(ajustes)* reúnem o que não pertence a uma página: navegação de interface, '
+      'encontros síncronos (participação) e as atividades de conclusão do M5 (questionário do '
+      'Forms, preenchimento do Plano de Ação, envio da Tarefa e Certificado). O **Encerramento '
+      'agora é MEDIDO** (11 páginas) — a estimativa por analogia com o M0 foi substituída pela '
+      'medição. Módulos + ajustes fecham com o §1.\n\n')
 
     # ---- §3 Por categoria ----
     W('## §3 — Por categoria (cenário de referência)\n\n')
     W('| Categoria | Bucket | Quantidade | Ref | Mín | Máx |\n|---|---|---|---|---|---|\n')
-    # Totais por categoria SEM o Encerramento (que entra como linha propria)
-    ts = somar([L for L in linhas if L['modulo'] != 'ENCERR.'])
+    # Totais por categoria (todas as linhas: o Encerramento entrou como modulo medido)
+    ts = somar(linhas)
     palavras = sum(int(L['palavras']) for L in conteudo)
     imagens_a = sum(int(L['imagens']) for L in conteudo if L['arquivo'] != ENC_PAGINA)
     h5p_n = sum(int(L['h5p_n']) for L in conteudo)
@@ -543,21 +550,25 @@ def escrever_md(f, linhas, totais, inv):
         ('Vídeos de conteúdo', 'A', fmt(totais['A_video_ref']), 'A_video'),
         ('Atividades H5P', 'A', '{} atividades'.format(h5p_n), 'A_h5p'),
         ('Fóruns', 'A', '{} fóruns'.format(foruns), 'A_forum'),
-        ('Navegação', 'A', '{} páginas + 24 interface'.format(len(conteudo)), 'A_nav'),
+        ('Navegação', 'A', '{} páginas + {} interface'.format(
+            len(conteudo), NAV_LABELS + NAV_FRONTPAGE), 'A_nav'),
         ('Textos externos', 'A', '{} palavras'.format(ext_pal), 'A_ext'),
         ('Encontros síncronos', 'A', '3 encontros', 'A_encontro'),
         ('Bibliografia', 'B', '15 itens de texto', 'B_biblio'),
         ('SDs em PDF', 'B', '{} palavras'.format(sd_pal), 'B_sd'),
         ('Gravações', 'B', fmt(grav_s), 'B_gravacao'),
-        ('Imagens (Encontros)', 'B', '2 cartazes', 'B_imagem'),
+        ('Imagens (Encontros)', 'B', '3 cartazes', 'B_imagem'),
     ]
     for nome, bk, qtd, pre in cat:
         W('| {} | {} | {} | {} | {} | {} |\n'.format(
             nome, bk, qtd, fmt(ts[pre + '_ref']), fmt(ts[pre + '_min']),
             fmt(ts[pre + '_max'])))
-    tenc = _soma([L for L in linhas if L['modulo'] == 'ENCERR.'])
-    W('| **Encerramento** *(estimado = M0)* | A | por analogia | {} | {} | {} |\n'.format(
-        fmt(tenc['A_total_ref']), fmt(tenc['A_total_min']), fmt(tenc['A_total_max'])))
+    ajm5 = [L for L in linhas if L['arquivo'].startswith('(ajuste)') and L['modulo'] == 'M5']
+    if ajm5:
+        am5 = _soma(ajm5)
+        W('| Atividades de conclusão do M5 | A | {} atividades | {} | {} | {} |\n'.format(
+            len(ajm5), fmt(am5['A_total_ref']), fmt(am5['A_total_min']),
+            fmt(am5['A_total_max'])))
     W('| **Total — bucket A** | A | | **{}** | **{}** | **{}** |\n'.format(
         fmt(totais['A_total_ref']), fmt(totais['A_total_min']), fmt(totais['A_total_max'])))
     W('\n')
@@ -566,10 +577,10 @@ def escrever_md(f, linhas, totais, inv):
     W('## §4 — Reconciliação com as âncoras do Ciclo 3 (sanidade)\n\n')
     W('| Âncora (Ciclo 3) | Esperado | Calculado (ref) | Confere? |\n|---|---|---|---|\n')
     chk = [
-        ('Imagens (bucket A, M1-M3)', 1000, ts['A_imagem_ref']),
+        ('Imagens (bucket A, M1-M5)', 1540, ts['A_imagem_ref']),
         ('Fóruns (bucket A, 13x35 + 1x20 min)', 28500, ts['A_forum_ref']),
         ('Bibliografia (bucket B, 15 x 1,5 min)', 1350, ts['B_biblio_ref']),
-        ('Imagens dos Encontros (bucket B)', 90, ts['B_imagem_ref']),
+        ('Imagens dos Encontros (bucket B)', 135, ts['B_imagem_ref']),
     ]
     for nome, esp, calc in chk:
         W('| {} | {} | {} | {} |\n'.format(
@@ -604,17 +615,22 @@ def escrever_md(f, linhas, totais, inv):
       'registrada no script.\n')
     W('5. **ESTUDO ATIVO (×1,3)** aplicado a toda a leitura (conteúdo, textos externos e SDs) '
       'no cenário de referência; ×1,0 no mínimo e ×1,5 no máximo.\n')
-    W('6. **ENC — bloco novo dos encontros** (texto + imagem + vídeo, computado como executado '
-      'pela decisão do mestre): **não incluído** por falta de quantidades (não produzido) — '
-      'reincorporar na reexecução (§8 do `PLANO-carga-horaria.md`).\n')
-    W('7. **3ª gravação do Encontro** sem duração publicada → adotada **1h30 (declarada)** para '
-      'não subestimar; confirmar quando o encontro ocorrer.\n')
-    W('8. **Módulo de Encerramento** (Certificação e Avaliação): **não produzido** — '
-      'estimado **por analogia com o Módulo 0 (Boas-vindas)**, a pedido da coordenação '
-      '(15/10/2026), para uma carga mais realista; a substituir pela **medição** na '
-      'reexecução (§8).\n')
-    W('9. **Navegação**: contadas as {} páginas de conteúdo + 21 labels + 3 frontpage a 30 s '
-      '(a §5.8 previa 146 páginas; a página dos Encontros soma +1).\n'.format(len(conteudo)))
+    W('6. **ENC — bloco dos encontros REINCORPORADO** (25/11/2026): a página dos Encontros tem '
+      'agora **3 gravações** (4h33min24s reais, bucket B), **3 cartazes** (135 s, bucket B) e '
+      '710 palavras de texto (bucket A); as **3 participações** de 1h30 estão na linha de '
+      'ajuste (bucket A).\n')
+    W('7. **3ª gravação do Encontro**: duração **real 1h27min19s**, lida nos créditos da '
+      'página (não mais a 1h30 declarada) — a antiga linha de ajuste foi removida para não '
+      'contar duas vezes.\n')
+    W('8. **Módulo 5 (Encerramento) agora é MEDIDO**: 11 páginas (1 abertura + 10 de conteúdo), '
+      '24 fotos em 4 carrosséis (20 s/imagem) e 1 vídeo de 2min53s; as **4 atividades de '
+      'conclusão** entram em linhas de ajuste — questionário do Forms 10 min (decisão do '
+      'mestre, 25/11/2026), preenchimento do PDF do Plano de Ação 15 min, foto + envio da '
+      'Tarefa 3 min e emissão do Certificado 2 min. A **estimativa por analogia com o M0 foi '
+      'substituída pela medição**.\n')
+    W('9. **Navegação**: {} páginas de conteúdo + {} labels (arquivos em '
+      '`templates/pages/labels/`) + {} frontpage a 30 s.\n'.format(
+          len(conteudo), NAV_LABELS, NAV_FRONTPAGE))
     W('10. **É estimativa, não medição** — sem relatórios de duração do Moodle (confirmado em '
       '14/10/2026). Parâmetros: `parametros-carga-horaria.md`.\n')
     return

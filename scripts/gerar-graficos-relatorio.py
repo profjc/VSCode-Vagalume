@@ -27,8 +27,8 @@ CINZA = '#8a7a6d'
 
 ROTULO = {
     'M0': 'Boas-vindas', 'M1': 'M1\nPrimeira Infância', 'M2': 'M2\nLeitura e 1ª Inf.',
-    'M3': 'M3\nBibliotecas Com.', 'M4': 'M4\nMão na massa', 'ENC': 'Encontros\nsíncronos',
-    'ENCERR.': 'Encerramento\n(est. = M0)', 'ESTRUTURA': 'Estrutura\n(navegação)',
+    'M3': 'M3\nBibliotecas Com.', 'M4': 'M4\nMão na massa', 'M5': 'M5\nEncerramento',
+    'ENC': 'Encontros\nsíncronos', 'ESTRUTURA': 'Estrutura\n(navegação)',
 }
 CAT = {
     'A_leitura': 'Leitura de textos', 'A_imagem': 'Imagens', 'A_video': 'Vídeos',
@@ -53,7 +53,7 @@ def main():
 
     # ---- Grafico 1: carga obrigatoria por modulo x cenarios ----
     mods = carga(rows)
-    ordem = [m for m in ['M0', 'M1', 'M2', 'M3', 'M4', 'ENC', 'ENCERR.', 'ESTRUTURA'] if m in mods]
+    ordem = [m for m in ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'ENC', 'ESTRUTURA'] if m in mods]
     labels = [ROTULO.get(m, m) for m in ordem]
     x = range(len(ordem))
     w = 0.26
@@ -80,8 +80,11 @@ def main():
     for r in rows:
         for k in CAT:
             tot[k] = tot.get(k, 0) + int(r[k + '_ref'])
+    # Atividades de conclusao do M5 (linhas de ajuste) — nao sao pagina, nao tem coluna propria
+    tot['A_m5'] = sum(int(r['A_total_ref']) for r in rows
+                      if r['modulo'] == 'M5' and r['arquivo'].startswith('(ajuste)'))
     itens = sorted(tot.items(), key=lambda kv: kv[1])
-    nomes = [CAT[k] for k, _ in itens]
+    nomes = [CAT.get(k, 'Atividades de conclusão (M5)') for k, _ in itens]
     vals = [v / 3600 for _, v in itens]
     fig, ax = plt.subplots(figsize=(9.2, 4.1), dpi=150)
     ax.barh(nomes, vals, color=LARANJA)

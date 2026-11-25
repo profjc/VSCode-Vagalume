@@ -27,7 +27,7 @@ H5P = os.path.join(ROOT, 'assets', 'h5p')
 PDF = os.path.join(ROOT, 'assets', 'pdf')
 OUT = os.path.join(ROOT, 'docs', 'relatorios', 'carga-horaria')
 MODULOS = {'Boas-vindas': 'M0', 'M1': 'M1', 'M2': 'M2', 'M3': 'M3', 'M4': 'M4',
-           'Encontros-sincronos': 'ENC'}
+           'Encerramento': 'M5', 'Encontros-sincronos': 'ENC'}
 REF_PAGINAS = ['M1/Parte5/M1P5P2.html', 'M2/Parte6/M2P6P2.html',
                'M3/Parte5/M3P5P2.html', 'M4/Parte4/M4P4P2.html']
 IGNORAR = ('base/', 'labels/', 'frontpage/')
@@ -331,7 +331,7 @@ SOMA = ['palavras', 'imagens', 'imagens_bloco_temp', 'videos_embedados', 'videos
 
 
 def resumo_por_modulo(linhas):
-    ordem = ['M0', 'M1', 'M2', 'M3', 'M4', 'ENC']
+    ordem = ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'ENC']
     r = {}
     for l in linhas:
         d = r.setdefault(l['modulo'], dict(paginas=0, foruns=0, pdfs=0))
@@ -352,9 +352,10 @@ def escrever_md(cam, linhas, fora, avisos, cat_h5p, cat_vid, refs):
     A.append('')
     A.append('> Gerado automaticamente por `scripts/inventario-recursos.py` em %s.'
              % datetime.date.today().strftime('%d/%m/%Y'))
-    A.append('> Escopo: módulos produzidos e validados no Moodle (M0 Boas-vindas, M1, M2, M3, M4) '
-             'e a página dos Encontros Síncronos. Este arquivo é a base quantitativa do relatório '
-             'de carga horária — método e parâmetros em `PLANO-carga-horaria.md`.')
+    A.append('> Escopo: módulos produzidos e validados no Moodle (M0 Boas-vindas, M1, M2, M3, M4 '
+             'e M5 Encerramento) e a página dos Encontros Síncronos. Este arquivo é a base '
+             'quantitativa do relatório de carga horária — método e parâmetros em '
+             '`PLANO-carga-horaria.md`.')
     A.append('')
     A.append('## 1. Resumo por módulo')
     A.append('')
@@ -383,8 +384,8 @@ def escrever_md(cam, linhas, fora, avisos, cat_h5p, cat_vid, refs):
              '("Quer saber mais?", bibliografia) são registrados na seção 4 e **não** entram no tempo '
              'efetivo. "Imagens" = marcadores `[cole a imagem aqui]`; `imagens_bloco_temp` no CSV são '
              'os blocos temporários a apagar. "Itens H5P" = questões/itens lidos do `content.json`. '
-             'A linha **ENC** é a página dos Encontros Síncronos: seus 2 vídeos são as **gravações** '
-             'dos encontros (carga **opcional**; não entram no tempo efetivo dos módulos).')
+             'A linha **ENC** é a página dos Encontros Síncronos: seus 3 vídeos são as **gravações** '
+             'dos encontros (carga **opcional** — bucket B, reincorporada ao cálculo em 25/11/2026).')
     A.append('')
     A.append('## 2. Distribuição das páginas por tipo')
     A.append('')
