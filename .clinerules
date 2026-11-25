@@ -424,6 +424,8 @@ Consultar **apenas os exigidos pela tarefa** — nunca todos por reflexo:
 - **Páginas intermediárias:** botões "Anterior" e "Próximo".
 - **Última página da lição:** sempre uma atividade H5P (template 17 — Atividade Final de Lição) + botões "Anterior" e "Finalizar".
 - **Lição de PÁGINA ÚNICA (padrão do Módulo 5 — definição do mestre, 24/11/2026):** a navegação no Moodle é o botão **"Finalizar"** (não "Próximo") — as Lições 1 a 4 do Módulo 5 são cada uma de página única, então **toda entrega dessas páginas registra "Finalizar"** na linha "Ações no Moodle (suas)"; a Lição 1 já foi configurada assim no Moodle.
+- **PÁGINAS HTML (sem lição) NÃO têm botão de navegação no Moodle (correção do mestre, 25/11/2026):** nas páginas de conteúdo diretas da Parte (ex.: Parte 2 · Página 1 "Avaliação do curso" — `M5P2P1.html`), a linha "Ações no Moodle (suas)" registra **"Nenhuma"** quanto a navegação — o botão **"Finalizar"** existe **apenas em lições**. A regra da lição de página única (24/11/2026) continua valendo somente para **lições**.
+
 Os botões são configurados pelo usuário diretamente no Moodle.
 
 **Entrega (regra do mestre, 10/10/2026):** identificar TODA solicitação do autor que caiba ao mestre no Moodle (navegação, título da página/atividade, edição de H5P, uploads) e informá-la **explicitamente no quadro da entrega**, na linha "Ações no Moodle (suas)" — mesmo que o ajuste não seja HTML. Nunca omitir por ser "do mestre".

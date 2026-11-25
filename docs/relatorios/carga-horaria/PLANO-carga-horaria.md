@@ -164,42 +164,48 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 
 **Regra de execução:** uma entrega por ciclo, com **parada para validação** do mestre (nunca em lote); saídas grandes vão para arquivo, e no chat vão apenas os totais.
 
-## §8 — Reexecução futura (quando o Módulo de Encerramento chegar)
+## §8 — Reexecução da carga horária (Módulo de Encerramento JÁ PRODUZIDO)
 
-1. Produzir o material do **Módulo de Encerramento** pelo fluxo normal do projeto (`.docx` → `.md` em `content/Encerramento/` → páginas em `templates/pages/Encerramento/` → validação no Moodle).
+> **Status (25/11/2026):** o **Módulo 5 (Encerramento)** está **produzido, validado no Moodle e fechado** — 14 elementos entregues, **auditoria 14/14 aprovada**, `temp/` limpa e documentos do autor preservados em `content/Encerramento/`. A reexecução agora **substitui a estimativa por analogia (Módulo 0) pela medição real** e **reincorpora o bloco dos Encontros**.
+
+1. ~~Produzir o material do Módulo de Encerramento~~ — ✅ **CONCLUÍDO em 25/11/2026**: páginas em `templates/pages/Encerramento/` (`M5-Apresentacao_do_modulo_5`, `Parte1/Licao1..4`, `Parte2/M5P2P1`, `M5P2P2`, `M5P2AT1-Envio_do_Plano_de_Acao`, `Parte3/M5P3P1`, `M5P3AT1-Certificado_de_Conclusao`, `M5P3P2-Ficha_Tecnica`) + 3 labels (Partes 1, 2 e 3). **Sem H5P e sem Sequências Didáticas**; 1 vídeo novo (02min53s, já na legenda) e 1 PDF novo (`assets/pdf/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.pdf`).
 2. Rodar `python3 scripts/inventario-recursos.py` — as páginas novas entram **automaticamente** no inventário.
 3. Atualizar a **§5** deste plano (novo snapshot) e a contagem de módulos/espaços.
 4. Recalcular em `calculo-carga-horaria.csv` com a **mesma tabela §4.2**; se houver decisão nova do mestre, registrá-la na **§3** antes de recalcular.
 5. Regerar **PDF + DOCX** (§6) e reentregar ao mestre.
 6. Atualizar a **§10** (histórico) e o `Onde-paramos.md`.
-7. **📌 Prompt de arranque da sessão de reexecução** (pronto para copiar e colar na sessão em que o material chegar):
+7. **📌 Prompt de arranque da sessão de reexecução FINAL** (pronto para copiar e colar — atualizado em 25/11/2026, com o Módulo 5 já produzido):
 
 ```text
-Sessão nova — front: REEXECUÇÃO do relatório de carga horária (§8 do PLANO-carga-horaria.md).
-O Módulo de Encerramento (Certificação e Avaliação) chegou: material em content/Encerramento/.
+Sessão nova — front: REEXECUÇÃO FINAL DA CARGA HORÁRIA do curso (§8 do
+docs/relatorios/carga-horaria/PLANO-carga-horaria.md).
 
 Antes de qualquer coisa, leia Onde-paramos.md e docs/rotina-entrega.md (N3.0) e me diga onde paramos.
 
-Tarefa: produzir o módulo pelo fluxo normal do projeto e, em seguida, reexecutar a estimativa de carga
-horária, conforme a §8 do docs/relatorios/carga-horaria/PLANO-carga-horaria.md:
+Contexto: o Módulo de Encerramento (Certificação e Avaliação) foi PRODUZIDO, VALIDADO no Moodle e
+fechado em 25/11/2026 (14 elementos; auditoria 14/14 aprovada; temp/ limpa). Falta apenas a atualização
+final do cálculo da carga horária do curso.
 
-(1) converter o .docx do autor -> content/Encerramento/*.md no padrão do projeto;
-(2) montar/atualizar o arquivo de pendências do módulo (content/Encerramento/pendencias-*.md);
-(3) planejar no PLAN mode, em ciclos (UMA entrega por ciclo, com parada para validação), até gerar as
-    páginas em templates/pages/Encerramento/ (+ PDFs, se houver Sequências Didáticas) e a lista das
-    AÇÕES DO MESTRE no Moodle;
-(4) rodar python3 scripts/inventario-recursos.py — as páginas novas entram automaticamente;
-(5) rodar python3 scripts/calculo-carga-horaria.py com a MESMA tabela de parâmetros (§4.2 do PLANO);
-(6) SUBSTITUIR a estimativa do Módulo de Encerramento (hoje = Módulo 0: 24min46s/28min01s/57min17s,
-    com ressalva declarada) pela MEDIÇÃO REAL;
-(7) reincorporar o bloco novo dos Encontros (texto + imagem + vídeo), se já existir;
-(8) confirmar a 3ª gravação do Encontro (hoje 1h30 DECLARADA);
-(9) regerar PDF + DOCX + XLSX do relatório e PDF + DOCX do resumo executivo (§6);
-(10) atualizar as §5, §6, §7 e §10 do PLANO + docs/pendencias-projeto.md (item 6) + Onde-paramos.md.
+Tarefa (skill skills/metricas-carga-horaria/SKILL.md — Passo 6, Reexecutar):
+(1) rodar python3 scripts/inventario-recursos.py — as páginas novas entram automaticamente; CONFERIR a
+    classificação das páginas novas do Encerramento (M5-Apresentacao, Parte2/M5P2P1, M5P2P2,
+    M5P2AT1-Envio_do_Plano_de_Acao, Parte3/M5P3P1, M5P3AT1-Certificado_de_Conclusao,
+    M5P3P2-Ficha_Tecnica) nas tabelas de tipo do inventário;
+(2) atualizar o snapshot da §5 do PLANO (módulos/espaços/páginas);
+(3) rodar python3 scripts/calculo-carga-horaria.py com a MESMA tabela §4.2 e SUBSTITUIR a estimativa
+    por analogia do Módulo de Encerramento (hoje = Módulo 0: 24min46s/28min01s/57min17s, com ressalva)
+    pela MEDIÇÃO REAL;
+(4) reincorporar o bloco dos Encontros (texto + imagem + vídeo) e confirmar a 3ª gravação (1h30
+    DECLARADA);
+(5) revisar ajustes-finos.md SÓ no que for novo do M5 (0 imagens marcadas, 0 fóruns, 1 vídeo de 02min53s
+    já na legenda, 1 PDF em assets/pdf/Encerramento/) — sem editar o inventário à mão;
+(6) regerar PDF + DOCX + XLSX do relatório e PDF + DOCX do resumo executivo (§6);
+(7) atualizar §5, §6, §7 e §10 do PLANO + docs/pendencias-projeto.md + Onde-paramos.md.
 
-Regras: escopo estrito; nenhum arquivo de RELATÓRIO aberto com code (a entrega na janela ativa vale só
-para as páginas HTML do curso); git um comando por vez e só com a minha autorização; os parâmetros e as
-decisões já tomadas NÃO se rediscutem (estão na §3 do PLANO).
+Regras: UMA entrega por ciclo com parada para validação do mestre; parâmetros e decisões da §3 NÃO se
+rediscutem (bloqueio por inércia — revisão só por gatilho declarado); nenhum arquivo de RELATÓRIO aberto
+com code (a entrega na janela ativa vale só para páginas HTML do curso); git um comando por vez e só com
+a minha autorização.
 ```
 
 ## §9 — Riscos, limitações e pendências
@@ -223,4 +229,5 @@ decisões já tomadas NÃO se rediscutem (estão na §3 do PLANO).
 | **14/10/2026** | **Ciclo 4** — criados `scripts/calculo-carga-horaria.py` (reprodutível) e `calculo-carga-horaria.csv` (150 linhas: 147 páginas + 3 ajustes) + `calculo-carga-horaria.md` (tabelas-resumo). **Bucket A:** mín 15h27min43s · **ref 21h52min41s** · máx 28h42min36s · **recomendado 24h03min57s**. **Bucket B:** mín 4h58min45s · ref 5h23min32s · máx 6h45min55s. Acrescentada a **§8** do `ajustes-finos.md` (texto dos 13 PDFs das SDs = 3.608 palavras). |
 | **15/10/2026** | **Ciclo 5 (Relatório) e revisão** — criados `Relatorio-carga-horaria.md`, `templates/documentos/espelho-relatorio.html`, `scripts/gerar-relatorio.sh`, `scripts/gerar-graficos-relatorio.py` (2 gráficos) e o **PDF A4 (10 pág.)**. **Revisão (decisões 7–9):** **Módulo de Encerramento estimado = M0** (+28min01s em A) · **3º Encontro efetivo (1h30)** · referências 4/5/7/9 **mantidas** (uso comprovado) · **badges de confiança coloridos** no PDF. **Bucket A:** mín 15h52min29s · **ref 22h20min42s** · máx 29h39min53s · **recomendado 24h34min46s**. **A+B** ref 27h44min14s. |
 | **15/10/2026** | **Ciclo 6 (Resumo executivo)** — criados `docs/relatorios/carga-horaria/Resumo-executivo-carga-horaria.md` (fonte), `templates/documentos/espelho-resumo-executivo.html` (espelho A4 com a identidade do Ciclo 5, **cabeçalho compacto** — sem capa), `scripts/gerar-resumo-executivo.sh` (**PDF** via Chrome headless) e `scripts/gerar-resumo-executivo-docx.sh` (**DOCX** via pandoc + reference-docx + pós-processadores). **Saídas:** PDF **2 páginas A4** (185.293 B — p.1 números-chave/tabela de cenários/composição/natureza; p.2 tabela por módulo/gráfico/recomendação/limitações) e **DOCX** (73.174 B, logos no topo, fluxo natural sem quebra forçada — decisão do mestre). **Números:** A ref 22h20min42s · recomendado 24h34min46s · B ref 5h23min32s. **Ciclo 6 FECHADO.** |
+| **25/11/2026** | **Módulo 5 (Encerramento) PRODUZIDO E FECHADO** — 14 elementos validados no Moodle, auditoria 14/14 aprovada, `temp/` limpa. **§8 atualizada:** o passo 1 (produzir o módulo) foi concluído e o **prompt de arranque da reexecução FINAL** foi reescrito para substituir a estimativa por analogia (Módulo 0) pela medição real. Nenhum parâmetro ou decisão da §3 foi reaberto (bloqueio por inércia). |
 
