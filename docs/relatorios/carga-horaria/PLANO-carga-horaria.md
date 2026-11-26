@@ -115,7 +115,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 | Fóruns | 1 | 3 | 4 | 4 | 2 | 0 | 0 | **14** |
 | Referências bibliográficas (itens) | — | 20 | 6 | 10 | 2 | — | — | **38** (21 são vídeos) |
 
-**Complementos:** **24 arquivos de label** em `templates/pages/labels/` (as 3 do M5 entraram em 24–25/11/2026) · 3 páginas de frontpage · **1 galeria de Encontros Síncronos** (3 gravações: 1h39min29s + 1h26min36s + **1h27min19s** = **4h33min24s**) · **13 PDFs** de Sequências Didáticas (`assets/pdf/M4`, 1–2 páginas cada) + **1 PDF** do Plano de Ação (`assets/pdf/Encerramento`) · **3 encontros síncronos** (participação de 1h30 cada; o 3º computado como efetivo) · 6 ícones de tile e 3 banners (interface).
+**Complementos:** **24 arquivos de label** em `templates/pages/labels/` (as 3 do M5 entraram em 24–25/11/2026) · 3 páginas de frontpage · **1 galeria de Encontros Síncronos** (3 gravações: 1h39min29s + 1h26min36s + **1h27min19s** = **4h33min24s**) · **13 PDFs** de Sequências Didáticas (`assets/pdf/M4`, 1–2 páginas cada) + **1 documento** do Plano de Ação (**`.docx`** em `assets/documentos/Encerramento` — o PDF anterior foi excluído em 25/11/2026, sem recálculo) · **3 encontros síncronos** (participação de 1h30 cada; o 3º computado como efetivo) · 6 ícones de tile e 3 banners (interface).
 
 **Achados relevantes (a favor da precisão):**
 
@@ -174,7 +174,7 @@ O cálculo é feito **página a página** (uma linha por página no arquivo de c
 
 > **Status (25/11/2026):** o **Módulo 5 (Encerramento)** está **produzido, validado no Moodle e fechado** — 14 elementos entregues, **auditoria 14/14 aprovada**, `temp/` limpa e documentos do autor preservados em `content/Encerramento/`. A reexecução agora **substitui a estimativa por analogia (Módulo 0) pela medição real** e **reincorpora o bloco dos Encontros**. **✅ REEXECUÇÃO CONCLUÍDA em 25/11/2026 (R1–R4)** — resultados na §10.
 
-1. ~~Produzir o material do Módulo de Encerramento~~ — ✅ **CONCLUÍDO em 25/11/2026**: páginas em `templates/pages/Encerramento/` (`M5-Apresentacao_do_modulo_5`, `Parte1/Licao1..4`, `Parte2/M5P2P1`, `M5P2P2`, `M5P2AT1-Envio_do_Plano_de_Acao`, `Parte3/M5P3P1`, `M5P3AT1-Certificado_de_Conclusao`, `M5P3P2-Ficha_Tecnica`) + 3 labels (Partes 1, 2 e 3). **Sem H5P e sem Sequências Didáticas**; 1 vídeo novo (02min53s, já na legenda) e 1 PDF novo (`assets/pdf/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.pdf`).
+1. ~~Produzir o material do Módulo de Encerramento~~ — ✅ **CONCLUÍDO em 25/11/2026**: páginas em `templates/pages/Encerramento/` (`M5-Apresentacao_do_modulo_5`, `Parte1/Licao1..4`, `Parte2/M5P2P1`, `M5P2P2`, `M5P2AT1-Envio_do_Plano_de_Acao`, `Parte3/M5P3P1`, `M5P3AT1-Certificado_de_Conclusao`, `M5P3P2-Ficha_Tecnica`) + 3 labels (Partes 1, 2 e 3). **Sem H5P e sem Sequências Didáticas**; 1 vídeo novo (02min53s, já na legenda) e 1 documento novo — **Plano de Ação em `.docx`** (`assets/documentos/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.docx`; substituiu o PDF, excluído em 25/11/2026 a pedido do mestre — **mesmo conteúdo, sem recálculo**).
 2. Rodar `python3 scripts/inventario-recursos.py` — as páginas novas entram **automaticamente** no inventário.
 3. Atualizar a **§5** deste plano (novo snapshot) e a contagem de módulos/espaços.
 4. Recalcular em `calculo-carga-horaria.csv` com a **mesma tabela §4.2**; se houver decisão nova do mestre, registrá-la na **§3** antes de recalcular.
@@ -204,7 +204,7 @@ Tarefa (skill skills/metricas-carga-horaria/SKILL.md — Passo 6, Reexecutar):
 (4) reincorporar o bloco dos Encontros (texto + imagem + vídeo) e confirmar a 3ª gravação (1h30
     DECLARADA);
 (5) revisar ajustes-finos.md SÓ no que for novo do M5 (0 imagens marcadas, 0 fóruns, 1 vídeo de 02min53s
-    já na legenda, 1 PDF em assets/pdf/Encerramento/) — sem editar o inventário à mão;
+    já na legenda, 1 documento do Plano — hoje `.docx` em assets/documentos/Encerramento/) — sem editar o inventário à mão;
 (6) regerar PDF + DOCX + XLSX do relatório e PDF + DOCX do resumo executivo (§6);
 (7) atualizar §5, §6, §7 e §10 do PLANO + docs/pendencias-projeto.md + Onde-paramos.md.
 

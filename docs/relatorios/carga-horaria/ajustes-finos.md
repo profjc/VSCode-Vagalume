@@ -330,12 +330,12 @@ As **5 durações** que o plano do Ciclo 3 listava como "a localizar" estão **r
 
 | Atividade | Origem | Tempo | Natureza | Derivação |
 |---|---|---|---|---|
-| Questionário da **Avaliação do curso** (Microsoft Forms embedado) | `M5P2P1` | **10 min** (600 s) | 🟡 **decisão do mestre** | decisão de **25/11/2026** — "pode contar 10 minutos para o questionário" |
-| **PDF do Plano de Ação** — preenchimento | `M5P2AT1` + `assets/pdf/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.pdf` | **15 min** (900 s) | 🔴 heurística declarada | formulário de **1 página / 144 palavras**, com **6 campos por atividade** e exigência de **mínimo 2 atividades** → **12 campos × ~75 s** |
+| Questionário da **Avaliação do curso** (acesso por **botão** — o embed foi retirado em 25/11/2026; decisão de 10 min inalterada) | `M5P2P1` | **10 min** (600 s) | 🟡 **decisão do mestre** | decisão de **25/11/2026** — "pode contar 10 minutos para o questionário" |
+| **Plano de Ação** — preenchimento | `M5P2AT1` + `assets/documentos/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.docx` | **15 min** (900 s) | 🔴 heurística declarada | formulário de **1 página / 144 palavras** no PDF original (o `.docx` de 25/11/2026 tem o **mesmo conteúdo** — 152 palavras por extração direta do XML, incluindo os rótulos da tabela), com **6 campos por atividade** e exigência de **mínimo 2 atividades** → **12 campos × ~75 s** |
 | **Tarefa** — foto do plano + envio | `M5P2AT1` | **3 min** (180 s) | 🔴 heurística declarada | operacional da Tarefa (baixar, imprimir, preencher já contam no PDF; aqui: fotografar e anexar) |
 | **Certificado de Conclusão** — emissão/download | `M5P3AT1` | **2 min** (120 s) | 🔴 heurística declarada | botão do `mod_customcert`: gerar e baixar o PDF do certificado |
 
-> **Por que linha de ajuste e não página:** são **ações** (preencher, enviar, baixar), não leitura de página — o texto das páginas já entra pela leitura normal. O **PDF do Plano de Ação não é vinculado a página** no inventário (nome do arquivo ≠ nome da página) → entra por aqui, e não pela coluna `pdf` do CSV.
+> **Por que linha de ajuste e não página:** são **ações** (preencher, enviar, baixar), não leitura de página — o texto das páginas já entra pela leitura normal. O **documento do Plano de Ação** (`.docx` desde 25/11/2026) **não é vinculado a página** no inventário (nome do arquivo ≠ nome da página) → entra por aqui, e não pela coluna `pdf` do CSV.
 
 ### §9.4 — Navegação
 

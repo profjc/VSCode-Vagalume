@@ -20,7 +20,7 @@
 | `assets/images/logos/` | Logos institucionais | Ex: `LOGO_VAGALUME_RGB-transp-pq.png` |
 | `assets/h5p/` | Backup local dos `.h5p` de origem | Subpastas por módulo (ex: `M1/`, `M2/`); manter o mesmo nome usado no placeholder (ex: `M2P1L1p3-H5P-question_set.h5p`) para rastreabilidade. Recursos internos do pacote (imagens/svg) ficam na mesma subpasta junto ao `.h5p` |
 | `assets/pdf/` | **PDFs anexos das páginas** (ex.: as 13 Sequências Didáticas do M4) | Subpastas por módulo (`M4/`); o nome-base é igual ao da página (`M4P3L2p2.pdf` ↔ `M4P3L2p2.html`) |
-| `assets/documentos/` | **Documentos-base da esteira de impressão** | `referencia-relatorio.docx` — o *reference-docx* do pandoc, gerado por `scripts/gerar-reference-docx.py` |
+| `assets/documentos/` | **Documentos-base da esteira de impressão + anexos `.docx` das páginas** | `referencia-relatorio.docx` — o *reference-docx* do pandoc, gerado por `scripts/gerar-reference-docx.py` · `Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.docx` — anexo da Tarefa do M5 (subpastas por módulo; o nome-base em slug acompanha o anexo do Moodle) |
 | `assets/images/relatorios/` | **Gráficos dos relatórios** (PNG) | `grafico-modulos.png` · `grafico-categorias.png`, gerados por `scripts/gerar-graficos-relatorio.py` |
 | `assets/css/` | CSS global do tema (fonte Trema — **não** redefine classes) | `vagalume-tema.css` — fonte da verdade das classes `.vagalume-*` |
 | `docs/` | Documentação do projeto | Workflow, checklist, diretrizes, galeria, backups |
