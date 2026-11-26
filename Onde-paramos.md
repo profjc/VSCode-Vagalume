@@ -33,6 +33,7 @@
 > **Confronto com o repositório (simulação de reinício):** conferidos por comando — `templates/pages/Encerramento/Parte2/` (M5P2P1 com botão; M5P2AT1 com link), `assets/documentos/Encerramento/` (1 `.docx`), `assets/pdf/` (só `M4/` com 13 PDFs), `temp/` (0 itens), `git status` limpo após o commit e `HEAD == origin/master`.
 > **Divergências corrigidas:** (a) **1 das 7 anotações** do pedido anterior não havia sido gravada (o fecho do ajuste do botão) → aplicada; (b) `temp/` ainda continha os 4 HTML intermediários → limpa.
 > **Estado final:** **curso encerrado, sem pendências.**
+> **Git:** commit **`8b6a46c`** — "Encerramento do curso: link do docx na Tarefa, Plano de Acao em docx, botao da Avaliacao e temp limpa" (**10 arquivos**, +50/−32: `Onde-paramos.md` · `pendencias-Encerramento.md` · `pendencias-projeto.md` · `project-map.md` · `PLANO-carga-horaria.md` · `ajustes-finos.md` · `M5P2AT1-...html` · `M5P2P1.html` · **+** `assets/documentos/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.docx` · **−** `assets/pdf/Encerramento/Plano_de_Acao_Curso_Bibliotecas_Comunitarias.pdf`) → `push 34e418d..8b6a46c  master -> master`. **Cadeia da sessão:** **`8b6a46c`** (fecho do curso) → commit de registro deste hash (imediatamente seguinte).
 
 ## 🗓️ 25/11/2026 — **CARGA HORÁRIA DO CURSO · REEXECUÇÃO CONCLUÍDA (R1–R4)**
 
